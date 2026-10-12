@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N12-02",
+  "question_id": "Q069",
+  "answer_sha256": "ac1bf2bea096ecf2499beaceeb200e4d59a3c4d9582b78089e92da6d50e0313d",
+  "original_rubric_sha256": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+  "original_score_content_sha256": "e3cc90a2442c885d2adee9bc8330a04cc7068934ebb843d1ca840400ec3d6799",
+  "original_rubric_content_sha256": "4f1ec7dcd0587901af916ee0b903e28f1c01000d821dfc6d0c692b9768c860db",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "N12-02-L1-04",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "按申请年份核验法律硕士（法学）的接收要求、学术硕士细分方向、学位与培养校区等关键条件。",
+        "grading": "three_level",
+        "half_credit": "核项目条件但缺具体指向。",
+        "id": "N12-02-L1-04",
+        "label": "项目具体专业/招生限制核验",
+        "points": 15
+      },
+      "decision": "答卷区分法本法律硕士与学硕方向，列出 STL 四年制 J.D./J.M. 等具体内容，但未按申请届别核对接收限制、校区及学位细节，并把 STL 教学语言整体说成全英文。按原半档 7.5/15；北大涉外律师/国际仲裁指定专项的当届法本资格仍未证实，不以普通国际法方向替代。",
+      "sources": [
+        {
+          "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark/blob/ba3a60ffec390f00d1e17bc32eb3ad03f6271d4b/experiments/records70/models/antigravity-gemini-3-1-pro-high/N12-02/answer.md",
+          "applicable_cycle": "original frozen answer",
+          "scope": "scored answer text",
+          "finding": "Rubric-specific content and omissions checked against this immutable answer."
+        },
+        {
+          "url": "https://www.stl.pku.edu.cn/",
+          "applicable_cycle": "2026 recommendation / 2027 entry",
+          "scope": "official source; do not infer unresolved programme identity",
+          "finding": "Official PKU STL source for the programme identity; the answer must still establish the target-cycle admission conditions."
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    72.5,
+    72.5
+  ],
+  "candidate_factual_uncertainties_preserved": [
+    "北大指定涉外律师/国际仲裁专项在目标届的法本接收资格与等价关系未证。"
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:19:35+00:00"
+}

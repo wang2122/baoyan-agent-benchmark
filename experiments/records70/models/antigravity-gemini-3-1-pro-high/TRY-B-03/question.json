@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-B",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q006",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-B-03",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年3月，我在南京信息工程大学读电气工程及其自动化，大三下，专业排名前约2%，六级550–599分。我还需要确认自己的推免资格。有电气相关校内科研经历，尚无正式论文成果，专利仍在审查、尚未授权，也获得过专业、英语和数学建模类竞赛奖项。\n\n我想继续电气方向，东南大学是首选，比较重视离家近和电网就业，学硕、专硕均可考虑。浙大电气工程学院和工程师学院都有电气相关项目，这两个对我来说有什么区别？我该怎么选？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "dfd39e18993a39f3ddd9e70877bb6d3be4f9d89f5fcb14e72edf73b0d7f958bc",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

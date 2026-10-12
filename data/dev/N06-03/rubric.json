@@ -1,0 +1,159 @@
+{
+  "candidate_limit": 16,
+  "coverage_points": 70,
+  "coverage_policy": "layered_project_match.1",
+  "forced_pending_reference_ids": [],
+  "id": "N06-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+      "grading": "three_level",
+      "half_credit": "有适配分析但条件或组合取舍不完整",
+      "id": "reasons",
+      "label": "推荐理由、条件与组合",
+      "points": 15
+    },
+    {
+      "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+      "grading": "three_level",
+      "half_credit": "主要正确但个别层次判断无依据",
+      "id": "tier",
+      "label": "院校层次适配",
+      "points": 5
+    },
+    {
+      "full_credit": "给出清晰申请批次、导师联系或条件核验动作",
+      "grading": "three_level",
+      "half_credit": "只有排序或只有动作",
+      "id": "execution",
+      "label": "申请优先与执行",
+      "points": 5
+    },
+    {
+      "full_credit": "推免资格和科研成果均按已知状态处理；不过度承诺录取",
+      "grading": "three_level",
+      "half_credit": "出现局部尚可修正的事实状态问题",
+      "id": "facts",
+      "label": "事实与成果状态",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-01",
+      "project": "中文系｜中国语言文学/语言学及应用语言学",
+      "school": "复旦大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-02",
+      "project": "国际文化交流学院｜汉语国际教育",
+      "school": "复旦大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-03",
+      "project": "人文学院｜中国语言文学/汉语国际教育",
+      "school": "上海交通大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-04",
+      "project": "文学院｜中国语言文学",
+      "school": "南京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-05",
+      "project": "海外教育学院｜国际中文教育",
+      "school": "南京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-06",
+      "project": "文学院和文理学院｜语言学/汉语言文字学",
+      "school": "北京师范大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-07",
+      "project": "国际中文教育学院｜汉语国际教育",
+      "school": "北京师范大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-08",
+      "project": "文学院｜语言学及应用语言学",
+      "school": "南开大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-09",
+      "project": "汉语言文化学院｜汉语国际教育",
+      "school": "南开大学"
+    },
+    {
+      "guidance": "广州、珠海两个中文系为本参考项的备选招生单位，不表示两个系属于同一院系；命中任一单位的中国语言文学学术学位项目可形成完整匹配。本项仅计一次，两个单位不拆成两个参考项。国际中文教育等其他专业不自动视为完整匹配，须核实实际招生单位、专业关系与可行路径后按原100%/60%/30%规则判分。学校、院系和专业的有效性仍按题目申请周期核验。",
+      "id": "N06-10",
+      "project": "中国语言文学系（广州）/中国语言文学系（珠海）｜中国语言文学（学术学位）",
+      "school": "中山大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-11",
+      "project": "文学院｜中国语言文学",
+      "school": "山东大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-12",
+      "project": "文学院｜中国语言文学",
+      "school": "武汉大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-13",
+      "project": "信息管理学院｜数字人文/信息管理交叉",
+      "school": "武汉大学"
+    },
+    {
+      "guidance": "本项明确指中国语言文学系050102语言学及应用语言学学术硕士；文学院为原参考不准确称谓。其他中文系专业须核验实质相近关系后适用同院系60%规则；国际中文教育学院/海外教育学院为不同单位，不能直接完整或同院系匹配。保留原分母、权重、一对一分配及候选有效性规则。",
+      "id": "N06-14",
+      "project": "中国语言文学系｜语言学及应用语言学（050102，学术学位）",
+      "school": "厦门大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-15",
+      "project": "文学与新闻学院｜中国语言文学",
+      "school": "四川大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N06-16",
+      "project": "中文系｜中国语言文学",
+      "school": "华东师范大学"
+    }
+  ],
+  "reference_denominator": 16,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2+privacy-v16-public70+reference-fixes",
+  "task_kind": "recommendation",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

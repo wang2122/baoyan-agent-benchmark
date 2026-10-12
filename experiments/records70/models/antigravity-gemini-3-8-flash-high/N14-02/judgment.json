@@ -1,0 +1,861 @@
+{
+  "answer_sha256": "d8bb88552508fb05a4080812c85d69c9183b63fb9bab44fabfa65abd76d08a30",
+  "candidates_reviewed": true,
+  "coverage": [],
+  "errors": [
+    {
+      "answer_quote": "无论你所在本科是 985、本科 还是头部财经类高校，这一位次都足以保障你在本校稳获推免资格（通常商科专业推免比例在 15%~25% 不等）。",
+      "id": "E01",
+      "reason": "题面没有本科院校、推荐名额、校内综合排名或资格规则，仅凭学业排名前约5%不能保证本校推免资格；固定推免比例也未有本校依据。这是把成绩优势夸大为资格保证，最直接影响已有竞争力判断（L1-03），不再作为执行项重复失分。"
+    },
+    {
+      "answer_quote": "550–599 分的成绩在全国推免生中处于中上游区间，完全不会成为你的材料扣分项或申请瓶颈",
+      "id": "E02",
+      "reason": "六级550–599可作为英语基础优势，但不能推出所有目标项目纸面通关。官方2026年6月18日公布的清华经管2027年推免通知，对答卷推荐的清华-哥大BA要求额外语言成绩，TOEFL至少100或IELTS至少7.5，另有替代方案；CET6并不单独替代。这不证明学生绝对不能申请（可补考且未披露其他成绩），但反驳了英语不会成为瓶颈的确定性判断。依据见evidence.json EV01；最直接归L1-03，不重复扣L1-06。"
+    },
+    {
+      "answer_quote": "若本科方案未开设编程课，建议在简历上明确列出：“熟练掌握 Stata 数据分析与因果推断建模；掌握 Python 基础（数据清洗 Pandas、爬虫及文本分析）；掌握 SQL 数据库基础查询”。",
+      "id": "E03",
+      "reason": "未开设编程课不意味着已掌握这些技能；题面也未披露任何软件能力。此处未要求先学习、完成实例并确认熟练程度，就直接建议把能力写进简历。缺少按实际能力补齐和如实呈现的步骤，最直接影响现实动作（L1-06）；不把未来准备建议另判为已存在论文或实习。"
+    },
+    {
+      "answer_quote": "你当前所处的阶段正是**夏令营材料准备与学术/背景突击的最关键窗口期**",
+      "id": "E04",
+      "reason": "题面仅给2026年推免申请季，未给月份或当前进度。答卷擅自认定学生处于夏令营准备窗口，并将5~6月投递作为当前行动，没有给随实际阶段调整的条件。本判断不使用运行日期推断已经截止，也不因此取消某个项目；最直接影响L1-06的动作适用性。"
+    },
+    {
+      "answer_quote": "同时申报 1 所实力强劲、往年录取自己本科院校生源较多的中坚 985 高校（如中山大学、武汉大学、南开大学等）作为绝对安全垫。",
+      "id": "E05",
+      "reason": "依据本科校未知、没有该生源录取记录和具体申请条件，不能把这些院校认定为绝对安全垫。选取有本校生源历史的项目本身是合理思路，但需先核对背景和历史录取并留出风险，不是已知可靠保底。最直接归L1-06；没有据此将真实学校或宽泛商科路径判成不存在。"
+    },
+    {
+      "answer_quote": "北京大学汇丰商学院、上海高金 SAIF、人大商学院/财金学院等设立的金融科技项目",
+      "id": "E06",
+      "reason": "将北大汇丰金融科技列为会计本科跨向交叉的候选示例，未提示本科专业硬限制。北大汇丰2026年5月29日论坛通知（2026年申请、2027届）明确数量金融与金融科技只接收本科为经济学或数学、统计、计算机等数理基础较强的理工科学生；已知会计本科不属所列范围，补编程不能替代专业身份。仅北大汇丰这一候选按学生适配判invalid，未连带否定高金或人大；见evidence.json EV02，最直接归L1-06。"
+    },
+    {
+      "answer_quote": "推免面试的核心环节永远是**学术论文陈述与质疑答辩**",
+      "id": "E07",
+      "reason": "答卷将学硕、直博和全部顶级专硕考核一概设定为论文答辩，过度统一实际行动。清华经管2027年BA推免考核明确综合笔试和考查专业素质、逻辑思维、创新能力及外语等的面试，并未规定所有人必须以论文答辩为核心；报名通知对高质量论文使用有则提交的条件。学生尚无已披露论文，应按目标项目考核准备，不能普遍把产出论文设成必做敲门砖。依据EV01、EV03，最直接归L1-06。"
+    }
+  ],
+  "input_sha256": "446db9acff35764cc63350f572116f0d65895033b1d3a0fc37fe9eaaf2c3e1d4",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。覆盖项matched_answer_item_id指向recommendation_review中的唯一记录；同一独立候选不能覆盖多个参考目标。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；allowed_exclusion另填rule_id，当前仅E-12可用E-AI-CS-ALT。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "| **主要项目类型** | 学硕（3年） / 专硕 MPAcc（2-2.5年） | 专硕 MF（就业导向强） / 学硕（学术） | 学硕为主（战略/OB/技经） / 专硕（MIB/管科） | 专硕与专业型硕士为主（BA, FinTech, MDE） |\n| **课程数理与编程硬度** | 中等偏低（侧重会计准则、财报分析、Stata实证） | 中等偏高（MF偏重财务建模；量化/学硕涉及高阶数理推导） | 偏低（管科除外；企管重文献研讨、案例与定性分析） | **极高**（Python, SQL, 机器学习, 统计建模贯穿始终） |\n| **科研训练与产出效率** | 范式极成熟，实证微观计量，发文与转博确定性高 | 公司金融通俗好上手；资产定价与宏观模型门槛极高 | 微观重心理实验与量表，宏观重二手数据与因果推断 | 前沿交叉好发高水平期刊，需处理海量另类与非结构化数据 |",
+      "error_ids": [],
+      "grade": 1,
+      "id": "N14-02-L1-01",
+      "reason": "全文分别比较会计学硕的经济学与实证训练、MPAcc实务案例，金融公司金融与资产定价/量化，管理的行为实验、战略二手数据和管科优化，以及交叉的数据、统计和代码训练；培养目标、课程和研究方法差别清楚，足以供初步取舍。会计专硕还包含税收筹划课程。部分产出效率和就业宣传措辞过强，但没有抹去本项要求的核心区分，不按每句细节另降档。"
+    },
+    {
+      "answer_quote": "- 会计本科转金融时，在**公司金融（估值、投融资决策）**上有降维打击的财务基础；\n  - 但在**资产定价、宏观金融理论与高阶数理推导**上存在明显断层。若攻读学术型金融或量化金融，需承受较大的数理补课压力。",
+      "error_ids": [],
+      "grade": 1,
+      "id": "N14-02-L1-02",
+      "reason": "把会计财务知识迁移到公司金融估值，与资产定价、宏观理论和量化数理缺口区分；交叉部分另列经济学、概率统计、因果推断、Python/SQL，管理部分区分企管与管科的数学负荷。以若攻读、如果打算申请作条件，并要求核对成绩单的微积分、线代、概率统计和计量课程。满足方向关联的具体先修差距核心，不因未给每校统一门槛降档。北大汇丰本科身份限制是特定候选选择错误，归L1-06，不在这里重复处罚。"
+    },
+    {
+      "answer_quote": "无论后续是深耕会计本专业，还是跨入金融估值、战略管理或数据交叉分析，财务报表分析能力都是你最坚固的“护城河”。",
+      "error_ids": [
+        "E01",
+        "E02"
+      ],
+      "grade": 0.5,
+      "id": "N14-02-L1-03",
+      "reason": "正确使用前约5%、CET6 550–599与会计本科，并给出财报分析向估值、公司金融和战略/数据研究的迁移价值；也承认论文、竞赛、实习尚未呈现。因此有具体正确的能力分析。但满分的只依据已知背景作竞争力判断这一核心未成立：无本校资格规则却保证稳获资格，并把英语基础夸大为申请瓶颈已排除；也没有核实学生实际课程与技能掌握程度。判半分而非因这些错误否定所有已知优势。"
+    },
+    {
+      "answer_quote": "* **第四问：你的最终诉求是学术读博还是实务就业？**\n  - *坚定读博走教职*：优先考虑**会计学学硕**（本专业积累最厚，导师指导更直接，国内顶级商学院会计教职待遇好、发表路径清晰）或**前沿交叉学科**。\n  - *坚定硕士毕业就业*：优先选择**清北复交/头部院校的专硕（金融 MF、商业分析 BA、会计 MPAcc）**。",
+      "error_ids": [],
+      "grade": 1,
+      "id": "N14-02-L1-04",
+      "reason": "明确把坚定读博与硕士毕业就业分开，前者优先会计学硕或科研交叉，后者优先相关专硕；各方向正文同时解释学术和实务培养、就业出口、金融周期风险，并按数学兴趣、风险承受、沟通倾向给条件选择。未知偏好没有被当作既定事实。对教职和职业下限的乐观措辞不作为保证，但本项的偏好如何改变学位/方向的核心成立。"
+    },
+    {
+      "answer_quote": "梳理本科成绩单，确认是否修读过微积分、高等代数/线性代数、概率论与数理统计、计量经济学。",
+      "error_ids": [],
+      "grade": 1,
+      "id": "N14-02-L1-05",
+      "reason": "明确要求用本科成绩单核对具体先修课程；正文指出未知数理、编程、科研与实践背景，最后要求按具体导师资源与培养方案取舍。这些已指出需要补充和核验的关键缺口，超过笼统看官网，满足本项核心。没有逐校核验清单或详细导师联系计划不单独降档。技能写入简历的错误归现实动作L1-06，不重复扣本项。"
+    },
+    {
+      "answer_quote": "**以会计学为稳健压舱石，以交叉项目/金融专硕为攻坚冲刺矛**，同步投递、梯队布局。",
+      "error_ids": [
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ],
+      "grade": 0.5,
+      "id": "N14-02-L1-06",
+      "reason": "有会计为主、交叉/金融为探索路线的主次，也按数理兴趣、就业/读博和风险偏好给改变条件，提出成绩单核对、分析案例、英语与自述准备，故不是零分。但现实可执行且适配申请条件这一核心不足：擅定当前准备窗口；软件能力未经确认即建议写入简历；统设论文答辩必备；无本科校依据认定绝对安全垫；金融科技候选中遗漏北大汇丰本科专业硬限制。上述问题归本项同一档位，不额外扣负分。英语和本校推免资格保证已仅归L1-03，不在此重复处罚；不因没有完整时间表或具体学校必选清单降档。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "- **商业分析（Business Analytics, BA）**：清华经管、北大光华、复旦管院等设立的标杆项目。融合“数据科学 + 商业决策”，解决企业精细化运营、定价策略、客户流失预测等现实痛点。",
+      "canonical_candidate_key": "tsinghua-sem-ba",
+      "error_ids": [],
+      "label": "清华经管BA（商务分析双硕士）",
+      "reason": "作为BA具体项目例子提名，官方资料支持该项目身份，见evidence.json EV01；仅判提名内容存在，不视为已逐年审计或已符合申请条件。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "- **商业分析（Business Analytics, BA）**：清华经管、北大光华、复旦管院等设立的标杆项目。融合“数据科学 + 商业决策”，解决企业精细化运营、定价策略、客户流失预测等现实痛点。",
+      "canonical_candidate_key": "pku-guanghua-ba",
+      "error_ids": [],
+      "label": "北大光华BA（金融硕士商业分析方向）",
+      "reason": "作为BA具体项目例子提名，官方资料支持该项目身份，见evidence.json EV04；仅判提名内容存在，不视为已逐年审计或已符合申请条件。",
+      "school_key": "pku",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "- **商业分析（Business Analytics, BA）**：清华经管、北大光华、复旦管院等设立的标杆项目。融合“数据科学 + 商业决策”，解决企业精细化运营、定价策略、客户流失预测等现实痛点。",
+      "canonical_candidate_key": "fudan-management-dsba",
+      "error_ids": [],
+      "label": "复旦管院BA（数据科学与商业分析）",
+      "reason": "作为BA具体项目例子提名，官方资料支持该项目身份，见evidence.json EV05；仅判提名内容存在，不视为已逐年审计或已符合申请条件。",
+      "school_key": "fudan",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "- **金融科技（FinTech）**：北京大学汇丰商学院、上海高金 SAIF、人大商学院/财金学院等设立的金融科技项目，专注于量化交易、区块链应用、智能风控与大数据征信。",
+      "canonical_candidate_key": "pku-phbs-fintech",
+      "error_ids": [
+        "E06"
+      ],
+      "label": "北大汇丰数量金融与金融科技方向",
+      "reason": "此处是跨向交叉的具名候选示例。2026年论坛通知面向2027届，明确只接收经济学或数理基础较强的相关理工科本科；已知会计本科与硬限制冲突，不能靠补代码恢复。仅此候选无效，错误E06只归L1-06，见EV02。",
+      "school_key": "pku",
+      "treatment": "mentioned",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "- **金融科技（FinTech）**：北京大学汇丰商学院、上海高金 SAIF、人大商学院/财金学院等设立的金融科技项目，专注于量化交易、区块链应用、智能风控与大数据征信。",
+      "canonical_candidate_key": "sjtu-saif-fintech",
+      "error_ids": [],
+      "label": "上海高金SAIF金融科技方向",
+      "reason": "官方招生政策支持MF-FinTech方向确实存在，见EV06（2026级资料，只用于身份支持）。此处只是候选提名，不据其已存在推定2026年申请时各项门槛都已满足。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "- **金融科技（FinTech）**：北京大学汇丰商学院、上海高金 SAIF、人大商学院/财金学院等设立的金融科技项目，专注于量化交易、区块链应用、智能风控与大数据征信。",
+      "canonical_candidate_key": "ruc-business-finance-fintech-merged",
+      "error_ids": [],
+      "label": "人大商学院/财金学院金融科技（合并提名）",
+      "reason": "保留原文跨院系合并对象，不拆出两个候选。官方财金学院存在MS_FinTech项目，故不能判项目虚构；该官网注明留学生项目，不能据此替会计本科生创建国内推免申请路径。这里只是项目类型举例而非明确的国内推免投递，valid仅支持至少存在所指教育方向；商学院独立路径与本届国内适用性未被确认。见EV07。",
+      "school_key": "ruc",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "  - *如果听到多元微积分、线性代数特征值、写 Python 代码就感到焦虑*：**坚决避开**交叉项目（BA/FinTech）以及金融工程/资产定价学硕；果断选择**会计学（学硕/专硕）**或**企业管理（战略/微观行为）**。",
+      "canonical_candidate_key": "direction-ba-fintech-merged",
+      "error_ids": [],
+      "label": "BA/FinTech交叉方向（合并条件排除）",
+      "reason": "因学生若明显排斥数学代码而排除相关交叉方向；这是条件排除，没有已知偏好，不把它视为对学生现状的断言。原文合并方向不拆为两校项目。",
+      "school_key": "unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "  - *如果听到多元微积分、线性代数特征值、写 Python 代码就感到焦虑*：**坚决避开**交叉项目（BA/FinTech）以及金融工程/资产定价学硕；果断选择**会计学（学硕/专硕）**或**企业管理（战略/微观行为）**。",
+      "canonical_candidate_key": "direction-mfe-assetpricing-merged",
+      "error_ids": [],
+      "label": "金融工程/资产定价学硕（合并条件排除）",
+      "reason": "明确因数学和代码焦虑条件而排除；只记录原文合并排除对象，不代造具体项目，也不取得任何参考匹配。",
+      "school_key": "unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "  - *如果听到多元微积分、线性代数特征值、写 Python 代码就感到焦虑*：**坚决避开**交叉项目（BA/FinTech）以及金融工程/资产定价学硕；果断选择**会计学（学硕/专硕）**或**企业管理（战略/微观行为）**。",
+      "canonical_candidate_key": "direction-accounting-degree-unspecified",
+      "error_ids": [],
+      "feasibility": "会计本科具有相邻基础；仍须由成绩单及具体学硕计量课要求判断可承受性，答卷不能把会计学硕等同于没有数理训练。",
+      "key_condition": "如果对多元微积分、线性代数和Python明显焦虑，倾向会计方向。",
+      "label": "会计学学硕/专硕（合并方向）",
+      "reason": "不排斥会计本专业的前提下，以对高强度数理代码的明显排斥为路线选择条件；原文并列学位未细选，保持合并。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "  - *如果听到多元微积分、线性代数特征值、写 Python 代码就感到焦虑*：**坚决避开**交叉项目（BA/FinTech）以及金融工程/资产定价学硕；果断选择**会计学（学硕/专硕）**或**企业管理（战略/微观行为）**。",
+      "canonical_candidate_key": "direction-enterprise-management",
+      "error_ids": [],
+      "feasibility": "答卷管理部分给出文献、实验、统计等学习特点；可依据兴趣和培养方案进一步筛选，不保证所有管理项目都低数理。",
+      "key_condition": "明显排斥高阶数学/代码，且接受商业逻辑、文献或行为研究训练。",
+      "label": "企业管理（战略/微观行为）",
+      "reason": "提出企管而非管科作为较少抽象数理压力的方向，条件选择可成立；战略、微观行为是本段内部研究方向，不拆具体院校路径。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "  - *如果对写代码解决实际问题不排斥，甚至有很强的探索欲*：**强烈建议布局交叉项目（BA）**。会计底子 + 数据科学能力的复合壁垒是目前就业市场上的“稀缺硬通货”。",
+      "canonical_candidate_key": "direction-ba",
+      "error_ids": [],
+      "feasibility": "答卷后文要求核对微积分、线代、概率统计和计量课程，并提出数据案例；可据基础补齐后选择具体项目，但不能仅凭不排斥代码保证录取。",
+      "key_condition": "不排斥代码解决商业问题，甚至有较强探索欲。",
+      "label": "商业分析BA方向",
+      "reason": "以探索代码解决问题的兴趣为条件提出BA，有具体方向前提。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "  - *追求确定性、反内卷、看重生活平衡（WLB），期望极高保底*：选择**会计学**或**企业管理**。进可冲券商固收/投行后台，退可无缝对接国企总账/资金/选调生。",
+      "canonical_candidate_key": "direction-accounting-degree-unspecified",
+      "error_ids": [],
+      "feasibility": "会计本科与会计、企业分析有相邻基础；答卷还提供就业与读博分叉，需进一步用具体培养和岗位条件选择。",
+      "key_condition": "偏好生活平衡、较低职业风险和稳健的专业路径。",
+      "label": "会计学方向（未选学位）",
+      "reason": "按稳健和职业风险偏好建议的方向，非已知学生偏好；不把高保底或无缝就业宣传作为事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "  - *追求确定性、反内卷、看重生活平衡（WLB），期望极高保底*：选择**会计学**或**企业管理**。进可冲券商固收/投行后台，退可无缝对接国企总账/资金/选调生。",
+      "canonical_candidate_key": "direction-enterprise-management",
+      "error_ids": [],
+      "feasibility": "会计本科与会计、企业分析有相邻基础；答卷还提供就业与读博分叉，需进一步用具体培养和岗位条件选择。",
+      "key_condition": "偏好生活平衡、较低职业风险和稳健的专业路径。",
+      "label": "企业管理方向",
+      "reason": "按稳健和职业风险偏好建议的方向，非已知学生偏好；不把高保底或无缝就业宣传作为事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "  - *富有冒险精神、能承受高强度加班，追求年薪百万的上限爆发力*：直奔**顶级金融专硕（MF）**。凭借排名 前约5% 与六级 550–599，完全有资格在清北复交高金人财的金融夏令营中搏杀。",
+      "canonical_candidate_key": "direction-mf",
+      "error_ids": [],
+      "feasibility": "会计知识可迁移到估值/公司金融，答卷要求核对金融与数理先修；平台可作冲刺，不保证实际入营。",
+      "key_condition": "愿承担资本市场周期和工作强度风险，重视金融实务就业。",
+      "label": "顶级金融专硕MF方向",
+      "reason": "以职业风险承受、抗压和薪酬弹性偏好作为选择前提；排名与英语不能保证通过所有项目初审（E02归L1-03）。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "  - *富有冒险精神、能承受高强度加班，追求年薪百万的上限爆发力*：直奔**顶级金融专硕（MF）**。凭借排名 前约5% 与六级 550–599，完全有资格在清北复交高金人财的金融夏令营中搏杀。",
+      "canonical_candidate_key": "group-top-finance-camps",
+      "error_ids": [],
+      "feasibility": "会计向公司金融可迁移；但本科校、推免资格和其他硬条件未披露，无法从两项成绩推定每个群内平台都可投，需按具体项目筛选。",
+      "key_condition": "有较高风险承受与金融实务就业意愿，作为冲刺平台。",
+      "label": "清北复交高金人财金融夏令营（集合表达）",
+      "reason": "原文集合式列举具体平台群，不把清北复交高金人财机械扩展为已明确的多校独立项目；与后文明确院系路径保留区别。",
+      "school_key": "group-top-finance",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "  - *内敛、细致、严谨、坐得住冷板凳*：适合**会计学深耕**（审计/财会/实证研究）或**交叉数据分析**（靠代码与数据模型说话）。",
+      "canonical_candidate_key": "direction-accounting-degree-unspecified",
+      "error_ids": [],
+      "feasibility": "会计基础提供财务数据场景；交叉仍需实际统计代码能力，答卷有成绩单核对与案例准备动作。",
+      "key_condition": "偏好细致、严谨、长期数据分析或研究工作。",
+      "label": "会计学深耕方向",
+      "reason": "条件推荐分析型研究/专业路径，不推断学生实际性格。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "  - *内敛、细致、严谨、坐得住冷板凳*：适合**会计学深耕**（审计/财会/实证研究）或**交叉数据分析**（靠代码与数据模型说话）。",
+      "canonical_candidate_key": "direction-interdisciplinary-data",
+      "error_ids": [],
+      "feasibility": "会计基础提供财务数据场景；交叉仍需实际统计代码能力，答卷有成绩单核对与案例准备动作。",
+      "key_condition": "偏好细致、严谨、长期数据分析或研究工作。",
+      "label": "交叉数据分析方向",
+      "reason": "条件推荐分析型研究/专业路径，不推断学生实际性格。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "  - *善于人际说服、沟通表达能力强、喜欢宏观商业推演*：适合**企业管理（战略/咨询）**或**金融前台（承揽承做/销售交易）**。",
+      "canonical_candidate_key": "direction-enterprise-management",
+      "error_ids": [],
+      "feasibility": "管理部分说明文献、案例、表达和研究方法；据培养方案核验是否合适。",
+      "key_condition": "喜欢沟通、说服与宏观商业推演。",
+      "label": "企业管理（战略/咨询）",
+      "reason": "按沟通与商业推演偏好提出企管内部方向，与前文企管同一通用方向键，不把咨询就业当学位。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "  - *善于人际说服、沟通表达能力强、喜欢宏观商业推演*：适合**企业管理（战略/咨询）**或**金融前台（承揽承做/销售交易）**。",
+      "canonical_candidate_key": "direction-mf",
+      "error_ids": [],
+      "feasibility": "会计基础可进入估值，公司金融课程仍须补齐；前台岗位取决于实践和就业条件，不保证因性格即获得职位。",
+      "key_condition": "善于沟通，接受前台工作与客户互动。",
+      "label": "金融前台导向金融路径",
+      "reason": "这是金融方向的职业适配推荐，与MF就业路线合并，不额外制造承揽、销售交易等学位项目。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "  - *坚定读博走教职*：优先考虑**会计学学硕**（本专业积累最厚，导师指导更直接，国内顶级商学院会计教职待遇好、发表路径清晰）或**前沿交叉学科**。",
+      "canonical_candidate_key": "direction-accounting-academic",
+      "error_ids": [],
+      "feasibility": "本科会计可支持财务指标与研究问题理解；需核对高级微观、计量和导师训练，答卷已有这些内容。",
+      "key_condition": "明确希望继续读博并从事学术工作。",
+      "label": "会计学学硕",
+      "reason": "独立明确学位路径：读博偏好时优先学硕，专业积累可迁移；不采信教职和发表必然顺利的宣传。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "  - *坚定读博走教职*：优先考虑**会计学学硕**（本专业积累最厚，导师指导更直接，国内顶级商学院会计教职待遇好、发表路径清晰）或**前沿交叉学科**。",
+      "canonical_candidate_key": "direction-interdisciplinary-research",
+      "error_ids": [],
+      "feasibility": "正文解释交叉数据和因果/机器学习方法，后文列先修核对；仍须具体导师与培养路径决定，不把应用型BA自动等同直博通道。",
+      "key_condition": "坚定读博且愿意进行数理、统计和代码训练。",
+      "label": "前沿交叉学术方向",
+      "reason": "按坚定读博偏好提名科研交叉方向，未识别具体学校和学位项目，按方向级审阅。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "  - *坚定硕士毕业就业*：优先选择**清北复交/头部院校的专硕（金融 MF、商业分析 BA、会计 MPAcc）**。",
+      "canonical_candidate_key": "group-head-business-professional",
+      "error_ids": [],
+      "feasibility": "答卷对金融、BA、MPAcc给出实务课程与就业出口；可筛具体培养方案，但未证明每一名校都设每个对应项目或全可申请。",
+      "key_condition": "明确硕士毕业直接就业。",
+      "label": "清北复交/头部院校专硕（MF、BA、MPAcc集合）",
+      "reason": "原文为院校和学位集合表达，没有分别指定各校招生主体，整体记录不代造三类项目各校组合。",
+      "school_key": "group-head-business",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-ba",
+      "error_ids": [],
+      "label": "商业分析BA方向",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-assetpricing-academic",
+      "error_ids": [],
+      "label": "资产定价学术方向",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-accounting-academic",
+      "error_ids": [],
+      "label": "会计学硕",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-enterprise-management",
+      "error_ids": [],
+      "label": "企业管理战略方向",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-mf",
+      "error_ids": [],
+      "label": "金融MF方向",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-mpacc",
+      "error_ids": [],
+      "label": "会计MPAcc",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "【交叉/BA】 【资产定价】   【会计学硕】 【企管战略】     【金融MF/投行】 【咨询/大厂】   【会计MPAcc】 【智能财务】",
+      "canonical_candidate_key": "direction-smart-finance",
+      "error_ids": [],
+      "label": "智能财务方向",
+      "reason": "作为决策图终点出现的路线提名，完整记录；图未逐项给出明确招生单位，也不将就业岗位或图形布局推断成具体院校学位。详细适配以正文条件段为准。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "  - 瞄准国内顶尖商学院的交叉或金融项目（如清华经管 BA、北大光华、复旦管院 UPEC、上海交通大学上海高级金融学院 SAIF、上海交通大学安泰经管学院）。",
+      "canonical_candidate_key": "tsinghua-sem-ba",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "清华经管BA",
+      "reason": "明确推荐清华经管BA。官方支持其为清华-哥大商务分析双硕士（EV01），非独立泛商科专业；额外语言要求未处理的问题归E02/L1-03。没有已知证据证明学生不能补齐，故不判项目invalid。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "  - 瞄准国内顶尖商学院的交叉或金融项目（如清华经管 BA、北大光华、复旦管院 UPEC、上海交通大学上海高级金融学院 SAIF、上海交通大学安泰经管学院）。",
+      "canonical_candidate_key": "pku-guanghua-unspecified",
+      "error_ids": [],
+      "label": "北大光华交叉/金融（未定具体项目）",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。不能把本段未定路径自动替成第二部分的BA，BA提名另有独立记录。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "  - 瞄准国内顶尖商学院的交叉或金融项目（如清华经管 BA、北大光华、复旦管院 UPEC、上海交通大学上海高级金融学院 SAIF、上海交通大学安泰经管学院）。",
+      "canonical_candidate_key": "fudan-upec-unspecified",
+      "error_ids": [],
+      "label": "复旦管院UPEC所辖交叉/金融（未定项目）",
+      "reason": "UPEC官方确认为本硕博教育中心，所辖MF和DS&BA等项目确实存在（EV05）。此处宽泛指向招生教育中心，不拆出其下全部项目，也不因为不是单一专业名就判虚构。具体申请对象未确定，相关BA提名另记。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "│• 上海高金 SAIF MF│              │• 人大商院/财金专硕│              │• 强势985传统优势  │",
+      "canonical_candidate_key": "sjtu-saif-mf",
+      "error_ids": [],
+      "label": "上海交大高金SAIF金融硕士MF",
+      "reason": "图中明确MF，正文再用学院简称列为冲刺候选，按同一MF通用路径合并；FinTech提名是另一明确方向，另记。身份由EV06支持，未完成当届逐项条件审计不等于无效。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "  - 瞄准国内顶尖商学院的交叉或金融项目（如清华经管 BA、北大光华、复旦管院 UPEC、上海交通大学上海高级金融学院 SAIF、上海交通大学安泰经管学院）。",
+      "canonical_candidate_key": "sjtu-saif-mf",
+      "error_ids": [],
+      "label": "上海交大高金SAIF金融硕士MF",
+      "reason": "图中明确MF，正文再用学院简称列为冲刺候选，按同一MF通用路径合并；FinTech提名是另一明确方向，另记。身份由EV06支持，未完成当届逐项条件审计不等于无效。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "  - 瞄准国内顶尖商学院的交叉或金融项目（如清华经管 BA、北大光华、复旦管院 UPEC、上海交通大学上海高级金融学院 SAIF、上海交通大学安泰经管学院）。",
+      "canonical_candidate_key": "sjtu-antai-unspecified",
+      "error_ids": [],
+      "label": "上海交大安泰经管交叉/金融（未定项目）",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "ruc-business-accounting-finance",
+      "error_ids": [],
+      "label": "人大商学院会计/财务（合并方向）",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "sufe-accounting-finance-merged",
+      "error_ids": [],
+      "label": "上海财经大学会计/金融（合并路径）",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "sufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "cufe-business-unspecified",
+      "error_ids": [],
+      "label": "中央财经大学商科路径",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "cufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "uibe-business-unspecified",
+      "error_ids": [],
+      "label": "对外经济贸易大学商科路径",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "xmu-management-accounting-merged",
+      "error_ids": [],
+      "label": "厦大管理学院会计学硕/专硕（合并路径）",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "nju-business-unspecified",
+      "error_ids": [],
+      "label": "南京大学商科路径",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "  - 瞄准顶尖财经名校与头部 985 的传统优势王牌专业（如中国人民大学商学院会计/财务、上海财经大学会计/金融、中央财经大学、对外经济贸易大学、厦门大学管理学院会计学硕/专硕、南京大学、浙江大学等）。",
+      "canonical_candidate_key": "zju-business-unspecified",
+      "error_ids": [],
+      "label": "浙江大学商科路径",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。未在本校分别明确的院系或学位备选保持合并。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "  - 确保锁定本校推免资格与本院预录取；同时申报 1 所实力强劲、往年录取自己本科院校生源较多的中坚 985 高校（如中山大学、武汉大学、南开大学等）作为绝对安全垫。",
+      "canonical_candidate_key": "sysu-business-unspecified",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "中山大学商科保底候选",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。所谓绝对保底是E05所记录的无依据判断，项目未具体化不自动判学校虚构或资格冲突。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "  - 确保锁定本校推免资格与本院预录取；同时申报 1 所实力强劲、往年录取自己本科院校生源较多的中坚 985 高校（如中山大学、武汉大学、南开大学等）作为绝对安全垫。",
+      "canonical_candidate_key": "whu-business-unspecified",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "武汉大学商科保底候选",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。所谓绝对保底是E05所记录的无依据判断，项目未具体化不自动判学校虚构或资格冲突。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "  - 确保锁定本校推免资格与本院预录取；同时申报 1 所实力强劲、往年录取自己本科院校生源较多的中坚 985 高校（如中山大学、武汉大学、南开大学等）作为绝对安全垫。",
+      "canonical_candidate_key": "nankai-business-unspecified",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "南开大学商科保底候选",
+      "reason": "这是第五部分投递梯队中的实际候选。只按答卷明确的学校/院系和方向粒度记录，未补造未写的专业；valid表示宽泛候选身份成立，不表示已经逐项完成当届资格、窗口或录取概率核验。本题无参考覆盖，粒度缺失不据此判不存在。所谓绝对保底是E05所记录的无依据判断，项目未具体化不自动判学校虚构或资格冲突。",
+      "school_key": "nankai",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "│• 清北复交商院 BA │              │• 两财一贸 会计/金融│              │• 本校本专业推免  │",
+      "canonical_candidate_key": "group-top-ba",
+      "error_ids": [],
+      "label": "清北复交商院BA集合",
+      "reason": "申报矩阵中的实际集合推荐，按原文合并保留，不创建群内未明确的独立项目。后文若有具体单位则另按其原文粒度审阅；集合不用于参考匹配或重复取得分数。",
+      "school_key": "group-top-ba",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "│• 北大光华/清华经管│              │• 南大/浙大/厦大商院│              │  会计学硕项目    │",
+      "canonical_candidate_key": "group-pku-tsinghua-business",
+      "error_ids": [],
+      "label": "北大光华/清华经管合并集合",
+      "reason": "申报矩阵中的实际集合推荐，按原文合并保留，不创建群内未明确的独立项目。后文若有具体单位则另按其原文粒度审阅；集合不用于参考匹配或重复取得分数。",
+      "school_key": "group-pku-tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "│• 清北复交商院 BA │              │• 两财一贸 会计/金融│              │• 本校本专业推免  │",
+      "canonical_candidate_key": "group-two-finance-one-trade",
+      "error_ids": [],
+      "label": "两财一贸会计/金融集合",
+      "reason": "申报矩阵中的实际集合推荐，按原文合并保留，不创建群内未明确的独立项目。后文若有具体单位则另按其原文粒度审阅；集合不用于参考匹配或重复取得分数。",
+      "school_key": "group-two-finance-one-trade",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A049",
+      "answer_quote": "│• 上海高金 SAIF MF│              │• 人大商院/财金专硕│              │• 强势985传统优势  │",
+      "canonical_candidate_key": "group-ruc-professional",
+      "error_ids": [],
+      "label": "人大商院/财金专硕集合",
+      "reason": "申报矩阵中的实际集合推荐，按原文合并保留，不创建群内未明确的独立项目。后文若有具体单位则另按其原文粒度审阅；集合不用于参考匹配或重复取得分数。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A050",
+      "answer_quote": "│• 北大光华/清华经管│              │• 南大/浙大/厦大商院│              │  会计学硕项目    │",
+      "canonical_candidate_key": "group-nju-zju-xmu-business",
+      "error_ids": [],
+      "label": "南大/浙大/厦大商院集合",
+      "reason": "申报矩阵中的实际集合推荐，按原文合并保留，不创建群内未明确的独立项目。后文若有具体单位则另按其原文粒度审阅；集合不用于参考匹配或重复取得分数。",
+      "school_key": "group-nju-zju-xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A051",
+      "answer_quote": "│• 上海高金 SAIF MF│              │• 人大商院/财金专硕│              │• 强势985传统优势  │\n│• 北大光华/清华经管│              │• 南大/浙大/厦大商院│              │  会计学硕项目    │",
+      "canonical_candidate_key": "group-strong985-accounting-academic",
+      "error_ids": [],
+      "label": "强势985传统优势会计学硕（匿名集合）",
+      "reason": "矩阵提出匿名985会计学硕保底群，后一行说明学位方向。连续两行真实引句记录集合，不补造学校或导师；保底可靠性不能由层级保证。",
+      "school_key": "group-strong985",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A052",
+      "answer_quote": "│• 清北复交商院 BA │              │• 两财一贸 会计/金融│              │• 本校本专业推免  │",
+      "canonical_candidate_key": "home-accounting-path",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "本校本专业/本院推免路径",
+      "reason": "实际建议本校本专业路径，学校未知不推断名称，也不把资格与预录取视为已拥有。路径概念可成立，资格保证的错误E01仅在L1-03处罚。",
+      "school_key": "home-unknown",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A053",
+      "answer_quote": "  - 确保锁定本校推免资格与本院预录取；同时申报 1 所实力强劲、往年录取自己本科院校生源较多的中坚 985 高校（如中山大学、武汉大学、南开大学等）作为绝对安全垫。",
+      "canonical_candidate_key": "home-accounting-path",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "本校本专业/本院推免路径",
+      "reason": "实际建议本校本专业路径，学校未知不推断名称，也不把资格与预录取视为已拥有。路径概念可成立，资格保证的错误E01仅在L1-03处罚。",
+      "school_key": "home-unknown",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A054",
+      "answer_quote": "  - *策略*：主投**会计学学硕/MPAcc**或**金融专硕（公司金融方向）**，拿 Offer 概率极高。",
+      "canonical_candidate_key": "direction-accounting-degree-unspecified",
+      "error_ids": [],
+      "label": "会计学学硕/MPAcc合并主投路线",
+      "reason": "主投学位备选的实际推荐，原文未分别选定学校与学位，保留合并；本科专业相邻不等于Offer概率极高。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A055",
+      "answer_quote": "  - *策略*：主投**会计学学硕/MPAcc**或**金融专硕（公司金融方向）**，拿 Offer 概率极高。",
+      "canonical_candidate_key": "direction-mf",
+      "error_ids": [],
+      "label": "金融专硕公司金融方向",
+      "reason": "独立明确公司金融MF主投路线，会计到估值/投融资有可迁移内容；未指定院系，不能保证录取概率。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A056",
+      "answer_quote": "1. **如果你希望将确定性抓在手中、最大化发挥本科 前约5% 的复利优势，同时对公务员选调、国企总部或券商中后台有天然偏好**：\n   👉 **坚定选择会计学（顶级高校会计学硕或知名 MPAcc）**。这是你的主场，课程顺手、论文产出快、面试破绽少，下限极高。",
+      "canonical_candidate_key": "direction-accounting-degree-unspecified",
+      "error_ids": [],
+      "feasibility": "正文给出会计课程与科研训练；待核具体学位培养、数理压力和资格，不采信论文必然快与下限保证。",
+      "key_condition": "稳健职业偏好、希望发挥会计本专业积累。",
+      "label": "顶级会计学硕/知名MPAcc合并路线",
+      "reason": "最终总结中的具体条件方向推荐；与前文同一路线重复出现时保持同键。适配只按明示条件，不把兴趣/性格推断为学生已知事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A057",
+      "answer_quote": "2. **如果你渴望突破舒适圈、追求高薪资弹性、性格外向抗压，并愿意在未来接受资本市场的周期洗礼**：\n   👉 **首选头部金融专硕（MF）**。以你的成绩有资格去搏顶级平台，用会计基本功切入公司金融与估值，在实习内卷中积累资源。",
+      "canonical_candidate_key": "direction-mf",
+      "error_ids": [],
+      "feasibility": "会计基础切入公司金融估值的路径具体，需核对先修与申请条件。",
+      "key_condition": "愿意承担工作强度和市场周期，追求金融就业薪酬弹性。",
+      "label": "头部金融MF路线",
+      "reason": "最终总结中的具体条件方向推荐；与前文同一路线重复出现时保持同键。适配只按明示条件，不把兴趣/性格推断为学生已知事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A058",
+      "answer_quote": "3. **如果你对写代码并不排斥，希望建立独一无二的复合壁垒，在技术与商业之间找到最佳杠杆**：\n   👉 **果断跨考商业分析（BA）或智能财务/金融科技交叉项目**。这是顺应未来十年的最优解，既能吃科技红利，又能降维赋能商业金融。",
+      "canonical_candidate_key": "direction-ba",
+      "error_ids": [],
+      "feasibility": "有成绩单课程核对和代码案例准备方向；需以实际能力、具体培养方案和资格落实。",
+      "key_condition": "不排斥代码，希望结合商业与技术能力。",
+      "label": "商业分析BA路线",
+      "reason": "最终总结中的具体条件方向推荐；与前文同一路线重复出现时保持同键。适配只按明示条件，不把兴趣/性格推断为学生已知事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A059",
+      "answer_quote": "3. **如果你对写代码并不排斥，希望建立独一无二的复合壁垒，在技术与商业之间找到最佳杠杆**：\n   👉 **果断跨考商业分析（BA）或智能财务/金融科技交叉项目**。这是顺应未来十年的最优解，既能吃科技红利，又能降维赋能商业金融。",
+      "canonical_candidate_key": "direction-smart-finance-fintech-merged",
+      "error_ids": [],
+      "feasibility": "通用方向可作为探索目标，不能把北大汇丰等个别项目的本科硬限制靠补代码恢复（该具体候选另记invalid）。",
+      "key_condition": "不排斥代码，希望结合财务商业与技术能力。",
+      "label": "智能财务/金融科技交叉合并路线",
+      "reason": "最终总结中的具体条件方向推荐；与前文同一路线重复出现时保持同键。适配只按明示条件，不把兴趣/性格推断为学生已知事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A060",
+      "answer_quote": "4. **如果你更看重商业宏观视野与组织领导力，目标是战略咨询或企业综合管理**：\n   👉 **选择企业管理（战略/创新方向）**。发挥你的分析与表达长处，走宽口径职业发展之路。",
+      "canonical_candidate_key": "direction-enterprise-management",
+      "error_ids": [],
+      "feasibility": "管理研究方法、案例和文献训练已有说明；具体项目与岗位条件仍需核对。",
+      "key_condition": "重视商业视野、组织领导力，偏好战略咨询或企业管理。",
+      "label": "企业管理战略/创新方向",
+      "reason": "最终总结中的具体条件方向推荐；与前文同一路线重复出现时保持同键。适配只按明示条件，不把兴趣/性格推断为学生已知事实。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A061",
+      "answer_quote": "不要在思想上过早自我设限。在推免申报的 5~6 月份，**以会计学为稳健压舱石，以交叉项目/金融专硕为攻坚冲刺矛**，同步投递、梯队布局。最终在拿到多所高校不同项目的录取意向（Offer）后，根据具体的导师资源、院校名气及培养方案再做最终取舍！",
+      "canonical_candidate_key": "direction-accounting-degree-unspecified",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "会计学主线",
+      "reason": "最终行动重复提出会计为主、交叉/金融为探索，保持与前文方向同键；5~6月作为当前时点的无依据认定已由E04归L1-06，不将其解释为项目已截止。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A062",
+      "answer_quote": "不要在思想上过早自我设限。在推免申报的 5~6 月份，**以会计学为稳健压舱石，以交叉项目/金融专硕为攻坚冲刺矛**，同步投递、梯队布局。最终在拿到多所高校不同项目的录取意向（Offer）后，根据具体的导师资源、院校名气及培养方案再做最终取舍！",
+      "canonical_candidate_key": "direction-interdisciplinary-unspecified",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "交叉探索路线",
+      "reason": "最终行动重复提出会计为主、交叉/金融为探索，保持与前文方向同键；5~6月作为当前时点的无依据认定已由E04归L1-06，不将其解释为项目已截止。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A063",
+      "answer_quote": "不要在思想上过早自我设限。在推免申报的 5~6 月份，**以会计学为稳健压舱石，以交叉项目/金融专硕为攻坚冲刺矛**，同步投递、梯队布局。最终在拿到多所高校不同项目的录取意向（Offer）后，根据具体的导师资源、院校名气及培养方案再做最终取舍！",
+      "canonical_candidate_key": "direction-mf",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "金融专硕探索路线",
+      "reason": "最终行动重复提出会计为主、交叉/金融为探索，保持与前文方向同键；5~6月作为当前时点的无依据认定已由E04归L1-06，不将其解释为项目已截止。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "fd266c4219f9545f5adef4b68a51686fcab0cc6e604cde14cbcbc86cef26c6ed",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "N14-02",
+  "task_sha256": "beb874beef76e95b656ca20d7d92be65839fdcbabb25709cd52232c325683b48",
+  "tier_review": {
+    "reason": "本题没有school_tier或层次评分节点，题面亦未给本科院校基准；不需要作降级核对，空表表示不适用，不表示已判所有学校未降级。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

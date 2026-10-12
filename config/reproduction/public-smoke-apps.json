@@ -1,0 +1,13 @@
+{
+  "baseline_ids": [
+    "gemini-app",
+    "qwen-app",
+    "kimi-k3"
+  ],
+  "id": "public-smoke-apps-v2",
+  "official": false,
+  "protocol": "config/reproduction/materials.protocol.json",
+  "registry": "config/baselines.example.json",
+  "schema_version": "reproduction-profile.1",
+  "suite": "public-smoke"
+}

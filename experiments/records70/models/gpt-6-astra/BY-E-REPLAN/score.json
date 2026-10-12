@@ -1,0 +1,23 @@
+{
+  "agent": "gpt-6-astra",
+  "category": "规划与决策",
+  "deductions": [
+    {
+      "max_points": 15,
+      "node": "BY-E-REPLAN-R10-04",
+      "points": 7.5,
+      "reason": "已有具体且正确的复用与更新：利用华东地区一所985高校AI课程和NLP训练，核最新成绩、科研贡献和论文状态，并更新成绩单、简历、推荐材料。欠缺截至7月17日的完整状态核对：没有询问新增竞赛成果，也没有确认此前无雅思/托福之后是否已考试、取得成绩或已有预约，直接展开暑期模考与首考计划。最新语言状态会影响项目先投及后补安排，本项更新核心覆盖不足，判半分；不把缺项挂pending。"
+    }
+  ],
+  "name": "GPT-6 Astra",
+  "pending_nodes": [],
+  "review_status": "completed",
+  "score": 92.5,
+  "score_interval": [
+    92.5,
+    92.5
+  ],
+  "score_status": "scored_draft",
+  "stage_count": 1,
+  "task_id": "BY-E-REPLAN"
+}

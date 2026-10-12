@@ -1,0 +1,74 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-E-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "分清上届[往届传闻名额]人和当前约45%的口径，不据此保证资格，并指出还需本届名额及排名统计口径。",
+      "grading": "three_level",
+      "half_credit": "已否定直接保证并正确区分跨届数据，但关键缺口或排名口径解释不足。",
+      "id": "TRY-E-02-R10-01",
+      "label": "跨届数据与当前排名口径",
+      "points": 30
+    },
+    {
+      "full_credit": "说明当前资格未定及国内推免申请前提，核本届规则和确认信息，同时允许先调研准备。",
+      "grading": "three_level",
+      "half_credit": "资格前提正确且有规则核验，但本届信息、确认路径或并行准备不足。",
+      "id": "TRY-E-02-R10-02",
+      "label": "本届资格与国内申请前提",
+      "points": 25
+    },
+    {
+      "full_credit": "明确提升第六学期绩点与排名，给高学分或薄弱课的具体学习及检查动作，不编资格名次线。",
+      "grading": "three_level",
+      "half_credit": "已有针对课程的具体提升动作，但重点选择或检查办法不完整。",
+      "id": "TRY-E-02-R10-03",
+      "label": "第六学期提高排名",
+      "points": 20
+    },
+    {
+      "full_credit": "安排NLP论文推进和真实科研材料整理，保持准备投稿状态，不按已录用评价。",
+      "grading": "three_level",
+      "half_credit": "已有论文或材料的具体动作，但另一部分或研究贡献表达不足。",
+      "id": "TRY-E-02-R10-04",
+      "label": "论文与材料并行准备",
+      "points": 15
+    },
+    {
+      "full_credit": "保留已表达的港新备选，并指出语言、轮次等关键核验，不倒填七月事件。",
+      "grading": "three_level",
+      "half_credit": "已保留港新并给一个具体条件，但核验或与当前资格风险的联系不足。",
+      "id": "TRY-E-02-R10-05",
+      "label": "港新既有备选",
+      "points": 5
+    },
+    {
+      "full_credit": "在排名、名额或资格结果更新时，说明怎样调整申请范围和投入。",
+      "grading": "three_level",
+      "half_credit": "已有具体更新节点，但调整内容不清楚。",
+      "id": "TRY-E-02-R10-06",
+      "label": "更新节点",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

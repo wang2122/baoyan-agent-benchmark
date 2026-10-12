@@ -1,0 +1,1165 @@
+{
+  "actual_candidate_count": 29,
+  "answer_sha256": "a029d3c44d720e3d7484bd57637e37201786c093a18962ecedd2e7a4f06cef70",
+  "candidate_limit": 15,
+  "confirmed_component_points": {
+    "coverage": 14.0,
+    "quality": 12.5
+  },
+  "confirmed_points": 26.5,
+  "diagnostic_score": null,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-2024-TIME": [
+      "BY-E-APPLY-R10-03"
+    ],
+    "ERR-DS-LANGUAGE": [
+      "BY-E-APPLY-R10-01"
+    ],
+    "ERR-ECNU": [
+      "BY-E-APPLY-R10-01"
+    ],
+    "ERR-MERGED-PATH": [
+      "E-14"
+    ],
+    "ERR-ODDS": [
+      "BY-E-APPLY-R10-01"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "| **08** | 华东师范大学 | 数据科学与工程学院 | 软件工程（083500）/ 计算机科学与技术（081200） | 学硕 | 核心适中档 | 75%~85% | ★★★★☆ |",
+      "id": "ERR-ECNU",
+      "reason": "参考外组合的专业和学位路径错误：DaSE当时学硕专业并非081200/083500，且2025年官方公告确认2026硕士改为仅大数据技术与工程专硕；见EV-ECNU/EV-ECNU-2025。仅由推荐适配节点处理，不因缺参考或无链接判错。"
+    },
+    {
+      "answer_quote": "以下项目可直接使用**CET-6 500–549分**作为合规语言证明递交",
+      "id": "ERR-DS-LANGUAGE",
+      "reason": "对港中大深圳数据科学项目，EV-DS明确四六级并非满足入学语言条件，只能辅助网申并须后补。把它承诺成免雅思合规语言保障与已知500–549状态不符。只处理这个具体免语言方案，不扩大到CityU；MSc CIE历史语言规则仍待核。参考外错误仅归推荐适配节点。"
+    },
+    {
+      "answer_quote": "作为本校本校AI专业学生，申请本校软院学硕/专硕，初审100%入营。",
+      "id": "ERR-ODDS",
+      "reason": "题面只给中等排名、科研未投稿及资格待确认，无法推出初审100%及众多80%-95%安全概率；缺乏可追溯概率依据且没有把具体目标门槛作为条件筛选。问题是用未经支持的确定性建立安全保底布局，不据此取消真实项目身份，最直接归推荐适配节点。"
+    },
+    {
+      "answer_quote": "模式识别国家重点实验室 / 国科大南京学院专项",
+      "id": "ERR-MERGED-PATH",
+      "reason": "研究所内部实验室与独立联合培养专项含糊合并；后文主要依赖南京专项或本校联培优势，没有另行明确一条本部申请推荐。模板禁止评审从混合条目拆出本部命中。EV-CASIA及EV-NJC确认本部与合作高校路径需区分。仅E-14按未明确路径失分，不认定全部专项虚构。"
+    },
+    {
+      "answer_quote": "必须在**2024年7月至8月前考出受认可的语言成绩**",
+      "id": "ERR-2024-TIME",
+      "reason": "题设为2025年申请阶段；答卷把港新双轨运行及必须完成的语言期限放在2024年，属于已经过去的周期且未标为往届参考，影响申请执行。仅归执行节点，不重复影响论文状态、学校身份或所有覆盖。"
+    }
+  ],
+  "excess_count": 14,
+  "id": "BY-E-APPLY",
+  "input_sha256": "407b088f702b0877fee7f7a2c74bcb9f6178ec670b62bacfaac3ebdf0f4534bc",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "72617376433876e990467330f5cf6a5284147940e85c8a4ad521f731ba249337",
+  "nodes": [
+    {
+      "id": "E-01",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-03",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-04",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-06",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-08",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04-table",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A01-table",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A12-table",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-13",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "E-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-APPLY-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-APPLY-R10-02",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-APPLY-R10-03",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": "pending",
+      "id": "BY-E-APPLY-R10-04",
+      "kind": "quality",
+      "points": null
+    }
+  ],
+  "observed_candidate_count": 29,
+  "official": false,
+  "pending_nodes": [
+    "BY-E-APPLY-R10-04"
+  ],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-table",
+      "answer_quote": "| **01** | 华东地区一所985高校（华东五校之一） | 本科学院 | 计算机科学与技术（081200）/ 人工智能（0812J1） | 学硕 | 冲刺档 | 85%（本校保护） | ★★★★★ |",
+      "canonical_candidate_key": "nju-ai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合01（表）",
+      "reason": "本科学院081200学硕核心路径成立；另写0812J1不另造候选，也不据未审计的备用代码取消已有真实081200路径。学校身份由冻结E-11及EV-本校支持。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-detail",
+      "answer_quote": "##### 组合01：华东地区一所985高校（华东五校之一） · 本科学院\n* **具体专业与代码**：计算机科学与技术（081200）/ 人工智能交叉学科（0812J1）· 学术型硕士",
+      "canonical_candidate_key": "nju-ai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合01（详述）",
+      "reason": "本科学院081200学硕核心路径成立；另写0812J1不另造候选，也不据未审计的备用代码取消已有真实081200路径。学校身份由冻结E-11及EV-本校支持。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-table",
+      "answer_quote": "| **02** | 中国人民大学 | 高瓴本科学院 | 计算机科学与技术（081200）/ 人工智能（0812J1） | 学硕 | 冲刺档 | 35%~45% | ★★★★★ |",
+      "canonical_candidate_key": "ruc-gsai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合02（表）",
+      "reason": "EV-RUC确认该院计算机科学与技术一级学科人工智能方向学硕；两种表述视为一个组合，备用代码不是另一独立路径。冲刺方向和NLP适合，不声称已满足所有初审竞争条件。",
+      "school_key": "中国人民大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-detail",
+      "answer_quote": "##### 组合02：中国人民大学 · 高瓴本科学院\n* **具体专业与代码**：计算机科学与技术（081200）/ 人工智能（0812J1）· 学术型硕士",
+      "canonical_candidate_key": "ruc-gsai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合02（详述）",
+      "reason": "EV-RUC确认该院计算机科学与技术一级学科人工智能方向学硕；两种表述视为一个组合，备用代码不是另一独立路径。冲刺方向和NLP适合，不声称已满足所有初审竞争条件。",
+      "school_key": "中国人民大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-table",
+      "answer_quote": "| **03** | 复旦大学 | 计算机科学技术学院 | 计算机科学与技术（081200） | 学硕 | 冲刺档 | 40%~50% | ★★★★★ |",
+      "canonical_candidate_key": "fudan-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合03（表）",
+      "reason": "可识别的复旦计算机学院计算机学硕；方向契合，不在参考名单不等于内容错误；此valid仅为内容/身份判断。",
+      "school_key": "复旦大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-detail",
+      "answer_quote": "##### 组合03：复旦大学 · 计算机科学技术学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "fudan-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合03（详述）",
+      "reason": "可识别的复旦计算机学院计算机学硕；方向契合，不在参考名单不等于内容错误；此valid仅为内容/身份判断。",
+      "school_key": "复旦大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-table",
+      "answer_quote": "| **04** | 浙江大学 | 计算机科学与技术学院 | 计算机科学与技术（081200） | 学硕 | 冲刺档 | 35%~45% | ★★★★★ |",
+      "canonical_candidate_key": "zju-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合04（表）",
+      "reason": "计算机科学与技术学院是冻结E-08的计算机学院规范全称，081200学硕路径可识别；PAT或入营概率不因此视为已核实。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-detail",
+      "answer_quote": "##### 组合04：浙江大学 · 计算机科学与技术学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "zju-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合04（详述）",
+      "reason": "计算机科学与技术学院是冻结E-08的计算机学院规范全称，081200学硕路径可识别；PAT或入营概率不因此视为已核实。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-table",
+      "answer_quote": "| **05** | 中国科学技术大学 | 计算机科学与技术学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 70%~80% | ★★★★☆ |",
+      "canonical_candidate_key": "ustc-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合05（表）",
+      "reason": "可识别的中科大计算机学院081200学硕；方向适合。无依据的高录取确定性在质量项处理，不把它当成项目不存在。",
+      "school_key": "中国科学技术大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-detail",
+      "answer_quote": "##### 组合05：中国科学技术大学 · 计算机科学与技术学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "ustc-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合05（详述）",
+      "reason": "可识别的中科大计算机学院081200学硕；方向适合。无依据的高录取确定性在质量项处理，不把它当成项目不存在。",
+      "school_key": "中国科学技术大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-table",
+      "answer_quote": "| **06** | 同济大学 | 电子与信息工程学院（计算机系） | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 75%~85% | ★★★★☆ |",
+      "canonical_candidate_key": "tongji-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合06（表）",
+      "reason": "同济计算机系归属电子信息学院的历史表述可识别；项目身份不因缺少当届链接而归零。没有使用当前组织更名反证2025项目不存在。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-detail",
+      "answer_quote": "##### 组合06：同济大学 · 电子与信息工程学院（计算机科学与技术系）\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "tongji-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合06（详述）",
+      "reason": "同济计算机系归属电子信息学院的历史表述可识别；项目身份不因缺少当届链接而归零。没有使用当前组织更名反证2025项目不存在。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-table",
+      "answer_quote": "| **07** | 东本校学 | 计算机科学与工程学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 80%~90% | ★★★★☆ |",
+      "canonical_candidate_key": "seu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合07（表）",
+      "reason": "东南计算机学院081200学硕可识别，计算机/NLP意向相关；对排名竞争力的乐观推断不等于已核验门槛。",
+      "school_key": "东南大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-detail",
+      "answer_quote": "##### 组合07：东本校学 · 计算机科学与工程学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "seu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合07（详述）",
+      "reason": "东南计算机学院081200学硕可识别，计算机/NLP意向相关；对排名竞争力的乐观推断不等于已核验门槛。",
+      "school_key": "东南大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-table",
+      "answer_quote": "| **08** | 华东师范大学 | 数据科学与工程学院 | 软件工程（083500）/ 计算机科学与技术（081200） | 学硕 | 核心适中档 | 75%~85% | ★★★★☆ |",
+      "canonical_candidate_key": "ecnu-dase-cs-se-academic",
+      "error_ids": [
+        "ERR-ECNU"
+      ],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合08（表）",
+      "reason": "该院所写计算机科学与技术081200/软件工程083500学硕组合归属不成立；2025官方学硕为089901数据科学与工程，2025-07-23公告又明确2026硕士仅招大数据专硕。不能由评审替换为另一学院或博士路径恢复有效。见EV-ECNU及EV-ECNU-2025。",
+      "school_key": "华东师范大学",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A08-detail",
+      "answer_quote": "##### 组合08：华东师范大学 · 数据科学与工程学院（DaSE）\n* **具体专业与代码**：计算机科学与技术（081200）/ 软件工程（083500）· 学术型硕士",
+      "canonical_candidate_key": "ecnu-dase-cs-se-academic",
+      "error_ids": [
+        "ERR-ECNU"
+      ],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合08（详述）",
+      "reason": "该院所写计算机科学与技术081200/软件工程083500学硕组合归属不成立；2025官方学硕为089901数据科学与工程，2025-07-23公告又明确2026硕士仅招大数据专硕。不能由评审替换为另一学院或博士路径恢复有效。见EV-ECNU及EV-ECNU-2025。",
+      "school_key": "华东师范大学",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A09-table",
+      "answer_quote": "| **09** | 北京航空航天大学 | 人工智能研究院 | 人工智能（0812J1）/ 计算机科学与技术（081200） | 学硕 | 核心适中档 | 65%~75% | ★★★★☆ |",
+      "canonical_candidate_key": "buaa-ai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合09（表）",
+      "reason": "EV-BUAA确认同一本科学院（研究院）实际有人工智能学硕；核心名称与培养类型可识别。0812J1/081200代码错误，但不机械将正确AI学硕单位整体判成不存在，也不额外制造CS路径。",
+      "school_key": "北京航空航天大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-detail",
+      "answer_quote": "##### 组合09：北京航空航天大学 · 人工智能研究院\n* **具体专业与代码**：人工智能交叉学科（0812J1）/ 计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "buaa-ai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合09（详述）",
+      "reason": "EV-BUAA确认同一本科学院（研究院）实际有人工智能学硕；核心名称与培养类型可识别。0812J1/081200代码错误，但不机械将正确AI学硕单位整体判成不存在，也不额外制造CS路径。",
+      "school_key": "北京航空航天大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-table",
+      "answer_quote": "| **10** | 武汉大学 | 计算机学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 80%~90% | ★★★☆☆ |",
+      "canonical_candidate_key": "whu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合10（表）",
+      "reason": "武汉大学计算机学院081200学硕内容可识别，契合意向；未附官网或不在参考不构成invalid。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-detail",
+      "answer_quote": "##### 组合10：武汉大学 · 计算机学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "whu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合10（详述）",
+      "reason": "武汉大学计算机学院081200学硕内容可识别，契合意向；未附官网或不在参考不构成invalid。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-table",
+      "answer_quote": "| **11** | 中山大学 | 计算机学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 80%~90% | ★★★☆☆ |",
+      "canonical_candidate_key": "sysu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合11（表）",
+      "reason": "中山大学计算机学院081200学硕可识别，契合意向；未逐年核验所有英语与排名规则，不把valid读作年度审计。",
+      "school_key": "中山大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-detail",
+      "answer_quote": "##### 组合11：中山大学 · 计算机学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "sysu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合11（详述）",
+      "reason": "中山大学计算机学院081200学硕可识别，契合意向；未逐年核验所有英语与排名规则，不把valid读作年度审计。",
+      "school_key": "中山大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-table",
+      "answer_quote": "| **12** | 华东地区一所985高校（华东五校之一） | 软件学院 | 软件工程（083500） | 学硕 | 安全保底档 | 90%~95% | ★★★☆☆ |",
+      "canonical_candidate_key": "nju-software-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合12（表）",
+      "reason": "EV-本校第42页确认软件学院083500学硕。软件与AI/代码生成相关；对参考E-12采用其计算机相关院系的已有宽粒度判断。与随后专硕是不同学位路径。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-detail",
+      "answer_quote": "##### 组合12：华东地区一所985高校（华东五校之一） · 软件学院\n* **具体专业与代码**：软件工程（083500）· 学术型硕士",
+      "canonical_candidate_key": "nju-software-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合12（详述）",
+      "reason": "EV-本校第42页确认软件学院083500学硕。软件与AI/代码生成相关；对参考E-12采用其计算机相关院系的已有宽粒度判断。与随后专硕是不同学位路径。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-table",
+      "answer_quote": "| **13** | 中国科学院自动化研究所 | 模式与智能系统 / 国科大南京学院 | 模式识别与智能系统（081104）/ 计算机（081200） | 学硕 | 安全保底档 | 60%~70% | ★★★☆☆ |",
+      "canonical_candidate_key": "casia-njc-merged-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合13（表）",
+      "reason": "整体只作为一个含糊合并候选：本部实验室是研究所内部单位，但国科大南京学院专项及与本校联培是不同招生路径，全文没有另行明确独立推荐本部。实体身份可识别，故不因专项证据不足宣布项目不存在；按模板合并规则不拆出本部命中E-14。南京联培优势未获EV-NJC支持。",
+      "school_key": "中国科学院自动化研究所",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-detail",
+      "answer_quote": "##### 组合13：中国科学院自动化研究所（CASIA）· 模式识别国家重点实验室 / 国科大南京学院专项\n* **具体专业与代码**：模式识别与智能系统（081104）/ 计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "casia-njc-merged-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合13（详述）",
+      "reason": "整体只作为一个含糊合并候选：本部实验室是研究所内部单位，但国科大南京学院专项及与本校联培是不同招生路径，全文没有另行明确独立推荐本部。实体身份可识别，故不因专项证据不足宣布项目不存在；按模板合并规则不拆出本部命中E-14。南京联培优势未获EV-NJC支持。",
+      "school_key": "中国科学院自动化研究所",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-table",
+      "answer_quote": "| **14** | 厦门大学 | 信息学院（人工智能研究院） | 计算机科学与技术（081200） | 学硕 | 安全保底档 | 90%~95% | ★★☆☆☆ |",
+      "canonical_candidate_key": "xmu-info-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合14（表）",
+      "reason": "厦门信息学院计算机学硕为可识别组合；括号内研究院作为方向/平台说明不机械拆分。对90%保底概率未予采信。",
+      "school_key": "厦门大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-detail",
+      "answer_quote": "##### 组合14：厦门大学 · 信息学院（人工智能研究院）\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "xmu-info-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合14（详述）",
+      "reason": "厦门信息学院计算机学硕为可识别组合；括号内研究院作为方向/平台说明不机械拆分。对90%保底概率未予采信。",
+      "school_key": "厦门大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-table",
+      "answer_quote": "| **15** | 西安交通大学 | 计算机科学与技术学院 | 计算机科学与技术（081200） | 学硕 | 安全保底档 | 85%~95% | ★★☆☆☆ |",
+      "canonical_candidate_key": "xjtu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合15（表）",
+      "reason": "西交计算机学院081200学硕可识别且同为985；不将地理区位当录取保证。",
+      "school_key": "西安交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-detail",
+      "answer_quote": "##### 组合15：西安交通大学 · 计算机科学与技术学院\n* **具体专业与代码**：计算机科学与技术（081200）· 学术型硕士",
+      "canonical_candidate_key": "xjtu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合15（详述）",
+      "reason": "西交计算机学院081200学硕可识别且同为985；不将地理区位当录取保证。",
+      "school_key": "西安交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "申请本校软院学硕/专硕",
+      "canonical_candidate_key": "nju-software-professional",
+      "error_ids": [],
+      "feasibility": "已有明确学校和软院单位、同院专业学位路径；答卷说明在学硕未获优营时申专硕及导师科研培养取舍，可核对报名目录后实施。",
+      "key_condition": "取得推免资格，并接受答卷所解释的科研导向专硕对冲。",
+      "label": "南京大学软件学院专硕对冲",
+      "reason": "明确额外推荐软院专硕，不与083500学硕混同。EV-NJU支持085405路径；学生学硕为偏好而非明示拒绝专硕，答卷说明对冲取舍。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "ustc-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合05（总结重复）",
+      "reason": "可识别的中科大计算机学院081200学硕；方向适合。无依据的高录取确定性在质量项处理，不把它当成项目不存在。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "中国科学技术大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "seu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合07（总结重复）",
+      "reason": "东南计算机学院081200学硕可识别，计算机/NLP意向相关；对排名竞争力的乐观推断不等于已核验门槛。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "东南大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "tongji-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合06（总结重复）",
+      "reason": "同济计算机系归属电子信息学院的历史表述可识别；项目身份不因缺少当届链接而归零。没有使用当前组织更名反证2025项目不存在。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "ecnu-dase-cs-se-academic",
+      "error_ids": [
+        "ERR-ECNU"
+      ],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合08（总结重复）",
+      "reason": "该院所写计算机科学与技术081200/软件工程083500学硕组合归属不成立；2025官方学硕为089901数据科学与工程，2025-07-23公告又明确2026硕士仅招大数据专硕。不能由评审替换为另一学院或博士路径恢复有效。见EV-ECNU及EV-ECNU-2025。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "华东师范大学",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A10-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "whu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合10（总结重复）",
+      "reason": "武汉大学计算机学院081200学硕内容可识别，契合意向；未附官网或不在参考不构成invalid。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "xjtu-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合15（总结重复）",
+      "reason": "西交计算机学院081200学硕可识别且同为985；不将地理区位当录取保证。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "西安交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "nju-ai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合01（总结重复）",
+      "reason": "本科学院081200学硕核心路径成立；另写0812J1不另造候选，也不据未审计的备用代码取消已有真实081200路径。学校身份由冻结E-11及EV-本校支持。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "ruc-gsai-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合02（总结重复）",
+      "reason": "EV-RUC确认该院计算机科学与技术一级学科人工智能方向学硕；两种表述视为一个组合，备用代码不是另一独立路径。冲刺方向和NLP适合，不声称已满足所有初审竞争条件。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "中国人民大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "fudan-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合03（总结重复）",
+      "reason": "可识别的复旦计算机学院计算机学硕；方向契合，不在参考名单不等于内容错误；此valid仅为内容/身份判断。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "复旦大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-summary",
+      "answer_quote": "紧握15个学硕组合中以**中科大、东南、同济、华东师大、武大、西交大**为代表的核心与保底基本盘，确保手握确定性Offer的前提下，全力向**本校本校、人大高瓴、复旦、浙大**发起学术冲击。",
+      "canonical_candidate_key": "zju-cs-academic",
+      "error_ids": [],
+      "feasibility": "答卷明确要求与教务/辅导员核实近三年最终顺延位次，并梳理科研等加分，且给出未获资格转港新或考研的分支；可作为条件方案，不承诺资格一定补齐。",
+      "key_condition": "须取得本校推免资格；前约45%尚不能据题设确定，需核实学院综合排名、科研加分与名额顺延。",
+      "label": "国内组合04（总结重复）",
+      "reason": "计算机科学与技术学院是冻结E-08的计算机学院规范全称，081200学硕路径可识别；PAT或入营概率不因此视为已核实。总结是已列组合的重复，canonical保持一致。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "第二志愿务必勾选专硕（085400 电子信息）",
+      "canonical_candidate_key": "unspecified-085400",
+      "error_ids": [],
+      "label": "未指定院系的085400电子信息专硕提名",
+      "reason": "只有大类专业提名，缺学校和院系，不能当作任一已列学校的具体独立专硕路径；按全文提名记录，计数量审阅但不计覆盖。后文同步申报085400及专硕后盾为同一泛称。",
+      "school_key": "未指定学校",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-repeat",
+      "answer_quote": "同步申报“085400 电子信息专硕”",
+      "canonical_candidate_key": "unspecified-085400",
+      "error_ids": [],
+      "label": "085400电子信息专硕（重复）",
+      "reason": "重复未指定招生主体的专硕提名，使用同一canonical；不擅自拆出额外名校项目。",
+      "school_key": "未指定学校",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F01",
+      "answer_quote": "Master of Computing (MComp) - Artificial Intelligence Specialisation",
+      "canonical_candidate_key": "nus-ai",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "NUS MComp AI",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。EV-NUS明确旧方向承接到新MComp AI，按官方承接关系识别AI计算硕士备选，不将旧specialisation称谓解释成旧项目2026仍招生；这是名称路径核对而非额外推荐新候选。",
+      "school_key": "新加坡国立大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F02",
+      "answer_quote": "Master of Computing - Computer Science Specialisation",
+      "canonical_candidate_key": "nus-cs",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "NUS MComp CS",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "新加坡国立大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F03",
+      "answer_quote": "Master of Science in Artificial Intelligence (MSAI)",
+      "canonical_candidate_key": "ntu-msai",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "NTU MSAI",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "南洋理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F04",
+      "answer_quote": "Master of Science in Computer Science (MSc CS)",
+      "canonical_candidate_key": "hku-cs",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "HKU MSc CS",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "香港大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F05",
+      "answer_quote": "Master of Science in Artificial Intelligence (MSc AI)",
+      "canonical_candidate_key": "hku-ai",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "HKU MSc AI",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "香港大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F06",
+      "answer_quote": "MSc in Computer Science",
+      "canonical_candidate_key": "cuhk-cs",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "CUHK MSc CS",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "香港中文大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F07",
+      "answer_quote": "MSc in Information Engineering",
+      "canonical_candidate_key": "cuhk-ie",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "CUHK MSc IE",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "香港中文大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F08",
+      "answer_quote": "MSc in Information Technology (MSIT)",
+      "canonical_candidate_key": "hkust-it",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "HKUST MSIT",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "香港科技大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F09",
+      "answer_quote": "MSc in Big Data Technology (BBDT)",
+      "canonical_candidate_key": "hkust-bdt",
+      "error_ids": [],
+      "feasibility": "答卷把本组标题写为需补充语言成绩，并提出语言考试、推荐信与文书、网申的具体补齐路径；考试可补齐，不要求已具备未披露成绩。其2024完成期限属执行时点错误，单在R10-03处理，不能据此宣布考试永远无法补齐。",
+      "key_condition": "补充该项目认可的IELTS/TOEFL等语言成绩；如项目要求GRE亦须满足，并核查目标入学批次。",
+      "label": "HKUST BDT",
+      "reason": "项目/方向可识别，AI或计算机背景相关；按授课型备选而非国内学硕等同路径核对。需补受认可语言成绩，身份valid不意味着所有项目同用统一英语/GRE门槛。",
+      "school_key": "香港科技大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F10",
+      "answer_quote": "MSc Computer Science",
+      "canonical_candidate_key": "cityu-cs",
+      "error_ids": [],
+      "label": "CityU MSc CS",
+      "reason": "EV-CITYU的2026项目页面明确接受CET6 450；500–549达语言线。授课型用于备选取舍可成立，不代表保底录取确定。",
+      "school_key": "香港城市大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F11",
+      "answer_quote": "数据科学理学硕士（MSc Data Science）",
+      "canonical_candidate_key": "cuhksz-ds-cet-only",
+      "error_ids": [
+        "ERR-DS-LANGUAGE"
+      ],
+      "label": "港中大深圳数据科学MSc免雅思方案",
+      "reason": "项目存在，但此推荐明确以现有CET509作合规入学语言、无雅思保障。EV-DS明确CET只能辅助申请且需要后补有效成绩；答卷未给此项目补语言条件，不能由评审将免雅思路径改为有条件录取恢复有效。",
+      "school_key": "香港中文大学（深圳）",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "F12",
+      "answer_quote": "计算机与信息工程理学硕士（MSc CIE）",
+      "canonical_candidate_key": "cuhksz-cie-cet-only",
+      "error_ids": [],
+      "label": "港中大深圳MSc CIE免雅思方案",
+      "reason": "EV-CIE-IDENTITY确认真实授课型MSc，不能混用研究型CIE条件。实质争议是2025申请当届CET509能否构成免雅思语言资格：现时官方要求不列CET，2025年历史公告图片未成功读取，尚不能用当前版本反证当届。此争议关联事实/结论状态节点R10-04。",
+      "school_key": "香港中文大学（深圳）",
+      "treatment": "direct",
+      "validity": "pending"
+    }
+  ],
+  "reference_denominator": 15,
+  "rubric_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+  "score": null,
+  "score_interval": [
+    26.5,
+    31.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "BY-E-APPLY",
+  "task_kind": "recommendation",
+  "task_sha256": "a091b49fb207d90d778017bff670df5125d1cf83577fc4d26e4fbf7d082e9801",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "| **07** | 东本校学 | 计算机科学与工程学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 80%~90% | ★★★★☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "| **02** | 中国人民大学 | 高瓴本科学院 | 计算机科学与技术（081200）/ 人工智能（0812J1） | 学硕 | 冲刺档 | 35%~45% | ★★★★★ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "| **05** | 中国科学技术大学 | 计算机科学与技术学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 70%~80% | ★★★★☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "中国科学技术大学"
+      },
+      {
+        "answer_quote": "| **13** | 中国科学院自动化研究所 | 模式与智能系统 / 国科大南京学院 | 模式识别与智能系统（081104）/ 计算机（081200） | 学硕 | 安全保底档 | 60%~70% | ★★★☆☆ |",
+        "downgraded": false,
+        "reason": "科研院所不能因无985/211标签降级；真实本部AI研究平台可识别，但南京联合专项不能把授位主体自动视作本部。此false只表示不能按科研所标签判降级，不证明未知联培主体等价，联合培养层次说明缺失由层次质量项处理。",
+        "school_key": "中国科学院自动化研究所"
+      },
+      {
+        "answer_quote": "| **11** | 中山大学 | 计算机学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 80%~90% | ★★★☆☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "中山大学"
+      },
+      {
+        "answer_quote": "| **09** | 北京航空航天大学 | 人工智能研究院 | 人工智能（0812J1）/ 计算机科学与技术（081200） | 学硕 | 核心适中档 | 65%~75% | ★★★★☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "| **08** | 华东师范大学 | 数据科学与工程学院 | 软件工程（083500）/ 计算机科学与技术（081200） | 学硕 | 核心适中档 | 75%~85% | ★★★★☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "华东师范大学"
+      },
+      {
+        "answer_quote": "| **01** | 华东地区一所985高校（华东五校之一） | 本科学院 | 计算机科学与技术（081200）/ 人工智能（0812J1） | 学硕 | 冲刺档 | 85%（本校保护） | ★★★★★ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "南京大学"
+      },
+      {
+        "answer_quote": "Master of Science in Artificial Intelligence (MSAI)",
+        "downgraded": false,
+        "reason": "境外高校不套用985/211标签；作为港新授课硕士备选按实际培养及授位主体判断，不作机械降级。",
+        "school_key": "南洋理工大学"
+      },
+      {
+        "answer_quote": "| **14** | 厦门大学 | 信息学院（人工智能研究院） | 计算机科学与技术（081200） | 学硕 | 安全保底档 | 90%~95% | ★★☆☆☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "| **06** | 同济大学 | 电子与信息工程学院（计算机系） | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 75%~85% | ★★★★☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "| **03** | 复旦大学 | 计算机科学技术学院 | 计算机科学与技术（081200） | 学硕 | 冲刺档 | 40%~50% | ★★★★★ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "Master of Computing (MComp) - Artificial Intelligence Specialisation",
+        "downgraded": false,
+        "reason": "境外高校不套用985/211标签；作为港新授课硕士备选按实际培养及授位主体判断，不作机械降级。",
+        "school_key": "新加坡国立大学"
+      },
+      {
+        "answer_quote": "| **10** | 武汉大学 | 计算机学院 | 计算机科学与技术（081200） | 学硕 | 核心适中档 | 80%~90% | ★★★☆☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "| **04** | 浙江大学 | 计算机科学与技术学院 | 计算机科学与技术（081200） | 学硕 | 冲刺档 | 35%~45% | ★★★★★ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "| **15** | 西安交通大学 | 计算机科学与技术学院 | 计算机科学与技术（081200） | 学硕 | 安全保底档 | 85%~95% | ★★☆☆☆ |",
+        "downgraded": false,
+        "reason": "实际推荐的国内常规高校为985，与华东地区一所985高校（华东五校之一）按通则操作顺序同档；同档不降级。同校各路径只一条层次记录。",
+        "school_key": "西安交通大学"
+      },
+      {
+        "answer_quote": "MSc in Computer Science",
+        "downgraded": false,
+        "reason": "境外高校不套用985/211标签；作为港新授课硕士备选按实际培养及授位主体判断，不作机械降级。",
+        "school_key": "香港中文大学"
+      },
+      {
+        "answer_quote": "数据科学理学硕士（MSc Data Science）",
+        "downgraded": false,
+        "reason": "中外合作办学项目须按实际授位判断，MSc CIE官方项目说明授香港中文大学理学硕士学位，不能依深圳校区无985标签机械降级。语言条件pending不改变此授位层次身份判断。",
+        "school_key": "香港中文大学（深圳）"
+      },
+      {
+        "answer_quote": "MSc Computer Science",
+        "downgraded": false,
+        "reason": "境外高校不套用985/211标签；作为港新授课硕士备选按实际培养及授位主体判断，不作机械降级。",
+        "school_key": "香港城市大学"
+      },
+      {
+        "answer_quote": "Master of Science in Computer Science (MSc CS)",
+        "downgraded": false,
+        "reason": "境外高校不套用985/211标签；作为港新授课硕士备选按实际培养及授位主体判断，不作机械降级。",
+        "school_key": "香港大学"
+      },
+      {
+        "answer_quote": "MSc in Information Technology (MSIT)",
+        "downgraded": false,
+        "reason": "境外高校不套用985/211标签；作为港新授课硕士备选按实际培养及授位主体判断，不作机械降级。",
+        "school_key": "香港科技大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

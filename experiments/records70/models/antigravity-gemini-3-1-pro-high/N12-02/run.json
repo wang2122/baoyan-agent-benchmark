@@ -1,0 +1,15 @@
+{
+  "agent": "antigravity-gemini-3-1-pro-high",
+  "model": "gemini-3.1-pro-high",
+  "auth_mode": "subscription",
+  "cli": "antigravity",
+  "cli_version": "1.3.2",
+  "planned_cli_version": "1.3.2",
+  "host_observed_auto_updated_version": null,
+  "started_at": "2026-10-12T04:51:06.443933+00:00",
+  "finished_at": "2026-10-12T04:53:19.674716+00:00",
+  "exact_backend_snapshot": "unknown/unverified",
+  "status": "completed",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "raw_execution_artifacts_public": false
+}

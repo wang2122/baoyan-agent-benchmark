@@ -1,0 +1,1059 @@
+{
+  "schema": "effective-node-score.1",
+  "task_id": "N08-03",
+  "answer_sha256": "ee05e9a27fe04d00391de3cde6c89177445eb9e19cfb15315d065e3a13ef1a21",
+  "original_rubric_sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+  "original_score_interval": [
+    21.15,
+    28.21
+  ],
+  "original_pending_nodes": [
+    "N08-23",
+    "tier"
+  ],
+  "score_interval": [
+    23.65,
+    23.65
+  ],
+  "score": 23.65,
+  "pending_nodes": [],
+  "nodes": [
+    {
+      "id": "N08-01",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-01",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-02",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-02",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-03",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-03",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-04",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-04",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-05",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-05",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-06",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-06",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-07",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-07",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-08",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-08",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-09",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-09",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-10",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-10",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-11",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-11",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-12",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-12",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-13",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-13",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-14",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-14",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-15",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-15",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-16",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-16",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-17",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-17",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-18",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-18",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-19",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-19",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-20",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-20",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-21",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-21",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-22",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-22",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-23",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-23",
+        "kind": "coverage",
+        "match_coefficient": null,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": null,
+        "reviewed_status": "pending",
+        "status": "pending",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "owner_policy_no_verified_credit"
+    },
+    {
+      "id": "N08-24",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-24",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-25",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-25",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-26",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-26",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-27",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-27",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-28",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-28",
+        "kind": "coverage",
+        "match_coefficient": 1.0,
+        "match_level": "exact",
+        "matched_answer_item_id": "A01a",
+        "points": 2.06,
+        "reviewed_status": "hit",
+        "status": "hit",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 2.06,
+      "effective_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-29",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-29",
+        "kind": "coverage",
+        "match_coefficient": 1.0,
+        "match_level": "exact",
+        "matched_answer_item_id": "A03",
+        "points": 2.06,
+        "reviewed_status": "hit",
+        "status": "hit",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 2.06,
+      "effective_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-30",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-30",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-31",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-31",
+        "kind": "coverage",
+        "match_coefficient": 1.0,
+        "match_level": "exact",
+        "matched_answer_item_id": "A10b",
+        "points": 2.06,
+        "reviewed_status": "hit",
+        "status": "hit",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 2.06,
+      "effective_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-32",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-32",
+        "kind": "coverage",
+        "match_coefficient": 0.6,
+        "match_level": "same_department",
+        "matched_answer_item_id": "A17b",
+        "points": 1.24,
+        "reviewed_status": "hit",
+        "status": "hit",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 1.24,
+      "effective_fraction": {
+        "numerator": 21,
+        "denominator": 17
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-33",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-33",
+        "kind": "coverage",
+        "match_coefficient": 0.6,
+        "match_level": "same_department",
+        "matched_answer_item_id": "A18",
+        "points": 1.24,
+        "reviewed_status": "hit",
+        "status": "hit",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 1.24,
+      "effective_fraction": {
+        "numerator": 21,
+        "denominator": 17
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N08-34",
+      "kind": "coverage",
+      "original_node": {
+        "id": "N08-34",
+        "kind": "coverage",
+        "match_coefficient": 0,
+        "match_level": null,
+        "matched_answer_item_id": null,
+        "points": 0,
+        "reviewed_status": "miss",
+        "status": "miss",
+        "weight": {
+          "denominator": 17,
+          "numerator": 35
+        }
+      },
+      "effective_points": 0.0,
+      "effective_fraction": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 35,
+        "denominator": 17
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "reasons",
+      "kind": "quality",
+      "original_node": {
+        "grade": 0.5,
+        "id": "reasons",
+        "kind": "quality",
+        "points": 7.5
+      },
+      "effective_points": 7.5,
+      "effective_fraction": {
+        "numerator": 15,
+        "denominator": 2
+      },
+      "maximum_fraction": {
+        "numerator": 15,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "tier",
+      "kind": "quality",
+      "original_node": {
+        "grade": "pending",
+        "id": "tier",
+        "kind": "quality",
+        "points": null
+      },
+      "effective_points": 2.5,
+      "effective_fraction": {
+        "numerator": 5,
+        "denominator": 2
+      },
+      "maximum_fraction": {
+        "numerator": 5,
+        "denominator": 1
+      },
+      "disposition": "resolved_by_official_evidence"
+    },
+    {
+      "id": "execution",
+      "kind": "quality",
+      "original_node": {
+        "grade": 0.5,
+        "id": "execution",
+        "kind": "quality",
+        "points": 2.5
+      },
+      "effective_points": 2.5,
+      "effective_fraction": {
+        "numerator": 5,
+        "denominator": 2
+      },
+      "maximum_fraction": {
+        "numerator": 5,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "facts",
+      "kind": "quality",
+      "original_node": {
+        "grade": 0.5,
+        "id": "facts",
+        "kind": "quality",
+        "points": 2.5
+      },
+      "effective_points": 2.5,
+      "effective_fraction": {
+        "numerator": 5,
+        "denominator": 2
+      },
+      "maximum_fraction": {
+        "numerator": 5,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    }
+  ],
+  "official": false,
+  "teacher_calibration": "pending",
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "validation_mode": "maintenance_node_overlay_not_native_candidate_revalidation"
+}

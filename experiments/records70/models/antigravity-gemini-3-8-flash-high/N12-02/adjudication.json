@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N12-02",
+  "question_id": "Q069",
+  "answer_sha256": "de134b421fc3944a45c50417830d622dfd56399f1906d4ab52553d8fc6d5fc92",
+  "original_rubric_sha256": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+  "original_score_content_sha256": "bbd5c0d878b9c3ffe2e7feff703a2e0cea2ffd8ffc0de834713ae4b710eb9f51",
+  "original_rubric_content_sha256": "12ffe371a47a3aae534dffe0a7dba13f4a28173128237bcfb60a5bee74fcb16e",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "N12-02-L1-04",
+      "status": "resolved_counter_evidence",
+      "grade": 0,
+      "points": 0,
+      "rule": {
+        "full_credit": "按申请年份核验法律硕士（法学）的接收要求、学术硕士细分方向、学位与培养校区等关键条件。",
+        "grading": "three_level",
+        "half_credit": "核项目条件但缺具体指向。",
+        "id": "N12-02-L1-04",
+        "label": "项目具体专业/招生限制核验",
+        "points": 15
+      },
+      "decision": "本节点要求按申请年份核验专业、法本接收资格、学位与校区。答卷仅列通用学制和校名，未给一项当届具体接收条件或路径核验，按原零档 0/15；事后核验不能补成答卷已做核验。华政确有法本可申请的涉外法硕路径，但答卷所称“涉外法治卓越班”与具体硕士专项的等价关系未证，不判项目虚构。",
+      "sources": [
+        {
+          "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark/blob/ba3a60ffec390f00d1e17bc32eb3ad03f6271d4b/experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-02/answer.md",
+          "applicable_cycle": "original frozen answer",
+          "scope": "scored answer text",
+          "finding": "Rubric-specific content and omissions checked against this immutable answer."
+        },
+        {
+          "url": "https://gs.ecupl.edu.cn/2026/0831/c13332a227571/page.htm",
+          "applicable_cycle": "2026 recommendation / 2027 entry",
+          "scope": "official source; do not infer unresolved programme identity",
+          "finding": "2027 ECUPL notice identifies foreign-law master admission options; it does not establish the answer’s shorthand as an exact master programme."
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    65.0,
+    65.0
+  ],
+  "candidate_factual_uncertainties_preserved": [
+    "华政“涉外法治卓越班”简称与2027涉外法硕专项的等价关系未证。"
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:19:35+00:00"
+}

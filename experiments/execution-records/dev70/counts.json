@@ -1,0 +1,60 @@
+{
+  "completed_answers": 554,
+  "configuration_count": 8,
+  "display_notice": "Privacy-adapted display of original runs; scores, models and timestamps preserved. Original hashes identify internal evidence, not transformed text.",
+  "expected_answers": 560,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "rows": [
+    {
+      "agent": "gpt-6-astra",
+      "completed_answers": 70,
+      "name": "GPT Astra",
+      "reviewed": 70
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "completed_answers": 70,
+      "name": "GPT Sol",
+      "reviewed": 70
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "completed_answers": 70,
+      "name": "DeepSeek V4.1 Flash",
+      "reviewed": 70
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "completed_answers": 70,
+      "name": "Gemini 3.1 Pro",
+      "reviewed": 70
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "completed_answers": 70,
+      "name": "Gemini 3.8 Flash",
+      "reviewed": 70
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "completed_answers": 64,
+      "name": "Qwen 3.8 Max",
+      "reviewed": 64
+    },
+    {
+      "agent": "kimi-k3",
+      "completed_answers": 70,
+      "name": "Kimi K3",
+      "reviewed": 70
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "completed_answers": 70,
+      "name": "GLM 5.3 Flash",
+      "reviewed": 70
+    }
+  ],
+  "schema": "execution-counts.1",
+  "scope_tasks": 70,
+  "snapshot_at": "2026-10-10T21:39:13.210298+08:00"
+}

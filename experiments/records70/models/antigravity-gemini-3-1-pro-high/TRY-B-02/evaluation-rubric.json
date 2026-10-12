@@ -1,0 +1,98 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-B-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "联系电气方向、东南首选及电网目标，说明东南候选的适配与关键限制。",
+      "grading": "three_level",
+      "half_credit": "已联系东南电气和本人目标，但具体方向适配或限制不完整。",
+      "id": "TRY-B-02-R10-01",
+      "label": "东南电气主目标",
+      "points": 10
+    },
+    {
+      "full_credit": "分析山东电气的训练与目标电网地区、岗位的联系，并说明选择取舍，不保证就业。",
+      "grading": "three_level",
+      "half_credit": "已有山东电气适配分析，但目标地区、岗位或取舍依据不足。",
+      "id": "TRY-B-02-R10-02",
+      "label": "山东电气候选",
+      "points": 10
+    },
+    {
+      "full_credit": "评价华电电气与电网目标，明确北京、保定及具体项目需区分，并说明选择影响。",
+      "grading": "three_level",
+      "half_credit": "已有华电与电网的具体联系，但校区、项目区分或选择影响不清楚。",
+      "id": "TRY-B-02-R10-03",
+      "label": "华北电力候选",
+      "points": 10
+    },
+    {
+      "full_credit": "联系河海电气、近家和江苏就业偏好，给相对定位并说明接收仍有条件。",
+      "grading": "three_level",
+      "half_credit": "已有地域或电网适配分析，但相对定位或接收条件不完整。",
+      "id": "TRY-B-02-R10-04",
+      "label": "河海电气候选",
+      "points": 10
+    },
+    {
+      "full_credit": "用排名、英语、真实研究及竞赛比较优势短板，保留论文未录用、专利在审和资格未确认的状态。",
+      "grading": "three_level",
+      "half_credit": "使用了真实背景并指出优势或短板，但另一侧或其对选择的影响不足。",
+      "id": "TRY-B-02-R10-05",
+      "label": "当前申请竞争力",
+      "points": 15
+    },
+    {
+      "full_credit": "比较影响选择的学位、方向、导师或培养机制，区分经验判断与正式条件，并指出关键待核信息。",
+      "grading": "three_level",
+      "half_credit": "已有具体培养或考核差异比较，但与本人适配、条件依据或待核边界联系不足。",
+      "id": "TRY-B-02-R10-06",
+      "label": "招生考核与培养适配",
+      "points": 20
+    },
+    {
+      "full_credit": "结合近家和电网目标比较校区与就业地区；家乡或岗位未知时给具体条件分支，不把学习地等同就业地。",
+      "grading": "three_level",
+      "half_credit": "已有具体地域、就业权衡，但未知偏好的处理或地区与岗位联系不足。",
+      "id": "TRY-B-02-R10-07",
+      "label": "地域和就业权衡",
+      "points": 10
+    },
+    {
+      "full_credit": "给与本人偏好一致的择校优先关系及理由，指出可能改变结论的关键条件和核验渠道。",
+      "grading": "three_level",
+      "half_credit": "已有合理优先关系，但理由、改变结论的条件或核验办法不完整。",
+      "id": "TRY-B-02-R10-08",
+      "label": "择校优先与关键核验",
+      "points": 10
+    },
+    {
+      "full_credit": "按本题本科基准及例外核对：有实际推荐时，5－min(5，降级院校数)；同校多个项目只计一次。报告列对象、原因和扣分。",
+      "grading": "three_level",
+      "half_credit": "本项按扣分公式，不使用半分档。",
+      "id": "TRY-B-02-R10-09",
+      "label": "院校层次匹配（降级扣分）",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

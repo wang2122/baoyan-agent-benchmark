@@ -1,0 +1,36 @@
+{
+  "case_group_id": "student-G",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-G-02",
+  "prompt": "我在郑州大学学生物信息，六级425–449分，有一篇生信方向SCI一作还在投稿，没录用，也做过湿实验和校级大创。未来想继续做生信干实验，尤其看重导师，优先考虑高水平学校的直博。这样的英语成绩和在投论文会怎样影响我的申请？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

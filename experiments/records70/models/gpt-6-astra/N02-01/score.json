@@ -1,0 +1,15 @@
+{
+  "schema": "selected-score-row.1",
+  "task_id": "N02-01",
+  "question_id": "Q027",
+  "score_interval": [
+    100.0,
+    100.0
+  ],
+  "pending_nodes": [],
+  "answer_status": "completed",
+  "source_answer_sha256": "ee64937aaa6a83aeb41c37361dbfcc97daa4eb7e39ec08935372ad08061deb6d",
+  "source_kind": "retained_historical_summary",
+  "answer_text_available": true,
+  "recovered_original_text_source": "experiments/records18/models/gpt-6-astra/N02-01/answer.md"
+}

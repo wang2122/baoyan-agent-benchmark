@@ -1,0 +1,10 @@
+{
+  "schema": "selected-record-provenance.1",
+  "agent": "deepseek-v4-1-flash",
+  "task_id": "BY-C-WINTER",
+  "question_id": "Q007",
+  "source_kind": "retained_historical_summary",
+  "source_answer_sha256": "b9d9509e179e8644df0f60bb724408c78503cb636b8ef822aeea57a2c6e5735e",
+  "answer_text_available": true,
+  "original_execution_time": "not_retained_in_public_source"
+}

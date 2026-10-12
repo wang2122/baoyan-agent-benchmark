@@ -1,0 +1,38 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N05",
+  "case_id": "N05",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "hard",
+  "document_question_id": "Q064",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "1c0139a8e29bc8780017392978df47ba2b0788803eb3078e127c45208f523e12",
+  "stages": [
+    {
+      "instruction": "现在是2026年推免申请季。我读交通工程，六级425–449分。这几年参与的项目主要在功能材料方向，但研究生也能考虑交通运输。我不确定该沿本科方向继续，还是转向材料，你能帮我分析一下吗？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "论文的具体情况是：一篇材料相关EI期刊论文已经录用，我是非第一作者；另一篇SCI是合作作者，正在重投，还有一篇一作论文在写。专利申请目前都只是受理。结合这些进展，你再帮我看看两个方向怎么选。",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N05-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "REPRO-DEMO-001",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "优先完成齐全材料并在截止前拿到系统回执；联系导师不能代替报名，也不假定导师接收。",
+      "grading": "three_level",
+      "half_credit": "优先报名但未解释导师联系或回执边界。",
+      "id": "REPRO-DEMO-001-N01",
+      "label": "关键判断",
+      "points": 30
+    },
+    {
+      "full_credit": "使用9月16日18:00截止、三种必需材料及缺件不评审规则；不采信无依据的截止后邮件补交。",
+      "grading": "three_level",
+      "half_credit": "截止和材料要求正确，但遗漏回执或未明确拒绝无依据的补交说法。",
+      "id": "REPRO-DEMO-001-N02",
+      "label": "规则与事实",
+      "points": 25
+    },
+    {
+      "full_credit": "安排草稿完善、材料核对和系统提交，使用1小时与1.5小时预算并留提交检查时间；不把等待导师回复列为前置条件。",
+      "grading": "three_level",
+      "half_credit": "有具体行动先后，但时间预算或提交检查不完整。",
+      "id": "REPRO-DEMO-001-N03",
+      "label": "行动与预算",
+      "points": 30
+    },
+    {
+      "full_credit": "若未能按时齐全提交，照实记录未完成，向正式渠道询问其他已公布机会，不编造延期或补交资格。",
+      "grading": "three_level",
+      "half_credit": "承认可能失败，但后续处理含糊。",
+      "id": "REPRO-DEMO-001-N04",
+      "label": "失败处理",
+      "points": 15
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "not_calibrated_demo",
+  "tier_exception": false,
+  "tier_report_only": true
+}

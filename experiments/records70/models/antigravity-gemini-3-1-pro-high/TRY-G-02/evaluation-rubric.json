@@ -1,0 +1,74 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-G-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "解释425–449的竞争力限制，区分通过六级、经验判断和具体项目门槛。",
+      "grading": "three_level",
+      "half_credit": "已指出英语竞争力有限，但通过考试与正式门槛的区别不清楚。",
+      "id": "TRY-G-02-R10-01",
+      "label": "425–449的经验含义",
+      "points": 15
+    },
+    {
+      "full_credit": "按项目、学位、年份核语言硬条件，说明研究或导师认可不能自动抵消，替代考试或例外须有依据。",
+      "grading": "three_level",
+      "half_credit": "已明确硬条件不能被科研自动抵消，但项目核验、年份或例外依据不足。",
+      "id": "TRY-G-02-R10-02",
+      "label": "语言硬条件与科研的边界",
+      "points": 30
+    },
+    {
+      "full_credit": "区分SCI在投与已录用，说明真实研究在满足硬条件后可增强竞争力，并联系个人贡献。",
+      "grading": "three_level",
+      "half_credit": "成果状态及科研作用正确，但个人贡献或与语言条件的关系不足。",
+      "id": "TRY-G-02-R10-03",
+      "label": "在投科研状态与竞争力作用",
+      "points": 25
+    },
+    {
+      "full_credit": "按目标条件给针对性补弱、重考或被正式认可的替代考试安排，不编统一分数线。",
+      "grading": "three_level",
+      "half_credit": "已有可执行英语补弱动作，但目标依据或考试安排不完整。",
+      "id": "TRY-G-02-R10-04",
+      "label": "英语补弱与考试",
+      "points": 15
+    },
+    {
+      "full_credit": "分别向导师核研究、考核匹配，向招生渠道核语言规则，说明权限不同。",
+      "grading": "three_level",
+      "half_credit": "已有具体咨询对象，但两类权限或应确认的问题不清楚。",
+      "id": "TRY-G-02-R10-05",
+      "label": "导师与招生渠道核边界",
+      "points": 10
+    },
+    {
+      "full_credit": "给可执行条件结论及出分后的范围更新，不否定全部机会或保证录取。",
+      "grading": "three_level",
+      "half_credit": "已有具体分支或更新节点，但另一部分不完整。",
+      "id": "TRY-G-02-R10-06",
+      "label": "条件结论与出分复核",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

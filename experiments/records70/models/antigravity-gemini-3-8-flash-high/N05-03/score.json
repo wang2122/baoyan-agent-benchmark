@@ -1,0 +1,1878 @@
+{
+  "actual_candidate_count": 23,
+  "answer_sha256": "4438df821e166e732e5cf79c45547a49c6fc10fb0f577ec7aec93a298875ac9d",
+  "candidate_limit": 12,
+  "confirmed_component_points": {
+    "coverage": 24.5,
+    "quality": 15.0
+  },
+  "confirmed_points": 39.5,
+  "diagnostic_score": 39.5,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-ACHIEVEMENT": [
+      "facts"
+    ],
+    "E-PROMISE": [
+      "facts"
+    ],
+    "E-QUAL": [
+      "facts"
+    ],
+    "E-SKILL": [
+      "facts"
+    ],
+    "E-TIME": [
+      "execution"
+    ],
+    "E-UNIT11": [
+      "reasons"
+    ],
+    "E-UNIT12": [
+      "N05-12"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**推荐学院**：材料科学与工程学院 或 牵引动力国家重点实验室",
+      "id": "E-UNIT11",
+      "reason": "组合11将独立单位及不同专业合并，未说明单位—专业对应、学位及实际报考路径；正文后文没有补足。缺项可直接裁决，归推荐理由与组合项，不挂pending，也不宣称真实单位不存在。"
+    },
+    {
+      "answer_quote": "**推荐学院**：交通科学与工程学院 或 航空工程学院",
+      "id": "E-UNIT12",
+      "reason": "组合12同时并列两个学院与两个学硕，没有分别定义申请路线，且未明确推荐参考的交通学院交通运输专硕。按模板禁止评审代拆路径；仅归N05-12覆盖，不再据此扣理由或层次项。"
+    },
+    {
+      "answer_quote": "这一排名不仅确保了 100% 稳获本校推免资格",
+      "id": "E-QUAL",
+      "reason": "题面只给专业排名，未告知名额、综合遴选和其他资格条件；不能从前约1%推定资格必然取得。只归facts。"
+    },
+    {
+      "answer_quote": "9月28日下午立即转投南航或中航大本校，100% 确保升学无忧",
+      "id": "E-PROMISE",
+      "reason": "多处将排名及科研优势写成必入营、95%以上或100%录取/任意选择导师奖学金；题设和官方接收程序均无此保证。这是遍及核心选校的过度承诺而非局部措辞。录取保证归facts；这里日期本身的独立时序错误另见E-TIME，不用同一错误重复扣分。"
+    },
+    {
+      "answer_quote": "用实际发表的英文论文作为英语能力的最佳背书，完全抵消六级分数的劣势。",
+      "id": "E-ACHIEVEMENT",
+      "reason": "只知EI已录用，不知已发表或英文；正文还把英文文献数量、独立写作和审稿回复等未披露经历直接作为申请人的面试话术。已录用/在投/写作/受理不可升级成已发表、已证实英语能力，归facts。"
+    },
+    {
+      "answer_quote": "我已熟练掌握微纳多孔隔热材料的制备工艺，能独立操作并分析 SEM、XRD、热重分析（TGA）及高温热导率测试",
+      "id": "E-SKILL",
+      "reason": "题设未提供实验操作、独立程度和具体表征技能。模板虽可填姓名及论文题目，技能句未加真实性条件，直接给出已掌握能力陈述，属于把未知能力当事实；仅归facts。"
+    },
+    {
+      "answer_quote": "9月28日系统开放前：排定最终录取志愿意向优先级",
+      "id": "E-TIME",
+      "reason": "O27官方2026申请季系统从9月21日9:00填志愿，9月22日确认复试、9月24日确认待录取；答卷固定等到9月28日前排志愿并在当日下午兜底，错置核心确认窗口。与无依据承诺录取是独立的时序错误，归execution；不因题目无具体咨询日推断所有项目已截止。"
+    }
+  ],
+  "excess_count": 11,
+  "id": "N05-03",
+  "input_sha256": "c1fef0f6936eb9c9a4d37698c79aae9a3df6e18fd03d6554c51a803489f46443",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "4716c0fbe15491371c542e8e84debee2607252af317c86a78942a33bb5293772",
+  "nodes": [
+    {
+      "id": "N05-01",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01-academic",
+      "points": 1.75,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-02",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03-academic",
+      "points": 5.83,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-03",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A04-academic",
+      "points": 1.75,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-04",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A04-professional",
+      "points": 1.75,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-06",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-07",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A07-academic",
+      "points": 1.75,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-08",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A06-academic",
+      "points": 5.83,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-10",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A08-professional",
+      "points": 5.83,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-11",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N05-12",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 6,
+        "numerator": 35
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "tier",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0,
+      "id": "facts",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 23,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-professional",
+      "answer_quote": "*   **推荐院校**：北京航空航天大学（985 / 双一流建设高校 / 国防七子）\n*   **推荐学院**：材料科学与工程学院\n*   **具体专业（项目）**：**材料与化工（专业学位代码：085600）** 或 **材料科学与工程（学术学位代码：080500）**",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-table",
+      "answer_quote": "| **1** | **北京航空航天大学** | 材料科学与工程学院 | 材料与化工(085600) / 材料科学与工程(080500) | **冲刺档** (顶尖985) | 科研深造轨 | 425分达标 | 徐惠彬/宫声凯院士团队，航空热障涂层与隔热材料天花板 | 夏令营/预推免 (需提前套磁) |",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-academic",
+      "answer_quote": "*   **推荐院校**：北京航空航天大学（985 / 双一流建设高校 / 国防七子）\n*   **推荐学院**：材料科学与工程学院\n*   **具体专业（项目）**：**材料与化工（专业学位代码：085600）** 或 **材料科学与工程（学术学位代码：080500）**",
+      "canonical_candidate_key": "01:academic",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-academic-table",
+      "answer_quote": "| **1** | **北京航空航天大学** | 材料科学与工程学院 | 材料与化工(085600) / 材料科学与工程(080500) | **冲刺档** (顶尖985) | 科研深造轨 | 425分达标 | 徐惠彬/宫声凯院士团队，航空热障涂层与隔热材料天花板 | 夏令营/预推免 (需提前套磁) |",
+      "canonical_candidate_key": "01:academic",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-academic",
+      "answer_quote": "*   **推荐院校**：哈尔滨工业大学（985 / C9联盟 / 国防七子）\n*   **推荐学院**：航天学院（复合材料与结构研究所，CCMS）\n*   **具体专业（项目）**：**航空宇航科学与技术（学术学位代码：082500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "02:academic",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜航空宇航科学与技术",
+      "reason": "航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-academic-table",
+      "answer_quote": "| **2** | **哈尔滨工业大学** | 航天学院 (复材所) | 航空宇航科学与技术(082500) / 材料与化工(085600) | **冲刺档** (C9/985) | 科研深造轨 | 425分达标 | 杜善义/韩杰才/冷劲松团队，特种环境防隔热纳米复材国重室 | 夏令营 + 预推免 (注重科研实绩) |",
+      "canonical_candidate_key": "02:academic",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜航空宇航科学与技术",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-professional",
+      "answer_quote": "*   **推荐院校**：哈尔滨工业大学（985 / C9联盟 / 国防七子）\n*   **推荐学院**：航天学院（复合材料与结构研究所，CCMS）\n*   **具体专业（项目）**：**航空宇航科学与技术（学术学位代码：082500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "02:professional",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜材料与化工",
+      "reason": "航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-professional-table",
+      "answer_quote": "| **2** | **哈尔滨工业大学** | 航天学院 (复材所) | 航空宇航科学与技术(082500) / 材料与化工(085600) | **冲刺档** (C9/985) | 科研深造轨 | 425分达标 | 杜善义/韩杰才/冷劲松团队，特种环境防隔热纳米复材国重室 | 夏令营 + 预推免 (注重科研实绩) |",
+      "canonical_candidate_key": "02:professional",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-academic",
+      "answer_quote": "*   **推荐院校**：同济大学（985 / 双一流建设高校）\n*   **推荐学院**：交通运输工程学院（同济大学交通学院）\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **交通运输（专业学位代码：086100，机场工程/交通设施方向）**",
+      "canonical_candidate_key": "03:academic",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输工程",
+      "reason": "正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-academic-table",
+      "answer_quote": "| **3** | **同济大学** | 交通学院 | 交通运输工程(082300) / 交通运输(086100) | **冲刺档** (顶尖985) | 本专业拔尖轨 | 425分达标 | 凌建明/赵鸿铎团队，机场道面抗热抗冲刷功能材料交叉 | 夏令营尝试 + 预推免重点突破 |",
+      "canonical_candidate_key": "03:academic",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-professional",
+      "answer_quote": "*   **推荐院校**：同济大学（985 / 双一流建设高校）\n*   **推荐学院**：交通运输工程学院（同济大学交通学院）\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **交通运输（专业学位代码：086100，机场工程/交通设施方向）**",
+      "canonical_candidate_key": "03:professional",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输",
+      "reason": "正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-professional-table",
+      "answer_quote": "| **3** | **同济大学** | 交通学院 | 交通运输工程(082300) / 交通运输(086100) | **冲刺档** (顶尖985) | 本专业拔尖轨 | 425分达标 | 凌建明/赵鸿铎团队，机场道面抗热抗冲刷功能材料交叉 | 夏令营尝试 + 预推免重点突破 |",
+      "canonical_candidate_key": "03:professional",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic",
+      "answer_quote": "*   **推荐院校**：西北工业大学（985 / 双一流建设高校 / 国防七子）\n*   **推荐学院**：材料学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-table",
+      "answer_quote": "| **4** | **西北工业大学** | 材料学院 | 材料与化工(085600) / 材料科学与工程(080500) | **核心主力档** (工科985) | 科研深造轨 | 425分达标 | 张立同/李贺军院士团队，陶瓷基复材与超高温隔热防热涂层 | **夏令营首选核心目标** |",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional",
+      "answer_quote": "*   **推荐院校**：西北工业大学（985 / 双一流建设高校 / 国防七子）\n*   **推荐学院**：材料学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-table",
+      "answer_quote": "| **4** | **西北工业大学** | 材料学院 | 材料与化工(085600) / 材料科学与工程(080500) | **核心主力档** (工科985) | 科研深造轨 | 425分达标 | 张立同/李贺军院士团队，陶瓷基复材与超高温隔热防热涂层 | **夏令营首选核心目标** |",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic",
+      "answer_quote": "*   **推荐院校**：南京航空航天大学（211 / 双一流建设高校 / 国防七校）\n*   **推荐学院**：材料科学与技术学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-table",
+      "answer_quote": "| **5** | **南京航空航天大学** | 材料科学与技术学院 | 材料科学与工程(080500) / 材料与化工(085600) | **核心主力档** (行业211) | 科研深造轨 | 425分达标 | 肖军/李斌斌团队，航空轻质隔热功能复材，行业认可极高 | **夏令营极高概率优营** |",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional",
+      "answer_quote": "*   **推荐院校**：南京航空航天大学（211 / 双一流建设高校 / 国防七校）\n*   **推荐学院**：材料科学与技术学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-table",
+      "answer_quote": "| **5** | **南京航空航天大学** | 材料科学与技术学院 | 材料科学与工程(080500) / 材料与化工(085600) | **核心主力档** (行业211) | 科研深造轨 | 425分达标 | 肖军/李斌斌团队，航空轻质隔热功能复材，行业认可极高 | **夏令营极高概率优营** |",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic",
+      "answer_quote": "*   **推荐院校**：南京航空航天大学（211 / 双一流建设高校）\n*   **推荐学院**：民航学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300，载运工具运用工程方向）** 或 **交通运输（专业学位代码：086100，适航技术与管理）**",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-table",
+      "answer_quote": "| **6** | **南京航空航天大学** | 民航学院 | 交通运输工程(082300) / 交通运输(086100) | **核心主力档** (行业211) | 交叉融合轨 | 425分达标 | 张超教授团队，载运工具适航审定与复合材料热损伤维护 | **夏令营极高概率优营** |",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional",
+      "answer_quote": "*   **推荐院校**：南京航空航天大学（211 / 双一流建设高校）\n*   **推荐学院**：民航学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300，载运工具运用工程方向）** 或 **交通运输（专业学位代码：086100，适航技术与管理）**",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-table",
+      "answer_quote": "| **6** | **南京航空航天大学** | 民航学院 | 交通运输工程(082300) / 交通运输(086100) | **核心主力档** (行业211) | 交叉融合轨 | 425分达标 | 张超教授团队，载运工具适航审定与复合材料热损伤维护 | **夏令营极高概率优营** |",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-academic",
+      "answer_quote": "*   **推荐院校**：中南大学（985 / 双一流建设高校）\n*   **推荐学院**：粉末冶金研究院（国家重点实验室）\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "07:academic",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料科学与工程",
+      "reason": "粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-academic-table",
+      "answer_quote": "| **7** | **中南大学** | 粉末冶金研究院 | 材料科学与工程(080500) / 材料与化工(085600) | **核心主力档** (工科985) | 科研深造轨 | 425分达标 | 黄伯云/熊翔团队，航空大飞机炭/炭刹车与高温热防护复材 | 夏令营 + 预推免 |",
+      "canonical_candidate_key": "07:academic",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料科学与工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-professional",
+      "answer_quote": "*   **推荐院校**：中南大学（985 / 双一流建设高校）\n*   **推荐学院**：粉末冶金研究院（国家重点实验室）\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "07:professional",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料与化工",
+      "reason": "粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-professional-table",
+      "answer_quote": "| **7** | **中南大学** | 粉末冶金研究院 | 材料科学与工程(080500) / 材料与化工(085600) | **核心主力档** (工科985) | 科研深造轨 | 425分达标 | 黄伯云/熊翔团队，航空大飞机炭/炭刹车与高温热防护复材 | 夏令营 + 预推免 |",
+      "canonical_candidate_key": "07:professional",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-academic",
+      "answer_quote": "*   **推荐院校**：北京交通大学（211 / 双一流建设高校）\n*   **推荐学院**：交通运输学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **交通运输（专业学位代码：086100）**",
+      "canonical_candidate_key": "08:academic",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输工程",
+      "reason": "学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-academic-table",
+      "answer_quote": "| **8** | **北京交通大学** | 交通运输学院 | 交通运输工程(082300) / 交通运输(086100) | **核心主力档** (行业211) | 本专业拔尖轨 | 425分达标 | 李艳华/毕军团队，综合交通/智慧民航运行，本专业绩点优势突出 | 夏令营/预推免 (高入营率) |",
+      "canonical_candidate_key": "08:academic",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-professional",
+      "answer_quote": "*   **推荐院校**：北京交通大学（211 / 双一流建设高校）\n*   **推荐学院**：交通运输学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **交通运输（专业学位代码：086100）**",
+      "canonical_candidate_key": "08:professional",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输",
+      "reason": "学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-professional-table",
+      "answer_quote": "| **8** | **北京交通大学** | 交通运输学院 | 交通运输工程(082300) / 交通运输(086100) | **核心主力档** (行业211) | 本专业拔尖轨 | 425分达标 | 李艳华/毕军团队，综合交通/智慧民航运行，本专业绩点优势突出 | 夏令营/预推免 (高入营率) |",
+      "canonical_candidate_key": "08:professional",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-academic",
+      "answer_quote": "*   **推荐单位**：中国科学院上海硅酸盐研究所（中国科学院大学培养体系，SIC CAS）\n*   **推荐部门**：特种无机涂层研究中心 / 陶瓷基复合材料结构功能一体化团队\n*   **具体专业（项目）**：**材料学（学术学位代码：080502）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "09:academic",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料学",
+      "reason": "该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-academic-table",
+      "answer_quote": "| **9** | **中科院上海硅酸盐所** | 特种无机涂层中心 | 材料学(080502) / 材料与化工(085600) | **核心主力档** (中科院所) | 科研深造轨 | 425分达标 | 于云/王亮团队，空天热障涂层与多孔隔热功能材料，唯科研论 | **导师邮件直申套磁优先** |",
+      "canonical_candidate_key": "09:academic",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料学",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-professional",
+      "answer_quote": "*   **推荐单位**：中国科学院上海硅酸盐研究所（中国科学院大学培养体系，SIC CAS）\n*   **推荐部门**：特种无机涂层研究中心 / 陶瓷基复合材料结构功能一体化团队\n*   **具体专业（项目）**：**材料学（学术学位代码：080502）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "09:professional",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料与化工",
+      "reason": "该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-professional-table",
+      "answer_quote": "| **9** | **中科院上海硅酸盐所** | 特种无机涂层中心 | 材料学(080502) / 材料与化工(085600) | **核心主力档** (中科院所) | 科研深造轨 | 425分达标 | 于云/王亮团队，空天热障涂层与多孔隔热功能材料，唯科研论 | **导师邮件直申套磁优先** |",
+      "canonical_candidate_key": "09:professional",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-academic",
+      "answer_quote": "*   **推荐院校**：大连理工大学（985 / 双一流建设高校）\n*   **推荐学院**：材料科学与工程学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "10:academic",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-academic-table",
+      "answer_quote": "| **10** | **大连理工大学** | 材料科学与工程学院 | 材料与化工(085600) / 材料科学与工程(080500) | **稳健保底档** (工科985) | 科研深造轨 | 425分达标 | 微纳多孔隔热阻燃材料与航空表面改性，生源包容度高 | 夏令营/预推免 985防线 |",
+      "canonical_candidate_key": "10:academic",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-professional",
+      "answer_quote": "*   **推荐院校**：大连理工大学（985 / 双一流建设高校）\n*   **推荐学院**：材料科学与工程学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+      "canonical_candidate_key": "10:professional",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料与化工",
+      "reason": "材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。 此处学硕与专硕为不同学位路径，内部方向和同义简称不另拆。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-professional-table",
+      "answer_quote": "| **10** | **大连理工大学** | 材料科学与工程学院 | 材料与化工(085600) / 材料科学与工程(080500) | **稳健保底档** (工科985) | 科研深造轨 | 425分达标 | 微纳多孔隔热阻燃材料与航空表面改性，生源包容度高 | 夏令营/预推免 985防线 |",
+      "canonical_candidate_key": "10:professional",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料与化工",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-unbound",
+      "answer_quote": "*   **推荐院校**：西南交通大学（211 / 双一流建设高校）\n*   **推荐学院**：材料科学与工程学院 或 牵引动力国家重点实验室\n*   **具体专业（项目）**：**材料与化工（专业学位代码：085600）** 或 **载运工具运用工程（学术学位代码：082304）**",
+      "canonical_candidate_key": "11:unbound",
+      "error_ids": [
+        "E-UNIT11"
+      ],
+      "label": "西南交通大学｜材料学院或牵引动力实验室（未绑定）｜材料与化工或载运工具运用工程",
+      "reason": "交通装备表面防护研究可支持适配，但两个独立招生单位与两个专业只以“或”并列，全文没有分别绑定具体申请路径。作为一个未绑定组合提取，不能由评审拆成材料学院与牵引实验室两项匹配；缺陷E-UNIT11归理由项。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-unbound-table",
+      "answer_quote": "| **11** | **西南交通大学** | 材料学院/牵引动力室 | 材料与化工(085600) / 载运工具运用工程(082304) | **稳健保底档** (行业211) | 交叉融合轨 | 425分达标 | 陈辉团队，交通装备表面工程防护与耐磨隔热涂层 | 预推免/九推 211强力兜底 |",
+      "canonical_candidate_key": "11:unbound",
+      "error_ids": [
+        "E-UNIT11"
+      ],
+      "label": "西南交通大学｜材料学院或牵引动力实验室（未绑定）｜材料与化工或载运工具运用工程",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。交通装备表面防护研究可支持适配，但两个独立招生单位与两个专业只以“或”并列，全文没有分别绑定具体申请路径。作为一个未绑定组合提取，不能由评审拆成材料学院与牵引实验室两项匹配；缺陷E-UNIT11归理由项。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-unbound",
+      "answer_quote": "*   **推荐院校**：中国民航大学（本校直升）\n*   **推荐学院**：交通科学与工程学院 或 航空工程学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **航空宇航科学与技术（学术学位代码：082500）**",
+      "canonical_candidate_key": "12:unbound",
+      "error_ids": [
+        "E-UNIT12"
+      ],
+      "label": "中国民航大学｜交通科学与工程学院或航空工程学院（未绑定）｜交通运输工程或航空宇航科学与技术",
+      "reason": "本校科研延续是合理候选意向，但两个学院及两个学硕只并列，全文未另行独立绑定；不能替作者补成交通学院082300或航空学院082500。作为一个合并候选保留，具体参考匹配因E-UNIT12失分，不因合并就声称真实学院不存在。",
+      "school_key": "中国民航大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-unbound-table",
+      "answer_quote": "| **12** | **中国民航大学** | 交通学院 / 航空工程学院 | 交通运输工程(082300) / 航空宇航科学与技术(082500) | **绝对保底档** (本校直升) | 全面贯通 | 无门槛 | 本科现有课题组无缝延续，全校顶配奖学金与顶级导师自选 | 9月28日国家系统终极兜底 |",
+      "canonical_candidate_key": "12:unbound",
+      "error_ids": [
+        "E-UNIT12"
+      ],
+      "label": "中国民航大学｜交通科学与工程学院或航空工程学院（未绑定）｜交通运输工程或航空宇航科学与技术",
+      "reason": "横向表中复述同一候选，沿用相同canonical_candidate_key，不增加数量。本校科研延续是合理候选意向，但两个学院及两个学硕只并列，全文未另行独立绑定；不能替作者补成交通学院082300或航空学院082500。作为一个合并候选保留，具体参考匹配因E-UNIT12失分，不因合并就声称真实学院不存在。",
+      "school_key": "中国民航大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-mentioned",
+      "answer_quote": "若申请校本部竞争激烈，亦可同步关注哈工大（深圳）前沿学部/材料学院的高温热管理材料团队（如微纳柔性隔热材料方向）。",
+      "canonical_candidate_key": "13:hitsz-materials-nomination",
+      "error_ids": [],
+      "feasibility": "可据O24了解该学院并咨询团队，但原文未建立具体学位申请路线，不认定为可计覆盖的条件方案。",
+      "key_condition": "原文情景为校本部竞争激烈；并未提供明确的招生门槛条件。",
+      "label": "哈尔滨工业大学（深圳）｜前沿学部材料学院｜高温热管理材料团队（未给具体专业学位）",
+      "reason": "这是校本部竞争激烈时的额外候选提名，O23/O24确认前沿学部与材料学院为上下级关系，故不判单位混淆。答卷只让关注团队，未明确学位专业、可行条件及补齐路径，不能把提名改写为条件录取方案；纳入数量，不计项目覆盖。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-行动-夏令营",
+      "answer_quote": "├── 冲刺投递：哈工大航天学院、同济交通学院、北航材料学院",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在行动-夏令营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-academic-行动-夏令营",
+      "answer_quote": "├── 冲刺投递：哈工大航天学院、同济交通学院、北航材料学院",
+      "canonical_candidate_key": "01:academic",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-夏令营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-academic-行动-夏令营",
+      "answer_quote": "├── 冲刺投递：哈工大航天学院、同济交通学院、北航材料学院",
+      "canonical_candidate_key": "02:academic",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜航空宇航科学与技术",
+      "reason": "这是已列候选在行动-夏令营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-professional-行动-夏令营",
+      "answer_quote": "├── 冲刺投递：哈工大航天学院、同济交通学院、北航材料学院",
+      "canonical_candidate_key": "02:professional",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜材料与化工",
+      "reason": "这是已列候选在行动-夏令营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-academic-行动-夏令营",
+      "answer_quote": "├── 冲刺投递：哈工大航天学院、同济交通学院、北航材料学院",
+      "canonical_candidate_key": "03:academic",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输工程",
+      "reason": "这是已列候选在行动-夏令营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-professional-行动-夏令营",
+      "answer_quote": "├── 冲刺投递：哈工大航天学院、同济交通学院、北航材料学院",
+      "canonical_candidate_key": "03:professional",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输",
+      "reason": "这是已列候选在行动-夏令营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-academic-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "07:academic",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料科学与工程",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-professional-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "07:professional",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料与化工",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-academic-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "08:academic",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输工程",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-professional-行动-必报",
+      "answer_quote": "├── 核心必报：西工大材料、南航材料、南航民航、中南粉冶院、北交大交通学院",
+      "canonical_candidate_key": "08:professional",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输",
+      "reason": "这是已列候选在行动-必报中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-行动-优营",
+      "answer_quote": "├── 重点争取：锁定南航民航/材料、西工大材料的“优秀营员（优营）”资格",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-优营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-行动-优营",
+      "answer_quote": "├── 重点争取：锁定南航民航/材料、西工大材料的“优秀营员（优营）”资格",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在行动-优营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-行动-优营",
+      "answer_quote": "├── 重点争取：锁定南航民航/材料、西工大材料的“优秀营员（优营）”资格",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-优营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-行动-优营",
+      "answer_quote": "├── 重点争取：锁定南航民航/材料、西工大材料的“优秀营员（优营）”资格",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在行动-优营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-行动-优营",
+      "answer_quote": "├── 重点争取：锁定南航民航/材料、西工大材料的“优秀营员（优营）”资格",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在行动-优营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-行动-优营",
+      "answer_quote": "├── 重点争取：锁定南航民航/材料、西工大材料的“优秀营员（优营）”资格",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在行动-优营中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-行动-预推免",
+      "answer_quote": "├── 全力主攻：北航材料专硕预推免、同济交通专硕预推免、大工材料预推免、中科院上硅所补录",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在行动-预推免中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-professional-行动-预推免",
+      "answer_quote": "├── 全力主攻：北航材料专硕预推免、同济交通专硕预推免、大工材料预推免、中科院上硅所补录",
+      "canonical_candidate_key": "03:professional",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输",
+      "reason": "这是已列候选在行动-预推免中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-academic-行动-预推免",
+      "answer_quote": "├── 全力主攻：北航材料专硕预推免、同济交通专硕预推免、大工材料预推免、中科院上硅所补录",
+      "canonical_candidate_key": "09:academic",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料学",
+      "reason": "这是已列候选在行动-预推免中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-professional-行动-预推免",
+      "answer_quote": "├── 全力主攻：北航材料专硕预推免、同济交通专硕预推免、大工材料预推免、中科院上硅所补录",
+      "canonical_candidate_key": "09:professional",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料与化工",
+      "reason": "这是已列候选在行动-预推免中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-academic-行动-预推免",
+      "answer_quote": "├── 全力主攻：北航材料专硕预推免、同济交通专硕预推免、大工材料预推免、中科院上硅所补录",
+      "canonical_candidate_key": "10:academic",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-预推免中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-professional-行动-预推免",
+      "answer_quote": "├── 全力主攻：北航材料专硕预推免、同济交通专硕预推免、大工材料预推免、中科院上硅所补录",
+      "canonical_candidate_key": "10:professional",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在行动-预推免中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-行动-志愿",
+      "answer_quote": "│   ├── 第一志愿：填报心仪的 985/211 核心意向院校（如西工大材料、北航专硕、南航民航）",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在行动-志愿中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-行动-志愿",
+      "answer_quote": "│   ├── 第一志愿：填报心仪的 985/211 核心意向院校（如西工大材料、北航专硕、南航民航）",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-志愿中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-行动-志愿",
+      "answer_quote": "│   ├── 第一志愿：填报心仪的 985/211 核心意向院校（如西工大材料、北航专硕、南航民航）",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在行动-志愿中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-行动-志愿",
+      "answer_quote": "│   ├── 第一志愿：填报心仪的 985/211 核心意向院校（如西工大材料、北航专硕、南航民航）",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在行动-志愿中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-行动-志愿",
+      "answer_quote": "│   ├── 第一志愿：填报心仪的 985/211 核心意向院校（如西工大材料、北航专硕、南航民航）",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在行动-志愿中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-academic-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "02:academic",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜航空宇航科学与技术",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-professional-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "02:professional",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜材料与化工",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-academic-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "09:academic",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料学",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-professional-行动-套磁",
+      "answer_quote": "└── 锁定西工大、哈工大、南航、上硅所目标导师，发送首封学术自荐信（套磁）",
+      "canonical_candidate_key": "09:professional",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料与化工",
+      "reason": "这是已列候选在行动-套磁中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "01:academic",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "02:academic",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜航空宇航科学与技术",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "02:professional",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "07:academic",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料科学与工程",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "07:professional",
+      "error_ids": [],
+      "label": "中南大学｜粉末冶金研究院｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。粉冶院材料学硕/专硕及航空碳基防护制动研究真实、适合科研经历，跨专业基础仍需考核。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "09:academic",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料学",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "09:professional",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所｜特种无机涂层/陶瓷基复材内部科研团队｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。该所为国科大培养体系，科研中心/内部团队不拆为招生院系。材料学按材料研究学硕意向识别，当届上位专业是材料科学与工程；不将导师联系等同正式录取。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-academic-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "10:academic",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-professional-文书-材料",
+      "answer_quote": "### 1. 针对【材料类/航空宇航类】学院的包装策略（北航、西工大、哈工大、南航材料、上硅所、中南、大工）",
+      "canonical_candidate_key": "10:professional",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在文书-材料中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-academic-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "03:academic",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输工程",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-professional-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "03:professional",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-academic-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "08:academic",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输工程",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-professional-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "08:professional",
+      "error_ids": [],
+      "label": "北京交通大学｜交通运输学院｜交通运输",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。学院与交通学硕/专硕身份可识别，交通工程排名可作为适配依据；valid不表示已经审计当届所有英语门槛。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-unbound-文书-交通",
+      "answer_quote": "### 2. 针对【交通类/民航类】学院的包装策略（同济、北交大、南航民航、西南交大）",
+      "canonical_candidate_key": "11:unbound",
+      "error_ids": [
+        "E-UNIT11"
+      ],
+      "label": "西南交通大学｜材料学院或牵引动力实验室（未绑定）｜材料与化工或载运工具运用工程",
+      "reason": "这是已列候选在文书-交通中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。交通装备表面防护研究可支持适配，但两个独立招生单位与两个专业只以“或”并列，全文没有分别绑定具体申请路径。作为一个未绑定组合提取，不能由评审拆成材料学院与牵引实验室两项匹配；缺陷E-UNIT11归理由项。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-邮件标题",
+      "answer_quote": "### 模板：面向材料类/航空宇航类导师（以西工大/北航/南航材料学院为例）",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在邮件标题中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-academic-邮件标题",
+      "answer_quote": "### 模板：面向材料类/航空宇航类导师（以西工大/北航/南航材料学院为例）",
+      "canonical_candidate_key": "01:academic",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在邮件标题中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-邮件标题",
+      "answer_quote": "### 模板：面向材料类/航空宇航类导师（以西工大/北航/南航材料学院为例）",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在邮件标题中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-邮件标题",
+      "answer_quote": "### 模板：面向材料类/航空宇航类导师（以西工大/北航/南航材料学院为例）",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在邮件标题中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-邮件标题",
+      "answer_quote": "### 模板：面向材料类/航空宇航类导师（以西工大/北航/南航材料学院为例）",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在邮件标题中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-邮件标题",
+      "answer_quote": "### 模板：面向材料类/航空宇航类导师（以西工大/北航/南航材料学院为例）",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在邮件标题中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "01:professional",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "01:academic",
+      "error_ids": [],
+      "label": "北京航空航天大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航空热障涂层材料符合学生科研；材料学院项目可识别。官方当届材料专硕代码为085601，答卷085600是上位类别，不将类别写法视为虚构。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "02:academic",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜航空宇航科学与技术",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "02:professional",
+      "error_ids": [],
+      "label": "哈尔滨工业大学｜航天学院复合材料与结构研究所｜材料与化工",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。航天学院复材研究所是学院内部单位，航空宇航学硕及复材材料专硕均可识别；O25仅支持往届复材身份，不证明每一年度的425门槛。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "03:academic",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "03:professional",
+      "error_ids": [],
+      "label": "同济大学｜交通学院｜交通运输",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。正文及表格均明确同济交通学院与两个学位，交通工程本科及机场道面材料方向有具体联系。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "04:academic",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料科学与工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "04:professional",
+      "error_ids": [],
+      "label": "西北工业大学｜材料学院｜材料与化工",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料学院航空陶瓷复材、防热涂层适合学生科研；080500/085600按学科类别识别为当届材料学/材料工程路线，不将其冒充正式细分填报码。",
+      "school_key": "西北工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-academic-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "10:academic",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料科学与工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-professional-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "10:professional",
+      "error_ids": [],
+      "label": "大连理工大学｜材料科学与工程学院｜材料与化工",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。材料科学与工程学院两类材料研究生路径可识别，航空防护材料科研适配；当届章程存在但附件未读，身份判断不证明425或保底成功率。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-unbound-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "11:unbound",
+      "error_ids": [
+        "E-UNIT11"
+      ],
+      "label": "西南交通大学｜材料学院或牵引动力实验室（未绑定）｜材料与化工或载运工具运用工程",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。交通装备表面防护研究可支持适配，但两个独立招生单位与两个专业只以“或”并列，全文没有分别绑定具体申请路径。作为一个未绑定组合提取，不能由评审拆成材料学院与牵引实验室两项匹配；缺陷E-UNIT11归理由项。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-unbound-总结",
+      "answer_quote": "2.  **严格执行“梯度投递 + 积极套磁”**：以**西北工业大学材料学院**、**南京航空航天大学民航/材料学院**作为稳步拿下的主力基石；以**北京航空航天大学**、**哈尔滨工业大学复材所**、**同济大学**作为最高科研追求进行重点冲刺；以**大工、西南交大和中航大本校**作为无懈可击的安全网。",
+      "canonical_candidate_key": "12:unbound",
+      "error_ids": [
+        "E-UNIT12"
+      ],
+      "label": "中国民航大学｜交通科学与工程学院或航空工程学院（未绑定）｜交通运输工程或航空宇航科学与技术",
+      "reason": "这是已列候选在总结中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。本校科研延续是合理候选意向，但两个学院及两个学硕只并列，全文未另行独立绑定；不能替作者补成交通学院082300或航空学院082500。作为一个合并候选保留，具体参考匹配因E-UNIT12失分，不因合并就声称真实学院不存在。",
+      "school_key": "中国民航大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-academic-行动-兜底",
+      "answer_quote": "└── 兜底锁定：若极端情况未达预期，9月28日下午立即转投南航或中航大本校，100% 确保升学无忧",
+      "canonical_candidate_key": "05:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料科学与工程",
+      "reason": "这是已列候选在行动-兜底中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-professional-行动-兜底",
+      "answer_quote": "└── 兜底锁定：若极端情况未达预期，9月28日下午立即转投南航或中航大本校，100% 确保升学无忧",
+      "canonical_candidate_key": "05:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜材料科学与技术学院｜材料与化工",
+      "reason": "这是已列候选在行动-兜底中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。南航材料学院的材料学硕和材料专硕均有当届目录身份，并可承接功能材料研究。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-academic-行动-兜底",
+      "answer_quote": "└── 兜底锁定：若极端情况未达预期，9月28日下午立即转投南航或中航大本校，100% 确保升学无忧",
+      "canonical_candidate_key": "06:academic",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输工程",
+      "reason": "这是已列候选在行动-兜底中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-professional-行动-兜底",
+      "answer_quote": "└── 兜底锁定：若极端情况未达预期，9月28日下午立即转投南航或中航大本校，100% 确保升学无忧",
+      "canonical_candidate_key": "06:professional",
+      "error_ids": [],
+      "label": "南京航空航天大学｜民航学院｜交通运输",
+      "reason": "这是已列候选在行动-兜底中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。民航学院的交通学硕/专硕在当届目录中均含载运工具及适航，适合交通工程背景；导师姓名细节不决定整个院系专业路径是否存在。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-unbound-行动-兜底",
+      "answer_quote": "└── 兜底锁定：若极端情况未达预期，9月28日下午立即转投南航或中航大本校，100% 确保升学无忧",
+      "canonical_candidate_key": "12:unbound",
+      "error_ids": [
+        "E-UNIT12"
+      ],
+      "label": "中国民航大学｜交通科学与工程学院或航空工程学院（未绑定）｜交通运输工程或航空宇航科学与技术",
+      "reason": "这是已列候选在行动-兜底中的重复引用；全文前面的院系专业定义用于消歧，不创造新申请路径。本校科研延续是合理候选意向，但两个学院及两个学硕只并列，全文未另行独立绑定；不能替作者补成交通学院082300或航空学院082500。作为一个合并候选保留，具体参考匹配因E-UNIT12失分，不因合并就声称真实学院不存在。",
+      "school_key": "中国民航大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 12,
+  "rubric_sha256": "cb27c6918317804a3d4f74c3b4846d93a7ec897802fdfae1b20017fd9da5c4a6",
+  "score": 39.5,
+  "score_interval": [
+    39.5,
+    39.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N05-03",
+  "task_kind": "recommendation",
+  "task_sha256": "1366718b2c70b4d643ecbc2bbe66bb10fcaa6f206c4dc77bdc6447af71af81d8",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "*   **推荐院校**：北京航空航天大学（985 / 双一流建设高校 / 国防七子）\n*   **推荐学院**：材料科学与工程学院\n*   **具体专业（项目）**：**材料与化工（专业学位代码：085600）** 或 **材料科学与工程（学术学位代码：080500）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为985层次，无降级。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：哈尔滨工业大学（985 / C9联盟 / 国防七子）\n*   **推荐学院**：航天学院（复合材料与结构研究所，CCMS）\n*   **具体专业（项目）**：**航空宇航科学与技术（学术学位代码：082500）** 或 **材料与化工（专业学位代码：085600）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为985层次，无降级。深圳备选仍属同校且答卷明确培养地，前沿学部包含材料学院。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：同济大学（985 / 双一流建设高校）\n*   **推荐学院**：交通运输工程学院（同济大学交通学院）\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **交通运输（专业学位代码：086100，机场工程/交通设施方向）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为985层次，无降级。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：西北工业大学（985 / 双一流建设高校 / 国防七子）\n*   **推荐学院**：材料学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为985层次，无降级。",
+        "school_key": "西北工业大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：南京航空航天大学（211 / 双一流建设高校 / 国防七校）\n*   **推荐学院**：材料科学与技术学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为211非985，无降级。",
+        "school_key": "南京航空航天大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：中南大学（985 / 双一流建设高校）\n*   **推荐学院**：粉末冶金研究院（国家重点实验室）\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为985层次，无降级。",
+        "school_key": "中南大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：北京交通大学（211 / 双一流建设高校）\n*   **推荐学院**：交通运输学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **交通运输（专业学位代码：086100）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为211非985，无降级。",
+        "school_key": "北京交通大学"
+      },
+      {
+        "answer_quote": "*   **推荐单位**：中国科学院上海硅酸盐研究所（中国科学院大学培养体系，SIC CAS）\n*   **推荐部门**：特种无机涂层研究中心 / 陶瓷基复合材料结构功能一体化团队\n*   **具体专业（项目）**：**材料学（学术学位代码：080502）** 或 **材料与化工（专业学位代码：085600）**",
+        "downgraded": false,
+        "reason": "科研所按中国科学院大学培养及授位体系判断，不按无985/211标签视为降级。",
+        "school_key": "中国科学院上海硅酸盐研究所"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：大连理工大学（985 / 双一流建设高校）\n*   **推荐学院**：材料科学与工程学院\n*   **具体专业（项目）**：**材料科学与工程（学术学位代码：080500）** 或 **材料与化工（专业学位代码：085600）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为985层次，无降级。",
+        "school_key": "大连理工大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：西南交通大学（211 / 双一流建设高校）\n*   **推荐学院**：材料科学与工程学院 或 牵引动力国家重点实验室\n*   **具体专业（项目）**：**材料与化工（专业学位代码：085600）** 或 **载运工具运用工程（学术学位代码：082304）**",
+        "downgraded": false,
+        "reason": "相对中国民航大学普通本科基准，为211非985，无降级。",
+        "school_key": "西南交通大学"
+      },
+      {
+        "answer_quote": "*   **推荐院校**：中国民航大学（本校直升）\n*   **推荐学院**：交通科学与工程学院 或 航空工程学院\n*   **具体专业（项目）**：**交通运输工程（学术学位代码：082300）** 或 **航空宇航科学与技术（学术学位代码：082500）**",
+        "downgraded": false,
+        "reason": "本校同档，无降级。",
+        "school_key": "中国民航大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

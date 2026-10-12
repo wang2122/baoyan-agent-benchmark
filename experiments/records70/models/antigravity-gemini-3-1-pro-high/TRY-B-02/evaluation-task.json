@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-B",
+  "context": {
+    "observation": {
+      "评测时间": "2026年3月"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-B-02",
+  "prompt": "我在南京信息工程大学读电气工程及其自动化，2026年3月排名前约2%，四级600–649分、六级550–599分。本校推免资格尚未确认，电气相关研究的论文尚未录用、专利也在审；另有一些竞赛经历。我想以后进电网，也希望尽量离家近。东南大学、山东大学、华北电力大学和河海大学的电气项目，对我各有什么利弊？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

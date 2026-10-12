@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N14-01",
+  "question_id": "Q054",
+  "answer_sha256": "c6b63a76ddcc41877b0b2d2d5b76504872d52cecdf93f23cfe49331f0f30d93e",
+  "original_rubric_sha256": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+  "original_score_content_sha256": "28128ce00e9c78d11f9894e540aec1913c1612cf00d7fc4288e004e23f3339ff",
+  "original_rubric_content_sha256": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "N14-01-T5",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 3.5,
+      "rule": {
+        "full_credit": "围绕学生实际项目、作者位次、个人分工或成果阶段，落实“形成项目优先关系、文书和面试应对节点”；至少给出与真实证据对应的整理、实验、验证或推进动作，不得将计划/在投说成录用发表。",
+        "grading": "three_level",
+        "half_credit": "识别出真实研究方向并给出一项具体动作，但缺个人贡献、成果状态、证据核验或进度反馈中的重要一环。",
+        "id": "N14-01-T5",
+        "label": "形成项目优先关系、文书和面试应对节点",
+        "points": 7
+      },
+      "decision": "答卷有方向优先、材料与面试动作，但没有落实本人贡献、成果阶段及证明材料的核验与进度反馈。按原半档 3.5/7。南开与武汉大学的审计/资产评估推免路径仍未证实，不把统考目录或税务项目当作它们的当届证明。",
+      "sources": [
+        {
+          "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark/blob/ba3a60ffec390f00d1e17bc32eb3ad03f6271d4b/experiments/records70/models/antigravity-gemini-3-8-flash-high/N14-01/answer.md",
+          "applicable_cycle": "original frozen answer",
+          "scope": "scored answer text",
+          "finding": "Rubric-specific content and omissions checked against this immutable answer."
+        },
+        {
+          "url": "https://bs.nankai.edu.cn/_upload/article/files/d9/13/ef0d55b4406aabc27df593fda16d/5ae4e538-a02b-4181-b0ec-26c3d9677560.pdf",
+          "applicable_cycle": "2026 recommendation / 2027 entry",
+          "scope": "official source; do not infer unresolved programme identity",
+          "finding": "This 2027 pre-admission notice covers a specific Nankai Business School batch, not all MAud/MV routes."
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    55.0,
+    55.0
+  ],
+  "candidate_factual_uncertainties_preserved": [
+    "南开2027 MAud/MV及武汉大学2027 MAud的独立推免专业与院系路径待核。"
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:19:35+00:00"
+}

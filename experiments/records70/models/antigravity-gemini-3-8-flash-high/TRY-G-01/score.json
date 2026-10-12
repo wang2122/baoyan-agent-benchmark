@@ -1,0 +1,692 @@
+{
+  "actual_candidate_count": 18,
+  "answer_sha256": "fb0244a3a16f2a143647a9f8c5f29cfb3f4c4a6c93cc47bca7dc87d9df650544",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 65.0
+  },
+  "confirmed_points": 65.0,
+  "diagnostic_score": 65.0,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "TRY-G-01-L1-05"
+    ],
+    "E02": [
+      "TRY-G-01-L1-02"
+    ],
+    "E03": [
+      "TRY-G-01-L1-03"
+    ],
+    "E04": [
+      "TRY-G-01-L1-05"
+    ],
+    "E05": [
+      "TRY-G-01-L1-05"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "evidence_ids": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "id": "E01",
+      "reason": "将导师认可或强推等同于英语门槛豁免和直接拟录取，且同类断言被推广至中科院各院所。官方复旦2024章程仍要求满足院系条件、材料初审、复试与学校审定；BIG面向2025届的通知还规定录取后轮转选导师。可联系导师评估匹配，不能由此保证资格豁免或录用。题面无周期，不据这些往届规则判某个目标当届停招或425–449分必然不合格。",
+      "supporting_answer_quotes": [
+        "只要导师认可你，六级过线（425分）即可，导师可以直接向教育处要名额录用。"
+      ]
+    },
+    {
+      "answer_quote": "独立完成生物信息学全流程分析架构（含数据清洗、多组学因果分析、机器学习模型预测）；独立撰写全英文手稿与机制图表绘制。",
+      "id": "E02",
+      "reason": "题面只披露做过干湿实验及一篇SCI一作在投，未披露这些分析任务、代码贡献或独立英文写作。作为给该学生的简历贡献写法，未以“若实际完成”限定或提出先核验分工，属于无依据补填本人科研经历；仅用本题输入即可判定，归研究匹配及贡献核验项。"
+    },
+    {
+      "answer_quote": "直博沉没成本极高，不能中途退学",
+      "evidence_ids": [
+        "EV04"
+      ],
+      "id": "E03",
+      "reason": "长期投入风险可讨论，但“不能中途退学”是错误的绝对断言，不能与转硕取得学位混为一谈。教育部2017年学生管理规定允许本人申请并经学校审核后退学，适用研究生及承担研究生教育的科研机构；答卷后文也提到可能退学。仅归硕博培养风险项。"
+    },
+    {
+      "answer_quote": "郑州大学生信本科、排名前 10%、手握推免资格",
+      "id": "E04",
+      "reason": "题面给出排名前约10%但未确认取得推免资格。排名与本科院校不能直接证明校内名额、推荐资格或任何直博项目的全部报考条件；答卷还断言保研名额稳固及冲击直博完全达标，未以待确认资格作条件。按已知学生事实判断，不需要猜测未提供资格。仅归申请限制项。",
+      "supporting_answer_quotes": [
+        "保研名额极其稳固。",
+        "冲击直博则完全达标且有竞争力"
+      ]
+    },
+    {
+      "answer_quote": "“在投（Under Review）”",
+      "id": "E05",
+      "reason": "在投不必然已送审或处于Under Review。题面未披露投稿系统状态，答卷却将它确定为Under Review，并用于简历格式；应保留在投状态或核实后注明。未把这一问题扩张为“论文虚构”或“已录用”，仅归成果状态及申请限制项。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-G-01",
+  "input_sha256": "31a73fc3353235752e0d6e6632135a07313e147efdd22ba6858978d26f42bc48",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "5d982cf7ee71cd90dd8d1b3af17cf851a7780a11f9aa092ce3f6900208b378d3",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "TRY-G-01-L1-01",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-01-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-01-L1-03",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-01-L1-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-01-L1-05",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "TRY-G-01-L1-06",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-01-L1-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 18,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "北京基因组所BIG",
+      "canonical_candidate_key": "CAS_BIG:bioinformatics_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "中国科学院北京基因组研究所（国家生物信息中心）生信考察目标",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。EV02支持生信及硕士/直博方向身份；其2025届轮转规则不被推广为未知申请年度的规则。",
+      "school_key": "CAS_BIG",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "**中国科学院北京基因组研究所（国家生物信息中心，BIG）**：国内生信最高圣殿之一，资源与算力顶级。",
+      "canonical_candidate_key": "CAS_BIG:bioinformatics_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "中国科学院北京基因组研究所（国家生物信息中心）生信考察目标",
+      "occurrence_location": "三、推荐所",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。EV02支持生信及硕士/直博方向身份；其2025届轮转规则不被推广为未知申请年度的规则。",
+      "school_key": "CAS_BIG",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "营养健康所",
+      "canonical_candidate_key": "CAS_SINH:computational_biology_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "上海营养与健康研究所计算生物学考察目标",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。EV06支持由原上海生命院部分机构整合形成的沿革，括号是背景简称，不据此额外拆分或机械判错；未据该沿革声称当届有直博名额。",
+      "school_key": "CAS_SINH",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**中国科学院上海营养与健康研究所（原上海生命科学研究院/计算生物学所）**：生信底蕴深厚，计算与生物结合极其成熟。",
+      "canonical_candidate_key": "CAS_SINH:computational_biology_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "上海营养与健康研究所计算生物学考察目标",
+      "occurrence_location": "三、推荐所",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。EV06支持由原上海生命院部分机构整合形成的沿革，括号是背景简称，不据此额外拆分或机械判错；未据该沿革声称当届有直博名额。",
+      "school_key": "CAS_SINH",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "广州健康院",
+      "canonical_candidate_key": "CAS_GIBH:computational_translation_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "广州生物医药与健康研究院干细胞与单细胞计算考察目标",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。",
+      "school_key": "CAS_GIBH",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**中国科学院广州生物医药与健康研究院（GIBH） / 深圳先进技术研究院（SIAT）**：经费充沛，单细胞与干细胞计算转化强，对技术流学生极度渴望。",
+      "canonical_candidate_key": "CAS_GIBH:computational_translation_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "广州生物医药与健康研究院干细胞与单细胞计算考察目标",
+      "occurrence_location": "三、推荐所",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。",
+      "school_key": "CAS_GIBH",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "浙大/复旦/中山/中科大 导师强推",
+      "canonical_candidate_key": "ZJU:bioinformatics_department_alternatives",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "浙江大学生工食品/农生环/生科院合并直博考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "ZJU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "浙江大学（生工食品学院/农生环/生科院）",
+      "canonical_candidate_key": "ZJU:bioinformatics_department_alternatives",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "浙江大学生工食品/农生环/生科院合并直博考察池",
+      "occurrence_location": "三、冲刺",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "ZJU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "浙大/复旦/中山/中科大 导师强推",
+      "canonical_candidate_key": "FDU:life_science_phenomics_alternatives",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "复旦大学生命科学学院/人类表型组研究院合并直博考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "FDU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "复旦大学（生命科学学院/人类表型组研究院）",
+      "canonical_candidate_key": "FDU:life_science_phenomics_alternatives",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "复旦大学生命科学学院/人类表型组研究院合并直博考察池",
+      "occurrence_location": "三、冲刺",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "FDU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "浙大/复旦/中山/中科大 导师强推",
+      "canonical_candidate_key": "USTC:life_science_medicine_pool",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "中国科学技术大学生命科学与医学部直博考察目标",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "USTC",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "中科大（生命科学与医学部）",
+      "canonical_candidate_key": "USTC:life_science_medicine_pool",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "中国科学技术大学生命科学与医学部直博考察目标",
+      "occurrence_location": "三、冲刺",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "USTC",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "浙大/复旦/中山/中科大 导师强推",
+      "canonical_candidate_key": "SYSU:medical_life_science_alternatives",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "中山大学中山医学院/生命科学学院合并直博考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "SYSU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "中山大学（中山医学院/生命科学学院）",
+      "canonical_candidate_key": "SYSU:medical_life_science_alternatives",
+      "condition_quote": "若导师给出“强推（强 Offer）”，即可绕过夏令营英语机筛，在预推免通过导师指标直接拟录取。",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "发送在投手稿与代码、申请线上学术交流是现实可做的联系步骤；但答卷声称的强推即豁免/直录没有成立依据，导师同意不能代替项目正式资格和选拔。仅认可考察目标，不认可所声称的录取保证。EV01、EV03为2024届官方程序实例；题面无周期，不进一步判定该学生在特定年度的英语硬条件可满足或不可满足。",
+      "key_condition": "答卷规定须争取导师“强推（强 Offer）”，并据此绕过夏令营英语机筛、在预推免用导师指标直接拟录取。",
+      "label": "中山大学中山医学院/生命科学学院合并直博考察池",
+      "occurrence_location": "三、冲刺",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。答卷以导师“强推”为关键申请条件；这里保留其条件目标性质，英语豁免与直接拟录取的保证是E01，不认可该保证，但它不足以证明所列院校本身不可申请。",
+      "school_key": "SYSU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "华中科大 / 中南湘雅 / 武大 / 厦大 / 川大 / 哈工大",
+      "canonical_candidate_key": "HUST:life_science_basic_medicine_alternatives",
+      "error_ids": [],
+      "label": "华中科技大学生命科学与技术学院/基础医学院合并考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "HUST",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**华中科技大学**（生命科学与技术学院 / 基础医学院）：生信底蕴极强，单细胞与表观遗传方向出色。",
+      "canonical_candidate_key": "HUST:life_science_basic_medicine_alternatives",
+      "error_ids": [],
+      "label": "华中科技大学生命科学与技术学院/基础医学院合并考察池",
+      "occurrence_location": "三、主流",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "HUST",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "华中科大 / 中南湘雅 / 武大 / 厦大 / 川大 / 哈工大",
+      "canonical_candidate_key": "CSU:basic_medicine_xiangya_alternatives",
+      "error_ids": [],
+      "label": "中南大学基础医学院/湘雅医院生信团队合并考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "CSU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**中南大学**（基础医学院/湘雅医院生物信息团队）：医学遗传学与医学大数据极强，临床资源雄厚。",
+      "canonical_candidate_key": "CSU:basic_medicine_xiangya_alternatives",
+      "error_ids": [],
+      "label": "中南大学基础医学院/湘雅医院生信团队合并考察池",
+      "occurrence_location": "三、主流",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "CSU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "华中科大 / 中南湘雅 / 武大 / 厦大 / 川大 / 哈工大",
+      "canonical_candidate_key": "WHU:computing_life_science_alternatives",
+      "error_ids": [],
+      "label": "武汉大学计算机学院交叉中心/生命科学学院合并考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "WHU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**武汉大学**（计算机学院交叉中心 / 生命科学学院）：算法与生信结合紧密。",
+      "canonical_candidate_key": "WHU:computing_life_science_alternatives",
+      "error_ids": [],
+      "label": "武汉大学计算机学院交叉中心/生命科学学院合并考察池",
+      "occurrence_location": "三、主流",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "WHU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "华中科大 / 中南湘雅 / 武大 / 厦大 / 川大 / 哈工大",
+      "canonical_candidate_key": "SCU:west_china_life_science_alternatives",
+      "error_ids": [],
+      "label": "四川大学华西医院中心/生命科学学院合并考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "SCU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "**四川大学**（华西医院系统医学与大数据中心 / 生命科学学院）：华西临床数据资源无与伦比。",
+      "canonical_candidate_key": "SCU:west_china_life_science_alternatives",
+      "error_ids": [],
+      "label": "四川大学华西医院中心/生命科学学院合并考察池",
+      "occurrence_location": "三、主流",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "SCU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "华中科大 / 中南湘雅 / 武大 / 厦大 / 川大 / 哈工大",
+      "canonical_candidate_key": "HIT:life_science_computing_alternatives",
+      "error_ids": [],
+      "label": "哈尔滨工业大学生命科学与医学学部/计算机学院合并考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "HIT",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "**哈尔滨工业大学**（生命科学与医学学部 / 计算机学院）：算法与计算生物学功底极其扎实。",
+      "canonical_candidate_key": "HIT:life_science_computing_alternatives",
+      "error_ids": [],
+      "label": "哈尔滨工业大学生命科学与医学学部/计算机学院合并考察池",
+      "occurrence_location": "三、主流",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "HIT",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "华中科大 / 中南湘雅 / 武大 / 厦大 / 川大 / 哈工大",
+      "canonical_candidate_key": "XMU:life_science_public_health_alternatives",
+      "error_ids": [],
+      "label": "厦门大学生命科学学院/公共卫生学院合并考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "XMU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "**厦门大学**（生命科学学院/公共卫生学院）：生信团队精悍，学术氛围优良。",
+      "canonical_candidate_key": "XMU:life_science_public_health_alternatives",
+      "error_ids": [],
+      "label": "厦门大学生命科学学院/公共卫生学院合并考察池",
+      "occurrence_location": "三、主流",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "XMU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "协和/医科院基础所",
+      "canonical_candidate_key": "CAMS_IBMS_PUMC:basic_research_pool",
+      "error_ids": [],
+      "label": "中国医学科学院基础医学研究所/北京协和医学院基础学院考察目标",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。EV05确认医科院基础所与协和基础学院的所院身份；本条不拆成两所项目，也不替答卷推断清华授位或任何牛津联合培养。",
+      "school_key": "CAMS_IBMS_PUMC",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "顶尖医科双一流<br>(协和/医科院基础所、上科大)",
+      "canonical_candidate_key": "SHANGHAITECH:unresolved_bioinformatics_pool",
+      "error_ids": [],
+      "label": "上海科技大学生信考察提议（未落院系）",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。图中虽无院系仍是实际建议，须提取；不据此发明生信具体招生项目。“顶尖医科”标签不足以证明项目性质，层次/例外说明缺失专归L1-07。",
+      "school_key": "SHANGHAITECH",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "郑州大学本校生信/医学院顶尖大牛组<br>(保底不流失)",
+      "canonical_candidate_key": "ZZU:home_bioinformatics_department_alternatives",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "郑州大学本校生科院/基础医学院/药学院合并保底考察池",
+      "occurrence_location": "三、策略图",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。策略图中的重复出现与正文对应目标使用同一canonical_candidate_key。",
+      "school_key": "ZZU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "**郑州大学本校**：联系本校生科院、基础医学院或药学院最顶尖的生信学科带头人，提前锁定学硕或直博保底。",
+      "canonical_candidate_key": "ZZU:home_bioinformatics_department_alternatives",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "郑州大学本校生科院/基础医学院/药学院合并保底考察池",
+      "occurrence_location": "三、保底",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。院系/团队备选合并保留，不拆成多条独立可申请项目。",
+      "school_key": "ZZU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "**中国科学院广州生物医药与健康研究院（GIBH） / 深圳先进技术研究院（SIAT）**：经费充沛，单细胞与干细胞计算转化强，对技术流学生极度渴望。",
+      "canonical_candidate_key": "CAS_SIAT:nomination_in_combined_pool",
+      "error_ids": [],
+      "label": "深圳先进技术研究院（仅在与GIBH合并条目中提名）",
+      "occurrence_location": "三、推荐所",
+      "reason": "SIAT仅出现在GIBH/SIAT合并推荐条目，没有独立报名或授位路径。为完整提取记录候选提名，不能拆成独立有效项目计命中；GIBH另在策略图独立出现，其重复按GIBH原key合并。没有证据说明SIAT本身虚构或不可考察，故提名内容标valid，未作年度招生认证。",
+      "school_key": "CAS_SIAT",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "**中国科学院遗传与发育生物学研究所**：植物与农业生物信息学顶级，多组学资源丰富。",
+      "canonical_candidate_key": "CAS_IGDB:plant_agricultural_bioinformatics_pool",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "中国科学院遗传与发育生物学研究所植物农业生信考察目标",
+      "occurrence_location": "三、推荐所",
+      "reason": "全文实际择校策略中的考察目标。按答卷所给方向粒度记录；valid只表示可列入研究方向与导师的考察池，不表示已核验某届招生、英语资格、导师名额或学位路径。题面未给申请周期，未发现可据以判定该对象不存在或违反已知项目硬门槛的证据，不因缺年度审计或无参考命中判无效。中科院导师认可加425分即可录用的通用断言关联E01，仅在申请限制项失分，不把真实院所整体判成虚构项目。植物农业主题与医学生信不同，题面未明示拒绝该研究问题，保留考察建议；不替学生认定已有植物研究兴趣。",
+      "school_key": "CAS_IGDB",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "6e84451c0931be1f7c945db63f0cc266409820712dd64b6a0300458c33ad7625",
+  "score": 65.0,
+  "score_interval": [
+    65.0,
+    65.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-G-01",
+  "task_kind": "planning",
+  "task_sha256": "611efe905d77c9d768dde30948826cc90f852558e05d2bb8e5d61c0485ba8e68",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已完整审阅正文、表格、mermaid策略图及结尾清单，重复候选按同key记录；只按实际推荐院校列层次。上海交大只在竞争背景举例，Harvard、MIT、Broad、EMBL-EBI、Sanger只作为博士后出口举例，均非本题保研推荐；泛称中流985及纯湿组类型未指向新的可识别候选，不新增项目。没有具体院校的明确排除对象；SIAT为合并条目内提名，不按独立已落实申请项目或实际降级院校计。规划题参考集合为空，coverage为空符合题面，不代表未审候选。学校层次可判定，招生路径缺项及未给年度本身不挂pending。",
+    "schools": [
+      {
+        "answer_quote": "**中国科学院北京基因组研究所（国家生物信息中心，BIG）**：国内生信最高圣殿之一，资源与算力顶级。",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，答卷已关联国科大培养单位；按通则不因没有985/211标签自动降级。这里只作院所路径层次判断，未确认某届项目名额、直博资格或跨单位授位细节。",
+        "school_key": "CAS_BIG"
+      },
+      {
+        "answer_quote": "**中国科学院上海营养与健康研究所（原上海生命科学研究院/计算生物学所）**：生信底蕴深厚，计算与生物结合极其成熟。",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，答卷已关联国科大培养单位；按通则不因没有985/211标签自动降级。这里只作院所路径层次判断，未确认某届项目名额、直博资格或跨单位授位细节。",
+        "school_key": "CAS_SINH"
+      },
+      {
+        "answer_quote": "**中国科学院广州生物医药与健康研究院（GIBH） / 深圳先进技术研究院（SIAT）**：经费充沛，单细胞与干细胞计算转化强，对技术流学生极度渴望。",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，答卷已关联国科大培养单位；按通则不因没有985/211标签自动降级。这里只作院所路径层次判断，未确认某届项目名额、直博资格或跨单位授位细节。",
+        "school_key": "CAS_GIBH"
+      },
+      {
+        "answer_quote": "浙江大学（生工食品学院/农生环/生科院）",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "ZJU"
+      },
+      {
+        "answer_quote": "复旦大学（生命科学学院/人类表型组研究院）",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "FDU"
+      },
+      {
+        "answer_quote": "中科大（生命科学与医学部）",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "USTC"
+      },
+      {
+        "answer_quote": "中山大学（中山医学院/生命科学学院）",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "SYSU"
+      },
+      {
+        "answer_quote": "**华中科技大学**（生命科学与技术学院 / 基础医学院）：生信底蕴极强，单细胞与表观遗传方向出色。",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "HUST"
+      },
+      {
+        "answer_quote": "**中南大学**（基础医学院/湘雅医院生物信息团队）：医学遗传学与医学大数据极强，临床资源雄厚。",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "CSU"
+      },
+      {
+        "answer_quote": "**武汉大学**（计算机学院交叉中心 / 生命科学学院）：算法与生信结合紧密。",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "WHU"
+      },
+      {
+        "answer_quote": "**四川大学**（华西医院系统医学与大数据中心 / 生命科学学院）：华西临床数据资源无与伦比。",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "SCU"
+      },
+      {
+        "answer_quote": "**哈尔滨工业大学**（生命科学与医学学部 / 计算机学院）：算法与计算生物学功底极其扎实。",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "HIT"
+      },
+      {
+        "answer_quote": "**厦门大学**（生命科学学院/公共卫生学院）：生信团队精悍，学术氛围优良。",
+        "downgraded": false,
+        "reason": "所列为985院校，高于郑州大学211非985基准；合并院系并未改变学校层次。层次记录不等于确认具体院系当届招生身份，且本题按three_level项整体评价。",
+        "school_key": "XMU"
+      },
+      {
+        "answer_quote": "协和/医科院基础所",
+        "downgraded": false,
+        "reason": "此条实际为医科院基础所/协和基础学院所院一体的科研培养目标。EV05支持其所院身份及硕博培养基础，按科研院所特殊路径判断，不因没有985/211标签自动降级；未将其等同清华招生或清华授位。答卷未解释特殊路径性质，属于L1-07半分所缺核心。",
+        "school_key": "CAMS_IBMS_PUMC"
+      },
+      {
+        "answer_quote": "顶尖医科双一流<br>(协和/医科院基础所、上科大)",
+        "downgraded": true,
+        "reason": "上科大未列入教育部211名单，2022年官方说明首次入围双一流并同时回顾本校与国科大学位两类历史毕业生。按答卷学校级、未指定联合培养的表述，其普通本校路径为双一流非985/211，低于211本科基准；不能替其创造国科大联合授位例外。这里只报告层次，本题没有按每校另扣分的school_tier节点。题面无精确周期，2022材料不被当作当届名额或规则。",
+        "school_key": "SHANGHAITECH"
+      },
+      {
+        "answer_quote": "**郑州大学本校**：联系本校生科院、基础医学院或药学院最顶尖的生信学科带头人，提前锁定学硕或直博保底。",
+        "downgraded": false,
+        "reason": "本科同校211非985保底，与本科基准同档，不降级；无法由排名自动保证推免资格或锁定名额，相关申请条件问题已归L1-05。",
+        "school_key": "ZZU"
+      },
+      {
+        "answer_quote": "**中国科学院遗传与发育生物学研究所**：植物与农业生物信息学顶级，多组学资源丰富。",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，答卷已关联国科大培养单位；按通则不因没有985/211标签自动降级。这里只作院所路径层次判断，未确认某届项目名额、直博资格或跨单位授位细节。",
+        "school_key": "CAS_IGDB"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "TRY-E-03",
+  "question_id": "Q014",
+  "answer_sha256": "8dc4423a696bfa6c089704515d04a28aa0b0689248356b765c278be39a984a6c",
+  "original_rubric_sha256": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f",
+  "original_score_content_sha256": "9abb417c911b38ec83be06fdd4056e1dc4616ff225dee3e23d64e80affa959f5",
+  "original_rubric_content_sha256": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "TRY-E-03-R10-06",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "围绕AI、计算机学硕和已有NLP研究给候选优先关系，说明哪些条件变化会调整选择。",
+        "grading": "three_level",
+        "half_credit": "已有合理排序或取舍，但研究联系、学位偏好或调整条件不完整。",
+        "id": "TRY-E-03-R10-06",
+        "label": "候选优先与条件取舍",
+        "points": 15
+      },
+      "decision": "原答卷有本校学硕优先及失利时的境外备选顺序，但把 NUS Computing 的直申 MPhil 当成研究型兜底，并把录取说成稳妥收获。适用的 AY2026/27 手册仅列 PhD，MSc 是博士资格考试未过且获准完成的出口。其他排序内容成立，按原半档 7.5/15；此判断仅限该学院及学年。",
+      "sources": [
+        {
+          "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark/blob/ba3a60ffec390f00d1e17bc32eb3ad03f6271d4b/experiments/records70/models/antigravity-gemini-3-1-pro-high/TRY-E-03/answer.md",
+          "applicable_cycle": "original frozen answer",
+          "scope": "scored answer text",
+          "finding": "Rubric-specific content and omissions checked against this immutable answer."
+        },
+        {
+          "url": "https://www.nus.edu.sg/nusbulletin/ay202627/programmes/school-of-computing/graduate-education/research-programmes/",
+          "applicable_cycle": "2025 application / 2026 entry",
+          "scope": "official source; do not infer unresolved programme identity",
+          "finding": "AY2026/27 School of Computing research degrees are PhD; MSc is the specified qualifying-exam exit."
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    50.0,
+    50.0
+  ],
+  "candidate_factual_uncertainties_preserved": [
+    "仍需逐项目核对其他港新院校的研究硕士路径；本裁决不否认 NUS 其他学院或授课型硕士。"
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:19:35+00:00"
+}

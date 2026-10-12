@@ -1,0 +1,111 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "9100ac06929da66f1869dde8bf715d2ecc573f70d3aab41946a08fba4ad656bc",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 92.5
+  },
+  "confirmed_points": 92.5,
+  "diagnostic_score": 92.5,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N09-02-L1-07"
+    ],
+    "E2": [
+      "N09-02-L1-06"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "- ①②③ 全中 → **主导项目**，详写，占简历项目篇幅的主体",
+      "id": "E1",
+      "reason": "S0三问分别核对系统理解、个人可量化产出及方向相关性，不能据此判定学生主导了项目；参与者也可能三项全中。S1仍将能独立扛住追问的机器人项目归入主导型，延续同一角色推断。学生只披露部分项目自己负责、部分仅参与，必须按实际职责确认角色。虽有参与不能升级为主导的正确总原则及子模块独立闭环的条件句，但具体分类没有保持这一限制。仅在事实与证据边界节点处理，不重复处罚其他项目呈现与取舍节点。"
+    },
+    {
+      "answer_quote": "**如果你是 2027 届、为明年做准备：**\n- **最优策略是把 C 类做成真的。**",
+      "evidence_ids": [
+        "EV1",
+        "EV2"
+      ],
+      "id": "E2",
+      "reason": "题面是2026年推免申请季，未给精确月份或学生毕业届别；S0、S1却直接补定10月中旬，并把2026届列作当前申请、2027届列作明年准备。官方2026年发布的2027年接收推免办法明确面向2027年应届本科毕业生，说明2027届通常正处本轮申请，而非当然为明年准备。此分支将最优行动转为新兴趣项目落地，影响本轮应优先完善已有装置证据及答辩的安排，故是执行优先级的实质问题。学生真实年级仍未知，不推断其身份；应先核实当前阶段或按本轮申请条件安排。仅在后续准备节点处理。官方来源及适用范围见evidence.json的EV1、EV2。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N09-02",
+  "input_sha256": "1424ed124d0b9c52f32bbe08443ba1a7676b8dbe701486f18330faeecc8ee62a",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "748fef8efdafdfcc9cf5609b99e244baf059e53563b7b4378acd47d555b60dbb",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N09-02-L1-01",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-02",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-04",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-06",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+  "score": 92.5,
+  "score_interval": [
+    92.5,
+    92.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N09-02",
+  "task_kind": "planning",
+  "task_sha256": "6190338d4beb4fad93c9e20d2bcbad2e7aab7f14f5806703a74677f6eed28d58",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已完整核对S0、S1：没有实际院校、院系或招生路径推荐、排除或候选提名。XX大学XX实验室是简历模板占位符；控制、感知、机构等是材料适配方向，不构成择校候选。本规划题无需院校层次判断。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

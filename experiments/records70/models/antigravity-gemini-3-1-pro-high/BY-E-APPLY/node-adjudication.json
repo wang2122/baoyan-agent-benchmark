@@ -1,0 +1,47 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "BY-E-APPLY",
+  "question_id": "Q012",
+  "answer_sha256": "774c532254eef431ef8e718975f81a2f61d634d646db29ba5903b43a8dde0212",
+  "original_rubric_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+  "original_score_content_sha256": "93f5452762bd62b60de6e6b3dab96960cfd4508d857f6538b4b199f5734869cc",
+  "original_rubric_content_sha256": "16c1e02a23eafcbaaa882b0eb3c58d1cab038e7913f0d0eb670781eda00a66b5",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "BY-E-APPLY-R10-01",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "体现本人方向、学位、排名、科研和申请约束；有合理冲稳保",
+        "grading": "three_level",
+        "half_credit": "已有相关内容但主要条件或执行不完整",
+        "id": "BY-E-APPLY-R10-01",
+        "label": "推荐理由与适配",
+        "points": 15
+      },
+      "decision": "答卷分析了方向、学位、排名、科研和冲稳保；但将CityU与PolyU的项目合并说成六级可用，把PolyU AIBD写成完全无需雅思托福的境外兜底，未核当届项目英语资格或给出补齐条件。PolyU其他语言资格由院系个案考虑，不支持对该申请人六级自动合格的保证。按原半档7.5/15；不声称该届院系绝不个案接受六级，也不重复扣其他节点的错误。",
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/tpg/2026/62037-fai-pai",
+          "applicable_cycle": "2026 or 2027 entry as applicable",
+          "scope": "official admissions condition; FAQ is current context only"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/frequently-asked-questions-tpg",
+          "applicable_cycle": "2026 or 2027 entry as applicable",
+          "scope": "official admissions condition; FAQ is current context only"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    31.5,
+    31.5
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:49:12+00:00"
+}

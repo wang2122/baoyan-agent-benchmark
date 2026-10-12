@@ -1,0 +1,84 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-C-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "结合已有数学建模类竞赛获奖经历，判断追加美赛的新增收益和成本，给有理由的参加或暂缓结论。",
+      "grading": "three_level",
+      "half_credit": "已有再参赛的具体收益或成本分析，但另一侧或结论依据不足。",
+      "id": "TRY-C-03-R10-01",
+      "label": "美赛具体评估",
+      "points": 10
+    },
+    {
+      "full_credit": "联系化工、能源或现有研究评价节能减排，依据队伍、认可和时间提出参加条件。",
+      "grading": "three_level",
+      "half_credit": "已有专业或研究适配分析，但资源、认可或投入条件不完整。",
+      "id": "TRY-C-03-R10-02",
+      "label": "节能减排具体评估",
+      "points": 10
+    },
+    {
+      "full_credit": "结合已有化工类竞赛获奖基础，比较追加化工设计的训练收益与成本，不把旧奖重复当新增收益。",
+      "grading": "three_level",
+      "half_credit": "已考虑旧奖和新增训练价值，但投入成本或继续参赛条件不足。",
+      "id": "TRY-C-03-R10-03",
+      "label": "化工设计具体评估",
+      "points": 10
+    },
+    {
+      "full_credit": "解释已有奖项体现的能力，比较新增收益，并核同类认定和加分上限，避免奖项机械相加。",
+      "grading": "three_level",
+      "half_credit": "已有增量或能力分析，但校内认定、上限或与旧奖的比较不充分。",
+      "id": "TRY-C-03-R10-04",
+      "label": "已有基础、增量与校内认定",
+      "points": 20
+    },
+    {
+      "full_credit": "将论文、课程和英语的实际任务纳入参赛机会成本，明确应优先保护什么。",
+      "grading": "three_level",
+      "half_credit": "已指出具体时间冲突，但被挤占任务或优先关系不清楚。",
+      "id": "TRY-C-03-R10-05",
+      "label": "论文与课程机会成本",
+      "points": 15
+    },
+    {
+      "full_credit": "给明确参加、暂缓或条件决定及理由；参加有组队、任务和时间安排，暂缓有替代时间用途。",
+      "grading": "three_level",
+      "half_credit": "已有具体决定及理由，但执行安排、保护任务或暂缓后的时间用途不足。",
+      "id": "TRY-C-03-R10-06",
+      "label": "参赛决定与执行",
+      "points": 25
+    },
+    {
+      "full_credit": "给与论文、出分、队伍或认定有关的具体复核节点，并说明何种变化会重启或停止。",
+      "grading": "three_level",
+      "half_credit": "已有具体复核节点或变化条件，但另一部分不完整。",
+      "id": "TRY-C-03-R10-07",
+      "label": "复核或重启条件",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

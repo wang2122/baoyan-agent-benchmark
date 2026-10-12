@@ -1,0 +1,60 @@
+[
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "c74259d9142486d1b93a1cae7aea906a7dfd78e2477996f39fb7e68103c4b44d",
+    "path": "answer.md",
+    "export_sha256": "d0bdd072acabe612aad94ed106238e9b9fa8b435b8fb92b50e6582d661c47611",
+    "bytes": 43609,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+    "path": "evaluation-rubric.json",
+    "export_sha256": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+    "bytes": 8242,
+    "transformed": false
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "b14ff9c88f14103a8570c8fb6cb56fe9fa790d3c131405b13c0fa38ae5bcd9cd",
+    "path": "evaluation-task.json",
+    "export_sha256": "f2725dc9b2b69668c0cb15cd84a87842e57d390b2b77cbfae6c78663a9627081",
+    "bytes": 1221,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "0eb886322bab7c6d4342d79d30ba3c53a614c94bd00a576497b3f6e035a66c3e",
+    "path": "judgment.json",
+    "export_sha256": "d752b63ebe0133dcb05b5f2b766f55f6f6df0421a587a27b6ec577fc4d666087",
+    "bytes": 103876,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "path": "metadata.json",
+    "export_sha256": "48d3ee1794076859d18fca3e9316964b157ff5bf5f2e60acd4234dff11ba8ff5",
+    "bytes": 2046
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "path": "question.json",
+    "export_sha256": "0d4dc6b6d27d70a1fece2e9f709d01a8d15f1009df9824187dd60ab3afa70ba6",
+    "bytes": 1306
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "path": "run.json",
+    "export_sha256": "ecf358bde1fd3645f419135029accaa6e027154f263d2f8f3d16eced879fe9ef",
+    "bytes": 550
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "9d326be32e89ae40b15fe5e3224bb4bcf1c92cf87fa6dba4bd1af7610e76ef90",
+    "path": "score.json",
+    "export_sha256": "b3b444379886700af36e8d5888f7c1dc5e4ce813dd25acab15c899806553f13d",
+    "bytes": 66005,
+    "transformed": true
+  }
+]

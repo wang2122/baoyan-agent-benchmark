@@ -1,0 +1,127 @@
+{
+  "task_id": "N11-02",
+  "review_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+  "note": "未检索学生身份、最终去向、本基准或其他答卷。仅核对官方单位方向与学位类别争议；非逐年招生审计。",
+  "sources": [
+    {
+      "id": "O1",
+      "source": "https://yzb.sjtu.edu.cn/post/3773",
+      "title": "上海交通大学2027年硕士推免招生专业目录（校本部）",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "2026秋季招生目录列出生物医学工程学院083100生物医学工程以及085400电子信息的医学影像方向；自动化与感知学院有081100控制科学与工程和085400控制工程。支持医疗影像申请路径和学院、招生专业类别不能自动等同计算机的判断；不认证所有学校的学位标签。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O2",
+      "source": "https://bme.sjtu.edu.cn/Web/Show/4375",
+      "title": "上海交通大学生物医学工程学院2027年接收推荐免试研究生（含直博生）预推免办法",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "2026-09-09公布，接收相关本科专业，六级门槛425并有其他资格要求；支持该候选方向及可分别申请硕士、直博，不将其条件推广至全部单位。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O3",
+      "source": "https://www.birthlab.bme.tsinghua.edu.cn/",
+      "title": "清华大学脑影像实验室",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "隶属生物医学工程学院，2023年成立，开展AI生物医学成像、图像分析与深度学习。仅支持单位和研究方向身份；不证明2026具体招生名额或学生满足门槛。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O4",
+      "source": "https://www.zju.edu.cn/english/2018/0523/c20093a813224/page.htm",
+      "title": "浙江大学生物医学工程与仪器科学学院",
+      "applicable_cycle": "2018年公开学院介绍，2026仅用作单位及方向背景核对",
+      "scope": "2018年学校介绍明确生物医学工程、医学成像和图像信号处理；仅支持长期单位和方向身份，不作2026名额及深度学习导师的逐项认证。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O5",
+      "source": "https://bme.seu.edu.cn/lsh/main.htm",
+      "title": "东南大学生物科学与医学工程学院教师主页",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "学院医学影像AI及深度学习低剂量CT研究；仅核对单位及研究方向，页面在研与更新内容不替代当届招生公告。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O6",
+      "source": "https://newsroom.fudan.edu.cn/_s3/2025/0607/c31a145721/page.psp",
+      "title": "复旦大学生物医学工程与技术创新学院介绍",
+      "applicable_cycle": "2025公开学院介绍，作为2026申请季前已公开方向依据",
+      "scope": "2025-06-07官方介绍列出医学影像与人工智能等方向及临床合作平台；支持相关学院候选方向，不因学院名称未逐字相同判错。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O7",
+      "source": "https://life.hust.edu.cn/info/1886/11637.htm",
+      "title": "华中科技大学生命学院三维医学图像融合研究",
+      "applicable_cycle": "2025科研新闻，作为2026申请季前研究方向依据",
+      "scope": "2025-05-27介绍生命科学与技术学院深度学习三维医学影像融合；支持校内相关方向身份，未核验2026导师接收名额。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O8",
+      "source": "https://www.xjtu.edu.cn/xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1634&wbxjtucollegeid=792",
+      "title": "西安交通大学生物医学影像与应用研究所介绍",
+      "applicable_cycle": "2021单位介绍，2026仅作单位与长期方向核对",
+      "scope": "2021-03-17更新，说明生物医学工程学科支撑方向和研究生培养；支持相关单位、医学影像方向，不将其他学院的深度学习团队强行归入该所。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O9",
+      "source": "https://www.tju.edu.cn/kxyj/xsqy/yxgc.htm",
+      "title": "天津大学医学工程",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "官方研究介绍明确计算机视觉结合CT、MRI等医学影像开展分割和AI辅助诊断；只支持学校层面的相关研究方向，不认证某一学院所有组均如此。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O10",
+      "source": "https://www.ia.ac.cn/yjsjy/zs/bszs/202111/P020211222600312384932.pdf",
+      "title": "自动化研究所研究方向与考试科目材料",
+      "applicable_cycle": "URL归档为2021年；仅用于2026所级方向身份核对，非当届招生规则",
+      "scope": "官方历史材料存在模式识别与智能系统下的智能生物医学影像方向；支持所级候选相关性，不据此规定2026推免考试科目、认定当届必然招生或虚构BME学院。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O11",
+      "source": "https://www.sibet.ac.cn/yjsjy2020/dsxx/",
+      "title": "苏州医工所导师信息",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "官网导师表含生物医学工程083100、电子信息0854与智能影像处理；支持单位、相关方向和可能培养路径，未逐项核验当届名额。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    },
+    {
+      "id": "O12",
+      "source": "https://ibhe.siat.ac.cn/siat/ibhe/yjsgk/yjsjs/index.html",
+      "title": "深圳先进院生物医学与健康工程研究所介绍",
+      "applicable_cycle": "2026年推免申请季（通常对应2027级入学；题面未给具体咨询日）",
+      "scope": "官网明确生物医学与健康工程研究所、医学人工智能研究中心和成像方向；支持院所及研究方向身份，不保证本轮接收及学生学位类别。",
+      "provenance": "reviewer_post_check",
+      "as_of": "2026-10-12",
+      "limitation": "评审补查仅支持所述范围，不证明答卷生成前已核查，不补定学生咨询日期。"
+    }
+  ]
+}

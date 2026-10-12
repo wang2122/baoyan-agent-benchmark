@@ -1,0 +1,23 @@
+{
+  "agent": "gpt-6-1-sol",
+  "category": "规划与决策",
+  "deductions": [
+    {
+      "max_points": 5,
+      "node": "N13-02-L1-07",
+      "points": 2.5,
+      "reason": "排名前约1%、六级450–499准确；未假定缺科研，未将高排名或导师意向等同推免资格和正式录取，区分论文与系统结果状态，官方来源支持所引当年窗口、英语考试及院系接收事实。然而题面仅给2026年申请季，答卷未核实咨询日期却将10月9日作为当前时点，状态边界未完全保持，故按影响有限的未核实推断给半分。早期准备方案与条件分支限制其影响；E1只在本项扣分。"
+    }
+  ],
+  "name": "GPT-6.1 Sol",
+  "pending_nodes": [],
+  "review_status": "completed",
+  "score": 97.5,
+  "score_interval": [
+    97.5,
+    97.5
+  ],
+  "score_status": "scored_draft",
+  "stage_count": 1,
+  "task_id": "N13-02"
+}

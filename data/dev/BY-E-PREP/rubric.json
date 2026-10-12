@@ -1,0 +1,84 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "BY-E-PREP",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "与现有自然语言处理导师确认研究、培养及招生衔接，提出沟通准备，意向不当接收。",
+      "grading": "three_level",
+      "half_credit": "已有具体导师沟通动作，但研究衔接、准备或招生边界不足。",
+      "id": "BY-E-PREP-R10-01",
+      "label": "现有导师与研究衔接",
+      "points": 10
+    },
+    {
+      "full_credit": "推进自然语言处理研究及投稿准备，梳理问题、方法和个人工作用于材料、面试，不把尚未投稿的论文当作已录用成果。",
+      "grading": "three_level",
+      "half_credit": "研究状态正确且有具体推进或表达动作，但另一部分或个人贡献不足。",
+      "id": "BY-E-PREP-R10-02",
+      "label": "自然语言处理研究、投稿与材料表达",
+      "points": 20
+    },
+    {
+      "full_credit": "安排高数、高等代数等数学概念与练习自查，并联系AI、计算机申请。",
+      "grading": "three_level",
+      "half_credit": "已有具体数学自查或练习，但薄弱点、应用或检查安排不足。",
+      "id": "BY-E-PREP-R10-03",
+      "label": "数学基础准备",
+      "points": 15
+    },
+    {
+      "full_credit": "安排机器学习方法、原理及问答训练，联系现有自然语言处理研究理解。",
+      "grading": "three_level",
+      "half_credit": "已有具体机器学习训练，但原理、研究联系或检查办法不足。",
+      "id": "BY-E-PREP-R10-04",
+      "label": "机器学习理解与训练",
+      "points": 15
+    },
+    {
+      "full_credit": "同时安排数据结构梳理与算法、上机练习，给练习或反馈办法。",
+      "grading": "three_level",
+      "half_credit": "已有数据结构或算法编程的具体训练，但另一部分或实际操作不足。",
+      "id": "BY-E-PREP-R10-05",
+      "label": "数据结构、算法与上机",
+      "points": 20
+    },
+    {
+      "full_credit": "安排英文自述、科研问答或话题表达训练，不凭空设统一考试分数线。",
+      "grading": "three_level",
+      "half_credit": "已有具体英语表达训练，但研究联系、练习或反馈不足。",
+      "id": "BY-E-PREP-R10-06",
+      "label": "英语表达准备",
+      "points": 10
+    },
+    {
+      "full_credit": "保护课程与资格准备，排研究、基础训练和材料的优先级，给检查节点及延期调整。",
+      "grading": "three_level",
+      "half_credit": "已有合理顺序或具体节点，但资格保护、延期调整或另一部分不足。",
+      "id": "BY-E-PREP-R10-07",
+      "label": "优先顺序与复盘",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,84 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-G-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "以生信干实验为主线，说明相关生医工交叉是否符合本人研究兴趣及技能；不把湿实验经历等同未来志愿。",
+      "grading": "three_level",
+      "half_credit": "基本方向正确但交叉约束不足。",
+      "id": "TRY-G-01-L1-01",
+      "label": "干实验研究方向与交叉边界",
+      "points": 20
+    },
+    {
+      "full_credit": "分析当前干实验技能、研究问题及导师研究方向的具体契合度，提出核验个人贡献的方法。",
+      "grading": "three_level",
+      "half_credit": "知道要选导师但缺研究问题/本人工作结合。",
+      "id": "TRY-G-01-L1-02",
+      "label": "研究主题与导师匹配",
+      "points": 20
+    },
+    {
+      "full_credit": "比较直博与中九硕士等现实备选在学位、培养年限、研究风险和本人意愿上的取舍。",
+      "grading": "three_level",
+      "half_credit": "能区分学位但缺申请条件或研究投入。",
+      "id": "TRY-G-01-L1-03",
+      "label": "直博与可接受硕士的培养差异",
+      "points": 15
+    },
+    {
+      "full_credit": "区分大学学院、独立研究所、联合培养项目及真实授位主体，要求按当届正式目录确认。",
+      "grading": "three_level",
+      "half_credit": "有相应项目判断但身份或招生条件不清。",
+      "id": "TRY-G-01-L1-04",
+      "label": "院系与研究所的实际招生身份",
+      "points": 15
+    },
+    {
+      "full_credit": "明确英语成绩与项目门槛的区别、论文在投状态及可以补救的现实路径。",
+      "grading": "three_level",
+      "half_credit": "认识到短板但缺条件影响或补救。",
+      "id": "TRY-G-01-L1-05",
+      "label": "英语425–449分和一作SCI在投的申请限制",
+      "points": 15
+    },
+    {
+      "full_credit": "按实际研究意向排序研究方向/导师/学位路径，并给出查证或联系步骤。",
+      "grading": "three_level",
+      "half_credit": "有合理顺序但缺明确动作或条件。",
+      "id": "TRY-G-01-L1-06",
+      "label": "筛选优先级与具体下一步",
+      "points": 10
+    },
+    {
+      "full_credit": "按本人211本科及高水平院校申请目标核对推荐的层次和特殊例外，不凭院校标签排除跨院培养。",
+      "grading": "three_level",
+      "half_credit": "有层次意识但项目性质和例外说明不足。",
+      "id": "TRY-G-01-L1-07",
+      "label": "院校层次适配",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

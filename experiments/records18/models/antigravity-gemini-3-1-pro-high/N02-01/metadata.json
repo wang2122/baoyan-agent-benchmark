@@ -1,0 +1,24 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "antigravity-gemini-3-1-pro-high",
+  "task_id": "N02-01",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "subscription",
+    "cli": "antigravity",
+    "cli_version": "1.3.2",
+    "id": "antigravity-gemini-3-1-pro-high",
+    "model": "gemini-3.1-pro-high",
+    "reasoning_effort": "high"
+  },
+  "original_answer_sha256": "94f6498561af5a562a935848d57a28ae544d3dc9fe330ee450ee23f23a0f3880",
+  "public_display_answer_sha256": "235f21d9a22540d0ed7dc5ed38ce672b08a39390235d3d5638ddde5f770faa8d",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}

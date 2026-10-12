@@ -1,0 +1,370 @@
+{
+  "answer_sha256": "bb5139ad3798998a798150afe00c2c0944c9edb6f2af2514d50046c583570578",
+  "candidates_reviewed": true,
+  "coverage": [],
+  "errors": [
+    {
+      "answer_quote": "专业四级（TEM-4）必须出具“良好”或“优秀”证明",
+      "id": "E-language",
+      "reason": "题面没有TEM-4状态，答卷也没有提供任何拟申请项目当年强制要求TEM-4良好/优秀的依据。将此列为必须要求而非有条件的竞争力提升目标，同时用导师普遍预期替代项目最低门槛，构成语言备考适用条件错误；最直接归N08-01-T1。不是将未附链接本身当成错误。"
+    },
+    {
+      "answer_quote": "我的参营论文独立使用了计量分析软件进行了基准回归、内生性处理和机制检验。",
+      "id": "E-student-facts",
+      "reason": "题面没有参营论文、独立作者贡献或这些已完成分析。前文要求未来写论文，后文却提供可直接使用的已完成话术；同一组话术还写入未披露的数学自修、优秀课程成绩和熟练Python/SQL等经历，且没有核实后使用的条件。示范表达可以给结构，但不能将未确认或规划内容呈现为学生已完成事实；仅归accuracy。"
+    },
+    {
+      "answer_quote": "首都经济贸易大学本校（经济学院、统计学院数字经济方向，必拿优营兜底）",
+      "id": "E-qualification",
+      "reason": "前约2%说明学业排名，不等于已获得校内综合推免资格或已经通过研究生接收考核。答卷还称“稳拿本校推免指标”，两处共同构成以排名保证资格/考核结果的错误；题面未给这些确定状态。此错误不证明本校相关培养方向不存在，也不取消候选身份，只归accuracy。"
+    },
+    {
+      "answer_quote": "中国人民大学（交叉科学研究院、环境学院数经项目）",
+      "id": "E-ruc-path",
+      "reason": "2026-06-25发布的2027推免通知明确列出生态环境学院的学术硕士生态学、硕博直通及直博的人口资源环境经济学/可持续发展管理，没有数字经济。环境学院更名关系成立，但不能把其经济学方向替代为数经项目。交叉科学研究院确有科研与人才培养机构身份，答卷未分别明确它的独立学位申请项目，不能用其实体存在替另一分支创造有效路径；只否定答卷这条混合推荐中已确认错配的招生方向，不声称人大没有其他数字经济项目。官方依据EV-ruc-environment、EV-ruc-cross；清单外错误最直接归accuracy。"
+    },
+    {
+      "answer_quote": "9月28日国家推免服务系统开放首日，12小时内完成志愿填报与录取确认。",
+      "id": "E-calendar",
+      "reason": "适用2026推免申请季的学信网官方日程为9月21日9:00开始填报、9月22日8:00开始确认复试、9月24日14:00开始确认待录取，不能沿用9月28日为首日。官方日程也未规定所有申请统一12小时内完成录取确认，仍须受实际通知约束。此为本周期具体执行安排错误，非以当前年份替换题面年份；仅归execution。官方来源EV-calendar。"
+    }
+  ],
+  "input_sha256": "229c47a7c1e2c8dc5a01a0d076e5733716380421964b52689d8c86df116c6845",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。覆盖项matched_answer_item_id指向recommendation_review中的唯一记录；同一独立候选不能覆盖多个参考目标。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；allowed_exclusion另填rule_id，当前仅E-12可用E-AI-CS-ALT。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "[能力跃迁] 商业数据分析 + 统计学 + 数据分析/产品实习\n           │ 提供：指标拆解、用户行为建模、业务数据链路理解与实操工具",
+      "error_ids": [
+        "E-language"
+      ],
+      "grade": 0.5,
+      "id": "N08-01-T1",
+      "reason": "把商务英语、已修的数据分析/统计课程和实习串成转型故事，另有3分钟英文介绍、文献导读及论文陈述等具体训练，并针对已知雅思6.5提出7.0/7.5的提升目标，属于正确具体内容。核心缺口是未逐目标项目核对当年语言考试种类、最低分数及成绩适用条件，也未安排语言训练的测评反馈；把专四良好/优秀写成必须证明，未区分竞争力提升目标与项目硬门槛，因此半分。语言门槛错误只在本项归属，不再用于事实项扣分。"
+    },
+    {
+      "answer_quote": "**校内选修/重修**：若大三下学期还能选课，务必选修《微积分/高等数学》、《线性代数》、《概率论与数理统计》、《计量经济学》、《中级微观经济学》等课程，争取高分（90+），让成绩单直接说话。",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "N08-01-T2",
+      "reason": "提供数学、宏微观、计量的明确知识模块、教材和考点，并给出校内选课、无法选课时用辅修/MOOC及实证代码证明的行动，适配跨专业补基础。金融方向仅列货币银行学/投资学等考核难点，国际商务方向主要谈契合度，没有形成这两个核心模块的复习动作与检查结果；也未按最终申请方向、项目考核要求缩减课程清单。已有可落实动作但关键模块及适用条件不足，半分。未把题面未披露课程直接视为学生确已不具备。"
+    },
+    {
+      "answer_quote": "**论文攻坚**。4月15日前，必须完成初稿，找校内经济学院或统计学院老师指导修改，跑通实证代码，形成格式规范的参营论文。",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "N08-01-T3",
+      "reason": "以商务英语与数据/产品经历为基础提出文本分析、企业出海等转型研究计划，并明确初稿、教师修改和跑通代码的产出动作，可取得半分。题面未披露D刊/B刊、作者位次或投稿状态，不要求猜测这些事实，也不因未写刊物名称扣分；缺少的核心是先盘点已做英语研究的本人分工、可展示成果及证据，并按实际情况标注已完成/在研/在投/录用/发表、建立贡献与成果状态核验动作。此处只评真实研究证据整理的缺项；面试话术虚写已完成成果另归accuracy，不重复处罚。"
+    },
+    {
+      "answer_quote": "*产品实习*：不要只写“画原型、写PRD”，要提炼为“对平台用户留存机制、转化漏斗模型、算法驱动下的用户反馈闭环有深入产业理解”。",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "N08-01-T4",
+      "reason": "给出将产品任务转为留存、转化漏斗和反馈闭环分析的具体表达，数据实习也有清洗数据、构建指标及A/B测试等行动方向，契合已披露实践背景。核心缺口是未要求核实本人实际做过什么、对比基线/样本/结果幅度，未明确个人贡献与团队成果的边界，也没有可检查的实习案例交付与取舍顺序。因此半分；不把建议中的工具清单当成学生已掌握的事实，不在本项重复扣面试话术虚构的错误。"
+    },
+    {
+      "answer_quote": "**雅思刷分**：争取在2026年4月前刷至 **7.0或7.5分**（写作/口语不低于6.5）。若雅思出分周期长，可考虑**托福（冲刺105+）**，或将**大学英语六级（CET-6）刷至600分以上**。",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "N08-01-T5",
+      "reason": "针对雅思6.5提出提高成绩和口语/写作目标，并给出英文介绍、文献导读及论文问答训练，明确区分了CET-6与专业四级，存在有效备考内容。项目表虽列报名条件、考核方式，却完全没有学位类型/授位主体、学费及培养地的核验动作，这些是本项独立的申请决策核心，故半分。T1的语言硬门槛错误不在本项重复处罚；这里失分依据为学位、费用和培养地核验缺失。"
+    },
+    {
+      "answer_quote": "1. **知识补齐**：我系统自修了《微积分》和《概率论与数理统计》，在校内修读的《商业数据分析》和《统计学》中均取得了优秀成绩；\n> 2. **实操应用**：在数据分析实习中，我熟练使用Python和SQL进行复杂业务数据提取、指标建模与A/B测试因果分析；\n> 3. **科研落地**：我的参营论文独立使用了计量分析软件进行了基准回归、内生性处理和机制检验。",
+      "error_ids": [
+        "E-student-facts",
+        "E-qualification",
+        "E-ruc-path"
+      ],
+      "grade": 0,
+      "id": "accuracy",
+      "reason": "题面仅披露排名前约2%、雅思6.5、修过两门课程及研究/实习经历，未确认推免资格、课程分数、数学自修、软件熟练度、论文及已完成实证。答卷虽然将新论文先写成未来计划，却随后用未加“完成并核实后才可使用”限制的第一人称话术写成已取得优秀成绩、熟练工具和已做回归/机制检验，并把本校资格和优营作确定保证，违反事实与成果状态的核心边界。另有官方本周期项目清单确认的“环境学院数经项目”招生方向错配，作为清单外推荐的内容错误仅归本项。错误均由披露事实及官方依据裁决，无须pending；语言要求和系统日程的独立错误分别归T1与execution。"
+    },
+    {
+      "answer_quote": "### 维度一：学术产出补强——产出一篇跨学科参营论文（重中之重）",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "priority",
+      "reason": "明确把跨学科论文列为重中之重，并说明其展示学术能力、支持参营答辩的用途；同时提醒维持排名，给出数字经济优先、金融适度冲刺的方向顺序，已有优先意识。核心缺口是有限时间下没有对论文、基础课、英语刷分、材料和20–25所投递作实际取舍，未说明先保护哪些最低交付、何时停止新增任务；多个维度都要求“必须”完成，缺少机会成本控制，因此半分。不在本项再次惩罚资格保证等事实错误。"
+    },
+    {
+      "answer_quote": "4月15日前，必须完成初稿，找校内经济学院或统计学院老师指导修改，跑通实证代码，形成格式规范的参营论文。",
+      "error_ids": [
+        "E-calendar"
+      ],
+      "grade": 0.5,
+      "id": "execution",
+      "reason": "有4月15日论文初稿、5–6月材料定稿、6–8月答辩和后续预推免等多个可核查节点，并提出夏令营不达预期时转向预推免，存在具体阶段行动。核心不足是没有论文、课程或语言出分延期时的删减/重排措施，未先确认咨询所处阶段是否仍有“大三下”时间；题面只给2026申请季，不能由运行日期推定学生已错过所有窗口。另将9月28日固定为本周期系统开放首日并要求12小时内填报和确认，而官方2026日程为9月21日起填报、9月24日起确认待录取，结尾行动会受错误日期影响。已有有效准备节点但调整机制和本周期关键操作安排不足，半分；系统时间错误仅归本项。官方来源见evidence.json EV-calendar。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "中国人民大学（交叉科学研究院、环境学院数经项目）",
+      "canonical_candidate_key": "ruc:cross_environment_group",
+      "error_ids": [
+        "E-ruc-path"
+      ],
+      "label": "中国人民大学交叉科学研究院/环境学院数经混合推荐",
+      "reason": "冲刺层的实际推荐，两个单位未分别明确独立申请路径，按一条混合记录保留，不拆分命中。交叉科学研究院真实存在；环境学院已更名为生态环境学院。但本周期官方推免项目清单不支持“环境学院数经项目”，为已确认方向错配，整条所述混合申请路径不能按有效数经推荐认可；不是因为搜索不到或名称旧而判错。最直接失分项为accuracy，依据evidence.json EV-ruc-environment/EV-ruc-cross。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "对外经济贸易大学（国际经贸学院、信息学院、统计学院）",
+      "canonical_candidate_key": "uibe:econ_information_statistics_group",
+      "error_ids": [],
+      "label": "对外经济贸易大学国际经贸/信息/统计混合建议",
+      "reason": "直接冲刺建议，学校及相关经管/数据培养单位层面的候选成立。多院系并列未分别指定可申请专业，保持混合记录，不替答卷拆出项目。本题无覆盖参考，该valid只认可候选身份与相关方向，不表示已逐年审计全部语言、跨专业与报名门槛。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "中央财经大学（中国互联网经济研究院、创新发展学院、统计学院）",
+      "canonical_candidate_key": "cufe:internet_innovation_statistics_group",
+      "error_ids": [],
+      "label": "中央财经大学互联网经济/创新发展/统计混合建议",
+      "reason": "混合冲刺建议未分别明确独立项目，保留一条。官方2027推免通知说明中国互联网经济研究院整合入国家财经战略研究院，且后者招数字经济学；2027学校章程也列创新发展学院及统计与数学学院。旧称与组织整合不等于虚构或停招，按身份连续性认可相关候选；申请仍需落实当前主体和跨专业条件，不声称商务英语已被确认满足其“相同或相近”条件。依据EV-cufe-reorganization/EV-cufe-catalogue。",
+      "school_key": "cufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "南开大学/厦门大学/武汉大学（经管交叉学科、数字经济学硕/专硕）",
+      "canonical_candidate_key": "nankai:broad_business_digital",
+      "error_ids": [],
+      "label": "南开大学经管交叉/数字经济方向建议",
+      "reason": "同一行明确列出的独立学校候选，按学校分别记录；没有给出独立学院、专业或学位路径，未替答卷补造。学校层面的经管相关建议可成立，valid不代表该校同时具备文中学硕/专硕两条数经路径，也不代表逐年招生或资格已核实。无参考覆盖项，不因项目信息较粗或未附链接判为不存在。",
+      "school_key": "nankai",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "南开大学/厦门大学/武汉大学（经管交叉学科、数字经济学硕/专硕）",
+      "canonical_candidate_key": "xmu:broad_business_digital",
+      "error_ids": [],
+      "label": "厦门大学经管交叉/数字经济方向建议",
+      "reason": "同一行明确列出的独立学校候选，按学校分别记录；没有给出独立学院、专业或学位路径，未替答卷补造。学校层面的经管相关建议可成立，valid不代表该校同时具备文中学硕/专硕两条数经路径，也不代表逐年招生或资格已核实。无参考覆盖项，不因项目信息较粗或未附链接判为不存在。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "南开大学/厦门大学/武汉大学（经管交叉学科、数字经济学硕/专硕）",
+      "canonical_candidate_key": "whu:broad_business_digital",
+      "error_ids": [],
+      "label": "武汉大学经管交叉/数字经济方向建议",
+      "reason": "同一行明确列出的独立学校候选，按学校分别记录；没有给出独立学院、专业或学位路径，未替答卷补造。学校层面的经管相关建议可成立，valid不代表该校同时具备文中学硕/专硕两条数经路径，也不代表逐年招生或资格已核实。无参考覆盖项，不因项目信息较粗或未附链接判为不存在。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "北京交通大学（经济管理学院 - 产业经济/物流/数字经济）",
+      "canonical_candidate_key": "bjtu:sem_group",
+      "error_ids": [],
+      "label": "北京交通大学经济管理学院产业经济/物流/数经方向建议",
+      "reason": "实际稳妥层建议；本周期官方预报名汇总列出经济管理学院，院系身份及相关经管培养路径成立。产业经济/物流/数经是同院系下含糊并列的方向，不机械拆分为三个可投项目，不声称每个方向均逐年核准或录取稳妥。来源EV-bjtu。",
+      "school_key": "bjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "北京邮电大学（经济管理学院 - 信息黄埔数字经济/管科项目，极度契合）",
+      "canonical_candidate_key": "bupt:sem_group",
+      "error_ids": [],
+      "label": "北京邮电大学经济管理学院数经/管科相关建议",
+      "reason": "经管学院相关方向的直接建议，学校/院系候选身份与数字产业、管理研究的关联可成立。数字经济、管科及后文金融科技没有分别明确专业或学位路径，保持院系方向组合，不将修辞“信息黄埔”视为新项目。valid不确认其偏好描述或该学生稳妥录取，也不代表全部年度门槛已审计。",
+      "school_key": "bupt",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "北京科技大学（经济管理学院）",
+      "canonical_candidate_key": "ustb:sem",
+      "error_ids": [],
+      "label": "北京科技大学经济管理学院建议",
+      "reason": "直接建议到院系粒度，真实相关经管培养单位层面的候选成立；没有专业和个人门槛核对，不替它创造更细推荐。无覆盖参考，不因粒度粗直接判错，valid不代表当年度所有项目可投。",
+      "school_key": "ustb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "中国社会科学院大学（应用经济学院 / 商学院）",
+      "canonical_candidate_key": "ucass:applied_business_group",
+      "error_ids": [],
+      "label": "中国社会科学院大学应用经济学院/商学院混合建议",
+      "reason": "两个院系合写、未分别给出独立专业申请路径，保留混合候选。官方本周期应用经济学院接收细则及商学院招生页面确认双方真实相关招生身份，故候选有效；不把合并名称自行展开为多条项目，也不确认“稳妥”概率。依据EV-ucass-applied/EV-ucass-business。",
+      "school_key": "ucass",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "西南财经大学 / 中南财经政法大学（顶尖211财经主干学院）",
+      "canonical_candidate_key": "swufe:broad_business",
+      "error_ids": [],
+      "label": "西南财经大学财经主干方向建议",
+      "reason": "同一行列出的独立学校建议，按学校分别提取。财经相关学校候选成立，但“主干学院”不是明确院系/专业，不能据此造出实际项目或保证稳妥录取。valid限于所述学校与相关领域的内容判断，未完成逐年项目级招生审计。",
+      "school_key": "swufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "西南财经大学 / 中南财经政法大学（顶尖211财经主干学院）",
+      "canonical_candidate_key": "zuel:broad_business",
+      "error_ids": [],
+      "label": "中南财经政法大学财经主干方向建议",
+      "reason": "同一行列出的独立学校建议，按学校分别提取。财经相关学校候选成立，但“主干学院”不是明确院系/专业，不能据此造出实际项目或保证稳妥录取。valid限于所述学校与相关领域的内容判断，未完成逐年项目级招生审计。",
+      "school_key": "zuel",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "吉林大学 / 湖南大学 / 华东师范大学（对专业第1认可度高的综合985）",
+      "canonical_candidate_key": "jlu:broad_business",
+      "error_ids": [],
+      "label": "吉林大学综合院校经管方向建议",
+      "reason": "在择校梯度中明确列出的独立学校建议，按学校分别记录；学校层面的经管相关候选成立。没有具体院系、项目和跨专业条件，“对专业第1认可度高”未被评审当成确定招生事实或录取承诺；不因缺少年度审计判不存在，valid不代表可直接报名。",
+      "school_key": "jlu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "吉林大学 / 湖南大学 / 华东师范大学（对专业第1认可度高的综合985）",
+      "canonical_candidate_key": "hnu:broad_business",
+      "error_ids": [],
+      "label": "湖南大学综合院校经管方向建议",
+      "reason": "在择校梯度中明确列出的独立学校建议，按学校分别记录；学校层面的经管相关候选成立。没有具体院系、项目和跨专业条件，“对专业第1认可度高”未被评审当成确定招生事实或录取承诺；不因缺少年度审计判不存在，valid不代表可直接报名。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "吉林大学 / 湖南大学 / 华东师范大学（对专业第1认可度高的综合985）",
+      "canonical_candidate_key": "ecnu:broad_business",
+      "error_ids": [],
+      "label": "华东师范大学综合院校经管方向建议",
+      "reason": "在择校梯度中明确列出的独立学校建议，按学校分别记录；学校层面的经管相关候选成立。没有具体院系、项目和跨专业条件，“对专业第1认可度高”未被评审当成确定招生事实或录取承诺；不因缺少年度审计判不存在，valid不代表可直接报名。",
+      "school_key": "ecnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "首都经济贸易大学本校（经济学院、统计学院数字经济方向，必拿优营兜底）",
+      "canonical_candidate_key": "cueb:economics_statistics_digital_group",
+      "error_ids": [
+        "E-qualification"
+      ],
+      "label": "首都经济贸易大学经济/统计数经混合托底建议",
+      "reason": "本校相关经管/数经候选可以成立，多院系并列未分别明确专业，保留混合条目，未替答卷认定统计院系独立招数经专硕。官方招生页面本次抓取失败不证明任何方向不存在，也不因此pending。错误是“必拿优营”的确定保证，关联E-qualification并只归accuracy；候选身份valid不等于已取得资格或优营。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "区域重点211高校（如辽宁大学、福州大学等经管优势专硕项目）",
+      "canonical_candidate_key": "lnu:broad_business_professional",
+      "error_ids": [],
+      "label": "辽宁大学经管专硕托底提名",
+      "reason": "“如”后两所学校处于保底推荐层，是实际候选而非背景校名，各自记录。学校与经管相关培养领域层面的建议成立，专业未具体化，不确认托底成功概率、所有专硕路径或年度硬门槛。valid仅表示未见已知事实否定该宽粒度候选，不将未命中空参考或未逐年审计视为错误。",
+      "school_key": "lnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "区域重点211高校（如辽宁大学、福州大学等经管优势专硕项目）",
+      "canonical_candidate_key": "fzu:broad_business_professional",
+      "error_ids": [],
+      "label": "福州大学经管专硕托底提名",
+      "reason": "“如”后两所学校处于保底推荐层，是实际候选而非背景校名，各自记录。学校与经管相关培养领域层面的建议成立，专业未具体化，不确认托底成功概率、所有专硕路径或年度硬门槛。valid仅表示未见已知事实否定该宽粒度候选，不将未命中空参考或未逐年审计视为错误。",
+      "school_key": "fzu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "**对外经济贸易大学（UIBE）**：对首经贸的认可度较高，且其商务英语、国际商务在全国处于领军地位，非常认可商务英语+经管复合人才，应作为主力攻坚目标。",
+      "canonical_candidate_key": "uibe:econ_information_statistics_group",
+      "error_ids": [],
+      "label": "对外经济贸易大学重复主力建议",
+      "reason": "全文后续再次主力推荐贸大，使用A02相同canonical key；提及本校商务英语/国际商务优势不据此另造一个独立院系申请路径。候选身份成立，但主观认可度描述不是核准门槛或录取保证。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**北京邮电大学（BUPT）经管学院**：北邮的数字经济、金融科技和管科项目产业资源丰富，偏好懂产品、懂数据分析、综合素质高的学生，你的产品实习和数据背景极其符合导师胃口。",
+      "canonical_candidate_key": "bupt:sem_group",
+      "error_ids": [],
+      "label": "北京邮电大学经管学院重复建议",
+      "reason": "同一经管单位的重复建议，研究方向并列没有新的独立申请路径，使用A08相同key，不以金融科技字样机械增加项目。valid限于候选学校/院系方向，不确认“导师胃口”或产业资源的普遍断言。",
+      "school_key": "bupt",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "若夏令营拿到的Offer已达到最优预期（如央财、贸大、北邮优营），可安心准备提前联系导师；",
+      "canonical_candidate_key": "cufe:internet_innovation_statistics_group",
+      "error_ids": [],
+      "label": "央财优营结果举例中的重复提名",
+      "reason": "这是已明确推荐学校在假设夏令营结果中的重复出现，记录为mentioned并合并原key；不是学生已经拿到Offer，也不是新的独立项目推荐。条件针对何时联系导师，不针对某个候选能否申请，因此不改写为conditional招生方案。",
+      "school_key": "cufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "若夏令营拿到的Offer已达到最优预期（如央财、贸大、北邮优营），可安心准备提前联系导师；",
+      "canonical_candidate_key": "uibe:econ_information_statistics_group",
+      "error_ids": [],
+      "label": "贸大优营结果举例中的重复提名",
+      "reason": "这是已明确推荐学校在假设夏令营结果中的重复出现，记录为mentioned并合并原key；不是学生已经拿到Offer，也不是新的独立项目推荐。条件针对何时联系导师，不针对某个候选能否申请，因此不改写为conditional招生方案。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "若夏令营拿到的Offer已达到最优预期（如央财、贸大、北邮优营），可安心准备提前联系导师；",
+      "canonical_candidate_key": "bupt:sem_group",
+      "error_ids": [],
+      "label": "北邮优营结果举例中的重复提名",
+      "reason": "这是已明确推荐学校在假设夏令营结果中的重复出现，记录为mentioned并合并原key；不是学生已经拿到Offer，也不是新的独立项目推荐。条件针对何时联系导师，不针对某个候选能否申请，因此不改写为conditional招生方案。",
+      "school_key": "bupt",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "88424e92227dc8a6ad7a249d7c7abfbe6a925dde1f01c4d500b6e2cd5bc88bf4",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "N08-01",
+  "task_sha256": "b5ed808c185afeaaed1ea9fae83d197637b0a06ffc3c58aa87883e4611658482",
+  "tier_review": {
+    "reason": "本题planning rubric没有school_tier节点、没有覆盖参考和候选上限，层次核对不适用，不另扣层次或数量分。已全文提取全部实际学校候选及重复出现，跨校并列逐校记录，含糊多院系组合不拆出独立项目；无明确排除项。数字经济/管科/国际商务/金融等通用方向建议用于规划节点审阅，不再按没有学校主体的类别名称制造院校候选。背景诊断中的“清北复交人、浙南财”及MOOC渠道中的北大/清华只是背景或补课资源，未当作推荐。纯缺项均已按档位裁决；候选valid并非全年招生事实已审计。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,1284 @@
+{
+  "actual_candidate_count": 40,
+  "answer_sha256": "244a322122d234f18999506a782030d6192144d5ee10798bea181267277d2fe5",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 40.0
+  },
+  "confirmed_points": 40.0,
+  "diagnostic_score": 40.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "accuracy"
+    ],
+    "E2": [
+      "N14-01-T3"
+    ],
+    "E3": [
+      "N14-01-T5"
+    ],
+    "E4": [
+      "N14-01-T1"
+    ],
+    "E5": [
+      "N14-01-T5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "基本可以判定已提前锁定本校的外推/保研资格，消除了“无法出校”的后顾之忧。",
+      "id": "E1",
+      "reason": "题面仅披露专业排名前约5%，没有校内综合排名、推免名额或资格认定结果。将估计名额和成绩排名转为资格已锁定，虚构了影响决策的资格状态；后文询问测算口径不能消除前文断言。仅在accuracy处理。"
+    },
+    {
+      "answer_quote": "这一分数彻底清除了所有国内高校的初审外语壁垒",
+      "id": "E2",
+      "reason": "550–599不能保证满足所有项目语言要求。2026年燕京学堂夏令营（面向2027届，含经济与管理方向）官方要求六级600或符合所列替代成绩；题面没有替代成绩。该官方反例只否定全称判断，不把燕京学堂新增为答卷候选。见evidence.json EV1；仅在T3处理。"
+    },
+    {
+      "answer_quote": "申请央财、对外经贸、北理、天大、南开等院校的 MPAcc 或会计学硕",
+      "id": "E3",
+      "reason": "该并列建议中的北理MPAcc、天大MPAcc不能作为所述推免通道：北理2027年管理学院推免专业清单不含125300，MPAcc招生说明为非全日制；天大2027招生简章明确MPAcc不接收推免。保留同句中可能成立的会计学硕部分，不将其他学校或全部会计路线判错。见EV2、EV3、EV4；仅在T5处理。"
+    },
+    {
+      "answer_quote": "北化会计学的培养方案能够 100% 覆盖会计方向初审与复试笔试的基础考点。",
+      "id": "E4",
+      "reason": "未核对个人课程或目标项目考核即作100%覆盖的全称保证；另将学硕研究例题、金融面试必问内容说成通用考核要求，欠缺项目适用条件。北航当期推免方案采用现场面试并明确没有指定参考书或研究内容（EV5），不能把课程例题当共同考试要求。仅在T1处理；T4的条件式补课动作另行评价。"
+    },
+    {
+      "answer_quote": "初审入营概率高达 85% 以上",
+      "id": "E5",
+      "reason": "仅有本科专业、排名和六级分数，没有项目当期筛选模型、个人研究实践或可支持个体概率的样本，无法给出此概率。文中又称100%入营/锁定录取及必将录取，过度确定的项目优先判断失去依据。仅在T5处理，不另在accuracy或priority重复处罚。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N14-01",
+  "input_sha256": "1675ce67ad62fa449716a23570c04ee8351b78ccf95f750a36648cfaf91c9072",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "70d7873cbe044e23959360a2cd97ebf250ae1b4c2f533de094ca5faf66cf47e0",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N14-01-T1",
+      "kind": "quality",
+      "points": 9.0
+    },
+    {
+      "grade": 0,
+      "id": "N14-01-T2",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T3",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "N14-01-T4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T5",
+      "kind": "quality",
+      "points": 3.5
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "priority",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 40,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "申请央财、对外经贸、北理、天大、南开等院校的 MPAcc 或会计学硕",
+      "canonical_candidate_key": "中央财经大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "会计学硕/MPAcc并列，不能替答卷拆成两条独立申请路径。会计方向建议有可识别专业身份，保留合并表述；不承认高概率保证，不以未逐年核验直接判错。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "申请央财、对外经贸、北理、天大、南开等院校的 MPAcc 或会计学硕",
+      "canonical_candidate_key": "对外经济贸易大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "会计学硕/MPAcc并列，不能替答卷拆成两条独立申请路径。会计方向建议有可识别专业身份，保留合并表述；不承认高概率保证，不以未逐年核验直接判错。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "申请央财、对外经贸、北理、天大、南开等院校的 MPAcc 或会计学硕",
+      "canonical_candidate_key": "北京理工大学/accounting_alternatives",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "会计学硕/MPAcc并列，不能替答卷拆成两条独立申请路径。其中MPAcc推免路径已被当期官方材料否定，整条并列方案含错误而标invalid；不据此认定同句会计学硕也不存在。EV2—EV4支持，错误只在T5处理。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "申请央财、对外经贸、北理、天大、南开等院校的 MPAcc 或会计学硕",
+      "canonical_candidate_key": "天津大学/accounting_alternatives",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "会计学硕/MPAcc并列，不能替答卷拆成两条独立申请路径。其中MPAcc推免路径已被当期官方材料否定，整条并列方案含错误而标invalid；不据此认定同句会计学硕也不存在。EV2—EV4支持，错误只在T5处理。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "申请央财、对外经贸、北理、天大、南开等院校的 MPAcc 或会计学硕",
+      "canonical_candidate_key": "南开大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "会计学硕/MPAcc并列，不能替答卷拆成两条独立申请路径。会计方向建议有可识别专业身份，保留合并表述；不承认高概率保证，不以未逐年核验直接判错。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "央财、上财、对外经贸或中南财经政法大学的税务专硕",
+      "canonical_candidate_key": "中央财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "明确主攻税务专硕，方向与会计本科相关；“如果主攻”是选择意愿，不是另设资格条件。项目身份成立，不采信85%以上概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "央财、上财、对外经贸或中南财经政法大学的税务专硕",
+      "canonical_candidate_key": "上海财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "明确主攻税务专硕，方向与会计本科相关；“如果主攻”是选择意愿，不是另设资格条件。项目身份成立，不采信85%以上概率。原文后称财政税务学院，而官方当期为财税投资学院；学校与税务专业已明确，院名误称不据此虚构不存在的税务专业，见EV7。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "央财、上财、对外经贸或中南财经政法大学的税务专硕",
+      "canonical_candidate_key": "对外经济贸易大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "明确主攻税务专硕，方向与会计本科相关；“如果主攻”是选择意愿，不是另设资格条件。项目身份成立，不采信85%以上概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "央财、上财、对外经贸或中南财经政法大学的税务专硕",
+      "canonical_candidate_key": "中南财经政法大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "明确主攻税务专硕，方向与会计本科相关；“如果主攻”是选择意愿，不是另设资格条件。项目身份成立，不采信85%以上概率。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+      "canonical_candidate_key": "天津大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "明确以金融专硕为可竞争目标；建议接受学费和备考负担，是软取舍而不是已满足的硬门槛。按实际金融方向提取，不把中游标签或未逐年核验当作项目错误。EV4确认管理与经济学部金融专业路径。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+      "canonical_candidate_key": "山东大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "明确以金融专硕为可竞争目标；建议接受学费和备考负担，是软取舍而不是已满足的硬门槛。按实际金融方向提取，不把中游标签或未逐年核验当作项目错误。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+      "canonical_candidate_key": "四川大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "明确以金融专硕为可竞争目标；建议接受学费和备考负担，是软取舍而不是已满足的硬门槛。按实际金融方向提取，不把中游标签或未逐年核验当作项目错误。",
+      "school_key": "四川大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+      "canonical_candidate_key": "吉林大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "明确以金融专硕为可竞争目标；建议接受学费和备考负担，是软取舍而不是已满足的硬门槛。按实际金融方向提取，不把中游标签或未逐年核验当作项目错误。",
+      "school_key": "吉林大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+      "canonical_candidate_key": "湖南大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "明确以金融专硕为可竞争目标；建议接受学费和备考负担，是软取舍而不是已满足的硬门槛。按实际金融方向提取，不把中游标签或未逐年核验当作项目错误。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+      "canonical_candidate_key": "中南大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "明确以金融专硕为可竞争目标；建议接受学费和备考负担，是软取舍而不是已满足的硬门槛。按实际金融方向提取，不把中游标签或未逐年核验当作项目错误。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "**中央财经大学 / 对外经济贸易大学**：金融学院（金融专硕）、会计学院（MPAcc/学硕）；",
+      "canonical_candidate_key": "中央财经大学/finance",
+      "error_ids": [],
+      "label": "金融学院金融专硕/特色金融方向",
+      "reason": "此处分别列出金融学院和会计学院，金融专硕为可识别的独立路径，和本校会计候选分开；之前特色金融子方向提及并入本记录。央财当期学院通知EV8支持其金融项目；不对个体胜率作保证。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "**中央财经大学 / 对外经济贸易大学**：金融学院（金融专硕）、会计学院（MPAcc/学硕）；",
+      "canonical_candidate_key": "对外经济贸易大学/finance",
+      "error_ids": [],
+      "label": "金融学院金融专硕/特色金融方向",
+      "reason": "此处分别列出金融学院和会计学院，金融专硕为可识别的独立路径，和本校会计候选分开；之前特色金融子方向提及并入本记录。央财当期学院通知EV8支持其金融项目；不对个体胜率作保证。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "**中国人民大学**：财政金融学院（税务专硕/金融专硕）、商学院（MPAcc/企管）；",
+      "canonical_candidate_key": "中国人民大学/finance_tax_bundle",
+      "error_ids": [],
+      "label": "财政金融学院税务/金融专硕（合并）",
+      "reason": "财金与商院用顿号分开，确有两个招生主体；财金内部税务/金融未分别展开，保持一个原文组合，不替答卷创造两个匹配。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "**中国人民大学**：财政金融学院（税务专硕/金融专硕）、商学院（MPAcc/企管）；",
+      "canonical_candidate_key": "中国人民大学/business_bundle",
+      "error_ids": [],
+      "label": "商学院MPAcc/企管（合并）",
+      "reason": "与财金主体不同，单列商学院合并方案；MPAcc/企管未分别说明，不进一步拆分。实际方向相关，不认可极限冲刺或录取概率作为硬条件。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "**南开大学 / 厦门大学**：经济学院/商学院相关专硕或学硕夏令营。",
+      "canonical_candidate_key": "厦门大学/economics_management_bundle",
+      "error_ids": [],
+      "label": "经济学院/商学院相关专硕或学硕（合并泛称）",
+      "reason": "是实际梯度建议，提取经济/商科合并方向，不代拟具体专业或分别分配到两个院系；厦大商科常规主体为管理学院，该宽泛名称不是可据以精确匹配的规范院名，但学校经管学硕/专硕建议可成立，不仅因泛称或缺逐年证据判不存在。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "**北京理工大学 / 北京航空航天大学**：经济管理学院（会计学硕/MPAcc/管科）；",
+      "canonical_candidate_key": "北京航空航天大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "全文结尾另明确攻坚北航会计项目，故会计组合可独立识别，管科另有条件式建议。EV5确认2026年发布的2027届推免清单有125300会计及120200工商管理学智能会计方向，不用2026入学届非全日制简章否定2027届路径；未保证该生可录取。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "若你能包装出“会计+大数据/文本挖掘（如管理层讨论与分析语调分析）”的复合背景，投递理工 985 的管科（如北航经管、北理工经管、同济经管）将形成独特的差异化优势。",
+      "canonical_candidate_key": "北京航空航天大学/management_science",
+      "error_ids": [],
+      "feasibility": "答卷另提出Stata清洗、OLS及数据代码代表作整理，可作为补充证据路径；尚未核实学生是否会编程或已有成果，条件未确认，建议只作技能补齐后的备选，不把包装当真实科研。",
+      "key_condition": "能够展示会计与大数据/文本挖掘的真实复合技能或研究证据，而不是仅修改包装措辞。",
+      "label": "经管学院管理科学与工程",
+      "reason": "具体的会计+数据技能条件关联管科投递，可作为准备期条件备选；不把研究方向名再拆成多个项目。EV5确认当期管科推免身份。",
+      "school_key": "北京航空航天大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "若你能包装出“会计+大数据/文本挖掘（如管理层讨论与分析语调分析）”的复合背景，投递理工 985 的管科（如北航经管、北理工经管、同济经管）将形成独特的差异化优势。",
+      "canonical_candidate_key": "北京理工大学/management_science",
+      "error_ids": [],
+      "feasibility": "答卷另提出Stata清洗、OLS及数据代码代表作整理，可作为补充证据路径；尚未核实学生是否会编程或已有成果，条件未确认，建议只作技能补齐后的备选，不把包装当真实科研。",
+      "key_condition": "能够展示会计与大数据/文本挖掘的真实复合技能或研究证据，而不是仅修改包装措辞。",
+      "label": "经管学院管理科学与工程",
+      "reason": "具体的会计+数据技能条件关联管科投递，可作为准备期条件备选；不把研究方向名再拆成多个项目。",
+      "school_key": "北京理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "若你能包装出“会计+大数据/文本挖掘（如管理层讨论与分析语调分析）”的复合背景，投递理工 985 的管科（如北航经管、北理工经管、同济经管）将形成独特的差异化优势。",
+      "canonical_candidate_key": "同济大学/management_science",
+      "error_ids": [],
+      "feasibility": "答卷另提出Stata清洗、OLS及数据代码代表作整理，可作为补充证据路径；尚未核实学生是否会编程或已有成果，条件未确认，建议只作技能补齐后的备选，不把包装当真实科研。",
+      "key_condition": "能够展示会计与大数据/文本挖掘的真实复合技能或研究证据，而不是仅修改包装措辞。",
+      "label": "经管学院管理科学与工程",
+      "reason": "具体的会计+数据技能条件关联管科投递，可作为准备期条件备选；不把研究方向名再拆成多个项目。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+      "canonical_candidate_key": "华中科技大学/management_science",
+      "error_ids": [],
+      "feasibility": "可先核对课程与技能，缺算法基础则补编程和最优化；答卷有缺机器学习/预测模型/最优化训练的自查提醒。未给实际课程，不能默认已满足，也不采信青睐程度保证。",
+      "key_condition": "确实修过编程、运筹学或经管统计学并有相应基础。",
+      "label": "经管学院管理科学与工程",
+      "reason": "该处把具体院校管科作为条件性方向提名，属于实际备选，故提取；与普通学校背景举例不同。",
+      "school_key": "华中科技大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+      "canonical_candidate_key": "中南财经政法大学/accounting_general",
+      "error_ids": [],
+      "label": "会计学院专硕方向（未指定项目）",
+      "reason": "并列院系分别明确提名，可以按院系方向提取会计学院，不为其补出具体专业代码；“王牌”不等于资格或录取已核实。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+      "canonical_candidate_key": "中南财经政法大学/finance",
+      "error_ids": [],
+      "label": "金融学院专硕方向",
+      "reason": "金融学院单独列明，可识别金融专硕方向；无需替答卷增加金融子项目，实际门槛未核实不作录取保证。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+      "canonical_candidate_key": "西南财经大学/accounting_general",
+      "error_ids": [],
+      "label": "会计学院专硕方向（未指定项目）",
+      "reason": "并列院系分别明确提名，可以按院系方向提取会计学院，不为其补出具体专业代码；“王牌”不等于资格或录取已核实。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+      "canonical_candidate_key": "西南财经大学/taxation",
+      "error_ids": [],
+      "label": "财税学院税务专硕方向",
+      "reason": "财税学院为分别列明的主体；结合全文税务主线理解为财税专硕方向，不创造资产评估等额外推荐。身份合理，未逐年审计不等于错误。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+      "canonical_candidate_key": "西南财经大学/finance",
+      "error_ids": [],
+      "label": "金融学院专硕方向",
+      "reason": "金融学院单独列明，可识别金融专硕方向；无需替答卷增加金融子项目，实际门槛未核实不作录取保证。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "**北京科技大学 / 北京交通大学**：经管学院相关方向；",
+      "canonical_candidate_key": "北京科技大学/economics_management_general",
+      "error_ids": [],
+      "label": "经管学院相关方向（未细分）",
+      "reason": "明确稳妥保底名单，属于实际推荐。院系经管方向可识别，未细分专业不创造多个候选；不认可稳妥或100%录取保证。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "**北京科技大学 / 北京交通大学**：经管学院相关方向；",
+      "canonical_candidate_key": "北京交通大学/economics_management_general",
+      "error_ids": [],
+      "label": "经管学院相关方向（未细分）",
+      "reason": "明确稳妥保底名单，属于实际推荐。院系经管方向可识别，未细分专业不创造多个候选；不认可稳妥或100%录取保证。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "**北京化工大学（本校）**：经济管理学院会计学硕士/MPAcc",
+      "canonical_candidate_key": "北京化工大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "明确本校会计备选，按并列表述保留为一个组合。EV6确认2026年当期2027届会计学与会计推免身份，不采信“绝对出校谈判权”或自动录取。",
+      "school_key": "北京化工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "北航经管, 天大经管, 厦大专硕, 华南理工",
+      "canonical_candidate_key": "华南理工大学/economics_management_general",
+      "error_ids": [],
+      "label": "经管相关方向（仅学校级提名）",
+      "reason": "实际择校金字塔核心主攻学校推荐，但没有具体申请院系/项目，不能替答卷补造可匹配项目；此缺项不等于学校或项目不存在。没有参考覆盖项，本题不据此新增覆盖失分。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "若目标锁定为北大汇丰商学院、清华大学深圳国际研究生院或上海高金等全英文培养项目",
+      "canonical_candidate_key": "北京大学/phbs_general",
+      "error_ids": [],
+      "feasibility": "答卷建议申请前补雅思7.0+或托福100+，属于可执行提升动作；未具体核对项目语言门槛，称550–599完全够用不能替代核验（E2只在T3处理）。该处是条件性目标提名，不保证当前申请资格。",
+      "key_condition": "本人选择相应全英文培养项目并具备项目要求的语言与专业基础。",
+      "label": "汇丰商学院全英文项目（未指定专业）",
+      "reason": "明确假设目标锁定的项目群，按院系级全英文方向提取；不从后文竞争背景的PHD/MF字样补出学位路径。语言可补的备选本身并非不存在；有效性只到身份，不认可未核实门槛。",
+      "school_key": "北京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "若目标锁定为北大汇丰商学院、清华大学深圳国际研究生院或上海高金等全英文培养项目",
+      "canonical_candidate_key": "清华大学/sigs_general",
+      "error_ids": [],
+      "feasibility": "答卷建议申请前补雅思7.0+或托福100+，属于可执行提升动作；未具体核对项目语言门槛，称550–599完全够用不能替代核验（E2只在T3处理）。该处是条件性目标提名，不保证当前申请资格。",
+      "key_condition": "本人选择相应全英文培养项目并具备项目要求的语言与专业基础。",
+      "label": "深圳国际研究生院全英文项目（未指定专业）",
+      "reason": "明确假设目标锁定的项目群，按院系级全英文方向提取；不从后文竞争背景的PHD/MF字样补出学位路径。语言可补的备选本身并非不存在；有效性只到身份，不认可未核实门槛。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "若目标锁定为北大汇丰商学院、清华大学深圳国际研究生院或上海高金等全英文培养项目",
+      "canonical_candidate_key": "上海交通大学/saif_general",
+      "error_ids": [],
+      "feasibility": "答卷建议申请前补雅思7.0+或托福100+，属于可执行提升动作；未具体核对项目语言门槛，称550–599完全够用不能替代核验（E2只在T3处理）。该处是条件性目标提名，不保证当前申请资格。",
+      "key_condition": "本人选择相应全英文培养项目并具备项目要求的语言与专业基础。",
+      "label": "上海高级金融学院全英文项目（未指定学位）",
+      "reason": "明确假设目标锁定的项目群，按院系级全英文方向提取；不从后文竞争背景的PHD/MF字样补出学位路径。语言可补的备选本身并非不存在；有效性只到身份，不认可未核实门槛。",
+      "school_key": "上海交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "避免盲目冲刺清北复交高金造成时间精力的无效内耗。",
+      "canonical_candidate_key": "清华大学/top_finance_bundle",
+      "error_ids": [],
+      "label": "清华顶尖金融方向（五道口/经管背景举例未分别推荐）",
+      "reason": "结尾明确建议避免盲目冲刺这些金融目标，提取为策略性排除；不是项目不存在，也非禁止有条件冲刺。前文有关各院校生源竞争的普通背景讨论不另创造院系或PHD候选。排除项不取覆盖或降级分。",
+      "school_key": "清华大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "避免盲目冲刺清北复交高金造成时间精力的无效内耗。",
+      "canonical_candidate_key": "北京大学/top_finance_bundle",
+      "error_ids": [],
+      "label": "北大顶尖金融方向（汇丰/光华合并风险提示）",
+      "reason": "结尾明确建议避免盲目冲刺这些金融目标，提取为策略性排除；不是项目不存在，也非禁止有条件冲刺。前文有关各院校生源竞争的普通背景讨论不另创造院系或PHD候选。排除项不取覆盖或降级分。",
+      "school_key": "北京大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "避免盲目冲刺清北复交高金造成时间精力的无效内耗。",
+      "canonical_candidate_key": "复旦大学/top_finance_bundle",
+      "error_ids": [],
+      "label": "复旦顶尖金融方向（泛海/管科合并风险提示）",
+      "reason": "结尾明确建议避免盲目冲刺这些金融目标，提取为策略性排除；不是项目不存在，也非禁止有条件冲刺。前文有关各院校生源竞争的普通背景讨论不另创造院系或PHD候选。排除项不取覆盖或降级分。",
+      "school_key": "复旦大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "避免盲目冲刺清北复交高金造成时间精力的无效内耗。",
+      "canonical_candidate_key": "上海交通大学/saif_general",
+      "error_ids": [],
+      "label": "上海高金金融方向",
+      "reason": "结尾明确建议避免盲目冲刺这些金融目标，提取为策略性排除；不是项目不存在，也非禁止有条件冲刺。前文有关各院校生源竞争的普通背景讨论不另创造院系或PHD候选。排除项不取覆盖或降级分。",
+      "school_key": "上海交通大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "**中央财经大学 / 对外经济贸易大学**：金融学院（金融专硕）、会计学院（MPAcc/学硕）；",
+      "canonical_candidate_key": "中央财经大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "**央财/贸大特色金融子方向**",
+      "canonical_candidate_key": "中央财经大学/finance",
+      "error_ids": [],
+      "label": "金融学院金融专硕/特色金融方向",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "**中央财经大学 / 对外经济贸易大学**：金融学院（金融专硕）、会计学院（MPAcc/学硕）；",
+      "canonical_candidate_key": "对外经济贸易大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "**央财/贸大特色金融子方向**",
+      "canonical_candidate_key": "对外经济贸易大学/finance",
+      "error_ids": [],
+      "label": "金融学院金融专硕/特色金融方向",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "**中央财经大学 / 上海财经大学**：财政税务学院（税务专硕）；",
+      "canonical_candidate_key": "中央财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "**中央财经大学 / 上海财经大学**：财政税务学院（税务专硕）；",
+      "canonical_candidate_key": "上海财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "**北京理工大学 / 北京航空航天大学**：经济管理学院（会计学硕/MPAcc/管科）；",
+      "canonical_candidate_key": "北京理工大学/accounting_alternatives",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A049",
+      "answer_quote": "**北京理工大学 / 北京航空航天大学**：经济管理学院（会计学硕/MPAcc/管科）；",
+      "canonical_candidate_key": "北京航空航天大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A050",
+      "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+      "canonical_candidate_key": "天津大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "先前分别明确金融专硕，本处经管金融/会计/管理合并宽泛重复提及，保留原句全貌。未另明确会计或管理的独立主体/路径，不由评审拆出额外推荐；天大会计备选在独立原文记录中已提取。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A051",
+      "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+      "canonical_candidate_key": "吉林大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "先前分别明确金融专硕，本处经管金融/会计/管理合并宽泛重复提及，保留原句全貌。未另明确会计或管理的独立主体/路径，不由评审拆出额外推荐；天大会计备选在独立原文记录中已提取。",
+      "school_key": "吉林大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A052",
+      "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+      "canonical_candidate_key": "山东大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "先前分别明确金融专硕，本处经管金融/会计/管理合并宽泛重复提及，保留原句全貌。未另明确会计或管理的独立主体/路径，不由评审拆出额外推荐；天大会计备选在独立原文记录中已提取。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A053",
+      "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+      "canonical_candidate_key": "湖南大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "先前分别明确金融专硕，本处经管金融/会计/管理合并宽泛重复提及，保留原句全貌。未另明确会计或管理的独立主体/路径，不由评审拆出额外推荐；天大会计备选在独立原文记录中已提取。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A054",
+      "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+      "canonical_candidate_key": "中南财经政法大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A055",
+      "answer_quote": "**南开大学 / 厦门大学**：经济学院/商学院相关专硕或学硕夏令营。",
+      "canonical_candidate_key": "南开大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同校在早先会计项目推荐后又给经济/商学院合并宽泛方案，未分别明确新的实际路径；保留全文关系，不能拆出经济学院独立候选。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A056",
+      "answer_quote": "央财金融/会计/税务专硕",
+      "canonical_candidate_key": "中央财经大学/finance",
+      "error_ids": [],
+      "label": "金融学院金融专硕/特色金融方向",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A057",
+      "answer_quote": "央财金融/会计/税务专硕",
+      "canonical_candidate_key": "中央财经大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A058",
+      "answer_quote": "央财金融/会计/税务专硕",
+      "canonical_candidate_key": "中央财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A059",
+      "answer_quote": "贸大会计/税务",
+      "canonical_candidate_key": "对外经济贸易大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A060",
+      "answer_quote": "贸大会计/税务",
+      "canonical_candidate_key": "对外经济贸易大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A061",
+      "answer_quote": "人大财政金融/商院(极限冲刺)",
+      "canonical_candidate_key": "中国人民大学/finance_tax_bundle",
+      "error_ids": [],
+      "label": "财政金融学院税务/金融专硕（合并）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A062",
+      "answer_quote": "人大财政金融/商院(极限冲刺)",
+      "canonical_candidate_key": "中国人民大学/business_bundle",
+      "error_ids": [],
+      "label": "商学院MPAcc/企管（合并）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A063",
+      "answer_quote": "南开经管",
+      "canonical_candidate_key": "南开大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A064",
+      "answer_quote": "央财/上财/中南财税务专硕",
+      "canonical_candidate_key": "中央财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A065",
+      "answer_quote": "央财/上财/中南财税务专硕",
+      "canonical_candidate_key": "上海财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A066",
+      "answer_quote": "央财/上财/中南财税务专硕",
+      "canonical_candidate_key": "中南财经政法大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A067",
+      "answer_quote": "北理经管",
+      "canonical_candidate_key": "北京理工大学/accounting_alternatives",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A068",
+      "answer_quote": "北航经管",
+      "canonical_candidate_key": "北京航空航天大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A069",
+      "answer_quote": "天大经管",
+      "canonical_candidate_key": "天津大学/finance",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A070",
+      "answer_quote": "厦大专硕",
+      "canonical_candidate_key": "厦门大学/economics_management_bundle",
+      "error_ids": [],
+      "label": "经济学院/商学院相关专硕或学硕（合并泛称）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A071",
+      "answer_quote": "北交经管",
+      "canonical_candidate_key": "北京交通大学/economics_management_general",
+      "error_ids": [],
+      "label": "经管学院相关方向（未细分）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A072",
+      "answer_quote": "北科经管",
+      "canonical_candidate_key": "北京科技大学/economics_management_general",
+      "error_ids": [],
+      "label": "经管学院相关方向（未细分）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A073",
+      "answer_quote": "北京化工大学本校",
+      "canonical_candidate_key": "北京化工大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京化工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A074",
+      "answer_quote": "重点攻坚北京本地的 985 经管（北理、北航等）以及对外经贸、央财的会计项目。",
+      "canonical_candidate_key": "北京理工大学/accounting_alternatives",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A075",
+      "answer_quote": "重点攻坚北京本地的 985 经管（北理、北航等）以及对外经贸、央财的会计项目。",
+      "canonical_candidate_key": "北京航空航天大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A076",
+      "answer_quote": "重点攻坚北京本地的 985 经管（北理、北航等）以及对外经贸、央财的会计项目。",
+      "canonical_candidate_key": "对外经济贸易大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A077",
+      "answer_quote": "重点攻坚北京本地的 985 经管（北理、北航等）以及对外经贸、央财的会计项目。",
+      "canonical_candidate_key": "中央财经大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A078",
+      "answer_quote": "目标：主流985/央财MPAcc",
+      "canonical_candidate_key": "中央财经大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "会计学硕/MPAcc（原文合并备选）",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A079",
+      "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+      "canonical_candidate_key": "北京航空航天大学/management_science",
+      "error_ids": [],
+      "feasibility": "答卷指出算法/机器学习等短板，可先查本人课程再补技能；未确认实际修课，不把条件当已满足。",
+      "key_condition": "确实修过编程、运筹学或经管统计学并掌握相应基础。",
+      "label": "经管学院管理科学与工程",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京航空航天大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A080",
+      "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+      "canonical_candidate_key": "北京理工大学/management_science",
+      "error_ids": [],
+      "feasibility": "答卷指出算法/机器学习等短板，可先查本人课程再补技能；未确认实际修课，不把条件当已满足。",
+      "key_condition": "确实修过编程、运筹学或经管统计学并掌握相应基础。",
+      "label": "经管学院管理科学与工程",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "北京理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A081",
+      "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+      "canonical_candidate_key": "同济大学/management_science",
+      "error_ids": [],
+      "feasibility": "答卷指出算法/机器学习等短板，可先查本人课程再补技能；未确认实际修课，不把条件当已满足。",
+      "key_condition": "确实修过编程、运筹学或经管统计学并掌握相应基础。",
+      "label": "经管学院管理科学与工程",
+      "reason": "同一实际候选的重复或更宽泛提及，沿用canonical_candidate_key，不新增独立项目，不重复计罚或确认录取概率。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A082",
+      "answer_quote": "目标：两财一贸/优质985",
+      "canonical_candidate_key": "中央财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "决策流税务主线用两财一贸简称重复提及三校，沿用已明确税务候选的canonical key；不因联合简称新增院系或项目，也不采信录取保证。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A083",
+      "answer_quote": "目标：两财一贸/优质985",
+      "canonical_candidate_key": "上海财经大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "决策流税务主线用两财一贸简称重复提及三校，沿用已明确税务候选的canonical key；不因联合简称新增院系或项目，也不采信录取保证。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A084",
+      "answer_quote": "目标：两财一贸/优质985",
+      "canonical_candidate_key": "对外经济贸易大学/taxation",
+      "error_ids": [
+        "E5"
+      ],
+      "label": "税务专硕",
+      "reason": "决策流税务主线用两财一贸简称重复提及三校，沿用已明确税务候选的canonical key；不因联合简称新增院系或项目，也不采信录取保证。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A085",
+      "answer_quote": "北化本校保底",
+      "canonical_candidate_key": "北京化工大学/accounting_alternatives",
+      "error_ids": [],
+      "label": "经管学院会计学硕/MPAcc（合并）",
+      "reason": "第一幅定位图中的本校备选重复提及，已在正文明确会计组合，不新增候选；图中100%入营/锁定录取保证由T5的E5处理。",
+      "school_key": "北京化工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+  "score": 40.0,
+  "score_interval": [
+    40.0,
+    40.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N14-01",
+  "task_kind": "planning",
+  "task_sha256": "9a32817b5bcee976d19c9f098c81ae8e415fa0aeb820d4ca189fd388e104561f",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有school_tier或其他层次评分项，层次信息仅为报告；排除与仅学校提名不计降级，不增设任何分数。",
+    "schools": [
+      {
+        "answer_quote": "目标：主流985/央财MPAcc",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "中央财经大学"
+      },
+      {
+        "answer_quote": "重点攻坚北京本地的 985 经管（北理、北航等）以及对外经贸、央财的会计项目。",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "对外经济贸易大学"
+      },
+      {
+        "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "北京理工大学"
+      },
+      {
+        "answer_quote": "天大经管",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "南开经管",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "南开大学"
+      },
+      {
+        "answer_quote": "央财/上财/中南财税务专硕",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "上海财经大学"
+      },
+      {
+        "answer_quote": "央财/上财/中南财税务专硕",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "中南财经政法大学"
+      },
+      {
+        "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "山东大学"
+      },
+      {
+        "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "四川大学"
+      },
+      {
+        "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "吉林大学"
+      },
+      {
+        "answer_quote": "**天津大学 / 吉林大学 / 山东大学 / 湖南大学**：经管学院金融/会计/管理方向；",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "湖南大学"
+      },
+      {
+        "answer_quote": "中游 985（如天大、山大、川大、吉大、湖大、中南等）的金融专硕",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "中南大学"
+      },
+      {
+        "answer_quote": "人大财政金融/商院(极限冲刺)",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "厦大专硕",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "若本科修过 C++/Python、运筹学或经管统计学，非常受理工 985 院校（如北航、北理、同济、华中科大经管）管科青睐。",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "**中南财经政法大学 / 西南财经大学**：会计学院、财税学院、金融学院王牌专硕。",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "西南财经大学"
+      },
+      {
+        "answer_quote": "北科经管",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "北京科技大学"
+      },
+      {
+        "answer_quote": "北交经管",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "北京交通大学"
+      },
+      {
+        "answer_quote": "北京化工大学本校",
+        "downgraded": false,
+        "reason": "该校为211非985，与北京化工大学本科基准同档。该判断不代表学科实力或录取保证。",
+        "school_key": "北京化工大学"
+      },
+      {
+        "answer_quote": "若目标锁定为北大汇丰商学院、清华大学深圳国际研究生院或上海高金等全英文培养项目",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "若目标锁定为北大汇丰商学院、清华大学深圳国际研究生院或上海高金等全英文培养项目",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "若目标锁定为北大汇丰商学院、清华大学深圳国际研究生院或上海高金等全英文培养项目",
+        "downgraded": false,
+        "reason": "该校为985，按通则操作层次高于北京化工大学211本科基准。该判断不代表学科实力或录取保证。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "北航经管, 天大经管, 厦大专硕, 华南理工",
+        "downgraded": false,
+        "reason": "985高校，按通则高于北京化工大学211本科基准；该记录不代表实际录取保证。",
+        "school_key": "华南理工大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

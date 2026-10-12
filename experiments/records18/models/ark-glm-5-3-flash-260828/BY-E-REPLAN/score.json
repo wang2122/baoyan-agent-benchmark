@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "ark-glm-5-3-flash-260828",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 15,
+        "node": "BY-E-REPLAN-R10-04",
+        "points": 7.5,
+        "reason": "已复用NJU NLP及第二段科研，安排论文状态更新、成绩单和科研佐证；但没有系统核对2025年七月最新成绩/排名、课程与竞赛、语言考试进展，直接沿用此前记录。题面仅称准备投稿，行动清单却要求CV含Under review；未先确认已投稿，不能把这当最新事实。科研复用成立，七月状态核验核心不足，按半分；不将确定缺项挂pending。"
+      },
+      {
+        "max_points": 10,
+        "node": "BY-E-REPLAN-R10-05",
+        "points": 5.0,
+        "reason": "有雅思目标、首考与补考安排、送分材料和NUS的GRE取舍，也利用已知六级成绩考虑备用。但理大四/六级备用门槛与计算机项目官方英语要求冲突；故目标考试适用性的核验不完整，不能满分。首考及备考时序等已有具体正确动作，不能整项归零。官方来源与周期限制见evidence.json；错误只归本项。"
+      }
+    ],
+    "name": "GLM 5.3 Flash (Ark)",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 87.5,
+    "score_interval": [
+      87.5,
+      87.5
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "BY-E-REPLAN"
+  }
+}

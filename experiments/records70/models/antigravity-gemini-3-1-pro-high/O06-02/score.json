@@ -1,0 +1,101 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "d6ad7a43a7e3477e4ab0d3888222894fe3ee7686393c354b76cc101b4b2933e3",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 70.0
+  },
+  "confirmed_points": 70.0,
+  "diagnostic_score": 70.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "R1"
+    ],
+    "E2": [
+      "R1"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "发挥 程序设计竞赛/程序设计竞赛 机试免试/满分优势",
+      "id": "E1",
+      "reason": "S0仅披露程序设计竞赛、程序设计竞赛拿过一些奖，没有奖项等级、赛事层级或目标项目的免试规则。答卷直接把免试/满分写成学生已有优势，未询问或条件处理；该推断超出了当轮已知事实。此处判定的是未披露资格被当作已满足，并非认定所有项目均无此政策。只归入R1，不另扣R2、R3或R5。"
+    },
+    {
+      "answer_quote": "能够确保你拿到绝大多数院校夏令营/推免的初审入营资格",
+      "id": "E2",
+      "reason": "S0已知排名、六级及未明确等级的竞赛奖项不足以保证目标院校初审结果；项目门槛、名额、科研贡献和实际奖项均未核对。S1又以“绝大部分夏令营/推免入营完全没问题”延续这种确定性判断。该错误是把背景优势推成录取环节保证，只归入R1，不重复影响其他节点。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O06-02",
+  "input_sha256": "53bf80839bc5df4b108c8ab031e422c2272ecf569d4d8e6b43f3082560067164",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "34397f44bb1b3efdaa19c404b54a0ecc626d4aceefe74ef9f6b12e2129ce6f82",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "R1",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "R2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0,
+      "id": "R3",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "R4",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "R5",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R6",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "620f55f7dfe28fc1c419e00976cfc39705aae3f8fa74217edf6c86a24c78bfa1",
+  "score": 70.0,
+  "score_interval": [
+    70.0,
+    70.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "O06-02",
+  "task_kind": "planning",
+  "task_sha256": "43a1773a889b1ce0572c43cafa4c1bd411b678cc08e993ebc4cdb2b90a97d914",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已逐段核对S0、S1：清北、华五、港三均为题面已有目标，表格按既定目标讨论准备重点；浙大、交大、南大为机试举例，港中文、港大、港科大为语言核验举例，本校为本科背景。没有另行推荐、排除或提名的申请候选；MPhil/PhD是既定港三目标下的准备路径讨论，未形成独立院系或项目推荐。本规划题无参考候选、无层次评分节点，故候选及层次学校集合为空，已完成全文审阅。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

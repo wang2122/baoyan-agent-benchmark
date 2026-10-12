@@ -1,0 +1,406 @@
+{
+  "actual_candidate_count": 11,
+  "answer_sha256": "9568ca37a0e27024e0c0d2db4c2a89b780ea9013f5273f9697966a2e9656db82",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 62.5
+  },
+  "confirmed_points": 62.5,
+  "diagnostic_score": 62.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "TRY-B-03-R10-01"
+    ],
+    "E02": [
+      "TRY-B-03-R10-03"
+    ],
+    "E03": [
+      "TRY-B-03-R10-04"
+    ],
+    "E04": [
+      "TRY-B-03-R10-04"
+    ],
+    "E05": [
+      "TRY-B-03-R10-06"
+    ],
+    "E06": [
+      "TRY-B-03-R10-04"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**想在浙大电气学院读学硕，实际上等于承诺直博（5年，且要2封副教授以上推荐书）。**",
+      "evidence_ids": [
+        "EV08"
+      ],
+      "id": "E01",
+      "reason": "把学术硕士与直接攻读博士混为同一学位路径，后文又称“学硕 080800 直博”。即使某届外校推免学硕不开放，直博也不是取得学硕的替代承诺。学院项目已识别且直博附本人读博意愿，但学位层次区分不可靠。仅在R10-01处理；不据官网访问失败认定外校学硕不存在。"
+    },
+    {
+      "answer_quote": "会议论文 → \"已完成撰写并投稿，**在审/尚未录用**\"",
+      "evidence_ids": [],
+      "id": "E02",
+      "reason": "题面仅给论文指导已安排、目标会议且尚未录用，未确认完成撰写或投稿；答卷将未来计划提升为在投既成状态。专利的实质审查阶段亦未由题面确认。未录用及尚未授权的大方向保留正确，个人适配项半分而非整项清零。"
+    },
+    {
+      "answer_quote": "**（2）专业代码表述上，电气学院更省事。** 085801 就是\"电气工程\"专属领域代码",
+      "evidence_ids": [
+        "EV02"
+      ],
+      "id": "E03",
+      "reason": "后文以工程师学院走085800来制造电网专业认证上的院别劣势。咨询时点已可见的2026推免官方附件为0858能源动力类别下085801电气工程（分布式智能电网项目）；两院不能仅凭答卷这组代码被判为不同认证风险。项目身份和专业学位真实，故不把整个工程师学院候选标无效；错误仅归培养就业比较R10-04。"
+    },
+    {
+      "answer_quote": "### 5. 校区与生活成本\n- 电气学院在玉泉，本部生活半径。",
+      "evidence_ids": [
+        "EV05"
+      ],
+      "id": "E04",
+      "reason": "本段将工程师学院后两年自行找房列作两院差别，却未说明当时可见的校级2026政策对全日制专硕普遍适用。教学地点与住宿保障不同，不能由玉泉推断电气专硕没有同类投入；本届两院住宿安排仍应核对。此处扣R10-04，不再扣选择项。"
+    },
+    {
+      "answer_quote": "**8月10日系统一开放就先按情形B填工程师学院**",
+      "evidence_ids": [
+        "EV01",
+        "EV06",
+        "EV07"
+      ],
+      "id": "E05",
+      "reason": "咨询时点是2026-03-18，却据8月发布的2027通知安排固定开通日，并据2027版问答断言工程师学院本届不办夏令营、8月报名为唯一入口。这些规则参与两院入口风险比较和操作策略，不只是日期措辞。2026届往届通知实际7月28日开放；开头及结尾“当年复核”未把正文未来资料降为待公布假设。仅在时点适配R10-06失分，既有项目及培养内容照常评分。"
+    },
+    {
+      "answer_quote": "**工程师中级职称证书**（全校唯一可在学期间申请工程师职称的学院）",
+      "evidence_ids": [
+        "EV10"
+      ],
+      "id": "E06",
+      "reason": "表格将该证书并列为毕业额外证书，容易把有条件申请和通过职称评审写成必得成果。官方往届简章要求本人申请并通过评审；答卷虽括注可申请，仍未交代证书取得条件。作为R10-04的附属不准确，不另设扣分。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-B-03",
+  "input_sha256": "53a08918f304fe9055caf7b75b8dace10a57d638fd88753b1b50435052b4f0b0",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "814fb7f6c86027af7521481b4ea81da89077f00dba4810c690c2ad8c2b980f59",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-B-03-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "TRY-B-03-R10-02",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-03-R10-03",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-03-R10-04",
+      "kind": "quality",
+      "points": 17.5
+    },
+    {
+      "grade": 1,
+      "id": "TRY-B-03-R10-05",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0,
+      "id": "TRY-B-03-R10-06",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 11,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**主线不变，仍是东南大学电气工程学院。**",
+      "canonical_candidate_key": "seu.ee.electrical",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrences": [
+        {
+          "answer_quote": "**主攻目标（够得着）**",
+          "canonical_candidate_key": "seu.ee.electrical",
+          "reason": "可达性表再次主推东南。",
+          "treatment": "direct"
+        },
+        {
+          "answer_quote": "**东南仍然是你的主场，浙大只是加一个上限；",
+          "canonical_candidate_key": "seu.ee.electrical",
+          "reason": "结尾再次保留东南主线。",
+          "treatment": "direct"
+        }
+      ],
+      "reason": "明确主攻推荐，符合题面首选、地域及电网意向；学硕专硕未进一步择定，不替答卷分拆成两个独立推荐。资格仍由答卷要求正式确认；valid只表方向身份与已知学生约束成立，不代表逐年招生条款全部审计。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "申报硕士时只有专业学位 085801",
+      "canonical_candidate_key": "zju.ee.085801.master",
+      "error_ids": [
+        "E01",
+        "E04",
+        "E05"
+      ],
+      "feasibility": "答卷已说明硕士085801和导师筛选、截止前改志愿，学生接受专硕，故硕士路径可作为条件选择；一般性改报未细分学位，不扩展成额外方向。实际开通日及本届条款须后续确认，时间错误由E05处理。",
+      "key_condition": "获得电气学院导师积极回复或夏令营反馈，才考虑由工程师学院改报电气学院；硕士层面需核对当届085801路径。",
+      "label": "浙江大学电气工程学院085801电气工程专业硕士比较候选",
+      "occurrences": [
+        {
+          "answer_quote": "若拿到电气学院导师的积极回复或夏令营正向反馈 → 在9月10日截止前改志愿",
+          "canonical_candidate_key": "zju.ee.085801.master",
+          "reason": "泛称电气学院的切换建议，未限定学位，属于已述学院电气路径的重复使用，非新增专业。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "电气学院：按上面6个研究所逐个筛，找做**电动汽车充电/有序充电、源网荷储协同、配电网运行**的老师",
+          "canonical_candidate_key": "zju.ee.085801.master",
+          "reason": "内部导师方向筛选，非六个独立申请项目。",
+          "treatment": "mentioned"
+        }
+      ],
+      "reason": "全文明确比较电气工程硕士085801，并给导师积极反馈时改填电气学院的条件建议，故将该硕士路径纳入。未凭内部研究所清单分拆多个推荐。与明确愿读博时的080800路径分开；学位混淆E01和投入E04分别由最直接节点处理，未因官网访问失败否定项目身份。",
+      "school_key": "zju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "**如果你有明确的读博打算 → 只能填电气工程学院。**",
+      "canonical_candidate_key": "zju.ee.080800.direct_phd",
+      "error_ids": [
+        "E01"
+      ],
+      "feasibility": "答卷明确提出联系导师、准备两封专家推荐书；CET6 550–599及前列排名可支持准备。本人意愿未知可条件处理；外校本届招生与截止日须更新，不能用未来通知保证可录取。",
+      "key_condition": "本人明确愿意直接攻读博士，并获推免资格、导师接收与当届考核资格。",
+      "label": "浙江大学电气工程学院080800电气工程直博",
+      "occurrences": [
+        {
+          "answer_quote": "**想读博 / 未来可能进研发岗或高校** → 报**电气工程学院**。",
+          "canonical_candidate_key": "zju.ee.080800.direct_phd",
+          "reason": "情形A的博士分流，同一路径。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "### 情形 C：你确定要读博\n→ **只报电气工程学院**。",
+          "canonical_candidate_key": "zju.ee.080800.direct_phd",
+          "reason": "情形C重复博士优先；同时在该情形排除工程师学院直博。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "只有当你明确要读博时，答案才反过来变成电气工程学院。",
+          "canonical_candidate_key": "zju.ee.080800.direct_phd",
+          "reason": "结尾重复条件。",
+          "treatment": "conditional"
+        }
+      ],
+      "reason": "把电气工程直博作为本人明确接受读博时的候选，学位代码及电气方向可识别；误称学硕直博记E01，但不据此否定真实博士路径。",
+      "school_key": "zju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**如果浙大只填一个志愿，且你确定硕士毕业就进电网 → 填工程师学院，方向选「能源动力（085800）—电气工程领域—分布式智能电网项目」。**",
+      "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+      "error_ids": [
+        "E03",
+        "E05",
+        "E06"
+      ],
+      "feasibility": "答卷给出教务确认推免资格、查项目导师、问证书领域与目标省公司口径及住宿补贴的对象，形成现实核验路径；未证明一定入选，浙大按冲刺理解。",
+      "key_condition": "以硕士毕业进电网为主要目标、接受工程实践和三年专业学位培养；推免资格、当届项目计划及证书领域表述须核验。",
+      "label": "浙江大学工程师学院分布式智能电网项目电气工程专业硕士",
+      "occurrences": [
+        {
+          "answer_quote": "若仍要报，选**工程师学院**（材料匹配度高，边际成本更低）。",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "东南有意向且仍冲浙大的硕士就业情形。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "→ **报工程师学院，志愿填「能源动力（085800）—电气工程领域—分布式智能电网项目」。**",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "情形B的同项目推荐。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "**8月10日系统一开放就先按情形B填工程师学院**",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "重复报名策略，未来时间依据记E05。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "若反馈平淡 → 保持工程师学院不动。",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "导师反馈分支重复保留。",
+          "treatment": "conditional"
+        },
+        {
+          "answer_quote": "工程师学院：查\"分布式智能电网项目\"当年**校内导师（团队）一览表**",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "同项目导师核验。",
+          "treatment": "mentioned"
+        },
+        {
+          "answer_quote": "工程师学院不招直博。",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "仅排除工程师学院直博通道，不新增一个虚构直博候选；不排除本硕士项目身份。",
+          "treatment": "excluded"
+        },
+        {
+          "answer_quote": "浙大可放弃，或当作流程演练。",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "东南已满足硕士就业诉求时可不再申浙大，属于条件性退出已有候选。",
+          "treatment": "excluded"
+        },
+        {
+          "answer_quote": "工程师学院的分布式智能电网项目是匹配度和性价比都更高的那一个",
+          "canonical_candidate_key": "zju.pi.distributed_grid.electrical_master",
+          "reason": "结尾重复工程师学院优先。",
+          "treatment": "conditional"
+        }
+      ],
+      "reason": "具体工程师学院项目、专业学位及方向可辨；往届官方培养方案与招生计划确认存在，电气相关研究与源网荷储方向相关。085800是答卷使用的宽类别口径，错误的两院代码风险比较已记E03；不是虚构项目或明确硬条件冲突。",
+      "school_key": "zju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "东南还有\"**东南大学—蒙纳士大学国际学院（苏州）**\"培养电气工程的路径，苏州同样离家近，可作为东南体系内的一个备选项去了解。",
+      "canonical_candidate_key": "seu.monash.electrical_master",
+      "error_ids": [],
+      "label": "东南大学—蒙纳士苏州联合培养电气工程路径（答卷称国际学院）",
+      "occurrences": [],
+      "reason": "明确备选提名，应纳入而非背景学校。官方沿革EV09支持原苏州联合研究生院已有电气研究生路径，后续学院名称更名不代表另一个项目或虚构。只是了解性提名，未核定双学位英语、费用等条件，不升格为具体可执行的条件推荐；EV09晚于三月，只作身份沿革核对，不倒填新名称公布状态或额外处罚。",
+      "school_key": "seu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "华北电力",
+      "canonical_candidate_key": "ncepu.electrical.unspecified",
+      "error_ids": [],
+      "label": "华北电力电气方向保底提名",
+      "occurrences": [],
+      "reason": "在“如华北电力、上海电力、东北电力、长沙理工、南京理工、河海等方向，按你自己意愿再筛”中被提名，故全文候选核对纳入。未明确院系、学位、接收条件或保底成功依据，不能替答卷创造专业路径；未证明不存在或硬条件不符，不标invalid。题目为两院比较，清单提名不另生覆盖分或层次扣分。",
+      "school_key": "ncepu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "上海电力",
+      "canonical_candidate_key": "shiep.electrical.unspecified",
+      "error_ids": [],
+      "label": "上海电力电气方向保底提名",
+      "occurrences": [],
+      "reason": "在“如华北电力、上海电力、东北电力、长沙理工、南京理工、河海等方向，按你自己意愿再筛”中被提名，故全文候选核对纳入。未明确院系、学位、接收条件或保底成功依据，不能替答卷创造专业路径；未证明不存在或硬条件不符，不标invalid。题目为两院比较，清单提名不另生覆盖分或层次扣分。",
+      "school_key": "shiep",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "东北电力",
+      "canonical_candidate_key": "neepu.electrical.unspecified",
+      "error_ids": [],
+      "label": "东北电力电气方向保底提名",
+      "occurrences": [],
+      "reason": "在“如华北电力、上海电力、东北电力、长沙理工、南京理工、河海等方向，按你自己意愿再筛”中被提名，故全文候选核对纳入。未明确院系、学位、接收条件或保底成功依据，不能替答卷创造专业路径；未证明不存在或硬条件不符，不标invalid。题目为两院比较，清单提名不另生覆盖分或层次扣分。",
+      "school_key": "neepu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "长沙理工",
+      "canonical_candidate_key": "csust.electrical.unspecified",
+      "error_ids": [],
+      "label": "长沙理工电气方向保底提名",
+      "occurrences": [],
+      "reason": "在“如华北电力、上海电力、东北电力、长沙理工、南京理工、河海等方向，按你自己意愿再筛”中被提名，故全文候选核对纳入。未明确院系、学位、接收条件或保底成功依据，不能替答卷创造专业路径；未证明不存在或硬条件不符，不标invalid。题目为两院比较，清单提名不另生覆盖分或层次扣分。",
+      "school_key": "csust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "南京理工",
+      "canonical_candidate_key": "njust.electrical.unspecified",
+      "error_ids": [],
+      "label": "南京理工电气方向保底提名",
+      "occurrences": [],
+      "reason": "在“如华北电力、上海电力、东北电力、长沙理工、南京理工、河海等方向，按你自己意愿再筛”中被提名，故全文候选核对纳入。未明确院系、学位、接收条件或保底成功依据，不能替答卷创造专业路径；未证明不存在或硬条件不符，不标invalid。题目为两院比较，清单提名不另生覆盖分或层次扣分。",
+      "school_key": "njust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "河海",
+      "canonical_candidate_key": "hhu.electrical.unspecified",
+      "error_ids": [],
+      "label": "河海电气方向保底提名",
+      "occurrences": [],
+      "reason": "在“如华北电力、上海电力、东北电力、长沙理工、南京理工、河海等方向，按你自己意愿再筛”中被提名，故全文候选核对纳入。未明确院系、学位、接收条件或保底成功依据，不能替答卷创造专业路径；未证明不存在或硬条件不符，不标invalid。题目为两院比较，清单提名不另生覆盖分或层次扣分。",
+      "school_key": "hhu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "56b5f460fd9660ec795aed0f6052d62e8571139b92eb3c18b86860f55cc0ccff",
+  "score": 62.5,
+  "score_interval": [
+    62.5,
+    62.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-B-03",
+  "task_kind": "planning",
+  "task_sha256": "3c6680767cd36a11f82facd208e324bb7e99f12a2bf9d8d1feff33a6f883b080",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "**主线不变，仍是东南大学电气工程学院。**",
+        "downgraded": false,
+        "reason": "东南大学为985，按题目层次口径高于南京信息工程大学双一流非985/211。苏州联合路径同属东南授位体系，非另一个降级学校；仅提名不另计。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "浙大这两个学院对你都属于\"冲上限\"",
+        "downgraded": false,
+        "reason": "浙江大学为985，两院同校仅记一次。六所保底校只被候选提名，未具体确定申请路径，不把提名当实际降级推荐；本题tier_report_only，不另扣分。",
+        "school_key": "zju"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

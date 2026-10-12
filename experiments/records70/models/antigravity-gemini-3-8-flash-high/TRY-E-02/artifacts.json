@@ -1,0 +1,75 @@
+[
+  {
+    "path": "adjudication.json",
+    "export_sha256": "e32cc2e60a094478908a140bf81301db50dc37e1f54dd4233d21dbb69deed160",
+    "bytes": 724
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "29cf0f996fef62057c11800f161e8604631f7e0c67320996e708c3dcf583e658",
+    "path": "answer.md",
+    "export_sha256": "0c73eef3d1c4f7bb8ca99428c64ae14d08363053b82ad27e77fc25bd00b925cf",
+    "bytes": 10650,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+    "path": "evaluation-rubric.json",
+    "export_sha256": "f6a43695400cc7fd8f5a0fc59979cb5221feb989871c4e3734cb3e3482f9cf49",
+    "bytes": 3361,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179",
+    "path": "evaluation-task.json",
+    "export_sha256": "09f2a9e9ff8aa570efc46b9fd1dd35c6e027c0c95c671999891f37ed72afb73f",
+    "bytes": 1253,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "e563b6e9a21a4056e264e6679eaf74265320059dfc32965ac4a94c8360f29aae",
+    "path": "judgment.json",
+    "export_sha256": "2b0b09b3e641cff188f33e34af2bd66f0e167f815a4059d4ee0023ae6c60bd44",
+    "bytes": 11818,
+    "transformed": true
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "path": "metadata.json",
+    "export_sha256": "5c9f26e218507b81ab5411abab3a88cdd7d987d7a87b439c0a33270c6ccdca4c",
+    "bytes": 2253
+  },
+  {
+    "path": "original-judgment.json",
+    "export_sha256": "ca9dd406f137b9972221f1a2d222435daaf755f16ad857af8a8f30d8b90f1570",
+    "bytes": 12231
+  },
+  {
+    "path": "original-score.json",
+    "export_sha256": "cb2a180eb89dcc84bef0f04adc5e2a639b3c6dde48280ae6bb3e70aadee48994",
+    "bytes": 4507
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "path": "question.json",
+    "export_sha256": "6183d543c4fbd5e13263d2251a5f4e87294f2077c710e9bbb632d9ded73530be",
+    "bytes": 1341
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "path": "run.json",
+    "export_sha256": "6b7e158caf50c338fff57439afb701b440ea81071094b549e47fd75157552fca",
+    "bytes": 554
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_sha256": "69335a1598929ef5f571de67097191f0280f4714b738fdc8e292921d83ece1d5",
+    "path": "score.json",
+    "export_sha256": "a6b9c539062d68600d2f7d6a8d6f7cbe0ab3ccd71fb31a26df5eaf785e113239",
+    "bytes": 4471,
+    "transformed": true
+  }
+]

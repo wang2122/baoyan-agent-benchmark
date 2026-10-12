@@ -1,0 +1,1586 @@
+{
+  "answer_sha256": "831838a04d2f23a9784c436ccece6b0e3e5afe48ffedf3a2a257065630dee826",
+  "candidates_reviewed": true,
+  "coverage": [
+    {
+      "answer_quote": "| **01** | 清华大学 | 深圳国际研究生院 (SIGS) | 085500 机械（先进制造/智能制造） | 专业学位 | **冲刺档** | 无硬性卡线(建议高) | C9生源青睐，湾区资源充沛 |",
+      "error_ids": [],
+      "id": "N16-01",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A01-1",
+          "answer_quote": "| **01** | 清华大学 | 深圳国际研究生院 (SIGS) | 085500 机械（先进制造/智能制造） | 专业学位 | **冲刺档** | 无硬性卡线(建议高) | C9生源青睐，湾区资源充沛 |",
+          "match_level": "related_department",
+          "reason": "SIGS机械智能制造与车辆学院机械方向同属清华、不同招生单位；机械装备设计制造及控制技术实质相关，按跨院系而非车辆院精确匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-01]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "085500机械列智能制造；招生主体为清华大学深圳国际研究生院。通过官方目录HTML读取，web打开失败后使用urllib读取，并未假称web成功。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=599"
+            },
+            {
+              "applicable_cycle": "2020年起项目身份；2026申请季以当届目录交叉确认",
+              "scope": "机械智能制造面向机械或相关理工本科，含精密加工、智能制造装备。仅核实方向及硕士路径，不证明450–499分必入营。",
+              "source": "https://www.sigs.tsinghua.edu.cn/_t200/2020/0922/c1053a20872/page.psp"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "车辆与运载学院085500机械为独立招生路径；机械装备、控制测量关联不能当作同院系身份。官方HTML经urllib读取。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=015"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A04-2",
+          "answer_quote": "| **04** | 清华大学 | 精密仪器系 | 080400 仪器科学与技术 / 085400 电子信息 | 学硕/专硕 | **冲刺档** | 综合考量 | 智能传感制造、微纳精密制造 |",
+          "match_level": "related_department",
+          "reason": "精仪电子信息微系统与测控路径面向高端装备制造，符合机械/智能制造研究意向，和参考机械方向为同校跨院系相关关系；不要求参考未列的车辆细分专业。 原文科研条件与导师联系动作可关联此电子信息备选，已在候选的key_condition、feasibility记录。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-01]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "硕士目录仅085400电子信息，含超精密技术、微系统工程和专项；不含080400学硕。通过urllib读取官方HTML。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=013"
+            },
+            {
+              "applicable_cycle": "2026-05-15；2026申请季",
+              "scope": "官方新闻说明精仪系与SIGS智能仪器与装备研究所的智能制造、精密测控、微纳技术协同，可支持跨院系实质方向相关，不能支持同院系等价。",
+              "source": "https://www.tsinghua.edu.cn/info/1177/126131.htm"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "车辆与运载学院085500机械为独立招生路径；机械装备、控制测量关联不能当作同院系身份。官方HTML经urllib读取。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=015"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **01** | 清华大学 | 深圳国际研究生院 (SIGS) | 085500 机械（先进制造/智能制造） | 专业学位 | **冲刺档** | 无硬性卡线(建议高) | C9生源青睐，湾区资源充沛 |",
+      "error_ids": [],
+      "id": "N16-02",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A01-1",
+          "answer_quote": "| **01** | 清华大学 | 深圳国际研究生院 (SIGS) | 085500 机械（先进制造/智能制造） | 专业学位 | **冲刺档** | 无硬性卡线(建议高) | C9生源青睐，湾区资源充沛 |",
+          "match_level": "exact",
+          "reason": "学校、SIGS招生单位与智能制造项目完整一致；内部学部名称并列不拆成另一个院系或候选。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-02]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "085500机械列智能制造；招生主体为清华大学深圳国际研究生院。通过官方目录HTML读取，web打开失败后使用urllib读取，并未假称web成功。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=599"
+            },
+            {
+              "applicable_cycle": "2020年起项目身份；2026申请季以当届目录交叉确认",
+              "scope": "机械智能制造面向机械或相关理工本科，含精密加工、智能制造装备。仅核实方向及硕士路径，不证明450–499分必入营。",
+              "source": "https://www.sigs.tsinghua.edu.cn/_t200/2020/0922/c1053a20872/page.psp"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A04-2",
+          "answer_quote": "| **04** | 清华大学 | 精密仪器系 | 080400 仪器科学与技术 / 085400 电子信息 | 学硕/专硕 | **冲刺档** | 综合考量 | 智能传感制造、微纳精密制造 |",
+          "match_level": "related_department",
+          "reason": "精仪电子信息微系统/精密测控与SIGS智能制造在智能装备、微纳制造方面有官方合作及培养方向证据，但系不同招生单位。 原文科研条件与导师联系动作可关联此电子信息备选，已在候选的key_condition、feasibility记录。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-02]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "硕士目录仅085400电子信息，含超精密技术、微系统工程和专项；不含080400学硕。通过urllib读取官方HTML。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s01/s0103/detail/996743a2-3adb-4416-ac66-1e272055e0ae/1?yxsdm=013"
+            },
+            {
+              "applicable_cycle": "2026-05-15；2026申请季",
+              "scope": "官方新闻说明精仪系与SIGS智能仪器与装备研究所的智能制造、精密测控、微纳技术协同，可支持跨院系实质方向相关，不能支持同院系等价。",
+              "source": "https://www.tsinghua.edu.cn/info/1177/126131.htm"
+            },
+            {
+              "applicable_cycle": "2020年起项目身份；2026申请季以当届目录交叉确认",
+              "scope": "机械智能制造面向机械或相关理工本科，含精密加工、智能制造装备。仅核实方向及硕士路径，不证明450–499分必入营。",
+              "source": "https://www.sigs.tsinghua.edu.cn/_t200/2020/0922/c1053a20872/page.psp"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "外推清北本部直博/学硕难度极大",
+      "error_ids": [],
+      "id": "N16-03",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文未推荐北京大学工学院机械项目；泛称清北竞争难度及后文冲刺清北只是学校背景/排序，缺院系专业可识别的实际组合，不能只按北大校名计分。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "| **02** | 上海交通大学 | 机械与动力工程学院 | 085500 机械（智能制造与机电控制） | 专业学位 | **冲刺档** | ≥425分(满足) | 机械顶尖A+，C9同门高度认可 |",
+      "error_ids": [],
+      "id": "N16-04",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A02-1",
+          "answer_quote": "| **02** | 上海交通大学 | 机械与动力工程学院 | 085500 机械（智能制造与机电控制） | 专业学位 | **冲刺档** | ≥425分(满足) | 机械顶尖A+，C9同门高度认可 |",
+          "match_level": "exact",
+          "reason": "上交机械与动力工程学院机械专业硕士直接命中学院机械粒度。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-04]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "机械与动力工程学院列080200及085500机械工程；浦江国际学院单独列080200机械工程，两院系是不同申请路径，但机械方向实质相关。",
+              "source": "https://yzb.sjtu.edu.cn/post/3773"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "CET6≥425，学术/工程直博及专项专硕等类别须分别选择，不能据此保证录取。",
+              "source": "https://me.sjtu.edu.cn/YanJS/mainnotice/7685.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A02-phd-ac",
+          "answer_quote": "大类前 15% 冲刺专硕或工程博士/直博具备入营资质",
+          "match_level": "exact",
+          "reason": "正文另推荐同院机械学术直博；参考仅学院机械方向，没有限定必须硕士。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-04]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "同院同时具有机械工程学术直博、机械专业直博、机械专业硕士申请类型，支持正文额外提出的博士路径。",
+              "source": "https://me.sjtu.edu.cn/YanJS/mainnotice/7697.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A02-phd-pro",
+          "answer_quote": "大类前 15% 冲刺专硕或工程博士/直博具备入营资质",
+          "match_level": "exact",
+          "reason": "正文另推荐同院机械工程直博，有官方专业学位直博路径；参考未限制学位类型。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-04]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "同院同时具有机械工程学术直博、机械专业直博、机械专业硕士申请类型，支持正文额外提出的博士路径。",
+              "source": "https://me.sjtu.edu.cn/YanJS/mainnotice/7697.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **02** | 上海交通大学 | 机械与动力工程学院 | 085500 机械（智能制造与机电控制） | 专业学位 | **冲刺档** | ≥425分(满足) | 机械顶尖A+，C9同门高度认可 |",
+      "error_ids": [],
+      "id": "N16-05",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A02-1",
+          "answer_quote": "| **02** | 上海交通大学 | 机械与动力工程学院 | 085500 机械（智能制造与机电控制） | 专业学位 | **冲刺档** | ≥425分(满足) | 机械顶尖A+，C9同门高度认可 |",
+          "match_level": "related_department",
+          "reason": "机动学院085500机械与浦江学院080200机械属于同校不同院系的机械培养项目，主题及工程意向高度相关，专业硕士路径有效。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-05]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "机械与动力工程学院列080200及085500机械工程；浦江国际学院单独列080200机械工程，两院系是不同申请路径，但机械方向实质相关。",
+              "source": "https://yzb.sjtu.edu.cn/post/3773"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A02-phd-ac",
+          "answer_quote": "大类前 15% 冲刺专硕或工程博士/直博具备入营资质",
+          "match_level": "related_department",
+          "reason": "同校机动学院学术机械直博，与浦江学院机械学科方向相关；独立院系身份不同，仅记跨院系。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-05]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "机械与动力工程学院列080200及085500机械工程；浦江国际学院单独列080200机械工程，两院系是不同申请路径，但机械方向实质相关。",
+              "source": "https://yzb.sjtu.edu.cn/post/3773"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "同院同时具有机械工程学术直博、机械专业直博、机械专业硕士申请类型，支持正文额外提出的博士路径。",
+              "source": "https://me.sjtu.edu.cn/YanJS/mainnotice/7697.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A02-phd-pro",
+          "answer_quote": "大类前 15% 冲刺专硕或工程博士/直博具备入营资质",
+          "match_level": "related_department",
+          "reason": "同校机动学院机械工程直博与浦江机械方向相关；学位与申请路径存在，不视为浦江本院项目。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-05]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "机械与动力工程学院列080200及085500机械工程；浦江国际学院单独列080200机械工程，两院系是不同申请路径，但机械方向实质相关。",
+              "source": "https://yzb.sjtu.edu.cn/post/3773"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "同院同时具有机械工程学术直博、机械专业直博、机械专业硕士申请类型，支持正文额外提出的博士路径。",
+              "source": "https://me.sjtu.edu.cn/YanJS/mainnotice/7697.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **03** | 浙江大学 | 工程师学院 | 085500 机械（智能制造工程/移动机器人） | 专业学位 | **冲刺档** | 综合考察(避开机院450–499) | 卓越工程师专项，产教深度融合 |",
+      "error_ids": [],
+      "id": "N16-06",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A03-1",
+          "answer_quote": "| **03** | 浙江大学 | 工程师学院 | 085500 机械（智能制造工程/移动机器人） | 专业学位 | **冲刺档** | 综合考察(避开机院450–499) | 卓越工程师专项，产教深度融合 |",
+          "match_level": "related_department",
+          "reason": "工程师学院机械工程专硕的机器人智能制造与机械工程学院机械方向高度相关、院系不同；明确排除的机院本身不能记exact。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-06]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "机械包括机械工程；实践型卓越培养项目按领域与项目招生，需排名、英语等材料；未写六级450–499硬线，不据此保证录取。",
+              "source": "https://pi.zju.edu.cn/2026/0730/c67820a3192667/page.htm"
+            },
+            {
+              "applicable_cycle": "2027入学版；2026年发布",
+              "scope": "机械工程领域085501及机器人方向，面向机器人与智能制造工程实践，支持答卷工程师学院机械路径可识别；不把答卷方向词改写成新增的独立推荐。",
+              "source": "https://pi.zju.edu.cn/jsznyjqrwhzwxm/list.htm"
+            },
+            {
+              "applicable_cycle": "2017年起培养方向身份；2026申请季不据此推断年度名额",
+              "scope": "机械工程、先进制造装备、控制与机器人等工程硕士实训，支持工程师学院与机院机械高度相关。",
+              "source": "https://pi.zju.edu.cn/2017/1228/c67884a2568250/page.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **03** | 浙江大学 | 工程师学院 | 085500 机械（智能制造工程/移动机器人） | 专业学位 | **冲刺档** | 综合考察(避开机院450–499) | 卓越工程师专项，产教深度融合 |",
+      "error_ids": [],
+      "id": "N16-07",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A03-1",
+          "answer_quote": "| **03** | 浙江大学 | 工程师学院 | 085500 机械（智能制造工程/移动机器人） | 专业学位 | **冲刺档** | 综合考察(避开机院450–499) | 卓越工程师专项，产教深度融合 |",
+          "match_level": "exact",
+          "reason": "浙大工程师学院机械专业路径，与参考学校学院机械粒度一致；不要求参考没有规定的卓越项目正式细分名称。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-07]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "机械包括机械工程；实践型卓越培养项目按领域与项目招生，需排名、英语等材料；未写六级450–499硬线，不据此保证录取。",
+              "source": "https://pi.zju.edu.cn/2026/0730/c67820a3192667/page.htm"
+            },
+            {
+              "applicable_cycle": "2027入学版；2026年发布",
+              "scope": "机械工程领域085501及机器人方向，面向机器人与智能制造工程实践，支持答卷工程师学院机械路径可识别；不把答卷方向词改写成新增的独立推荐。",
+              "source": "https://pi.zju.edu.cn/jsznyjqrwhzwxm/list.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "外推清北本部直博/学硕难度极大",
+      "error_ids": [],
+      "id": "N16-08",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文未推荐复旦智能机器人与先进制造创新学院机器人，也无复旦其他具体相关申请项目；“清北复交”背景提及不足以生成候选。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "锁定17个目标项目",
+      "error_ids": [],
+      "id": "N16-09",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文总览及深度解析没有南京大学机器人与自动化学院或其他南京大学具体相关项目；缺失不能挂pending。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "| **07** | 哈尔滨工业大学(深圳) | 机电工程与自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 深圳特区前沿产业，机器人与智造 |",
+      "error_ids": [],
+      "id": "N16-10",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A07-1",
+          "answer_quote": "| **07** | 哈尔滨工业大学(深圳) | 机电工程与自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 深圳特区前沿产业，机器人与智造 |",
+          "match_level": "exact",
+          "reason": "答卷旧院名的机械学硕可识别为现智能学部机械学科；官方当届通知和专业设置确认归属，按智能学部智能制造粒度匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-10]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "面向2027届；机械工程、相关泛机械本科可报名；机械硕士路径在智能学部。",
+              "source": "https://intelligence.hitsz.edu.cn/currency.jsp?urltype=news.NewsContentUrl&wbnewsid=1881&wbtreeid=1259"
+            },
+            {
+              "applicable_cycle": "2026申请季身份页，未单独标注年度",
+              "scope": "智能学部机器人与先进制造学院列0802机械工程与085501机械工程；085500可按类别称谓识别，不额外要求参考没有提供的专业字段。",
+              "source": "https://www.hitsz.edu.cn/42/list.htm"
+            },
+            {
+              "applicable_cycle": "2023旧院系身份",
+              "scope": "旧称机电工程与自动化学院具有智能机器人、航天自动化等方向；与当前同校机械培养及教师连续信息结合识别，不能把深圳路径并入本部。",
+              "source": "https://www.hitsz.edu.cn/news/2023/0627/c9a12209/page.htm"
+            },
+            {
+              "applicable_cycle": "2026申请季身份页，未单独标注年度",
+              "scope": "机械学科含机器人化制造、精密机床、运动控制，确认推荐方向归属现智能学部。",
+              "source": "https://sram.hitsz.edu.cn/szdw/qzjs/jxgcxk.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A07-2",
+          "answer_quote": "| **07** | 哈尔滨工业大学(深圳) | 机电工程与自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 深圳特区前沿产业，机器人与智造 |",
+          "match_level": "exact",
+          "reason": "同一旧院系机械专业硕士为现智能学部机械培养路径；类别085500与细分085501不改变机械智能装备研究路径身份。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-10]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "面向2027届；机械工程、相关泛机械本科可报名；机械硕士路径在智能学部。",
+              "source": "https://intelligence.hitsz.edu.cn/currency.jsp?urltype=news.NewsContentUrl&wbnewsid=1881&wbtreeid=1259"
+            },
+            {
+              "applicable_cycle": "2026申请季身份页，未单独标注年度",
+              "scope": "智能学部机器人与先进制造学院列0802机械工程与085501机械工程；085500可按类别称谓识别，不额外要求参考没有提供的专业字段。",
+              "source": "https://www.hitsz.edu.cn/42/list.htm"
+            },
+            {
+              "applicable_cycle": "2023旧院系身份",
+              "scope": "旧称机电工程与自动化学院具有智能机器人、航天自动化等方向；与当前同校机械培养及教师连续信息结合识别，不能把深圳路径并入本部。",
+              "source": "https://www.hitsz.edu.cn/news/2023/0627/c9a12209/page.htm"
+            },
+            {
+              "applicable_cycle": "2026申请季身份页，未单独标注年度",
+              "scope": "机械学科含机器人化制造、精密机床、运动控制，确认推荐方向归属现智能学部。",
+              "source": "https://sram.hitsz.edu.cn/szdw/qzjs/jxgcxk.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。两所哈工大培养校区分别核对，不跨校区匹配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **05** | 华中科技大学 | 机械科学与工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 数字制造装备全国重点，王牌学科 |",
+      "error_ids": [],
+      "id": "N16-11",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A05-1",
+          "answer_quote": "| **05** | 华中科技大学 | 机械科学与工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 数字制造装备全国重点，王牌学科 |",
+          "match_level": "exact",
+          "reason": "华科机械科学与工程学院机械工程学硕命中学校学院机械方向。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-11]（冻结参考）"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A05-2",
+          "answer_quote": "| **05** | 华中科技大学 | 机械科学与工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 数字制造装备全国重点，王牌学科 |",
+          "match_level": "exact",
+          "reason": "同学院机械专硕亦命中参考机械方向；参考不限定学术学位。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-11]（冻结参考）"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **08** | 哈尔滨工业大学(本部) | 机电工程学院 | 080200 机械工程（机器人与先进制造） | 学术学位 | **核心主力** | 良好(满足) | 机器人技术与系统全国重电实验室 |",
+      "error_ids": [],
+      "id": "N16-12",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A08-1",
+          "answer_quote": "| **08** | 哈尔滨工业大学(本部) | 机电工程学院 | 080200 机械工程（机器人与先进制造） | 学术学位 | **核心主力** | 良好(满足) | 机器人技术与系统全国重电实验室 |",
+          "match_level": "exact",
+          "reason": "哈工大本部机电工程学院机械学硕完整一致；不将深圳校区对象混用本部身份。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-12]（冻结参考）"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A08-phd",
+          "answer_quote": "可大胆申报学硕乃至学术直博",
+          "match_level": "exact",
+          "reason": "正文另推荐同院机械学术直博，参考只到学院机械方向，可按该已知粒度成立。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-12]（冻结参考）"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。两所哈工大培养校区分别核对，不跨校区匹配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **06** | 北京航空航天大学 | 机械工程及自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | ≥425分(满足) | 航空航天高端智能装备、数字孪生 |",
+      "error_ids": [],
+      "id": "N16-13",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A06-1",
+          "answer_quote": "| **06** | 北京航空航天大学 | 机械工程及自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | ≥425分(满足) | 航空航天高端智能装备、数字孪生 |",
+          "match_level": "exact",
+          "reason": "北航机械工程及自动化学院机械工程学硕完整匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-13]（冻结参考）"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A06-2",
+          "answer_quote": "| **06** | 北京航空航天大学 | 机械工程及自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | ≥425分(满足) | 航空航天高端智能装备、数字孪生 |",
+          "match_level": "exact",
+          "reason": "同学院机械专业硕士完整匹配机械方向；不强求参考未给的细分学位代码。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-13]（冻结参考）"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **10** | 同济大学 | 机械与能源工程学院 | 080200 机械工程（工业4.0智能制造） | 学硕/专硕 | ≥425分(满足) | **核心主力** | 工业4.0中德合作，智能产线集成 |",
+      "error_ids": [],
+      "id": "N16-14",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A10-1",
+          "answer_quote": "| **10** | 同济大学 | 机械与能源工程学院 | 080200 机械工程（工业4.0智能制造） | 学硕/专硕 | ≥425分(满足) | **核心主力** | 工业4.0中德合作，智能产线集成 |",
+          "match_level": "exact",
+          "reason": "同济原机械与能源工程学院机械方向现属机械工程与机器人学院，官方更名关系支持同一机械申请身份；局部学位混淆另归tier，不再取消此方向覆盖。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-14]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026-01-12；2026申请季",
+              "scope": "原机械与能源工程学院更名机械工程与机器人学院，机械方向可对应旧参考；能源及暖通转出不改变该机械候选身份。",
+              "source": "https://news.tongji.edu.cn/info/1006/93338.htm"
+            },
+            {
+              "applicable_cycle": "2025入学历史资料，仅学位类别身份",
+              "scope": "目录明确机械制造学术与085500机械专业学位分别招生；用于指出080200不能同时标为学硕/专硕，不推断2026窗口停招。",
+              "source": "https://mefaculty.tongji.edu.cn/__local/1/4B/9A/7D57C55EB087D70FC743B3D62FC_F5605D8D_35E68.pdf"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "| **11** | 西安交通大学 | 机械工程学院（本校主力） | 080200 机械工程（智能装备/增材制造） | 学术学位 | **核心主力** | 本校认定(满足) | 本校A+王牌，院士名师团队直通 |",
+      "error_ids": [],
+      "id": "N16-15",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A11-1",
+          "answer_quote": "| **11** | 西安交通大学 | 机械工程学院（本校主力） | 080200 机械工程（智能装备/增材制造） | 学术学位 | **核心主力** | 本校认定(满足) | 本校A+王牌，院士名师团队直通 |",
+          "match_level": "exact",
+          "reason": "西交机械工程学院080200学硕匹配学院机械方向。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-15]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "2027年机械学院推免细则支持机械普通硕士、专业硕士及直博身份；普通01方向和专项分列，未把普通项目当专项。",
+              "source": "https://mec.xjtu.edu.cn/info/1057/12367.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A12-1",
+          "answer_quote": "| **12** | 西安交通大学 | 机械工程学院（本校保底） | 085501 机械工程（智能制造技术） | 专业学位 | **稳妥保底** | 本校认定(满足) | 本校绝对底线安全网，名额充足 |",
+          "match_level": "exact",
+          "reason": "西交同学院085501机械工程专硕是独立申请路径，也匹配参考机械方向。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-15]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "2027年机械学院推免细则支持机械普通硕士、专业硕士及直博身份；普通01方向和专项分列，未把普通项目当专项。",
+              "source": "https://mec.xjtu.edu.cn/info/1057/12367.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11-phd",
+          "answer_quote": "学硕冲核心、专硕冲顶尖、留校可直博/学硕",
+          "match_level": "exact",
+          "reason": "留校机械学术直博属于同学院机械方向，参考未限定硕士；博士培养身份有官方依据。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "仅支持参考所给学校、院系与方向的项目身份和粒度，不作为录取承诺、全部年度英语门槛或结果证据。",
+              "source": "rubric.json reference_candidates[N16-15]（冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年公开；2026申请季项目身份",
+              "scope": "机械工程学院学术博士培养路径；不证明学生获推免资格或导师接收。",
+              "source": "https://mec.xjtu.edu.cn/info/1102/9940.htm"
+            },
+            {
+              "applicable_cycle": "2026年推免申请季（对应2027年入学）；咨询月日未给定",
+              "scope": "2027年机械学院推免细则支持机械普通硕士、专业硕士及直博身份；普通01方向和专项分列，未把普通项目当专项。",
+              "source": "https://mec.xjtu.edu.cn/info/1057/12367.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对全文所有候选；下列为本参考全部成立的匹配关系，交由程序一对一分配。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "085501 机械工程（专业学位，智能制造与装备技术）",
+      "error_ids": [],
+      "id": "N16-16",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文只推荐普通机械学硕、085501机械专硕和学术直博，没有推荐工程硕博士培养改革专项。机械学院当届细则将085501的01普通方向与工程硕博专项方向分别列出，证明这是同一基层学院同一专业下的不同培养计划：普通方向不等于专项；也不属于“同院系专业不同”的60%或“同校跨院系”的30%关系。学术学位候选亦不满足参考明列的工程专业学位路径。此为缺项，不将有效普通机械专硕标invalid，官方依据见evidence.json xjtu、xjtucollege。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "锁定17个目标项目",
+      "error_ids": [],
+      "id": "N16-17",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文未推荐东南大学机械工程学院机械或其他东南大学具体相关项目；参考外学校可以有效，但不能跨学校覆盖东南。",
+      "status": "miss"
+    }
+  ],
+  "errors": [
+    {
+      "answer_quote": "**推免资格无忧**：西交大工科大类推免名额充裕，前约15%（前约15%）基本确保能够锁定本校推免资格。",
+      "id": "E-fact-guarantee",
+      "reason": "题面仅给排名、英语和科研方向，未给资格、推荐比例、综合名次或导师接收。答卷把资格改为基本保证，并反复承诺本校专硕接近100%、北理初审稳过、大工优营几无悬念及必获顶级Offer；属于贯穿整体的事实状态及录取过度承诺，集中归facts，其他项不再因同一概率判断扣分。"
+    },
+    {
+      "answer_quote": "080400 仪器科学与技术 / 085400 电子信息",
+      "id": "E-precision-master",
+      "reason": "当届精仪系推免硕士目录仅电子信息，仪器科学为博士目录路径。原文表格明确前者学硕，无法作为080400学硕推荐成立。官方URL及周期见evidence.json precisioncat、precisionphd；此参考外无效备选归reasons。"
+    },
+    {
+      "answer_quote": "先进集成技术研究所，**080200 机械工程 / 085400 电子信息",
+      "id": "E-siat-mechanical",
+      "reason": "深圳先进院2027年完整硕士专业目录没有080200机械工程，不能凭研究方向名称创造机械学硕路径。官方URL及周期见evidence.json siat；此参考外错误归reasons，电子信息备选另行成立。"
+    },
+    {
+      "answer_quote": "080200 机械工程（学硕/专硕，工业4.0智能制造系统）",
+      "id": "E-tongji-degree",
+      "reason": "080200机械工程是学术学科，专业学位机械用0855类别，不能给一个080200代码同时标学硕与专硕。此为有效机械申请的局部学位属性混淆，归rubric明确“不混淆学位”的tier；不重复取消学院机械覆盖。"
+    },
+    {
+      "answer_quote": "9月28日前后国家系统开放，首日填报已确认意向且导师接收的项目",
+      "id": "E-system-date",
+      "reason": "2026申请季当届官方系统9月21日9:00开始填志愿。答卷以9月28日前后作为首日填报，会把核心正式接收动作推迟一周，直接影响执行安排，非无关紧要的日期细节。见evidence.json system，不用运行日期判各校窗口已截止。"
+    },
+    {
+      "answer_quote": "即使 6 月六级成绩 7 月中下旬才公布",
+      "id": "E-cet-date",
+      "reason": "2026年上半年CET成绩实际8月24日发布，电子成绩单8月31日起下载。原文更新材料时间依据不准确，但8—9月更新思路仍有正确部分；与正式填报时间问题共同归execution，不在facts重复处罚。见evidence.json cet。"
+    }
+  ],
+  "input_sha256": "e3665165b30705b9daef055f1ae9209eef9500b40f5252fc604add0180a0cc1a",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。分层匹配：每个coverage项填写全部可成立的正向matches，不预先挑选一个候选。status=hit表示存在至少一条可成立匹配，miss表示无有效匹配，pending表示参考身份或匹配证据无法裁决。miss/pending的matches留空；matched_answer_item_id留空，由程序做最高总分的一对一分配。每条matches填写answer_item_id、match_level、answer_quote、reason和relation_evidence。match_level取exact（完整或等价，100%）、same_department（同院系相近专业，60%）、related_department（同校跨院系相关方向，30%）。只报学校或路径不成立不能填正向匹配。relation_evidence为数组，每项填写source、applicable_cycle、scope，记录项目身份、方向及路径的核验依据；来源可为题设材料或适用周期的官方资料，不要求答卷自身附链接。按参考已有粒度判断；参考内斜杠分隔项为备选，命中其一即可，不拆分参考项。同一候选可出现在多个参考项的matches中，程序只选择一次；别名及重复记录合并为同一canonical_candidate_key。未列出的候选—参考关系视为已核对且无有效匹配，必须审阅全部可能关系；无法裁决时保留pending。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；本版不使用allowed_exclusion：一般排除或只提及项目不取得项目匹配分。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "在学位类型上采取**“学硕冲核心、专硕冲顶尖、留校可直博/学硕”**的组合策略",
+      "error_ids": [
+        "E-precision-master",
+        "E-siat-mechanical"
+      ],
+      "grade": 0.5,
+      "id": "reasons",
+      "reason": "已针对C9背景、约15%排名、六级450–499、未分流和机械智能制造经历提出院系方向理由、主次以及学位组合，具有具体适配分析。核心不足是精仪080400学硕和深圳先进院080200机械学硕路径不成立，混入了不能执行的学位备选，且若干门槛被泛称满足而没有关联当批核验方案，故达半分。概率承诺仅归facts，不在这里再次处罚。学校清单外不等于错误；候选数量已全卷审阅，超额仅供程序报告，不另扣分。"
+    },
+    {
+      "answer_quote": "清华深圳国际研究生院（SIGS）、上海交大机动专硕、浙大工程师学院等冲刺项目",
+      "error_ids": [
+        "E-tongji-degree"
+      ],
+      "grade": 0.5,
+      "id": "tier",
+      "reason": "主要选择同档985强机械院校与国科大科研院所，符合本科985及机械/智能制造特长，清楚区分哈工深与本部，未因科研院所没有985标签作降级。但同济080200同时称学硕/专硕存在具体学位混淆，尚不能达到“不混淆学位”的满分边界；该局部属性问题仅归本项，不取消已识别的机械方向覆盖。资格和概率保证的错误只在facts处理。"
+    },
+    {
+      "answer_quote": "对冲刺档和核心主力档中的心仪导师发送专业学术套磁信（邮件正文附 200 字摘要 + 简历 PDF）。",
+      "error_ids": [
+        "E-system-date",
+        "E-cet-date"
+      ],
+      "grade": 0.5,
+      "id": "execution",
+      "reason": "已经给出梯次优先、夏令营/预推免批次、导师联系、排名证明及补考英语更新材料的具体动作，不是只排学校。缺失的核心是当届正式填报时点处理：把9月28日当国家系统首日，较2026官方9月21日推迟一周；六级查分也提前到七月。错误独立影响材料更新与正式接收，故半分。题设只给申请季，未用当前日推断各学校已截止，也未要求逐年完整审计。"
+    },
+    {
+      "answer_quote": "**推免资格无忧**：西交大工科大类推免名额充裕，前约15%（前约15%）基本确保能够锁定本校推免资格。",
+      "error_ids": [
+        "E-fact-guarantee"
+      ],
+      "grade": 0,
+      "id": "facts",
+      "reason": "题面未确认推免资格、综合评选口径、科研成果级别或导师接收。答卷从已知排名推成“资格无忧”，并在多校及总结中反复使用接近100%、初审稳过、优营几无悬念和必获顶级Offer，贯穿策略的核心违反不过度承诺录取，不是可局部修补的一处问题，故0。STAR成果列表属于表达模板，未当作已发表论文/已获奖，亦不因模板虚构学生成果处罚。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-1",
+      "answer_quote": "| **01** | 清华大学 | 深圳国际研究生院 (SIGS) | 085500 机械（先进制造/智能制造） | 专业学位 | **冲刺档** | 无硬性卡线(建议高) | C9生源青睐，湾区资源充沛 |",
+      "canonical_candidate_key": "清华大学|深圳国际研究生院|085500|专业硕士",
+      "error_ids": [],
+      "label": "清华大学—深圳国际研究生院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-1-repeat",
+      "answer_quote": "* **院系与专业**：先进制造学部 / 材料与制造学部，**085500 机械（专业学位，智能制造与机器人方向）**。",
+      "canonical_candidate_key": "清华大学|深圳国际研究生院|085500|专业硕士",
+      "error_ids": [],
+      "label": "清华大学—深圳国际研究生院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-1",
+      "answer_quote": "| **02** | 上海交通大学 | 机械与动力工程学院 | 085500 机械（智能制造与机电控制） | 专业学位 | **冲刺档** | ≥425分(满足) | 机械顶尖A+，C9同门高度认可 |",
+      "canonical_candidate_key": "上海交通大学|机械与动力工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "上海交通大学—机械与动力工程学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-1-repeat",
+      "answer_quote": "* **院系与专业**：机械与动力工程学院，**085500 机械（专业学位，智能制造与机电控制方向）**。",
+      "canonical_candidate_key": "上海交通大学|机械与动力工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "上海交通大学—机械与动力工程学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-1",
+      "answer_quote": "| **03** | 浙江大学 | 工程师学院 | 085500 机械（智能制造工程/移动机器人） | 专业学位 | **冲刺档** | 综合考察(避开机院450–499) | 卓越工程师专项，产教深度融合 |",
+      "canonical_candidate_key": "浙江大学|工程师学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "浙江大学—工程师学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 “智能制造工程/移动机器人”按专业内方向描述处理，不替答卷生成多个具有独立项目名称的推荐。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-1-repeat",
+      "answer_quote": "* **院系与专业**：工程师学院，**085500 机械（专业学位，智能制造工程 / 移动机器人卓越培养项目）**。",
+      "canonical_candidate_key": "浙江大学|工程师学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "浙江大学—工程师学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-1",
+      "answer_quote": "| **04** | 清华大学 | 精密仪器系 | 080400 仪器科学与技术 / 085400 电子信息 | 学硕/专硕 | **冲刺档** | 综合考量 | 智能传感制造、微纳精密制造 |",
+      "canonical_candidate_key": "清华大学|精密仪器系|080400|学术硕士",
+      "error_ids": [
+        "E-precision-master"
+      ],
+      "label": "清华大学—精密仪器系—080400 学术硕士",
+      "reason": "原文将080400列为学硕。当届清华推免硕士精仪系目录仅085400；080400出现在博士目录。不能擅自把学硕推荐修成直博。依据evidence.json precisioncat、precisionphd，参考外错误仅归reasons。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A04-1-repeat",
+      "answer_quote": "* **院系与专业**：精密仪器系，**080400 仪器科学与技术 / 085400 电子信息（学术学位/专业学位，智能微系统制造与测控技术）**。",
+      "canonical_candidate_key": "清华大学|精密仪器系|080400|学术硕士",
+      "error_ids": [
+        "E-precision-master"
+      ],
+      "label": "清华大学—精密仪器系—080400 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。 原文将080400列为学硕。当届清华推免硕士精仪系目录仅085400；080400出现在博士目录。不能擅自把学硕推荐修成直博。依据evidence.json precisioncat、precisionphd，参考外错误仅归reasons。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A04-2",
+      "answer_quote": "| **04** | 清华大学 | 精密仪器系 | 080400 仪器科学与技术 / 085400 电子信息 | 学硕/专硕 | **冲刺档** | 综合考量 | 智能传感制造、微纳精密制造 |",
+      "canonical_candidate_key": "清华大学|精密仪器系|085400|专业硕士",
+      "error_ids": [],
+      "feasibility": "原文明确提出上述科研条件，并建议联系智能测控/微纳制造团队；本人已有机械智能制造研究经历，可用项目记录核对交叉基础并联系导师。官方当届085400微系统/精密技术硕士路径存在；条件方案不保证接收，也不能恢复不存在的080400学硕。",
+      "key_condition": "科研经历含传感器标定、精密运动控制或微纳加工等与精仪研究方向相接的工作，并能向意向导师说明个人贡献。",
+      "label": "清华大学—精密仪器系—085400 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 正文以具体科研技术为适配条件，并给出联系对应团队的路径，按可行条件备选记录。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-2-repeat",
+      "answer_quote": "* **院系与专业**：精密仪器系，**080400 仪器科学与技术 / 085400 电子信息（学术学位/专业学位，智能微系统制造与测控技术）**。",
+      "canonical_candidate_key": "清华大学|精密仪器系|085400|专业硕士",
+      "error_ids": [],
+      "feasibility": "原文明确提出上述科研条件，并建议联系智能测控/微纳制造团队；本人已有机械智能制造研究经历，可用项目记录核对交叉基础并联系导师。官方当届085400微系统/精密技术硕士路径存在；条件方案不保证接收，也不能恢复不存在的080400学硕。",
+      "key_condition": "科研经历含传感器标定、精密运动控制或微纳加工等与精仪研究方向相接的工作，并能向意向导师说明个人贡献。",
+      "label": "清华大学—精密仪器系—085400 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。 正文以具体科研技术为适配条件，并给出联系对应团队的路径，按可行条件备选记录。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-1",
+      "answer_quote": "| **05** | 华中科技大学 | 机械科学与工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 数字制造装备全国重点，王牌学科 |",
+      "canonical_candidate_key": "华中科技大学|机械科学与工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "华中科技大学—机械科学与工程学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-1-repeat",
+      "answer_quote": "* **院系与专业**：机械科学与工程学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造方向）**。",
+      "canonical_candidate_key": "华中科技大学|机械科学与工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "华中科技大学—机械科学与工程学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-2",
+      "answer_quote": "| **05** | 华中科技大学 | 机械科学与工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 数字制造装备全国重点，王牌学科 |",
+      "canonical_candidate_key": "华中科技大学|机械科学与工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "华中科技大学—机械科学与工程学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-2-repeat",
+      "answer_quote": "* **院系与专业**：机械科学与工程学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造方向）**。",
+      "canonical_candidate_key": "华中科技大学|机械科学与工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "华中科技大学—机械科学与工程学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-1",
+      "answer_quote": "| **06** | 北京航空航天大学 | 机械工程及自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | ≥425分(满足) | 航空航天高端智能装备、数字孪生 |",
+      "canonical_candidate_key": "北京航空航天大学|机械工程及自动化学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "北京航空航天大学—机械工程及自动化学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-1-repeat",
+      "answer_quote": "* **院系与专业**：机械工程及自动化学院，**080200 机械工程（学硕） / 085500 机械（专硕，航空宇航先进制造与智能机器人）**。",
+      "canonical_candidate_key": "北京航空航天大学|机械工程及自动化学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "北京航空航天大学—机械工程及自动化学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-2",
+      "answer_quote": "| **06** | 北京航空航天大学 | 机械工程及自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | ≥425分(满足) | 航空航天高端智能装备、数字孪生 |",
+      "canonical_candidate_key": "北京航空航天大学|机械工程及自动化学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "北京航空航天大学—机械工程及自动化学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-2-repeat",
+      "answer_quote": "* **院系与专业**：机械工程及自动化学院，**080200 机械工程（学硕） / 085500 机械（专硕，航空宇航先进制造与智能机器人）**。",
+      "canonical_candidate_key": "北京航空航天大学|机械工程及自动化学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "北京航空航天大学—机械工程及自动化学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-1",
+      "answer_quote": "| **07** | 哈尔滨工业大学(深圳) | 机电工程与自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 深圳特区前沿产业，机器人与智造 |",
+      "canonical_candidate_key": "哈尔滨工业大学（深圳）|智能学部机械学科（答卷旧称机电工程与自动化学院）|080200|学术硕士",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）—智能学部机械学科（答卷旧称机电工程与自动化学院）—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 旧称院系机械学科可由旧院官方说明、现智能学部目录及机械师资连续方向识别，按参考智能学部粒度核对；深圳与本部不合并。",
+      "school_key": "哈尔滨工业大学（深圳）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-1-repeat",
+      "answer_quote": "* **院系与专业**：机电工程与自动化学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能装备与机器人系统）**。",
+      "canonical_candidate_key": "哈尔滨工业大学（深圳）|智能学部机械学科（答卷旧称机电工程与自动化学院）|080200|学术硕士",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）—智能学部机械学科（答卷旧称机电工程与自动化学院）—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "哈尔滨工业大学（深圳）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-2",
+      "answer_quote": "| **07** | 哈尔滨工业大学(深圳) | 机电工程与自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 深圳特区前沿产业，机器人与智造 |",
+      "canonical_candidate_key": "哈尔滨工业大学（深圳）|智能学部机械学科（答卷旧称机电工程与自动化学院）|085500|专业硕士",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）—智能学部机械学科（答卷旧称机电工程与自动化学院）—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 旧称院系机械学科可由旧院官方说明、现智能学部目录及机械师资连续方向识别，按参考智能学部粒度核对；深圳与本部不合并。",
+      "school_key": "哈尔滨工业大学（深圳）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-2-repeat",
+      "answer_quote": "* **院系与专业**：机电工程与自动化学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能装备与机器人系统）**。",
+      "canonical_candidate_key": "哈尔滨工业大学（深圳）|智能学部机械学科（答卷旧称机电工程与自动化学院）|085500|专业硕士",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）—智能学部机械学科（答卷旧称机电工程与自动化学院）—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "哈尔滨工业大学（深圳）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-1",
+      "answer_quote": "| **08** | 哈尔滨工业大学(本部) | 机电工程学院 | 080200 机械工程（机器人与先进制造） | 学术学位 | **核心主力** | 良好(满足) | 机器人技术与系统全国重电实验室 |",
+      "canonical_candidate_key": "哈尔滨工业大学|机电工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "哈尔滨工业大学—机电工程学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-1-repeat",
+      "answer_quote": "* **院系与专业**：机电工程学院，**080200 机械工程（学术学位，机器人技术与系统全国重点实验室相关团队）**。",
+      "canonical_candidate_key": "哈尔滨工业大学|机电工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "哈尔滨工业大学—机电工程学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-1",
+      "answer_quote": "| **09** | 北京理工大学 | 机械与车辆学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **核心主力** | 特种装备制造、智能微细加工 |",
+      "canonical_candidate_key": "北京理工大学|机械与车辆学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "北京理工大学—机械与车辆学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 当届预报名列080200学硕及0855工程博士；未据此证明所有前后批机械专硕不存在，不以单次公告遗漏判invalid。 当届夏令营官方专业表另确认制造系085501机械工程/085509智能制造技术（evidence.json bitcamp），与085500类别称谓可识别。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-1-repeat",
+      "answer_quote": "* **院系与专业**：机械与车辆学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造与数字化装备）**。",
+      "canonical_candidate_key": "北京理工大学|机械与车辆学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "北京理工大学—机械与车辆学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。 当届夏令营官方专业表另确认制造系085501机械工程/085509智能制造技术（evidence.json bitcamp），与085500类别称谓可识别。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-2",
+      "answer_quote": "| **09** | 北京理工大学 | 机械与车辆学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **核心主力** | 特种装备制造、智能微细加工 |",
+      "canonical_candidate_key": "北京理工大学|机械与车辆学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "北京理工大学—机械与车辆学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 当届预报名列080200学硕及0855工程博士；未据此证明所有前后批机械专硕不存在，不以单次公告遗漏判invalid。 当届夏令营官方专业表另确认制造系085501机械工程/085509智能制造技术（evidence.json bitcamp），与085500类别称谓可识别。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-2-repeat",
+      "answer_quote": "* **院系与专业**：机械与车辆学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造与数字化装备）**。",
+      "canonical_candidate_key": "北京理工大学|机械与车辆学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "北京理工大学—机械与车辆学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。 当届夏令营官方专业表另确认制造系085501机械工程/085509智能制造技术（evidence.json bitcamp），与085500类别称谓可识别。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-1",
+      "answer_quote": "| **10** | 同济大学 | 机械与能源工程学院 | 080200 机械工程（工业4.0智能制造） | 学硕/专硕 | ≥425分(满足) | **核心主力** | 工业4.0中德合作，智能产线集成 |",
+      "canonical_candidate_key": "同济大学|机械学科（答卷旧称机械与能源工程学院）|080200|机械申请（原文学位误标）",
+      "error_ids": [
+        "E-tongji-degree"
+      ],
+      "label": "同济大学—机械学科（答卷旧称机械与能源工程学院）—080200 机械申请（原文学位误标）",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 原文只给一个080200机械申请，不替其创造缺失的085500专硕推荐；学硕/专硕误标归tier，本项机械申请身份仍可识别。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-1-repeat",
+      "answer_quote": "* **院系与专业**：机械与能源工程学院，**080200 机械工程（学硕/专硕，工业4.0智能制造系统）**。",
+      "canonical_candidate_key": "同济大学|机械学科（答卷旧称机械与能源工程学院）|080200|机械申请（原文学位误标）",
+      "error_ids": [
+        "E-tongji-degree"
+      ],
+      "label": "同济大学—机械学科（答卷旧称机械与能源工程学院）—080200 机械申请（原文学位误标）（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-1",
+      "answer_quote": "| **11** | 西安交通大学 | 机械工程学院（本校主力） | 080200 机械工程（智能装备/增材制造） | 学术学位 | **核心主力** | 本校认定(满足) | 本校A+王牌，院士名师团队直通 |",
+      "canonical_candidate_key": "西安交通大学|机械工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "西安交通大学—机械工程学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-1-repeat",
+      "answer_quote": "* **院系与专业**：机械工程学院，**080200 机械工程（学术学位，高端制造装备与技术全国重点实验室）**。",
+      "canonical_candidate_key": "西安交通大学|机械工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "西安交通大学—机械工程学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-1",
+      "answer_quote": "| **12** | 西安交通大学 | 机械工程学院（本校保底） | 085501 机械工程（智能制造技术） | 专业学位 | **稳妥保底** | 本校认定(满足) | 本校绝对底线安全网，名额充足 |",
+      "canonical_candidate_key": "西安交通大学|机械工程学院|085501|专业硕士",
+      "error_ids": [],
+      "label": "西安交通大学—机械工程学院—085501 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-1-repeat",
+      "answer_quote": "* **院系与专业**：机械工程学院，**085501 机械工程（专业学位，智能制造与装备技术）**。",
+      "canonical_candidate_key": "西安交通大学|机械工程学院|085501|专业硕士",
+      "error_ids": [],
+      "label": "西安交通大学—机械工程学院—085501 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-1",
+      "answer_quote": "| **13** | 中科院沈阳自动化所 | 机器人与智能制造学院(国科大) | 080200 机械工程 / 081100 控制科学 | 学硕/直博 | 良好(满足) | **稳妥保底** | 国家机器人国家队，项目津贴雄厚 |",
+      "canonical_candidate_key": "中国科学院沈阳自动化研究所|机器人与智能制造学院/沈自所|080200|学术硕士",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所—机器人与智能制造学院/沈自所—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-1-repeat",
+      "answer_quote": "* **院系与专业**：机器人学国家重点实验室 / 智能制造系统研究室，**080200 机械工程 / 081100 控制科学与工程（国科大学籍，学硕/直博）**。",
+      "canonical_candidate_key": "中国科学院沈阳自动化研究所|机器人与智能制造学院/沈自所|080200|学术硕士",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所—机器人与智能制造学院/沈自所—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-2",
+      "answer_quote": "| **13** | 中科院沈阳自动化所 | 机器人与智能制造学院(国科大) | 080200 机械工程 / 081100 控制科学 | 学硕/直博 | 良好(满足) | **稳妥保底** | 国家机器人国家队，项目津贴雄厚 |",
+      "canonical_candidate_key": "中国科学院沈阳自动化研究所|机器人与智能制造学院/沈自所|081100|学术硕士",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所—机器人与智能制造学院/沈自所—081100 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-2-repeat",
+      "answer_quote": "* **院系与专业**：机器人学国家重点实验室 / 智能制造系统研究室，**080200 机械工程 / 081100 控制科学与工程（国科大学籍，学硕/直博）**。",
+      "canonical_candidate_key": "中国科学院沈阳自动化研究所|机器人与智能制造学院/沈自所|081100|学术硕士",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所—机器人与智能制造学院/沈自所—081100 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-1",
+      "answer_quote": "| **14** | 天津大学 | 机械工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **稳妥保底** | 机构学与智能装备，对C9极其友好 |",
+      "canonical_candidate_key": "天津大学|机械工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "天津大学—机械工程学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-1-repeat",
+      "answer_quote": "* **院系与专业**：机械工程学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造与机构学）**。",
+      "canonical_candidate_key": "天津大学|机械工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "天津大学—机械工程学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-2",
+      "answer_quote": "| **14** | 天津大学 | 机械工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **稳妥保底** | 机构学与智能装备，对C9极其友好 |",
+      "canonical_candidate_key": "天津大学|机械工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "天津大学—机械工程学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-2-repeat",
+      "answer_quote": "* **院系与专业**：机械工程学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造与机构学）**。",
+      "canonical_candidate_key": "天津大学|机械工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "天津大学—机械工程学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-1",
+      "answer_quote": "| **15** | 大连理工大学 | 机械工程学院 | 080200 机械工程（高性能精密制造） | 学术学位 | 良好(满足) | **稳妥保底** | 高性能制造全国重点，院士团队 |",
+      "canonical_candidate_key": "大连理工大学|机械工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "大连理工大学—机械工程学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-1-repeat",
+      "answer_quote": "* **院系与专业**：机械工程学院，**080200 机械工程（学术学位，高性能精密制造全国重点实验室）**。",
+      "canonical_candidate_key": "大连理工大学|机械工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "大连理工大学—机械工程学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-1",
+      "answer_quote": "| **16** | 电子科技大学 | 机械与电气工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **稳妥保底** | 机电控算交叉深度高，电子制造业 |",
+      "canonical_candidate_key": "电子科技大学|机械与电气工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "电子科技大学—机械与电气工程学院—080200 学术硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "电子科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-1-repeat",
+      "answer_quote": "* **院系与专业**：机械与电气工程学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造与机器人工程）**。",
+      "canonical_candidate_key": "电子科技大学|机械与电气工程学院|080200|学术硕士",
+      "error_ids": [],
+      "label": "电子科技大学—机械与电气工程学院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "电子科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-2",
+      "answer_quote": "| **16** | 电子科技大学 | 机械与电气工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **稳妥保底** | 机电控算交叉深度高，电子制造业 |",
+      "canonical_candidate_key": "电子科技大学|机械与电气工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "电子科技大学—机械与电气工程学院—085500 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。",
+      "school_key": "电子科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-2-repeat",
+      "answer_quote": "* **院系与专业**：机械与电气工程学院，**080200 机械工程（学硕） / 085500 机械（专硕，智能制造与机器人工程）**。",
+      "canonical_candidate_key": "电子科技大学|机械与电气工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "电子科技大学—机械与电气工程学院—085500 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "电子科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-1",
+      "answer_quote": "| **17** | 中科院深圳先进院 | 先进集成技术研究所(国科大) | 080200 机械工程 / 085400 电子信息 | 学硕/专硕 | 良好(满足) | **稳妥保底** | 产业转化强劲，新型智能装备研发 |",
+      "canonical_candidate_key": "中国科学院深圳先进技术研究院|先进集成技术研究所/深圳先进院|080200|学术硕士",
+      "error_ids": [
+        "E-siat-mechanical"
+      ],
+      "label": "中国科学院深圳先进技术研究院—先进集成技术研究所/深圳先进院—080200 学术硕士",
+      "reason": "当届深圳先进院完整硕士招生专业不含080200机械工程；研究制造技术不等于具有该机械学硕招生路径。依据evidence.json siat；参考外错误仅归reasons。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A17-1-repeat",
+      "answer_quote": "* **院系与专业**：先进集成技术研究所，**080200 机械工程 / 085400 电子信息（智能制造与微纳系统方向，国科大学籍）**。",
+      "canonical_candidate_key": "中国科学院深圳先进技术研究院|先进集成技术研究所/深圳先进院|080200|学术硕士",
+      "error_ids": [
+        "E-siat-mechanical"
+      ],
+      "label": "中国科学院深圳先进技术研究院—先进集成技术研究所/深圳先进院—080200 学术硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。 当届深圳先进院完整硕士招生专业不含080200机械工程；研究制造技术不等于具有该机械学硕招生路径。依据evidence.json siat；参考外错误仅归reasons。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A17-2",
+      "answer_quote": "| **17** | 中科院深圳先进院 | 先进集成技术研究所(国科大) | 080200 机械工程 / 085400 电子信息 | 学硕/专硕 | 良好(满足) | **稳妥保底** | 产业转化强劲，新型智能装备研发 |",
+      "canonical_candidate_key": "中国科学院深圳先进技术研究院|先进集成技术研究所/深圳先进院|085400|专业硕士",
+      "error_ids": [],
+      "label": "中国科学院深圳先进技术研究院—先进集成技术研究所/深圳先进院—085400 专业硕士",
+      "reason": "明确列出学校、单位与专业申请路径，研究方向与机械/智能制造意向相符。学术、专业学位代码不同者分别计独立候选；内部方向不拆分。本记录valid表示身份与已知条件可行性判断，不表示已审计全年各批次门槛或认可概率承诺。 电子信息为类别概称，实际控制工程等领域属于0854，不能因未写细分字段判不存在；国科大与培养所的隶属说明不新增候选。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-2-repeat",
+      "answer_quote": "* **院系与专业**：先进集成技术研究所，**080200 机械工程 / 085400 电子信息（智能制造与微纳系统方向，国科大学籍）**。",
+      "canonical_candidate_key": "中国科学院深圳先进技术研究院|先进集成技术研究所/深圳先进院|085400|专业硕士",
+      "error_ids": [],
+      "label": "中国科学院深圳先进技术研究院—先进集成技术研究所/深圳先进院—085400 专业硕士（正文重复）",
+      "reason": "与总览同一学校、招生单位、专业和学位路径；别名、实验室及内部方向说明不另计一个候选。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-phd-ac",
+      "answer_quote": "大类前 15% 冲刺专硕或工程博士/直博具备入营资质",
+      "canonical_candidate_key": "上海交通大学|机械与动力工程学院|080200|学术直博",
+      "error_ids": [],
+      "label": "上海交通大学—机械与动力工程学院—080200 学术直博",
+      "reason": "同院机械学术直博有当届官方路径（sjtuphd）；排名与六级不能保证资质审查通过或录取。 不认可原文保录式概率表述；最终资格和接收仍未知。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-phd-pro",
+      "answer_quote": "大类前 15% 冲刺专硕或工程博士/直博具备入营资质",
+      "canonical_candidate_key": "上海交通大学|机械与动力工程学院|085500|工程直博",
+      "error_ids": [],
+      "label": "上海交通大学—机械与动力工程学院—085500 工程直博",
+      "reason": "同院机械工程直博有当届官方路径（sjtuphd）；原文另提工程博士，非机械专硕的重复。 不认可原文保录式概率表述；最终资格和接收仍未知。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-phd",
+      "answer_quote": "可大胆申报学硕乃至学术直博",
+      "canonical_candidate_key": "哈尔滨工业大学|机电工程学院|080200|学术直博",
+      "error_ids": [],
+      "label": "哈尔滨工业大学—机电工程学院—080200 学术直博",
+      "reason": "正文另建议同学院机械学术直博，学位路径有别于表中学硕；未披露拒绝博士培养，不因未知偏好认定违法路径。 不认可原文保录式概率表述；最终资格和接收仍未知。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-phd",
+      "answer_quote": "学硕冲核心、专硕冲顶尖、留校可直博/学硕",
+      "canonical_candidate_key": "西安交通大学|机械工程学院|080200|学术直博",
+      "error_ids": [],
+      "label": "西安交通大学—机械工程学院—080200 学术直博",
+      "reason": "结合正文11/12项，本校留校机械直博是额外学位路径，非工程硕博士改革专项；xjtuphd确认机械学术博士身份。 不认可原文保录式概率表述；最终资格和接收仍未知。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-phd-mech",
+      "answer_quote": "080200 机械工程 / 081100 控制科学与工程（国科大学籍，学硕/直博）",
+      "canonical_candidate_key": "中国科学院沈阳自动化研究所|机器人与智能制造学院/沈自所|080200|学术直博",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所—机器人与智能制造学院/沈自所—080200 学术直博",
+      "reason": "正文同时提出机械学科学术直博；沈自所国科大培养路径，同所实验室名称不另计候选。 不认可原文保录式概率表述；最终资格和接收仍未知。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-phd-control",
+      "answer_quote": "080200 机械工程 / 081100 控制科学与工程（国科大学籍，学硕/直博）",
+      "canonical_candidate_key": "中国科学院沈阳自动化研究所|机器人与智能制造学院/沈自所|081100|学术直博",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所—机器人与智能制造学院/沈自所—081100 学术直博",
+      "reason": "正文同时提出控制学科学术直博；面向智能制造与机器人，未与参考学校产生跨校匹配。 不认可原文保录式概率表述；最终资格和接收仍未知。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-excluded",
+      "answer_quote": "例如**浙江大学机械工程学院**历年夏令营往往白纸黑字要求“六级≥460分”，不可盲目硬冲以防初审浪费名额，应转向**浙大工程师学院**或其他 425 分门槛院校。",
+      "canonical_candidate_key": "浙江大学|机械工程学院|机械申请",
+      "error_ids": [],
+      "label": "浙江大学—机械工程学院—机械（排除项）",
+      "reason": "明确建议回避的机院机械申请，必须纳入候选数量；排除不计分层覆盖。冻结参考确认院系机械身份。本次未把往届夏令营英语线推广成所有硕士和各批次硬门槛，也未以450–499分判学院项目本身不存在。",
+      "school_key": "浙江大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-excluded-repeat",
+      "answer_quote": "浙江大学机械工程学院本部夏令营历年通常硬性卡**六级 CET-6 ≥ 460 分**，你的 450–499 分相差 2 分，存在被机筛直接过滤的极高风险！",
+      "canonical_candidate_key": "浙江大学|机械工程学院|机械申请",
+      "error_ids": [],
+      "label": "浙江大学机院机械（排除重复）",
+      "reason": "与后文同一排除对象；合并canonical，排除本身不得计命中。",
+      "school_key": "浙江大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19-mentioned",
+      "answer_quote": "清华本部机械学硕对外校通常要求前 3% 以内",
+      "canonical_candidate_key": "清华大学|机械工程系|机械学术硕士",
+      "error_ids": [],
+      "label": "清华本部机械学硕（比较中提名）",
+      "reason": "以明确本部机械学硕作为比较候选提名，未推荐其为实际投递对象；计数量而不计匹配。不将一般“清北复交”背景学校讨论生成各校候选。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R-strategy-1",
+      "answer_quote": "清华深圳国际研究生院（SIGS）",
+      "canonical_candidate_key": "清华大学|深圳国际研究生院|085500|专业硕士",
+      "error_ids": [],
+      "label": "清华大学—深圳国际研究生院—085500 专业硕士（策略重复）",
+      "reason": "全文策略段或英语段重复该实际推荐；与相同专业路径合并，不新增项目。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R-strategy-2",
+      "answer_quote": "上海交大机动专硕",
+      "canonical_candidate_key": "上海交通大学|机械与动力工程学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "上海交通大学—机械与动力工程学院—085500 专业硕士（策略重复）",
+      "reason": "全文策略段或英语段重复该实际推荐；与相同专业路径合并，不新增项目。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R-strategy-3",
+      "answer_quote": "浙大工程师学院等冲刺项目",
+      "canonical_candidate_key": "浙江大学|工程师学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "浙江大学—工程师学院—085500 专业硕士（策略重复）",
+      "reason": "全文策略段或英语段重复该实际推荐；与相同专业路径合并，不新增项目。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R-strategy-4",
+      "answer_quote": "应转向**浙大工程师学院**或其他 425 分门槛院校。",
+      "canonical_candidate_key": "浙江大学|工程师学院|085500|专业硕士",
+      "error_ids": [],
+      "label": "浙江大学—工程师学院—085500 专业硕士（策略重复）",
+      "reason": "全文策略段或英语段重复该实际推荐；与相同专业路径合并，不新增项目。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "60cba97926cbdeaed594712281646d60c62c1cc00ff5e4d60dd6fc1a3bb0eaec",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "N16-03",
+  "task_sha256": "b4f6cbf05f5c4057f6ecbe0f85f7c86630c47e7e926cb8cd1d8144334b1f1286",
+  "tier_review": {
+    "schools": [
+      {
+        "answer_quote": "| **02** | 上海交通大学 | 机械与动力工程学院 | 085500 机械（智能制造与机电控制） | 专业学位 | **冲刺档** | ≥425分(满足) | 机械顶尖A+，C9同门高度认可 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "| **13** | 中科院沈阳自动化所 | 机器人与智能制造学院(国科大) | 080200 机械工程 / 081100 控制科学 | 学硕/直博 | 良好(满足) | **稳妥保底** | 国家机器人国家队，项目津贴雄厚 |",
+        "downgraded": false,
+        "reason": "科研院所由中国科学院大学培养授位，按真实培养和授位主体及机器人/智能制造研究平台判断，不因无985标签自动降级。",
+        "school_key": "中国科学院沈阳自动化研究所"
+      },
+      {
+        "answer_quote": "| **17** | 中科院深圳先进院 | 先进集成技术研究所(国科大) | 080200 机械工程 / 085400 电子信息 | 学硕/专硕 | 良好(满足) | **稳妥保底** | 产业转化强劲，新型智能装备研发 |",
+        "downgraded": false,
+        "reason": "科研院所由中国科学院大学培养授位，按真实培养和授位主体及机器人/智能制造研究平台判断，不因无985标签自动降级。",
+        "school_key": "中国科学院深圳先进技术研究院"
+      },
+      {
+        "answer_quote": "| **09** | 北京理工大学 | 机械与车辆学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **核心主力** | 特种装备制造、智能微细加工 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "北京理工大学"
+      },
+      {
+        "answer_quote": "| **06** | 北京航空航天大学 | 机械工程及自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | ≥425分(满足) | 航空航天高端智能装备、数字孪生 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "| **05** | 华中科技大学 | 机械科学与工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 数字制造装备全国重点，王牌学科 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "| **10** | 同济大学 | 机械与能源工程学院 | 080200 机械工程（工业4.0智能制造） | 学硕/专硕 | ≥425分(满足) | **核心主力** | 工业4.0中德合作，智能产线集成 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "| **08** | 哈尔滨工业大学(本部) | 机电工程学院 | 080200 机械工程（机器人与先进制造） | 学术学位 | **核心主力** | 良好(满足) | 机器人技术与系统全国重电实验室 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "| **07** | 哈尔滨工业大学(深圳) | 机电工程与自动化学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | **核心主力** | 良好(满足) | 深圳特区前沿产业，机器人与智造 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。 深圳校区属于哈工大培养体系，保留独立培养地标识，不与本部项目混同。",
+        "school_key": "哈尔滨工业大学（深圳）"
+      },
+      {
+        "answer_quote": "| **15** | 大连理工大学 | 机械工程学院 | 080200 机械工程（高性能精密制造） | 学术学位 | 良好(满足) | **稳妥保底** | 高性能制造全国重点，院士团队 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "大连理工大学"
+      },
+      {
+        "answer_quote": "| **14** | 天津大学 | 机械工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **稳妥保底** | 机构学与智能装备，对C9极其友好 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "| **03** | 浙江大学 | 工程师学院 | 085500 机械（智能制造工程/移动机器人） | 专业学位 | **冲刺档** | 综合考察(避开机院450–499) | 卓越工程师专项，产教深度融合 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "| **01** | 清华大学 | 深圳国际研究生院 (SIGS) | 085500 机械（先进制造/智能制造） | 专业学位 | **冲刺档** | 无硬性卡线(建议高) | C9生源青睐，湾区资源充沛 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "| **16** | 电子科技大学 | 机械与电气工程学院 | 080200 机械工程 / 085500 机械 | 学硕/专硕 | ≥425分(满足) | **稳妥保底** | 机电控算交叉深度高，电子制造业 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "电子科技大学"
+      },
+      {
+        "answer_quote": "| **11** | 西安交通大学 | 机械工程学院（本校主力） | 080200 机械工程（智能装备/增材制造） | 学术学位 | **核心主力** | 本校认定(满足) | 本校A+王牌，院士名师团队直通 |",
+        "downgraded": false,
+        "reason": "本科基准西安交通大学为985；此校同属985，不降级。学科取向与申请难度另按rubric质量边界评审。",
+        "school_key": "西安交通大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

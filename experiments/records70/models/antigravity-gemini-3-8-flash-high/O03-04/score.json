@@ -1,0 +1,461 @@
+{
+  "actual_candidate_count": 10,
+  "answer_sha256": "bf6b6a77511246ec7f8506106b360a090845649a68ab348b30f57d0fc6fb0c09",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 75.0
+  },
+  "confirmed_points": 75.0,
+  "diagnostic_score": 75.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR_ENGLISH_GUARANTEE": [
+      "E4"
+    ],
+    "ERR_MENTOR_POWER": [
+      "E3"
+    ],
+    "ERR_QUALIFICATION_STATE": [
+      "E5"
+    ],
+    "ERR_SOUTH_LAYOUT": [
+      "E3"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**意向导师个人（PI）拥有近乎绝对的决定权**。",
+      "evidence_ids": [
+        "EV01",
+        "EV03"
+      ],
+      "id": "ERR_MENTOR_POWER",
+      "reason": "将直博录取机制过度归于导师个人。复旦2026级推免章程公开的往届流程包含院系专家初审、差额复试和学校领导小组审定（EV01），上海交大材料2026级夏令营按综合考核成绩与名额拟录取（EV03）。导师认可重要但不能据此描述为近乎绝对决定。证据用于纠正申请准备的制度因果，不冒充2027级具体规则；最直接归E3。"
+    },
+    {
+      "answer_quote": "**中国科学技术大学**（微尺度、应用化学与工程）",
+      "evidence_ids": [
+        "EV08",
+        "EV09"
+      ],
+      "id": "ERR_SOUTH_LAYOUT",
+      "reason": "该组合被放在“南方梯度布局建议”中；微尺度在合肥，但应用化学与工程学院为长春应化所，2025年官方夏令营通知明确在长春举办（EV09）。合并候选中这条路径不满足默认的南方布局，且答卷没有说明地域取舍。只影响S1方案适配E3；地域为偏好而非硬限制，项目本身不判invalid，也不把合并条目替答卷拆成两条独立推荐。"
+    },
+    {
+      "answer_quote": "**若仍在470—450–499区间**：复旦化学/材料等院系对直博生的英语虽有考量，但更看重实际英文文献读写能力。务必用“独立撰写英文论文/专利”来证明你的专业英语能力，足以对冲分数劣势。",
+      "evidence_ids": [
+        "EV01",
+        "EV02",
+        "EV03",
+        "EV04"
+      ],
+      "id": "ERR_ENGLISH_GUARANTEE",
+      "reason": "答卷未核实所选项目的英语硬条件，却作足以对冲的保证；S0另称“英语关完全解除，无需再花精力”，S1称“复旦等顶尖高校的英语门槛完全跨过”，同属未经项目核验的笼统保证。官方往届具体通知提供不同项目要求及正式考核（EV01—EV04）；它们既不能证明已知450–499无法申请，也不能支持500或英文初稿在未来周期普遍解除英语关。错误是无依据的条件保证与缺乏核验，不是已经证实某候选硬条件冲突；仅归E4，不取消候选内容有效性。"
+    },
+    {
+      "answer_quote": "**成绩排名（前约7%，前7%）**：极具竞争力，基本稳拿本校推免资格",
+      "id": "ERR_QUALIFICATION_STATE",
+      "reason": "成绩靠前可支持竞争力判断，却不足以在名额、推免综合排序及资格审核未知时保证本校资格。题面截至S0和S1均未确认资格，此断言未保持资格待认定的状态。属于题面信息不能支持的过强预测，不声称已查明学生不具资格；仅归E5。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O03-04",
+  "input_sha256": "d3255d3698d0972d161f4b31c167246c1dd387530c1d7ac33bc2688f7651cc98",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "d9f7e5ee88d3274d9143c6490945bf0e9a292c69acadd72370cef9e488dfcc9c",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "E1",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 1,
+      "id": "E2",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "E3",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "E4",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "E5",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 10,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "tju:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "天津大学（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "tsinghua:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "清华大学（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "zju:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "浙江大学（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "sjtu:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "上海交通大学（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "dlut:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "大连理工大学（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "dlut",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "ecust:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "华东理工大学（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "ecust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "也是冲刺天大、清华、浙大、上海交大、大连理工、华东理工或哈工大本部的核心入营门槛。",
+      "canonical_candidate_key": "hit_main:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "哈尔滨工业大学本部（S0学校级冲刺提名）",
+      "reason": "S0明确列为个人可冲刺的学校候选，属于提名，尚无独立院系或学位路径；因此提取但不把排名视为已具入营资格，也不倒灌S1直博目标。该段未直接提出投递任务，按mentioned记录。有效仅表示学校级准备候选内容成立，未审计2026年度全部招生条件。",
+      "school_key": "hit_main",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "梳理心仪高校（如天大、浙大、本部等）催化/能源化工方向的课题组信息；",
+      "canonical_candidate_key": "tju:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "天津大学（S0催化/能源化工课题组调研）",
+      "reason": "S0寒假表中实际建议调研该校催化/能源化工课题组。“本部”依据前文“哈工大本部”解析，不是新增学校。与前述该校提名合并为同一未区分路径的规划候选，不替答卷指定学院，不表示取得申请资格。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "梳理心仪高校（如天大、浙大、本部等）催化/能源化工方向的课题组信息；",
+      "canonical_candidate_key": "zju:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "浙江大学（S0催化/能源化工课题组调研）",
+      "reason": "S0寒假表中实际建议调研该校催化/能源化工课题组。“本部”依据前文“哈工大本部”解析，不是新增学校。与前述该校提名合并为同一未区分路径的规划候选，不替答卷指定学院，不表示取得申请资格。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "梳理心仪高校（如天大、浙大、本部等）催化/能源化工方向的课题组信息；",
+      "canonical_candidate_key": "hit_main:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "哈尔滨工业大学本部（S0催化/能源化工课题组调研）",
+      "reason": "S0寒假表中实际建议调研该校催化/能源化工课题组。“本部”依据前文“哈工大本部”解析，不是新增学校。与前述该校提名合并为同一未区分路径的规划候选，不替答卷指定学院，不表示取得申请资格。",
+      "school_key": "hit_main",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "但因为你的目标升级为**“直博”**且锁定**“复旦等南方顶尖高校”**",
+      "canonical_candidate_key": "fudan:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "复旦大学（S1首选目标重述）",
+      "reason": "S1对新目标的明确提名；与后文复旦化学/材料合并建议为同一规划候选。此处仅重述目标，不新增院系；有效不表示当届资格或录取已核实。",
+      "school_key": "fudan",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**复旦大学**（化学系、材料系）",
+      "canonical_candidate_key": "fudan:planning_unsplit",
+      "error_ids": [
+        "ERR_MENTOR_POWER",
+        "ERR_ENGLISH_GUARANTEE"
+      ],
+      "evidence_ids": [
+        "EV02",
+        "EV05",
+        "EV06"
+      ],
+      "label": "复旦大学（化学系、材料系合并方向）",
+      "reason": "实际冲刺推荐。化学与材料相关研究方向符合催化/储能背景；并列院系没有分别给出独立申请路径，整体记录，不拆成两项。EV05支持原材料科学系等力量进入2025年成立的新学院，EV06支持新学院已开展2025夏令营，EV02支持化学系培养平台；不能仅因材料系旧称判不存在，也不能将现行学院全部专业替答卷补齐。英语保证和导师决定权分别在E4、E3处理，不据此声称该合并方向已被证实不可申请。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "**浙江大学**（化工学院/高分子/材料，浙大化工国内顶尖，直博机会多）",
+      "canonical_candidate_key": "zju:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV04"
+      ],
+      "label": "浙江大学（化工学院/高分子/材料合并方向）",
+      "reason": "S1实际冲刺推荐，相关方向适配化工本科与研究准备。独立院系方向用斜杠合并且未分别交代申请路径，保留原合并条目；不拆成多个有效项目。EV04证明往届高分子系接受化工相关背景直博意向并设具体英语要求，已知450–499满足该往届450–499条件；只支持内容可行和准备参考，不推定2026年度条件。与S0该校提名及调研沿用同一规划候选键，理由保留阶段差异。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**上海交通大学**（化院、材料）",
+      "canonical_candidate_key": "sjtu:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV03",
+        "EV07"
+      ],
+      "label": "上海交通大学（化院、材料合并方向）",
+      "reason": "S1实际冲刺推荐。化院按上下文理解为化学化工学院，材料为材料科学与工程学院相关方向；并列未分别形成独立投递路径，整体记录。EV03确认往届材料学院存在材料科学与工程及材料与化工直博类别且六级425条件，EV07为化学化工学院2025夏令营官方检索摘要；只能支持相关准备候选，未完成2026申请周期逐项目审计。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "**厦门大学**（固体表面物理化学国家重点实验室，全国电化学与催化圣地，与你的电池催化极其契合）",
+      "canonical_candidate_key": "xmu:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV10",
+        "EV11"
+      ],
+      "label": "厦门大学（固体表面物理化学国家重点实验室相关方向）",
+      "reason": "实际强势备选，实验室电化学/催化方向适配。EV10明确其重组为表界面化学全国重点实验室，保留旧称可识别，不判虚构；该证据为评审回溯身份关系，非S1当时完整规则。EV11支持依托学院及能源材料平台的往届化学/化工相关招生准备路径，未假定实验室是独立授位单位或替答卷补出特定专业。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**中国科学技术大学**（微尺度、应用化学与工程）",
+      "canonical_candidate_key": "ustc:planning_unsplit",
+      "error_ids": [
+        "ERR_SOUTH_LAYOUT"
+      ],
+      "evidence_ids": [
+        "EV08",
+        "EV09"
+      ],
+      "label": "中国科学技术大学（微尺度、应用化学与工程合并方向）",
+      "reason": "实际备选，但并列单位未分别明确投递路径，整体记录而不拆分。EV08确认微尺度相关化学分营，EV09确认应用化学与工程学院/长春应化所身份与相关本科背景。均为真实相关培养/研究路径，故valid；“南方布局”中的长春路径地点适配错误关联ERR_SOUTH_LAYOUT并只在E3处理，南方软偏好不使整个候选invalid。不把应用化学与工程误认作合肥本部应用化学系。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**华东理工大学**（上海地缘 + 化工学科顶尖）",
+      "canonical_candidate_key": "ecust:planning_unsplit",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV12",
+        "EV13"
+      ],
+      "label": "华东理工大学（化工方向）",
+      "reason": "实际备选，明确化工方向且位于上海。EV12确认化工学院往届夏令营及相关研究平台，EV13确认该校往届推免含直博并列出化工学院。可作为研究准备候选；没有参考项目，不因未细到专业或211层次直接归零，不视为已审计2026年度名额。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "建立复旦大学及南方院校“电池/催化”方向导师名单（15-20位）",
+      "canonical_candidate_key": "fudan:planning_unsplit",
+      "error_ids": [
+        "ERR_MENTOR_POWER"
+      ],
+      "evidence_ids": [
+        "EV01",
+        "EV05"
+      ],
+      "label": "复旦大学（S1催化/储能导师筛选）",
+      "reason": "S1路线图再次实际推荐复旦课题组筛选，与既有复旦规划候选同键；“南方院校”未具名，不创造额外学校。导师名单是待办产物，不是已经核实的导师招收名单。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "启动第一轮邮件联系（优先联系复旦、浙大等青年杰青/优青或主力博导）",
+      "canonical_candidate_key": "fudan:planning_unsplit",
+      "error_ids": [
+        "ERR_MENTOR_POWER"
+      ],
+      "evidence_ids": [],
+      "label": "复旦大学（S1首轮导师联系）",
+      "reason": "S1再次明确优先联系该校导师，与前述同校未区分路径的规划候选合并；未明确具体导师或另一个独立项目，不新增申请路径。联络行为本身合理，但联络不等于招生承诺，关于决定权的错误只在E3处理。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "启动第一轮邮件联系（优先联系复旦、浙大等青年杰青/优青或主力博导）",
+      "canonical_candidate_key": "zju:planning_unsplit",
+      "error_ids": [
+        "ERR_MENTOR_POWER"
+      ],
+      "evidence_ids": [],
+      "label": "浙江大学（S1首轮导师联系）",
+      "reason": "S1再次明确优先联系该校导师，与前述同校未区分路径的规划候选合并；未明确具体导师或另一个独立项目，不新增申请路径。联络行为本身合理，但联络不等于招生承诺，关于决定权的错误只在E3处理。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "提前瞄准复旦及南方高校的储能/催化课题组展开学术联系，尽早敲定意向导师。",
+      "canonical_candidate_key": "fudan:planning_unsplit",
+      "error_ids": [
+        "ERR_MENTOR_POWER"
+      ],
+      "evidence_ids": [],
+      "label": "复旦大学（S1总结中储能/催化课题组联络）",
+      "reason": "总结中的实际重复建议，归既有复旦规划候选。方向相关，行动属准备期；意向导师不等于正式录取，相关因果问题仅在E3计入。其他未具名南方高校不创造记录。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+  "score": 75.0,
+  "score_interval": [
+    75.0,
+    75.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "O03-04",
+  "task_kind": "planning",
+  "task_sha256": "7ff417dc83077e99ce114a7f6b5aab224fb280f85f0152576471987e16d7a9df",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "仅报告全文实际direct推荐的院校；清华、大连理工只有S0学校级提名，不纳入实际推荐降级报告。已审阅S0和S1全部候选及重复，没有学校排除或条件推荐；科研暂缓、比赛减负不属于院校候选。题目为规划题，无参考候选和覆盖配分，coverage按模板保留空数组，不启用分层匹配。普通本科背景和学科强弱介绍中的院系名称不凭空新增推荐。",
+    "schools": [
+      {
+        "answer_quote": "梳理心仪高校（如天大、浙大、本部等）催化/能源化工方向的课题组信息；",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "梳理心仪高校（如天大、浙大、本部等）催化/能源化工方向的课题组信息；",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "梳理心仪高校（如天大、浙大、本部等）催化/能源化工方向的课题组信息；",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "hit_main"
+      },
+      {
+        "answer_quote": "**复旦大学**（化学系、材料系）",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "fudan"
+      },
+      {
+        "answer_quote": "**上海交通大学**（化院、材料）",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "**厦门大学**（固体表面物理化学国家重点实验室，全国电化学与催化圣地，与你的电池催化极其契合）",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "xmu"
+      },
+      {
+        "answer_quote": "**中国科学技术大学**（微尺度、应用化学与工程）",
+        "downgraded": false,
+        "reason": "该校为985，与本科哈工大985基准同档，不降级。哈工大本部按同校判断；仅作层次报告，本题没有独立层次评分项。",
+        "school_key": "ustc"
+      },
+      {
+        "answer_quote": "**华东理工大学**（上海地缘 + 化工学科顶尖）",
+        "downgraded": true,
+        "reason": "华东理工为211非985，相对于本科哈工大985基准属本通则操作顺序中的层次降低；化工学科及上海偏好仍可支持推荐。本rubric没有层次评分项，不另扣分，也不将推荐判invalid。",
+        "school_key": "ecust"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

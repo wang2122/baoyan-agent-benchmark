@@ -1,0 +1,75 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N12-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "区分学术型法学硕士和法律硕士（法学）的培养逻辑、招生主体；不将法学本科生默认为可申法律硕士（非法学）。",
+      "grading": "three_level",
+      "half_credit": "识别两类路径但资格或专业性质有缺漏。",
+      "id": "N12-02-L1-01",
+      "label": "法学学术硕士与法律硕士（法学）类别及资格",
+      "points": 20
+    },
+    {
+      "full_credit": "比较两类方向的学习内容、科研方法、实践训练和适用的长期发展目标。",
+      "grading": "three_level",
+      "half_credit": "已比较基本差异但训练与发展没有充分联系。",
+      "id": "N12-02-L1-02",
+      "label": "科研训练与实务实践培养差异",
+      "points": 25
+    },
+    {
+      "full_credit": "结合本科科研项目中真实工作及在写未投的稿件，判断研究型路径及偏实务路径的吸引力和短板。",
+      "grading": "three_level",
+      "half_credit": "有联系但科研进展或学生偏好没有充分讨论。",
+      "id": "N12-02-L1-03",
+      "label": "本人研究兴趣与已知经历匹配",
+      "points": 15
+    },
+    {
+      "full_credit": "按申请年份核验法律硕士（法学）的接收要求、学术硕士细分方向、学位与培养校区等关键条件。",
+      "grading": "three_level",
+      "half_credit": "核项目条件但缺具体指向。",
+      "id": "N12-02-L1-04",
+      "label": "项目具体专业/招生限制核验",
+      "points": 15
+    },
+    {
+      "full_credit": "准确使用排名前约3%、雅思7.5，说明其作用与不能保证的条件。",
+      "grading": "three_level",
+      "half_credit": "能够识别优势但结论过度概括。",
+      "id": "N12-02-L1-05",
+      "label": "英语排名与现有竞争力",
+      "points": 10
+    },
+    {
+      "full_credit": "为不同科研与职业偏好提出有理有据的选择，以及必须补充的关键条件。",
+      "grading": "three_level",
+      "half_credit": "有建议但缺转向条件或核验动作。",
+      "id": "N12-02-L1-06",
+      "label": "条件化选择与下一步",
+      "points": 15
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据各轮截至当时已披露的事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。两阶段回答合并按本题评分表计分，不倒灌后续事实；同一错误不得重复扣分。分值仍待教师校准。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

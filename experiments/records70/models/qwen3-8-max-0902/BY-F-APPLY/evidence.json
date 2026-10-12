@@ -1,0 +1,216 @@
+{
+  "task_id": "BY-F-APPLY",
+  "purpose": "独立评审事后核验，不作为答卷生成前检索证明",
+  "temporal_boundary": "task未给确切咨询日期、年级或申请届别。历史来源仅支持所列周期与稳定身份关系，不以运行日替代学生时点，不声称逐年审计名额。",
+  "records": [
+    {
+      "id": "THU-CS",
+      "source": "https://www.cs.tsinghua.edu.cn/__local/2/7E/DB/99CB3CE582D4F986B7AE3C5DCC7_4A1AE73F_24021.pdf",
+      "applicable_cycle": "2025级推免",
+      "scope": "计算机系有外校直硕与编程考核；不证明其他届学位比例和名额。"
+    },
+    {
+      "id": "THU-SS",
+      "source": "https://www.thss.tsinghua.edu.cn/__local/0/68/56/EB99451BD27ED29384A213D9F8B_462D00D7_20EF6.pdf",
+      "applicable_cycle": "2025级推免",
+      "scope": "软件学院招收外校推免硕士，工程改革专项另有考核办法。"
+    },
+    {
+      "id": "THU-SS-SYS",
+      "source": "https://www.thss.tsinghua.edu.cn/info/1032/1105.htm",
+      "applicable_cycle": "2021年研究所介绍；仅稳定方向",
+      "scope": "软件建模、验证、可信体系结构，与计算机软件及系统培养实质相关。"
+    },
+    {
+      "id": "THU-SS-SEC",
+      "source": "https://tns.thss.tsinghua.edu.cn/",
+      "applicable_cycle": "机构介绍未标完整更新日期；非年度招生证据",
+      "scope": "明确网络安全、云计算、区块链方向，与网络研究院相关。"
+    },
+    {
+      "id": "THU-CS-NET",
+      "source": "https://www.cs.tsinghua.edu.cn/jgsz/yjssys/jsjkxyjsxwlyjs.htm",
+      "applicable_cycle": "机构与方向关系；非年度名额",
+      "scope": "计算机系网络研究涵盖网络空间安全，并与网络研究院共建平台。"
+    },
+    {
+      "id": "THU-INSC",
+      "source": "https://www.insc.tsinghua.edu.cn/2025-1.pdf",
+      "applicable_cycle": "2025级推免",
+      "scope": "网络科学与网络空间研究院有独立硕士推免路径。"
+    },
+    {
+      "id": "THU-IIIS",
+      "source": "https://iiis.tsinghua.edu.cn/info/1026/3151.htm",
+      "applicable_cycle": "2025级博士招生",
+      "scope": "交叉院招收计算机科学与技术博士；不证明必须有论文或其硕士招生。"
+    },
+    {
+      "id": "THU-IIIS-DIR",
+      "source": "https://iiis.tsinghua.edu.cn/kxyj/ktzjs.htm",
+      "applicable_cycle": "现存课题组介绍；只核对方向，不回填历史机会",
+      "scope": "包含算法、体系结构、数据库及分布式计算，与答卷计算机系统软件实质相关。"
+    },
+    {
+      "id": "THU-SIGS",
+      "source": "https://www.sigs.tsinghua.edu.cn/_upload/article/files/a2/10/bf7476094deab34ca4941936f3f2/597a852a-4566-4010-b5f6-cce635e4005d.pdf",
+      "applicable_cycle": "2025级推免目录",
+      "scope": "电子信息含AI、大数据等，另列计算机技术，支持深圳院计算机相关专业学位路径。"
+    },
+    {
+      "id": "THU-SIGS-DIR",
+      "source": "https://www.sigs.tsinghua.edu.cn/2022/0707/c4965a55812/page.htm",
+      "applicable_cycle": "2022年方向介绍",
+      "scope": "信息学部覆盖AI、云计算、下一代互联网；只核对跨院系关系。"
+    },
+    {
+      "id": "PKU-CS",
+      "source": "https://cs.pku.edu.cn/info/1051/3271.htm",
+      "applicable_cycle": "2025级推免",
+      "scope": "计算机学院接收推免硕士及博士，六级450为英语选项，仍必须取得推免资格。"
+    },
+    {
+      "id": "PKU-CS-DIR",
+      "source": "https://cs.pku.edu.cn/xkjs/yjjg/rjs.htm",
+      "applicable_cycle": "现存稳定研究机构介绍",
+      "scope": "软件研究所含系统软件、软件工程、可信AI、图形交互及信息安全。"
+    },
+    {
+      "id": "PKU-SS",
+      "source": "https://ss.pku.edu.cn/zsxx/zstz/f7bd9d0f017943d8a6f5a93447582f1e.htm",
+      "applicable_cycle": "2026级推免",
+      "scope": "电子信息含关键软件、网络安全、智能软件与AI安全；明示上课地点大兴，不是全在无锡。"
+    },
+    {
+      "id": "PKU-SS-2025",
+      "source": "https://admission.pku.edu.cn/docs/20241009111318604309.pdf",
+      "applicable_cycle": "2025级硕士简章",
+      "scope": "软微所在地列为北京市大兴区；只支持该历史周期地点纠错。"
+    },
+    {
+      "id": "PKU-INTEL",
+      "source": "https://cis.pku.edu.cn/info/1034/3108.htm",
+      "applicable_cycle": "2025级推免",
+      "scope": "智能学院接收硕士、博士，有编程考核，六级450为英语选项；不等于仅有直博。"
+    },
+    {
+      "id": "PKU-SZ",
+      "source": "https://www.ece.pku.edu.cn/info/1026/2831.htm",
+      "applicable_cycle": "2025级推免",
+      "scope": "信工计算机科学与技术硕士通过深圳研究生院申请；六级450为选项，与本部及软微是不同单位。"
+    },
+    {
+      "id": "SJTU-CHANGE",
+      "source": "https://cs.sjtu.edu.cn/en/Introduction.html",
+      "applicable_cycle": "2025年5月11日重组事实",
+      "scope": "计算机学院重组原计算机系、软件学院等，支持旧称等价身份，不保证独立专业数。"
+    },
+    {
+      "id": "SJTU-CS",
+      "source": "https://yzb.sjtu.edu.cn/post/3221",
+      "applicable_cycle": "2026级夏令营，2025年6月26日发布",
+      "scope": "列081200与085400直硕；工程专项包括人工智能、关键软件、网络安全；解释重组后的培养与招生路径。"
+    },
+    {
+      "id": "SJTU-AI",
+      "source": "https://yzb.sjtu.edu.cn/post/3218",
+      "applicable_cycle": "2026级夏令营",
+      "scope": "AI学院是独立于计算机学院的培养主体，有相关研究生申请路径。"
+    },
+    {
+      "id": "SJTU-AI-DEG",
+      "source": "https://soai.sjtu.edu.cn/cn/show/292",
+      "applicable_cycle": "2025级港澳台复试；仅学科/学位身份",
+      "scope": "列081200计算机和085400电子信息硕士；港澳台办法不能替代大陆推免门槛。"
+    },
+    {
+      "id": "ZJU-SS",
+      "source": "https://sdg-gss.zju.edu.cn/_upload/article/files/6d/5b/afddaaff46b4ae9dc8bda6a2a4f9/e674172d-96e2-4310-9af7-504476ca4384.pdf",
+      "applicable_cycle": "标有ZIERIP2025的官方宣传资料",
+      "scope": "宁波软件学院在电子信息的软件工程/人工智能等领域培养，与计算机学院跨院系相关。"
+    },
+    {
+      "id": "ZJU-ENG",
+      "source": "https://pi.zju.edu.cn/2024/0808/c67026a2952040/page.htm",
+      "applicable_cycle": "2025级推免",
+      "scope": "工程师学院电子信息含计算机技术、大数据工程，接收可获推免资格者。"
+    },
+    {
+      "id": "NJU-CHANGE",
+      "source": "https://cs.nju.edu.cn/1674/list.htm",
+      "applicable_cycle": "2024年更名事实",
+      "scope": "计算机系正式更名计算机学院，旧名不造成身份失配。"
+    },
+    {
+      "id": "NJU-SUZHOU",
+      "source": "https://yzb.nju.edu.cn/_upload/article/files/cc/c3/c279b0c7443f92ff53892fcc034b/939bbd67-ef50-4b59-a96a-e952c188cdf7.pdf",
+      "applicable_cycle": "2025级硕士目录",
+      "scope": "072智能软件与工程学院位于苏州，设软件工程专硕；与计算机/AI学院不同。"
+    },
+    {
+      "id": "NJU-SUZHOU-TM",
+      "source": "https://ise.nju.edu.cn/__local/4/35/E3/BE6746208C0E8094A71E83B6A48_8E56D46D_2F8F9.pdf",
+      "applicable_cycle": "2025级推免细则",
+      "scope": "接受推免且不接收跨专业；学生软件工程背景对口。"
+    },
+    {
+      "id": "NJU-SOFT",
+      "source": "https://software.nju.edu.cn/xygk/index.html",
+      "applicable_cycle": "历史沿革至2025；现存方向介绍",
+      "scope": "独立软件工程培养，方向含智能软件、系统质量及可信软件，与CS培养相关。"
+    },
+    {
+      "id": "NJU-LAMDA",
+      "source": "https://www.lamda.nju.edu.cn/recruit-2025/recruit-2025.html",
+      "applicable_cycle": "2025级招生；2024年4月12日更新",
+      "scope": "官方检索正文明确LAMDA学生取得AI学院资格，导师名单包含硕士；直接打开超时，没有补造其他内容。"
+    },
+    {
+      "id": "USTC-CS",
+      "source": "https://yz1.ustc.edu.cn/sszs_2025/index_8.shtml",
+      "applicable_cycle": "2025级硕士简章",
+      "scope": "CS学院081200及085400接收推免；方向含AI、大数据、智能计算、系统软件；办学地点合肥。"
+    },
+    {
+      "id": "USTC-AIDS",
+      "source": "https://yz1.ustc.edu.cn/sszs_2025/index_4.shtml",
+      "applicable_cycle": "2025级硕士简章",
+      "scope": "AI数据学院硕士接收推免，含智能计算、并行框架、存储及大数据，与CS不同院系但高度相关。"
+    },
+    {
+      "id": "WHU-CYBER",
+      "source": "https://cse.whu.edu.cn/info/3231/28781.htm",
+      "applicable_cycle": "2024级硕士细则",
+      "scope": "网安、电子信息硕士有推免生，培养及编程考核与计算机软件安全相关，不把统考流程照搬成推免。"
+    },
+    {
+      "id": "WHU-REMOTE",
+      "source": "https://iip.whu.edu.cn/about/about.html",
+      "applicable_cycle": "现存机构介绍；方向身份",
+      "scope": "遥感学院机器视觉研究所开展AI、图像视频、计算机视觉与遥感，支持明确智能遥感与CS应用方向关系。"
+    },
+    {
+      "id": "WHU-REMOTE-DEG",
+      "source": "https://gs.whu.edu.cn/info/1062/103701.htm",
+      "applicable_cycle": "2025级硕士公告；只核对培养单位/学位身份",
+      "scope": "遥感学院资源与环境硕士是真实路径；不为学生添加士兵专项资格，也不将其等同计算机技术。"
+    },
+    {
+      "id": "BUPT-MERGE",
+      "source": "https://scs.bupt.edu.cn/",
+      "applicable_cycle": "2020年合并以来的院系沿革",
+      "scope": "原软件学院与计算机学院等合并为计算机学院（国家示范性软件学院），独立软件学院保底不是合法独立入口。"
+    },
+    {
+      "id": "NJU-SUZHOU-DIR",
+      "source": "https://ise.nju.edu.cn/xygk/xyjj.htm",
+      "applicable_cycle": "稳定培养方向介绍；非具体届别名额",
+      "scope": "以软件工程为基础、智能软件为特色，融合AI大模型、云计算、大数据，支持与CS及AI学院的跨院系关系。"
+    }
+  ],
+  "limitations": [
+    "北大智能2025指南直接打开失败；未使用未取得内容，采用官方推免说明及CS/软微方向证据。",
+    "LAMDA2025官方正文由检索取得，直接打开超时。",
+    "上交编码URL的2026目录重定向首页，未使用该目录未取得内容；采用重组说明及可访问夏令营通知。"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N03",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N03-03",
+  "prompt": "现在是2026年推免申请季。我在上海大学读电气工程及其自动化，排名前约2%，六级650–699分，参与过控制大创，还有一篇机器视觉方向的EI会议论文。准备走推免，能给我15个具体的学校、学院和专业（项目）组合吗？也想听听为什么适合我。",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

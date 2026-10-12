@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N04",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "document_question_id": "Q033",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N04-01",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我在内蒙古大学读化学工程与工艺，排名前约15%，六级450–499分。做过电池和催化研究，有EI会议一作、SCI合作作者，还参加过化工设计比赛。保研快开始了，我该怎样安排接下来的准备，才能更好地发挥科研优势？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "d747ada0267c58b3a8915a3cfa13d5f5cada7aebd1c83e53769dc08fdff2ed74",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

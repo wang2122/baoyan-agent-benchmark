@@ -1,0 +1,110 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "question_id": "Q051",
+  "task_id": "N12-03",
+  "answer_sha256": "c84622b3582ab479b5b7252f506a35852d5bab46f2f5c3cd81731784beeda366",
+  "original_rubric_sha256": "ba3a622370d4d968ab3b4e2cebfb1feaefdb73c17326e4277883009aadf480c0",
+  "original_score_content_sha256": "6e26405657fb4a4a2f72ec7954564186f884ddedfbb4b9d21e82b0b30c696a12",
+  "original_rubric_content_sha256": "ba3a622370d4d968ab3b4e2cebfb1feaefdb73c17326e4277883009aadf480c0",
+  "original_evidence_hashes": {
+    "task.json": "ee630c377886cc7cc8461eb64a7573e5f4d8e851fd661539e2f02e8ee75877dd",
+    "rubric.json": "ba3a622370d4d968ab3b4e2cebfb1feaefdb73c17326e4277883009aadf480c0",
+    "answer.md": "c84622b3582ab479b5b7252f506a35852d5bab46f2f5c3cd81731784beeda366",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "review-settings.json": "ece57aec9fd942efc08fb505f97f3dcc8202ee786fc58dade6acfcc8e21802b2",
+    "judgment.json": "7b7537b79e8635c3991215deb2dd5bc7a7b67cdd21c25d10cfdb9282af9ff041",
+    "score.json": "6e26405657fb4a4a2f72ec7954564186f884ddedfbb4b9d21e82b0b30c696a12",
+    "evidence.json": "9e3bbba34cca9a824c672107bc18dded6bd9f867e619ad2009113d6ac89d744d"
+  },
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "question_id": "Q051",
+      "node_id": "reasons",
+      "status": "resolved_by_official_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+        "grading": "three_level",
+        "half_credit": "有适配分析但条件或组合取舍不完整",
+        "id": "reasons",
+        "label": "推荐理由、条件与组合",
+        "points": 15
+      },
+      "original_claim": "**学术型硕士（法学硕士）冲，法律硕士（法学）稳**",
+      "decision": "本人英语、科研、方向和职业排序有具体适配，非零档。国知院035400知识产权专硕不能改称0351法硕，A017路径错误，使组合核心不完整，依半档结算0.5；中欧A007学位错误仅归N12-01覆盖，不重复归reasons。A016学硕及N12-03既有30%跨院系匹配保持。",
+      "sources": [
+        {
+          "url": "http://www.cesl.edu.cn/info/1274/16815.htm",
+          "published_date": "2026-09-03",
+          "checked_date": "2026-10-11",
+          "scope": "2027中欧双硕士招生说明",
+          "finding": "中方学位为0301法学学术硕士，汉堡授欧洲—国际法硕士；非法律硕士（法学）"
+        },
+        {
+          "url": "https://yjsy.cupl.edu.cn/info/3112/12742.htm",
+          "published_date": "2026-09-16",
+          "checked_date": "2026-10-11",
+          "scope": "2027说明实时研究生院转发",
+          "finding": "实时浏览器确证当届；web旧缓存不可替代"
+        },
+        {
+          "url": "https://yz.tongji.edu.cn/info/1012/4240.htm",
+          "published_date": "2026-09-30",
+          "checked_date": "2026-10-11",
+          "scope": "2027目录发布",
+          "finding": "对应当届完整专业表"
+        },
+        {
+          "url": "https://yzbm.tongji.edu.cn/zsml/sszsml/zsmlZy/2027/320",
+          "published_date": null,
+          "checked_date": "2026-10-11",
+          "scope": "320上海国际知识产权学院完整目录",
+          "finding": "030100、035400、039901、129901；无0351法律硕士"
+        },
+        {
+          "url": "https://yzbm.tongji.edu.cn/zsml/sszsml/zsmlYjfx/2027/320/035400?ksfs=21",
+          "published_date": null,
+          "checked_date": "2026-10-11",
+          "scope": "035400学位与推免详情",
+          "finding": "专业学位是知识产权，非法律硕士；不否定另一路030100学硕"
+        }
+      ]
+    },
+    {
+      "question_id": "Q051",
+      "node_id": "N12-01",
+      "status": "resolved_counter_evidence",
+      "grade": 0,
+      "points": 0,
+      "original_claim": "中国政法大学 中欧法学院 — 法律硕士（法学）中外合作双学位项目",
+      "decision": "当届官方双硕士中方学位为法学学硕，A007/A070等法硕描述无效；国际法学院/比较法单位提名无具体路径。不能改写学位补造匹配；N12-01=0。",
+      "sources": [
+        {
+          "url": "http://www.cesl.edu.cn/info/1274/16815.htm",
+          "published_date": "2026-09-03",
+          "checked_date": "2026-10-11",
+          "scope": "2027中欧双硕士招生说明",
+          "finding": "中方学位为0301法学学术硕士，汉堡授欧洲—国际法硕士；非法律硕士（法学）"
+        },
+        {
+          "url": "https://yjsy.cupl.edu.cn/info/3112/12742.htm",
+          "published_date": "2026-09-16",
+          "checked_date": "2026-10-11",
+          "scope": "2027说明实时研究生院转发",
+          "finding": "实时浏览器确证当届；web旧缓存不可替代"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    36.0,
+    36.0
+  ],
+  "teacher_calibration": "pending",
+  "source_rulings_sha256": "fd3fdf0feeb9820ca789918837916648cbafba0bf1b43db3ec0a84bcdf034e63",
+  "original_judgment_preserved": true,
+  "native_derived_score_replay_available": true,
+  "validation_note": "Explicit maintenance node overlay; original candidate validity states are preserved. This is not a native candidate-validator replay."
+}

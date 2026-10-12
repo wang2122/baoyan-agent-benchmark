@@ -1,0 +1,107 @@
+{
+  "task_id": "TRY-B-02",
+  "review_as_of": "2026-03-18",
+  "reviewer_lookup": "评审事后官方内容核验，不是答卷生成前已检索的证明。仅使用咨询时点之前公布的内容，未以2026年秋季新公告倒填。",
+  "evidence": [
+    {
+      "id": "EV-TIER",
+      "source": "https://news.xtu.edu.cn/info/1001/22515.htm",
+      "original_source": "https://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html",
+      "publication_date": "2022-02-14",
+      "applicable_cycle": "第二轮双一流名单；用于2026-03-18咨询时点的学校层次身份",
+      "scope": "湘潭大学官网完整转载教育部名单：南京信息工程大学列入大气科学；江苏大学、南京工业大学不在该完整名单。仅用于层次，不证明当届电气推免招生。",
+      "finding": "本科基准为非985/211双一流；江苏大学、南京工业大学为较低档。",
+      "retrieval_status": "opened"
+    },
+    {
+      "id": "EV-UJS",
+      "source": "https://www.ujs.edu.cn/info/1062/197432.htm",
+      "publication_date": "2025-05-13",
+      "applicable_cycle": "2026-03-18前已公开的学校身份辅助材料",
+      "scope": "江苏大学官网2025年会议报道仍在推进双一流创建；辅助名单核对，不替代招生核验。",
+      "finding": "双一流创建状态。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-NJTECH",
+      "source": "https://xkc.njtech.edu.cn/info/1031/1422.htm",
+      "publication_date": "2025-06-12",
+      "applicable_cycle": "2026-03-18前已公开的学校身份辅助材料",
+      "scope": "南京工业大学学科建设处报道双一流创建推进；辅助名单核对。",
+      "finding": "双一流创建状态。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-NCEPU-A",
+      "source": "https://xkb.ncepu.edu.cn/xkjs/gzdt3/4f6c50bf0e8c4949b0f3d9aeca133ffb.htm",
+      "publication_date": "2017-12-30",
+      "applicable_cycle": "第四轮学科评估；咨询时点已公开",
+      "scope": "仅确认电气工程第四轮等级；不推断2027年名额、录取率或就业排名。",
+      "finding": "电气工程为A；动力工程及工程热物理为A-。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-NCEPU-BJ",
+      "source": "https://yjsy.ncepu.edu.cn/zsxx/yjszsjz/5aa700cc28394d1fab2c5d13bdd57b89.htm",
+      "publication_date": "2025-10-09",
+      "applicable_cycle": "2026年硕士章程；仅为2027届准备时的往届主体参考",
+      "scope": "北京校部硕士招生代码10054。不是2027年正式招生承诺。",
+      "finding": "北京校部主体可识别，须与保定区分。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-NCEPU-BD",
+      "source": "https://dlp.ncepu.edu.cn/zsjy/yjszs/5b740547e7fa42b48348927560d299a0.htm",
+      "publication_date": null,
+      "applicable_cycle": "历史硕士招生问答；仅支持两地代码和分别录取的身份关系",
+      "scope": "官方问答明确北京10054、保定10079分开填报，分别录取；不审计2027年招生计划。",
+      "finding": "答卷区分北京与保定的核心提醒成立。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-SDU",
+      "source": "https://yz.sdu.edu.cn/info/1022/1257.htm",
+      "publication_date": "2025-10-09",
+      "applicable_cycle": "2026年硕士章程；2026-03-18已公开的往届关系核验",
+      "scope": "第三十八条将济南、威海、青岛院系列在同一山东大学硕士章程内；电气工程学院列在济南。不能把本科威海独立招生规则移用到硕士。",
+      "finding": "以校内招生单位、专业及培养地点区分硕士项目；不是威海另立硕士学校代码。",
+      "retrieval_status": "opened"
+    },
+    {
+      "id": "EV-SDU-CODE",
+      "source": "https://yz.chsi.com.cn/apply/cjcx/t/10422.dhtml",
+      "publication_date": null,
+      "applicable_cycle": "2026年硕士招生单位身份",
+      "scope": "研招网2026年成绩查询单位为10422山东大学；与三地院系统一列入硕士章程共同支持身份核对。",
+      "finding": "山东大学硕士招生单位代码10422。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-HHU-OLD",
+      "source": "https://www.hhu.edu.cn/_t129/2012/0613/c192a1724/page.psp",
+      "publication_date": "2013-10-22",
+      "applicable_cycle": "历史院系隶属；用于辨识答卷旧称",
+      "scope": "原能源与电气学院确有电气工程博士点和电气相关硕士，不将历史专业直接视为2027年招生目录。",
+      "finding": "旧称能识别河海电气路径，不是虚构学校或项目。",
+      "retrieval_status": "search_result"
+    },
+    {
+      "id": "EV-HHU-2025",
+      "source": "https://ceee.hhu.edu.cn/_t853/2025/0917/c12557a307495/page.psp",
+      "publication_date": "2025-09-17",
+      "applicable_cycle": "2025级研究生；2026-03-18前已公开的院系名称和南京培养信息",
+      "scope": "同一学院官网报道电气与动力工程学院硕博迎新、电气专业见面会及江宁校区活动。支持旧称已滞后及南京培养联系；不证明2027年全部方向、名额和校区。",
+      "finding": "2025年已使用电气与动力工程学院名称，电气培养路径仍可识别。",
+      "retrieval_status": "opened"
+    },
+    {
+      "id": "EV-SYSTEM",
+      "source": "https://yzst.chsi.com.cn/kyzx/kp/202409/20240921/2293140449.html",
+      "publication_date": "2024-09-21",
+      "applicable_cycle": "2025推免服务系统流程；2026-03-18可用的往届操作参考",
+      "scope": "仅核对答卷所称通用系统规则：48小时是志愿修改锁定时间，并允许48小时后仍未收到复试通知；确认待录取后不能再填其他志愿。不得据此确定2026年具体开放日期。",
+      "finding": "不存在每个志愿必须48小时内回复的保证；待录取是系统状态。",
+      "retrieval_status": "opened"
+    }
+  ]
+}

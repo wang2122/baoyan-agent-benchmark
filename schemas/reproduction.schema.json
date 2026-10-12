@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reproduction.schema.json",
+  "title": "Pinned reproduction context",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "release_version",
+    "suite",
+    "task_ids",
+    "fingerprints",
+    "protocol",
+    "protocol_sha256",
+    "scoring_policy_sha256",
+    "engine_sha256",
+    "official"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "benchmark-reproduction.1",
+        "benchmark-reproduction.2"
+      ]
+    },
+    "release_version": {
+      "const": "1.0.1"
+    },
+    "suite": {
+      "enum": [
+        "public-smoke",
+        "dev",
+        "test"
+      ]
+    },
+    "task_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "fingerprints": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "task",
+          "rubric"
+        ],
+        "properties": {
+          "task": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "rubric": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "protocol": {
+      "type": "object"
+    },
+    "protocol_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "scoring_policy_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "engine_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "official": {
+      "const": false
+    },
+    "source": {
+      "enum": [
+        "fixed_profile",
+        "legacy_batch",
+        "study_protocol",
+        "native_cli"
+      ]
+    },
+    "profile_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "selection_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "resolved_registry_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "registry_file_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "recipe_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "engine_capture": {
+      "enum": [
+        "before_execution",
+        "export_time_not_execution_attestation"
+      ]
+    },
+    "components": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "runtime",
+        "evaluation"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "workflow-components.1"
+        },
+        "runtime": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "evaluation": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "benchmark-reproduction.2"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "components"
+        ]
+      }
+    }
+  ]
+}

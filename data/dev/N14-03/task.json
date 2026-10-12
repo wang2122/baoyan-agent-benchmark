@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N14",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q056",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N14-03",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我是北京化工大学会计学专业的，排名前约5%，六级550–599分。想申请会计或相关经管项目，能推荐17个具体学校、学院和专业（项目）组合，并解释每项的适配吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "0804359f04dab104813be7c2389ec70ca866e9ebc7b1601c47ee52e8c1e37e81",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

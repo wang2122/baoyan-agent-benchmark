@@ -1,0 +1,12 @@
+{
+  "schema_version": "benchmark-judge-config.1",
+  "provider": "REPLACE_WITH_PROVIDER",
+  "model": "REPLACE_WITH_REQUEST_MODEL",
+  "expected_response_model": "REPLACE_WITH_EXACT_RESPONSE_MODEL",
+  "endpoint": "https://api.example.com/v1/chat/completions",
+  "api_key_env": "BENCHMARK_JUDGE_API_KEY",
+  "timeout_seconds": 180,
+  "parameters": {
+    "max_completion_tokens": 16384
+  }
+}

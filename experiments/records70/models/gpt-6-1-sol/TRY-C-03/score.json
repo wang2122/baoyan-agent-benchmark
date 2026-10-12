@@ -1,0 +1,23 @@
+{
+  "agent": "gpt-6-1-sol",
+  "category": "规划与决策",
+  "deductions": [
+    {
+      "max_points": 10,
+      "node": "TRY-C-03-R10-02",
+      "points": 0.0,
+      "reason": "这段仅是新比赛的通用收益条件。完整审阅全文后，未见对节能减排竞赛的具体评估，缺少该竞赛与化工、能源或电池催化研究的适配分析，以及相关队伍、认可和投入条件。ChemECar的技术任务分析不能替代节能减排竞赛评估，属于确定缺项，判0而非pending。"
+    }
+  ],
+  "name": "GPT-6.1 Sol",
+  "pending_nodes": [],
+  "review_status": "completed",
+  "score": 90.0,
+  "score_interval": [
+    90.0,
+    90.0
+  ],
+  "score_status": "scored_draft",
+  "stage_count": 1,
+  "task_id": "TRY-C-03"
+}

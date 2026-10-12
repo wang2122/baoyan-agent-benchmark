@@ -1,0 +1,474 @@
+{
+  "actual_candidate_count": 25,
+  "answer_sha256": "0e0eef7630d26e0fea86dcf0e08736014b128635e620f88a1490ed631bce3404",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 75.0
+  },
+  "confirmed_points": 75.0,
+  "diagnostic_score": 75.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-HISTORY": [
+      "E1"
+    ],
+    "ERR-SKILLS": [
+      "E5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "大二规划中强调的“本校是最大退路与稳妥保障”在此时尤为关键。",
+      "id": "ERR-HISTORY",
+      "reason": "对可见S0的错误回述：S0规划争取本校推荐资格，并建议同步申请本校和外校夏令营，没有确立本校接收兜底的最高优先级。归E1；不据此判候选院校不存在或不可申请。"
+    },
+    {
+      "answer_quote": "但你在国家级大创中积累的**材料合成、电池组装、电化学充放电测试、XRD/SEM等表征分析**等实际操作经验依然是最核心的财富",
+      "id": "ERR-SKILLS",
+      "reason": "题面没有披露这些具体实验与仪器技能或本人贡献，S0建议不能成为S1既有经历的证据。没有条件或询问限定，把推测当作事实。归E5；不因项目无正式成果否认其研究训练价值。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O01-04",
+  "input_sha256": "e816883b3151150becaa5d7fec0c9bce3d4d63e754a77e521ef5408386d11b48",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "30c6501b07debee25bf198742a068924816099301a59570713749fcc06fb7b79",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "E1",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "E2",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 1,
+      "id": "E3",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "E4",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "E5",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 25,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "强烈建议同步申报本校本校能源相关院系夏令营",
+      "canonical_candidate_key": "suda:energy",
+      "error_ids": [],
+      "label": "华东地区一所211高校夏令营/接收方向",
+      "reason": "S0未来建议。明确本校本校能源相关院系相关申请方向；S0为未来夏令营准备，S1为2026年9月接收尝试。官方2027年接收细则支持主体（evidence.json OFF-ENERGY）。不将推荐资格或导师意向当作已录取，重复使用同一键。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "中科院纳米所/物化所",
+      "canonical_candidate_key": "cas:unspecified_nano_physical_chemistry",
+      "error_ids": [],
+      "label": "中科院纳米所/物化所（原文合并类别）",
+      "reason": "S0强烈建议申报中所举外校能源/材料院所例子。没有分别落实独立招生主体，按合并类别保留，不拆出研究所，不把“物化所”补成某个正式单位。valid仅确认院所类别准备方向可成立；简称含混、项目路径不足归E4缺项，不据此声称不存在。本题无参考覆盖项，不构造项目命中。",
+      "school_key": "cas:unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "长三角高水平高校",
+      "canonical_candidate_key": "region:yangtze_high_level",
+      "error_ids": [],
+      "label": "长三角高水平高校（未指定学校）",
+      "reason": "S0明确推荐中的区域院校类别；保留未指定学校的粒度，不替答卷生成学校名单。区域准备方向合理，不表示已核准具体项目。",
+      "school_key": "region:yangtze",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "坚决沿用“本校兜底”的最高优先级战略",
+      "canonical_candidate_key": "suda:unspecified",
+      "error_ids": [
+        "ERR-HISTORY"
+      ],
+      "label": "苏州大学本校（未限定院系）",
+      "reason": "本校接收优先的学校层面建议；能源和纳米/本校纳米相关院系另有记录。本条保留上级范围及重复，不替答卷创造第三个独立招生项目，也不将宽范围绑定单一院系。旧方案回述错误关联ERR-HISTORY，候选本身未因此无效。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "本校本校能源相关院系乃至本校纳米相关院系（本校纳米相关院系）",
+      "canonical_candidate_key": "suda:energy",
+      "error_ids": [],
+      "label": "华东地区一所211高校接收方向",
+      "reason": "S1逐一指向两单位，后文分别联系能源或纳米导师进一步识别两方向；不凭不可识别的合并清单构造项目。明确本校本校能源相关院系相关申请方向；S0为未来夏令营准备，S1为2026年9月接收尝试。官方2027年接收细则支持主体（evidence.json OFF-ENERGY）。不将推荐资格或导师意向当作已录取，重复使用同一键。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "本校纳米相关院系（本校纳米相关院系）",
+      "canonical_candidate_key": "suda:nano_funsom",
+      "error_ids": [],
+      "label": "苏州大学纳米学院/FUNSOM方向",
+      "reason": "明确纳米学院/本校纳米相关院系相关接收方向。官方支持三位一体关系和本校纳米相关院系材料推免路径（evidence.json OFF-NANO-REL、OFF-本校纳米相关院系）；按宽培养方向归并，不因学院与研究院称谓不同机械增加项目。valid确认身份与方向合理，不表示已获offer或任何日期都能报名。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "本校必须作为你的第一张安全网",
+      "canonical_candidate_key": "suda:unspecified",
+      "error_ids": [],
+      "label": "苏州大学本校（重复）",
+      "reason": "本校接收优先的学校层面建议；能源和纳米/本校纳米相关院系另有记录。本条保留上级范围及重复，不替答卷创造第三个独立招生项目，也不将宽范围绑定单一院系。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "以本校/强势211为主，适度冲刺特色985",
+      "canonical_candidate_key": "suda:unspecified",
+      "error_ids": [],
+      "label": "苏州大学本校（梯度标题重复）",
+      "reason": "本校接收优先的学校层面建议；能源和纳米/本校纳米相关院系另有记录。本条保留上级范围及重复，不替答卷创造第三个独立招生项目，也不将宽范围绑定单一院系。其他词是类型，未新增具名高校。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "清北",
+      "canonical_candidate_key": "pku:materials",
+      "error_ids": [],
+      "label": "北京大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "pku",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "清北",
+      "canonical_candidate_key": "tsinghua:materials",
+      "error_ids": [],
+      "label": "清华大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "华五",
+      "canonical_candidate_key": "fudan:materials",
+      "error_ids": [],
+      "label": "复旦大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "fudan",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "华五",
+      "canonical_candidate_key": "sjtu:materials",
+      "error_ids": [],
+      "label": "上海交通大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "华五",
+      "canonical_candidate_key": "zju:materials",
+      "error_ids": [],
+      "label": "浙江大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "华五",
+      "canonical_candidate_key": "ustc:materials",
+      "error_ids": [],
+      "label": "中国科学技术大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "ustc",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "华五",
+      "canonical_candidate_key": "nju:materials",
+      "error_ids": [],
+      "label": "南京大学材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "nju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "上交",
+      "canonical_candidate_key": "sjtu:materials",
+      "error_ids": [],
+      "label": "上海交通大学（显名重复）材料方向（风险提名）",
+      "reason": "S1以常用高校组名/简称提及材料申请初筛风险，属于降低优先级的提名，没有明确禁止申请；不按excluded或硬条件冲突处理。组名只展开学校身份，不构造具体院系/项目命中；上海交大的华五提名与显名重复使用同一键。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "大连理工大学",
+      "canonical_candidate_key": "dlut:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "大连理工大学材料/能源相关方向",
+      "reason": "S1冲刺档具名推荐，真实学校的材料/能源宽方向与本科专业合理相关。没有指定学院、学位或门槛，不补造项目，不把未逐年审计或无链接判为invalid。具体条件复核不足归E4；valid只确认宽推荐合理，不证明当届补录或录取概率。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "湖南大学",
+      "canonical_candidate_key": "hnu:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "湖南大学材料/能源相关方向",
+      "reason": "S1冲刺档具名推荐，真实学校的材料/能源宽方向与本科专业合理相关。没有指定学院、学位或门槛，不补造项目，不把未逐年审计或无链接判为invalid。具体条件复核不足归E4；valid只确认宽推荐合理，不证明当届补录或录取概率。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "重庆大学",
+      "canonical_candidate_key": "cqu:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "重庆大学材料/能源相关方向",
+      "reason": "S1冲刺档具名推荐，真实学校的材料/能源宽方向与本科专业合理相关。没有指定学院、学位或门槛，不补造项目，不把未逐年审计或无链接判为invalid。具体条件复核不足归E4；valid只确认宽推荐合理，不证明当届补录或录取概率。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "东北大学",
+      "canonical_candidate_key": "neu:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "东北大学材料/能源相关方向",
+      "reason": "S1冲刺档具名推荐，真实学校的材料/能源宽方向与本科专业合理相关。没有指定学院、学位或门槛，不补造项目，不把未逐年审计或无链接判为invalid。具体条件复核不足归E4；valid只确认宽推荐合理，不证明当届补录或录取概率。",
+      "school_key": "neu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "中国海洋大学",
+      "canonical_candidate_key": "ouc:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "中国海洋大学材料/能源相关方向",
+      "reason": "S1冲刺档具名推荐，真实学校的材料/能源宽方向与本科专业合理相关。没有指定学院、学位或门槛，不补造项目，不把未逐年审计或无链接判为invalid。具体条件复核不足归E4；valid只确认宽推荐合理，不证明当届补录或录取概率。",
+      "school_key": "ouc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "长春应化所",
+      "canonical_candidate_key": "cas:ciac:materials_energy",
+      "error_ids": [],
+      "label": "长春应化所相关研究方向",
+      "reason": "S1冲刺档明确提及长春应用化学研究所，材料/能源方向可成立。未指定独立专业，不补造项目；valid不确认2026年9月某日仍有补录余缺。“常有”是一般机会判断，未给具体已开放窗口，不因缺逐年审计认定不存在。核验安排不足归E4。",
+      "school_key": "cas:ciac",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "宁波材料所",
+      "canonical_candidate_key": "cas:nimte:materials_energy",
+      "error_ids": [],
+      "label": "宁波材料所相关研究方向",
+      "reason": "S1冲刺档明确提及宁波材料技术与工程研究所，材料/能源方向可成立。未指定独立专业，不补造项目；valid不确认2026年9月某日仍有补录余缺。“常有”是一般机会判断，未给具体已开放窗口，不因缺逐年审计认定不存在。核验安排不足归E4。",
+      "school_key": "cas:nimte",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "上海硅酸盐所",
+      "canonical_candidate_key": "cas:sic:materials_energy",
+      "error_ids": [],
+      "label": "上海硅酸盐所相关研究方向",
+      "reason": "S1冲刺档明确提及上海硅酸盐研究所，材料/能源方向可成立。未指定独立专业，不补造项目；valid不确认2026年9月某日仍有补录余缺。“常有”是一般机会判断，未给具体已开放窗口，不因缺逐年审计认定不存在。核验安排不足归E4。",
+      "school_key": "cas:sic",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "北京化工大学",
+      "canonical_candidate_key": "buct:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "北京化工大学材料/能源相关学院（未具名）",
+      "reason": "S1主攻档具名推荐并指向材料/能源相关学院，真实学校与本科背景有合理宽方向联系。未识别具体学院及学位路径，不替答卷创造独立项目。valid不代表年度门槛、窗口和名额已核准；条件复核不足归E4。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "武汉理工大学",
+      "canonical_candidate_key": "whut:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "武汉理工大学材料/能源相关学院（未具名）",
+      "reason": "S1主攻档具名推荐并指向材料/能源相关学院，真实学校与本科背景有合理宽方向联系。未识别具体学院及学位路径，不替答卷创造独立项目。valid不代表年度门槛、窗口和名额已核准；条件复核不足归E4。",
+      "school_key": "whut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "华东理工大学",
+      "canonical_candidate_key": "ecust:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "华东理工大学材料/能源相关学院（未具名）",
+      "reason": "S1主攻档具名推荐并指向材料/能源相关学院，真实学校与本科背景有合理宽方向联系。未识别具体学院及学位路径，不替答卷创造独立项目。valid不代表年度门槛、窗口和名额已核准；条件复核不足归E4。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "南京航空航天大学",
+      "canonical_candidate_key": "nuaa:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "南京航空航天大学材料/能源相关学院（未具名）",
+      "reason": "S1主攻档具名推荐并指向材料/能源相关学院，真实学校与本科背景有合理宽方向联系。未识别具体学院及学位路径，不替答卷创造独立项目。valid不代表年度门槛、窗口和名额已核准；条件复核不足归E4。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "南京理工大学",
+      "canonical_candidate_key": "njust:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "南京理工大学材料/能源相关学院（未具名）",
+      "reason": "S1主攻档具名推荐并指向材料/能源相关学院，真实学校与本科背景有合理宽方向联系。未识别具体学院及学位路径，不替答卷创造独立项目。valid不代表年度门槛、窗口和名额已核准；条件复核不足归E4。",
+      "school_key": "njust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "**托底档（40%精力）**：**华东地区一所211高校本校**",
+      "canonical_candidate_key": "suda:unspecified",
+      "error_ids": [],
+      "label": "苏州大学本校（托底档重复）",
+      "reason": "本校接收优先的学校层面建议；能源和纳米/本校纳米相关院系另有记录。本条保留上级范围及重复，不替答卷创造第三个独立招生项目，也不将宽范围绑定单一院系。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "本周内立刻联系本校意向导师（尤其是熟悉你大创的导师或学院大牛团队），明确告知已获推免资格，争取锁定导师的招生名额。",
+      "canonical_candidate_key": "suda:unspecified",
+      "error_ids": [],
+      "label": "苏州大学本校导师接收（重复）",
+      "reason": "本校接收优先的学校层面建议；能源和纳米/本校纳米相关院系另有记录。本条保留上级范围及重复，不替答卷创造第三个独立招生项目，也不将宽范围绑定单一院系。这是争取接收的行动，没有声称名额已锁定。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "先抓紧本校优质导师的明确口头承诺或意向接收作为安全底牌；在外校有明确预录取 offer 且平台确实更优时，再审慎做出切换。",
+      "canonical_candidate_key": "suda:unspecified",
+      "error_ids": [],
+      "feasibility": "答卷给出本周联系本校、邮件询问外校名额及投递2-3所的路径，策略可执行。口头意向效力有限，仍需正式报名、复试和系统确认（evidence.json），不当作已录取证明。",
+      "key_condition": "先争取本校导师意向；外校明确预录取offer且平台确实更优时才切换。",
+      "label": "本校接收与外校切换（条件策略重复）",
+      "reason": "本校接收优先的学校层面建议；能源和纳米/本校纳米相关院系另有记录。本条保留上级范围及重复，不替答卷创造第三个独立招生项目，也不将宽范围绑定单一院系。条件限定选择切换策略，没有断言本人已有offer。",
+      "school_key": "suda",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33",
+      "answer_quote": "**2天内**联系本校本校能源相关院系或纳米学院导师面谈，稳固本校接收意向。",
+      "canonical_candidate_key": "suda:energy",
+      "error_ids": [],
+      "label": "华东地区一所211高校导师联系（重复）",
+      "reason": "前文已分别提及能源和纳米/本校纳米相关院系方向，此处仅记录已有两方向的替代联络行动，不凭合并句新拆候选。明确本校本校能源相关院系相关申请方向；S0为未来夏令营准备，S1为2026年9月接收尝试。官方2027年接收细则支持主体（evidence.json OFF-ENERGY）。不将推荐资格或导师意向当作已录取，重复使用同一键。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A34",
+      "answer_quote": "**2天内**联系本校本校能源相关院系或纳米学院导师面谈，稳固本校接收意向。",
+      "canonical_candidate_key": "suda:nano_funsom",
+      "error_ids": [],
+      "label": "苏州大学纳米/FUNSOM导师联系（重复）",
+      "reason": "前文已独立提及此方向，此处合并行动句只记录重复。明确纳米学院/本校纳米相关院系相关接收方向。官方支持三位一体关系和本校纳米相关院系材料推免路径（evidence.json OFF-NANO-REL、OFF-本校纳米相关院系）；按宽培养方向归并，不因学院与研究院称谓不同机械增加项目。valid确认身份与方向合理，不表示已获offer或任何日期都能报名。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+  "score": 75.0,
+  "score_interval": [
+    75.0,
+    75.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "O01-04",
+  "task_kind": "planning",
+  "task_sha256": "ad61dfeff50b2d8a861c9d569f192e98b7dd2326eae1ababf521aa0b182a11dd",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题为两阶段规划，无school_tier节点或层次配分，专项不适用，不添加额外处罚。全文具体候选、风险提名及重复均已在recommendation_review记录。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

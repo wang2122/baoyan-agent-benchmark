@@ -1,0 +1,24 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "antigravity-gemini-3-8-flash-high",
+  "task_id": "BY-E-REPLAN",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "subscription",
+    "cli": "antigravity",
+    "cli_version": "1.3.2",
+    "id": "antigravity-gemini-3-8-flash-high",
+    "model": "gemini-3.8-flash-high",
+    "reasoning_effort": "high"
+  },
+  "original_answer_sha256": "f83b4bbe48981de6c6f47464820f68f19d3545e79fc793566ebb604e45f93261",
+  "public_display_answer_sha256": "8a015a8728102f0c715b5f97adc16bbd90e6f06d21182facd3ac76440ab984ee",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}

@@ -1,0 +1,409 @@
+{
+  "actual_candidate_count": 20,
+  "answer_sha256": "1464ae4465803797183faf75345e151a6b561abe7099e1f56147a5917646724e",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 75.0
+  },
+  "confirmed_points": 75.0,
+  "diagnostic_score": 75.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-EN": [
+      "E2"
+    ],
+    "ERR-OFFER": [
+      "E5"
+    ],
+    "ERR-OUTPUT": [
+      "E5"
+    ],
+    "ERR-QUAL": [
+      "E5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "若≥500分则彻底解除英语顾虑；若仍为450–499，直接锁定当前材料，不再二刷，全靠科研与竞赛冲初审",
+      "id": "ERR-EN",
+      "reason": "S0把英语处理简化为500分完全无忧、450–499分一律不再备考，且另称425为硬性报考门槛、手稿足以对冲英语弱势。考试成绩与目标院系要求、英语科研交流能力须分别判断；S1没有追问仍未披露的新成绩或按目标重评。官方往届复旦化学系要求英语水平优良及外语证明，并未给出统一425/500保证线（evidence.json：EV-CHEM、EV-REG）。这里认定的是无依据的一刀切策略，不认定450–499一定不合格；只影响E2。"
+    },
+    {
+      "answer_quote": "这个位次保研资格非常稳固",
+      "id": "ERR-QUAL",
+      "reason": "前约7%有优势，但题面没有本校最终推免名额、综合评价办法及最终资格。可以判断竞争力，不能将资格稳定视作已确认；官方往届章程仍要求取得本校推荐资格并满足院系条件（EV-REG）。只影响E5，不再次扣E1或E2。"
+    },
+    {
+      "answer_quote": "一旦导师看中你并承诺直博名额，夏令营初审和面试基本属于“走形式”",
+      "id": "ERR-OFFER",
+      "reason": "提前联系导师有价值，但导师承诺与正式初审、复试、拟录取及系统确认不是同一状态。复旦在两阶段前已公开的往届章程规定专家小组初审、复试和学校审定，并未给导师口头承诺豁免这些程序（EV-REG）。这是错误的申请结果确定性表述，只影响E5。"
+    },
+    {
+      "answer_quote": "大创立项成果作为简历上的国家级/省级支撑",
+      "id": "ERR-OUTPUT",
+      "reason": "题面仅说大创正在推进，没有披露立项级别或本人贡献；同项目不自动意味着国家级/省级。还以竞赛和参与科研直接断言Aspen能力及进组第一天即可独立上手，未核对个人职责和训练程度。应按可证明的实际经历写材料，不能把目标或可能性写作现有能力；只影响E5。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O03-04",
+  "input_sha256": "abb9aadd5a379d33611f0fbd49d3f48ebbf8c5650d135e20ca6f00ed33e71d08",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "003e51c46aadcc15164c94e9fa910a88cf105bb22dcedce5f9eb18aaae66e5a9",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "E1",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "E2",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "E3",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "E4",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "E5",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 20,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "thu.general",
+      "error_ids": [],
+      "label": "清华大学（S0学校层提名）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "thu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "pku.general",
+      "error_ids": [],
+      "label": "北京大学（S0学校层提名）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "pku",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "zju.general",
+      "error_ids": [],
+      "label": "浙江大学（S0学校层提名）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "tju.general",
+      "error_ids": [],
+      "label": "天津大学（S0学校层提名）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "sjtu.general",
+      "error_ids": [],
+      "label": "上海交通大学（S0学校层提名）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "cas.general",
+      "error_ids": [],
+      "label": "中科院顶尖所（S0未指定研究所）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "cas",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "处于冲击顶尖名校（清北、浙大、天大、交大、中科院顶尖所及本部）的第一梯队门槛。",
+      "canonical_candidate_key": "hit.main",
+      "error_ids": [],
+      "label": "哈尔滨工业大学本部（S0提名）",
+      "reason": "S0明确作为可冲击目标提名，故纳入；仅学校/院所类别层面的定位，没有独立专业路径。清北分别指清华、北大，交大由S1明文上海交通大学消歧，本部由S0哈工大（威海）语境消歧。valid只表示提名身份合理，不表示前约7%已获资格或逐年名额核验。",
+      "school_key": "hit",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "电催化/储能是复旦化学系、材料系以及南方顶尖高校的绝对主流研究方向，你的电池催化课题是你叩开顶尖课题组大门最对口的敲门砖。",
+      "canonical_candidate_key": "fdu.chem",
+      "error_ids": [],
+      "label": "复旦大学化学系（S1方向推荐初次）",
+      "reason": "在择校建议语境明确化学系能源研究入口，与后文独立院系列举对应。EV-CHEM支持化学直博路径；EV-ICOME-CAMP说明催化/电池部分力量已整合入iCOME，须按具体导师核对归属。方向存在，不把同校交叉隶属或未逐年审计判无效。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "电催化/储能是复旦化学系、材料系以及南方顶尖高校的绝对主流研究方向，你的电池催化课题是你叩开顶尖课题组大门最对口的敲门砖。",
+      "canonical_candidate_key": "fdu.materials",
+      "error_ids": [],
+      "label": "复旦大学材料科学系相关方向（S1初次）",
+      "reason": "与后文“材料科学系”同一候选。EV-ICOME-CAMP/PRE支持原材料科学系相关学术力量及材料博士路径转入iCOME；旧名是可识别的研究入口，不等于不存在。招生通道漏核只在E4处理，未证明对学生有硬条件冲突。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "**复旦大学：** 化学系（全国A+顶尖，赵东元、彭慧胜等院士团队及能源电催化方向众多大牛）、材料科学系、先进材料实验室（微纳能源、电池材料极强）。",
+      "canonical_candidate_key": "fdu.chem",
+      "error_ids": [],
+      "label": "复旦大学化学系（S1梯队清单，含赵东元/彭慧胜团队提名）",
+      "reason": "独立列出化学系。两位导师作为院系方向例子和内部团队提名附在此记录，不凭团队名字另造院系项目。EV-CHEM确认化学系直博；EV-ICOME-CAMP/PRE说明能源相关师资整合，导师实际报名归属须更新，不能机械以旧隶属判项目不存在。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "**复旦大学：** 化学系（全国A+顶尖，赵东元、彭慧胜等院士团队及能源电催化方向众多大牛）、材料科学系、先进材料实验室（微纳能源、电池材料极强）。",
+      "canonical_candidate_key": "fdu.materials",
+      "error_ids": [],
+      "label": "复旦大学原材料科学系相关方向（S1清单重复）",
+      "reason": "以顿号独立推荐材料科学系，和A009为同一对象。官方2025年iCOME招生通知已纳入材料科学系力量并设材料学位路径（EV-ICOME-CAMP/PRE）。按真实相关方向判内容有效，非把旧名当作独立的新招生单位。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "**复旦大学：** 化学系（全国A+顶尖，赵东元、彭慧胜等院士团队及能源电催化方向众多大牛）、材料科学系、先进材料实验室（微纳能源、电池材料极强）。",
+      "canonical_candidate_key": "fdu.lam",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室（依托iCOME通道）",
+      "reason": "清单中的独立科研单位入口可识别。官方先材2025年活动通知明确通过iCOME报名（EV-LAM），因此不判实验室没有培养路径；也不把材料科学系和实验室误认为两个已经核实的独立招生系统。valid不代表2026年度招生名额均已审计。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "**上海交通大学：** 化学化工学院、材料科学与工程学院。",
+      "canonical_candidate_key": "sjtu.chem",
+      "error_ids": [],
+      "label": "上海交通大学化学化工学院",
+      "reason": "顿号列出独立学院，化工/催化相关方向与学生背景相符；官方2025优才夏令营公告确认该学院招生交流入口（EV-SJTU-CHEM）。此为内容和身份判断，未将未核准的2026具体导师名额当作事实。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "**上海交通大学：** 化学化工学院、材料科学与工程学院。",
+      "canonical_candidate_key": "sjtu.materials",
+      "error_ids": [],
+      "label": "上海交通大学材料科学与工程学院",
+      "reason": "独立学院推荐，非与化学化工学院含糊斜杠混同。官方历史学院招生检索页可见2025年发布的2026级优才夏令营和含直博预推免通知（EV-SJTU-MSE）。研究方向相关，未见已知硬限制冲突。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "**浙江大学：** 化学工程与生物工程学院（老牌化工顶尖）、材料科学与工程学院、化学系。",
+      "canonical_candidate_key": "zju.che",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院",
+      "reason": "顿号分别列出的独立院系候选，与化工、材料或能源化学的研究训练相容；只在答卷所给院系粒度判断，未见项目虚构、学位不符或已知条件冲突。未搜到特定年度材料不推断不存在；valid不表示逐年招生门槛/名额核准。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "**浙江大学：** 化学工程与生物工程学院（老牌化工顶尖）、材料科学与工程学院、化学系。",
+      "canonical_candidate_key": "zju.materials",
+      "error_ids": [],
+      "label": "浙江大学材料科学与工程学院",
+      "reason": "顿号分别列出的独立院系候选，与化工、材料或能源化学的研究训练相容；只在答卷所给院系粒度判断，未见项目虚构、学位不符或已知条件冲突。未搜到特定年度材料不推断不存在；valid不表示逐年招生门槛/名额核准。官方2025年发布的2026博士简章确认材料学科直接攻博路径（EV-ZJU-MSE），仅供准备参考。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "**浙江大学：** 化学工程与生物工程学院（老牌化工顶尖）、材料科学与工程学院、化学系。",
+      "canonical_candidate_key": "zju.chem",
+      "error_ids": [],
+      "label": "浙江大学化学系",
+      "reason": "顿号分别列出的独立院系候选，与化工、材料或能源化学的研究训练相容；只在答卷所给院系粒度判断，未见项目虚构、学位不符或已知条件冲突。未搜到特定年度材料不推断不存在；valid不表示逐年招生门槛/名额核准。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "**厦门大学：** 化学化工学院（电化学“国家队”，催化与能源化学极其强势）。",
+      "canonical_candidate_key": "xmu.chem",
+      "error_ids": [],
+      "label": "厦门大学化学化工学院",
+      "reason": "单独学院推荐，催化/能源化学与学生电池催化研究和南方偏好相符。官方2025大学生夏令营通知确认学院及能源材料化学平台、化工本科可报名（EV-XMU）；往届条件只作准备参考，不冒充2026当届确定规则。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "**中国科学技术大学：** 化学与材料科学学院（能源化学高地）。",
+      "canonical_candidate_key": "ustc.scms",
+      "error_ids": [],
+      "label": "中国科学技术大学化学与材料科学学院",
+      "reason": "独立学院推荐，能源化学方向与学生主线相容；官方学院历史团学页面支持化学与材料科学学院的真实身份及2025年科研教育活动（EV-USTC）。南方是软偏好，合肥可纳入，不能因未列参考或未逐年核验而判无效。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "**中科院南方优质院所：** 上海硅酸盐所、宁波材料所、苏州纳米所（科研资源极其充沛，直博名额多，招收工科背景强的学生意愿高）。",
+      "canonical_candidate_key": "sic.materials",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所",
+      "reason": "三个研究所分别列举，均纳入独立候选。材料/纳米方向属于可辨识的科研入口。官方2025研究报道存在该所直博培养事实（EV-SIC）。不要求985/211标签，不把“名额多/愿意招工科”的笼统宣传当作当届具体名额已确认。",
+      "school_key": "sic",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "**中科院南方优质院所：** 上海硅酸盐所、宁波材料所、苏州纳米所（科研资源极其充沛，直博名额多，招收工科背景强的学生意愿高）。",
+      "canonical_candidate_key": "nimte.materials",
+      "error_ids": [],
+      "label": "中国科学院宁波材料技术与工程研究所",
+      "reason": "三个研究所分别列举，均纳入独立候选。材料/纳米方向属于可辨识的科研入口。官方历史2025研究生招生简章提及推免硕士及直博规程（EV-NIMTE）。不要求985/211标签，不把“名额多/愿意招工科”的笼统宣传当作当届具体名额已确认。",
+      "school_key": "nimte",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "**中科院南方优质院所：** 上海硅酸盐所、宁波材料所、苏州纳米所（科研资源极其充沛，直博名额多，招收工科背景强的学生意愿高）。",
+      "canonical_candidate_key": "sinano.nano",
+      "error_ids": [],
+      "label": "中国科学院苏州纳米技术与纳米仿生研究所",
+      "reason": "三个研究所分别列举，均纳入独立候选。材料/纳米方向属于可辨识的科研入口。2026年1月27日官方博士公告说明中科大纳米学院（苏州纳米所）推荐免试直博路径（EV-SINANO），在S1前已公开。不要求985/211标签，不把“名额多/愿意招工科”的笼统宣传当作当届具体名额已确认。",
+      "school_key": "sinano",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "梳理复旦化学系/材料系、浙大、交大、厦大近2年有直博名额且方向涉及“电催化/能源电池”的杰青、优青或新锐独立PI名单（建议整理出15-20人清单）。",
+      "canonical_candidate_key": "fdu.chem",
+      "error_ids": [],
+      "label": "复旦大学化学系（S1导师调研重复）",
+      "reason": "此处虽用化学系/材料系合并描述，前文已分别独立推荐，按全文消歧记录既有化学系候选的重复，不创造未明确的新项目。官方隶属说明同A008及A010。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "梳理复旦化学系/材料系、浙大、交大、厦大近2年有直博名额且方向涉及“电催化/能源电池”的杰青、优青或新锐独立PI名单（建议整理出15-20人清单）。",
+      "canonical_candidate_key": "fdu.materials",
+      "error_ids": [],
+      "label": "复旦大学原材料科学系相关方向（S1导师调研重复）",
+      "reason": "前文已独立推荐材料科学系，故此处斜杠记为既有候选重复；真实招生入口应对照iCOME整合通道（EV-ICOME-CAMP/PRE），旧名不判虚构。",
+      "school_key": "fdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "梳理复旦化学系/材料系、浙大、交大、厦大近2年有直博名额且方向涉及“电催化/能源电池”的杰青、优青或新锐独立PI名单（建议整理出15-20人清单）。",
+      "canonical_candidate_key": "zju.general",
+      "error_ids": [],
+      "label": "浙江大学（S1学校层导师调研重复）",
+      "reason": "学校简称重复，前文有三个独立院系，此处不指定其中一个，不代答卷扩展为三条新的可投路径。复用S0学校层提名键；具体方向择师是后续调研动作，非已经确认15至20位导师名额。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "梳理复旦化学系/材料系、浙大、交大、厦大近2年有直博名额且方向涉及“电催化/能源电池”的杰青、优青或新锐独立PI名单（建议整理出15-20人清单）。",
+      "canonical_candidate_key": "sjtu.general",
+      "error_ids": [],
+      "label": "上海交通大学（S1学校层导师调研重复）",
+      "reason": "与S0交大提名同校。前文分别列出两个学院，此处仅学校层重复，不机械择取任一学院或新造项目；名额调研为建议动作。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "梳理复旦化学系/材料系、浙大、交大、厦大近2年有直博名额且方向涉及“电催化/能源电池”的杰青、优青或新锐独立PI名单（建议整理出15-20人清单）。",
+      "canonical_candidate_key": "xmu.chem",
+      "error_ids": [],
+      "label": "厦门大学化学化工学院（S1导师调研重复）",
+      "reason": "全文仅明确该校化学化工学院这一相关入口，此处厦大简称回指该候选，不增加新的学院或路径。原文建议研究近两年导师名额，是调研任务而非已经核实名额。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+  "score": 75.0,
+  "score_interval": [
+    75.0,
+    75.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "O03-04",
+  "task_kind": "planning",
+  "task_sha256": "80e18343d9576bb6cdeab96588b5e01489a13cabc642c96a316ec3d3a04c5014",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题是两阶段规划题，没有school_tier或院校层次质量节点，层次不另计分，故无需为每所学校增加层次审计。全文已审阅：S0冲击目标提名、S1各院系/研究所及导师调研中的实质重复均已记录；赵东元、彭慧胜是化学系相关团队例示，附在该候选中；同济、华东理工只用于比较生源背景，哈工大（威海）是就读背景，均非额外推荐。复旦首选及南方的标题/叙述性复现是用户偏好和既有目标的回指，不另造独立候选；没有院校排除建议或明确的条件院校推荐。科研事项的暂停/退出不属于招生候选排除。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

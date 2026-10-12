@@ -1,0 +1,670 @@
+{
+  "actual_candidate_count": 18,
+  "answer_sha256": "31688f092ffb5878f9c6c2383749aa2eadb94b9f17fdec12c581e6b91004a7c4",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 50.0
+  },
+  "confirmed_points": 50.0,
+  "diagnostic_score": 50.0,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N16-01-T1"
+    ],
+    "E2": [
+      "N16-01-T2"
+    ],
+    "E3": [
+      "N16-01-T5"
+    ],
+    "E4": [
+      "accuracy"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "获得西安交大应届本科推免资格属于大概率确定事件",
+      "evidence_ids": [
+        "EV1",
+        "EV2"
+      ],
+      "id": "E1",
+      "reason": "前约15%仅是题面披露的成绩排名；实际大类、届别、综合排名及专业名额均未确认，不能凭泛称45%至60%的比例将资格近似确定。末尾查近两年规则不能补回此前未确认的排名口径与资格条件；此错误仅归T1。"
+    },
+    {
+      "answer_quote": "450–499 分已迈过全国绝大多数 985 高校夏令营要求的 **425 分报名门槛**",
+      "evidence_ids": [
+        "EV6"
+      ],
+      "id": "E2",
+      "reason": "把六级425分笼统当作目标项目报名达标判断，未逐项目、学位和当年通知区分硬门槛与480/500分备考目标。此处不声称所有425分说法都错误：上交往届机动通知确有此门槛，但不能推广到全部实际候选；仅归T2。"
+    },
+    {
+      "answer_quote": "西安交通大学机械学院拥有中国顶尖的团队（如蒋庄德院士微纳制造团队、卢秉恒院士增材制造团队、高宏力教授智能制造系统团队、高端装备研究院等）。",
+      "evidence_ids": [
+        "EV3",
+        "EV4"
+      ],
+      "id": "E3",
+      "reason": "将高宏力教授列为西安交通大学机械学院的本校导师资源，官方教师主页及2026年3月校内新闻确认其属于西南交通大学机械工程学院。错误会直接误导本校导师筛选，关联该候选并仅归T5。"
+    },
+    {
+      "answer_quote": "目前大多属于早期参与者，多为过程性经历，尚未转化为国家级/省级竞赛奖项、学术论文、专利或软著等“推免硬通货”",
+      "id": "E4",
+      "reason": "题面只说参加过机械和智能制造相关项目，没有披露个人角色、项目阶段或有无成果。答卷未经询问就把早期参与、过程性经历和没有成果写成目前事实，虚构了影响准备优先级的个人成果状态；仅归accuracy，不再据同一断言扣T3或T5。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N16-01",
+  "input_sha256": "d1026bfb3b31eb6ece1964ad1a049682622b4901aa3ee46f4ecb25e081ee325d",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "935772d919121ca2955fcc6bd3571fc9aa8e550a31af93a80fe01cb43ce0b183",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N16-01-T1",
+      "kind": "quality",
+      "points": 13.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N16-01-T2",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N16-01-T3",
+      "kind": "quality",
+      "points": 4.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N16-01-T4",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N16-01-T5",
+      "kind": "quality",
+      "points": 3.5
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 18,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "**推荐选【智能制造工程】的情形**：\n  * 如果未来读研坚定想做**工业 AI、机器人算法、机器视觉检测、数字孪生、智能调度与制造系统控制**等偏“软硬融合/智能化”的前沿交叉课题；",
+      "canonical_candidate_key": "xjtu:ug:smart_manufacturing",
+      "error_ids": [],
+      "feasibility": "兴趣与已披露项目方向相容；答卷末尾提出取得分流方案，可据实际届别核验开放专业和名额。可行性判断限于准备路径，不确认一定分流成功。",
+      "key_condition": "兴趣偏工业AI、机器人算法、视觉和制造控制，并愿意学习编程、电控；实际大类必须开放该分流专业。",
+      "label": "西安交大本科分流：智能制造工程",
+      "reason": "这是明确的本科分流条件推荐，应记录，不能当研究生学位项目。官方2025级机械类分流通知有该专业，但题面未说明学生具体所属大类与届别，不能据此保证可选。",
+      "school_key": "xjtu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "**推荐选【机械工程】的情形**：\n  * 如果倾向于**精密仪器、微机电系统（MEMS）、高端装备结构设计与仿真、先进切削与特种加工、增材制造物理过程**等经典且硬核的制造方向；",
+      "canonical_candidate_key": "xjtu:ug:mechanical",
+      "error_ids": [],
+      "feasibility": "可通过题面已有项目复盘与分流方案核验判断；官方2025级机械类通知列有机械工程，但只用于身份支持，不能替学生确定届别和竞争资格。",
+      "key_condition": "兴趣偏结构设计、精密制造、加工及增材制造；实际所属大类提供机械工程分流。",
+      "label": "西安交大本科分流：机械工程",
+      "reason": "明确的本科分流条件推荐。已有机械项目可用于判断兴趣；不把机械专业的宽泛适配说法当成所有外校接收保证。",
+      "school_key": "xjtu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "清华机械/精仪/深研院",
+      "canonical_candidate_key": "tsinghua:merged_me_dpi_sigs",
+      "error_ids": [],
+      "label": "清华机械/精仪/深圳（TBSI智能制造）合并候选",
+      "reason": "全文是合并候选，并未分别说明各招生路径，按一个合并对象保留全部出现，不擅拆三项。机械/精仪及深圳智能制造有真实申请方向；TBSI表述不能自动等同SIGS的机械或电子信息智能制造项目。官方当届SIGS目录用于界定粒度（EV7），本记录valid只确认相关单位/方向存在，不确认该合并名称是规范项目、不确认当届门槛或入营概率。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "清华大学机械系/精仪系/清华伯克利深圳研究院（TBSI）",
+      "canonical_candidate_key": "tsinghua:merged_me_dpi_sigs",
+      "error_ids": [],
+      "label": "清华机械/精仪/深圳（TBSI智能制造）合并候选",
+      "reason": "全文是合并候选，并未分别说明各招生路径，按一个合并对象保留全部出现，不擅拆三项。机械/精仪及深圳智能制造有真实申请方向；TBSI表述不能自动等同SIGS的机械或电子信息智能制造项目。官方当届SIGS目录用于界定粒度（EV7），本记录valid只确认相关单位/方向存在，不确认该合并名称是规范项目、不确认当届门槛或入营概率。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "**清华大学**（机械工程系 / 精密仪器系 / TBSI 智能制造）",
+      "canonical_candidate_key": "tsinghua:merged_me_dpi_sigs",
+      "error_ids": [],
+      "label": "清华机械/精仪/深圳（TBSI智能制造）合并候选",
+      "reason": "全文是合并候选，并未分别说明各招生路径，按一个合并对象保留全部出现，不擅拆三项。机械/精仪及深圳智能制造有真实申请方向；TBSI表述不能自动等同SIGS的机械或电子信息智能制造项目。官方当届SIGS目录用于界定粒度（EV7），本记录valid只确认相关单位/方向存在，不确认该合并名称是规范项目、不确认当届门槛或入营概率。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "上交机动",
+      "canonical_candidate_key": "sjtu:me",
+      "error_ids": [],
+      "label": "上海交通大学机械与动力工程学院",
+      "reason": "简称与全称为同一学院候选。官方往届夏令营明确机械学术/专业学位及交叉背景（EV6）；作为准备目标与机械项目适配。valid限身份及相关路径，不用2025申请2026入学规则替代2026申请季规则。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "上海交通大学机械与动力工程学院",
+      "canonical_candidate_key": "sjtu:me",
+      "error_ids": [],
+      "label": "上海交通大学机械与动力工程学院",
+      "reason": "简称与全称为同一学院候选。官方往届夏令营明确机械学术/专业学位及交叉背景（EV6）；作为准备目标与机械项目适配。valid限身份及相关路径，不用2025申请2026入学规则替代2026申请季规则。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "**上海交通大学**（机械与动力工程学院）",
+      "canonical_candidate_key": "sjtu:me",
+      "error_ids": [],
+      "label": "上海交通大学机械与动力工程学院",
+      "reason": "简称与全称为同一学院候选。官方往届夏令营明确机械学术/专业学位及交叉背景（EV6）；作为准备目标与机械项目适配。valid限身份及相关路径，不用2025申请2026入学规则替代2026申请季规则。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "浙大机械",
+      "canonical_candidate_key": "zju:me",
+      "error_ids": [],
+      "label": "浙江大学机械工程学院",
+      "reason": "简称及全称合并。官方2027推免系统列有机械工程学院（EV9），是相关准备目标；未按学生排名确认录取或宣称500分当年硬门槛。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "浙江大学机械工程学院",
+      "canonical_candidate_key": "zju:me",
+      "error_ids": [],
+      "label": "浙江大学机械工程学院",
+      "reason": "简称及全称合并。官方2027推免系统列有机械工程学院（EV9），是相关准备目标；未按学生排名确认录取或宣称500分当年硬门槛。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "**浙江大学**（机械工程学院）",
+      "canonical_candidate_key": "zju:me",
+      "error_ids": [],
+      "label": "浙江大学机械工程学院",
+      "reason": "简称及全称合并。官方2027推免系统列有机械工程学院（EV9），是相关准备目标；未按学生排名确认录取或宣称500分当年硬门槛。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "本校西交机械",
+      "canonical_candidate_key": "xjtu:me",
+      "error_ids": [],
+      "label": "西安交大机械工程学院/高端装备研究院及内部平台",
+      "reason": "官方EV5确认高端院依托机械工程学院，是科研组织和培养机构，不另制造一个独立学院招生候选；智能制造中心按内部平台保留，不据查不到独立招生判不存在。EV2确认学院真实推免路径。所有本校机械学硕/专硕及导师筛选重复建议合并；valid不包含零风险兜底保证，亦不包含错误的高宏力归属，该错误另记A候选并归T5。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "**西安交通大学机械工程学院/高端装备研究院**",
+      "canonical_candidate_key": "xjtu:me",
+      "error_ids": [],
+      "label": "西安交大机械工程学院/高端装备研究院及内部平台",
+      "reason": "官方EV5确认高端院依托机械工程学院，是科研组织和培养机构，不另制造一个独立学院招生候选；智能制造中心按内部平台保留，不据查不到独立招生判不存在。EV2确认学院真实推免路径。所有本校机械学硕/专硕及导师筛选重复建议合并；valid不包含零风险兜底保证，亦不包含错误的高宏力归属，该错误另记A候选并归T5。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "**西安交通大学（本部）**（机械工程学院 / 高端装备研究院 / 智能制造创新中心）",
+      "canonical_candidate_key": "xjtu:me",
+      "error_ids": [],
+      "label": "西安交大机械工程学院/高端装备研究院及内部平台",
+      "reason": "官方EV5确认高端院依托机械工程学院，是科研组织和培养机构，不另制造一个独立学院招生候选；智能制造中心按内部平台保留，不据查不到独立招生判不存在。EV2确认学院真实推免路径。所有本校机械学硕/专硕及导师筛选重复建议合并；valid不包含零风险兜底保证，亦不包含错误的高宏力归属，该错误另记A候选并归T5。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "西安交通大学本校优秀骨干导师（学硕/专硕）",
+      "canonical_candidate_key": "xjtu:me",
+      "error_ids": [],
+      "label": "西安交大机械工程学院/高端装备研究院及内部平台",
+      "reason": "官方EV5确认高端院依托机械工程学院，是科研组织和培养机构，不另制造一个独立学院招生候选；智能制造中心按内部平台保留，不据查不到独立招生判不存在。EV2确认学院真实推免路径。所有本校机械学硕/专硕及导师筛选重复建议合并；valid不包含零风险兜底保证，亦不包含错误的高宏力归属，该错误另记A候选并归T5。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "浏览西安交大机械工程学院与高端装备研究院官网的教师主页",
+      "canonical_candidate_key": "xjtu:me",
+      "error_ids": [],
+      "label": "西安交大机械工程学院/高端装备研究院及内部平台",
+      "reason": "官方EV5确认高端院依托机械工程学院，是科研组织和培养机构，不另制造一个独立学院招生候选；智能制造中心按内部平台保留，不据查不到独立招生判不存在。EV2确认学院真实推免路径。所有本校机械学硕/专硕及导师筛选重复建议合并；valid不包含零风险兜底保证，亦不包含错误的高宏力归属，该错误另记A候选并归T5。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "华中科大",
+      "canonical_candidate_key": "hust:mechanical",
+      "error_ids": [],
+      "label": "华中科技大学机械科学与工程学院",
+      "reason": "全文学校简称在主攻机械语境下与明确学院全称合并。官方招生栏目有2026申请季2027推免条目（EV10），支持学院招生身份，机械方向适配；不据C9平台推断真实入营概率。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "华中科技大学机械科学与工程学院",
+      "canonical_candidate_key": "hust:mechanical",
+      "error_ids": [],
+      "label": "华中科技大学机械科学与工程学院",
+      "reason": "全文学校简称在主攻机械语境下与明确学院全称合并。官方招生栏目有2026申请季2027推免条目（EV10），支持学院招生身份，机械方向适配；不据C9平台推断真实入营概率。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "**华中科技大学**（机械科学与工程学院）",
+      "canonical_candidate_key": "hust:mechanical",
+      "error_ids": [],
+      "label": "华中科技大学机械科学与工程学院",
+      "reason": "全文学校简称在主攻机械语境下与明确学院全称合并。官方招生栏目有2026申请季2027推免条目（EV10），支持学院招生身份，机械方向适配；不据C9平台推断真实入营概率。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "哈工大机电",
+      "canonical_candidate_key": "hit:sme",
+      "error_ids": [],
+      "label": "哈尔滨工业大学机电工程学院",
+      "reason": "官方机电学院往届夏令营介绍机械及相关背景（EV11），候选有相关研究路径。答卷没有独立提名其他哈工大校区，不增造深圳/威海候选；valid不确认本轮校区细项及准入资格。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "哈尔滨工业大学机电工程学院",
+      "canonical_candidate_key": "hit:sme",
+      "error_ids": [],
+      "label": "哈尔滨工业大学机电工程学院",
+      "reason": "官方机电学院往届夏令营介绍机械及相关背景（EV11），候选有相关研究路径。答卷没有独立提名其他哈工大校区，不增造深圳/威海候选；valid不确认本轮校区细项及准入资格。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "**哈尔滨工业大学**（机电工程学院）",
+      "canonical_candidate_key": "hit:sme",
+      "error_ids": [],
+      "label": "哈尔滨工业大学机电工程学院",
+      "reason": "官方机电学院往届夏令营介绍机械及相关背景（EV11），候选有相关研究路径。答卷没有独立提名其他哈工大校区，不增造深圳/威海候选；valid不确认本轮校区细项及准入资格。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "北航",
+      "canonical_candidate_key": "buaa:mechanical",
+      "error_ids": [],
+      "label": "北京航空航天大学机械工程及自动化学院",
+      "reason": "主攻档北航简称在全文由该学院明确化；官方招生栏目支持学院与推免身份（EV12）。机械与自动化相关，尚未逐项说明学位和当年限制属于T4缺项，不将此真实学院判无效。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "北京航空航天大学机械工程及自动化学院",
+      "canonical_candidate_key": "buaa:mechanical",
+      "error_ids": [],
+      "label": "北京航空航天大学机械工程及自动化学院",
+      "reason": "主攻档北航简称在全文由该学院明确化；官方招生栏目支持学院与推免身份（EV12）。机械与自动化相关，尚未逐项说明学位和当年限制属于T4缺项，不将此真实学院判无效。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "**北京航空航天大学**（机械工程及自动化学院）",
+      "canonical_candidate_key": "buaa:mechanical",
+      "error_ids": [],
+      "label": "北京航空航天大学机械工程及自动化学院",
+      "reason": "主攻档北航简称在全文由该学院明确化；官方招生栏目支持学院与推免身份（EV12）。机械与自动化相关，尚未逐项说明学位和当年限制属于T4缺项，不将此真实学院判无效。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "北理",
+      "canonical_candidate_key": "bit:mechanical_vehicle",
+      "error_ids": [],
+      "label": "北京理工大学机械与车辆学院",
+      "reason": "简称与学院全称合并，官方栏目有含推免的全日制硕士通知（EV13），支持真实招生单位身份。机械相关目标可支持准备，不认定C9来源便可保证主攻录取。",
+      "school_key": "bit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "北京理工大学机械与车辆学院",
+      "canonical_candidate_key": "bit:mechanical_vehicle",
+      "error_ids": [],
+      "label": "北京理工大学机械与车辆学院",
+      "reason": "简称与学院全称合并，官方栏目有含推免的全日制硕士通知（EV13），支持真实招生单位身份。机械相关目标可支持准备，不认定C9来源便可保证主攻录取。",
+      "school_key": "bit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "**北京理工大学**（机械与车辆学院）",
+      "canonical_candidate_key": "bit:mechanical_vehicle",
+      "error_ids": [],
+      "label": "北京理工大学机械与车辆学院",
+      "reason": "简称与学院全称合并，官方栏目有含推免的全日制硕士通知（EV13），支持真实招生单位身份。机械相关目标可支持准备，不认定C9来源便可保证主攻录取。",
+      "school_key": "bit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "同济",
+      "canonical_candidate_key": "tongji:mechanical",
+      "error_ids": [],
+      "label": "同济大学机械与能源工程学院（答卷旧称）",
+      "reason": "机械相关主攻候选，学校简称与旧学院称呼合并。评审检索到2026申请季官方通知使用机械工程与机器人学院（EV14）；本题无具体项目匹配，不因名称变化机械判不存在，也不声称旧学院全部专业与新院完全等价。valid仅为有真实机械研究生路径的单位级准备推荐；路径分流缺项归T4。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "同济大学机械与能源工程学院",
+      "canonical_candidate_key": "tongji:mechanical",
+      "error_ids": [],
+      "label": "同济大学机械与能源工程学院（答卷旧称）",
+      "reason": "机械相关主攻候选，学校简称与旧学院称呼合并。评审检索到2026申请季官方通知使用机械工程与机器人学院（EV14）；本题无具体项目匹配，不因名称变化机械判不存在，也不声称旧学院全部专业与新院完全等价。valid仅为有真实机械研究生路径的单位级准备推荐；路径分流缺项归T4。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "**同济大学**（机械与能源工程学院）",
+      "canonical_candidate_key": "tongji:mechanical",
+      "error_ids": [],
+      "label": "同济大学机械与能源工程学院（答卷旧称）",
+      "reason": "机械相关主攻候选，学校简称与旧学院称呼合并。评审检索到2026申请季官方通知使用机械工程与机器人学院（EV14）；本题无具体项目匹配，不因名称变化机械判不存在，也不声称旧学院全部专业与新院完全等价。valid仅为有真实机械研究生路径的单位级准备推荐；路径分流缺项归T4。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "中科院沈阳自动化所/光机所等",
+      "canonical_candidate_key": "cas:sia",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所",
+      "reason": "3.3节另有独立提名沈阳自动化研究所，故合并文字在此不阻止识别独立研究所；光机所单独记录。官方EV15说明机械、机器人、智能制造背景及真实推免路径，相关性成立；不确认当届名额。",
+      "school_key": "cas_sia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "中科院沈阳自动化研究所（机器人王牌）",
+      "canonical_candidate_key": "cas:sia",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所",
+      "reason": "3.3节另有独立提名沈阳自动化研究所，故合并文字在此不阻止识别独立研究所；光机所单独记录。官方EV15说明机械、机器人、智能制造背景及真实推免路径，相关性成立；不确认当届名额。",
+      "school_key": "cas_sia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "中科院沈阳自动化所 / 长春光机所",
+      "canonical_candidate_key": "cas:sia",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所",
+      "reason": "3.3节另有独立提名沈阳自动化研究所，故合并文字在此不阻止识别独立研究所；光机所单独记录。官方EV15说明机械、机器人、智能制造背景及真实推免路径，相关性成立；不确认当届名额。",
+      "school_key": "cas_sia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "长春光机所",
+      "canonical_candidate_key": "cas:ciomp",
+      "error_ids": [],
+      "label": "中国科学院长春光学精密机械与物理研究所",
+      "reason": "3.3节明确独立提名长春光机所，与沈阳自动化所是不同单位，不把各所合成同一候选。存在精密机械相关研究生路径；本记录只判断研究所身份和广义方向可成立（EV16招生栏目），不声称答卷给出了具体导师、专业和年度门槛。",
+      "school_key": "cas_ciomp",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "中科院沈阳自动化所 / 长春光机所",
+      "canonical_candidate_key": "cas:ciomp",
+      "error_ids": [],
+      "label": "中国科学院长春光学精密机械与物理研究所",
+      "reason": "3.3节明确独立提名长春光机所，与沈阳自动化所是不同单位，不把各所合成同一候选。存在精密机械相关研究生路径；本记录只判断研究所身份和广义方向可成立（EV16招生栏目），不声称答卷给出了具体导师、专业和年度门槛。",
+      "school_key": "cas_ciomp",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "微电子所等。",
+      "canonical_candidate_key": "cas:ime",
+      "error_ids": [],
+      "label": "中国科学院微电子研究所",
+      "reason": "夏令营科研院所特色档中的明确提名，不能漏掉。研究所及研究生路径真实（EV17）；其微纳制造、器件工艺可与制造兴趣交叉，但答卷没有具体方向和学生技能对应，适配证据薄弱。未证实硬条件冲突，不能仅因为方向论证弱或无参考而标invalid。",
+      "school_key": "cas_ime",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "西交大本研贯通/直博计划",
+      "canonical_candidate_key": "xjtu:integrated_or_directphd",
+      "error_ids": [],
+      "label": "西安交大本研贯通/直博合并路径",
+      "reason": "明确列在兜底档，应提取；答卷没有拆开具体贯通计划和直博申请办法，保留一个合并路径。官方EV2支持机械直博路径的存在，但不支持免资格、免考核或零风险保证。valid限至少有真实直博路径，不替答卷认定特殊贯通计划资格；兜底保证与资格问题仅在T1处理。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "蒋庄德院士微纳制造团队",
+      "canonical_candidate_key": "xjtu:me:jiang_team",
+      "error_ids": [],
+      "label": "西交蒋庄德微纳制造团队",
+      "reason": "是在主动寻找本校导师资源时明确举例的团队提名；EV5官方高端院简介有蒋庄德与精密工程/微纳制造方向。仅提名团队，不增造独立学位专业。",
+      "school_key": "xjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "卢秉恒院士增材制造团队",
+      "canonical_candidate_key": "xjtu:me:lu_team",
+      "error_ids": [],
+      "label": "西交卢秉恒增材制造团队",
+      "reason": "本校导师资源的具体团队提名，EV5官方介绍支持卢秉恒及增材制造相关机构；后文介绍研究底蕴为背景，不新增候选。",
+      "school_key": "xjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "高宏力教授智能制造系统团队",
+      "canonical_candidate_key": "xjtu:me:gao_hongli_wrong_affiliation",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "被误列为西交机械学院的高宏力团队",
+      "reason": "本校进组建议中的具体导师提名，学校归属错误。EV3教师主页及EV4在2026年3月的西南交大新闻提供可核查归属；不是以未找到西交页面推断不存在。关联E3并仅在T5处理。",
+      "school_key": "xjtu",
+      "treatment": "mentioned",
+      "validity": "invalid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "8b7ed5cd99c6214d073a3844c0422e0715ab9c99be66f159d2f3c50ef21f072d",
+  "score": 50.0,
+  "score_interval": [
+    50.0,
+    50.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N16-01",
+  "task_kind": "planning",
+  "task_sha256": "b3082bd3d4fdfe9138af1b73fe1e6546ff07bf2163b2b54b3eb372793513c57c",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "北理",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "bit"
+      },
+      {
+        "answer_quote": "北航",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "buaa"
+      },
+      {
+        "answer_quote": "长春光机所",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，不能因无985标签自动判降级；本题没有层次计分项，仅作报告。",
+        "school_key": "cas_ciomp"
+      },
+      {
+        "answer_quote": "微电子所等。",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，不能因无985标签自动判降级；本题没有层次计分项，仅作报告。",
+        "school_key": "cas_ime"
+      },
+      {
+        "answer_quote": "中科院沈阳自动化所/光机所等",
+        "downgraded": false,
+        "reason": "科研院所研究生培养路径，不能因无985标签自动判降级；本题没有层次计分项，仅作报告。",
+        "school_key": "cas_sia"
+      },
+      {
+        "answer_quote": "哈工大机电",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "华中科大",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "上交机动",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "同济",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "清华机械/精仪/深研院",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "tsinghua"
+      },
+      {
+        "answer_quote": "**推荐选【智能制造工程】的情形**：\n  * 如果未来读研坚定想做**工业 AI、机器人算法、机器视觉检测、数字孪生、智能调度与制造系统控制**等偏“软硬融合/智能化”的前沿交叉课题；",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "xjtu"
+      },
+      {
+        "answer_quote": "浙大机械",
+        "downgraded": false,
+        "reason": "所推荐高校与西交均属985档，同档不降级；本科分流与本校路径亦不涉及学校降级。本题没有层次计分项，不另设扣分。",
+        "school_key": "zju"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

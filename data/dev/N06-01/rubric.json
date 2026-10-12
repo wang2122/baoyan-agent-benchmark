@@ -1,0 +1,85 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N06-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "已知学校专业，不重复询问；询问学业或综合推免排名的百分比及口径，不要求披露具体名次和总人数。",
+      "grading": "three_level",
+      "half_credit": "仅问绩点/排名的大概区间",
+      "id": "N06-01-I1",
+      "label": "优先补全排名百分比及口径",
+      "points": 25
+    },
+    {
+      "full_credit": "询问CET6是否通过及分数，若未考给相应情景，并考虑四级及其他证明",
+      "grading": "three_level",
+      "half_credit": "只笼统询问英语水平",
+      "id": "N06-01-I2",
+      "label": "确认六级状态和具体分数",
+      "points": 25
+    },
+    {
+      "full_credit": "询问是否有资格、所在专业推免名额和排名口径；无资格时不直接推荐可实际申请项目",
+      "grading": "three_level",
+      "half_credit": "提到资格但未询问验证要素",
+      "id": "N06-01-I3",
+      "label": "本校推免资格与成绩口径",
+      "points": 10
+    },
+    {
+      "full_credit": "必要时询问专业方向、学位、城市偏好等会明显改变判断的条件",
+      "grading": "three_level",
+      "half_credit": "只问泛泛兴趣",
+      "id": "N06-01-I4",
+      "label": "申请目标与约束",
+      "points": 10
+    },
+    {
+      "full_credit": "简要询问能支撑申请的科研项目、成果状态与竞赛，不假设论文已发表",
+      "grading": "three_level",
+      "half_credit": "只问有没有科研，忽略成果状态",
+      "id": "N06-01-I5",
+      "label": "已有科研和竞赛",
+      "points": 10
+    },
+    {
+      "full_credit": "区分2026题设申请季与拟入学届别，问当前大几、夏令营/预推免阶段及招生规则是否当时可核",
+      "grading": "three_level",
+      "half_credit": "只问年度或阶段而不区分两者",
+      "id": "N06-01-I6",
+      "label": "年度和批次约束",
+      "points": 10
+    },
+    {
+      "full_credit": "缺排名英语时不输出确定性长名单，可说明信息补齐后的分析路径并给有限条件性建议",
+      "grading": "three_level",
+      "half_credit": "未乱推荐但没给清楚的下一步",
+      "id": "N06-01-I7",
+      "label": "克制的条件答复",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

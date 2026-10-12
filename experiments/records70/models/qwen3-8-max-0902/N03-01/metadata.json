@@ -1,0 +1,10 @@
+{
+  "schema": "selected-record-availability.1",
+  "agent": "qwen3-8-max-0902",
+  "task_id": "N03-01",
+  "question_id": "Q030",
+  "source_kind": "new_answer_independent_review",
+  "source_answer_sha256": "fac6b4623b2c152b41f473f2b3d0908fbcf5625056a847d9dae48912112fea26",
+  "answer_text_available": false,
+  "scoring_evidence": "score-details-70.json"
+}

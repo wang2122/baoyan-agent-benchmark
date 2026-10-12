@@ -1,0 +1,64 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "question_id": "Q012",
+  "task_id": "BY-E-APPLY",
+  "answer_sha256": "d611f70ea2d3116860909b94894e200c59e319f60a7ba05532e74e7719f34a23",
+  "original_rubric_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+  "original_score_content_sha256": "a62172319f831adc191331dbc18691d3b0fc36a67ec3f0e7122e24c8bbc81088",
+  "original_rubric_content_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+  "original_evidence_hashes": {
+    "task.json": "a091b49fb207d90d778017bff670df5125d1cf83577fc4d26e4fbf7d082e9801",
+    "rubric.json": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+    "answer.md": "d611f70ea2d3116860909b94894e200c59e319f60a7ba05532e74e7719f34a23",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "review-settings.json": "396d4b777af45b1463a1dd00d5bc4cf86c256c9bbdbd86e272625caa5491ab23",
+    "judgment.json": "cf7e7784d895d4f77562ed23ad2ea31abeeb5c833296f306f73dc2c88d8c7870",
+    "score.json": "88642a03591c3e61a3831bfe386e547589427987c344bd0d72a95a5ccb2e5d32",
+    "evidence.json": "445ba8f56445a1effa29cde0a3f42b35816f7620b3e94c1d41bd5e0952de41cf"
+  },
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "question_id": "Q012",
+      "node_id": "BY-E-APPLY-R10-01",
+      "status": "resolved_by_official_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "体现本人方向、学位、排名、科研和申请约束；有合理冲稳保",
+        "grading": "three_level",
+        "half_credit": "已有相关内容但主要条件或执行不完整",
+        "id": "BY-E-APPLY-R10-01",
+        "label": "推荐理由与适配",
+        "points": 15
+      },
+      "original_claim": "**#6 哈尔滨工业大学 · 计算学部（本部）／哈工大（深圳）计算机科学与技术学院 · 学硕 计算机科学与技术（081200）**",
+      "decision": "原答卷有方向、学位、排名、科研定位和冲稳保，非零档。华科2026完整目录反证083500独立学硕，081200仍有效。连同原适配项已有语言和挂靠错误，具体组合核心不完整，原half_credit结算0.5；不将错误牵连正确覆盖，也不追加其他节点失分。",
+      "sources": [
+        {
+          "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+          "published_date": null,
+          "checked_date": "2026-10-11",
+          "scope": "2026年度210计算机科学与技术学院完整目录",
+          "finding": "仅081200计算机科学与技术和085404计算机技术；无083500。081200全日制135；085404全日制186、非全日制5。"
+        },
+        {
+          "url": "https://gszs.hust.edu.cn/info/1106/4010.htm",
+          "published_date": "2025-09-10",
+          "checked_date": "2026-10-11",
+          "scope": "2026届推免工作与2025申请周期对应",
+          "finding": "2026推免预报名自2025-09-10开始。"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    51.57,
+    51.57
+  ],
+  "teacher_calibration": "pending",
+  "source_rulings_sha256": "fd3fdf0feeb9820ca789918837916648cbafba0bf1b43db3ec0a84bcdf034e63",
+  "original_judgment_preserved": true,
+  "native_derived_score_replay_available": true,
+  "validation_note": "Explicit maintenance node overlay; original candidate validity states are preserved. This is not a native candidate-validator replay."
+}

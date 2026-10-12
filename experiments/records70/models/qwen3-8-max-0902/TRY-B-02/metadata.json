@@ -1,0 +1,42 @@
+{
+  "agent": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "run_id": "qwen20-user-start-20261012/TRY-B-02/r1",
+  "task_id": "TRY-B-02",
+  "question_id": "Q005",
+  "started_at": "2026-10-12T03:24:08.901987+00:00",
+  "finished_at": "2026-10-12T03:39:26.407219+00:00",
+  "controller_started_at": "2026-10-12T03:24:07.225185+00:00",
+  "controller_finished_at": "2026-10-12T03:39:28.499823+00:00",
+  "judge_started_at": "2026-10-12T03:39:28.594537+00:00",
+  "judge_finished_at": "2026-10-12T03:47:30.522691+00:00",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "source_run_sha256": "07a3725d20e01c255447d71a9ff185dc95f203c976fc1277f8879a2ed12bdff8",
+  "source_answer_sha256": "5ce7c134991b2d4c0b2ba23671d27ccf12c834e477d542def057d27a92d954d6",
+  "source_task_sha256": "20146b9a1862e5d2be851be9ecaedac6ed57dc42fdbb6208e45af6cb6d76c357",
+  "source_rubric_sha256": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+  "source_judgment_sha256": "20aad8028bcda4883605dcbc39849b3d326d1ae6265ecd1987f7886c97f4312e",
+  "source_score_sha256": "52ca2e6aff3eb9511ebe8cbca7723abd1ccdf4f0605a01451430e3bbe93ccf9e",
+  "source_prompt_sha256": {
+    "S0": "929f1a8c150b44f2faeea362faa0a0d79fbec5bab03a95eb3d0cb54be4865e82"
+  },
+  "judge_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "judge_auth_mode": "subscription",
+  "judge_model": "gpt-6.1-sol",
+  "original_source_hashes_preserved": true,
+  "new_attempt_is_historical_recovery": false,
+  "public_display_only": true,
+  "display_adjustments": [
+    "task.json: latest-reference display prompt, original scoring input hashes preserved"
+  ],
+  "privacy_reference_sha256": "46feb94aff98544963f827800ce27dc1f90671e665073271e193cc29e2c1c5b5",
+  "privacy_context_revision": "qwen20-latest-reference-context-v4",
+  "teacher_calibration": "pending",
+  "post_review_node_adjudication": true,
+  "adjudicated_score_sha256": "405e544626f8da4635aa22fdc7acaf06c19d816f6eae4330153855e36eadf98d",
+  "adjudicated_judgment_sha256": "d403aa49c8ab40143e5bb9311a4206ffb4d1c4d12bcf48d2654dceb0962b09be",
+  "adjudication_kind": "explicit_user_rule_conflict_half_grade",
+  "original_subscription_review_preserved": true,
+  "new_model_or_cli_review_called": false,
+  "public_task_directory": "models/qwen3-8-max-0902/TRY-B-02"
+}

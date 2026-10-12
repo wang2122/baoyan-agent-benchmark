@@ -1,0 +1,82 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-D-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "比较其通信/AI项目实际培养地、学位及导师机制，并与本人的学术方向联系。",
+      "grading": "three_level",
+      "half_credit": "提及项目但缺学位或培养差异。",
+      "id": "TRY-D-02-L1-01",
+      "label": "清华深圳项目的学位与培养特点",
+      "points": 20
+    },
+    {
+      "full_credit": "评价深圳项目对应通信/电子方向及学位通道，说明它与清深不同。",
+      "grading": "three_level",
+      "half_credit": "描述该项目但学生适配或关键条件不足。",
+      "id": "TRY-D-02-L1-02",
+      "label": "北大深圳信息工程相关项目",
+      "points": 20
+    },
+    {
+      "full_credit": "说明联合培养的招生/授位主体、导师、研究方向及录取限制，不当作独立学院。",
+      "grading": "three_level",
+      "half_credit": "识别联合培养但学位主体或导师关系未说明。",
+      "id": "TRY-D-02-L1-03",
+      "label": "鹏城实验室联合培养路径",
+      "points": 20
+    },
+    {
+      "full_credit": "说明国际双硕士及外方学习、语言、费用/学位条件，讨论本人是否接受。",
+      "grading": "three_level",
+      "half_credit": "识别双学位，但费用、英语或双重招生要求不清。",
+      "id": "TRY-D-02-L1-04",
+      "label": "清华—JHU双硕士项目",
+      "points": 15
+    },
+    {
+      "full_credit": "比较各项目在学生关心的研究型路径、培养地、额外成本与时间上的差异。",
+      "grading": "three_level",
+      "half_credit": "有差异对照但缺关键影响或权衡。",
+      "id": "TRY-D-02-L1-05",
+      "label": "学位、费用、培养地的整体比较",
+      "points": 10
+    },
+    {
+      "full_credit": "结合通信一作论文、排名、AI兴趣和企业研发倾向，提出清晰的条件选择及主次。",
+      "grading": "three_level",
+      "half_credit": "有排序但缺本人背景与项目差异连接。",
+      "id": "TRY-D-02-L1-06",
+      "label": "研究适配与条件化选择",
+      "points": 10
+    },
+    {
+      "full_credit": "列出实际招生主体/届别项目目录、导师联系或语言费用的必要核验动作。",
+      "grading": "three_level",
+      "half_credit": "指出问题但查证办法不明。",
+      "id": "TRY-D-02-L1-07",
+      "label": "核验与行动",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

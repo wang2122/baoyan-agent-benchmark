@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N13",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N13-03",
+  "prompt": "现在是2026年推免申请季。我在广州大学读机械，排名前约1%，六级450–499分，参与过智能机器人和其他工程项目。希望继续机械或智能制造，能给我16个学校、学院和具体专业（项目）组合，并解释适配理由吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

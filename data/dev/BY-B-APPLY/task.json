@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-B",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q004",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-B-APPLY",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在南京信息工程大学读电气工程及其自动化，2026年3月排名前约2%，四级600–649分、六级550–599分。推免资格尚未确认，电气相关研究的EI论文还没录用，专利仍在审；参加过专业、英语和数学建模类竞赛。我以后想进电网、尽量离家近，最想去东南大学。能推荐15个学校、学院和具体电气方向项目的候选组合，并说说为什么吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "c37d8cf972c9732ca415d0e5096d7a891803e5521ec67590e4c99ce0bd9e39c7",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

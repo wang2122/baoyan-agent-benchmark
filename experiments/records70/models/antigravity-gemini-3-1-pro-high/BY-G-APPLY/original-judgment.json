@@ -1,0 +1,3149 @@
+{
+  "answer_sha256": "4659e92eafaa7eb8665faaed553e7fc4d9281e7991be1cce9a3592baab386fbb",
+  "candidates_reviewed": true,
+  "coverage": [
+    {
+      "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+      "error_ids": [],
+      "id": "G-01",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A01",
+          "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+          "match_level": "related_department",
+          "reason": "自动化系生物信息计算直博与参考生命科学/生物计算方向高度相关；同校不同院系招生路径，不把自动化当四方、PTN或深圳项目。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：清华大学—生命科学相关“四方”联合招生路径；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-01]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "自动化系本科推免直博/控制科学与工程身份，所有申请材料逐份专家审核；不能由导师意向豁免初审。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/cb2030ab-3f6c-4a89-96b1-8e9c0aae5804?anyid=d54798ed0f3040619bad4c6c9020fbb6166887&yxsdm=025"
+            },
+            {
+              "applicable_cycle": "2020-07-30公布的方向介绍，仅核验身份/研究方向",
+              "scope": "自动化系生物信息学研究DNA、RNA、蛋白组学、机器学习与精准医学，支持与生命科学方向的实质关联。",
+              "source": "https://www.au.tsinghua.edu.cn/info/1022/2251.htm"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "四方含清华CLS；PTN独立组织；生物学直博与轮转路径。",
+              "source": "https://life.tsinghua.edu.cn/info/1120/6038.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A01为related_department：自动化系生物信息计算直博与参考生命科学/生物计算方向高度相关；同校不同院系招生路径，不把自动化当四方、PTN或深圳项目。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+      "error_ids": [],
+      "id": "G-02",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A01",
+          "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+          "match_level": "related_department",
+          "reason": "自动化系生物信息计算直博与参考生命科学/生物计算方向高度相关；同校不同院系招生路径，不把自动化当四方、PTN或深圳项目。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：清华大学—PTN联合培养博士项目（清华方面）；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-02]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "自动化系本科推免直博/控制科学与工程身份，所有申请材料逐份专家审核；不能由导师意向豁免初审。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/cb2030ab-3f6c-4a89-96b1-8e9c0aae5804?anyid=d54798ed0f3040619bad4c6c9020fbb6166887&yxsdm=025"
+            },
+            {
+              "applicable_cycle": "2020-07-30公布的方向介绍，仅核验身份/研究方向",
+              "scope": "自动化系生物信息学研究DNA、RNA、蛋白组学、机器学习与精准医学，支持与生命科学方向的实质关联。",
+              "source": "https://www.au.tsinghua.edu.cn/info/1022/2251.htm"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "四方含清华CLS；PTN独立组织；生物学直博与轮转路径。",
+              "source": "https://life.tsinghua.edu.cn/info/1120/6038.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A01为related_department：自动化系生物信息计算直博与参考生命科学/生物计算方向高度相关；同校不同院系招生路径，不把自动化当四方、PTN或深圳项目。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+      "error_ids": [],
+      "id": "G-03",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A01",
+          "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+          "match_level": "related_department",
+          "reason": "自动化系生物信息计算直博与参考生命科学/生物计算方向高度相关；同校不同院系招生路径，不把自动化当四方、PTN或深圳项目。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：清华大学—深圳；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-03]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "自动化系本科推免直博/控制科学与工程身份，所有申请材料逐份专家审核；不能由导师意向豁免初审。",
+              "source": "https://yzbm.tsinghua.edu.cn/publish/s03/s0302/detail/cb2030ab-3f6c-4a89-96b1-8e9c0aae5804?anyid=d54798ed0f3040619bad4c6c9020fbb6166887&yxsdm=025"
+            },
+            {
+              "applicable_cycle": "2020-07-30公布的方向介绍，仅核验身份/研究方向",
+              "scope": "自动化系生物信息学研究DNA、RNA、蛋白组学、机器学习与精准医学，支持与生命科学方向的实质关联。",
+              "source": "https://www.au.tsinghua.edu.cn/info/1022/2251.htm"
+            },
+            {
+              "applicable_cycle": "2023年夏令营",
+              "scope": "深圳生物医药与健康工程研究院含系统生物学、生物信息学、深度学习，与自动化计算生物学相关但不同院系。",
+              "source": "https://www.sigs.tsinghua.edu.cn/2023/0524/c7943a63182/page.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A01为related_department：自动化系生物信息计算直博与参考生命科学/生物计算方向高度相关；同校不同院系招生路径，不把自动化当四方、PTN或深圳项目。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+      "error_ids": [],
+      "id": "G-04",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A02",
+          "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "CQB招生归前沿交叉学科院，其系统生物学/组学计算与生命学院的空间及单细胞计算高度相关；导师合作不把两院视为同院。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：北京大学—生科；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-04]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "CQB依托前沿交叉学科研究院招整合生命科学直博，含系统生物学与基因组挖掘；参考科学/学科称谓差异不改变院系身份。",
+              "source": "https://www.aais.pku.edu.cn/info/1350/3005.htm"
+            },
+            {
+              "applicable_cycle": "2023年11月科研记录",
+              "scope": "高歌空间组学与李程单细胞机器学习在北大生科体系，支持CQB与生科跨院系相关关系，不能把交叉合作当同院系。",
+              "source": "https://www.bio.pku.edu.cn/homes/Index/news_img/22/22_13.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A02为related_department：CQB招生归前沿交叉学科院，其系统生物学/组学计算与生命学院的空间及单细胞计算高度相关；导师合作不把两院视为同院。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+      "error_ids": [],
+      "id": "G-05",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A02",
+          "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "CQB系统生物学、复杂疾病计算与未来技术学院多组学/生物医学AI方向高度相关，均为北大生命科学交叉路径；学院不同。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：北京大学—未来技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-05]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "CQB依托前沿交叉学科研究院招整合生命科学直博，含系统生物学与基因组挖掘；参考科学/学科称谓差异不改变院系身份。",
+              "source": "https://www.aais.pku.edu.cn/info/1350/3005.htm"
+            },
+            {
+              "applicable_cycle": "2021年院系方向介绍",
+              "scope": "未来技术学院大数据/生物医学AI系多组学融合、非线性关联及智能诊疗，与CQB系统生物学相关。",
+              "source": "https://future.pku.edu.cn/jblm/ky/zxhjg/swyxdsjyrgznx/800c59fa44234a41bb72e494009f638e.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A02为related_department：CQB系统生物学、复杂疾病计算与未来技术学院多组学/生物医学AI方向高度相关，均为北大生命科学交叉路径；学院不同。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+      "error_ids": [],
+      "id": "G-06",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A02",
+          "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+          "match_level": "exact",
+          "reason": "CQB是前沿交叉学科研究院内部中心；规范名称与参考“前沿交叉科学研究院”可核验同一主体。参考只给院系，不以正式专业整合生命科学与方向称呼差异降档。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：北京大学—前沿交叉科学研究院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-06]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "CQB依托前沿交叉学科研究院招整合生命科学直博，含系统生物学与基因组挖掘；参考科学/学科称谓差异不改变院系身份。",
+              "source": "https://www.aais.pku.edu.cn/info/1350/3005.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A02为exact：CQB是前沿交叉学科研究院内部中心；规范名称与参考“前沿交叉科学研究院”可核验同一主体。参考只给院系，不以正式专业整合生命科学与方向称呼差异降档。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+      "error_ids": [],
+      "id": "G-07",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A02",
+          "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "CQB的网络/生物信息学直博与基础医学院信息AI致病机制、分子互作方向实质相关；保留两个院系身份。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：北京大学—基础医学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-07]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "CQB依托前沿交叉学科研究院招整合生命科学直博，含系统生物学与基因组挖掘；参考科学/学科称谓差异不改变院系身份。",
+              "source": "https://www.aais.pku.edu.cn/info/1350/3005.htm"
+            },
+            {
+              "applicable_cycle": "2023-12-05科研交流",
+              "scope": "基础医学院李婷婷以信息/AI研究生物分子互作、致病机制和药物设计，与CQB网络和疾病组学相关；不是年度招生门槛证据。",
+              "source": "https://www.bio.pku.edu.cn/homes/Index/news_cont/7/16869.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A02为related_department：CQB的网络/生物信息学直博与基础医学院信息AI致病机制、分子互作方向实质相关；保留两个院系身份。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-08",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A06",
+          "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+          "match_level": "exact",
+          "reason": "明确复旦生命科学学院生物学/生信计算直博，命中冻结参考的学院粒度；内部平台简称不改变身份。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：复旦大学—生命科学学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-08]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2012年官方院系成立介绍",
+              "scope": "生命科学学院计算生物学资源与生物统计/计算生物学系身份；参考只到学院粒度。",
+              "source": "https://www.px.fudan.edu.cn/0d/1e/c13570a134430/page.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A06为exact：明确复旦生命科学学院生物学/生信计算直博，命中冻结参考的学院粒度；内部平台简称不改变身份。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-09",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A06",
+          "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+          "match_level": "related_department",
+          "reason": "复旦生科组学/基因调控计算直博与代谢整合院遗传、肿瘤功能基因组及数理交叉高度相关，院系不同。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：复旦大学—代谢与整合生物学研究院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-09]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2012年官方院系成立介绍",
+              "scope": "生命科学学院计算生物学资源与生物统计/计算生物学系身份；参考只到学院粒度。",
+              "source": "https://www.px.fudan.edu.cn/0d/1e/c13570a134430/page.htm"
+            },
+            {
+              "applicable_cycle": "约2019年官方研究院介绍，PDF正文未标精确日期；仅身份/方向",
+              "scope": "代谢与整合生物学为独立院，含遗传、系统调控、数理交叉和肿瘤功能基因组，与生科计算组学相关。",
+              "source": "https://life.fudan.edu.cn/_upload/article/files/01/f1/36e5497642f88c24b7eefca1b5b3/bd10598c-f275-423e-8205-f6272643ed76.pdf"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A06为related_department：复旦生科组学/基因调控计算直博与代谢整合院遗传、肿瘤功能基因组及数理交叉高度相关，院系不同。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-10",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A06",
+          "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+          "match_level": "related_department",
+          "reason": "复旦生科计算组学、RNA/遗传调控与同校生物医学研究院的遗传、分子/代谢研究交叉密切；是相关院系，不是同一研究院别名。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：复旦大学—生物医学研究院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-10]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2012年官方院系成立介绍",
+              "scope": "生命科学学院计算生物学资源与生物统计/计算生物学系身份；参考只到学院粒度。",
+              "source": "https://www.px.fudan.edu.cn/0d/1e/c13570a134430/page.htm"
+            },
+            {
+              "applicable_cycle": "约2020年官方教师介绍，仅身份/研究关联",
+              "scope": "赵世民曾在生物医学研究院及生命学院任职，研究代谢调控；院系互作及组学方向相关，不能证明院系合一。",
+              "source": "https://metabolism.fudan.edu.cn/b5/42/c22707a243010/page.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A06为related_department：复旦生科计算组学、RNA/遗传调控与同校生物医学研究院的遗传、分子/代谢研究交叉密切；是相关院系，不是同一研究院别名。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-11",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "冻结参考G-11“人类表皮生物研究院”项目身份待核，forced_pending_reference_ids强制保留pending；不擅自替换为其他复旦院系，不因答卷没有该名称而记0。该引句只说明答卷的复旦候选范围，不是认定命中。",
+      "status": "pending"
+    },
+    {
+      "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-12",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A04",
+          "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+          "match_level": "exact",
+          "reason": "规范生命科学技术学院与参考生科院同一主体，生物信息系和生物学直博具体可识别。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—生命科学学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-12]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-04",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "exact",
+          "reason": "规范生命科学技术学院与参考生科院同一主体，生物信息系和生物学直博具体可识别。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—生命科学学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-12]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-04",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "exact",
+          "reason": "规范生命科学技术学院与参考生科院同一主体，生物信息系和生物学直博具体可识别。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—生命科学学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-12]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A05",
+          "answer_quote": "#### 5. 上海交通大学\n- **学院/研究院**：生物医学工程学院（医疗健康大数据与系统生物学实验室）\n- **专业与学位**：生物医学工程（083100）医学信息与生物信息学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "生医工医学组学数据与系统生物学直博与生科生物信息/统计实质相关；不同学院。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—生命科学学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-12]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024届毕业生推荐工作，页面栏目用于方向身份",
+              "scope": "生医工院公共平台列计算机系统生物学；支持跨院系方向关系。该办法是本校推荐资格，不当成外校接收门槛。",
+              "source": "https://bme.sjtu.edu.cn/Web/Show/3233"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A04为exact：规范生命科学技术学院与参考生科院同一主体，生物信息系和生物学直博具体可识别。；A05为related_department：生医工医学组学数据与系统生物学直博与生科生物信息/统计实质相关；不同学院。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-13",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A04",
+          "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+          "match_level": "related_department",
+          "reason": "生科的群体遗传、生物统计和组学计算与公卫生物统计、单细胞组学与疾病高度相关；非公卫直接路径。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—公卫；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-13]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            },
+            {
+              "applicable_cycle": "2023年招聘公告，仅研究方向",
+              "scope": "公卫列流行病学与生物统计学、单细胞组学与疾病、交叉学科；与生科统计和生医工临床组学计算相关。",
+              "source": "https://www.shsmu.edu.cn/__local/1/1A/E6/A4F15F4A54886F2F25F5A80158B_8FAA6057_298F4.pdf?e=.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-04",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "related_department",
+          "reason": "生科的群体遗传、生物统计和组学计算与公卫生物统计、单细胞组学与疾病高度相关；非公卫直接路径。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—公卫；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-13]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            },
+            {
+              "applicable_cycle": "2023年招聘公告，仅研究方向",
+              "scope": "公卫列流行病学与生物统计学、单细胞组学与疾病、交叉学科；与生科统计和生医工临床组学计算相关。",
+              "source": "https://www.shsmu.edu.cn/__local/1/1A/E6/A4F15F4A54886F2F25F5A80158B_8FAA6057_298F4.pdf?e=.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-04",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "related_department",
+          "reason": "生科的群体遗传、生物统计和组学计算与公卫生物统计、单细胞组学与疾病高度相关；非公卫直接路径。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—公卫；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-13]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方机构设置页未标年度，仅身份",
+              "scope": "规范名生命科学技术学院，下设生物信息学与生物统计学系，参考生命科学学院按同一生科招生院系解释。",
+              "source": "https://life.sjtu.edu.cn/Data/List/swxx"
+            },
+            {
+              "applicable_cycle": "2023年招聘公告，仅研究方向",
+              "scope": "公卫列流行病学与生物统计学、单细胞组学与疾病、交叉学科；与生科统计和生医工临床组学计算相关。",
+              "source": "https://www.shsmu.edu.cn/__local/1/1A/E6/A4F15F4A54886F2F25F5A80158B_8FAA6057_298F4.pdf?e=.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A05",
+          "answer_quote": "#### 5. 上海交通大学\n- **学院/研究院**：生物医学工程学院（医疗健康大数据与系统生物学实验室）\n- **专业与学位**：生物医学工程（083100）医学信息与生物信息学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "生医工临床多组学和免疫计算与公卫单细胞组学/疾病数据方向相关，保留招生院系差别。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：上海交通大学—公卫；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-13]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024届毕业生推荐工作，页面栏目用于方向身份",
+              "scope": "生医工院公共平台列计算机系统生物学；支持跨院系方向关系。该办法是本校推荐资格，不当成外校接收门槛。",
+              "source": "https://bme.sjtu.edu.cn/Web/Show/3233"
+            },
+            {
+              "applicable_cycle": "2023年招聘公告，仅研究方向",
+              "scope": "公卫列流行病学与生物统计学、单细胞组学与疾病、交叉学科；与生科统计和生医工临床组学计算相关。",
+              "source": "https://www.shsmu.edu.cn/__local/1/1A/E6/A4F15F4A54886F2F25F5A80158B_8FAA6057_298F4.pdf?e=.pdf"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A04为related_department：生科的群体遗传、生物统计和组学计算与公卫生物统计、单细胞组学与疾病高度相关；非公卫直接路径。；A05为related_department：生医工临床多组学和免疫计算与公卫单细胞组学/疾病数据方向相关，保留招生院系差别。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "浙江大学生命科学研究院/生命科学学院直博通常硬性要求六级 $\\ge$ 460 分",
+      "error_ids": [],
+      "id": "G-14",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文只有浙大生命学院排除，没有有效直接推荐或具体可行的条件方案；不得把一般排除算覆盖。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "浙江大学生命科学研究院（生研院）及部分生科院直博",
+      "error_ids": [],
+      "id": "G-15",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "未推荐浙江大学医学院；所列浙大生研院/部分生科直博排除也不是该院可投路径，缺项为miss。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "浙江大学生命科学研究院（生研院）及部分生科院直博",
+      "error_ids": [],
+      "id": "G-16",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "未推荐浙江大学国际联合学院；只有对浙大/国际项目的规避，未给具体条件推荐，缺项为miss。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+      "error_ids": [],
+      "id": "G-17",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A08",
+          "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+          "match_level": "exact",
+          "reason": "生命科学与医学部与参考生物与医学学部可识别同一生命医学学部，生物物理/生物信息直博明确；不要求参考未列的系别逐字一致。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学技术大学—生物与医学学部；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-17]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方学部页未标年度，仅组织名称身份",
+              "scope": "生命科学与医学部是参考生命医学学部所指主体，未据现时网页审计历史名额。",
+              "source": "https://biomed.ustc.edu.cn/_web/main.psp"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A08为exact：生命科学与医学部与参考生物与医学学部可识别同一生命医学学部，生物物理/生物信息直博明确；不要求参考未列的系别逐字一致。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+      "error_ids": [],
+      "id": "G-18",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A08",
+          "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "中科大本部组学/免疫计算直博与中科大科学岛健康所多组学、SNP及ncRNA建模相关，授位招生主体同校而培养单位不同。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学技术大学—科学岛；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-18]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "官方学部页未标年度，仅组织名称身份",
+              "scope": "生命科学与医学部是参考生命医学学部所指主体，未据现时网页审计历史名额。",
+              "source": "https://biomed.ustc.edu.cn/_web/main.psp"
+            },
+            {
+              "applicable_cycle": "2024年申请、2025年入学",
+              "scope": "科学岛分院归中国科学技术大学研究生院、接收推免，不是国科大培养单位。",
+              "source": "https://www.hf.cas.cn/sbpy/yjsc/zs/sszs/202409/t20240910_7342840.html"
+            },
+            {
+              "applicable_cycle": "2023年科研记录",
+              "scope": "科学岛健康所多组学整合、SNP与ncRNA建模、癌症标志物研究，与本部组学免疫计算相关。",
+              "source": "https://hf.cas.cn/xww/yxdt/202309/t20230928_6889032.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A08为related_department：中科大本部组学/免疫计算直博与中科大科学岛健康所多组学、SNP及ncRNA建模相关，授位招生主体同校而培养单位不同。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+      "error_ids": [],
+      "id": "G-19",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A09",
+          "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+          "match_level": "exact",
+          "reason": "南京大学生科院生物学直博及生物信息/系统生物学方向明确；参考仅到学院粒度。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：南京大学—生科；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-19]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年博士目录，仅院系/研究方向",
+              "scope": "生物学、生物信息学、分子遗传与进化、基础医学等研究方向支持同校关联；不将普通招考条件套推免。",
+              "source": "https://yzb.nju.edu.cn/_upload/article/files/4b/07/390071494833a7cf2440ec737de7/5f7e33a1-ebde-4788-a759-9ca36e69a04e.pdf"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A09为exact：南京大学生科院生物学直博及生物信息/系统生物学方向明确；参考仅到学院粒度。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+      "error_ids": [],
+      "id": "G-20",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A09",
+          "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "南京生科基因调控/疾病组学计算与现代生物院表观组、单细胞及肿瘤靶点生物信息分析高度相关；非同院系。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：南京大学—现代生物研究院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-20]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年夏令营",
+              "scope": "现代生物院独立招学硕/博士/直博，生物医学研究接受遗传、细胞、计算机等背景，与生科疾病靶点/调控网络相关。",
+              "source": "https://imb.nju.edu.cn/yjspy/yjsjy/zsgz/20230524/i247043.html"
+            },
+            {
+              "applicable_cycle": "2024年7月课题组招聘；仅方向/院系身份",
+              "scope": "现代生物院王俊组表观调控、2D/3D基因组、单细胞与肿瘤靶点，明确招生物信息分析，支持与生科组学/调控计算相关。",
+              "source": "https://imb.nju.edu.cn/rczp/syszp/20240722/i271093.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A09为related_department：南京生科基因调控/疾病组学计算与现代生物院表观组、单细胞及肿瘤靶点生物信息分析高度相关；非同院系。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+      "error_ids": [],
+      "id": "G-21",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A09",
+          "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+          "match_level": "related_department",
+          "reason": "生科疾病靶点计算及调控网络直博与同校医学院AI药物靶点/生物信息研究高度相关，学位研究路径相关但院系不同。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：南京大学—医学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-21]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年博士目录，仅院系/研究方向",
+              "scope": "生物学、生物信息学、分子遗传与进化、基础医学等研究方向支持同校关联；不将普通招考条件套推免。",
+              "source": "https://yzb.nju.edu.cn/_upload/article/files/4b/07/390071494833a7cf2440ec737de7/5f7e33a1-ebde-4788-a759-9ca36e69a04e.pdf"
+            },
+            {
+              "applicable_cycle": "官方教师页未标发布日期、列2023等早期成果；仅研究关联，不视为当届招生条件",
+              "scope": "南京大学医学院吴俊华研究AI药物靶点、肿瘤生物学并招生物信息方向，支持与生科疾病靶点/调控网络高度相关，未审计当届名额。",
+              "source": "https://med.nju.edu.cn/wjh/main.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A09为related_department：生科疾病靶点计算及调控网络直博与同校医学院AI药物靶点/生物信息研究高度相关，学位研究路径相关但院系不同。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 25. 西安交通大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息工程教育部重点实验室 / 信息生物学交叉中心）\n- **专业与学位**：生物医学工程（083100）信息生物学方向 —— **直博 / 学硕**",
+      "error_ids": [],
+      "id": "G-22",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A25",
+          "answer_quote": "#### 25. 西安交通大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息工程教育部重点实验室 / 信息生物学交叉中心）\n- **专业与学位**：生物医学工程（083100）信息生物学方向 —— **直博 / 学硕**",
+          "match_level": "exact",
+          "reason": "参考只给西安交通大学，专业为未显示；答卷补充生命学院生医工信息生物学直博/学硕为相关且可识别路径，按已有粒度命中，不猜缺失专业。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：西安交通大学—未显示；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-22]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R05-25",
+          "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+          "match_level": "exact",
+          "reason": "参考只给西安交通大学，专业为未显示；答卷补充生命学院生医工信息生物学直博/学硕为相关且可识别路径，按已有粒度命中，不猜缺失专业。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：西安交通大学—未显示；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-22]（冻结参考）；task.json prompt"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A25为exact：参考只给西安交通大学，专业为未显示；答卷补充生命学院生医工信息生物学直博/学硕为相关且可识别路径，按已有粒度命中，不猜缺失专业。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 19. 华中科技大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息技术课题组）\n- **专业与学位**：生物医学工程（083100）/ 生物学 —— **学硕 / 专硕**",
+      "error_ids": [],
+      "id": "G-23",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A19",
+          "answer_quote": "#### 19. 华中科技大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息技术课题组）\n- **专业与学位**：生物医学工程（083100）/ 生物学 —— **学硕 / 专硕**",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R02-19",
+          "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-19",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R04-19",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R05-19",
+          "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R07-19",
+          "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-19",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "exact",
+          "reason": "华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：华中科技大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-23]（冻结参考）；task.json prompt"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A19为exact：华中科技大学生命科学与技术学院组学、生医工/生物学硕士明确，参考学院一致。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 26. 武汉大学\n- **学院/研究院**：生命科学学院 / 药学院\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕**",
+      "error_ids": [],
+      "id": "G-24",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "武汉生科/药学院合并，未分别明确独立申请组合；全文生科门槛/营期说明没有另建立独立推荐，不从合并项拆出命中。无别的同校有效路径，miss是清晰度缺项而非不存在。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+      "error_ids": [],
+      "id": "G-25",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A22",
+          "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+          "match_level": "exact",
+          "reason": "中山大学生科院进化/计算生物学、生物学学位路径明确，参考院系一致。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中山大学—生科；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-25]（冻结参考）；task.json prompt"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A22为exact：中山大学生科院进化/计算生物学、生物学学位路径明确，参考院系一致。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+      "error_ids": [],
+      "id": "G-26",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A22",
+          "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+          "match_level": "related_department",
+          "reason": "生科进化及单细胞组学/生信路径与590医学院生物学（生物信息学）研究方向高度相关；同校跨院系，不把生科改称医学院。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中山大学—医学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-26]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年港澳台目录，仅院系/方向身份",
+              "scope": "590医学院有生物学（生物信息学）；只支持与生科组学相关，不将港澳台条件用于该学生。",
+              "source": "https://graduate.sysu.edu.cn/zsw/sites/default/files/2023-01/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A62023%E5%B9%B4%E9%9D%A2%E5%90%91%E9%A6%99%E6%B8%AF%E3%80%81%E6%BE%B3%E9%97%A8%E3%80%81%E5%8F%B0%E6%B9%BE%E5%9C%B0%E5%8C%BA%E6%8B%9B%E6%94%B6%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%A6%E7%A7%91%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A22为related_department：生科进化及单细胞组学/生信路径与590医学院生物学（生物信息学）研究方向高度相关；同校跨院系，不把生科改称医学院。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+      "error_ids": [],
+      "id": "G-27",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A22",
+          "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+          "match_level": "related_department",
+          "reason": "生科生物信息/组学路径与中山医学院生物信息学方向高度相关，院系不同且与590医学院分别处理。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中山大学—中山医学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-27]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年硕士复试方案，仅专业/院系",
+              "scope": "中山医学院列生物信息学，支持与生科跨院系关联；与590医学院不同。",
+              "source": "https://zssom.sysu.edu.cn/article/9950"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A22为related_department：生科生物信息/组学路径与中山医学院生物信息学方向高度相关，院系不同且与590医学院分别处理。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 28. 厦门大学\n- **学院/研究院**：生命科学学院 / 信息学院（健康大数据中心）\n- **专业与学位**：生物学（生物信息学）/ 计算机技术 —— **学硕**",
+      "error_ids": [],
+      "id": "G-28",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "厦大生科/信息学院合并，生物学/计算机技术申请组合未分别明确；后文生科条件说明没有独立推荐，无别的同校路径，不拆出命中。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "",
+      "error_ids": [],
+      "id": "G-29",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "完整审阅后没有南开大学生命科学学院或其他南开相关申请路径；确定缺项，非实质争议，不挂pending。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "#### 23. 东南大学\n- **学院/研究院**：生物科学与医学工程学院（生医工全国顶尖 A+ 学科平台）\n- **专业与学位**：生物医学工程（083100）/ 电子信息 —— **学硕 / 专硕**",
+      "error_ids": [],
+      "id": "G-30",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A23",
+          "answer_quote": "#### 23. 东南大学\n- **学院/研究院**：生物科学与医学工程学院（生医工全国顶尖 A+ 学科平台）\n- **专业与学位**：生物医学工程（083100）/ 电子信息 —— **学硕 / 专硕**",
+          "match_level": "related_department",
+          "reason": "东南生医工院生物信息技术/生医工硕士与生命科学方向高度相关；官方同时列两院，故非更名等价、非exact。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：东南大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-30]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年信息公开，仅组织身份",
+              "scope": "生物科学与医学工程学院、生命科学与技术学院分别列出，不是更名或规范简称。",
+              "source": "https://xxgk.seu.edu.cn/2024/1105/c10878a509242/page.htm"
+            },
+            {
+              "applicable_cycle": "约2015年学院介绍，正文未标精确日期；仅方向/学位点",
+              "scope": "生医工院有生物信息技术、生物芯片、一级学科博士点，支持与生命科学方向相关而非同院系。",
+              "source": "https://xsc.seu.edu.cn/_upload/article/07/ac/9d52ae144268a3b2a447e22ba07d/a8b6d5ee-209d-4d2b-a4dd-123cb1bf097e.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R05-23",
+          "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+          "match_level": "related_department",
+          "reason": "东南生医工院生物信息技术/生医工硕士与生命科学方向高度相关；官方同时列两院，故非更名等价、非exact。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：东南大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-30]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年信息公开，仅组织身份",
+              "scope": "生物科学与医学工程学院、生命科学与技术学院分别列出，不是更名或规范简称。",
+              "source": "https://xxgk.seu.edu.cn/2024/1105/c10878a509242/page.htm"
+            },
+            {
+              "applicable_cycle": "约2015年学院介绍，正文未标精确日期；仅方向/学位点",
+              "scope": "生医工院有生物信息技术、生物芯片、一级学科博士点，支持与生命科学方向相关而非同院系。",
+              "source": "https://xsc.seu.edu.cn/_upload/article/07/ac/9d52ae144268a3b2a447e22ba07d/a8b6d5ee-209d-4d2b-a4dd-123cb1bf097e.pdf"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A23为related_department：东南生医工院生物信息技术/生医工硕士与生命科学方向高度相关；官方同时列两院，故非更名等价、非exact。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 20. 同济大学\n- **学院/研究院**：生命科学与技术学院（生物信息学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "error_ids": [],
+      "id": "G-31",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A20",
+          "answer_quote": "#### 20. 同济大学\n- **学院/研究院**：生命科学与技术学院（生物信息学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+          "match_level": "exact",
+          "reason": "同济生命科学与技术学院生物学/生信直博明确；参考仅给学院，不因未列二级专业另降档。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：同济大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-31]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-20",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "exact",
+          "reason": "同济生命科学与技术学院生物学/生信直博明确；参考仅给学院，不因未列二级专业另降档。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：同济大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-31]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R05-20",
+          "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+          "match_level": "exact",
+          "reason": "同济生命科学与技术学院生物学/生信直博明确；参考仅给学院，不因未列二级专业另降档。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：同济大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-31]（冻结参考）；task.json prompt"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-20",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "exact",
+          "reason": "同济生命科学与技术学院生物学/生信直博明确；参考仅给学院，不因未列二级专业另降档。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：同济大学—生命科学与技术学院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-31]（冻结参考）；task.json prompt"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A20为exact：同济生命科学与技术学院生物学/生信直博明确；参考仅给学院，不因未列二级专业另降档。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+      "error_ids": [],
+      "id": "G-32",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A10",
+          "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R01-10",
+          "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-10",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R04-10",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R06-10",
+          "answer_quote": "国家生物信息中心/上海营养健康所直博",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-10",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R10-10",
+          "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11",
+          "answer_quote": "#### 11. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：基因组学（0710Z1）/ 生物与医药（086000）—— **学硕 / 专硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；基因组学学硕与参考的基因组/计算生物研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A12",
+          "answer_quote": "#### 12. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：原中国科学院-马普学会计算生物学伙伴研究所（CAS-MPG PICB，计算生物学殿堂级平台）\n- **专业与学位**：计算生物学（0710J2）—— **直博**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R01-12",
+          "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-12",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R04-12",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R06-12",
+          "answer_quote": "国家生物信息中心/上海营养健康所直博",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-12",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R10-12",
+          "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A13",
+          "answer_quote": "#### 13. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：生物医学大数据中心 / 计算生物学实验室\n- **专业与学位**：计算生物学（0710J2）/ 生物与医药（086000）—— **学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学学硕、生物数据整合与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A14",
+          "answer_quote": "#### 14. 中国科学院计算技术研究所（中科院计算所）\n- **学院/研究院**：计算机系统结构 / 智能信息处理重点实验室（生物信息课题组）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算机生物计算、蛋白/基因组算法与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年国科大目录",
+              "scope": "计算所为国科大培养单位，计算机硕博/推免路径。",
+              "source": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9e780c52-baf5-4020-b453-bc4510579559/8013212024"
+            },
+            {
+              "applicable_cycle": "课题组官方招生页未标年度，仅研究方向/考核方式",
+              "scope": "计算所生物信息组招收、算法与编程考核及9月组面试；不确认固定150题条件。",
+              "source": "https://pfind.ict.ac.cn/rt/"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A15",
+          "answer_quote": "#### 15. 中国科学院遗传与发育生物学研究所（中科院遗传所）\n- **学院/研究院**：基因组生物学研究中心\n- **专业与学位**：遗传学（071007）生物信息学方向 —— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；遗传所遗传/泛基因组计算与参考生物信息研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "遗传发育所报考招生单位为国科大、院系所遗传发育所。",
+              "source": "https://www.genetics.ac.cn/edu/zsxx/ssszs_187556/202309/t20230922_6885357.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年推免",
+              "scope": "遗传发育所推免含直博与专硕；结合遗传基因组方向支持国科大相关院所。",
+              "source": "https://genetics.cas.cn/edu/zsxx/xlytms/202308/t20230825_6867669.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A16",
+          "answer_quote": "#### 16. 中国科学院动物研究所（中科院动物所）\n- **学院/研究院**：膜生物学国家重点实验室 / 动物生态与保护生物学院重点实验室\n- **专业与学位**：生态学 / 生物信息学（进化基因组学与计算生物学）—— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；动物所进化基因组/计算生物学与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年硕士目录",
+              "scope": "动物所生态学及系统/进化生物学招生含推免。",
+              "source": "https://ioz.cas.cn/gb2018/xwdt/tzgg/202309/t20230919_6883561.html"
+            },
+            {
+              "applicable_cycle": "2024年博士目录",
+              "scope": "基因组学含直博计划，支持进化基因组学路径，不混拆内部实验室。",
+              "source": "https://www.ioz.cas.cn/gb2018/jy/zsxx/bszs/jzml/202310/t20231018_6903460.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "动物所国科大招生简章，明确推免直博、国科大培养单位主体及申请路径。",
+              "source": "https://www.ioz.cas.cn/gb2018/jy/zsxx/sszs/jzml/202309/t20230918_6882667.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A17",
+          "answer_quote": "#### 17. 中国科学院深圳先进技术研究院（SIAT）\n- **学院/研究院**：合成生物学研究所（合成所）/ 计算机辅助药物设计中心\n- **专业与学位**：生物化学与分子生物学（生物信息学）/ 计算机科学与技术 —— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；深先院组学/AI合成与计算药物方向与参考生物信息研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：中国科学院大学—生物物理研究所/生化所/杭高院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-32]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年简章，迁移后URL为2024年12月",
+              "scope": "深先院为国科大培养单位，推免硕士路径，非个人优营率依据。",
+              "source": "https://www.siat.ac.cn/jyjx/zsxx/sszs/202412/t20241214_7458982.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A10为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。；A11为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；基因组学学硕与参考的基因组/计算生物研究高度相关，故相关院所匹配而非同名匹配。；A12为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。；A13为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学学硕、生物数据整合与参考高度相关，故相关院所匹配而非同名匹配。；A14为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；计算机生物计算、蛋白/基因组算法与参考高度相关，故相关院所匹配而非同名匹配。；A15为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；遗传所遗传/泛基因组计算与参考生物信息研究高度相关，故相关院所匹配而非同名匹配。；A16为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；动物所进化基因组/计算生物学与参考高度相关，故相关院所匹配而非同名匹配。；A17为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；深先院组学/AI合成与计算药物方向与参考生物信息研究高度相关，故相关院所匹配而非同名匹配。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+      "error_ids": [],
+      "id": "G-33",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A10",
+          "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R01-10",
+          "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-10",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R04-10",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R06-10",
+          "answer_quote": "国家生物信息中心/上海营养健康所直博",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-10",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R10-10",
+          "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11",
+          "answer_quote": "#### 11. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：基因组学（0710Z1）/ 生物与医药（086000）—— **学硕 / 专硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；基因组学学硕与参考的基因组/计算生物研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年夏令营、2025届本科生",
+              "scope": "BIG/CNCB同一研究所，招生基因组学、生物信息学、精准医学，含推免硕士/直博及国科大相关教研室。",
+              "source": "https://big.cas.cn/yjs/zsxx/kjrh/202405/t20240514_7159779.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "生物信息学、基因组学硕博培养点，国科大推荐免试体系；不据此否定其他未审计年份所有备选专业。",
+              "source": "https://big.cas.cn/yjs/zsxx/sszs/202309/t20230921_6884128.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A12",
+          "answer_quote": "#### 12. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：原中国科学院-马普学会计算生物学伙伴研究所（CAS-MPG PICB，计算生物学殿堂级平台）\n- **专业与学位**：计算生物学（0710J2）—— **直博**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R01-12",
+          "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R03-12",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R04-12",
+          "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R06-12",
+          "answer_quote": "国家生物信息中心/上海营养健康所直博",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R09-12",
+          "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "R10-12",
+          "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。 此处为原候选的上下文复用，学位/院系身份从原完整条目确定，共用去重键。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A13",
+          "answer_quote": "#### 13. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：生物医学大数据中心 / 计算生物学实验室\n- **专业与学位**：计算生物学（0710J2）/ 生物与医药（086000）—— **学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学学硕、生物数据整合与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学，第二批",
+              "scope": "计算生物学0710Z2学术硕士，生物与医药086000专业硕士；本批不招直博但总说明含直博；英语六/四级425以上。",
+              "source": "https://www.sinh.cas.cn/zszp/zsxi/202308/t20230822_6915493.html"
+            },
+            {
+              "applicable_cycle": "2024年夏令营公告标题",
+              "scope": "国科大官网刊SINH夏令营支持培养体系身份；正文未返回，不据此声称核实全部条件。",
+              "source": "https://admission.ucas.ac.cn/showarticle/Article/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab/64712341-7c52-4e3b-b1a6-20b9e6704966"
+            },
+            {
+              "applicable_cycle": "2018年官方课题组招聘",
+              "scope": "SINH/PICB体系与生物医学数据中心关联，李亦学计算/系统生物学、基因组方向；不拆上下级/历史名称为独立申请。",
+              "source": "https://www.sinh.cas.cn/zszp/201807/t20180711_5041156.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A14",
+          "answer_quote": "#### 14. 中国科学院计算技术研究所（中科院计算所）\n- **学院/研究院**：计算机系统结构 / 智能信息处理重点实验室（生物信息课题组）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；计算机生物计算、蛋白/基因组算法与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年国科大目录",
+              "scope": "计算所为国科大培养单位，计算机硕博/推免路径。",
+              "source": "https://admission.ucas.ac.cn/info/ZhaoshengDanweiDetail/9e780c52-baf5-4020-b453-bc4510579559/8013212024"
+            },
+            {
+              "applicable_cycle": "课题组官方招生页未标年度，仅研究方向/考核方式",
+              "scope": "计算所生物信息组招收、算法与编程考核及9月组面试；不确认固定150题条件。",
+              "source": "https://pfind.ict.ac.cn/rt/"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A15",
+          "answer_quote": "#### 15. 中国科学院遗传与发育生物学研究所（中科院遗传所）\n- **学院/研究院**：基因组生物学研究中心\n- **专业与学位**：遗传学（071007）生物信息学方向 —— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；遗传所遗传/泛基因组计算与参考生物信息研究高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "遗传发育所报考招生单位为国科大、院系所遗传发育所。",
+              "source": "https://www.genetics.ac.cn/edu/zsxx/ssszs_187556/202309/t20230922_6885357.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年推免",
+              "scope": "遗传发育所推免含直博与专硕；结合遗传基因组方向支持国科大相关院所。",
+              "source": "https://genetics.cas.cn/edu/zsxx/xlytms/202308/t20230825_6867669.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A16",
+          "answer_quote": "#### 16. 中国科学院动物研究所（中科院动物所）\n- **学院/研究院**：膜生物学国家重点实验室 / 动物生态与保护生物学院重点实验室\n- **专业与学位**：生态学 / 生物信息学（进化基因组学与计算生物学）—— **直博 / 学硕**",
+          "match_level": "related_department",
+          "reason": "同一国科大招生/授位体系，属于不同独立培养研究所；动物所进化基因组/计算生物学与参考高度相关，故相关院所匹配而非同名匹配。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年硕士目录",
+              "scope": "动物所生态学及系统/进化生物学招生含推免。",
+              "source": "https://ioz.cas.cn/gb2018/xwdt/tzgg/202309/t20230919_6883561.html"
+            },
+            {
+              "applicable_cycle": "2024年博士目录",
+              "scope": "基因组学含直博计划，支持进化基因组学路径，不混拆内部实验室。",
+              "source": "https://www.ioz.cas.cn/gb2018/jy/zsxx/bszs/jzml/202310/t20231018_6903460.html"
+            },
+            {
+              "applicable_cycle": "2023年申请、2024年入学",
+              "scope": "动物所国科大招生简章，明确推免直博、国科大培养单位主体及申请路径。",
+              "source": "https://www.ioz.cas.cn/gb2018/jy/zsxx/sszs/jzml/202309/t20230918_6882667.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A17",
+          "answer_quote": "#### 17. 中国科学院深圳先进技术研究院（SIAT）\n- **学院/研究院**：合成生物学研究所（合成所）/ 计算机辅助药物设计中心\n- **专业与学位**：生物化学与分子生物学（生物信息学）/ 计算机科学与技术 —— **直博 / 学硕**",
+          "match_level": "exact",
+          "reason": "SIAT与参考深先院是同一国科大培养单位，参考仅到院所粒度；内部合成所/计算中心不要求拆院。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "本题未披露申请年份；按冻结参考的项目身份与披露学生状态",
+              "scope": "冻结参考：国科大—深先院；仅支持已有院系/方向身份和学生干实验、华五直博/中九硕士意向，不增补未提供的专业或保证当届名额。",
+              "source": "rubric.json reference_candidates[G-33]（冻结参考）；task.json prompt"
+            },
+            {
+              "applicable_cycle": "2024年简章，迁移后URL为2024年12月",
+              "scope": "深先院为国科大培养单位，推免硕士路径，非个人优营率依据。",
+              "source": "https://www.siat.ac.cn/jyjx/zsxx/sszs/202412/t20241214_7458982.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已逐一核对整卷同校候选及招生主体、研究方向与学位路径，以下列全可成立关系；合并独立院系或仅排除对象不另补匹配。一对一最优分配由程序处理。具体关系：A10为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；生物信息学直博与参考的计算生物/组学研究高度相关，故相关院所匹配而非同名匹配。；A11为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；基因组学学硕与参考的基因组/计算生物研究高度相关，故相关院所匹配而非同名匹配。；A12为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学直博、RNA/GWAS计算与参考高度相关，故相关院所匹配而非同名匹配。；A13为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；计算生物学学硕、生物数据整合与参考高度相关，故相关院所匹配而非同名匹配。；A14为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；计算机生物计算、蛋白/基因组算法与参考高度相关，故相关院所匹配而非同名匹配。；A15为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；遗传所遗传/泛基因组计算与参考生物信息研究高度相关，故相关院所匹配而非同名匹配。；A16为related_department：同一国科大招生/授位体系，属于不同独立培养研究所；动物所进化基因组/计算生物学与参考高度相关，故相关院所匹配而非同名匹配。；A17为exact：SIAT与参考深先院是同一国科大培养单位，参考仅到院所粒度；内部合成所/计算中心不要求拆院。。只确认参考所给粒度及可识别路径，不把缺年度审计等同硬限制。",
+      "status": "hit"
+    }
+  ],
+  "errors": [
+    {
+      "answer_quote": "前约10% 在校内拿到推免指标基本稳妥，消除了保研资格的后顾之忧。",
+      "id": "E01-qualification",
+      "reason": "题面未给本专业届别名额、综合成绩规则、加分或校内推免资格结果；只凭排名将未定资格说成基本稳妥并消除风险，不成立。最直接归事实与结论状态。"
+    },
+    {
+      "answer_quote": "我的第一作者 SCI 论文（在投）全篇数万字符均由我独立执笔撰写，深入阅读了 80 余篇近三年的顶刊英文文献",
+      "id": "E02-abilities",
+      "reason": "题面只有三区一作在投，未披露独立全文英文写作、阅读数量；答卷把这些写成确定自述，须以真实贡献替换。最直接归事实状态，不要求联网判断学生能力。"
+    },
+    {
+      "answer_quote": "若导师有意向安排线上学术面谈且愿意给出推荐名额，方可获得初审豁免权。",
+      "id": "E03-bypass",
+      "reason": "清华2024自动化官方简章要求所有申请材料专家审查、排序入围；导师意向不能授予材料初审豁免。后文普遍“强保即指定入营”同属此错误，最直接归执行安排，不取消真实项目身份。官方证据evidence.json:auto。"
+    },
+    {
+      "answer_quote": "代表导师如张世华教授（系统生物学与生物信息学知名学者，国家杰青/优青）。",
+      "id": "E04-sdu",
+      "reason": "第29项将张世华组学统计团队绑定山东大学数学/计算机组合；山大官方2017研讨会及中科院数学院2023团队记录确认归数学院。该导师—学校具体路径错误；参考外无效组合只归推荐理由适配，不否定山大其他项目。官方证据evidence.json:sdumismatch、zhang。"
+    },
+    {
+      "answer_quote": "**直博 / 硕士**（国科大/上科大双学籍）",
+      "id": "E05-dual",
+      "reason": "上科大2023—2024年报区分早期国科大联合培养与2017后独立招生；不能将联合/国科大学位概括为两个同时学籍。最直接归院校层次项对培养、招生与授位主体的区分，不再重复归事实项。官方证据evidence.json:shtech。"
+    },
+    {
+      "answer_quote": "计算生物学（0710J2）/ 生物与医药（086000）—— **学硕**",
+      "id": "E06-degree",
+      "reason": "SINH2024推免官方将086000列专业学位硕士，答卷统称学硕错误；核心计算生物学学硕保留，错误最直接归事实状态，不再取消有效相关匹配。官方证据evidence.json:sinh。"
+    },
+    {
+      "answer_quote": "录取概率接近 100%",
+      "id": "E07-certainty",
+      "reason": "没有题面名额、校内资格或接收确认，不能从本校优势推定近100%录取；与深先院“>80%”、同济资格“完全无虞”等过度保证一并归事实状态，不据此判真实院所虚构。"
+    }
+  ],
+  "input_sha256": "b04b1f5af8f8326ee257d9af7dd3fd551e7fd9f04d985b0c85ba3da2a941a9a3",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。分层匹配：每个coverage项填写全部可成立的正向matches，不预先挑选一个候选。status=hit表示存在至少一条可成立匹配，miss表示无有效匹配，pending表示参考身份或匹配证据无法裁决。miss/pending的matches留空；matched_answer_item_id留空，由程序做最高总分的一对一分配。每条matches填写answer_item_id、match_level、answer_quote、reason和relation_evidence。match_level取exact（完整或等价，100%）、same_department（同院系相近专业，60%）、related_department（同校跨院系相关方向，30%）。只报学校或路径不成立不能填正向匹配。relation_evidence为数组，每项填写source、applicable_cycle、scope，记录项目身份、方向及路径的核验依据；来源可为题设材料或适用周期的官方资料，不要求答卷自身附链接。按参考已有粒度判断；参考内斜杠分隔项为备选，命中其一即可，不拆分参考项。同一候选可出现在多个参考项的matches中，程序只选择一次；别名及重复记录合并为同一canonical_candidate_key。未列出的候选—参考关系视为已核对且无有效匹配，必须审阅全部可能关系；无法裁决时保留pending。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；本版不使用allowed_exclusion：一般排除或只提及项目不取得项目匹配分。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "以下组合严格契合“**纯生信干实验**”诉求，深度结合郑大前 10%、六级 425–449、在投一作及湿实验复合背景，覆盖“冲刺、核心、稳妥、保底”四层立体梯队。",
+      "error_ids": [
+        "E04-sdu"
+      ],
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-01",
+      "reason": "已有方向、排名、英语、在投科研、湿实验/大创与直博/硕士梯队，且华科、生信院所等多条适配理由具体，达到半分。核心缺失是可靠的稳保论证与实际导师—学校绑定：第29项把中科院数学院张世华团队当成山大路径，泛称高录取胜率也不能证明稳保。只将参考外这个无效组合归本项；未命中参考和单个合并院系覆盖缺项不再重复扣本项。"
+    },
+    {
+      "answer_quote": "非常适合热爱科研、不拘泥于传统 985 标签的同学。",
+      "error_ids": [
+        "E05-dual"
+      ],
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-02",
+      "reason": "未机械将学生从211降到低档：以985/华五冲刺、中九硕士及高质量院所为主要梯队，识别了研究平台优势和本校同档兜底。半分核心缺失是培养/授位主体区分：上科大直接写国科大/上科大双学籍，混同独立招生与历史联合培养，无法可靠解释例外层次；协和和上科大的实际学校操作层次亦需明确取舍。本项只归这一主体混同错误，不再由事实项重复处罚。"
+    },
+    {
+      "answer_quote": "**第三轮（9月中旬 - 9月25日）**：预推免考核通过后，最终确认录取名额与导师意向协议。",
+      "error_ids": [
+        "E03-bypass"
+      ],
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-03",
+      "reason": "材料与代码准备、两轮套磁、营期和预推免补漏、最终核对名额等节点具体，优先BIG/SINH及中九备选清楚，达到半分。缺失核心是按正式流程核验申请及接收资格：把导师意向当材料初筛豁免/直接指定入营，绕过官方专家审查；没有先核对本校名额和各候选实际招生路径。题面无日期不假定当届窗口已截止，也不以运行年份否定9.28示意。"
+    },
+    {
+      "answer_quote": "虽然处于 Under Review 阶段，尚未正式录用，在夏令营机筛打分中加分受限",
+      "error_ids": [
+        "E01-qualification",
+        "E02-abilities",
+        "E06-degree",
+        "E07-certainty"
+      ],
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-04",
+      "reason": "准确区分在投与录用、建议注明Under Review，邮件也用“拟获得”资格，已有核心正确状态内容，达到半分。但诊断将前约10%的未知校内资格说成基本稳妥、消除风险，编造80余篇阅读与独立全文英文撰写事实，给近100%等个人录取保证，并把086000写成学硕。缺失核心是对未披露资格/能力和学位性质保持可核验的结论边界。仅这些错误归本项；不重复归已用于执行的导师豁免和用于层次的双学籍。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+      "canonical_candidate_key": "tsinghua-auto-bio-phd",
+      "error_ids": [
+        "E03-bypass"
+      ],
+      "label": "1. 清华大学",
+      "reason": "自动化系生物信息计算直博是官方可支持的控制科学与工程交叉路径，符合干实验；强套磁建议不改变有效项目身份，“初审豁免权”不是可采信制度。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+      "canonical_candidate_key": "pku-cqb-phd",
+      "error_ids": [],
+      "label": "2. 北京大学",
+      "reason": "CQB为前沿交叉学科研究院内部中心，不是两个合并的独立院系；参考仅列学院，认可系统/计算生物学直博，正式学科名见官方说明。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "#### 3. 清华-北大生命科学联合中心（CLS 项目）\n- **学院/研究院**：清华大学侧 / 北京大学侧 CLS 联合培养项目\n- **专业与学位**：生物学（生物信息学与计算生物学方向）—— **直博**",
+      "canonical_candidate_key": "cls-unspecified-side-phd",
+      "error_ids": [],
+      "label": "3. 清华-北大生命科学联合中心（CLS 项目）",
+      "reason": "CLS真实但清华侧/北大侧分别申请、保留不同学籍，全文未明确一侧；保留一个合并候选，不替作者拆两条或补定招生主体。粒度不足不等于项目虚构。",
+      "school_key": "tsinghua_pku_cls",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "canonical_candidate_key": "sjtu-life-bio-phd",
+      "error_ids": [],
+      "label": "4. 上海交通大学",
+      "reason": "上交生命科学技术学院生物信息系生物学直博路径清楚，符合参考学院粒度；不要求参考未给的专业名称逐字一致。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "#### 5. 上海交通大学\n- **学院/研究院**：生物医学工程学院（医疗健康大数据与系统生物学实验室）\n- **专业与学位**：生物医学工程（083100）医学信息与生物信息学 —— **直博**",
+      "canonical_candidate_key": "sjtu-bme-bio-phd",
+      "error_ids": [],
+      "label": "5. 上海交通大学",
+      "reason": "上交生医工医学数据/临床组学计算直博方向可识别；与生科、公卫实质相关，但属于跨院系。论文疾病方向只是增强适配的例子，不是必须满足的硬条件。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "canonical_candidate_key": "fudan-life-bio-phd",
+      "error_ids": [],
+      "label": "6. 复旦大学",
+      "reason": "复旦生命科学学院生物学/生信计算直博明确，按参考学院粒度认可；未逐年审计英语与排名初筛不等于项目无效。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "#### 7. 复旦大学\n- **学院/研究院**：类脑智能科学与技术研究院（ISTBI）/ 复杂体系多尺度研究院\n- **专业与学位**：计算机科学与技术 / 生物物理学（计算系统生物学）—— **直博**",
+      "canonical_candidate_key": "fudan-istbi-mrics-merged-phd",
+      "error_ids": [],
+      "label": "7. 复旦大学",
+      "reason": "类脑院与复杂体系多尺度院为两独立单位，被一个条目含糊合并，专业/导师未分别绑定；不拆出任一单位用于覆盖。研究平台真实，清晰度不足不等于虚构。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+      "canonical_candidate_key": "ustc-biomed-phd",
+      "error_ids": [],
+      "label": "8. 中国科学技术大学",
+      "reason": "中科大生命科学与医学部生物物理/生物信息直博可识别，参考学部称谓差异可核对同一主体。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+      "canonical_candidate_key": "nju-life-bio-phd",
+      "error_ids": [],
+      "label": "9. 南京大学",
+      "reason": "南京大学生科生物学直博及计算/系统生物学方向明确，425–449满足答卷列出的425–449；不以当前年度规则取代题面时点。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "BIG/CNCB同一所，国科大生命学院为培养体系说明，不机械拆成不同院系；官方支持生物信息学直博。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "#### 11. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：基因组学（0710Z1）/ 生物与医药（086000）—— **学硕 / 专硕**",
+      "canonical_candidate_key": "ucas-big-genomics-master-options",
+      "error_ids": [],
+      "label": "11. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "基因组学学硕是可识别核心备选，官方支持；同条目生物与医药未完成年度核验，不据未查到推断不存在、不另创造独立组合。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "#### 12. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：原中国科学院-马普学会计算生物学伙伴研究所（CAS-MPG PICB，计算生物学殿堂级平台）\n- **专业与学位**：计算生物学（0710J2）—— **直博**",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "SINH计算生物学直博可识别，原PICB为沿革说明；官方第二批不招直博不等于全年不招。答卷代码0710J2与官方0710Z2出入不改变参考未列代码的方向粒度。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "#### 13. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：生物医学大数据中心 / 计算生物学实验室\n- **专业与学位**：计算生物学（0710J2）/ 生物与医药（086000）—— **学硕**",
+      "canonical_candidate_key": "ucas-sinh-compbio-master-options",
+      "error_ids": [
+        "E06-degree"
+      ],
+      "label": "13. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "SINH计算生物学学硕可识别，大数据中心为内部研究方向；086000实际为专业硕士，不是学硕，保留成立的计算生物学核心路径。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "#### 14. 中国科学院计算技术研究所（中科院计算所）\n- **学院/研究院**：计算机系统结构 / 智能信息处理重点实验室（生物信息课题组）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-ict-biocomputing",
+      "error_ids": [],
+      "feasibility": "按答卷准备代码、算法理论与机试，能力可补齐，未把150题当官方报考条件。",
+      "key_condition": "对生物算法开发感兴趣且算法与数据结构功底扎实；150题为答卷自评建议。",
+      "label": "14. 中国科学院计算技术研究所（中科院计算所）",
+      "reason": "计算所生物计算/计算机学位明确，以扎实算法功底为具体备选条件；刷题150+是答卷自评建议，不是招生硬门槛。",
+      "school_key": "ucas",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "#### 15. 中国科学院遗传与发育生物学研究所（中科院遗传所）\n- **学院/研究院**：基因组生物学研究中心\n- **专业与学位**：遗传学（071007）生物信息学方向 —— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-genetics-genomics",
+      "error_ids": [],
+      "label": "15. 中国科学院遗传与发育生物学研究所（中科院遗传所）",
+      "reason": "遗传所遗传/基因组计算与直博/硕士方向可识别，内部研究中心不拆项目；纯干方向须具体组别同意，不采信导师普遍欢迎的保证。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "#### 16. 中国科学院动物研究所（中科院动物所）\n- **学院/研究院**：膜生物学国家重点实验室 / 动物生态与保护生物学院重点实验室\n- **专业与学位**：生态学 / 生物信息学（进化基因组学与计算生物学）—— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-ioz-evolution-genomics",
+      "error_ids": [],
+      "label": "16. 中国科学院动物研究所（中科院动物所）",
+      "reason": "动物所生态/进化基因组计算为有效方向；所内实验室并列不是两个独立研究所，认可到同一培养单位。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "#### 17. 中国科学院深圳先进技术研究院（SIAT）\n- **学院/研究院**：合成生物学研究所（合成所）/ 计算机辅助药物设计中心\n- **专业与学位**：生物化学与分子生物学（生物信息学）/ 计算机科学与技术 —— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-siat-bio-computing",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "17. 中国科学院深圳先进技术研究院（SIAT）",
+      "reason": "SIAT为国科大深先院，合成所/计算药物中心为内部方向备选；参考只列院所，按此粒度认可，80%以上个人优营率无题设支持。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "#### 18. 中国医学科学院基础医学研究所 / 北京协和医学院\n- **学院/研究院**：基础医学院 生物医学信息学系 / 系统医学研究所（苏州系统所 ISM）\n- **专业与学位**：生物信息学（0710J1）/ 生物医学工程 —— **直博 / 学硕**",
+      "canonical_candidate_key": "pumc-basic-ism-merged",
+      "error_ids": [],
+      "label": "18. 中国医学科学院基础医学研究所 / 北京协和医学院",
+      "reason": "基础所与苏州系统所是不同培养单位，被一条目合并；末段另明确推荐苏州系统所，单独记录，不由此再拆出基础所路径。",
+      "school_key": "pumc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "#### 19. 华中科技大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息技术课题组）\n- **专业与学位**：生物医学工程（083100）/ 生物学 —— **学硕 / 专硕**",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "华科生命科学与技术学院生医工/生物学组学计算硕士明确，按参考学院粒度认可。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "#### 20. 同济大学\n- **学院/研究院**：生命科学与技术学院（生物信息学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "同济生命科学与技术学院生物学/生信直博明确，项目身份与干实验意向成立；“资格审核完全无虞”不能视为已核准。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "#### 21. 同济大学\n- **学院/研究院**：生命科学与技术学院 / 医学院\n- **专业与学位**：生物与医药（086000）/ 生物信息学 —— **专硕 / 学硕**",
+      "canonical_candidate_key": "tongji-life-med-merged-master",
+      "error_ids": [],
+      "label": "21. 同济大学",
+      "reason": "生命学院/医学院、学硕/专硕未分别绑定实际组合，导师名字不能由评审补全院系；后文同济硕士泛称仍不解决，不拆两条路径。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+      "canonical_candidate_key": "sysu-life-bio",
+      "error_ids": [],
+      "label": "22. 中山大学",
+      "reason": "中山生科生物学/生信及进化计算硕士或直博清楚，同院内方向与学位备选不机械拆分。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "#### 23. 东南大学\n- **学院/研究院**：生物科学与医学工程学院（生医工全国顶尖 A+ 学科平台）\n- **专业与学位**：生物医学工程（083100）/ 电子信息 —— **学硕 / 专硕**",
+      "canonical_candidate_key": "seu-bme-bio-master",
+      "error_ids": [],
+      "label": "23. 东南大学",
+      "reason": "东南生医工生信/生医工硕士明确，官方确认与参考生命科学与技术学院为不同学院；只能相关院系匹配，非更名等价。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "#### 24. 哈尔滨工业大学\n- **学院/研究院**：计算学部（计算机科学与技术学院 / 生物信息学研究室）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **学硕**",
+      "canonical_candidate_key": "hit-computing-bio-master",
+      "error_ids": [],
+      "label": "24. 哈尔滨工业大学",
+      "reason": "哈工大计算学部、计算机学院、生物信息研究室为上下级/内部研究关系，计算机硕士生物计算路径可识别，不误作合并独立学院。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "#### 25. 西安交通大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息工程教育部重点实验室 / 信息生物学交叉中心）\n- **专业与学位**：生物医学工程（083100）信息生物学方向 —— **直博 / 学硕**",
+      "canonical_candidate_key": "xjtu-life-informationbio",
+      "error_ids": [],
+      "label": "25. 西安交通大学",
+      "reason": "西交生命学院生医工信息生物学硕士/直博明确，参考只给学校而专业未显示，不额外要求猜参考专业。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "#### 26. 武汉大学\n- **学院/研究院**：生命科学学院 / 药学院\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕**",
+      "canonical_candidate_key": "whu-life-pharmacy-merged",
+      "error_ids": [],
+      "label": "26. 武汉大学",
+      "reason": "生科/药学院混写，生物学硕士未逐院绑定；后文生科门槛与营期材料说明仍附属于合并条目，没有另建立独立院系申请推荐。不拆斜杠命中；清晰度缺项不等于不存在。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "#### 27. 中南大学\n- **学院/研究院**：计算机学院（生物信息学湖南省重点实验室）\n- **专业与学位**：计算机科学与技术（081200）/ 电子信息 —— **学硕 / 专硕**",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "中南计算机生物网络算法与计算机/电子信息硕士可识别，属参考外有效方向，不以未命中参考判错误。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "#### 28. 厦门大学\n- **学院/研究院**：生命科学学院 / 信息学院（健康大数据中心）\n- **专业与学位**：生物学（生物信息学）/ 计算机技术 —— **学硕**",
+      "canonical_candidate_key": "xmu-life-information-merged",
+      "error_ids": [],
+      "label": "28. 厦门大学",
+      "reason": "生科/信息学院合并、生物学/计算机技术未明确各自申请路径；后文仅生科条件说明，不作为独立院系推荐，不拆取生科覆盖。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "#### 29. 山东大学\n- **学院/研究院**：数学学院 / 计算机科学与技术学院（金融数学与交叉计算生物学团队）\n- **专业与学位**：应用统计 / 计算机科学与技术（计算生物学方向）—— **学硕**",
+      "canonical_candidate_key": "sdu-zhang-bio-merged-master",
+      "error_ids": [
+        "E04-sdu"
+      ],
+      "label": "29. 山东大学",
+      "reason": "山大数学/计算机组合将张世华组学统计团队作为具体支撑，山大自身和数学院官方资料将该团队归中科院数学院；实际导师—学校组合错误，不是因参考未列或查不到判错。",
+      "school_key": "sdu",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "#### 30. 北京航空航天大学\n- **学院/研究院**：生物与医学工程学院（生物力学与生物计算实验室）\n- **专业与学位**：生物医学工程（083100）医学大数据挖掘方向 —— **学硕**",
+      "canonical_candidate_key": "buaa-bme-master",
+      "error_ids": [],
+      "label": "30. 北京航空航天大学",
+      "reason": "北航生医工医学数据硕士可识别，属参考外有效建议；未逐年审计门槛不等于不存在或硬冲突。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "#### 31. 四川大学\n- **学院/研究院**：华西基础医学与法医学院 / 计算机学院（智能医学工程中心）\n- **专业与学位**：生物医学工程 / 基础医学（医学信息学方向）—— **学硕**",
+      "canonical_candidate_key": "scu-huaxi-computing-merged-master",
+      "error_ids": [],
+      "label": "31. 四川大学",
+      "reason": "华西基础医学/计算机学院与医学信息/生医工学硕合并，未逐院系落实；保留一个合并候选，不替作者创造两条，不因含糊直接判虚构。",
+      "school_key": "scu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "#### 32. 上海科技大学\n- **学院/研究院**：生命科学与技术学院（SLST）/ 信息科学与技术学院（SIST）\n- **专业与学位**：生物学（计算生物学与系统生物学）—— **直博 / 硕士**（国科大/上科大双学籍）",
+      "canonical_candidate_key": "shtech-life-information-merged",
+      "error_ids": [
+        "E05-dual"
+      ],
+      "label": "32. 上海科技大学",
+      "reason": "上科大生命/信息学院合并、直博/硕士和生物学归属未逐项落实，不用于国科大跨所覆盖；院校真实，但双学籍混同独立招生与历史联合培养，需纠正。",
+      "school_key": "shanghaitech",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33",
+      "answer_quote": "#### 33. 郑州大学（本校最终兜底）\n- **学院/研究院**：计算机与人工智能学院 / 生命科学学院 / 基础医学院\n- **专业与学位**：生物信息学 / 计算机科学与技术 —— **学硕**",
+      "canonical_candidate_key": "zzu-three-dept-merged-master",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "33. 郑州大学（本校最终兜底）",
+      "reason": "本校三个学院与两个学硕合并，未落实实际院系路径，保留一个兜底候选；接近100%不能替代校内指标及接收资格核准。",
+      "school_key": "zzu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X01",
+      "answer_quote": "浙江大学生命科学研究院/生命科学学院直博通常硬性要求六级 $\\ge$ 460 分",
+      "canonical_candidate_key": "zju-life-excluded",
+      "error_ids": [],
+      "label": "浙大生命学院直博排除",
+      "reason": "排除中的生科院对象，不计正向匹配；周期未知，不把“通常”视为所有届别均如此。",
+      "school_key": "zju",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X02",
+      "answer_quote": "浙江大学生命科学研究院（生研院）及部分生科院直博",
+      "canonical_candidate_key": "zju-lsi-excluded",
+      "error_ids": [],
+      "label": "浙大生命科学研究院直博排除",
+      "reason": "明确排除生研院；托福雅思替代作为排除例外，未给独立报考与补齐行动，不视作可行条件推荐。",
+      "school_key": "zju",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X03",
+      "answer_quote": "西湖大学生命科学学院直博",
+      "canonical_candidate_key": "westlake-life-excluded",
+      "error_ids": [],
+      "label": "西湖生命学院直博排除",
+      "reason": "明确排除真实生命学院，门槛绝对化未按未知年度裁决；无正向匹配。",
+      "school_key": "westlake",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X04",
+      "answer_quote": "清华-伯克利深圳研究院（TBSI）",
+      "canonical_candidate_key": "tsinghua-tbsi-excluded",
+      "error_ids": [],
+      "label": "清华伯克利深圳TBSI排除",
+      "reason": "明确绕行的联合项目，真实但非有效直接/条件推荐，不取得深圳匹配。",
+      "school_key": "tsinghua",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X05",
+      "answer_quote": "昆山杜克等，通常要求托福 90+ 或六级 500+，一概绕行。",
+      "canonical_candidate_key": "dku-international-excluded",
+      "error_ids": [],
+      "label": "昆山杜克泛国际项目排除",
+      "reason": "明确排除泛学校/国际项目，未识别具体项目，仍计实际排除候选，不因缺专业判学校不存在。",
+      "school_key": "dku",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X06",
+      "answer_quote": "苏州系统所（ISM）由中国医学科学院与苏州市共建，硬件与生信算力条件国际一流，招生名额较多且竞争相比清北本部温和，是稳中求进的极高性价比选择。",
+      "canonical_candidate_key": "pumc-ism-bio",
+      "error_ids": [],
+      "label": "协和苏州系统医学所生物信息方向",
+      "reason": "第18项末段明确独立推荐苏州系统所，结合同段生物信息/系统医学学位方向提取；不另替作者补基础所路径。参考外真实单位，机会较多不能作为录取保证。",
+      "school_key": "pumc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R01-10",
+      "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R01-12",
+      "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-21",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "tongji-life-med-merged-master",
+      "error_ids": [],
+      "label": "21. 同济大学",
+      "reason": "清单第21项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。泛称硕士仍继承原条目合并院系的局限，不补定院系。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-19",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-27",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "清单第27项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-24",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "hit-computing-bio-master",
+      "error_ids": [],
+      "label": "24. 哈尔滨工业大学",
+      "reason": "清单第24项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-10",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-12",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-04",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "sjtu-life-bio-phd",
+      "error_ids": [],
+      "label": "4. 上海交通大学",
+      "reason": "清单第4项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-20",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "清单第20项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-19",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-10",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-12",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-27",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "清单第27项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-19",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-20",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "清单第20项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-25",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "xjtu-life-informationbio",
+      "error_ids": [],
+      "label": "25. 西安交通大学",
+      "reason": "清单第25项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-23",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "seu-bme-bio-master",
+      "error_ids": [],
+      "label": "23. 东南大学",
+      "reason": "清单第23项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-19",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R06-10",
+      "answer_quote": "国家生物信息中心/上海营养健康所直博",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R06-12",
+      "answer_quote": "国家生物信息中心/上海营养健康所直博",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07-19",
+      "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07-21",
+      "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+      "canonical_candidate_key": "tongji-life-med-merged-master",
+      "error_ids": [],
+      "label": "21. 同济大学",
+      "reason": "清单第21项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。泛称硕士仍继承原条目合并院系的局限，不补定院系。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07-27",
+      "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "清单第27项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R08-33",
+      "answer_quote": "郑州大学本校生信/计算机学硕",
+      "canonical_candidate_key": "zzu-three-dept-merged-master",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "33. 郑州大学（本校最终兜底）",
+      "reason": "清单第33项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "zzu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-10",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-12",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-20",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "清单第20项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-04",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "sjtu-life-bio-phd",
+      "error_ids": [],
+      "label": "4. 上海交通大学",
+      "reason": "清单第4项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-19",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R10-10",
+      "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R10-12",
+      "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R-X01",
+      "answer_quote": "浙江大学生命科学研究院（生研院）及部分生科院直博",
+      "canonical_candidate_key": "zju-life-excluded",
+      "error_ids": [],
+      "label": "浙大生命学院直博排除",
+      "reason": "排除建议再次出现，与原排除对象合并；不创造新的可投条件路径。",
+      "school_key": "zju",
+      "treatment": "excluded",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "BY-G-APPLY",
+  "task_sha256": "306412d8394dbc1d75ef88e62c0d3b7315293aaf1862188325a19a0deb5457f7",
+  "tier_review": {
+    "reason": "全文已审阅，按独立路径/合并候选与别名去重为39个实际候选（含排除和清单外明确推荐），要求上限33，超额6；仅数量提醒，不截取最佳子集、不自算分。普通背景学校讨论未提取；模糊院系合并保留为一项，明确苏州系统所另提取。",
+    "schools": [
+      {
+        "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+        "downgraded": false,
+        "reason": "国科大科教融合培养单位含BIG、SINH、计算所、遗传所、动物所和SIAT，按实际招生/授位体系与科研平台判断，不因无985/211标签自动判降级；科学岛另归中科大。",
+        "school_key": "ucas"
+      },
+      {
+        "answer_quote": "#### 19. 华中科技大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息技术课题组）\n- **专业与学位**：生物医学工程（083100）/ 生物学 —— **学硕 / 专硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "#### 20. 同济大学\n- **学院/研究院**：生命科学与技术学院（生物信息学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "#### 33. 郑州大学（本校最终兜底）\n- **学院/研究院**：计算机与人工智能学院 / 生命科学学院 / 基础医学院\n- **专业与学位**：生物信息学 / 计算机科学与技术 —— **学硕**",
+        "downgraded": false,
+        "reason": "郑州大学本校兜底与题设本科基准同一211学校，同档不降级；招生路径和资格未定另在内容/事实项处理。",
+        "school_key": "zzu"
+      },
+      {
+        "answer_quote": "#### 27. 中南大学\n- **学院/研究院**：计算机学院（生物信息学湖南省重点实验室）\n- **专业与学位**：计算机科学与技术（081200）/ 电子信息 —— **学硕 / 专硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "#### 23. 东南大学\n- **学院/研究院**：生物科学与医学工程学院（生医工全国顶尖 A+ 学科平台）\n- **专业与学位**：生物医学工程（083100）/ 电子信息 —— **学硕 / 专硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "#### 25. 西安交通大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息工程教育部重点实验室 / 信息生物学交叉中心）\n- **专业与学位**：生物医学工程（083100）信息生物学方向 —— **直博 / 学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "xjtu"
+      },
+      {
+        "answer_quote": "#### 24. 哈尔滨工业大学\n- **学院/研究院**：计算学部（计算机科学与技术学院 / 生物信息学研究室）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "#### 18. 中国医学科学院基础医学研究所 / 北京协和医学院\n- **学院/研究院**：基础医学院 生物医学信息学系 / 系统医学研究所（苏州系统所 ISM）\n- **专业与学位**：生物信息学（0710J1）/ 生物医学工程 —— **直博 / 学硕**",
+        "downgraded": true,
+        "reason": "北京协和医学院授位/医学科学院研究所培养，不是普通985/211校；按冻结学校操作顺序低于郑大211，但属于高质量专业院校/研究所例外，可有方向取舍，不能等同培养质量下降，也不取消参考外有效建议。",
+        "school_key": "pumc"
+      },
+      {
+        "answer_quote": "#### 32. 上海科技大学\n- **学院/研究院**：生命科学与技术学院（SLST）/ 信息科学与技术学院（SIST）\n- **专业与学位**：生物学（计算生物学与系统生物学）—— **直博 / 硕士**（国科大/上科大双学籍）",
+        "downgraded": true,
+        "reason": "上科大独立招生，非985/211，在双一流学校档低于郑大211（更早未入双一流时也低于211）；联合培养历史不能等同国科大学籍。平台质量与降档分开报告，见evidence.json:shtech、shtechtier。",
+        "school_key": "shanghaitech"
+      },
+      {
+        "answer_quote": "#### 31. 四川大学\n- **学院/研究院**：华西基础医学与法医学院 / 计算机学院（智能医学工程中心）\n- **专业与学位**：生物医学工程 / 基础医学（医学信息学方向）—— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "scu"
+      },
+      {
+        "answer_quote": "#### 30. 北京航空航天大学\n- **学院/研究院**：生物与医学工程学院（生物力学与生物计算实验室）\n- **专业与学位**：生物医学工程（083100）医学大数据挖掘方向 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "buaa"
+      },
+      {
+        "answer_quote": "#### 29. 山东大学\n- **学院/研究院**：数学学院 / 计算机科学与技术学院（金融数学与交叉计算生物学团队）\n- **专业与学位**：应用统计 / 计算机科学与技术（计算生物学方向）—— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "sdu"
+      },
+      {
+        "answer_quote": "#### 28. 厦门大学\n- **学院/研究院**：生命科学学院 / 信息学院（健康大数据中心）\n- **专业与学位**：生物学（生物信息学）/ 计算机技术 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "xmu"
+      },
+      {
+        "answer_quote": "#### 26. 武汉大学\n- **学院/研究院**：生命科学学院 / 药学院\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "whu"
+      },
+      {
+        "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "sysu"
+      },
+      {
+        "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "nju"
+      },
+      {
+        "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "ustc"
+      },
+      {
+        "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "fudan"
+      },
+      {
+        "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。 同时涵盖CLS该校侧的联合项目身份，但答卷未明确选择一侧，不额外创造匹配。",
+        "school_key": "pku"
+      },
+      {
+        "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。 同时涵盖CLS该校侧的联合项目身份，但答卷未明确选择一侧，不额外创造匹配。",
+        "school_key": "tsinghua"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

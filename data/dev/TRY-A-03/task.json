@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-A",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "document_question_id": "Q003",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-A-03",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在华东地区一所211高校读大二上，专业是新能源材料与器件（中外合作办学），现在是2024年10月。最近听说可以争取保研，但我对资格和申请流程几乎不了解。你能先帮我理一理，从哪里入手吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "ed868793759fc6194a5fca8244ac973658bd058bff1241ddab195384a65dbcaa",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

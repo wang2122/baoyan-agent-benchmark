@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.8-max-0902",
+  "isolation_verified": false,
+  "auth_mode": "api",
+  "cli": "qwen",
+  "cli_version": "0.25.0",
+  "started_at": "2026-10-12T04:33:34.517695+00:00",
+  "finished_at": "2026-10-12T04:45:11.041754+00:00",
+  "original_generation_terminal_status": "completed",
+  "complete_answer_artifact_verified": true,
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "raw_execution_artifacts_public": false
+}

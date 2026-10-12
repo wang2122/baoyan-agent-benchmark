@@ -1,0 +1,99 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N01-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "建议系统复习理论力学、材料力学、流体力学，联系所选项目要求，注明具体考核科目待核。",
+      "grading": "three_level",
+      "half_credit": "列出相关力学课但缺复习重点或适用条件。",
+      "id": "N01-01-L1-01",
+      "label": "力学基础与目标项目专业课复习",
+      "points": 15
+    },
+    {
+      "full_credit": "结合复变函数、积分变换或已学的数学课程，提出针对性的复习步骤。",
+      "grading": "three_level",
+      "half_credit": "提出数学复习但未落实到具体模块或学习方法。",
+      "id": "N01-01-L1-02",
+      "label": "数学课程查漏补缺",
+      "points": 10
+    },
+    {
+      "full_credit": "整理相关工程构件视觉与智能建造项目的研究问题、方法、真实个人分工和结果证据；不把在投、参与、申请当作已完成成果。",
+      "grading": "three_level",
+      "half_credit": "能具体梳理项目，但缺个人贡献、证据或成果状态。",
+      "id": "N01-01-L1-03",
+      "label": "现有科研工作的系统复盘",
+      "points": 20
+    },
+    {
+      "full_credit": "准备不同长度英文介绍，练习回答英语问题及解释相关专业术语；不虚构六级成绩。",
+      "grading": "three_level",
+      "half_credit": "有口语训练建议但缺专业交流或成果表达。",
+      "id": "N01-01-L1-04",
+      "label": "英语自我介绍与专业交流",
+      "points": 12
+    },
+    {
+      "full_credit": "整理简历、研究内容与材料，联系了解本人学习科研情况的老师准备推荐信；相关导师交流基于条件进行。",
+      "grading": "three_level",
+      "half_credit": "有文书准备但缺推荐信或具体联系安排。",
+      "id": "N01-01-L1-05",
+      "label": "文书与推荐信/导师交流",
+      "points": 8
+    },
+    {
+      "full_credit": "围绕简历科研细节和重点专业课程安排模拟问答与复盘，能够经得起深入追问。",
+      "grading": "three_level",
+      "half_credit": "有模拟面试建议但与本人经历或课程联系不足。",
+      "id": "N01-01-L1-06",
+      "label": "专业/科研面试准备",
+      "points": 10
+    },
+    {
+      "full_credit": "保持排名、英语考试种类、论文作者身份、专利申请及推免资格状态准确，不夸大。",
+      "grading": "three_level",
+      "half_credit": "主体准确但存在少量易修正的状态遗漏。",
+      "id": "N01-01-L1-07",
+      "label": "事实与成果状态",
+      "points": 10
+    },
+    {
+      "full_credit": "根据已有优势与申请阶段，说明课程、科研复盘、英语、材料准备的先后和时间取舍。",
+      "grading": "three_level",
+      "half_credit": "有可执行安排但缺清晰理由或取舍。",
+      "id": "N01-01-L1-08",
+      "label": "投入优先关系",
+      "points": 10
+    },
+    {
+      "full_credit": "提出近期至少一个可核实的复习、科研汇报或申请材料节点，说明达不到目标时如何调整。",
+      "grading": "three_level",
+      "half_credit": "有节点但缺明确检查证据或调整办法。",
+      "id": "N01-01-L1-09",
+      "label": "检查节点",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

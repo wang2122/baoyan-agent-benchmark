@@ -1,0 +1,22 @@
+{
+  "adapter": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "auth_mode": "api",
+  "cli": "qwen",
+  "cli_version": "0.25.0",
+  "started_at": "2026-10-12T03:24:08.902344+00:00",
+  "finished_at": "2026-10-12T03:50:53.025636+00:00",
+  "elapsed_seconds": 1604.119,
+  "status": "completed",
+  "repeat": 1,
+  "timeout_seconds": 3598.322572709003,
+  "model_identity_status": "cli_reported_match",
+  "task_sha256": "471e0b50b1cc370a20b7bf74d2c4e28606283d744e354faeba0b11c02b62dd25",
+  "rubric_sha256": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+  "answer_file_sha256": "39775ad5d463fc205561a48cf5c56228f4aba1004d88d08409f79fb60c410e35",
+  "isolation_verified": true,
+  "trajectory_status": "recorded_unverified",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "source_run_sha256": "933ae8b1d51943dec318762d20c1dc2ce7afb6dc0b65d9f8c304efcb5c32bdbb",
+  "raw_execution_artifacts_public": false
+}

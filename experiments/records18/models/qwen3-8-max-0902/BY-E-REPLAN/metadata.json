@@ -1,0 +1,27 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "qwen3-8-max-0902",
+  "task_id": "BY-E-REPLAN",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "api",
+    "cli": "qwen",
+    "cli_version": "0.25.0",
+    "id": "qwen3-8-max-0902",
+    "model": "qwen3.8-max-0902",
+    "reasoning_effort": "native_default"
+  },
+  "original_answer_sha256": "fdcbddaf3318a33efb9bcebf54a580b6067b2b0919324a34d7e478b0e201c377",
+  "public_display_answer_sha256": "159b93baae61e968d10fb312a9d4481e95c98591b400e28a2240c238926a1953",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "finished_at": "2026-10-09T11:33:56.487346+00:00",
+  "original_attempt_status": "completed",
+  "execution_mode": "original_campaign",
+  "public_execution_evidence": "Qwen retained per-task execution-progress row, source hash verified"
+}

@@ -1,0 +1,92 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "question_id": "Q048",
+  "task_id": "N10-03",
+  "answer_sha256": "1220aab466a3c992f3d0547ad17c82ed0f15dab01879fa4eac1d8e7bd063c09b",
+  "original_rubric_sha256": "b8854f6d957776bed3d6abdca66dabf51a3890567b99f8e3333af1a4ae70d99e",
+  "original_score_content_sha256": "f0b5f4806ee8125b3a592c1435740f69781c637955e2331b7184aa134b473e2d",
+  "original_rubric_content_sha256": "b8854f6d957776bed3d6abdca66dabf51a3890567b99f8e3333af1a4ae70d99e",
+  "original_evidence_hashes": {
+    "task.json": "15fe6e74c8f898f1343bda5e8048d823376766eb47c0a96fd099863b2625f7a2",
+    "rubric.json": "b8854f6d957776bed3d6abdca66dabf51a3890567b99f8e3333af1a4ae70d99e",
+    "answer.md": "1220aab466a3c992f3d0547ad17c82ed0f15dab01879fa4eac1d8e7bd063c09b",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "review-settings.json": "396d4b777af45b1463a1dd00d5bc4cf86c256c9bbdbd86e272625caa5491ab23",
+    "judgment.json": "50ed33dc89c26e5781603fa6060a97a4cf8b3ea201b38d505daef6a884257239",
+    "score.json": "e60781b4b869d17d15921381f29768dd81d955a52483f5bdc9c4df350e897742",
+    "evidence.json": "95a0ded37e7d71794d608401367a0c8a6c9f7e0a3ee97528eadb8f594acf7583"
+  },
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "question_id": "Q048",
+      "node_id": "reasons",
+      "status": "resolved_by_official_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+        "grading": "three_level",
+        "half_credit": "有适配分析但条件或组合取舍不完整",
+        "id": "reasons",
+        "label": "推荐理由、条件与组合",
+        "points": 15
+      },
+      "original_claim": "**主投专业学位与中德项目，避开本部学术学位最拥挤的机械设计方向。**",
+      "decision": "本人27%排名、六级550–599、智能制造工程经验及学位/主次适配有正确具体内容，非零档。西工大机电085503成立，不扣该路径；电子科大与上理机械院080400明确挂靠错误，且原研究所公共代码未逐所绑定，组合核心不完整，依half_credit结算0.5。太仓/宣城机械独立入口、电子科大控制AI独立代码未核，不标invalid；它们不改变已有正确核心和确定缺项形成的半档边界。",
+      "sources": [
+        {
+          "url": "https://yzb.nwpu.edu.cn/info/1177/10508.htm",
+          "published_date": "2026-10-07",
+          "checked_date": "2026-10-11",
+          "scope": "2027全日制目录PDF第7页",
+          "finding": "005机电学院明确招085503航空工程，计划81人；此疑点支持答卷"
+        },
+        {
+          "url": "https://taicang-csj.nwpu.edu.cn/yjygk/jj.htm",
+          "published_date": null,
+          "checked_date": "2026-10-11",
+          "scope": "太仓研究院培养介绍",
+          "finding": "存在专业硕士/工程博士教育；不证2027独立机电入口或较低门槛"
+        },
+        {
+          "url": "https://yjszs.hfut.edu.cn/2026/0930/c13534a323534/pagem.htm",
+          "published_date": "2026-09-30",
+          "checked_date": "2026-10-11",
+          "scope": "2027简章及002/025完整目录",
+          "finding": "新智能软件工程学院依托宣城培养；不能外推宣城无硕士，也未证宣城独立机械兜底"
+        },
+        {
+          "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlZy/2027/004",
+          "published_date": "2026-10-08",
+          "checked_date": "2026-10-11",
+          "scope": "2027机械电气与006自动化完整目录；日期为发布索引日期",
+          "finding": "080400在自动化学院006，非机械电气004；004的085400有控制复试，不能否定控制培养内容"
+        },
+        {
+          "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlZy/2027/006",
+          "published_date": "2026-10-08",
+          "checked_date": "2026-10-11",
+          "scope": "2027自动化目录",
+          "finding": "080400仪器、081100控制及085406/085407归该院"
+        },
+        {
+          "url": "https://xxgk.usst.edu.cn/2026/1001/c8705a371402/page.htm",
+          "published_date": "2026-10-01",
+          "checked_date": "2026-10-11",
+          "scope": "2027目录完整002与004块",
+          "finding": "080400归002光电信息与计算机工程学院，非004机械学院"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    37.57,
+    37.57
+  ],
+  "teacher_calibration": "pending",
+  "source_rulings_sha256": "fd3fdf0feeb9820ca789918837916648cbafba0bf1b43db3ec0a84bcdf034e63",
+  "original_judgment_preserved": true,
+  "native_derived_score_replay_available": false,
+  "validation_note": "Explicit maintenance node overlay; original candidate validity states are preserved. This is not a native candidate-validator replay."
+}

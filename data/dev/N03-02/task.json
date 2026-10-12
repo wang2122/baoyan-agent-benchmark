@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N03",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q031",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N03-02",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我在上海大学读电气工程及其自动化，排名前约2%，六级650–699分。一个项目做控制与工程实现，另一个研究机器视觉。研究生方向选控制、电气，还是机器人视觉和AI，我有点拿不准。结合我的经历，你会怎么选？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "c98ce0373081e950bca071fa3e785dd74fbfa774f1b3e8d494475ab07f6e9dd4",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

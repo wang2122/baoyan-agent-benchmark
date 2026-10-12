@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N03",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "document_question_id": "Q030",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N03-01",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我在上海大学读电气工程及其自动化，排名前约2%，六级650–699分。做过控制大创和机器视觉相关EI会议研究，也参加过软件及电子设计比赛。打算准备保研，但不知道科研、专业课和申请材料应该怎么排先后，你有什么建议？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "83d6400f2de8af2ec3d522b00ab1de6bbff153fde1423b8dd7d350b10deef138",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

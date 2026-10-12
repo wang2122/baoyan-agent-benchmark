@@ -1,0 +1,393 @@
+{
+  "actual_candidate_count": 22,
+  "answer_sha256": "6322fac8b37db91afbbc04d7fa66915d0f8eaedf99569ba85ecc7759b8cb33a3",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 62.5
+  },
+  "confirmed_points": 62.5,
+  "diagnostic_score": 62.5,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "TRY-A-03-R10-05"
+    ],
+    "E02": [
+      "TRY-A-03-R10-02"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "大一优异成绩",
+      "id": "E01",
+      "reason": "题面未提供任何成绩，自荐邮件却将大一成绩写为优异，补入未经提供的个人事实。应填写实际成绩或先核实。仅关联信息状态项。"
+    },
+    {
+      "answer_quote": "### 1. 准入硬性底线（一票否决项）\n任何一项不达标，直接丧失推免申请资格：\n1. **政治思想与品德**：思想政治素质考核合格，无任何违纪违法行为，无受警告及以上处分记录，无学术不端行为。\n2. **成绩合格底线**：\n   * 所有已修课程成绩全部及格（记录百分制的课程学分绩点达到1.0及以上，等级制达到D及以上）；\n   * 必修课程无旷考、无弃考记录；\n   * （重点防范：大二、大三难度极高的专业核心课，绝不能出现挂科！挂科即极大可能一票否决或排位断崖式下跌）。\n3. **学分进度**：在规定学制内修读，大三学年结束时已取得毕业要求总学分的四分之三以上。\n4. **外语水平合格**：通过全国大学英语四级（CET-4 ≥ 425分），部分学院对六级有进一步要求。",
+      "id": "E02",
+      "reason": "2024年9月公布的本科学院2025届细则允许处分记录解除后品德表现优良者，并要求GPA至少3.2、六级425分或四级480分。答卷将无任何警告及以上处分、四级425分写为确定准入底线，未正确说明当时可用的本学院规则。官方PDF第1—2页见evidence.json；该往届依据不等于本人未来申请届的最终规则。仅关联本校规则项。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-A-03",
+  "input_sha256": "e94df2531e874d3dbd344ec89ad4e4dc39a1ee3a599b1448575e876da72e9f57",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "4b00e558dcebd649c57f16538c9357d2ec81fcf5c1ceb54dc242004f5a4089b5",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-01",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-02",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "TRY-A-03-R10-03",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-04",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-05",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 22,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "清华大学（深圳国际研究生院/材料学院）",
+      "canonical_candidate_key": "THU|SIGS-or-SMSE-undifferentiated",
+      "error_ids": [],
+      "label": "清华大学（深圳国际研究生院/材料学院，未区分路径）",
+      "reason": "第一梯队候选提名。两个独立单位用斜杠合并，未分别明确申请路径，保留一个未分化候选，不替答卷拆成两条。前文清华夏令营和英语举例是背景，不另计；无覆盖分，不据此判单位不存在。",
+      "school_key": "THU",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "北京大学（材料科学与工程学院）",
+      "canonical_candidate_key": "PKU|materials-school",
+      "error_ids": [],
+      "label": "北京大学材料科学与工程学院",
+      "reason": "第六节实际升学候选提名，按答卷已有学校/单位粒度记录。本题无覆盖项；身份及相关方向提名成立，不等于已确定申请项目或逐年核验排名、英语门槛，不因未附招生链接判无效。",
+      "school_key": "PKU",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "上海交通大学",
+      "canonical_candidate_key": "SJTU|school-nomination",
+      "error_ids": [],
+      "label": "上海交通大学",
+      "reason": "第六节实际升学候选提名，按答卷已有学校/单位粒度记录。本题无覆盖项；身份及相关方向提名成立，不等于已确定申请项目或逐年核验排名、英语门槛，不因未附招生链接判无效。",
+      "school_key": "SJTU",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "浙江大学",
+      "canonical_candidate_key": "ZJU|school-nomination",
+      "error_ids": [],
+      "label": "浙江大学",
+      "reason": "第六节实际升学候选提名，按答卷已有学校/单位粒度记录。本题无覆盖项；身份及相关方向提名成立，不等于已确定申请项目或逐年核验排名、英语门槛，不因未附招生链接判无效。",
+      "school_key": "ZJU",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "中国科学技术大学",
+      "canonical_candidate_key": "USTC|school-nomination",
+      "error_ids": [],
+      "label": "中国科学技术大学",
+      "reason": "第六节实际升学候选提名，按答卷已有学校/单位粒度记录。本题无覆盖项；身份及相关方向提名成立，不等于已确定申请项目或逐年核验排名、英语门槛，不因未附招生链接判无效。",
+      "school_key": "USTC",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "复旦大学",
+      "canonical_candidate_key": "FDU|school-nomination",
+      "error_ids": [],
+      "label": "复旦大学",
+      "reason": "第六节实际升学候选提名，按答卷已有学校/单位粒度记录。本题无覆盖项；身份及相关方向提名成立，不等于已确定申请项目或逐年核验排名、英语门槛，不因未附招生链接判无效。",
+      "school_key": "FDU",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "中国科学院大连化物所",
+      "canonical_candidate_key": "CAS-DICP|institute-nomination",
+      "error_ids": [],
+      "label": "中国科学院大连化学物理研究所",
+      "reason": "第一梯队中科院院所提名，根据完整表格语境识别所属单位。四所为不同独立单位，分别记录；提名及相关方向成立，不表示已逐年核验具体项目或英语、排名门槛。",
+      "school_key": "CAS-DICP",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "物理所",
+      "canonical_candidate_key": "CAS-IOP|institute-nomination",
+      "error_ids": [],
+      "label": "中国科学院物理研究所",
+      "reason": "第一梯队中科院院所提名，根据完整表格语境识别所属单位。四所为不同独立单位，分别记录；提名及相关方向成立，不表示已逐年核验具体项目或英语、排名门槛。",
+      "school_key": "CAS-IOP",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "化学所",
+      "canonical_candidate_key": "CAS-IC|institute-nomination",
+      "error_ids": [],
+      "label": "中国科学院化学研究所",
+      "reason": "第一梯队中科院院所提名，根据完整表格语境识别所属单位。四所为不同独立单位，分别记录；提名及相关方向成立，不表示已逐年核验具体项目或英语、排名门槛。",
+      "school_key": "CAS-IC",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "宁波材料所",
+      "canonical_candidate_key": "CAS-NIMTE|institute-nomination",
+      "error_ids": [],
+      "label": "中国科学院宁波材料技术与工程研究所",
+      "reason": "第一梯队中科院院所提名，根据完整表格语境识别所属单位。四所为不同独立单位，分别记录；提名及相关方向成立，不表示已逐年核验具体项目或英语、排名门槛。",
+      "school_key": "CAS-NIMTE",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "哈尔滨工业大学",
+      "canonical_candidate_key": "HIT|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "哈尔滨工业大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "HIT",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "西安交通大学",
+      "canonical_candidate_key": "XJTU|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "西安交通大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "XJTU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "华中科技大学",
+      "canonical_candidate_key": "HUST|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "华中科技大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "HUST",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "中南大学",
+      "canonical_candidate_key": "CSU|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "中南大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "CSU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "北京理工大学",
+      "canonical_candidate_key": "BIT|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "北京理工大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "BIT",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "天津大学",
+      "canonical_candidate_key": "TJU|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "天津大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "TJU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "南开大学",
+      "canonical_candidate_key": "NKU|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "南开大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "NKU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "同济大学",
+      "canonical_candidate_key": "TONGJI|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "同济大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "TONGJI",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "华东理工大学",
+      "canonical_candidate_key": "ECUST|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "华东理工大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "ECUST",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "东南大学",
+      "canonical_candidate_key": "SEU|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "东南大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "SEU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "厦门大学",
+      "canonical_candidate_key": "XMU|school-candidate",
+      "error_ids": [],
+      "feasibility": "答卷提供自查GPA/排名、进组积累经验、大三下重新定位并查询材料/化工/本科学院招生通知的未来准备路径。可作学校层级冲击方向，尚未明确独立申请项目；条件是答卷的定位建议，不能视为统一官方门槛或保证接收。",
+      "key_condition": "共同条件为专业排名5%—15%且科研背景扎实；本人当前排名和科研情况未知，不能声称已满足。",
+      "label": "厦门大学",
+      "reason": "第二梯队本行明确称适合排名5%—15%且科研背景扎实者冲击，故记录共同条件下的未来候选。只有学校层级，不创造院系项目；学校及相关方向提名成立，不等于年度招生门槛已审计。",
+      "school_key": "XMU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "华东地区一所211高校 / 本校相关研究平台 (本校科研平台)",
+      "canonical_candidate_key": "home_school|energy-本校科研平台",
+      "error_ids": [],
+      "label": "华东地区一所211高校／本校相关研究平台",
+      "reason": "第六节明确本校兜底；学院与基础研究平台隶属语境不拆分。该相关单位成立，不等于保证录取。“成功率极高”没有统计依据，不能采作个人录取承诺；也不足以证明单位或路径无效。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "拿到校内资格 + 留在本科学院 = **保内成功**",
+      "canonical_candidate_key": "home_school|energy-本校科研平台",
+      "error_ids": [],
+      "label": "本科学院（保内选项重复出现）",
+      "reason": "第一节的保内选项是后文明确兜底候选的重复出现，使用相同候选键，不新增项目。",
+      "school_key": "home_school",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "拿到校内资格 + 未联系好外校 = **本校兜底或在系统开放后填报调剂**",
+      "canonical_candidate_key": "home_school|energy-本校科研平台",
+      "error_ids": [],
+      "label": "本校兜底（重复出现）",
+      "reason": "第一节明确本校兜底，按前后文归并本科学院；接收仍需考核，不据此推断保证录取。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "填报此前已获得优营的外校志愿或本校本院志愿",
+      "canonical_candidate_key": "home_school|energy-本校科研平台",
+      "error_ids": [],
+      "label": "本校本院志愿（重复出现）",
+      "reason": "第七阶段再次提出本院填报选项，归并本科学院；未明指新增外校，不从“外校志愿”创造候选。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+  "score": 62.5,
+  "score_interval": [
+    62.5,
+    62.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-A-03",
+  "task_kind": "planning",
+  "task_sha256": "471e0b50b1cc370a20b7bf74d2c4e28606283d744e354faeba0b11c02b62dd25",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有院校层次评分项；不把答卷自定义梯队当成评分通则层次，不另扣层次分。层次表不适用，全文候选已审阅。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

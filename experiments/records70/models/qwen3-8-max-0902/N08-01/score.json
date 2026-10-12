@@ -1,0 +1,506 @@
+{
+  "actual_candidate_count": 30,
+  "answer_sha256": "a7d8c531ff62a4f9f4aaa849429434d9b40fece62fd64c26c5a8054853b2948c",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 69.0
+  },
+  "confirmed_points": 69.0,
+  "diagnostic_score": 69.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N08-01-T2"
+    ],
+    "E2": [
+      "accuracy"
+    ],
+    "E3": [
+      "accuracy"
+    ],
+    "E4": [
+      "N08-01-T5"
+    ],
+    "E5": [
+      "execution"
+    ],
+    "E6": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "商务英语属\"外国语言文学\"一级学科，跨到应用经济学 / 工商管理 / 统计学 / 数字经济，**必然触发跨专业认定与加试**。",
+      "id": "E1",
+      "reason": "将南大数字经济与管理学院的机构规则推广为跨所有商科方向必然加试。该学院2027届官方细则还要求核对专业课程重合度并由分委会认定；题面没有完整课程清单，也没有确定目标院系。政治经济学30分的权重同样只适用于该学院所列加试，不能作为其他院校通用要求。官方来源及适用范围见 evidence.json 的 EV1。仅归入T2。"
+    },
+    {
+      "answer_quote": "**三段实习（英语研究 / 数据分析 / 产品）**",
+      "id": "E2",
+      "reason": "题面披露做过英语研究、数据分析和产品实习，没有确认英语研究属于实习，也没有披露三段独立实习。答卷把研究类型与实习段数直接当作已知事实，缺少核验。这里判定的是超出披露的事实状态，不断言学生实际上一定没有三段实习。仅归入accuracy。"
+    },
+    {
+      "answer_quote": "外国语学院内部还要跨专业（英语、翻译、日语、商务英语等）按综合成绩统一排序。",
+      "id": "E3",
+      "reason": "与首经贸外国语学院2027届正式遴选方案冲突：该方案按商务英语和法语分别测算名额、分别确定综合排名，并规定剩余名额转移条件，不能解释为全院跨专业统一排序。专业第一不自动等于获得资格的提醒仍正确，但所用名额及资格判断依据有实质错误。见EV2；仅归入accuracy，不再扣priority或execution。"
+    },
+    {
+      "answer_quote": "接收推免的全日制院校有限（如华东师大、社科院大学、清华等）",
+      "id": "E4",
+      "reason": "清华被列为数字经济全日制推免示例，实际清华经管数字经济与智能管理硕士2027级官方说明为非全日制周末授课，且要求取得本科毕业学历后到入学报到前至少一年工作经验；2026级官方招生简章亦如此。应届本科推免不能按这一路径申请。不是因为未找到网页或未命中参考而判错。见EV3、EV4；关联该提名及最直接的T5项目培养路径核验项。"
+    },
+    {
+      "answer_quote": "**出具时间：2026年10月11日（2026年推免申请季进行中）**",
+      "id": "E5",
+      "reason": "task只提供2026年推免申请季，没有提供10月11日咨询日期、年级或已进入系统的状态。答卷将运行日期代入学生时点，进而断言当下只剩7天、补背景来不及。两条条件分支可以保留，但应先核实实际咨询日期与申请届别，再确定紧急窗口。研招网2026季系统日期本身经官方核实成立（EV5），错误在未经题面支持的个人时点绑定。仅归入execution。"
+    },
+    {
+      "answer_quote": "| **2027年10月** | 复试、待录取确认、补录与征集志愿；**若推免未获录取，统考正式报名10月15—24日是最后的对冲窗口** |",
+      "id": "E6",
+      "reason": "把2026年10月适用于2027年入学统考的报名日期直接写成2027年10月下一轮统考确定窗口；未说明此处只是待当届公告更新的参考计划。题面时点是2026申请季，未来年度安排不能如此冻结。见EV5的周期限制；仅归入execution。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N08-01",
+  "input_sha256": "229c47a7c1e2c8dc5a01a0d076e5733716380421964b52689d8c86df116c6845",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "b3a118d3457bb3d18f9d31a01c4dcf6767ec0900604af8b2e1b555ead7d7100b",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N08-01-T1",
+      "kind": "quality",
+      "points": 18.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N08-01-T2",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N08-01-T3",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 1,
+      "id": "N08-01-T4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N08-01-T5",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 30,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "对外经济贸易大学（国际商务 / 英语学院商务方向 / 数字经济）",
+      "canonical_candidate_key": "uibe:combined-business-language-digital",
+      "error_ids": [],
+      "label": "对外经济贸易大学：国际商务/英语学院商务方向/数字经济合并提名",
+      "reason": "答卷在冲档中合并列出三种路径，未分别明确实际申请主体；保留为一个合并候选，不拆成三个独立项目。商务英语与国际商务方向具有可解释联系，未证实该合并提名整体存在硬条件冲突；valid不表示三个路径及年度条件均已核准。",
+      "school_key": "uibe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "中央财经大学",
+      "canonical_candidate_key": "cufe:school-nomination",
+      "error_ids": [],
+      "label": "中央财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "cufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "上海财经大学",
+      "canonical_candidate_key": "sufe:school-nomination",
+      "error_ids": [],
+      "label": "上海财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "sufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "厦门大学",
+      "canonical_candidate_key": "xmu:school-nomination",
+      "error_ids": [],
+      "label": "厦门大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "xmu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "南开大学",
+      "canonical_candidate_key": "nankai:school-nomination",
+      "error_ids": [],
+      "label": "南开大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "nankai",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "中山大学",
+      "canonical_candidate_key": "sysu:school-nomination",
+      "error_ids": [],
+      "label": "中山大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "sysu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "西南财经大学",
+      "canonical_candidate_key": "swufe:school-nomination",
+      "error_ids": [],
+      "label": "西南财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "swufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "中南财经政法大学",
+      "canonical_candidate_key": "zuel:school-nomination",
+      "error_ids": [],
+      "label": "中南财经政法大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "zuel",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "东北财经大学",
+      "canonical_candidate_key": "dufe:school-nomination",
+      "error_ids": [],
+      "label": "东北财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "dufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "江西财经大学",
+      "canonical_candidate_key": "jxufe:school-nomination",
+      "error_ids": [],
+      "label": "江西财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "jxufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "浙江工商大学",
+      "canonical_candidate_key": "zjgsu:school-nomination",
+      "error_ids": [],
+      "label": "浙江工商大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "zjgsu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "南京财经大学",
+      "canonical_candidate_key": "njue:school-nomination",
+      "error_ids": [],
+      "label": "南京财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "njue",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "天津财经大学",
+      "canonical_candidate_key": "tjufe:school-nomination",
+      "error_ids": [],
+      "label": "天津财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "tjufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "山东财经大学",
+      "canonical_candidate_key": "sdufe:school-nomination",
+      "error_ids": [],
+      "label": "山东财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "sdufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "上海对外经贸大学",
+      "canonical_candidate_key": "suibe:school-nomination",
+      "error_ids": [],
+      "label": "上海对外经贸大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "suibe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "广东外语外贸大学",
+      "canonical_candidate_key": "gdufs:school-nomination",
+      "error_ids": [],
+      "label": "广东外语外贸大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。商务英语背景可支持交叉方向探索，但最友好及稳档并非经过个人资格和项目竞争条件验证的保证。",
+      "school_key": "gdufs",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "北京语言大学",
+      "canonical_candidate_key": "blcu:school-nomination",
+      "error_ids": [],
+      "label": "北京语言大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "blcu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "首都经济贸易大学（本校经管院系）",
+      "canonical_candidate_key": "cueb:economics-business-group",
+      "error_ids": [],
+      "label": "首都经济贸易大学本校经管院系（合并建议）",
+      "reason": "是明确本校经管申请建议，与学生转商科意向相符；未绑定具体院系和项目，不拆分出国际商务、统计、金融等多条申请路径，不将本校资源优势解释为已确认录取或跨专业资格。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "本校外国语学院 MTI / 商务英语研究方向",
+      "canonical_candidate_key": "cueb:foreign-languages-combined",
+      "error_ids": [],
+      "label": "首经贸外国语学院MTI/商务英语研究方向合并保底",
+      "reason": "明确的本校语言类保底，与商务英语基础相关并说明偏离商科意愿的取舍。官方学院简介支持外国语言文学硕士及商务英语研究方向身份（EV8）；合并列举的MTI与研究方向未分别给申请路径，因此保留一个组合，不自动拆分，也不宣称保底保证录取。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "北京工商大学",
+      "canonical_candidate_key": "btbu:school-nomination",
+      "error_ids": [],
+      "label": "北京工商大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "btbu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "河北经贸大学",
+      "canonical_candidate_key": "hueb:school-nomination",
+      "error_ids": [],
+      "label": "河北经贸大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "hueb",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "安徽财经大学",
+      "canonical_candidate_key": "aufe:school-nomination",
+      "error_ids": [],
+      "label": "安徽财经大学（未细化项目）",
+      "reason": "列在选校参考梯度中，是明确候选提名；学校身份成立，但未给独立招生院系或专业，不替答卷创造项目，也不把方向性提名解读为已核验本届可投或必然录取。本題无参考覆盖项；valid仅评价此提名身份，没有年度招生全审计含义。",
+      "school_key": "aufe",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "| ★★★☆☆ | **会计 / 财务管理（学硕）** | 首经贸会计学科强，本校路径可行 | 需要会计学原理、中级财务会计、财务管理的正式课程证明 |",
+      "canonical_candidate_key": "cueb:accounting-financial-management-group",
+      "error_ids": [],
+      "feasibility": "答卷给正式跨院选课/辅修及2026—2027课程计划；若处于B线且课程能及时完成，可据成绩单筛选；A线不能把未来课程当现有材料。",
+      "key_condition": "申请前补出会计学原理、中级财务会计、财务管理正式课程证明，并按目标院系当年通知核对跨专业条件。",
+      "label": "首经贸会计/财务管理学硕方向组",
+      "reason": "方向表另有明确本校会计/财务管理路径及所需课程证明，可与笼统本校经管提名区分；表内两个方向仍按一个未细化主体的组合记录。是准备性条件方案，没有证据证明其已违反已知硬限制；valid不表示本届院系资格已经审计。",
+      "school_key": "cueb",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "接收推免的全日制院校有限（如华东师大、社科院大学、清华等）",
+      "canonical_candidate_key": "ecnu:digital-economy",
+      "error_ids": [],
+      "label": "华东师范大学全日制数字经济专硕提名",
+      "reason": "作为全日制数字经济推免的项目示例，属于候选提名而非纯背景校名。官方2026年入学公告及2026年夏令营通知支持该专业全日制路径（EV6），仅核对身份与该周期路径；没有证据据此保证个人符合所有条件或此刻仍能投递。",
+      "school_key": "ecnu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "接收推免的全日制院校有限（如华东师大、社科院大学、清华等）",
+      "canonical_candidate_key": "ucass:digital-economy",
+      "error_ids": [],
+      "label": "中国社会科学院大学数字经济专硕提名",
+      "reason": "作为全日制数字经济推免示例提名。官方2027年数字经济预报名通知检索摘要支持实际推免路径（EV7）；直接打开该页发生超时，不伪称全文核验，不由超时推断项目不存在。只确认提名身份和公开推免路径，不保证个人资格、培养形式所有条款或当前窗口。",
+      "school_key": "ucass",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "接收推免的全日制院校有限（如华东师大、社科院大学、清华等）",
+      "canonical_candidate_key": "tsinghua:digital-economy",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "清华大学数字经济全日制推免示例",
+      "reason": "项目存在，但答卷提名的全日制应届推免路径不成立：官方数字经济与智能管理硕士2027级说明为非全日制并要求毕业后工作经验；2026级简章一致（EV3、EV4）。不以其他清华管理/金融/商务分析硕士替代答卷的数字经济项目。E4只扣最直接T5，不再扣事实项。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "例如西南财经大学某研究院统计学（071400）学硕的学科条件：**\"考生为'双一流'建设高校应届毕业生，或本科专业（不含辅修）所属一级学科在教育部第四轮学科评估中排名B以上（含）或前30%（含）\"**。首经贸 + 外国语言文学的组合在这类项目里直接出局，投了也是浪费志愿。",
+      "canonical_candidate_key": "swufe:statistics-cross-innovation-071400",
+      "error_ids": [],
+      "label": "西南财经大学统计交叉创新研究院071400统计学（明确排除）",
+      "reason": "全文有明确排除，不能遗漏，也不能与冲档西财学校级提名合并。答卷引用链接定位到统计交叉创新研究院；官方2027级细则仍列071400与双一流/主修学科B以上或前30%限制（EV9），支持该限制并说明辅修不能替代主修。按存在的有门槛项目记录排除，valid仅指项目与所引用门槛真实，不将缺完整本科评估证明解释为已完成个人资格全审计；排除不取得覆盖分。",
+      "school_key": "swufe",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "部分中外合作办学机构 / 项目也接收推免生，对语言背景更友好",
+      "canonical_candidate_key": "unspecified:joint-international-cooperation",
+      "error_ids": [],
+      "label": "未具名中外合作机构/项目渠道",
+      "reason": "明确补充渠道提名但没有任何可识别的院校和独立项目。仅保留这一未具名方案，不补造机构；valid表示渠道性建议未证实违法已知硬条件，不代表已经确认特定项目接收推免或授位身份。缺具体学位、费用与培养地核验在T5处理。",
+      "school_key": "unspecified-cooperation",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "若雅思刷到7.0+，港新授课型硕士可作为并行的 Plan C（但那属于自费申请，不占用推免资格，需自行权衡）",
+      "canonical_candidate_key": "unspecified:hongkong-singapore-taught-masters",
+      "error_ids": [],
+      "feasibility": "B线安排雅思备考、最晚5月出分，给并行自费申请而非占推免志愿的路径；题面未给预算，须先据费用决定是否采用，不视为已可投。",
+      "key_condition": "雅思提升至7.0+并能承担自费费用；具体项目英语小分、学位及预算仍需核对。",
+      "label": "港新授课型硕士Plan C（未具名）",
+      "reason": "有明确并行条件备选，准确标注自费申请渠道；没有具体学校和专业，不凭7.0认定已经满足任何特定项目门槛，也不从这句话创造多所院校。valid限定于渠道及条件建议的内容。",
+      "school_key": "unspecified-hk-sg",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "| ★★☆☆☆ | **金融专硕（025100）/ MPAcc（125300）** | 就业好，但与你的背景摩擦最大 | 金融需要货币银行学、公司金融、投资学 + 较强数学；MPAcc跨专业竞争极其激烈、复试考会计综合，商务英语背景很容易被筛掉。**除非你能补出完整会计/金融课程成绩单，否则不建议作为主投方向** |",
+      "canonical_candidate_key": "unspecified:finance-mpacc-combined",
+      "error_ids": [],
+      "feasibility": "答卷提供跨院正式选课及金融教材模块，可在准备期补齐后重筛；申请季A线只能使用已有材料，不把下学期成绩倒填。",
+      "key_condition": "若希望改为主投，先补完整会计/金融课程成绩单并按实际项目要求评估数理和会计综合基础。",
+      "label": "金融专硕/MPAcc非主投条件方向组",
+      "reason": "这是明确的附条件取舍，需保留不建议主投的限制；没有学校和独立招生主体，合并记录方向方案，不拆为多个院校项目。补课程可提升适配，未必是所有院校硬门槛；valid不表示商务英语必然无法报MPAcc或已经核准本届资格。",
+      "school_key": "unspecified-domestic",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "本校（首经贸除MBA、MPA、单独考试外各专业均可接收推免生，接收总数不超过招生指标的50%）",
+      "canonical_candidate_key": "cueb:economics-business-group",
+      "error_ids": [],
+      "label": "首经贸本校经管兜底的再次推荐",
+      "reason": "A线再次推荐本校，和经管合并候选使用相同canonical key；不把排除MBA/MPA/单独考试的制度性说明误提取成申请候选，也不把各专业概述创造为全校逐项目推荐。仍须筛余量、跨专业条件和实际招生目录，未宣称本校已经录取。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "+ MTI / 外国语言文学作为保底",
+      "canonical_candidate_key": "cueb:foreign-languages-combined",
+      "error_ids": [],
+      "label": "首经贸语言类保底的再次推荐",
+      "reason": "本段承接本校兜底，属于本校语言类合并保底再次出现；与外国语学院MTI/商务英语研究组合使用同一canonical key，不因换称外国语言文学而多计路径。相关方向身份见EV8。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "88424e92227dc8a6ad7a249d7c7abfbe6a925dde1f01c4d500b6e2cd5bc88bf4",
+  "score": 69.0,
+  "score_interval": [
+    69.0,
+    69.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N08-01",
+  "task_kind": "planning",
+  "task_sha256": "b5ed808c185afeaaed1ea9fae83d197637b0a06ffc3c58aa87883e4611658482",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题是规划题，无参考候选、覆盖分及school_tier评分节点，不启用额外层次扣分。已审阅全文并提取梯度中的学校提名、明确本校路径、数字经济项目示例、排除及未具名条件渠道，重复本校路径沿用canonical key。南大加试例、上财资格例和用于本校选课/RA的学院名单属于政策或资源背景；不另创造招生推荐。泛国际商务、统计、管理等模块主要用于方向规划，不从未绑定院校的专业名批量生成学校项目。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

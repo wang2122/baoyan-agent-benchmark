@@ -1,0 +1,38 @@
+{
+  "agent": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "auth_mode": "api",
+  "cli": "qwen",
+  "cli_version": "0.25.0",
+  "run_id": "qwen20-user-start-20261012/BY-F-APPLY/r1",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "started_at": "2026-10-12T04:09:08.583191+00:00",
+  "finished_at": "2026-10-12T04:27:04.692586+00:00",
+  "judge_started_at": "2026-10-12T04:29:59.185800+00:00",
+  "judge_finished_at": "2026-10-12T04:50:24.106647+00:00",
+  "source_run_sha256": "ea1e9b6cb9e3488686a387305e8c07a959171ecac688ccd85d537acdccfc6240",
+  "judge_auth_mode": "subscription",
+  "judge_model": "gpt-6.1-sol",
+  "source_prompt_sha256": {
+    "S0": "6239620aef02fd278a12665fe028544c85575b99f29489192200ddcb2322e473"
+  },
+  "task_id": "BY-F-APPLY",
+  "question_id": "Q015",
+  "source_answer_sha256": "77bda4a45b49cd05c68912deff89aaed872cde21a6e3217e0bda9ade0af80500",
+  "source_task_sha256": "9e6c30f0262872eaf4451dbd32a0c7f3b51c6b20c425ac3f59773723377b3aa6",
+  "source_rubric_sha256": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+  "source_judgment_sha256": "0b484fa379a1075cd4ba9d08770669f155610817a5e03b782c19189910ac4224",
+  "source_score_sha256": "2ac5387867b7d1e7e29d181227c047d8185f8e7080730ab5a7ae4891627a4901",
+  "judge_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "public_display_only": true,
+  "public_task_prompt_basis": "latest verified reference; generation/scoring input hashes remain original",
+  "privacy_reference_sha256": "46feb94aff98544963f827800ce27dc1f90671e665073271e193cc29e2c1c5b5",
+  "privacy_context_revision": "integrator-latest-reference-20261012.2",
+  "context_transform_sha256": "fa0eb46e195a596750298d830eaf1ade3e2c5569a74a7404d9bf60dc1eb9460c",
+  "display_adjustments": [
+    "Repeated contest profile and undergraduate platform wording generalized; official conditional CSP rule preserved"
+  ],
+  "new_attempt_is_historical_recovery": false,
+  "teacher_calibration": "pending",
+  "public_task_directory": "models/qwen3-8-max-0902/BY-F-APPLY"
+}

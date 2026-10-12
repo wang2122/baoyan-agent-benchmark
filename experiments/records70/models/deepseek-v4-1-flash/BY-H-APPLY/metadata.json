@@ -1,0 +1,13 @@
+{
+  "schema": "selected-record-availability.1",
+  "agent": "deepseek-v4-1-flash",
+  "task_id": "BY-H-APPLY",
+  "question_id": "Q019",
+  "source_kind": "retained_historical_summary",
+  "source_answer_sha256": "066f623e60af60c8ced963b9a34b7c16c88d3fc3ea623f8152b20770c3220fee",
+  "answer_text_available": true,
+  "scoring_evidence": "score-details-70.json",
+  "public_answer_sha256": "f9abdfe0e0acbb84c17f50b09cbf314e567966cd4114fda0cd1a84850301f0ef",
+  "recovered_original_text_source": "experiments/records18/models/deepseek-v4-1-flash/BY-H-APPLY/answer.md",
+  "original_execution_time": "not_retained_in_this_public_source"
+}

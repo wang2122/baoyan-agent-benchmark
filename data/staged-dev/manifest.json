@@ -1,0 +1,85 @@
+{
+  "difficulty_approval": "owner_confirmed_2026-10-12",
+  "difficulty_counts": {
+    "easy": 1,
+    "hard": 4,
+    "medium": 8
+  },
+  "document_sha256": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
+  "fingerprints": {
+    "N01-02": {
+      "rubric": "3723ee6e2ce47720a078647e2ddfd9aa3617d9b89ddfe76c0a0db7b311d2de79",
+      "task": "921a28d9cb39e66ef7eea7628b54ace4b3808e63ba420418428fa591b5f49113"
+    },
+    "N04-02": {
+      "rubric": "e9febc735e44bc2cbf150a8ea8c40d1adf4b755f328794298b5d60d2b50af81a",
+      "task": "4047961f1f9b8a4172e24129cf981bf86a3a55caa45264d93ce9a0056d7bd665"
+    },
+    "N05-02": {
+      "rubric": "1c0139a8e29bc8780017392978df47ba2b0788803eb3078e127c45208f523e12",
+      "task": "4ecbc99482a8811ea6010bed03eb72c2909a5db2bbd3b289286b5b257d0c4311"
+    },
+    "N08-02": {
+      "rubric": "77af432eee81c4feb251dc9a91134e167cf104b14c1cc0bf8482455c4ef9cf6b",
+      "task": "c66e5fb5cc2fc72078b82c89ef61cf64be436f23ca8b257c501ff9f8ba95a5d6"
+    },
+    "N09-02": {
+      "rubric": "53a83e7ef3ec4e19b9024005835665e93d62441fb23a692f15dbd5dc3bb0c619",
+      "task": "2769c6cafaefa2aba85692f76fadc2930fb755b79be63811466eea4bc0b042e4"
+    },
+    "N11-02": {
+      "rubric": "26aeece4ec5047883b1f1698a8bfde839d04f9a47ebc22caefbd5d64244bb1fe",
+      "task": "b0bb4565224d00d8c748ba00d80eda5e94f514c28430d1920a4fb53593408448"
+    },
+    "N12-02": {
+      "rubric": "e155ae3c1ab3319e8f45cdb01c927c0091af8201bb5f398ff9347d06ba666fa2",
+      "task": "856840a42e577f01def6297ed821a62cf8fd7c5ff8c03f5e87fabad2d1318597"
+    },
+    "N15-02": {
+      "rubric": "5adfe32a8fe6047ca2e98b5beed964b7d66dcb6c142a0f74aa33b56b68c5a559",
+      "task": "f96af7c772bf6c04305ea3ab747b7537ec928fa71f279c2402c3bc96bcdb4e91"
+    },
+    "N16-02": {
+      "rubric": "cf36380482a874986d9386516a0a04f24670108d92ce1386c078d929a7e33a04",
+      "task": "f008dfde3af1ff347a3ea7a73c195b795f1fea453f7218c5767cc7f0a6894f1f"
+    },
+    "O01-04": {
+      "rubric": "160ee061eaf75f35696aaacb0a8ece40fdb0d6af61270118c6ea3e2d07ed9e95",
+      "task": "c869639025e335bb1a7e93626b0a926be18ada19c2b954c03d46c07ff6f4a26e"
+    },
+    "O03-04": {
+      "rubric": "a311947d9be78b5ad35499f6aefe3e07cefb436e24e807ec7dd74210bfc7af30",
+      "task": "bcee2caef1d5baa476dccd7e4fcd2f36d5a96ca0d44681db38a04a8fbd87afd8"
+    },
+    "O04-04": {
+      "rubric": "9995fea9282a0ca6f35c25262840bb0622b9580b01e615182e670a94c8ef52a3",
+      "task": "daefc84a511bc0b635594b40aaf2c4e64de6931f59104dbed998ff0e71459b27"
+    },
+    "O06-02": {
+      "rubric": "c6736c44100a7fc411a7a6aad383188a81e34ed2f0983c64b252c606f0bc9d6c",
+      "task": "bf61295b762252166c0153ff98fdcf5957322463b87f953b24e1261aa43d7f95"
+    }
+  },
+  "intended_split": "dev",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "publication_selection_id": "current",
+  "source_document": "data/questions-and-scoring.md",
+  "status": "public_dev_separate_track",
+  "tasks": [
+    "N01-02",
+    "N04-02",
+    "N05-02",
+    "N08-02",
+    "N09-02",
+    "N11-02",
+    "N12-02",
+    "N15-02",
+    "N16-02",
+    "O01-04",
+    "O03-04",
+    "O04-04",
+    "O06-02"
+  ],
+  "version": "1.0.2+privacy-v16-public70",
+  "visibility": "public"
+}

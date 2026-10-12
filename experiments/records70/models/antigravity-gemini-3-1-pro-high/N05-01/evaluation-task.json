@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N05",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N05-01",
+  "prompt": "现在是2026年推免申请季。我在中国民航大学学交通工程，排名前约1%，六级425–449分，科研主要做功能材料。一篇EI论文已录用，其他论文还在推进，专利申请处于受理阶段。本科是交通，科研却偏材料，准备保研时我应该怎样处理这个方向差异？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "6658f6315d767a664d8b66be63c7183197a98304cf5574d114e077b29d6b826e",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

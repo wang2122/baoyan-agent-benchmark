@@ -1,0 +1,46 @@
+{
+  "case_group_id": "REPRO-DEMO-002-case",
+  "context": {
+    "observation": {
+      "偏好与经历": "希望探索数据分析研究，做过课程回归分析，但尚未记录过可复现的分析过程。明确希望保持本月课程学习时间。",
+      "机会A": "虚构团队A提供4次线上方法讨论，每次2小时，要求提前阅读1小时，结束后交一页问题笔记；没有接收承诺。",
+      "机会B": "虚构团队B提供一个数据清理小任务，共12小时，要求提交清理脚本及数据字典，会给一次反馈；没有接收承诺。",
+      "预算": "未来4周共16小时可用于探索，两种活动都可以申请，但没有减免任务要求的信息。"
+    },
+    "persona": {
+      "专业": "应用统计",
+      "学生": "虚构学生D02",
+      "目标": "在两种研究准备活动中选择本月重点",
+      "阶段": "大三上"
+    }
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "provided_materials_only"
+  },
+  "id": "REPRO-DEMO-002",
+  "prompt": "两种机会我都报是不是更好？请比较它们与我的当前缺口，给出主次选择、4周16小时安排、待确认的问题与调整条件。\n\n### 背景与材料\n\n- **学生**：虚构学生D02\n- **专业**：应用统计\n- **阶段**：大三上\n- **目标**：在两种研究准备活动中选择本月重点\n- **偏好与经历**：希望探索数据分析研究，做过课程回归分析，但尚未记录过可复现的分析过程。明确希望保持本月课程学习时间。\n- **机会A**：虚构团队A提供4次线上方法讨论，每次2小时，要求提前阅读1小时，结束后交一页问题笔记；没有接收承诺。\n- **机会B**：虚构团队B提供一个数据清理小任务，共12小时，要求提交清理脚本及数据字典，会给一次反馈；没有接收承诺。\n- **预算**：未来4周共16小时可用于探索，两种活动都可以申请，但没有减免任务要求的信息。\n\n这是公开运行演示用的虚构保研情景，不是正式测评题。只使用题设材料，不联网、不查询现实学校或学生、不补造规则；只提交answer.md，不自评分。\n",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "demo_only",
+    "teacher_calibration": "not_calibrated_demo"
+  },
+  "rubric_sha256": "ef13471a0c37f233568cefdf810daa3dcc55c045baa9c1e4455b0ff028374a84",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

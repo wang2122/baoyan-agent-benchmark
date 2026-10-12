@@ -1,0 +1,122 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "question_id": "Q043",
+  "task_id": "N08-03",
+  "answer_sha256": "ee05e9a27fe04d00391de3cde6c89177445eb9e19cfb15315d065e3a13ef1a21",
+  "original_rubric_sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+  "original_score_content_sha256": "4bed763231e06ef3485b24bc90a7f4ba9b1de8d1a5b0f47a1b0ba285c235f24a",
+  "original_rubric_content_sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+  "original_evidence_hashes": {
+    "task.json": "ef92b8dd7f7caaa3a56f688a011b8da8df5803da969af801445f27d4bc4cd7b6",
+    "rubric.json": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+    "answer.md": "ee05e9a27fe04d00391de3cde6c89177445eb9e19cfb15315d065e3a13ef1a21",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "review-settings.json": "396d4b777af45b1463a1dd00d5bc4cf86c256c9bbdbd86e272625caa5491ab23",
+    "judgment.json": "4039950902f1e707caac7815cde772eb19f95567fcb18cc7abeb486c1bcafd7c",
+    "score.json": "4bed763231e06ef3485b24bc90a7f4ba9b1de8d1a5b0f47a1b0ba285c235f24a",
+    "evidence.json": "4e2985dd1da320446ae02cacc85a485721a0ba10cabd38efebe5e4de9d85e687"
+  },
+  "authorized_policy_nodes": [
+    "N08-23"
+  ],
+  "rulings": [
+    {
+      "question_id": "Q043",
+      "node_id": "tier",
+      "status": "resolved_by_official_evidence",
+      "grade": 0.5,
+      "points": 2.5,
+      "rule": {
+        "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+        "grading": "three_level",
+        "half_credit": "主要正确但个别层次判断无依据",
+        "id": "tier",
+        "label": "院校层次适配",
+        "points": 5
+      },
+      "original_claim": "**冲刺 10 个 + 稳妥 14 个 + 保底 10 个**",
+      "decision": "主体985/211冲刺、同档财经外语及本校安排有具体内容，同档不降级，符合半档主体合理。山东财大培养地错误保留；贸大020206全为硕博连读贯通而答卷作为普通学硕，五校图情兜底未列当届招生项目。培养方式和备用路径不完整使满档不成立，但不否定全卷主体层次安排，tier=0.5。院系错误和保证录取仍留原reasons/facts，不重复扣。",
+      "sources": [
+        {
+          "url": "https://soe.xmu.edu.cn/info/1491/1065675.htm",
+          "published_date": "2026-07-03",
+          "checked_date": "2026-10-11",
+          "scope": "2027经济学科推免专业条件",
+          "finding": "要求经济/统计/数学及相关或对应专业；未明确商务英语是否属于相关专业，不能由统计课程和科研替招生方确认。"
+        },
+        {
+          "url": "https://yjsy.uibe.edu.cn/cms/infoSingleArticle.do?articleId=7866",
+          "published_date": "2026-08-28",
+          "checked_date": "2026-10-11",
+          "scope": "2027国际经济贸易学院全部020206方向",
+          "finding": "附表第3页全部国际贸易学方向均标硕博连读贯通培养；答卷普通学硕路径不符合列明培养方式。"
+        },
+        {
+          "url": "https://gs.cufe.edu.cn/info/1033/7173.htm",
+          "published_date": "2026-10-04",
+          "checked_date": "2026-10-11",
+          "scope": "2027全校完整7页目录",
+          "finding": "无1255/125500/图书情报"
+        },
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/6783",
+          "published_date": "2026-09-30",
+          "checked_date": "2026-10-11",
+          "scope": "2027招生培养专业完整14页对照表；日期为专题日期",
+          "finding": "无1255/125500/图书情报"
+        },
+        {
+          "url": "https://yzb.zuel.edu.cn/2026/0929/c4640a440252/page.htm",
+          "published_date": "2026-09-29",
+          "checked_date": "2026-10-11",
+          "scope": "2027全校完整8页目录；另核3页推免目录",
+          "finding": "均无1255/125500/图书情报"
+        },
+        {
+          "url": "https://graduate.dufe.edu.cn/content_86758.html",
+          "published_date": "2026-09-30",
+          "checked_date": "2026-10-11",
+          "scope": "2027章程PDF13—23页完整目录章节，逐页读扫描图",
+          "finding": "无图书情报；统考人数不含推免，不外推永久授权或全部专项政策"
+        },
+        {
+          "url": "https://yjs.cueb.edu.cn/zsks/zsdt/4af4cd3f696d4b94b683a0ad6cdf4e78.htm",
+          "published_date": "2026-09-18",
+          "checked_date": "2026-10-11",
+          "scope": "2027全校完整9页目录",
+          "finding": "无1255/125500/图书情报"
+        }
+      ]
+    },
+    {
+      "question_id": "Q043",
+      "node_id": "N08-23",
+      "status": "owner_policy_no_verified_credit",
+      "grade": 0,
+      "points": 0,
+      "original_claim": "| 4 | **厦门大学**（985/双一流 A 类） | 经济学院 | 国际商务（0254 专硕）；兼报国际贸易学（学硕） | 985 综合性大学中经济学最强之一；经济学院体量大、专硕名额多，跨专业接收面相对宽 |",
+      "decision": "国际商务项目身份成立；商务英语是否属于2027“相关专业”未取得招生方明确认定，保留0至70/34。雅思满足不替代专业限制；不由运行日倒推咨询截止。",
+      "evidence_status_before_policy": "unresolved_applicant_major_condition",
+      "factual_status": "unresolved",
+      "policy_authorization": "Parent delegated user confirmation: Qwen also receives no credit for Q043 N08-23 only; Q021 G-11 no verified credit. Received 2026-10-11. Does not zero Q043 tier.",
+      "sources": [
+        {
+          "url": "https://soe.xmu.edu.cn/info/1491/1065675.htm",
+          "published_date": "2026-07-03",
+          "checked_date": "2026-10-11",
+          "scope": "2027经济学科推免专业条件",
+          "finding": "要求经济/统计/数学及相关或对应专业；未明确商务英语是否属于相关专业，不能由统计课程和科研替招生方确认。"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    23.65,
+    23.65
+  ],
+  "teacher_calibration": "pending",
+  "source_rulings_sha256": "fd3fdf0feeb9820ca789918837916648cbafba0bf1b43db3ec0a84bcdf034e63",
+  "original_judgment_preserved": true,
+  "native_derived_score_replay_available": false,
+  "validation_note": "Explicit maintenance node overlay; original candidate validity states are preserved. This is not a native candidate-validator replay."
+}

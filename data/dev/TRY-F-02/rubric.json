@@ -1,0 +1,92 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-F-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "用前期排名和英语评估申请起点，将程序设计竞赛体现的算法能力联系目标，区分团队贡献与论文。",
+      "grading": "three_level",
+      "half_credit": "已有真实起点和竞赛优势分析，但个人能力证据或申请影响不足。",
+      "id": "TRY-F-02-R10-01",
+      "label": "当前竞争起点与竞赛优势",
+      "points": 15
+    },
+    {
+      "full_credit": "承认多段科研尚无论文，核研究问题、个人任务和调试进展，并给真实表达办法。",
+      "grading": "three_level",
+      "half_credit": "科研状态正确并有具体整理动作，但研究问题、个人任务或进展联系不足。",
+      "id": "TRY-F-02-R10-02",
+      "label": "科研状态与经历表达",
+      "points": 15
+    },
+    {
+      "full_credit": "比较软件、计算机和AI的研究需求，用算法、编程基础判断适配，不虚构统一专业限制。",
+      "grading": "three_level",
+      "half_credit": "已有具体方向匹配分析，但方向差异或限制核验不完整。",
+      "id": "TRY-F-02-R10-03",
+      "label": "软件与计算机/AI方向",
+      "points": 15
+    },
+    {
+      "full_credit": "核研究要求及无论文的影响，确认学硕、专硕、直博意愿并给可行条件策略。",
+      "grading": "three_level",
+      "half_credit": "已考虑研究短板或学位意愿，但两者衔接或条件路径不完整。",
+      "id": "TRY-F-02-R10-04",
+      "label": "研究型路径与学位取舍",
+      "points": 20
+    },
+    {
+      "full_credit": "根据研究任务筛选可承接算法能力的导师或团队，核招生并提出联系准备，不保证接收。",
+      "grading": "three_level",
+      "half_credit": "已有具体导师筛选或联系动作，但任务匹配、招生核验或材料不足。",
+      "id": "TRY-F-02-R10-05",
+      "label": "承接竞赛能力的导师",
+      "points": 15
+    },
+    {
+      "full_credit": "整理代表竞赛、本人角色和解决的问题，转化为与申请方向有关的能力证据。",
+      "grading": "three_level",
+      "half_credit": "已有奖项和个人角色整理，但问题或申请能力联系不足。",
+      "id": "TRY-F-02-R10-06",
+      "label": "竞赛简历表达",
+      "points": 10
+    },
+    {
+      "full_credit": "给课程、研究或申请材料的合理近期优先级和更新节点。",
+      "grading": "three_level",
+      "half_credit": "已有具体下一步，但优先级或复核节点不完整。",
+      "id": "TRY-F-02-R10-07",
+      "label": "准备优先与复核",
+      "points": 5
+    },
+    {
+      "full_credit": "按本题本科基准及例外核对：有实际推荐时，5－min(5，降级院校数)；同校多个项目只计一次。报告列对象、原因和扣分。",
+      "grading": "three_level",
+      "half_credit": "本项按扣分公式，不使用半分档。",
+      "id": "TRY-F-02-R10-08",
+      "label": "院校层次匹配（降级扣分）",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

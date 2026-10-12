@@ -1,0 +1,1040 @@
+{
+  "actual_candidate_count": 62,
+  "answer_sha256": "c6b63a76ddcc41877b0b2d2d5b76504872d52cecdf93f23cfe49331f0f30d93e",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 51.5
+  },
+  "confirmed_points": 51.5,
+  "diagnostic_score": null,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N14-01-T3"
+    ],
+    "E2": [
+      "N14-01-T1"
+    ],
+    "E3": [
+      "accuracy"
+    ],
+    "E4": [
+      "accuracy"
+    ],
+    "E5": [
+      "execution"
+    ],
+    "E6": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "排名前约5%稳获校内推免资格，无须担心指标掉落。",
+      "id": "E1",
+      "reason": "题面只披露专业排名前约5%，未确认推免综合排名、当届名额、资格条件与公示结果。答卷将成绩排名直接转换为稳获资格，且自行估算推免率及名额。错误只归N14-01-T3，不再在accuracy重复处罚。"
+    },
+    {
+      "answer_quote": "**财政学基础理论（学硕及部分顶尖专硕必考）**",
+      "id": "E2",
+      "reason": "给出财政学知识模块本身合理，但未指明项目、周期或考纲，便断言“必考”；末文另有按具体考纲刷题的正确动作，不能使此处不明适用范围的通用必考断言成立。只归方向基础比较T1。"
+    },
+    {
+      "answer_quote": "你在本科已经修过《税法》或《中国税制》，对增值税、企业所得税三大核心实体税种及递延所得税资产/负债的会计核算具备扎实认知。",
+      "id": "E3",
+      "reason": "题面没有课程成绩、修读记录或掌握程度。将尚需核验的已修课程与扎实掌握写成个人既有事实，违背只依已披露事实判断的要求；只归accuracy。"
+    },
+    {
+      "answer_quote": "| **你的入营胜率** | **高（80%~90%）** | **极高（85%~95%）** | **中低（30%~50%）** | **极高（85%~95%）** |",
+      "id": "E4",
+      "reason": "未给目标项目、申请样本、个人科研和专业课证据，不能从本科院校、前约5%与六级550–599推出这些个人成功概率，也不能保证100%保底录取。这是无依据的个人竞争状态量化，不是实际录取结果；只归accuracy。"
+    },
+    {
+      "answer_quote": "阶段一：夯实与自查期（大三上学期末至寒假，当前至2026年2月）",
+      "id": "E5",
+      "reason": "题面只有2026年推免申请季，未给年级、月份或已修学期。答卷把“当前”补定为大三上学期末、要求取前五学期成绩单并在寒假前完成准备，缺少根据真实咨询阶段重排的条件。只归execution，不使用评审运行日期判定机会已截止。"
+    },
+    {
+      "answer_quote": "**9月28日国家推免系统决战**",
+      "id": "E6",
+      "reason": "2026年申请季对应2027级接收。学信网官方帮助页明确9月21日开始填志愿、9月22日确认复试、9月24日开始确认待录取；南开当季办法要求9月21日17:00前申报。把9月28日设为统一系统终局节点会误导执行。官方URL、周期及范围见evidence.json（EV1、EV2）；仅归execution。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N14-01",
+  "input_sha256": "1675ce67ad62fa449716a23570c04ee8351b78ccf95f750a36648cfaf91c9072",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "e1f9e06a17968529ea56b7e8e4f261b3d0e675881129ece98cf89b4b1a000712",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N14-01-T1",
+      "kind": "quality",
+      "points": 9.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T2",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T3",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "N14-01-T4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": "pending",
+      "id": "N14-01-T5",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 62,
+  "official": false,
+  "pending_nodes": [
+    "N14-01-T5"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+      "canonical_candidate_key": "清华大学::顶级金融或会计未细分",
+      "error_ids": [],
+      "feasibility": "答卷提出关注开放度与招生信息，可据公布的申请通道核对；这只是宽泛条件建议，未给逐项目门槛、校内资格核查和补齐方案，不能当作已经核实可投。",
+      "key_condition": "须结合该校目标项目当届夏令营开放度及申请要求决定是否试水。",
+      "label": "清华大学顶级金融/会计冲刺组合",
+      "reason": "冲刺层明确列为条件试水目标，属于实际候选；前文生源梯度和潜规则讨论本身不另提取。学校身份可识别，但金融/会计及具体招生主体未分清，不擅自拆分。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+      "canonical_candidate_key": "北京大学::顶级金融或会计未细分",
+      "error_ids": [],
+      "feasibility": "答卷提出关注开放度与招生信息，可据公布的申请通道核对；这只是宽泛条件建议，未给逐项目门槛、校内资格核查和补齐方案，不能当作已经核实可投。",
+      "key_condition": "须结合该校目标项目当届夏令营开放度及申请要求决定是否试水。",
+      "label": "北京大学顶级金融/会计冲刺组合",
+      "reason": "冲刺层明确列为条件试水目标，属于实际候选；前文生源梯度和潜规则讨论本身不另提取。学校身份可识别，但金融/会计及具体招生主体未分清，不擅自拆分。",
+      "school_key": "北京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+      "canonical_candidate_key": "复旦大学::顶级金融或会计未细分",
+      "error_ids": [],
+      "feasibility": "答卷提出关注开放度与招生信息，可据公布的申请通道核对；这只是宽泛条件建议，未给逐项目门槛、校内资格核查和补齐方案，不能当作已经核实可投。",
+      "key_condition": "须结合该校目标项目当届夏令营开放度及申请要求决定是否试水。",
+      "label": "复旦大学顶级金融/会计冲刺组合",
+      "reason": "冲刺层明确列为条件试水目标，属于实际候选；前文生源梯度和潜规则讨论本身不另提取。学校身份可识别，但金融/会计及具体招生主体未分清，不擅自拆分。",
+      "school_key": "复旦大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+      "canonical_candidate_key": "上海交通大学::顶级金融或会计未细分",
+      "error_ids": [],
+      "feasibility": "答卷提出关注开放度与招生信息，可据公布的申请通道核对；这只是宽泛条件建议，未给逐项目门槛、校内资格核查和补齐方案，不能当作已经核实可投。",
+      "key_condition": "须结合该校目标项目当届夏令营开放度及申请要求决定是否试水。",
+      "label": "上海交通大学顶级金融/会计冲刺组合",
+      "reason": "冲刺层明确列为条件试水目标，属于实际候选；前文生源梯度和潜规则讨论本身不另提取。学校身份可识别，但金融/会计及具体招生主体未分清，不擅自拆分。",
+      "school_key": "上海交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+      "canonical_candidate_key": "中国人民大学::顶级金融或会计未细分",
+      "error_ids": [],
+      "feasibility": "答卷提出关注开放度与招生信息，可据公布的申请通道核对；这只是宽泛条件建议，未给逐项目门槛、校内资格核查和补齐方案，不能当作已经核实可投。",
+      "key_condition": "须结合该校目标项目当届夏令营开放度及申请要求决定是否试水。",
+      "label": "中国人民大学顶级金融/会计冲刺组合",
+      "reason": "冲刺层明确列为条件试水目标，属于实际候选；前文生源梯度和潜规则讨论本身不另提取。学校身份可识别，但金融/会计及具体招生主体未分清，不擅自拆分。",
+      "school_key": "中国人民大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "上财会计/金融",
+      "canonical_candidate_key": "上海财经大学::会计或金融未细分",
+      "error_ids": [],
+      "label": "上财会计/金融冲刺组合",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "复旦泛海/管院专硕",
+      "canonical_candidate_key": "复旦大学::泛海或管院专硕未细分",
+      "error_ids": [],
+      "label": "复旦泛海/管院专硕组合",
+      "reason": "冲刺层确有推荐，但泛海与管理学院是并列主体，未分别明确此处的独立专硕申请路径，保留组合一项；后文明确排除泛海金融另记排除，形成前后取舍不一致。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "人大财金",
+      "canonical_candidate_key": "中国人民大学::财政金融学院未细分",
+      "error_ids": [],
+      "label": "人大财金",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "中央财经大学",
+      "canonical_candidate_key": "中央财经大学::优势学院或专硕未细分",
+      "error_ids": [],
+      "label": "中央财经大学优势学院/专硕宽泛定位",
+      "reason": "主攻层“两财一贸”括注中列明的宽泛学校目标；后文出现明确学硕、MPAcc和税务/资评建议，分别记录实际不同路径，不把这一宽泛定位替评审者补成具体院系。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "对外经济贸易大学",
+      "canonical_candidate_key": "对外经济贸易大学::优势学院或专硕未细分",
+      "error_ids": [],
+      "label": "对外经济贸易大学优势学院/专硕宽泛定位",
+      "reason": "主攻层“两财一贸”括注中列明的宽泛学校目标；后文出现明确学硕、MPAcc和税务/资评建议，分别记录实际不同路径，不把这一宽泛定位替评审者补成具体院系。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "北京理工大学经管",
+      "canonical_candidate_key": "北京理工大学::经管学院未细分",
+      "error_ids": [],
+      "label": "北京理工大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "北京航空航天大学经管",
+      "canonical_candidate_key": "北京航空航天大学::经管学院未细分",
+      "error_ids": [],
+      "label": "北京航空航天大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "南开大学商学院/金融学院",
+      "canonical_candidate_key": "南开大学::商学院或金融学院未细分",
+      "error_ids": [],
+      "label": "南开商学院/金融学院组合",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "天津大学经管",
+      "canonical_candidate_key": "天津大学::经管学院未细分",
+      "error_ids": [],
+      "label": "天津大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "大连理工",
+      "canonical_candidate_key": "大连理工大学::经管未细分",
+      "error_ids": [],
+      "label": "大连理工经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "山东大学",
+      "canonical_candidate_key": "山东大学::经管未细分",
+      "error_ids": [],
+      "label": "山东大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "厦门大学",
+      "canonical_candidate_key": "厦门大学::经管未细分",
+      "error_ids": [],
+      "label": "厦门大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "武汉大学",
+      "canonical_candidate_key": "武汉大学::经管未细分",
+      "error_ids": [],
+      "label": "武汉大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "华中科技大学",
+      "canonical_candidate_key": "华中科技大学::经管未细分",
+      "error_ids": [],
+      "label": "华中科技大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "东南大学经管",
+      "canonical_candidate_key": "东南大学::经管学院未细分",
+      "error_ids": [],
+      "label": "东南大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "四川大学商学院",
+      "canonical_candidate_key": "四川大学::商学院未细分",
+      "error_ids": [],
+      "label": "四川大学商学院",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "四川大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "重庆大学经管",
+      "canonical_candidate_key": "重庆大学::经管未细分",
+      "error_ids": [],
+      "label": "重庆大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "西南财经大学",
+      "canonical_candidate_key": "西南财经大学::主流经管未细分",
+      "error_ids": [],
+      "label": "西南财经大学主流方向",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "中南财经政法大学的主流方向",
+      "canonical_candidate_key": "中南财经政法大学::主流经管未细分",
+      "error_ids": [],
+      "label": "中南财经政法大学主流方向",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "北京交通大学经管",
+      "canonical_candidate_key": "北京交通大学::经管学院未细分",
+      "error_ids": [],
+      "label": "北京交通大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "北京科技大学经管",
+      "canonical_candidate_key": "北京科技大学::经管学院未细分",
+      "error_ids": [],
+      "label": "北京科技大学经管",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "中国政法大学商学院",
+      "canonical_candidate_key": "中国政法大学::商学院未细分",
+      "error_ids": [],
+      "label": "中国政法大学商学院",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "北京化工大学经济管理学院本校推免直升",
+      "canonical_candidate_key": "北京化工大学::经济管理学院未细分",
+      "error_ids": [],
+      "label": "北化经管本校推免",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "北京化工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "适合用作冲击985顶级院校（如南开大学、厦门大学、武汉大学等）或审计署直属渊源名校的高胜率跳板。",
+      "canonical_candidate_key": "南开大学::审计专硕",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV4",
+        "EV7"
+      ],
+      "label": "南开大学审计专硕MAud",
+      "reason": "MAud段明确举例作为申请目标。官方补查不能裁决其当季审计专硕申请路径，且审计研究方向/会计学位不能直接等同MAud，故保留该候选待核并关联T5；并非因没有答卷链接或缺年度审计而判错。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "适合用作冲击985顶级院校（如南开大学、厦门大学、武汉大学等）或审计署直属渊源名校的高胜率跳板。",
+      "canonical_candidate_key": "厦门大学::审计专硕",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV3"
+      ],
+      "label": "厦门大学审计专硕MAud",
+      "reason": "MAud段确有独立审计专硕推荐。厦门官方2027年推免预报名通知列有125700全日制审计硕士，支持2026申请季项目与推免路径；只核验身份与通道，不支持所谓高胜率，详见evidence.json EV3。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "适合用作冲击985顶级院校（如南开大学、厦门大学、武汉大学等）或审计署直属渊源名校的高胜率跳板。",
+      "canonical_candidate_key": "武汉大学::审计专硕",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV4",
+        "EV7"
+      ],
+      "label": "武汉大学审计专硕MAud",
+      "reason": "MAud段明确举例作为申请目标。官方补查不能裁决其当季审计专硕申请路径，且审计研究方向/会计学位不能直接等同MAud，故保留该候选待核并关联T5；并非因没有答卷链接或缺年度审计而判错。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "专业财经211（如央财、中南财、西财）的资产评估专硕性价比极高，会计生跨申优势明显，入营门槛相对亲民。",
+      "canonical_candidate_key": "中央财经大学::资产评估专硕",
+      "error_ids": [],
+      "label": "中央财经大学资产评估专硕MV",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "专业财经211（如央财、中南财、西财）的资产评估专硕性价比极高，会计生跨申优势明显，入营门槛相对亲民。",
+      "canonical_candidate_key": "中南财经政法大学::资产评估专硕",
+      "error_ids": [],
+      "label": "中南财经政法大学资产评估专硕MV",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "专业财经211（如央财、中南财、西财）的资产评估专硕性价比极高，会计生跨申优势明显，入营门槛相对亲民。",
+      "canonical_candidate_key": "西南财经大学::资产评估专硕",
+      "error_ids": [],
+      "label": "西南财经大学资产评估专硕MV",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "中央财经大学会计学院/财税学院",
+      "canonical_candidate_key": "中央财经大学::会计学院或财税学院未细分",
+      "error_ids": [],
+      "label": "央财会计学院/财税学院考纲样本",
+      "reason": "目标考纲搜集步骤中的样本提名，属于候选而非普通背景讨论。若前文同一宽泛目标已推荐，采用相同canonical_candidate_key去重；不替答卷拆出未明确的多个院系申请。",
+      "school_key": "中央财经大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "对外经济贸易大学金融学院/商学院",
+      "canonical_candidate_key": "对外经济贸易大学::金融学院或商学院未细分",
+      "error_ids": [],
+      "label": "贸大金融学院/商学院考纲样本",
+      "reason": "目标考纲搜集步骤中的样本提名，属于候选而非普通背景讨论。若前文同一宽泛目标已推荐，采用相同canonical_candidate_key去重；不替答卷拆出未明确的多个院系申请。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "南开大学商学院/金融学院",
+      "canonical_candidate_key": "南开大学::商学院或金融学院未细分",
+      "error_ids": [],
+      "label": "南开商学院/金融学院考纲样本",
+      "reason": "目标考纲搜集步骤中的样本提名，属于候选而非普通背景讨论。若前文同一宽泛目标已推荐，采用相同canonical_candidate_key去重；不替答卷拆出未明确的多个院系申请。",
+      "school_key": "南开大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "北京理工大学经管学院",
+      "canonical_candidate_key": "北京理工大学::经管学院未细分",
+      "error_ids": [],
+      "label": "北理工经管考纲样本",
+      "reason": "目标考纲搜集步骤中的样本提名，属于候选而非普通背景讨论。若前文同一宽泛目标已推荐，采用相同canonical_candidate_key去重；不替答卷拆出未明确的多个院系申请。",
+      "school_key": "北京理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "西南财经大学",
+      "canonical_candidate_key": "西南财经大学::主流经管未细分",
+      "error_ids": [],
+      "label": "西财考纲样本",
+      "reason": "目标考纲搜集步骤中的样本提名，属于候选而非普通背景讨论。若前文同一宽泛目标已推荐，采用相同canonical_candidate_key去重；不替答卷拆出未明确的多个院系申请。",
+      "school_key": "西南财经大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "厦门大学::会计学硕",
+      "error_ids": [],
+      "label": "厦门大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "南开大学::会计学硕",
+      "error_ids": [],
+      "label": "南开大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "天津大学::会计学硕",
+      "error_ids": [],
+      "label": "天津大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "武汉大学::会计学硕",
+      "error_ids": [],
+      "label": "武汉大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "山东大学::会计学硕",
+      "error_ids": [],
+      "label": "山东大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "北京理工大学::会计学硕",
+      "error_ids": [],
+      "label": "北京理工大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "中央财经大学::会计学硕",
+      "error_ids": [],
+      "label": "中央财经大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "主投对实证研究感兴趣、注重学术声誉的985高校（如厦门大学管理学院、南开大学商学院、天津大学经管、武汉大学、山东大学、北京理工大学等）及央财、贸大。",
+      "canonical_candidate_key": "对外经济贸易大学::会计学硕",
+      "error_ids": [],
+      "label": "对外经济贸易大学会计学硕",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "**专硕（MPAcc）**：主投“两财一贸”及同城985/211项目。",
+      "canonical_candidate_key": "上海财经大学::会计专硕",
+      "error_ids": [],
+      "label": "上海财经大学MPAcc",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A049",
+      "answer_quote": "**专硕（MPAcc）**：主投“两财一贸”及同城985/211项目。",
+      "canonical_candidate_key": "中央财经大学::会计专硕",
+      "error_ids": [],
+      "label": "中央财经大学MPAcc",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A050",
+      "answer_quote": "**专硕（MPAcc）**：主投“两财一贸”及同城985/211项目。",
+      "canonical_candidate_key": "对外经济贸易大学::会计专硕",
+      "error_ids": [],
+      "label": "对外经济贸易大学MPAcc",
+      "reason": "全文中的实际目标建议，按答卷已有学校/院系/方向粒度记录。该目标与经管方向相关，未见已知学生条件冲突；valid为该表达粒度的内容判断，不表示当届窗口、专业门槛及录取概率已逐项审计。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A051",
+      "answer_quote": "中央财经大学、上海财经大学、对外经济贸易大学、南开大学的**税务专硕（MT）**和**资产评估（MV）**通常生源池竞争压力相对平缓",
+      "canonical_candidate_key": "中央财经大学::税务及资产评估组合未细分",
+      "error_ids": [],
+      "label": "中央财经大学税务MT/资产评估MV组合",
+      "reason": "直接MT/MV组合建议，没有分别给出院系及申请路径，保留一个组合候选，不按两个简称拆分。内容相关且无已知学生硬条件冲突；不据此认可极高录取概率或认为完成当季招生审计。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A052",
+      "answer_quote": "中央财经大学、上海财经大学、对外经济贸易大学、南开大学的**税务专硕（MT）**和**资产评估（MV）**通常生源池竞争压力相对平缓",
+      "canonical_candidate_key": "上海财经大学::税务及资产评估组合未细分",
+      "error_ids": [],
+      "label": "上海财经大学税务MT/资产评估MV组合",
+      "reason": "直接MT/MV组合建议，没有分别给出院系及申请路径，保留一个组合候选，不按两个简称拆分。内容相关且无已知学生硬条件冲突；不据此认可极高录取概率或认为完成当季招生审计。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A053",
+      "answer_quote": "中央财经大学、上海财经大学、对外经济贸易大学、南开大学的**税务专硕（MT）**和**资产评估（MV）**通常生源池竞争压力相对平缓",
+      "canonical_candidate_key": "对外经济贸易大学::税务及资产评估组合未细分",
+      "error_ids": [],
+      "label": "对外经济贸易大学税务MT/资产评估MV组合",
+      "reason": "直接MT/MV组合建议，没有分别给出院系及申请路径，保留一个组合候选，不按两个简称拆分。内容相关且无已知学生硬条件冲突；不据此认可极高录取概率或认为完成当季招生审计。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A054",
+      "answer_quote": "中央财经大学、上海财经大学、对外经济贸易大学、南开大学的**税务专硕（MT）**和**资产评估（MV）**通常生源池竞争压力相对平缓",
+      "canonical_candidate_key": "南开大学::税务及资产评估组合未细分",
+      "error_ids": [],
+      "label": "南开大学税务MT/资产评估MV组合",
+      "reason": "直接组合推荐。南开税务硕士存在有官方依据，但不能据税务存在推定另有MV路径；本次补查未能从可读的当季目录裁决该组合的资产评估路径，作为影响项目优先关系的实质身份争议保留pending，见EV4—EV6。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A055",
+      "answer_quote": "坚决避开清北复交、高金、泛海以及明确考察高级微积分、随机过程、纯量化编程的顶级MF项目",
+      "canonical_candidate_key": "清华大学::顶级金融专硕未细分",
+      "error_ids": [],
+      "label": "清华顶级MF",
+      "reason": "精准避坑段的明确排除，属于实际候选，不计覆盖或层次降级。学校/项目称谓可识别；“非第一名难度极大”及数学考核概括未经逐项目审计，不能据此证明学生硬性不得申请。与前文宽泛冲刺建议存在取舍不一致，未创造额外负分。",
+      "school_key": "清华大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A056",
+      "answer_quote": "坚决避开清北复交、高金、泛海以及明确考察高级微积分、随机过程、纯量化编程的顶级MF项目",
+      "canonical_candidate_key": "北京大学::顶级金融专硕未细分",
+      "error_ids": [],
+      "label": "北大顶级MF",
+      "reason": "精准避坑段的明确排除，属于实际候选，不计覆盖或层次降级。学校/项目称谓可识别；“非第一名难度极大”及数学考核概括未经逐项目审计，不能据此证明学生硬性不得申请。与前文宽泛冲刺建议存在取舍不一致，未创造额外负分。",
+      "school_key": "北京大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A057",
+      "answer_quote": "坚决避开清北复交、高金、泛海以及明确考察高级微积分、随机过程、纯量化编程的顶级MF项目",
+      "canonical_candidate_key": "复旦大学::顶级金融专硕未细分",
+      "error_ids": [],
+      "label": "复旦顶级MF",
+      "reason": "精准避坑段的明确排除，属于实际候选，不计覆盖或层次降级。学校/项目称谓可识别；“非第一名难度极大”及数学考核概括未经逐项目审计，不能据此证明学生硬性不得申请。与前文宽泛冲刺建议存在取舍不一致，未创造额外负分。",
+      "school_key": "复旦大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A058",
+      "answer_quote": "坚决避开清北复交、高金、泛海以及明确考察高级微积分、随机过程、纯量化编程的顶级MF项目",
+      "canonical_candidate_key": "上海交通大学::顶级金融专硕未细分",
+      "error_ids": [],
+      "label": "交大顶级MF",
+      "reason": "精准避坑段的明确排除，属于实际候选，不计覆盖或层次降级。学校/项目称谓可识别；“非第一名难度极大”及数学考核概括未经逐项目审计，不能据此证明学生硬性不得申请。与前文宽泛冲刺建议存在取舍不一致，未创造额外负分。",
+      "school_key": "上海交通大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A059",
+      "answer_quote": "坚决避开清北复交、高金、泛海以及明确考察高级微积分、随机过程、纯量化编程的顶级MF项目",
+      "canonical_candidate_key": "上海交通大学::上海高级金融学院金融专硕",
+      "error_ids": [],
+      "label": "交大高金MF",
+      "reason": "精准避坑段的明确排除，属于实际候选，不计覆盖或层次降级。学校/项目称谓可识别；“非第一名难度极大”及数学考核概括未经逐项目审计，不能据此证明学生硬性不得申请。与前文宽泛冲刺建议存在取舍不一致，未创造额外负分。",
+      "school_key": "上海交通大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A060",
+      "answer_quote": "坚决避开清北复交、高金、泛海以及明确考察高级微积分、随机过程、纯量化编程的顶级MF项目",
+      "canonical_candidate_key": "复旦大学::泛海金融专硕",
+      "error_ids": [],
+      "label": "复旦泛海MF",
+      "reason": "精准避坑段的明确排除，属于实际候选，不计覆盖或层次降级。学校/项目称谓可识别；“非第一名难度极大”及数学考核概括未经逐项目审计，不能据此证明学生硬性不得申请。与前文宽泛冲刺建议存在取舍不一致，未创造额外负分。",
+      "school_key": "复旦大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A061",
+      "answer_quote": "例如：北京理工大学、北京航空航天大学、南开大学金融学院部分偏应用方向、天津大学、重庆大学等",
+      "canonical_candidate_key": "北京理工大学::金融专硕公司金融",
+      "error_ids": [],
+      "label": "北京理工大学偏公司金融MF",
+      "reason": "公司金融策略段明确MF推荐，各校一个金融专硕路径。公司金融、财务分析及企业估值为偏好方向，未被当成新增专业代码；valid只表示方向与学生专业有相关性且未见已知限制冲突，不声称这些学校当季都存在完全同名方向或通用考核。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A062",
+      "answer_quote": "例如：北京理工大学、北京航空航天大学、南开大学金融学院部分偏应用方向、天津大学、重庆大学等",
+      "canonical_candidate_key": "北京航空航天大学::金融专硕公司金融",
+      "error_ids": [],
+      "label": "北京航空航天大学偏公司金融MF",
+      "reason": "公司金融策略段明确MF推荐，各校一个金融专硕路径。公司金融、财务分析及企业估值为偏好方向，未被当成新增专业代码；valid只表示方向与学生专业有相关性且未见已知限制冲突，不声称这些学校当季都存在完全同名方向或通用考核。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A063",
+      "answer_quote": "例如：北京理工大学、北京航空航天大学、南开大学金融学院部分偏应用方向、天津大学、重庆大学等",
+      "canonical_candidate_key": "南开大学::金融专硕公司金融",
+      "error_ids": [],
+      "label": "南开大学偏公司金融MF",
+      "reason": "公司金融策略段明确MF推荐，各校一个金融专硕路径。公司金融、财务分析及企业估值为偏好方向，未被当成新增专业代码；valid只表示方向与学生专业有相关性且未见已知限制冲突，不声称这些学校当季都存在完全同名方向或通用考核。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A064",
+      "answer_quote": "例如：北京理工大学、北京航空航天大学、南开大学金融学院部分偏应用方向、天津大学、重庆大学等",
+      "canonical_candidate_key": "天津大学::金融专硕公司金融",
+      "error_ids": [],
+      "label": "天津大学偏公司金融MF",
+      "reason": "公司金融策略段明确MF推荐，各校一个金融专硕路径。公司金融、财务分析及企业估值为偏好方向，未被当成新增专业代码；valid只表示方向与学生专业有相关性且未见已知限制冲突，不声称这些学校当季都存在完全同名方向或通用考核。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A065",
+      "answer_quote": "例如：北京理工大学、北京航空航天大学、南开大学金融学院部分偏应用方向、天津大学、重庆大学等",
+      "canonical_candidate_key": "重庆大学::金融专硕公司金融",
+      "error_ids": [],
+      "label": "重庆大学偏公司金融MF",
+      "reason": "公司金融策略段明确MF推荐，各校一个金融专硕路径。公司金融、财务分析及企业估值为偏好方向，未被当成新增专业代码；valid只表示方向与学生专业有相关性且未见已知限制冲突，不声称这些学校当季都存在完全同名方向或通用考核。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+  "score": null,
+  "score_interval": [
+    51.5,
+    58.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "N14-01",
+  "task_kind": "planning",
+  "task_sha256": "9a32817b5bcee976d19c9f098c81ae8e415fa0aeb820d4ca189fd388e104561f",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "清北复交人顶级金融/会计 (初审较严，建议结合夏令营开放度审慎试水)",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "上财会计/金融",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "上海财经大学"
+      },
+      {
+        "answer_quote": "中央财经大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "中央财经大学"
+      },
+      {
+        "answer_quote": "对外经济贸易大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "对外经济贸易大学"
+      },
+      {
+        "answer_quote": "北京理工大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "北京理工大学"
+      },
+      {
+        "answer_quote": "北京航空航天大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "南开大学商学院/金融学院",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "南开大学"
+      },
+      {
+        "answer_quote": "天津大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "大连理工",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "大连理工大学"
+      },
+      {
+        "answer_quote": "山东大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "山东大学"
+      },
+      {
+        "answer_quote": "厦门大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "武汉大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "华中科技大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "东南大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "四川大学商学院",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "四川大学"
+      },
+      {
+        "answer_quote": "重庆大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校为985高校，按本题操作层次不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "重庆大学"
+      },
+      {
+        "answer_quote": "西南财经大学",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "西南财经大学"
+      },
+      {
+        "answer_quote": "中南财经政法大学的主流方向",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "中南财经政法大学"
+      },
+      {
+        "answer_quote": "北京交通大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "北京交通大学"
+      },
+      {
+        "answer_quote": "北京科技大学经管",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "北京科技大学"
+      },
+      {
+        "answer_quote": "中国政法大学商学院",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "中国政法大学"
+      },
+      {
+        "answer_quote": "北京化工大学经济管理学院本校推免直升",
+        "downgraded": false,
+        "reason": "本科基准为北京化工大学211（非985），该校同属211（非985），同档不降级。本题无层次评分节点，仅作核对报告，不据此调整其他项。",
+        "school_key": "北京化工大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

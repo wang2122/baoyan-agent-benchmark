@@ -1,0 +1,1524 @@
+{
+  "actual_candidate_count": 33,
+  "answer_sha256": "2433a5de0e01bc0d97bc261ba18d069976f753ad77597af292f3175f6148be09",
+  "candidate_limit": 33,
+  "confirmed_component_points": {
+    "coverage": 35.21,
+    "quality": 7.5
+  },
+  "confirmed_points": 42.71,
+  "diagnostic_score": null,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-QUALIFICATION": [
+      "BY-G-APPLY-R10-04"
+    ],
+    "ERR-SYSTEM": [
+      "BY-G-APPLY-R10-03"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "前约10% 稳妥锁定校内推免资格（保研资格无虞）",
+      "id": "ERR-QUALIFICATION",
+      "reason": "题面只有前约10%和科研、英语状态，没有校内综合测评规则、当届名额或正式资格公示。仅靠声称推免比例便把资格未定说成确定，违反事实状态节点；不是要求查询作者或校内未知身份。仅归属R10-04，不另取消所有推荐。"
+    },
+    {
+      "answer_quote": "收到复试/拟录取通知即刻锁定胜局！",
+      "id": "ERR-SYSTEM",
+      "reason": "收到复试通知并不完成录取，正式接收须在推免系统接收复试通知并确认待录取通知。官方历史接收流程见evidence.json system及pumc。该错误直接使最后一步行动不完整，仅归属执行节点；不另在事实节点重复处罚。"
+    }
+  ],
+  "excess_count": 0,
+  "id": "BY-G-APPLY",
+  "input_sha256": "b04b1f5af8f8326ee257d9af7dd3fd551e7fd9f04d985b0c85ba3da2a941a9a3",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "5c3bcedada96302a1983ec1c9c5b3344bf3845354efb3708f61fcf74133d6330",
+  "nodes": [
+    {
+      "id": "G-01",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-02",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-03",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01-detail",
+      "points": 0.64,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-04",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A05-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-08",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A13-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-11",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A15-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-13",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-14",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-15",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-16",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-17",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A20-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-18",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-19",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A19-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-20",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-21",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-22",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A31-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-23",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A23-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-24",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A22-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-25",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A24-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-26",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-27",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-28",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A26-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-29",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A28-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-30",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A27-detail",
+      "points": 0.64,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-31",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A32-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-32",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-33",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A10-detail",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "grade": "pending",
+      "id": "BY-G-APPLY-R10-01",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-02",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-03",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-04",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 33,
+  "official": false,
+  "pending_nodes": [
+    "G-11",
+    "G-14",
+    "G-15",
+    "G-16",
+    "BY-G-APPLY-R10-01"
+  ],
+  "quantity_status": "within_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-table",
+      "answer_quote": "| **01** | 清华大学 | 自动化系（生物信息学研究中心） | 081100 控制科学与工程（生信方向） | 直博 | 机器学习与单细胞多组学算法、表征学习 | 超高 (冲刺) | 需导师强意向/专业免检 |",
+      "canonical_candidate_key": "thu-auto-bioinfo",
+      "error_ids": [],
+      "label": "清华大学 · 自动化系（生物信息学研究中心）",
+      "reason": "自动化系控制科学与工程生信直博是具体计算生命科学路径；与生命学院跨院系合作已核实。所列鲁志实际在生命学院，不能据此把自动化系等同生命学院；未核准每年各导师名额。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-detail",
+      "answer_quote": "#### 01. 清华大学 · 自动化系（生物信息学研究中心）\n* **招生院系与平台**：信息科学与技术国家研究中心 / 自动化系生物信息学研究中心。\n* **专业名称及代码**：081100 控制科学与工程（模式识别与智能系统 / 生物信息学方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：机器学习与单细胞多组学数据整合、AI 辅助空间转录组学建模、RNA 结构与调控网络表征学习。\n* **代表性导师及纯干实验度**：张学工教授（中国生信开创学者之一，计算系统生物学）、汪小我教授（基因组智能计算与合成生物学 AI 设计）、鲁志副教授（非编码 RNA 与计算表观组学）。纯干实验度：**100%（纯代码、数学与算法建模）**。\n* **录取门槛与背景匹配分析**：清华自动化生信是全国工科生信最高殿堂之一。郑大 前约10% 申请该系学硕初审通过率极低，但自动化系直博生每年招收交叉学科生源，导师更看重数学逻辑和代码实现。六级 425–449 分处于系统遴选下风，必须提前通过邮件向导师展示在投 SCI 中的算法架构与 GitHub 核心脚本，争取导师的夏令营“重点推荐名额”突破初审筛选。",
+      "canonical_candidate_key": "thu-auto-bioinfo",
+      "error_ids": [],
+      "label": "清华大学 · 自动化系（生物信息学研究中心）",
+      "reason": "自动化系控制科学与工程生信直博是具体计算生命科学路径；与生命学院跨院系合作已核实。所列鲁志实际在生命学院，不能据此把自动化系等同生命学院；未核准每年各导师名额。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-table",
+      "answer_quote": "| **02** | 北京大学 | 前沿交叉学科研究院（定量生物学中心） | 071000 生物学（定量生物学/生信方向） | 直博 | 单细胞动力学推断、生物物理与复杂网络 | 超高 (冲刺) | 考核综合素质，425+合规 |",
+      "canonical_candidate_key": "pku-aais-cqb",
+      "error_ids": [],
+      "label": "北京大学 · 前沿交叉学科研究院（定量生物学中心 CQB）",
+      "reason": "前沿交叉研究院/CQB为单位与内部中心，不拆分；定量生物学计算方向和直博路径成立。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-detail",
+      "answer_quote": "#### 02. 北京大学 · 前沿交叉学科研究院（定量生物学中心 CQB）\n* **招生院系与平台**：前沿交叉学科研究院（AAIS）/ 定量生物学中心（Center for Quantitative Biology, CQB）。\n* **专业名称及代码**：071000 生物学（定量生物学 / 生物信息学）。\n* **培养层次**：直博生。\n* **核心干实验方向**：细胞命运决定的非线性动力学推断、单细胞转录组动力学建模、生物物理多尺度网络模拟、复杂疾病计算系统生物学。\n* **代表性导师及纯干实验度**：汤超院士（物理与定量生物学大师）、高歌教授（生物信息学中心主任）、李程教授（高通量三维基因组与表观组学分析）。纯干实验度：**100%（物理/数学/计算机交叉建模）**。\n* **录取门槛与背景匹配分析**：CQB 极其偏爱数理思维良好且有生物学专业基础的交叉型人才。夏令营注重考核对科学问题的抽象建模能力。六级要求“良好”，425–449 分虽不具竞争优势但不会触发机械卡死，在投论文若包含严密的统计推断，将在专业考核中形成强劲对冲。",
+      "canonical_candidate_key": "pku-aais-cqb",
+      "error_ids": [],
+      "label": "北京大学 · 前沿交叉学科研究院（定量生物学中心 CQB）",
+      "reason": "前沿交叉研究院/CQB为单位与内部中心，不拆分；定量生物学计算方向和直博路径成立。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-table",
+      "answer_quote": "| **03** | 清华-北大-NIBS联合培养 | PTN 研究生联合项目办公室 | 071000 生物学（PTN 专项） | 直博 | 质谱计算生物学、多组学演化算法 | 超高 (冲刺) | 四级≥500或论文替代六级450–499 |",
+      "canonical_candidate_key": "thu-ptn",
+      "error_ids": [],
+      "feasibility": "答卷明确要求查看已有四级成绩；四级未知可通过成绩单核查，达标分支受官方历史PTN条款支持。低于500后仅凭在投请求审查的分支未确认成立，不为其补造保证。",
+      "key_condition": "核查CET4是否至少500；满足该条时申请PTN，不能把在投稿件当录用论文豁免。",
+      "label": "清华-北大-北京生命科学研究所（NIBS）联合培养博士研究生项目（PTN 项目）",
+      "reason": "PTN为独立联合培养项目，明确含清华方面；四级未知但答卷给出核查四级500的可行分支，不能因六级425–449就直接排除。在投材料申请审查不等于已享有发表论文豁免。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-detail",
+      "answer_quote": "#### 03. 清华-北大-北京生命科学研究所（NIBS）联合培养博士研究生项目（PTN 项目）\n* **招生院系与平台**：清华大学、北京大学、北京生命科学研究所三方联合研究生招生办公室。\n* **专业名称及代码**：071000 生物学（PTN 专项联合直博）。\n* **培养层次**：直博生。\n* **核心干实验方向**：生物质谱高精度定量算法开发、蛋白质相互作用计算系统、生物节律与演化组学大数据挖掘。\n* **代表性导师及纯干实验度**：董梦秋课题组（NIBS，质谱交联与计算生物学）、张二荃课题组（NIBS，昼夜节律与计算分析），以及清华/北大兼聘导师组。入营后三方轮转，可完全定组于纯干实验组。\n* **录取门槛与关键破局策略**：PTN 简章对英语设有明确条款：**“国家英语四级≥500 分或六级≥470 分，或以第一作者在英文期刊发表学术论文”**。**考生必须核查本科英语四级成绩**：若四级≥500 分，则直接符合报名资格；若四级<500 且 SCI 尚在审稿，则需将在投稿件附于“其他学术成果证明”并申请委员会学术审查。考核为全英文文献研读与深度科研答辩。",
+      "canonical_candidate_key": "thu-ptn",
+      "error_ids": [],
+      "feasibility": "答卷明确要求查看已有四级成绩；四级未知可通过成绩单核查，达标分支受官方历史PTN条款支持。低于500后仅凭在投请求审查的分支未确认成立，不为其补造保证。",
+      "key_condition": "核查CET4是否至少500；满足该条时申请PTN，不能把在投稿件当录用论文豁免。",
+      "label": "清华-北大-北京生命科学研究所（NIBS）联合培养博士研究生项目（PTN 项目）",
+      "reason": "PTN为独立联合培养项目，明确含清华方面；四级未知但答卷给出核查四级500的可行分支，不能因六级425–449就直接排除。在投材料申请审查不等于已享有发表论文豁免。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-table",
+      "answer_quote": "| **04** | 清华-北大联合中心 | 清华-北大生命科学联合中心（CLS） | 071000 生物学（CLS 专项直博） | 直博 | 癌症多组学大数据、结构计算与 AI 制药 | 超高 (冲刺) | 申请审核制，看重研究潜质 |",
+      "canonical_candidate_key": "thu-cls",
+      "error_ids": [],
+      "label": "清华-北大生命科学联合中心（CLS 项目）",
+      "reason": "CLS联合中心是独立项目，不拆成两校两条；官方确认其清华方面属于四方招生路径。答卷未另行指定北大学籍申请分支，不据含北大名称扩展匹配。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-detail",
+      "answer_quote": "#### 04. 清华-北大生命科学联合中心（CLS 项目）\n* **招生院系与平台**：清华-北大生命科学联合中心（挂靠清华生科院与北大生科院）。\n* **专业名称及代码**：071000 生物学（CLS 专项直博）。\n* **培养层次**：直博生。\n* **核心干实验方向**：肿瘤单细胞与空间组学大数据、结构生物信息学、AI4Science（大分子构象预测与虚拟筛选）、免疫基因组计算。\n* **代表性导师及纯干实验度**：清华生科院生信团队、北大未来基因诊断高精尖创新中心（ICG）各计算生物学导师组。多轮轮转机制，自主选择纯计算实验室。\n* **录取门槛与背景匹配分析**：CLS 拥有全国顶尖的研究资源与博士生津贴。实行“申请-审核制”，委员会对生源背景考核极为全面，重在“科研好奇心与自主探究能力”。六级 425–449 分考生必须在自述材料中展现对在投课题的深刻掌控力，面试时主动攻坚专业学术英语。",
+      "canonical_candidate_key": "thu-cls",
+      "error_ids": [],
+      "label": "清华-北大生命科学联合中心（CLS 项目）",
+      "reason": "CLS联合中心是独立项目，不拆成两校两条；官方确认其清华方面属于四方招生路径。答卷未另行指定北大学籍申请分支，不据含北大名称扩展匹配。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-table",
+      "answer_quote": "| **05** | 北京大学 | 生命科学学院 / ICG 高精尖创新中心 | 071020 生物信息学 / 071000 生物学 | 直博 | 高通量单细胞测序算法、肿瘤演化信息学 | 超高 (冲刺) | 425+可报，注重专业口试 |",
+      "canonical_candidate_key": "pku-life",
+      "error_ids": [],
+      "label": "北京大学 · 生命科学学院 / 北京未来基因诊断高精尖创新中心（ICG）",
+      "reason": "生命科学学院与ICG、生物信息中心是院系及科研平台说明；正文明确生命学院生物学直博，按参考学院粒度有效。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-detail",
+      "answer_quote": "#### 05. 北京大学 · 生命科学学院 / 北京未来基因诊断高精尖创新中心（ICG）\n* **招生院系与平台**：生命科学学院 / ICG 高精尖创新中心 / 生物信息中心。\n* **专业名称及代码**：071020 生物信息学 / 071000 生物学。\n* **培养层次**：直博生。\n* **核心干实验方向**：单细胞 RNA/ATAC 测序数据处理算法、癌症克隆演化树构建算法、非编码调控元件高通量注释。\n* **代表性导师及纯干实验度**：高歌教授、白凡教授（肿瘤异质性与单细胞计算分析，含庞大独立干实验团队）、李程教授。\n* **录取门槛与背景匹配分析**：北大生科院直博考核重在综合面试。生信专业科班出身的优势在专业口试中体现明显，考官会深入追问 Linux 环境命令、常用比对算法（如 BWA、STAR）内部机制等细节。郑大排名前 10% 具备入营可能，在投 SCI 与大创是强效加分项。",
+      "canonical_candidate_key": "pku-life",
+      "error_ids": [],
+      "label": "北京大学 · 生命科学学院 / 北京未来基因诊断高精尖创新中心（ICG）",
+      "reason": "生命科学学院与ICG、生物信息中心是院系及科研平台说明；正文明确生命学院生物学直博，按参考学院粒度有效。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-table",
+      "answer_quote": "| **06** | 中国科学院北京基因组研究所 | 国家生物信息中心（CNCB / BIG） | 0710Z1 基因组科学与信息学 / 071020 生信 | 直博 | 核心组学算法、国家级数据库研发、表观组 | 核心主攻 (重点) | 425+完全合规，极度对口 |",
+      "canonical_candidate_key": "big-genomics",
+      "error_ids": [],
+      "label": "中国科学院北京基因组研究所（国家生物信息中心 CNCB）",
+      "reason": "基因组所/国家生物信息中心为同一培养主体的名称及平台，组学与数据库计算博士方向明确；不是国科大生物物理所、生化所或杭高院。",
+      "school_key": "中国科学院北京基因组研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-detail",
+      "answer_quote": "#### 06. 中国科学院北京基因组研究所（国家生物信息中心 CNCB）\n* **招生院系与平台**：国家生物信息中心（National Genomics Data Center, NGDC）/ 中国科学院大学生命科学学院。\n* **专业名称及代码**：0710Z1 基因组科学与信息学 / 071020 生物信息学。\n* **培养层次**：直博生。\n* **核心干实验方向**：多组学大数据算法研发、国家级基因组资源数据库构建、表观转录组（m6A 等修饰）信息学、演化基因组学。\n* **代表性导师及纯干实验度**：鲍一明研究员（国家生物信息中心主任）、章张研究员、杨运桂研究员、方向东研究员、陈非研究员。纯干实验度：**100%（国家级超算机房与纯干实验研发环境）**。\n* **录取门槛与背景匹配分析**：**本方案核心第一推荐主攻目标！** 基因组所对六级要求明确为 425 分过线即可，425–449 分完全合规，初审绝无筛除风险；作为国内生信国家队，该所招生对生信专业科班学生高度认可，郑大 前约10% 且有一作在投 SCI 具有极高入营率。夏令营与推免考核中，编程实操与组学管道问答占主导，匹配度无可挑剔。",
+      "canonical_candidate_key": "big-genomics",
+      "error_ids": [],
+      "label": "中国科学院北京基因组研究所（国家生物信息中心 CNCB）",
+      "reason": "基因组所/国家生物信息中心为同一培养主体的名称及平台，组学与数据库计算博士方向明确；不是国科大生物物理所、生化所或杭高院。",
+      "school_key": "中国科学院北京基因组研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-table",
+      "answer_quote": "| **07** | 中国科学院上海营养与健康研究所 | 原中德计算生物学研究所（PICB/SINH） | 0710J3 计算生物学 | 直博 | RNA 剪接与结构生信、计算系统生物学 | 核心主攻 (重点) | 425+完全合规，纯干实验阵地 |",
+      "canonical_candidate_key": "sinh-computational",
+      "error_ids": [],
+      "label": "中国科学院上海营养与健康研究所（SINH，原中德计算生物学所 PICB）",
+      "reason": "营养与健康所与原PICB为历史沿革和计算生物学平台说明，不拆成两项；所级计算生物学直博方向有效，不因不在参考名单判错。",
+      "school_key": "中国科学院上海营养与健康研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-detail",
+      "answer_quote": "#### 07. 中国科学院上海营养与健康研究所（SINH，原中德计算生物学所 PICB）\n* **招生院系与平台**：中国科学院上海营养与健康研究所 / 原中德计算生物学研究所（CAS-MPG PICB）。\n* **专业名称及代码**：0710J3 计算生物学。\n* **培养层次**：直博生。\n* **核心干实验方向**：可变剪接与 RNA 结构计算、计算系统生物学与分子网络、人群多表型组大数据挖掘、单细胞表观多组学集成分析。\n* **代表性导师及纯干实验度**：王泽峰研究员（RNA 计算与系统生物学）、李亦学研究员（中国生信元老）、邵振研究员（表观基因组学生信算法开发）、汪思佳研究员（群体表型组大数据）。纯干实验度：**100%（纯理论计算与干实验）**。\n* **录取门槛与背景匹配分析**：**本方案核心第一优先推荐院校！** 原 PICB 体系是中国计算生物学界的黄埔军校，血统纯正。六级门槛仅需达到全国 425 分线，425–449 分符合要求。该所历来重视学生的计算机与统计直觉，对 211 优秀生信学生青睐有加。面试考察涵盖英文文献即席朗读翻译与专业问答，考生需提前备战。",
+      "canonical_candidate_key": "sinh-computational",
+      "error_ids": [],
+      "label": "中国科学院上海营养与健康研究所（SINH，原中德计算生物学所 PICB）",
+      "reason": "营养与健康所与原PICB为历史沿革和计算生物学平台说明，不拆成两项；所级计算生物学直博方向有效，不因不在参考名单判错。",
+      "school_key": "中国科学院上海营养与健康研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-table",
+      "answer_quote": "| **08** | 中国科学院遗传与发育生物学研究所 | 分子系统生物学研究中心 / 生信平台 | 071020 生物信息学 / 071007 遗传学 | 直博 | 小 RNA 调控算法、系统生物学与基因组演化 | 高难度 (主攻) | 425+过线即可，注重编程 |",
+      "canonical_candidate_key": "igd-genetics",
+      "error_ids": [],
+      "label": "中国科学院遗传与发育生物学研究所",
+      "reason": "遗传发育所遗传/系统生物学计算直博方向可识别；相关平台及专业备选不额外拆项；无参考内同招生主体。",
+      "school_key": "中国科学院遗传与发育生物学研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-detail",
+      "answer_quote": "#### 08. 中国科学院遗传与发育生物学研究所\n* **招生院系与平台**：分子系统生物学研究中心 / 生物信息学计算平台。\n* **专业名称及代码**：071020 生物信息学 / 071007 遗传学。\n* **培养层次**：直博生。\n* **核心干实验方向**：非编码 RNA 调控网络算法、基因组结构变异分析、演化与系统生物学计算模拟。\n* **代表性导师及纯干实验度**：王秀杰研究员（微小 RNA 与系统生物学领军学者）、钱文峰研究员（演化系统生物学）。拥有独立纯干实验课题组。\n* **录取门槛与背景匹配分析**：遗传发育所是中科院顶级生命所，生信干实验名额竞争充分。六级 425 分达标即可报名。王秀杰等课题组对直博生需求稳定，在投论文展示的科研逻辑是打动导师的关键。",
+      "canonical_candidate_key": "igd-genetics",
+      "error_ids": [],
+      "label": "中国科学院遗传与发育生物学研究所",
+      "reason": "遗传发育所遗传/系统生物学计算直博方向可识别；相关平台及专业备选不额外拆项；无参考内同招生主体。",
+      "school_key": "中国科学院遗传与发育生物学研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-table",
+      "answer_quote": "| **09** | 中国科学院动物研究所 | 膜生物学国家重点实验室 / 演化生信组 | 071002 动物学 / 071020 生物信息学 | 直博 | 单细胞谱系示踪算法、长读段组装与演化 | 高难度 (主攻) | 425+过线即可，生信需求迫切 |",
+      "canonical_candidate_key": "ioz-comparative",
+      "error_ids": [],
+      "label": "中国科学院动物研究所",
+      "reason": "动物所比较基因组、单细胞与演化计算博士方向可识别；不是国科大参考三所的同一招生主体。未把每位导师整个实验室都按100%纯干视作已证实。",
+      "school_key": "中国科学院动物研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-detail",
+      "answer_quote": "#### 09. 中国科学院动物研究所\n* **招生院系与平台**：膜生物学国家重点实验室 / 演化与系统生物学研究中心。\n* **专业名称及代码**：071002 动物学 / 071020 生物信息学。\n* **培养层次**：直博生。\n* **核心干实验方向**：单细胞谱系分化追踪算法、干细胞多能性维持多组学分析、比较基因组学与长读段三代测序组装。\n* **代表性导师及纯干实验度**：陈捷凯研究员（计算表观组学）、周旭明研究员（比较基因组学）、李伟团队生物信息计算平台。\n* **录取门槛与背景匹配分析**：动物所湿实验团队实力雄厚，对具有高水平干实验能力的直博生需求极为饥渴。六级 425 分满足门槛。郑大生信背景+湿实验经历能使考生在面试中准确把握实验痛点，极具说服力。",
+      "canonical_candidate_key": "ioz-comparative",
+      "error_ids": [],
+      "label": "中国科学院动物研究所",
+      "reason": "动物所比较基因组、单细胞与演化计算博士方向可识别；不是国科大参考三所的同一招生主体。未把每位导师整个实验室都按100%纯干视作已证实。",
+      "school_key": "中国科学院动物研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-table",
+      "answer_quote": "| **10** | 中科院深圳先进技术研究院 | 合成生物学研究所（定量合成生物学中心） | 0710J2 合成生物学（定量计算组） | 直博 | CAD4Bio、单细胞演化动力学计算 | 极高性价比 | 425+过线即可，软硬件极强 |",
+      "canonical_candidate_key": "siat-isynbio",
+      "error_ids": [],
+      "label": "中国科学院深圳先进技术研究院（SIAT）",
+      "reason": "深圳先进院合成生物学所为所内机构，计算/定量合成与组学方向明确；命中国科大深先院参考，不另计内部所。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-detail",
+      "answer_quote": "#### 10. 中国科学院深圳先进技术研究院（SIAT）\n* **招生院系与平台**：合成生物学研究所（iSynBio）/ 定量合成生物学全国重点实验室。\n* **专业名称及代码**：0710J2 合成生物学（计算与定量方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：计算机辅助基因组设计（CAD for Biology）、单细胞动态追踪与细胞命运推演算法、机器学习预测基因调控元件活性。\n* **代表性导师及纯干实验度**：刘陈立研究员（定量合成生物学）、胡政研究员（单细胞计算与肿瘤克隆演化）、金帆研究员。纯干实验组配备顶级计算设备。\n* **录取门槛与背景匹配分析**：SIAT 近年科研经费充裕，生信平台支撑体系完善。六级 425 分达标。深圳先进院对生信推免生政策极佳，直博指标相对宽裕，郑大排名前 10% 拿到入营并斩获优秀营员的概率极高，是极高性价比的强攻选项。",
+      "canonical_candidate_key": "siat-isynbio",
+      "error_ids": [],
+      "label": "中国科学院深圳先进技术研究院（SIAT）",
+      "reason": "深圳先进院合成生物学所为所内机构，计算/定量合成与组学方向明确；命中国科大深先院参考，不另计内部所。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-table",
+      "answer_quote": "| **11** | 中国农业科学院深圳农业基因组所 | 农业基因组学国家重点实验室（AGIS） | 071020 生物信息学 | 直博 | 底层组装比对算法开发、泛基因组计算 | 核心主攻 (优选) | 425+过线即可，算法大牛云集 |",
+      "canonical_candidate_key": "agis-genomics",
+      "error_ids": [],
+      "label": "中国农业科学院深圳农业基因组研究所（AGIS）",
+      "reason": "农业基因组所的算法、生信研究及农科院直博培养主体真实；正文所谓国科大/华中农大联培没有确定学籍分支，不拆成额外候选，也不移作中科院所命中。",
+      "school_key": "中国农业科学院农业基因组研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-detail",
+      "answer_quote": "#### 11. 中国农业科学院深圳农业基因组研究所（AGIS）\n* **招生院系与平台**：农业基因组学国家重点实验室（深圳大鹏新区基地，与国科大/华中农大联培直博）。\n* **专业名称及代码**：071020 生物信息学 / 090102 作物遗传育种。\n* **培养层次**：直博生。\n* **核心干实验方向**：第三代长读段基因组组装核心算法（开发底层 C/C++ 算法）、图泛基因组（Graph Pangenome）构建模型、超大规模多组学数据挖掘。\n* **代表性导师及纯干实验度**：黄三文院士团队（基因组设计育种大数据）、阮珏研究员（国际顶级生信算法大师，高通量组装算法 wtdbg2/FSA 开发者）、武志强研究员。纯干实验度：**100%（硬核算法与高性能计算）**。\n* **录取门槛与背景匹配分析**：生信底层算法研发的隐形圣殿！阮珏老师团队是国际上屈指可数能够在生物组装比对核心算法上建立中国标准的纯干实验团队。六级 425 分过线即可，导师极度看重实际代码编写、数据结构理解和算法推演能力。对于志在纯干实验算法底层开发的学生是天造地设之选。",
+      "canonical_candidate_key": "agis-genomics",
+      "error_ids": [],
+      "label": "中国农业科学院深圳农业基因组研究所（AGIS）",
+      "reason": "农业基因组所的算法、生信研究及农科院直博培养主体真实；正文所谓国科大/华中农大联培没有确定学籍分支，不拆成额外候选，也不移作中科院所命中。",
+      "school_key": "中国农业科学院农业基因组研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-table",
+      "answer_quote": "| **12** | 中国科学院微生物研究所 | 国家微生物科学数据中心（NMDC） | 071005 微生物学（计算生物学方向） | 直博 | 宏基因组多组学挖掘算法、全球病原溯源 | 良好 (主攻) | 425+过线即可，数据资源丰富 |",
+      "canonical_candidate_key": "imcas-microbial",
+      "error_ids": [],
+      "label": "中国科学院微生物研究所",
+      "reason": "微生物所国家微生物数据中心为所及平台，宏基因组计算博士方向有效；无相同参考研究所，不等于不合法。",
+      "school_key": "中国科学院微生物研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-detail",
+      "answer_quote": "#### 12. 中国科学院微生物研究所\n* **招生院系与平台**：国家微生物科学数据中心（NMDC）/ 微生物资源与大数据研究中心。\n* **专业名称及代码**：071005 微生物学（计算生物学与生信方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：宏基因组测序分析流程优化、全球病原微生物传播演化追踪算法、微生物群落互作网络深度学习建模。\n* **代表性导师及纯干实验度**：马俊才研究员（国家微生物数据中心主任）、胡松年研究员、王军研究员。拥有大规模超算分析集群。\n* **录取门槛与背景匹配分析**：拥有国家级微生物组数据资源，生信干实验项目储备充沛。六级 425 分达标即可申报。郑大生信背景专业完全契合，考核以宏基因组及 Python 数据处理为主，通过率较高。",
+      "canonical_candidate_key": "imcas-microbial",
+      "error_ids": [],
+      "label": "中国科学院微生物研究所",
+      "reason": "微生物所国家微生物数据中心为所及平台，宏基因组计算博士方向有效；无相同参考研究所，不等于不合法。",
+      "school_key": "中国科学院微生物研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-table",
+      "answer_quote": "| **13** | 复旦大学 | 生命科学学院 / 现代人类学教育部重点室 | 071020 生物信息学 / 071007 遗传学 | 直博 | 群体基因组学算法、表型组大数据挖掘 | 顶尖 (主攻) | 六级425+合格线通过 |",
+      "canonical_candidate_key": "fdu-life",
+      "error_ids": [],
+      "label": "复旦大学 · 生命科学学院",
+      "reason": "正文独立明确复旦生命学院遗传/生信直博及群体组学计算路径，科研平台并列不是合并独立招生院系。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-detail",
+      "answer_quote": "#### 13. 复旦大学 · 生命科学学院\n* **招生院系与平台**：遗传工程国家重点实验室 / 现代人类学教育部重点实验室。\n* **专业名称及代码**：071020 生物信息学 / 071007 遗传学。\n* **培养层次**：直博生。\n* **核心干实验方向**：人类群体遗传学与演化基因组计算、表型组多模态关联算法、基因组多样性大数据挖掘。\n* **代表性导师及纯干实验度**：徐书华教授（群体基因组学与演化生信领军学者）、王鹏教授、钟扬教授学术传承团队。纯干实验团队。\n* **录取门槛与背景匹配分析**：复旦大学在人类表型组与生物信息学领域具有世界级影响力。复旦生科院对英语六级要求为 425 分合格线，425–449 分符合报名资质。相较于竞争白热化的学硕夏令营，生科院直博初审容忍度更高。复旦重视科研潜力，在投 SCI 可在文书中重点呈现，提前与徐书华等纯干实验导师邮件沟通是破局核心。",
+      "canonical_candidate_key": "fdu-life",
+      "error_ids": [],
+      "label": "复旦大学 · 生命科学学院",
+      "reason": "正文独立明确复旦生命学院遗传/生信直博及群体组学计算路径，科研平台并列不是合并独立招生院系。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-table",
+      "answer_quote": "| **14** | 复旦大学 | 复杂体系多尺度研究院 / 类脑智能研究院 | 081200 计算机 / 0710J1 交叉生信 | 直博 | AI4Science 蛋白质设计、网络图机器学习 | 顶尖 (冲刺) | 425+可报，强看编程与数学 |",
+      "canonical_candidate_key": "fdu-multiscale-istbi-merged",
+      "error_ids": [],
+      "label": "复旦大学 · 复杂体系多尺度研究院 / 类脑智能科学与技术研究院（ISTBI）",
+      "reason": "把复杂体系多尺度院与类脑研究院的独立单位、导师和代码合并，没有分别确定实际申请路径；保留一个合并推荐，不拆任何单位获取参考命中。身份存在及计算方向相关不等于申请组合清晰。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-detail",
+      "answer_quote": "#### 14. 复旦大学 · 复杂体系多尺度研究院 / 类脑智能科学与技术研究院（ISTBI）\n* **招生院系与平台**：复杂体系多尺度研究院 / 类脑智能科学与技术研究院计算系统生物学团队。\n* **专业名称及代码**：081200 计算机科学与技术 / 0710J1 交叉生物信息学。\n* **培养层次**：直博生。\n* **核心干实验方向**：AI4Science 蛋白质三维结构设计、脑多组学数据整合与图神经网络、复杂疾病多组学网络推断。\n* **代表性导师及纯干实验度**：马剑鹏教授（计算生物物理与多尺度算法）、赵兴明教授（类脑研究院计算系统生物学中心主任，生信大数据图计算权威）。纯干实验度：**100%（AI、计算与图算法）**。\n* **录取门槛与背景匹配分析**：顶级交叉平台，计算机与生物信息深度交叉。赵兴明教授课题组纯干实验实力极其雄厚，发文量大且含金量极高。对 Python 算法、网络模型考核要求严格，六级 425 分达标，极其青睐数理能力与编程扎实的理科生信学生。",
+      "canonical_candidate_key": "fdu-multiscale-istbi-merged",
+      "error_ids": [],
+      "label": "复旦大学 · 复杂体系多尺度研究院 / 类脑智能科学与技术研究院（ISTBI）",
+      "reason": "把复杂体系多尺度院与类脑研究院的独立单位、导师和代码合并，没有分别确定实际申请路径；保留一个合并推荐，不拆任何单位获取参考命中。身份存在及计算方向相关不等于申请组合清晰。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-table",
+      "answer_quote": "| **15** | 上海交通大学 | 生命科学技术学院（生信系 / Bio-X） | 071000 生物学（生物信息学方向） | 直博 | 分子模拟、单细胞多组学与表观生信 | 顶尖 (核心) | 六级≥425分合规，直博友好 |",
+      "canonical_candidate_key": "sjtu-life",
+      "error_ids": [],
+      "label": "上海交通大学 · 生命科学技术学院（生物信息学系 / Bio-X 研究院）",
+      "reason": "矩阵以生命科学技术学院生信系为主体，正文亦单独说生信系直博；Bio-X并列说明不另拆一条，也不认定它与生命学院为同一机构。按已明确的生信系路径核对参考学院粒度。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-detail",
+      "answer_quote": "#### 15. 上海交通大学 · 生命科学技术学院（生物信息学系 / Bio-X 研究院）\n* **招生院系与平台**：生命科学技术学院生物信息学系 / Bio-X 研究院。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：分子对接与药物虚拟筛选、单细胞多组学与表观遗传信息学算法、复杂遗传疾病多组学数据整合。\n* **代表性导师及纯干实验度**：吕晖教授（生物信息与系统生物学）、魏冬青教授（分子模拟与生物计算）、李婧教授（计算生物学多组学整合）、师咏勇教授（统计遗传学生信团队）。\n* **录取门槛与背景匹配分析**：**华五直博重点攻坚目标！** 上海交大研究生院官方文件规定推免直博六级门槛为 **全国六级≥425 分**，425–449 分完全合规，初审资格稳固！上交生信系常年存在优质纯干实验直博生源缺口，对能够熟练编写分析脚本、具备独立处理高通量数据能力的生信本科生需求强烈。郑大 前约10% 配合在投 SCI，直博考核胜率极高。",
+      "canonical_candidate_key": "sjtu-life",
+      "error_ids": [],
+      "label": "上海交通大学 · 生命科学技术学院（生物信息学系 / Bio-X 研究院）",
+      "reason": "矩阵以生命科学技术学院生信系为主体，正文亦单独说生信系直博；Bio-X并列说明不另拆一条，也不认定它与生命学院为同一机构。按已明确的生信系路径核对参考学院粒度。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-table",
+      "answer_quote": "| **16** | 上海交通大学 | 自然科学研究院（INS）/ 致远交叉平台 | 070100 数学 / 083100 生物医学工程 | 直博 | 系统生物学动力学建模、单细胞网络反演 | 顶尖 (主攻) | 425+合格，需扎实数理功底 |",
+      "canonical_candidate_key": "sjtu-ins-other-merged",
+      "error_ids": [],
+      "feasibility": "答卷提出数理基础条件，但把INS、致远、电院的不同路径混合；有条件提名可识别，不代选路径计覆盖。",
+      "key_condition": "需数理基础扎实并能展示大创算法实操，且须明确实际申请的招生院系。",
+      "label": "上海交通大学 · 自然科学研究院（INS）/ 电子信息与电气工程学院",
+      "reason": "矩阵INS/致远与正文INS/电院并列，数学与生医工代码未与单一招生院系绑定；不替答卷选择一条独立路径，故不作为生命学院或公卫的匹配。",
+      "school_key": "上海交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-detail",
+      "answer_quote": "#### 16. 上海交通大学 · 自然科学研究院（INS）/ 电子信息与电气工程学院\n* **招生院系与平台**：自然科学研究院（Institute of Natural Sciences, INS）/ 电院交叉平台。\n* **专业名称及代码**：070100 数学（计算系统生物学方向）/ 083100 生物医学工程。\n* **培养层次**：直博生。\n* **核心干实验方向**：系统生物学非线性动力学建模、单细胞时序动态反演、神经网络算法在生物医学中的应用。\n* **代表性导师及纯干实验度**：周栋焯教授（计算系统生物学与神经计算）、张跃教授等。纯干实验度：**100%（数学计算与数值模拟）**。\n* **录取门槛与背景匹配分析**：INS 偏重数理逻辑与算法建模。六级 425 分达标。该院夏令营重点考核高等数学、线性代数与数值计算能力，若考生数理基础扎实，且有大创算法实操，属于小而精的顶尖学术路径。",
+      "canonical_candidate_key": "sjtu-ins-other-merged",
+      "error_ids": [],
+      "feasibility": "答卷提出数理基础条件，但把INS、致远、电院的不同路径混合；有条件提名可识别，不代选路径计覆盖。",
+      "key_condition": "需数理基础扎实并能展示大创算法实操，且须明确实际申请的招生院系。",
+      "label": "上海交通大学 · 自然科学研究院（INS）/ 电子信息与电气工程学院",
+      "reason": "矩阵INS/致远与正文INS/电院并列，数学与生医工代码未与单一招生院系绑定；不替答卷选择一条独立路径，故不作为生命学院或公卫的匹配。",
+      "school_key": "上海交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-table",
+      "answer_quote": "| **17** | 浙江大学 | 生命科学学院（生物信息学研究所） | 071000 生物学（生物信息学方向） | 直博 | 空间转录组学算法、非编码 RNA 网络 | 顶尖 (主攻) | 警惕450–499线，需导师破格推荐 |",
+      "canonical_candidate_key": "zju-life",
+      "error_ids": [],
+      "feasibility": "答卷给出5—6月向陈铭寄Manuscript、争取院级举荐或9月预推免动作；正式破格权限及门槛是否改变未核准，不能作为已经可行的方案计分。",
+      "key_condition": "在425–449现状下取得适用申请周期的学院正式破格准入依据，或确认另一批次实际准入条款。",
+      "label": "浙江大学 · 生命科学学院（生物信息学研究所）",
+      "reason": "生科院生物学直博及计算方向身份明确；但425–449分靠导师举荐或换预推免批次是否存在正式英语破格授权有实质争议。未指定申请周期且相关历史官网读取失败，保留可行性待核，不能默认导师可突破硬限制。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A17-detail",
+      "answer_quote": "#### 17. 浙江大学 · 生命科学学院（生物信息学研究所）\n* **招生院系与平台**：生命科学学院生物信息学研究所。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：空间转录组学算法开发、非编码调控 RNA 与网络生物学、动植物比较基因组演化。\n* **代表性导师及纯干实验度**：陈铭教授（浙大生信所所长，纯干实验带头人）、周琦教授（性染色体演化与比较基因组学）。\n* **录取门槛与关键破局策略**：**特别注意防坑规避**：浙大生科院夏令营有时要求六级≥460 分或设为机筛门槛，425–449 分在常规夏令营网申中存在初审风险。**破解方案**：直接在 5~6 月邮件联系陈铭教授课题组表明直博志向并寄送 Manuscript，争取导师在学院层面的破格举荐；或转战 9 月初的浙大预推免批次，利用导师直博锁定权突围。",
+      "canonical_candidate_key": "zju-life",
+      "error_ids": [],
+      "feasibility": "答卷给出5—6月向陈铭寄Manuscript、争取院级举荐或9月预推免动作；正式破格权限及门槛是否改变未核准，不能作为已经可行的方案计分。",
+      "key_condition": "在425–449现状下取得适用申请周期的学院正式破格准入依据，或确认另一批次实际准入条款。",
+      "label": "浙江大学 · 生命科学学院（生物信息学研究所）",
+      "reason": "生科院生物学直博及计算方向身份明确；但425–449分靠导师举荐或换预推免批次是否存在正式英语破格授权有实质争议。未指定申请周期且相关历史官网读取失败，保留可行性待核，不能默认导师可突破硬限制。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A18-table",
+      "answer_quote": "| **18** | 浙江大学 | 农业与生物技术学院（农学院） | 071020 生物信息学 / 090102 作物信息学 | 直博 | 表观组学算法开发、超算集群多组学分析 | 极高性价比 | 门槛相对务实，生信认可度高 |",
+      "canonical_candidate_key": "zju-agri",
+      "error_ids": [],
+      "label": "浙江大学 · 农业与生物技术学院（农学院）",
+      "reason": "农学院生信计算研究主体可识别；但六级425即可直博的结论与历史招生门槛线索冲突，题面无届别，官方目标简章未成功读取；不能以同校其他学院门槛裁定，申请适配保留待核。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A18-detail",
+      "answer_quote": "#### 18. 浙江大学 · 农业与生物技术学院（农学院）\n* **招生院系与平台**：农业与生物技术学院作物科学研究所 / 生物信息学团队。\n* **专业名称及代码**：071020 生物信息学 / 090102 作物信息学。\n* **培养层次**：直博生。\n* **核心干实验方向**：表观基因组学算法开发、大尺度重测序群体遗传学计算、超算集群多组学数据挖掘。\n* **代表性导师及纯干实验度**：樊龙江教授（国家杰青，中国生信知名学者，组内设独立纯干实验算法与大数据组）。纯干实验度：**100%（干实验计算分析）**。\n* **录取门槛与背景匹配分析**：**华五极高性价比优质直博！** 浙大农学院学科实力全国顶尖（A+），樊龙江团队干实验研究水平极高。相较生科院，农学院对外语考核更加务实，六级 425 分满足要求，对生信专业科班出身极其友好，直博初审与面试通过率显著高于生科院学硕。",
+      "canonical_candidate_key": "zju-agri",
+      "error_ids": [],
+      "label": "浙江大学 · 农业与生物技术学院（农学院）",
+      "reason": "农学院生信计算研究主体可识别；但六级425即可直博的结论与历史招生门槛线索冲突，题面无届别，官方目标简章未成功读取；不能以同校其他学院门槛裁定，申请适配保留待核。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A19-table",
+      "answer_quote": "| **19** | 南京大学 | 生命科学学院 / 医药生物技术国重室 | 071000 生物学（生物信息学方向） | 直博 | 宏基因组与抗性组挖掘、系统生物学计算 | 高水平 (主攻) | 六级425+合规，重综合笔试 |",
+      "canonical_candidate_key": "nju-life",
+      "error_ids": [],
+      "label": "南京大学 · 生命科学学院",
+      "reason": "生命科学学院下国重室为平台，生物学直博与系统/宏基因组计算路径明确。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19-detail",
+      "answer_quote": "#### 19. 南京大学 · 生命科学学院\n* **招生院系与平台**：医药生物技术全国重点实验室 / 模式动物与生物信息学中心。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：宏基因组抗性基因演化、系统生物学计算模拟、代谢多组学集成算法。\n* **代表性导师及纯干实验度**：陈迪教授、田大成教授（植物基因组与演化生信）、戈惠明团队生信分析平台。\n* **录取门槛与背景匹配分析**：南京大学直博六级门槛要求 425 分，425–449 分合规。南大注重基础综合素质笔试与面试，在投 SCI 可直接作为综合学术能力的证明。生信方向生源在南大生命学院属于稀缺资源，直博录取希望稳健。",
+      "canonical_candidate_key": "nju-life",
+      "error_ids": [],
+      "label": "南京大学 · 生命科学学院",
+      "reason": "生命科学学院下国重室为平台，生物学直博与系统/宏基因组计算路径明确。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-table",
+      "answer_quote": "| **20** | 中国科学技术大学 | 生命科学与医学部（生医部） | 071000 生物学（计算生物学/生信方向） | 直博 | 单细胞多组学算法研发、从头蛋白质计算 | 核心优先 (主攻) | 六级425+完全合规，极度欢迎 |",
+      "canonical_candidate_key": "ustc-biomed",
+      "error_ids": [],
+      "label": "中国科学技术大学 · 生命科学与医学部（生医部）",
+      "reason": "生命科学与医学部为参考生物与医学学部的同校规范单位；计算生物学、生信及直博意向明确，导师只是细化方向。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-detail",
+      "answer_quote": "#### 20. 中国科学技术大学 · 生命科学与医学部（生医部）\n* **招生院系与平台**：微观磁共振中国科学院重点实验室 / 生医部计算生物学中心。\n* **专业名称及代码**：071000 生物学（计算生物学 / 生物信息学方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：单细胞与空间多组学算法研发、表观遗传组学计算建模、从头蛋白质计算与分子动力学模拟（AI4Science）。\n* **代表性导师及纯干实验度**：瞿昆教授（国家杰青，单细胞空间组学生信算法顶尖大牛，纯干实验团队庞大）、刘海燕教授（蛋白质从头设计与计算模拟世界知名学者）。纯干实验度：**100%（算法研发与大规模集群计算）**。\n* **录取门槛与背景匹配分析**：**华五梯队绝对第一优先主推目标！** 中科大崇尚数理与硬核科研，全校政策对英语六级仅要求 425 分过线，绝不因 425–449 分歧视学生。瞿昆教授实验室拥有国际一流的单细胞生信分析团队，亟需编程功底扎实、专注干实验的生信专业直博生。郑大 前约10%+SCI 在投的背景极度符合其遴选偏好，必须全力争取！",
+      "canonical_candidate_key": "ustc-biomed",
+      "error_ids": [],
+      "label": "中国科学技术大学 · 生命科学与医学部（生医部）",
+      "reason": "生命科学与医学部为参考生物与医学学部的同校规范单位；计算生物学、生信及直博意向明确，导师只是细化方向。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-table",
+      "answer_quote": "| **21** | 西湖大学 | 生命科学学院（计算生物学实验室） | 071000 生物学（计算生物学方向） | 直博 | 蛋白质组 AI 大模型、微量组学数据挖掘 | 顶尖 (主攻) | 全英文考核，注重科研潜质 |",
+      "canonical_candidate_key": "westlake-biology",
+      "error_ids": [],
+      "label": "西湖大学 · 生命科学学院（计算生物学研究方向）",
+      "reason": "西湖生命学院生物学博士路径真实，科研方向可契合干实验；学籍究竟独立西湖或浙大/复旦联培未明确，不凭联合历史跨校匹配华五参考。",
+      "school_key": "西湖大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-detail",
+      "answer_quote": "#### 21. 西湖大学 · 生命科学学院（计算生物学研究方向）\n* **招生院系与平台**：生命科学学院（SLS）/ 西湖实验室（生命科学和生物医药浙江省实验室）。\n* **专业名称及代码**：071000 生物学（计算生物学方向）。\n* **培养层次**：直博生。\n* **核心干实验方向**：微量/单细胞蛋白质组大数据挖掘、AI 蛋白质从头设计、计算分子生物物理学。\n* **代表性导师及纯干实验度**：郭天南研究员（蛋白质组大数据与 AI 临床转化领航者）、卢培龙研究员（计算结构生物学）、章永登研究员。\n* **录取门槛与背景匹配分析**：新型研究型大学典范，科研条件与博士生薪酬待遇均比肩国际名校。实行国际通行的“申请-审核制”，虽然面试全英文答辩对六级 425–449 考生提出了口语挑战，但西湖大学打破唯论文、唯分数论，极其关注实际 Coding 与独立解决问题的能力。若附上在投论文全文与 GitHub 代码链接，极易获得导师直荐面试机会。",
+      "canonical_candidate_key": "westlake-biology",
+      "error_ids": [],
+      "label": "西湖大学 · 生命科学学院（计算生物学研究方向）",
+      "reason": "西湖生命学院生物学博士路径真实，科研方向可契合干实验；学籍究竟独立西湖或浙大/复旦联培未明确，不凭联合历史跨校匹配华五参考。",
+      "school_key": "西湖大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22-table",
+      "answer_quote": "| **22** | 武汉大学 | 生命科学学院 / 病毒学国重室 | 071000 生物学（生物信息学方向） | 硕士 | RNA 组学生信算法、病毒基因组变异网络 | 中九标杆 (稳妥) | 425+过线合规，生信生源契合 |",
+      "canonical_candidate_key": "whu-life",
+      "error_ids": [],
+      "label": "武汉大学 · 生命科学学院",
+      "reason": "生命学院生物学/生信方向学硕与学生接受中九硕士一致，院系与相关路径明确；不采信托底概率保证。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22-detail",
+      "answer_quote": "#### 22. 武汉大学 · 生命科学学院\n* **招生院系与平台**：病毒学国家重点实验室 / 杂交水稻全国重点实验室。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：RNA 修饰组学生信算法、病毒基因组变异网络、基因表达调控计算模型。\n* **代表性导师及纯干实验度**：周宇教授（RNA 生物信息学知名学者）、杜润蕾教授等。纯干实验方向。\n* **录取门槛与背景匹配分析**：**中九托底核心标杆！** 武大生科院六级要求 425 分，425–449 分达标。武大对 211 院校排名前 10% 认可度极高，夏令营初审通过概率大。硕士学制 3 年，能为考生未来转攻海外全奖 PhD 或国内华五名校博士提供进退自如的跳板。",
+      "canonical_candidate_key": "whu-life",
+      "error_ids": [],
+      "label": "武汉大学 · 生命科学学院",
+      "reason": "生命学院生物学/生信方向学硕与学生接受中九硕士一致，院系与相关路径明确；不采信托底概率保证。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-table",
+      "answer_quote": "| **23** | 华中科技大学 | 生命科学与技术学院（国家 A+ 学科平台）| 083100 生物医学工程 / 071000 生物学 | 硕士 | 蛋白质修饰算法开发（GPS）、组学数据库 | 核心王牌 (优选) | 425+过线合规，纯干实验强校 |",
+      "canonical_candidate_key": "hust-life",
+      "error_ids": [],
+      "label": "华中科技大学 · 生命科学与技术学院（生物医学工程 A+ 平台）",
+      "reason": "同一生命科学与技术学院内生医工/生物学专业备选及GPS/数据库干实验方向明确，按参考学院粒度评价。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-detail",
+      "answer_quote": "#### 23. 华中科技大学 · 生命科学与技术学院（生物医学工程 A+ 平台）\n* **招生院系与平台**：生命科学与技术学院 / 生物医学工程国家 A+ 学科平台。\n* **专业名称及代码**：083100 生物医学工程 / 071000 生物学。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：蛋白质翻译后修饰计算预测算法（GPS 系列工具研发）、高通量组学数据库与云服务平台开发、癌症临床多组学计算。\n* **代表性导师及纯干实验度**：薛宇教授（长江学者，全球蛋白质修饰生信领域泰斗，纯干实验旗帜性学者）、郭安源教授。纯干实验度：**100%（软件著作、算法代码与数据库平台）**。\n* **录取门槛与背景匹配分析**：**中九硕士第一核心优选王牌！** 华科生医工学科评估与东南并列全国第一（A+）。薛宇教授团队是全国纯干实验团队的标杆，完全摒弃湿实验干扰。六级 425 分及格即可报名，郑大 前约10% 配备在投 SCI 在夏令营评审中属于头部竞争力，极易斩获“优秀营员（优营）”直通录取。",
+      "canonical_candidate_key": "hust-life",
+      "error_ids": [],
+      "label": "华中科技大学 · 生命科学与技术学院（生物医学工程 A+ 平台）",
+      "reason": "同一生命科学与技术学院内生医工/生物学专业备选及GPS/数据库干实验方向明确，按参考学院粒度评价。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-table",
+      "answer_quote": "| **24** | 中山大学 | 生命科学学院 | 071000 生物学（生物信息学方向） | 硕士 | RNA 修饰算法、高通量测序计算管道 | 高度契合 (主攻) | 425+过线合规，考核规范透明 |",
+      "canonical_candidate_key": "sysu-life",
+      "error_ids": [],
+      "label": "中山大学 · 生命科学学院",
+      "reason": "生命科学学院生物学/生信学硕路径明确，与干实验及中九硕士接受范围相符。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-detail",
+      "answer_quote": "#### 24. 中山大学 · 生命科学学院\n* **招生院系与平台**：有害生物控制与资源利用国家重点实验室 / 生信与基因组学中心。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：RNA 编辑与表观转录组算法、高通量单细胞测序分析、环境多组学计算。\n* **代表性导师及纯干实验度**：张锐教授（高通量 RNA 测序与生信算法权威）、骆观正教授、李文均教授。\n* **录取门槛与背景匹配分析**：中大生科院学术规范严格，六级 425 分达标。夏令营考核公开透明，面试重在考查统计学功底与 Linux/R 数据分析能力，与考生背景吻合度极佳，硕士录用机会稳健。",
+      "canonical_candidate_key": "sysu-life",
+      "error_ids": [],
+      "label": "中山大学 · 生命科学学院",
+      "reason": "生命科学学院生物学/生信学硕路径明确，与干实验及中九硕士接受范围相符。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-table",
+      "answer_quote": "| **25** | 中山大学 | 中山医学院 / 广州国家超算中心 | 1001Z2 医学信息学 / 081200 计算机 | 硕士 | 天河二号超级计算组学、临床肿瘤大数据 | 高性价比 (主攻) | 425+过线合规，计算算力顶级 |",
+      "canonical_candidate_key": "sysu-med-cs-merged",
+      "error_ids": [],
+      "label": "中山大学 · 中山医学院 / 计算机学院",
+      "reason": "矩阵中山医学院/超算平台、正文中山医学院/计算机学院以及医学信息学/计算机代码未分别绑定独立申请主体；保留一个合并候选，不把超算资源与两学院自动拼成多个项目，也不把中山医学院等同深圳医学院。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-detail",
+      "answer_quote": "#### 25. 中山大学 · 中山医学院 / 计算机学院\n* **招生院系与平台**：中山医学院医学信息学系 / 国家超级计算广州中心（天河二号）。\n* **专业名称及代码**：1001Z2 医学信息学 / 081200 计算机科学与技术。\n* **培养层次**：学术型/专业型硕士。\n* **核心干实验方向**：超级计算组学数据加速处理、重大疾病临床多组学大数据、医学多模态融合模型。\n* **代表性导师及纯干实验度**：高志良/林水宾课题组生信计算组、陆遥教授（超算生信应用）。\n* **录取门槛与背景匹配分析**：坐拥天河二号超算资源，计算硬件配置全国顶尖。六级 425 分过线即可。该方向极其青睐能熟练编写分析脚本且对生物医学问题有敏锐洞察力的生信科班生，性价比超群。",
+      "canonical_candidate_key": "sysu-med-cs-merged",
+      "error_ids": [],
+      "label": "中山大学 · 中山医学院 / 计算机学院",
+      "reason": "矩阵中山医学院/超算平台、正文中山医学院/计算机学院以及医学信息学/计算机代码未分别绑定独立申请主体；保留一个合并候选，不把超算资源与两学院自动拼成多个项目，也不把中山医学院等同深圳医学院。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-table",
+      "answer_quote": "| **26** | 厦门大学 | 生命科学学院（生物信息学系） | 071000 生物学（生物信息学方向） | 硕士 | 化学信息学、代谢组学数据挖掘、数据库 | 稳定主攻 (主攻) | 425+过线合规，老牌生信基地 |",
+      "canonical_candidate_key": "xmu-life",
+      "error_ids": [],
+      "label": "厦门大学 · 生命科学学院（生物信息学系）",
+      "reason": "生命学院生物学下生信方向学硕路径明确，化学信息、代谢组学和数据库研究适配。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-detail",
+      "answer_quote": "#### 26. 厦门大学 · 生命科学学院（生物信息学系）\n* **招生院系与平台**：细胞应激生物学国家重点实验室 / 生物信息学系。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：代谢组学分析算法开发、化学信息学与药物虚拟筛选、生物信息数据库构建。\n* **代表性导师及纯干实验度**：纪志梁教授（生信教研室主任，化学信息学大牛）、林树海教授（代谢多组学）。\n* **录取门槛与背景匹配分析**：国内最早建立生信教研室的高校之一，学科传承厚重。六级 425 分合规，郑大 前约10% 稳过初审。面试风格平实温和，着重考核基础实验与计算机分析素养，属于必保主攻路线。",
+      "canonical_candidate_key": "xmu-life",
+      "error_ids": [],
+      "label": "厦门大学 · 生命科学学院（生物信息学系）",
+      "reason": "生命学院生物学下生信方向学硕路径明确，化学信息、代谢组学和数据库研究适配。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27-table",
+      "answer_quote": "| **27** | 东南大学 | 生物科学与医学工程学院（生医工 A+） | 083100 生物医学工程（生物信息技术） | 硕士 | 生信数据算法、计算神经生物学与脑网络 | 顶尖工科 (主攻) | 425+过线合规，工科生医旗舰 |",
+      "canonical_candidate_key": "seu-bme",
+      "error_ids": [],
+      "label": "东南大学 · 生物科学与医学工程学院",
+      "reason": "实际推荐是生物科学与医学工程学院083100生医工生信方向；与参考生命科学与技术学院是不同独立院系，官方资料支持高度相关方向，只可跨院系匹配。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27-detail",
+      "answer_quote": "#### 27. 东南大学 · 生物科学与医学工程学院\n* **招生院系与平台**：生物电子学国家重点实验室 / 生医工 A+ 学科平台。\n* **专业名称及代码**：083100 生物医学工程（生物信息技术方向）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：生物信息技术算法开发、计算神经生物学与脑网络建模、纳米医学组学计算。\n* **代表性导师及纯干实验度**：孙啸教授（东南生信开创学者）、谢震教授。纯干实验计算方向。\n* **录取门槛与背景匹配分析**：工科生医旗舰，六级 425 分达标。生信技术方向推免生指标稳定，对理学背景的生信学生持欢迎态度，综合考核看重工程实现与算法优化能力。",
+      "canonical_candidate_key": "seu-bme",
+      "error_ids": [],
+      "label": "东南大学 · 生物科学与医学工程学院",
+      "reason": "实际推荐是生物科学与医学工程学院083100生医工生信方向；与参考生命科学与技术学院是不同独立院系，官方资料支持高度相关方向，只可跨院系匹配。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28-table",
+      "answer_quote": "| **28** | 南开大学 | 生命科学学院 / 统计与数据科学学院 | 071020 生物信息学（独立二级学科） | 硕士 | 组学统计推断、高通量测序数据质控与算法 | 稳健优质 (稳妥) | 425+过线合规，专业代码精准 |",
+      "canonical_candidate_key": "nku-life",
+      "error_ids": [],
+      "label": "南开大学 · 生命科学学院 / 统计与数据科学学院",
+      "reason": "矩阵标题并列统计学院，但正文招生院系只明确生命学院及内部生信中心，未独立给统计学院申请路径，按一条生命学院生信研究学硕提取；历史官方材料支持该院生信项目身份。071020当前是否继续使用未逐届核准，不把旧代码差异冒充已证实项目不存在。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28-detail",
+      "answer_quote": "#### 28. 南开大学 · 生命科学学院 / 统计与数据科学学院\n* **招生院系与平台**：生命科学学院 / 医药生物技术生物信息学研究中心。\n* **专业名称及代码**：071020 生物信息学（独立二级学科专业代码）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：高通量测序数据质控与比对算法、转录组多组学统计推断、植物分子系统演化。\n* **代表性导师及纯干实验度**：王春国教授、高山副教授（高通量测序生物信息学名宿）。纯干实验度：**100%（纯生信计算与统计分析）**。\n* **录取门槛与背景匹配分析**：南开是全国极少数在硕士招生专业目录中依然直接开设 **“071020 生物信息学”** 独立代码的高校，专业对口度 100%。六级 425 分过线合规，郑大排名前 10% 入营率极高，考核内容与本科课程无缝衔接，是绝对稳健的优质保底之选。",
+      "canonical_candidate_key": "nku-life",
+      "error_ids": [],
+      "label": "南开大学 · 生命科学学院 / 统计与数据科学学院",
+      "reason": "矩阵标题并列统计学院，但正文招生院系只明确生命学院及内部生信中心，未独立给统计学院申请路径，按一条生命学院生信研究学硕提取；历史官方材料支持该院生信项目身份。071020当前是否继续使用未逐届核准，不把旧代码差异冒充已证实项目不存在。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29-table",
+      "answer_quote": "| **29** | 天津大学 | 生命科学学院 | 071000 生物学（计算生物学方向） | 硕士 | Z 曲线基因组识别、非编码 RNA 结构计算 | 稳健优质 (稳妥) | 425+过线合规，生信学派源头 |",
+      "canonical_candidate_key": "tju-life",
+      "error_ids": [],
+      "label": "天津大学 · 生命科学学院",
+      "reason": "天津生命学院生物学下计算生物学硕士方向可识别，虽参考未列天大，也可作为符合接受范围的补充，不因名单外判错。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29-detail",
+      "answer_quote": "#### 29. 天津大学 · 生命科学学院\n* **招生院系与平台**：生命科学学院 / 天津市功能基因组与生物信息重点实验室。\n* **专业名称及代码**：071000 生物学（计算生物学方向）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：Z 曲线基因组识别算法传承、非编码 RNA 结构计算、计算蛋白质组学。\n* **代表性导师及纯干实验度**：张春霆院士团队传承课题组（中国生物信息学理论发源地之一）、王克威教授。\n* **录取门槛与背景匹配分析**：天大在生信界享有崇高声誉，其 Z 曲线算法被写进全国生信教科书。六级 425 分合规即可申报，极其认可生信本专业学子，面试着重考察算法推导与生信基础概念，入营录用率极为可观。",
+      "canonical_candidate_key": "tju-life",
+      "error_ids": [],
+      "label": "天津大学 · 生命科学学院",
+      "reason": "天津生命学院生物学下计算生物学硕士方向可识别，虽参考未列天大，也可作为符合接受范围的补充，不因名单外判错。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30-table",
+      "answer_quote": "| **30** | 哈尔滨工业大学 | 计算学部 / 生命科学与技术学院 | 081200 计算机 / 083100 生物医学工程 | 硕士 | 基因组底层加速算法、超大集群分布式计算 | 顶尖算法 (冲刺) | 425+过线合规，机考侧重代码 |",
+      "canonical_candidate_key": "hit-computing-life-merged",
+      "error_ids": [],
+      "feasibility": "C++/Python训练可实施，但两个独立院系及学位路径未分别绑定，暂只按一个合并条件候选审阅。",
+      "key_condition": "算法机试能力过硬，并确定计算学部还是生命学院的实际专业。",
+      "label": "哈尔滨工业大学 · 计算学部 / 生命科学与技术学院",
+      "reason": "计算学部/生命学院和计算机/生医工两个独立单位路径含糊合并，机考条件有明确准备要求，但不替答卷拆或选择招生主体；无参考相同学校。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30-detail",
+      "answer_quote": "#### 30. 哈尔滨工业大学 · 计算学部 / 生命科学与技术学院\n* **招生院系与平台**：哈工设计算学部生物信息技术研究中心 / 国家重大科技基础设施海量基因组数据计算平台。\n* **专业名称及代码**：081200 计算机科学与技术 / 083100 生物医学工程。\n* **培养层次**：学术型/工程硕士。\n* **核心干实验方向**：三代测序变异检测底层软件研发、海量组学数据分布式并行计算架构、基因组数据隐私计算。\n* **代表性导师及纯干实验度**：王亚东教授（国家杰青，国家生物大数据重大科技基础设施首席科学家，国际顶尖生物计算大师）、刘博教授、李一教授。纯干实验度：**100%（计算机软硬件与底层算法实现）**。\n* **录取门槛与背景匹配分析**：全国计算机学科顶峰与生物计算的深度融合体。王亚东团队具备国家级大科学工程平台，科研实力极其雄厚。六级 425 分合规。该专业推免考核通常包含机考（C++/Python），若考生算法机试过硬，将展现出无与伦比的工科生信含金量。",
+      "canonical_candidate_key": "hit-computing-life-merged",
+      "error_ids": [],
+      "feasibility": "C++/Python训练可实施，但两个独立院系及学位路径未分别绑定，暂只按一个合并条件候选审阅。",
+      "key_condition": "算法机试能力过硬，并确定计算学部还是生命学院的实际专业。",
+      "label": "哈尔滨工业大学 · 计算学部 / 生命科学与技术学院",
+      "reason": "计算学部/生命学院和计算机/生医工两个独立单位路径含糊合并，机考条件有明确准备要求，但不替答卷拆或选择招生主体；无参考相同学校。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31-table",
+      "answer_quote": "| **31** | 西安交通大学 | 生命科学与技术学院（叶凯工作室） | 083100 生物医学工程 / 071000 生物学 | 硕士 | 复杂结构变异算法研发、深度学习组学 | 顶尖课题组 (主攻)| 425+过线合规，成果世界一流 |",
+      "canonical_candidate_key": "xjtu-life",
+      "error_ids": [],
+      "label": "西安交通大学 · 生命科学与技术学院 / 数学与统计学院",
+      "reason": "矩阵已明确生命科学与技术学院叶凯工作室，正文生命学院生信平台亦明确；数学与统计学院只并列未给独立路径，不拆出额外申请。参考只显示西安交大，没有额外院系限制。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31-detail",
+      "answer_quote": "#### 31. 西安交通大学 · 生命科学与技术学院 / 数学与统计学院\n* **招生院系与平台**：叶凯青年科学家工作室 / 生命科学与技术学院生物信息平台。\n* **专业名称及代码**：083100 生物医学工程 / 071000 生物学。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：复杂基因组结构变异识别算法（开发独立生信工具）、深度学习驱动的空间组学与网络构建、耐药菌基因组演化计算。\n* **代表性导师及纯干实验度**：叶凯教授（全球计算生物学顶尖学者，多篇 Nature/Science 论文通讯作者，纯计算团队）。纯干实验度：**100%（纯干实验、算法代码与超算挖掘）**。\n* **录取门槛与背景匹配分析**：**中九硕士中的顶配科研平台！** 叶凯教授工作室纯干实验科研产出处于全球前沿梯队。西交大推免对 211 高校前 10% 非常青睐，六级 425 分即可报名。工作室氛围纯粹，代码规范要求严格，对于想在硕士阶段发表顶刊纯生信论文的学生是梦幻级选择。",
+      "canonical_candidate_key": "xjtu-life",
+      "error_ids": [],
+      "label": "西安交通大学 · 生命科学与技术学院 / 数学与统计学院",
+      "reason": "矩阵已明确生命科学与技术学院叶凯工作室，正文生命学院生信平台亦明确；数学与统计学院只并列未给独立路径，不拆出额外申请。参考只显示西安交大，没有额外院系限制。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32-table",
+      "answer_quote": "| **32** | 同济大学 | 生命科学与技术学院（表观生信中心） | 071000 生物学（生物信息学方向） | 硕士 | 表观基因组学多组学算法、增强子调控网络 | 顶尖特色 (优选) | 425+过线合规，表观生信声誉极高 |",
+      "canonical_candidate_key": "tongji-life",
+      "error_ids": [],
+      "label": "同济大学 · 生命科学与技术学院",
+      "reason": "同济生命科学与技术学院生物学下表观组学/生信学硕路径明确，按参考学院粒度有效；整个列出团队是否100%纯干未作同等保证。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32-detail",
+      "answer_quote": "#### 32. 同济大学 · 生命科学与技术学院\n* **招生院系与平台**：细胞干性与命运编辑前沿科学中心 / 表观基因组学与生物信息学中心。\n* **专业名称及代码**：071000 生物学（生物信息学方向）。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：表观基因组多组学整合算法研发、远端增强子调控网络构建、早期胚胎发育多组学大数据推断。\n* **代表性导师及纯干实验度**：张勇教授（国家杰青，全球表观组学生信权威学者，纯干实验代表）、高绍荣院士团队生信组。纯干实验度：**100%（纯生信计算与算法构建）**。\n* **录取门槛与背景匹配分析**：同济生科在表观遗传学和生物信息学领域声誉极高，学术水准比肩华五。同济夏令营对六级要求为 425 分合格线，郑大排名前 10% 匹配度极佳。张勇团队在 Cell、Nature 系列期刊发文频繁，纯干实验研究生培养体系成熟，是顶尖特色 985 硕士首选。",
+      "canonical_candidate_key": "tongji-life",
+      "error_ids": [],
+      "label": "同济大学 · 生命科学与技术学院",
+      "reason": "同济生命科学与技术学院生物学下表观组学/生信学硕路径明确，按参考学院粒度有效；整个列出团队是否100%纯干未作同等保证。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33-table",
+      "answer_quote": "| **33** | 北京协和医学院 | 中国医学科学院基础医学研究所 | 1001Z2 医学信息学 / 083100 生物医学工程 | 硕士 | 临床重大疾病组学数据挖掘、精准医疗计算 | 顶级殿堂 (优选) | 425+过线合规，医学大数据枢纽 |",
+      "canonical_candidate_key": "pumc-basic-medinfo",
+      "error_ids": [],
+      "label": "中国医学科学院 / 北京协和医学院 · 基础医学研究所",
+      "reason": "基础医学研究所真实存在，但答卷将医学信息学系、1001Z2/083100与基础所学硕绑定的专业归属未能核实，历史官方显示医学信息学另属医学信息所，且推免硕士与普博英语条款不同。未指定届别，不能把未知四级450资格判不达标，也不能以基础所存在就确认该具体组合，保留实质待核。",
+      "school_key": "北京协和医学院",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A33-detail",
+      "answer_quote": "#### 33. 中国医学科学院 / 北京协和医学院 · 基础医学研究所\n* **招生院系与平台**：医学分子生物学国家重点实验室 / 基础医学研究所医学信息学系。\n* **专业名称及代码**：1001Z2 医学信息学 / 083100 生物医学工程。\n* **培养层次**：学术型硕士（学硕）。\n* **核心干实验方向**：重大疾病临床多组学队列数据挖掘、医学知识图谱与计算系统生物学、精准医疗靶点发现算法。\n* **代表性导师及纯干实验度**：高荣保研究员、单广良教授、蒋澄宇课题组生信计算团队。\n* **录取门槛与背景匹配分析**：协和是中国医学的最高殿堂，其基础医学研究所拥有顶级多组学队列与临床数据资源。六级要求 425 分，425–449 分完全合规。协和非常看重能熟练做数据分析的生信本科生，硕士含金量极高，未来进可申请顶尖医学博士，退可直通顶尖三甲医院生信中心或跨国药企大数据部门，托底效果无懈可击。",
+      "canonical_candidate_key": "pumc-basic-medinfo",
+      "error_ids": [],
+      "label": "中国医学科学院 / 北京协和医学院 · 基础医学研究所",
+      "reason": "基础医学研究所真实存在，但答卷将医学信息学系、1001Z2/083100与基础所学硕绑定的专业归属未能核实，历史官方显示医学信息学另属医学信息所，且推免硕士与普博英语条款不同。未指定届别，不能把未知四级450资格判不达标，也不能以基础所存在就确认该具体组合，保留实质待核。",
+      "school_key": "北京协和医学院",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A03-early",
+      "answer_quote": "若考生的**四级成绩在 500 分以上**，可直接凭借四级成绩合规通过语言初审！",
+      "canonical_candidate_key": "thu-ptn",
+      "error_ids": [],
+      "feasibility": "答卷明确要求查看已有四级成绩；四级未知可通过成绩单核查，达标分支受官方历史PTN条款支持。低于500后仅凭在投请求审查的分支未确认成立，不为其补造保证。",
+      "key_condition": "核查CET4是否至少500；满足该条时申请PTN，不能把在投稿件当录用论文豁免。",
+      "label": "清华-北大-北京生命科学研究所（NIBS）联合培养博士研究生项目（PTN 项目）",
+      "reason": "同一候选在正文条件说明、优先级或时间表中的重复，沿用同一去重键。PTN为独立联合培养项目，明确含清华方面；四级未知但答卷给出核查四级500的可行分支，不能因六级425–449就直接排除。在投材料申请审查不等于已享有发表论文豁免。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-priority",
+      "answer_quote": "**本方案核心第一推荐主攻目标！**",
+      "canonical_candidate_key": "big-genomics",
+      "error_ids": [],
+      "label": "中国科学院北京基因组研究所（国家生物信息中心 CNCB）",
+      "reason": "同一候选在正文条件说明、优先级或时间表中的重复，沿用同一去重键。基因组所/国家生物信息中心为同一培养主体的名称及平台，组学与数据库计算博士方向明确；不是国科大生物物理所、生化所或杭高院。",
+      "school_key": "中国科学院北京基因组研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-priority",
+      "answer_quote": "**本方案核心第一优先推荐院校！**",
+      "canonical_candidate_key": "sinh-computational",
+      "error_ids": [],
+      "label": "中国科学院上海营养与健康研究所（SINH，原中德计算生物学所 PICB）",
+      "reason": "同一候选在正文条件说明、优先级或时间表中的重复，沿用同一去重键。营养与健康所与原PICB为历史沿革和计算生物学平台说明，不拆成两项；所级计算生物学直博方向有效，不因不在参考名单判错。",
+      "school_key": "中国科学院上海营养与健康研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-priority",
+      "answer_quote": "**华五梯队绝对第一优先主推目标！**",
+      "canonical_candidate_key": "ustc-biomed",
+      "error_ids": [],
+      "label": "中国科学技术大学 · 生命科学与医学部（生医部）",
+      "reason": "同一候选在正文条件说明、优先级或时间表中的重复，沿用同一去重键。生命科学与医学部为参考生物与医学学部的同校规范单位；计算生物学、生信及直博意向明确，导师只是细化方向。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-timeline",
+      "answer_quote": "重点攻坚中科院北京基因组所、中科大生医部等直博名额回流考核。",
+      "canonical_candidate_key": "big-genomics",
+      "error_ids": [],
+      "label": "中国科学院北京基因组研究所（国家生物信息中心 CNCB）",
+      "reason": "同一候选在正文条件说明、优先级或时间表中的重复，沿用同一去重键。基因组所/国家生物信息中心为同一培养主体的名称及平台，组学与数据库计算博士方向明确；不是国科大生物物理所、生化所或杭高院。",
+      "school_key": "中国科学院北京基因组研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-timeline",
+      "answer_quote": "重点攻坚中科院北京基因组所、中科大生医部等直博名额回流考核。",
+      "canonical_candidate_key": "ustc-biomed",
+      "error_ids": [],
+      "label": "中国科学技术大学 · 生命科学与医学部（生医部）",
+      "reason": "同一候选在正文条件说明、优先级或时间表中的重复，沿用同一去重键。生命科学与医学部为参考生物与医学学部的同校规范单位；计算生物学、生信及直博意向明确，导师只是细化方向。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 33,
+  "rubric_sha256": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+  "score": null,
+  "score_interval": [
+    42.71,
+    66.2
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "BY-G-APPLY",
+  "task_kind": "recommendation",
+  "task_sha256": "306412d8394dbc1d75ef88e62c0d3b7315293aaf1862188325a19a0deb5457f7",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "#### 01. 清华大学 · 自动化系（生物信息学研究中心）\n* **招生院系与平台**：信息科学与技术国家研究中心 / 自动化系生物信息学研究中心。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "#### 02. 北京大学 · 前沿交叉学科研究院（定量生物学中心 CQB）\n* **招生院系与平台**：前沿交叉学科研究院（AAIS）/ 定量生物学中心（Center for Quantitative Biology, CQB）。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "#### 06. 中国科学院北京基因组研究所（国家生物信息中心 CNCB）\n* **招生院系与平台**：国家生物信息中心（National Genomics Data Center, NGDC）/ 中国科学院大学生命科学学院。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国科学院北京基因组研究所"
+      },
+      {
+        "answer_quote": "#### 07. 中国科学院上海营养与健康研究所（SINH，原中德计算生物学所 PICB）\n* **招生院系与平台**：中国科学院上海营养与健康研究所 / 原中德计算生物学研究所（CAS-MPG PICB）。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国科学院上海营养与健康研究所"
+      },
+      {
+        "answer_quote": "#### 08. 中国科学院遗传与发育生物学研究所\n* **招生院系与平台**：分子系统生物学研究中心 / 生物信息学计算平台。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国科学院遗传与发育生物学研究所"
+      },
+      {
+        "answer_quote": "#### 09. 中国科学院动物研究所\n* **招生院系与平台**：膜生物学国家重点实验室 / 演化与系统生物学研究中心。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国科学院动物研究所"
+      },
+      {
+        "answer_quote": "#### 10. 中国科学院深圳先进技术研究院（SIAT）\n* **招生院系与平台**：合成生物学研究所（iSynBio）/ 定量合成生物学全国重点实验室。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国科学院深圳先进技术研究院"
+      },
+      {
+        "answer_quote": "#### 11. 中国农业科学院深圳农业基因组研究所（AGIS）\n* **招生院系与平台**：农业基因组学国家重点实验室（深圳大鹏新区基地，与国科大/华中农大联培直博）。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国农业科学院农业基因组研究所"
+      },
+      {
+        "answer_quote": "#### 12. 中国科学院微生物研究所\n* **招生院系与平台**：国家微生物科学数据中心（NMDC）/ 微生物资源与大数据研究中心。",
+        "downgraded": false,
+        "reason": "研究所级科研培养主体，按国科大或农科院科研培养/授位路径评价；不适用本科高校无985/211即降级的机械判断。各所独立申请，不因同属研究所自动认作华五学籍；联培称谓未确定之处记在候选理由。",
+        "school_key": "中国科学院微生物研究所"
+      },
+      {
+        "answer_quote": "#### 13. 复旦大学 · 生命科学学院\n* **招生院系与平台**：遗传工程国家重点实验室 / 现代人类学教育部重点实验室。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "#### 15. 上海交通大学 · 生命科学技术学院（生物信息学系 / Bio-X 研究院）\n* **招生院系与平台**：生命科学技术学院生物信息学系 / Bio-X 研究院。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "#### 17. 浙江大学 · 生命科学学院（生物信息学研究所）\n* **招生院系与平台**：生命科学学院生物信息学研究所。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "#### 19. 南京大学 · 生命科学学院\n* **招生院系与平台**：医药生物技术全国重点实验室 / 模式动物与生物信息学中心。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "南京大学"
+      },
+      {
+        "answer_quote": "#### 20. 中国科学技术大学 · 生命科学与医学部（生医部）\n* **招生院系与平台**：微观磁共振中国科学院重点实验室 / 生医部计算生物学中心。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "中国科学技术大学"
+      },
+      {
+        "answer_quote": "#### 21. 西湖大学 · 生命科学学院（计算生物学研究方向）\n* **招生院系与平台**：生命科学学院（SLS）/ 西湖实验室（生命科学和生物医药浙江省实验室）。",
+        "downgraded": "pending",
+        "reason": "新型研究型大学有独立博士学籍，也有复旦/浙大联合博士历史；答卷未指学籍或届别，无法确定应按西湖其他高校档或华五授位主体认定。不因研究实力宣传直接升档，实际分支待核。依据evidence.json west。",
+        "school_key": "西湖大学"
+      },
+      {
+        "answer_quote": "#### 22. 武汉大学 · 生命科学学院\n* **招生院系与平台**：病毒学国家重点实验室 / 杂交水稻全国重点实验室。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "#### 23. 华中科技大学 · 生命科学与技术学院（生物医学工程 A+ 平台）\n* **招生院系与平台**：生命科学与技术学院 / 生物医学工程国家 A+ 学科平台。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "#### 24. 中山大学 · 生命科学学院\n* **招生院系与平台**：有害生物控制与资源利用国家重点实验室 / 生信与基因组学中心。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "中山大学"
+      },
+      {
+        "answer_quote": "#### 26. 厦门大学 · 生命科学学院（生物信息学系）\n* **招生院系与平台**：细胞应激生物学国家重点实验室 / 生物信息学系。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "#### 27. 东南大学 · 生物科学与医学工程学院\n* **招生院系与平台**：生物电子学国家重点实验室 / 生医工 A+ 学科平台。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "#### 28. 南开大学 · 生命科学学院 / 统计与数据科学学院\n* **招生院系与平台**：生命科学学院 / 医药生物技术生物信息学研究中心。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "南开大学"
+      },
+      {
+        "answer_quote": "#### 29. 天津大学 · 生命科学学院\n* **招生院系与平台**：生命科学学院 / 天津市功能基因组与生物信息重点实验室。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "#### 30. 哈尔滨工业大学 · 计算学部 / 生命科学与技术学院\n* **招生院系与平台**：哈工设计算学部生物信息技术研究中心 / 国家重大科技基础设施海量基因组数据计算平台。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "#### 31. 西安交通大学 · 生命科学与技术学院 / 数学与统计学院\n* **招生院系与平台**：叶凯青年科学家工作室 / 生命科学与技术学院生物信息平台。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "西安交通大学"
+      },
+      {
+        "answer_quote": "#### 32. 同济大学 · 生命科学与技术学院\n* **招生院系与平台**：细胞干性与命运编辑前沿科学中心 / 表观基因组学与生物信息学中心。",
+        "downgraded": false,
+        "reason": "实际推荐为清北、华五或其他985大学，相对题面郑州大学211基准未降档。同校多个项目仅一条层次记录；冻参考及题设足以识别学校身份，不推断未知学生资格。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "#### 33. 中国医学科学院 / 北京协和医学院 · 基础医学研究所\n* **招生院系与平台**：医学分子生物学国家重点实验室 / 基础医学研究所医学信息学系。",
+        "downgraded": false,
+        "reason": "本项是基础医学研究所科研培养建议，按院所与实际协和授位主体作特色医学培养例外，不因无985标签机械降级；具体1001Z2/083100组合可行性另在A33/R10-01保留pending。",
+        "school_key": "北京协和医学院"
+      }
+    ],
+    "status": "pending"
+  }
+}

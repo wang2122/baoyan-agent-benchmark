@@ -1,0 +1,373 @@
+{
+  "actual_candidate_count": 21,
+  "answer_sha256": "bdabdcaa0ed14ef9e433b996c40ea98045c084be13400b180c82dc6dbac714a6",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 80.0
+  },
+  "confirmed_points": 80.0,
+  "diagnostic_score": 80.0,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-01": [
+      "BY-A-PLAN-R10-01"
+    ],
+    "ERR-02": [
+      "BY-A-PLAN-R10-01"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "教育部相关办法允许对有特殊学术专长或突出创新能力的学生，经三名以上本校教授联名推荐、学校审核公示后，可不受综合排名限制。",
+      "id": "ERR-01",
+      "reason": "将旧式特殊学术专长破格办法作为本题可行通道。本校当时适用的推免办法禁止为仅符合单一或部分指标者单列计划或破格推荐，不能凭科研成果和三名教授联名脱离综合评价排序。参见 evidence.json 的 E01、E02；仅归属资格与规则项。"
+    },
+    {
+      "answer_quote": "学院推免细则新版发布（约 9 月，面向 2026 届）→ **重新核对一遍条款有无变化**（这是你未来一年要用的规则版本）",
+      "id": "ERR-02",
+      "reason": "学生2024年10月大二上，2026年秋申请、2027年毕业。面向2026届的细则可作往届准备参考，不能称为本人未来申请直接适用的版本；缺少届时核对2027届本科推荐细则的明确说明。只归属规则适用届别项，不在阶段安排项重复处罚。"
+    }
+  ],
+  "excess_count": null,
+  "id": "BY-A-PLAN",
+  "input_sha256": "c6ee9edd0c8c375e1dca8a22be4944e2ba9661fb206a1b1c727010a2c1f480af",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "e1b05f97d25932139af35825b58415b2294f25b507b1df739afa5e74345ff993",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-01",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-02",
+      "kind": "quality",
+      "points": 35.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-03",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-04",
+      "kind": "quality",
+      "points": 12.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-05",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-06",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-07",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 21,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "清华",
+      "canonical_candidate_key": "清华大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "清华大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "北大",
+      "canonical_candidate_key": "北京大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "北京大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "北京大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "上交",
+      "canonical_candidate_key": "上海交通大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "上海交通大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "上海交通大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "浙大",
+      "canonical_candidate_key": "浙江大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "浙江大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "浙江大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "南大",
+      "canonical_candidate_key": "南京大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "南京大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "南京大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "东南",
+      "canonical_candidate_key": "东南大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "东南大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "东南大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "中科大",
+      "canonical_candidate_key": "中国科学技术大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学技术大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学技术大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "华科",
+      "canonical_candidate_key": "华中科技大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "华中科技大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "华中科技大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "西交",
+      "canonical_candidate_key": "西安交通大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "西安交通大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "西安交通大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "天大",
+      "canonical_candidate_key": "天津大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "天津大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "天津大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "华南理工",
+      "canonical_candidate_key": "华南理工大学|夏令营单位提名",
+      "error_ids": [],
+      "label": "华南理工大学（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "华南理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "物理所",
+      "canonical_candidate_key": "中国科学院物理研究所|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院物理研究所（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院物理研究所",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "化学所",
+      "canonical_candidate_key": "中国科学院化学研究所|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院化学研究所（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院化学研究所",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "大连化物所",
+      "canonical_candidate_key": "中国科学院大连化学物理研究所|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院大连化学物理研究所（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院大连化学物理研究所",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "上海硅酸盐所",
+      "canonical_candidate_key": "中国科学院上海硅酸盐研究所|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院上海硅酸盐研究所",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "青岛能源所",
+      "canonical_candidate_key": "中国科学院青岛生物能源与过程研究所|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院青岛生物能源与过程研究所（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院青岛生物能源与过程研究所",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "宁波材料所",
+      "canonical_candidate_key": "中国科学院宁波材料技术与工程研究所|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院宁波材料技术与工程研究所（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院宁波材料技术与工程研究所",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "深圳先进院",
+      "canonical_candidate_key": "中国科学院深圳先进技术研究院|夏令营单位提名",
+      "error_ids": [],
+      "label": "中国科学院深圳先进技术研究院（夏令营目标单位提名）",
+      "reason": "7.2节2026年寒假明确将该单位列入拟建立的夏令营目标清单，属于实际候选提名，非普通背景校名。只按原文单位粒度记录，未提供独立院系或项目，不替答卷补造申请路径；valid仅指该提名内容成立，不代表已核准2026年夏令营或2027年招生。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "**本校作为\"保\"档是理性的**（导师已认识你、课题已上手），同时向外冲 2—3 个更强平台。",
+      "canonical_candidate_key": "华东地区一所211高校|本科学院研究生接收",
+      "error_ids": [],
+      "label": "华东地区一所211高校（本校研究生接收备选）",
+      "occurrences": [
+        {
+          "answer_quote": "以及**本校本科学院各课题组**"
+        },
+        {
+          "answer_quote": "**留本校（本科学院）**"
+        },
+        {
+          "answer_quote": "若确定留本校，务必在大三下（2026 年 3—5 月）就与意向导师面谈，确认其 2027 级招生名额与方向匹配。"
+        }
+      ],
+      "reason": "9.1节明确推荐本校本科学院作为保档；7.2节另列本校本科学院各课题组，9.1表格又列留本校本科学院，均为同一学院路径，合并记录，不把内部课题组或未绑定学院的学硕/专硕/直博泛论拆成独立项目。该项是准备期目标，答卷还要求2026年面谈核对2027级名额和方向，不等于保证录取。",
+      "school_key": "华东地区一所211高校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**如果你在大二—大三做出突出的科研成果（高水平论文、国家级竞赛顶级奖项），这是一条可能的通道**",
+      "canonical_candidate_key": "华东地区一所211高校|特殊学术专长破格推免",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "feasibility": "不成立。2024年适用校规禁止只因单一或部分指标单列计划或破格推荐；不能用未来成果条件恢复已冲突的路径。须按综合评价遴选，而非该答卷承诺的破格机制。",
+      "key_condition": "本科期间有突出科研成果，并按答卷所称教授联名、审核公示申请不受综合排名限制的资格。",
+      "label": "华东地区一所211高校特殊学术专长破格推免路径",
+      "occurrences": [
+        {
+          "answer_quote": "研究生支教团、\"特殊学术专长\"通道是第四条腿。"
+        }
+      ],
+      "reason": "9.3节明确条件推荐，非单纯政策背景。其核心不受综合排名限制的机制与当时本校有效校规冲突，参见 evidence.json E01、E02，关联 ERR-01 和最直接的资格规则项。科研正常加分路径与此不同，不能替换为答卷未写出的等价推荐。",
+      "school_key": "华东地区一所211高校",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "如果你对学生工作和公益有真实热情，这是可选项，需在大二—大三积累相应的志愿时长与任职经历。",
+      "canonical_candidate_key": "华东地区一所211高校|研究生支教团推免专项",
+      "error_ids": [],
+      "feasibility": "处于大二准备期，有时间积累经历；答卷附录第16问提出核对专项条件与选拔时间。2024年官方校内公示已证明该通道存在（evidence.json E01、E04），但未来具体门槛和本人适配仍需届时核验；不因未逐年审计判无效。",
+      "key_condition": "有公益服务意愿，积累真实志愿与任职经历，并符合届时学校研究生支教团专项选拔条件。",
+      "label": "华东地区一所211高校研究生支教团推免专项",
+      "occurrences": [
+        {
+          "answer_quote": "研究生支教团、\"特殊学术专长\"通道是第四条腿。"
+        }
+      ],
+      "reason": "9.3节针对本校体系明确提出条件备选，作为另一资格路径单独记录。valid仅确认通道及准备方向，不表示答卷所称服务1—2年的细节或未来资格已审计；不补造具体研究生接收院系。",
+      "school_key": "华东地区一所211高校",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+  "score": 80.0,
+  "score_interval": [
+    80.0,
+    80.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-A-PLAN",
+  "task_kind": "planning",
+  "task_sha256": "d2fdc2ce2203a4056e1893f0a75b419a4da70de8102b58facb4ba8e831692368",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已核对全文的单位提名及本校接收、专项资格路径；未指定学校的境外/考研/学位类型泛论不新增院校项目，转本科专业属于准备调整而非研究生接收候选。无具体院校排除。",
+    "schools": [
+      {
+        "answer_quote": "**留本校（本科学院）**",
+        "downgraded": false,
+        "reason": "实际本校接收推荐与本科所在学校相同，不降级。本题没有院校层次计分节点；清单中的其他18个单位只为候选提名，不计层次降级。",
+        "school_key": "华东地区一所211高校"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

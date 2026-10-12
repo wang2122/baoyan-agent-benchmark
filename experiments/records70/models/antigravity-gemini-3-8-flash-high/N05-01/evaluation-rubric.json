@@ -1,0 +1,83 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N05-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "分析交通工程、飞行器隔热材料及目标学科的相关性，明确跨方向申请的实际优势和不足。",
+      "grading": "three_level",
+      "half_credit": "认识到跨学科优势但没有分析申请门槛或训练差异。",
+      "id": "N05-01-L1-01",
+      "label": "本科交通背景与航空材料研究的实际衔接",
+      "points": 20
+    },
+    {
+      "full_credit": "结合真实材料科研与个人贡献评估材料/航空相关接收项目的先修课程、学位要求与培养适配。",
+      "grading": "three_level",
+      "half_credit": "评价材料方向但缺具体的跨申核验条件。",
+      "id": "N05-01-L1-02",
+      "label": "材料类路线的申请条件",
+      "points": 20
+    },
+    {
+      "full_credit": "说明继续本科交通运输相关方向的已有基础与研究/就业适配，不能因材料项目多就武断排除。",
+      "grading": "three_level",
+      "half_credit": "保留交通备选但缺比较依据。",
+      "id": "N05-01-L1-03",
+      "label": "交通运输路线及其利弊",
+      "points": 15
+    },
+    {
+      "full_credit": "准确区别已录用EI、仍在投/在写论文与仅受理专利，并据此组织可信的申请材料。",
+      "grading": "three_level",
+      "half_credit": "能够识别主要成果但混淆部分作者贡献或状态。",
+      "id": "N05-01-L1-04",
+      "label": "科研、论文和专利成果状态",
+      "points": 15
+    },
+    {
+      "full_credit": "结合六级425–449与不同项目要求安排英语和专业基础训练，不虚构硬门槛。",
+      "grading": "three_level",
+      "half_credit": "有补足计划但与目标学科联系不足。",
+      "id": "N05-01-L1-05",
+      "label": "英语与跨申专业知识缺口",
+      "points": 10
+    },
+    {
+      "full_credit": "在交通与材料两条路线间给出有条件的优先关系，提出项目资格和导师方向的核验步骤。",
+      "grading": "three_level",
+      "half_credit": "给出结论但缺关键改变条件或执行步骤。",
+      "id": "N05-01-L1-06",
+      "label": "路线决定与验证步骤",
+      "points": 10
+    },
+    {
+      "full_credit": "不夸大成果，不将历史偏好、预期产出或尚未查明的申请条件当确定事实。",
+      "grading": "three_level",
+      "half_credit": "事实整体可靠但小项缺说明。",
+      "id": "N05-01-L1-07",
+      "label": "事实可靠与不确定性",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

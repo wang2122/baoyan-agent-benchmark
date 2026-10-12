@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-A",
+  "context": {
+    "observation": {
+      "评测时间": "2024年10月"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-A-PLAN",
+  "prompt": "现在是2024年10月，我在华东地区一所211高校读大二上，专业是新能源材料与器件（中外合作办学），希望以后争取本校推免资格。我应该从哪些事情开始准备，怎么安排接下来两年的学习和实践？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

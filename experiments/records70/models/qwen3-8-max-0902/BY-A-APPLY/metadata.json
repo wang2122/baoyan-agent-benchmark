@@ -1,0 +1,43 @@
+{
+  "agent": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "run_id": "qwen20-user-start-20261012/BY-A-APPLY/r1",
+  "task_id": "BY-A-APPLY",
+  "question_id": "Q002",
+  "started_at": "2026-10-12T03:24:08.953014+00:00",
+  "finished_at": "2026-10-12T03:44:46.205082+00:00",
+  "controller_started_at": "2026-10-12T03:24:07.222814+00:00",
+  "controller_finished_at": "2026-10-12T03:44:49.077014+00:00",
+  "judge_started_at": "2026-10-12T03:45:54.317855+00:00",
+  "judge_finished_at": "2026-10-12T04:10:32.049147+00:00",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "source_run_sha256": "8ee73756bab7e6bba4741f935c83e2d3c6c0ff8e391c731dcd515aa2486dea1c",
+  "source_answer_sha256": "df8a802ee5a8c172f32d3258cc2be7fdf5ab1f7b67ff1beadf4722fe039ad8b8",
+  "source_task_sha256": "df6403023f38e09b249c7fc93211bb0102331957240d9c1f28e401b81fbcca89",
+  "source_rubric_sha256": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+  "source_judgment_sha256": "f320bcb76c630a3edc68d78f050f47abd80e94f55ea4ea51d2ad1e0bfa3c7b90",
+  "source_score_sha256": "75b3ba9b8aac5a34986f18840564110d082259a3324490d6394843732cbccfc7",
+  "source_prompt_sha256": {
+    "S0": "9613bda95839ec077c933498bf5700405932f3084b9d89d7e3ef7d0c5775fbdd"
+  },
+  "judge_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "judge_auth_mode": "subscription",
+  "judge_model": "gpt-6.1-sol",
+  "original_source_hashes_preserved": true,
+  "new_attempt_is_historical_recovery": false,
+  "public_display_only": true,
+  "display_adjustments": [
+    "score.json",
+    "task.json: latest-reference display prompt, original scoring input hashes preserved"
+  ],
+  "privacy_reference_sha256": "46feb94aff98544963f827800ce27dc1f90671e665073271e193cc29e2c1c5b5",
+  "privacy_context_revision": "qwen20-latest-reference-context-v6",
+  "teacher_calibration": "pending",
+  "original_subscription_review_preserved": true,
+  "new_model_or_cli_review_called": false,
+  "public_task_directory": "models/qwen3-8-max-0902/BY-A-APPLY",
+  "post_review_node_adjudication": true,
+  "adjudication_kind": "specific_entry_code_no_substitution",
+  "adjudicated_score_sha256": "c179430ebff2ef3699bb2b15d30c692ea11dee19835bcbc1228168fc3c8dc8b2",
+  "adjudicated_judgment_sha256": "82805afbead15e6211627e3e415b51288b5c49d3253357c363358eb4c9ee825c"
+}

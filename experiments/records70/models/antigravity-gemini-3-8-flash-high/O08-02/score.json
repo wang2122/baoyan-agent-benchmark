@@ -1,0 +1,490 @@
+{
+  "actual_candidate_count": 12,
+  "answer_sha256": "5db5294fe1db3c34e8417499ddc2a0c3beeae1c3c8088e25857e7f78670f667c",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 77.5
+  },
+  "confirmed_points": 77.5,
+  "diagnostic_score": 77.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "R3"
+    ],
+    "E02": [
+      "R5"
+    ],
+    "E03": [
+      "R6"
+    ],
+    "E04": [
+      "R6"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**英语的唯一有效动作**：放弃笔试刷分，仅针对**复试英语口语自我介绍**和**大创/催化领域的英文专业词汇与常见问答**进行模块化背诵。",
+      "id": "E01",
+      "reason": "把是否刷分作无条件结论，并以未经目标项目核对的全国90%以上门槛断言为依据；425–449是否足够及补分是否来得及应依项目和申请窗口决定。这里确认的是决策缺少关键条件，不声称已证明90%统计为假或已证明任何推荐项目拒收该学生。仅归R3。"
+    },
+    {
+      "answer_quote": "结合当前阶段（大三下学期），为你制定精细化推进日程表：",
+      "id": "E02",
+      "reason": "题面没有年级、月份或申请年度，答卷却将大三下学期作为当前事实，并固定4月至9月及9月28日的执行日程，未说明条件假设或核对当届通知。不是证明某一历史年度日期必错，而是当前行动安排依赖未给的阶段。仅归R5。"
+    },
+    {
+      "answer_quote": "**南京工业大学** (双一流/化工顶尖)",
+      "id": "E03",
+      "reason": "学校官方2022年下半年校友通讯（2023年4月发布，见evidence.json EV03）明确将南京工业大学称为非双一流强校，不能混同化工学科强与国家双一流身份。题面未定年度，证据范围限注明周期；这一层次标签不使化工硕士建议整体无效。仅归R6，不另设层次扣分。"
+    },
+    {
+      "answer_quote": "核心优势（熟练掌握反应器搭建、催化剂制备与物性表征分析，动手能力与工程逻辑扎实）；",
+      "id": "E04",
+      "reason": "题面只披露大创方向与在研状态，没有披露反应器搭建等技能熟练程度；该介绍将其直接写成学生事实，未要求本人核实角色与操作经历。不同于前文要求学习表征原理或准备真实案例，不把合理研究准备当错误。仅归R6。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O08-02",
+  "input_sha256": "30e52cfb4a0e72fbe4bdf8d273b3068f268512f11c2c96bbed245531b819c32c",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "6a46273d91275b630d00878d509fd638994f2ce832a4218ef7f67536332e0971",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "R1",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "R2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R3",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "R4",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R5",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R6",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 12,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "中国科学院大连化学物理研究所 (DICP)",
+      "canonical_candidate_key": "dicp:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国科学院大连化学物理研究所—化工/催化硕士方向",
+      "reason": "冲刺梯队；能源化工、催化主题与题面相关，单位身份可识别。EV01支持2024活动面向化工背景及硕士培养存在；不证明当届必入营或吸附与催化所有导师均完全契合。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "dicp",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "中国科学院过程工程研究所",
+      "canonical_candidate_key": "ipe:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国科学院过程工程研究所—化工相关硕士方向",
+      "reason": "冲刺梯队；过程工程与化工背景相关，未提供独立学院路径，不替答卷增造项目。EV04支持2024化学与化工夏令营身份，不是学生当届条件审计。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "ipe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "中国科学院山西煤炭化学研究所",
+      "canonical_candidate_key": "sxicc:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国科学院山西煤炭化学研究所—煤化工/催化硕士方向",
+      "reason": "冲刺梯队；煤化工、合成气催化与化工科研主线相关。方向建议未发现已证实的项目不存在、学位冲突或学生硬条件冲突；没有逐年核验不能据此标invalid。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "sxicc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**大连理工大学** (985/一流大学)",
+      "canonical_candidate_key": "dlut:answer_chemical_master",
+      "error_ids": [],
+      "label": "大连理工大学—化工硕士方向",
+      "reason": "冲刺梯队，化工相关方向；全文大工为同校简称。EV05支持2024活动所对应2025届化工申请单位存在，不承诺本题未注明年份的招生窗口或录取概率。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "北京化工大学 (BUCT)",
+      "canonical_candidate_key": "buct:answer_chemical_master",
+      "error_ids": [],
+      "label": "北京化工大学—化工硕士方向",
+      "reason": "核心梯队；化工培养方向与本科和研发目标相关，全文北化合并同一候选，不增造院系。稳妥的概率判断未有证据，不将建议校名等同于保录。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "中国石油大学（北京）(CUP)",
+      "canonical_candidate_key": "cup_beijing:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国石油大学（北京）—石油化工硕士方向",
+      "reason": "核心梯队；与石油化工和研发目标相关，与华东校区招生学校不同，保留独立候选。学校层面建议未发现已证实的硬条件冲突，不能将行业校友联系解释为录取保证。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "cup_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "中国石油大学（华东）(UPC)",
+      "canonical_candidate_key": "upc:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国石油大学（华东）—石油化工硕士方向",
+      "reason": "核心梯队；与石油化工和研发目标相关，按答卷明确校名与北京独立登记。概括石大未再创造第三个单位或未写明的院系。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "upc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**南京工业大学** (双一流/化工顶尖)",
+      "canonical_candidate_key": "njtech:answer_chemical_master",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "南京工业大学—化工硕士方向",
+      "reason": "核心梯队；化工方向与学生相关，学校身份与硕士方向建议本身有效；双一流标签错误E03最直接记R6，不因此把真实化工培养对象标为invalid。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "njtech",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**华东理工大学 (ECUST)** *(专硕方向)*",
+      "canonical_candidate_key": "ecust:answer_chemical_master",
+      "error_ids": [],
+      "label": "华东理工大学—化工相关专硕方向",
+      "reason": "明确建议工程专硕或预推免，属于直接推荐不同渠道，不是给出关键硬条件的conditional。EV02支持2024化学与分子工程学院有材料与化工等招生专业，仅证明存在合理相关专硕方向，不替答卷补定具体学院，也不保证预推免余额。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**太原理工大学** (211/煤化工强校)",
+      "canonical_candidate_key": "tyut:answer_chemical_master",
+      "error_ids": [],
+      "label": "太原理工大学—煤化工/精细催化硕士方向",
+      "reason": "保底梯队；煤化工与催化方向相关。保底是答卷的梯队定位，不能理解为已拿到优营；未发现已证实的不存在或学位冲突。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "tyut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**沈阳化工大学** / **辽宁石油化工大学** (本校王牌实验室)",
+      "canonical_candidate_key": "syuct:answer_chemical_master",
+      "error_ids": [],
+      "label": "沈阳化工大学—化工硕士方向",
+      "reason": "表中分别具名的两个学校备选，本项登记沈阳化工大学；学校层面化工硕士方向与目标相关，未将斜杠扩成未写出的学院或导师。稳拿优营没有个体录取保证，不作invalid。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "syuct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**辽宁石油化工大学** (本校王牌实验室)",
+      "canonical_candidate_key": "lnpu:answer_chemical_master",
+      "error_ids": [],
+      "label": "辽宁石油化工大学—本校化工硕士方向",
+      "reason": "本校被明确列作保底实际候选，应提取，不能因其也是背景学校漏记。只保留泛指本校实验室的路径，不创造未具名的实验室项目。 本题为规划题且没有参考覆盖项，valid仅表示已述方向建议可成立，不表示已审计未知年度全部招生条件。",
+      "school_key": "lnpu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "煤化所、大化所在吸附与催化、合成气催化转化领域为全国顶峰，与你的大创方向100%契合。",
+      "canonical_candidate_key": "dicp:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国科学院大连化学物理研究所—化工/催化硕士方向（重复出现）",
+      "reason": "大化所为A01简称；这是表内推荐理由的重复出现，100%契合不理解为已核实导师契合。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "dicp",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "煤化所、大化所在吸附与催化、合成气催化转化领域为全国顶峰，与你的大创方向100%契合。",
+      "canonical_candidate_key": "sxicc:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国科学院山西煤炭化学研究所—煤化工/催化硕士方向（重复出现）",
+      "reason": "煤化所为A03简称，同一段推荐理由重复出现。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "sxicc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "大工在辽宁本地认可度极高，化学工程为A档学科，对辽石化拔尖生源有传统认可。",
+      "canonical_candidate_key": "dlut:answer_chemical_master",
+      "error_ids": [],
+      "label": "大连理工大学—化工硕士方向（重复出现）",
+      "reason": "大工为A04简称，推荐表内同一路径重申。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**绝对主力目标**。石大与北化是石油化工行业的“黄埔军校”",
+      "canonical_candidate_key": "buct:answer_chemical_master",
+      "error_ids": [],
+      "label": "北京化工大学—化工硕士方向（重复出现）",
+      "reason": "北化为A05简称，仍是同一学校层面的化工硕士建议。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**绝对主力目标**。石大与北化是石油化工行业的“黄埔军校”",
+      "canonical_candidate_key": "cup_beijing:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国石油大学（北京）—石油化工硕士方向（重复出现）",
+      "reason": "该表行已明确石大北京和华东两个学校，石大统称是二者的重复指代，本条归A06，不新设第三个学校。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "cup_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**绝对主力目标**。石大与北化是石油化工行业的“黄埔军校”",
+      "canonical_candidate_key": "upc:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国石油大学（华东）—石油化工硕士方向（重复出现）",
+      "reason": "同一石大统称也重申A07，两个原始学校仍独立；该统称不是额外的独立项目。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "upc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "南京工业大学化工实力全国前列，地处长三角，研发基地资源丰富。",
+      "canonical_candidate_key": "njtech:answer_chemical_master",
+      "error_ids": [],
+      "label": "南京工业大学—化工硕士方向（重复出现）",
+      "reason": "A08推荐理由重申，不新造专业。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "njtech",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "华理化工全国第一，夏令营初审严苛，建议主攻其工程专硕或预推免捡漏。",
+      "canonical_candidate_key": "ecust:answer_chemical_master",
+      "error_ids": [],
+      "label": "华东理工大学—化工相关专硕方向（重复出现）",
+      "reason": "华理为A09简称；专硕和预推免申请渠道不拆成不同独立培养项目。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "太原理工在煤化工、精细催化方面平台扎实，性价比较高。",
+      "canonical_candidate_key": "tyut:answer_chemical_master",
+      "error_ids": [],
+      "label": "太原理工大学—煤化工/精细催化硕士方向（重复出现）",
+      "reason": "太原理工为A10简称，保底建议重复。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "tyut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "大化所/大工在能源化工界声誉极高。",
+      "canonical_candidate_key": "dicp:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国科学院大连化学物理研究所—化工/催化硕士方向（重复出现）",
+      "reason": "就业前景栏再次提及A01，归同一对象。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "dicp",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "大化所/大工在能源化工界声誉极高。",
+      "canonical_candidate_key": "dlut:answer_chemical_master",
+      "error_ids": [],
+      "label": "大连理工大学—化工硕士方向（重复出现）",
+      "reason": "就业前景栏再次提及A04，归同一对象。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "梳理目标院校库（冲刺中科院/大工，主攻北化/石大，摸底专硕名额）",
+      "canonical_candidate_key": "dlut:answer_chemical_master",
+      "error_ids": [],
+      "label": "大连理工大学—化工硕士方向（重复出现）",
+      "reason": "时间表重申A04；中科院为前述研究所的上级统称，不凭此增造中科院新项目。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "梳理目标院校库（冲刺中科院/大工，主攻北化/石大，摸底专硕名额）",
+      "canonical_candidate_key": "buct:answer_chemical_master",
+      "error_ids": [],
+      "label": "北京化工大学—化工硕士方向（重复出现）",
+      "reason": "时间表重申A05。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "梳理目标院校库（冲刺中科院/大工，主攻北化/石大，摸底专硕名额）",
+      "canonical_candidate_key": "cup_beijing:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国石油大学（北京）—石油化工硕士方向（重复出现）",
+      "reason": "时间表石大统称归已具名A06/A07，此条对应A06。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "cup_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "梳理目标院校库（冲刺中科院/大工，主攻北化/石大，摸底专硕名额）",
+      "canonical_candidate_key": "upc:answer_chemical_master",
+      "error_ids": [],
+      "label": "中国石油大学（华东）—石油化工硕士方向（重复出现）",
+      "reason": "同一重申句对应已具名A07，不创造独立项目。 与原候选合并数量，非新增推荐；适用范围同原候选。",
+      "school_key": "upc",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "98e568491b2c1fa920f7fed309a56a3c85a10fed8dd0b2fcd429af676ed5a2e5",
+  "score": 77.5,
+  "score_interval": [
+    77.5,
+    77.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "O08-02",
+  "task_kind": "planning",
+  "task_sha256": "b89a2725b2e302a6573734f23ae817c28f315a116c00f4031398d90942dc114b",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题无school_tier或院校层次评分节点，以下仅记录是否低于题面本科基准，不另设层次处罚。12个独立学校/研究所已审阅，重复推荐沿canonical_candidate_key合并。天大、浙大只在直博风险背景中举例，没有作具名推荐、候选提名或按学校明确排除，不列候选；反对直博是培养类型判断。首段关于强导师制的具名学校亦为背景论证，已在表内出现的简称由表内候选承接；不把泛称中国石油大学创造为第三校。中科院是上级统称，企业、石科院及大连院在职业例举中均未作升学推荐。",
+    "schools": [
+      {
+        "answer_quote": "中国科学院大连化学物理研究所 (DICP)",
+        "downgraded": false,
+        "reason": "科研院所按实际科研培养平台判断，不能因无985/211校名标签自动降级；相对题面本科无降级，本题不计层次分。",
+        "school_key": "dicp"
+      },
+      {
+        "answer_quote": "中国科学院过程工程研究所",
+        "downgraded": false,
+        "reason": "科研院所按实际科研培养平台判断，不能因无985/211校名标签自动降级；相对题面本科无降级，本题不计层次分。",
+        "school_key": "ipe"
+      },
+      {
+        "answer_quote": "中国科学院山西煤炭化学研究所",
+        "downgraded": false,
+        "reason": "科研院所按实际科研培养平台判断，不能因无985/211校名标签自动降级；相对题面本科无降级，本题不计层次分。",
+        "school_key": "sxicc"
+      },
+      {
+        "answer_quote": "**大连理工大学** (985/一流大学)",
+        "downgraded": false,
+        "reason": "题面本科为其他本科高校档，本建议没有低于该基准；本题不计层次分。",
+        "school_key": "dlut"
+      },
+      {
+        "answer_quote": "北京化工大学 (BUCT)",
+        "downgraded": false,
+        "reason": "题面本科为其他本科高校档，本建议没有低于该基准；本题不计层次分。",
+        "school_key": "buct"
+      },
+      {
+        "answer_quote": "中国石油大学（北京）(CUP)",
+        "downgraded": false,
+        "reason": "题面本科为其他本科高校档，本建议没有低于该基准；本题不计层次分。",
+        "school_key": "cup_beijing"
+      },
+      {
+        "answer_quote": "中国石油大学（华东）(UPC)",
+        "downgraded": false,
+        "reason": "题面本科为其他本科高校档，本建议没有低于该基准；本题不计层次分。",
+        "school_key": "upc"
+      },
+      {
+        "answer_quote": "**南京工业大学** (双一流/化工顶尖)",
+        "downgraded": false,
+        "reason": "按其他本科高校档与题面本科同档，不降级；本题不计层次分。南京工业大学双一流标签另记E03，不能据标签提升其档位。",
+        "school_key": "njtech"
+      },
+      {
+        "answer_quote": "**华东理工大学 (ECUST)** *(专硕方向)*",
+        "downgraded": false,
+        "reason": "题面本科为其他本科高校档，本建议没有低于该基准；本题不计层次分。",
+        "school_key": "ecust"
+      },
+      {
+        "answer_quote": "**太原理工大学** (211/煤化工强校)",
+        "downgraded": false,
+        "reason": "题面本科为其他本科高校档，本建议没有低于该基准；本题不计层次分。",
+        "school_key": "tyut"
+      },
+      {
+        "answer_quote": "**沈阳化工大学** / **辽宁石油化工大学** (本校王牌实验室)",
+        "downgraded": false,
+        "reason": "按其他本科高校档与题面本科同档，不降级；本题不计层次分。",
+        "school_key": "syuct"
+      },
+      {
+        "answer_quote": "**辽宁石油化工大学** (本校王牌实验室)",
+        "downgraded": false,
+        "reason": "按其他本科高校档与题面本科同档，不降级；本题不计层次分。",
+        "school_key": "lnpu"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

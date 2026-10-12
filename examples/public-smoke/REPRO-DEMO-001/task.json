@@ -1,0 +1,46 @@
+{
+  "case_group_id": "REPRO-DEMO-001-case",
+  "context": {
+    "observation": {
+      "其他信息": "同学听说可以截止后邮件补交，但没有正式依据。学生没有导师接收承诺。",
+      "已有材料": "成绩单和简历已准备好；研究兴趣说明只有草稿。9月15日晚可用1小时，9月16日中午可用1.5小时。",
+      "报名规则": "杉桥研究体验计划在9月16日18:00停止接收。材料必须有成绩单、简历及一页研究兴趣说明；提交后系统显示回执才算提交成功。缺材料不进入评审，没有延期规则。",
+      "时点": "虚构情景时间：9月15日12:00。"
+    },
+    "persona": {
+      "专业": "机械工程",
+      "学生": "虚构学生D01",
+      "目标": "完成一次研究体验报名",
+      "阶段": "大三下"
+    }
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "provided_materials_only"
+  },
+  "id": "REPRO-DEMO-001",
+  "prompt": "我应该先联系导师还是先把报名交上？请安排截止前的行动、提交检查和未能按时完成时的处理，不估算录取概率。\n\n### 背景与材料\n\n- **学生**：虚构学生D01\n- **专业**：机械工程\n- **阶段**：大三下\n- **目标**：完成一次研究体验报名\n- **时点**：虚构情景时间：9月15日12:00。\n- **报名规则**：杉桥研究体验计划在9月16日18:00停止接收。材料必须有成绩单、简历及一页研究兴趣说明；提交后系统显示回执才算提交成功。缺材料不进入评审，没有延期规则。\n- **已有材料**：成绩单和简历已准备好；研究兴趣说明只有草稿。9月15日晚可用1小时，9月16日中午可用1.5小时。\n- **其他信息**：同学听说可以截止后邮件补交，但没有正式依据。学生没有导师接收承诺。\n\n这是公开运行演示用的虚构保研情景，不是正式测评题。只使用题设材料，不联网、不查询现实学校或学生、不补造规则；只提交answer.md，不自评分。\n",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "demo_only",
+    "teacher_calibration": "not_calibrated_demo"
+  },
+  "rubric_sha256": "418c2f3a0a74adf1e211bc9ebca6a1f6ecda57104dc74c5310af639dbf1728fe",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

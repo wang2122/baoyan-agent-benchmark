@@ -1,0 +1,107 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "a96a7e1f38dfb376a88bb8d18fc797645ee5439936c9181bddfc57fec0da3ce5",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 85.0
+  },
+  "confirmed_points": 85.0,
+  "diagnostic_score": 85.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N09-02-L1-01"
+    ],
+    "E02": [
+      "N09-02-L1-07"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "搭建基于 Gazebo / ROS2 的基础仿真框架，完成四旋翼与两自由度机器人子方向B（具体名称已概括）的运动学连杆模型建立；",
+      "id": "E01",
+      "reason": "S1已知机器人子方向A（具体名称已概括）、机器人子方向B（具体名称已概括）事项只是了解阶段、尚未正式展开。方案A仅以毕业设计选题或导师方向相符为保留条件，却在“当前进展”中写入已搭建仿真、已完成模型，并在最终排版建议写调研进展与框架搭建，未明确要求这些工作真实完成才可使用。方案B正确处理无建模产出的情形，故不是完全未识别差别，但阶段表达不能获满档。本错误仅归入L1-01。"
+    },
+    {
+      "answer_quote": "1. [已完成/已交付] 轮足仿生机器人运动控制系统研发\n     （你的主力全流程/算法项目，详写 4~5 行）\n  2. [已交付] 面向XX的自适应末端执行装置研发（课题组核心模块）",
+      "id": "E02",
+      "reason": "S0轮足机器人是明确的写法示范，不是学生披露的真实项目；S1只确认负责过子模块，没有确认已经交付。最终排版却以“你的主力”承接S0示例，并直接给装置贴“已交付”标签，缺少按真实项目、真实交付状态替换或核实的限制。这里不把示例中虚拟技术指标本身认定为实际造假，而判断面向该学生的状态与经历边界未守严。本错误仅归入L1-07，与E01涉及的机器人子方向A（具体名称已概括）事项不同。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N09-02",
+  "input_sha256": "94df7ec8a52349f532d37aa8e9df9e362f277f487b6daa55570fe5233960a126",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "510971272086ea2b057ba95841eace613791fae0eed6b2fb5f1cda4fb51ed04a",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-01",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-02",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-04",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-06",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+  "score": 85.0,
+  "score_interval": [
+    85.0,
+    85.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N09-02",
+  "task_kind": "planning",
+  "task_sha256": "6cd24310888a50b60c2d3c49ec2ea8fa6d5c04d41c74eb661ad22614e1d9867c",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已核对S0、S1全文。清北、华五、原本科院校本部、中科院所仅用于描述申请背景，没有提出实际申请候选、条件备选、排除对象或候选提名；机器人项目均为简历经历示范，不是招生项目。故本规划题候选集合为空，无院校层次核对对象。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

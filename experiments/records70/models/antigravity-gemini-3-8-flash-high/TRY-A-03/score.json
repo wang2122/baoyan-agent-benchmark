@@ -1,0 +1,326 @@
+{
+  "actual_candidate_count": 18,
+  "answer_sha256": "86020e133af795ca32b928f1b3197c09635ba6a9896f1c0c3246308364770919",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 50.0
+  },
+  "confirmed_points": 50.0,
+  "diagnostic_score": 50.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "TRY-A-03-R10-02"
+    ],
+    "E02": [
+      "TRY-A-03-R10-04"
+    ],
+    "E03": [
+      "TRY-A-03-R10-05"
+    ],
+    "E04": [
+      "TRY-A-03-R10-05"
+    ],
+    "E05": [
+      "TRY-A-03-R10-02"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**校内资格**：通常CET-4通过（≥ 425分）是基本要求；",
+      "id": "E01",
+      "reason": "置于华东地区一所211高校及本科学院资格介绍中，这一通用门槛不能正确说明本人目前可参考的学院门槛。2024年9月公布的2025届本科学院细则要求六级425分及以上或四级480分及以上（第二部分），不是四级425分即可。只归入解释本校规则项；2025届规则仅作为咨询时点已公开的往届准备参照，不替代学生未来申请年度规则。依据：[本科院校官方来源；原始链接私有保留]"
+    },
+    {
+      "answer_quote": "全国大学生数学建模竞赛 / 美国大学生数学建模竞赛（MCM/ICM）",
+      "id": "E02",
+      "reason": "该句列于发展素质科研创新加分的学科竞赛获奖清单。2024年9月已公开的本科学院2025届细则第四部分表3仅列挑战杯课外科技、互联网+、挑战杯创业计划、节能减排四类赛事，未列数模；不能把学校层面的赛事认可直接等同本院推免加分。此判断不否定数模训练价值，也不断言未来年度永不认定。只归入准备方向与投入取舍项。依据：[本科院校官方来源；原始链接私有保留]"
+    },
+    {
+      "answer_quote": "如果你决定争取保研，就意味着你需要放弃大四赴境外留学的选项，留在本校完成国内本科后续培养。",
+      "id": "E03",
+      "reason": "将已获推免资格后的行为约束扩大成准备期必须放弃本科3+2路径的结论，时间前提不成立。当时适用的校级办法约束的是已审定获得推免资格者；不能据此推出大二准备推免与先完成合作本科培养后再按应届身份申请必然互斥。这里确定的缺陷是未经核验先替学生排除培养选项；评审并未断言赴境外路径一定有本校推荐资格，具体参评办法仍应向学院核实。因此不把该未知资格挂为评分pending，只归入信息状态与后续完善项。依据：[本科院校官方来源；原始链接私有保留]"
+    },
+    {
+      "answer_quote": "若经学院核实你的培养方案严格按照5年制在2027年毕业，则上述夏令营在2027年夏开展",
+      "id": "E04",
+      "reason": "题面2024年秋大二对应通常2023年入学；按答卷自己的四/五年制分支，四年制2027年毕业、2026年申请，五年制应2028年毕业、2027年申请。该注释把五年制毕业年份写成2027，混淆毕业与申请年。2027年夏申请安排本身符合五年分支，因此不将整条路线判错；作为信息状态项的附带错误记录，不再在近期行动项重复处罚。"
+    },
+    {
+      "answer_quote": "已修读课程**首考全部合格**",
+      "id": "E05",
+      "reason": "把全部已修课程合格强化成首考一律合格的一票否决条件。咨询时点已公布的本科学院当时适用的细则与校级办法要求已修课程全部合格、申请时必修课程无弃考；两者未规定所有课程必须首考合格。答卷未核实另外的适用条款，却以强制资格门槛表述，可能错误劝退有重修经历的学生。只归入本校规则项，不据此认定任何实际候选无效。依据：[本科院校官方来源；原始链接私有保留]"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-A-03",
+  "input_sha256": "e94df2531e874d3dbd344ec89ad4e4dc39a1ee3a599b1448575e876da72e9f57",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "e9b68bc0f4db3b620d6db845c8a5fad3ceebc5a98193af6194d9d160c0ca8240",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-01",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-02",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-03",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-04",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-05",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 18,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**保本校（本科学院 / 本校科研平台）**",
+      "canonical_candidate_key": "suda-energy",
+      "error_ids": [],
+      "label": "华东地区一所211高校 / SIEMIS",
+      "reason": "给出保本校的实际建议；本科学院与本校科研平台作为同一学院平台路径按原文合并，不创造两条独立招生路径。官方学院介绍确认平台关系，2024年硕士招生数据列有本科学院相关专业，见evidence.json。valid仅表示此粒度的身份及相关深造方向成立，不证明未来年度招生或本人已有资格。第四步的具体课题组是本科训练资源，不拆成推免接收项目。",
+      "school_key": "suda",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "中科院上海硅酸盐研究所（无机非金属材料顶尖）",
+      "canonical_candidate_key": "cas-sic",
+      "error_ids": [],
+      "label": "中科院上海硅酸盐研究所",
+      "reason": "在提前了解出口的目标单位清单中提名，无具体申请或当前可录取判断；研究所身份及材料方向成立。未对未来年度招生、导师或学生资格作全量审计。",
+      "school_key": "cas-sic",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "中科院宁波材料所（新能源与动力锂电池）",
+      "canonical_candidate_key": "cas-nim",
+      "error_ids": [],
+      "label": "中科院宁波材料所",
+      "reason": "作为未来出口提名，名称可识别为宁波材料技术与工程研究所，能源材料方向相关；不将简称视为虚构项目，也不将提名视为已完成资格核验。",
+      "school_key": "cas-nim",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "中科院大连化学物理研究所（催化与储能）",
+      "canonical_candidate_key": "cas-dicp",
+      "error_ids": [],
+      "label": "中科院大连化学物理研究所",
+      "reason": "未来出口清单中的单位提名，催化储能方向相关；身份可识别。valid不表示未来申请年度项目和个人门槛已审计。",
+      "school_key": "cas-dicp",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "中科院金属研究所（沈阳）",
+      "canonical_candidate_key": "cas-imr",
+      "error_ids": [],
+      "label": "中科院金属研究所",
+      "reason": "未来出口清单提名，沈阳金属研究所为真实材料研究单位；缺少具体专业并不证明单位错误，本题没有覆盖目标要求。",
+      "school_key": "cas-imr",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "中科院物理研究所（固态电池鼻祖团队）",
+      "canonical_candidate_key": "cas-iop",
+      "error_ids": [],
+      "label": "中科院物理研究所",
+      "reason": "明确列作未来出口候选，研究所与相关固态电池研究方向可识别；不采信宣传性称谓作为招生资格或优劣证据。",
+      "school_key": "cas-iop",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "浙江大学（材料学院/能源工程学院）",
+      "canonical_candidate_key": "zju-combined",
+      "error_ids": [],
+      "label": "浙江大学材料学院/能源工程学院（合并提名）",
+      "reason": "原文将两院合并列举，全文无各自独立申请路径，保留一条合并提名，不替答卷拆成两条推荐；两单位为相关深造方向的真实候选，未审计未来年度申请门槛。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "南京大学（现代工程与应用科学学院/化学化工学院）",
+      "canonical_candidate_key": "nju-combined",
+      "error_ids": [],
+      "label": "南京大学现代工程与应用科学学院/化学化工学院（合并提名）",
+      "reason": "按原文合并提名保留，未分别说明申请路径，不拆两项；工程材料与化学方向相关，院系并列本身不构成错误。",
+      "school_key": "nju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "中国科学技术大学",
+      "canonical_candidate_key": "ustc-school",
+      "error_ids": [],
+      "label": "中国科学技术大学",
+      "reason": "在未来保研目标去向清单中提名，不是普通背景提及；只列学校，未替答卷补具体院系。学校身份成立，不等于已核实未来具体接收项目。",
+      "school_key": "ustc",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "复旦大学",
+      "canonical_candidate_key": "fdu-school",
+      "error_ids": [],
+      "label": "复旦大学",
+      "reason": "未来目标清单学校级提名，学校真实；未提供具体申请项目，不予创造院系路径，也不因参考为空判错。",
+      "school_key": "fdu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "上海交通大学",
+      "canonical_candidate_key": "sjtu-school",
+      "error_ids": [],
+      "label": "上海交通大学",
+      "reason": "未来目标清单学校级提名，学校身份成立；没有明示具体接收院系或个人适配结论，按提名审阅。",
+      "school_key": "sjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "清华大学（深圳国际研究生院/清华伯克利）",
+      "canonical_candidate_key": "thu-shenzhen-combined",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院/清华伯克利（合并提名）",
+      "reason": "保留原文深圳国际研究生院与清华伯克利的组合提名，不仅按名称创造多个独立路径；现有文本没有可判定的错误学位主张，本题也未要求具体项目匹配，因此不因简称或并列自动invalid/pending。",
+      "school_key": "thu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "华中科技大学",
+      "canonical_candidate_key": "hust-school",
+      "error_ids": [],
+      "label": "华中科技大学",
+      "reason": "未来目标清单中的学校级提名，学校真实，尚无具体项目及申请条件；该粒度缺项不等同虚构。",
+      "school_key": "hust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "武汉大学",
+      "canonical_candidate_key": "whu-school",
+      "error_ids": [],
+      "label": "武汉大学",
+      "reason": "明确在未来出口清单中提名，按学校级候选记录；未补写不存在于原答卷的专业信息。",
+      "school_key": "whu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "哈尔滨工业大学",
+      "canonical_candidate_key": "hit-school",
+      "error_ids": [],
+      "label": "哈尔滨工业大学",
+      "reason": "未来目标清单学校级提名，身份成立，未注明校区或项目；不推断具体接收路径和年度招生资格。",
+      "school_key": "hit",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "西安交通大学",
+      "canonical_candidate_key": "xjtu-school",
+      "error_ids": [],
+      "label": "西安交通大学",
+      "reason": "未来目标去向提名，学校真实；不因没有具体专业或未命中空参考而认定无效。",
+      "school_key": "xjtu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "天津大学",
+      "canonical_candidate_key": "tju-school",
+      "error_ids": [],
+      "label": "天津大学",
+      "reason": "未来目标清单中的学校级提名，学校身份成立；未作具体年度项目核验，valid不代表本人已经满足申请条件。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "如果你决定争取保研，就意味着你需要放弃大四赴境外留学的选项，留在本校完成国内本科后续培养。",
+      "canonical_candidate_key": "uvic-undergraduate-3plus2",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "外方合作院校3+2本科合作路径（明确排除）",
+      "reason": "此处是对具体本科合作路径的明确放弃建议，按排除项完整记录；第二节开头单纯说明合作方的同名出现仅为背景。合作项目身份及五年制备案成立，见evidence.json；valid仅确认路径存在，不认可必须排除的推論。其政策推导错误关联E03，只影响信息状态项，不把它虚构成推免接收目标。",
+      "school_key": "uvic",
+      "treatment": "excluded",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+  "score": 50.0,
+  "score_interval": [
+    50.0,
+    50.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-A-03",
+  "task_kind": "planning",
+  "task_sha256": "471e0b50b1cc370a20b7bf74d2c4e28606283d744e354faeba0b11c02b62dd25",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "**保本校（本科学院 / 本校科研平台）**",
+        "downgraded": false,
+        "reason": "直接建议留本校，与题面本科院校相同，同档不降级。其余研究生目标为提前了解出口的提名、外方合作院校路径为本科排除项，不计实际推荐降级。本题无层次计分节点，不另设层次罚分。",
+        "school_key": "suda"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

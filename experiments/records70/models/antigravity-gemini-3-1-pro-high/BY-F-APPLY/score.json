@@ -1,0 +1,1119 @@
+{
+  "actual_candidate_count": 21,
+  "answer_sha256": "66f729a8dd8a787fe42918da419e312d87c39624170315c6d99f6111f9722f13",
+  "candidate_limit": 20,
+  "confirmed_component_points": {
+    "coverage": 38.5,
+    "quality": 17.5
+  },
+  "confirmed_points": 56.0,
+  "diagnostic_score": 56.0,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "BY-F-APPLY-R10-04"
+    ],
+    "E02": [
+      "BY-F-APPLY-R10-01"
+    ],
+    "E03": [
+      "BY-F-APPLY-R10-04"
+    ],
+    "E04": [
+      "BY-F-APPLY-R10-04"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "已稳获武大推免资格",
+      "id": "E01",
+      "reason": "题面只披露排名前约5%、英语和经历，未披露已获推免资格。排名不等于资格已确认；答卷把未定资格写进发给导师的确定陈述，直接影响事实和结论状态项。无需检索学生或作者。"
+    },
+    {
+      "answer_quote": "**绝对保底（100%兜底）**。排名前约5%处于武大软工前列，在本校推免中不仅能直通优营/直推",
+      "id": "E02",
+      "reason": "在资格、具体竞赛级别、年度考核、导师名额均未知时，将推荐档位说成100%兜底/直通优营。武大网安、华科、同济、中大亦有轻松指标、毫无悬念或锁定优营表述，缺乏可支持确定录取的条件。最直接影响冲稳保推荐适配项；不据此取消真实项目覆盖，也不在事实项重复计此错。"
+    },
+    {
+      "answer_quote": "进行了严格的消融实验（Ablation Study）与对比测试，**证明了在当前约束条件下该技术路线存在本质性瓶颈**",
+      "id": "E03",
+      "reason": "题面仅说明一段研究停止、两段方法调试，未给严格消融、证伪或导师决定止损的事实。答卷给出面试重构话术时将这些当应陈述的经历，没有限于实际已完成结果，越过真实事实边界。例示的40%提升虽有“例如”不当真实成果采信，但此处及“核心宣称点”的已完成闭环仍无题面依据。"
+    },
+    {
+      "answer_quote": "程序设计竞赛/程序设计竞赛较高奖项**（[具体程序设计奖级已概括]）+ [其他竞赛名称已概括] + [具体竞赛成绩已概括]",
+      "id": "E04",
+      "reason": "题面只说程序设计竞赛/程序设计竞赛较高奖项、[其他竞赛名称已概括]和[具体竞赛成绩已概括]，未披露具体奖项及CSP高分。不能将可能奖项级别和成绩状态扩充成已知背景。免机试后文有查规定动作，不将未核验免测单独判为项目无效。"
+    }
+  ],
+  "excess_count": 1,
+  "id": "BY-F-APPLY",
+  "input_sha256": "aa2fb3047a469314971b699c1cf6e1de2f5cf67f3f12dea7625a76495de8ea32",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "3b6af6fa900c6b8908a955c90a922dd8cf314a96ad2d323e7093aebffe68fdb2",
+  "nodes": [
+    {
+      "id": "F-01",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-02",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A01",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-03",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-04",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-05",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-08",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A12",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A06",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-13",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A08-lamda",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-16",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A09",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-17",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A10",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-18",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-19",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A14",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "id": "F-20",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A16",
+      "points": 3.5,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 2,
+        "numerator": 7
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-F-APPLY-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "BY-F-APPLY-R10-02",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-F-APPLY-R10-03",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0,
+      "id": "BY-F-APPLY-R10-04",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 21,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "#### 1. 清华大学 — 计算机科学与技术系\n* **具体专业与类型**：计算机科学与技术（工学硕士 / 计算机科学与技术直博生）",
+      "canonical_candidate_key": "thu_cs",
+      "error_ids": [],
+      "label": "清华大学 — 计算机科学与技术系",
+      "reason": "计算机系硕士与直博路径可识别，参考F-02支持身份；直博须本人接受，硕士路线独立可用。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "#### 2. 清华大学 — 深圳国际研究生院（SIGS）\n* **具体专业与类型**：电子信息（专业型硕士，计算机技术方向 / 人工智能方向）",
+      "canonical_candidate_key": "thu_sigs",
+      "error_ids": [],
+      "label": "清华大学 — 深圳国际研究生院（SIGS）",
+      "reason": "SIGS计算机/人工智能专硕路径明确；参考F-05及sigs证据支持身份。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "#### 3. 北京大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学术型硕士 / 计算机软件与理论直博生）",
+      "canonical_candidate_key": "pku_cs",
+      "error_ids": [],
+      "label": "北京大学 — 计算机学院",
+      "reason": "北大计算机学院计算机学硕/直博路径明确，按参考F-06院系粒度有效。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "#### 4. 上海交通大学 — 电子信息与电气工程学院（计算机科学与工程系）\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术/软件工程，专硕）",
+      "canonical_candidate_key": "sjtu_cs",
+      "error_ids": [],
+      "label": "上海交通大学 — 电子信息与电气工程学院（计算机科学与工程系）",
+      "reason": "推荐原电院计算机系，sjtu_cs和sjtu_old支持与现计算机学院承继等价；不因旧名称判错。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "#### 5. 中国科学院计算技术研究所（中科院计算所）\n* **具体专业与类型**：计算机系统结构 / 计算机软件与理论（学术型硕士 / 直博）",
+      "canonical_candidate_key": "ucas_ict",
+      "error_ids": [],
+      "label": "中国科学院计算技术研究所（中科院计算所）",
+      "reason": "计算所为可识别的国科大培养单位，ict支持身份；未列参考不等于错误，不替代自动化所。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "#### 6. 浙江大学 — 计算机科学与技术学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+      "canonical_candidate_key": "zju_cs",
+      "error_ids": [],
+      "label": "浙江大学 — 计算机科学与技术学院",
+      "reason": "浙大计院计算机学硕/专硕路径符合参考F-12院系粒度。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "#### 7. 浙江大学 — 软件学院（宁波）\n* **具体专业与类型**：电子信息（专业型硕士，软件工程领域）",
+      "canonical_candidate_key": "zju_software",
+      "error_ids": [],
+      "label": "浙江大学 — 软件学院（宁波）",
+      "reason": "宁波软件学院电子信息软件工程路径存在，zju_ss支持，与计院相关但不是同一招生项目。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "#### 8. 南京大学 — 计算机科学与技术系\n* **具体专业与类型**：计算机科学与技术（学硕 / 专硕）",
+      "canonical_candidate_key": "nju_cs",
+      "error_ids": [],
+      "label": "南京大学 — 计算机科学与技术系",
+      "reason": "南大旧计算机系与现计算机学院沿革等价。学硕/专硕为同院系选项；LAMDA作为其中条件性内部选组，不另造第二条院系申请。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "#### 9. 复旦大学 — 计算机科学技术学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+      "canonical_candidate_key": "fdu_cs",
+      "error_ids": [],
+      "label": "复旦大学 — 计算机科学技术学院",
+      "reason": "复旦计算机学院及计算机学硕/电子信息路径对应参考F-16；简称差异不影响院系身份。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "#### 10. 中国科学技术大学 — 计算机科学与技术学院\n* **具体专业与类型**：计算机科学与技术（学术型硕士 / 计算机技术专硕）",
+      "canonical_candidate_key": "ustc_cs",
+      "error_ids": [],
+      "label": "中国科学技术大学 — 计算机科学与技术学院",
+      "reason": "中科大校本部计院计算机路径对应F-17；大数据检索方向与F-18相关，不等价为AI学院。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "#### 11. 北京航空航天大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+      "canonical_candidate_key": "buaa_cs",
+      "error_ids": [],
+      "label": "北京航空航天大学 — 计算机学院",
+      "reason": "北航计算机学院为真实且方向适配的计算机申请对象；清单外不判无效，年度免测政策未审计。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "#### 12. 北京大学 — 软件与微电子学院\n* **具体专业与类型**：电子信息（专业型硕士，软件工程领域 / 人工智能领域）",
+      "canonical_candidate_key": "pku_ss",
+      "error_ids": [],
+      "label": "北京大学 — 软件与微电子学院",
+      "reason": "北大软微电子信息软件/AI路径身份成立，pku_ss支持历史项目；当届年份未知，2026目录变化不能倒填否决本题。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "#### 13. 中国科学院软件研究所（中科院软件所）\n* **具体专业与类型**：计算机软件与理论 / 软件工程（学硕 / 直博）",
+      "canonical_candidate_key": "ucas_iscas",
+      "error_ids": [],
+      "label": "中国科学院软件研究所（中科院软件所）",
+      "reason": "软件所计算机软件与理论/软件工程培养身份由iscas支持；与自动化所独立，未命中不等于错误。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "#### 14. 中国科学院自动化研究所（中科院自动化所）\n* **具体专业与类型**：模式识别与智能系统 / 人工智能（学硕 / 直博）",
+      "canonical_candidate_key": "ucas_ia",
+      "error_ids": [],
+      "label": "中国科学院自动化研究所（中科院自动化所）",
+      "reason": "自动化所模式识别/AI研究路径与参考F-19一致；参考仅到研究所，不额外要求缺失专业代码。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "#### 15. 中国人民大学 — 高瓴人工智能学院\n* **具体专业与类型**：人工智能（学硕 / 专硕）",
+      "canonical_candidate_key": "ruc_ai",
+      "error_ids": [],
+      "label": "中国人民大学 — 高瓴人工智能学院",
+      "reason": "人大高瓴人工智能学术/专业硕士路径由ruc支持；是清单外合法推荐。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "#### 16. 武汉大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+      "canonical_candidate_key": "whu_cs",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉大学 — 计算机学院",
+      "reason": "武大计院计算机申请路径与F-20相同；100%兜底是推荐把握错误，不证明项目无效。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "#### 17. 武汉大学 — 国家网络安全学院\n* **具体专业与类型**：网络空间安全（学硕）/ 电子信息（网络与信息安全，专硕）",
+      "canonical_candidate_key": "whu_cyber",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉大学 — 国家网络安全学院",
+      "reason": "武大网安安全学硕/电子信息路径由whu_net支持；软件安全与计算机/软件意向高度相关。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "#### 18. 华中科技大学 — 计算机科学与技术学院\n* **具体专业与类型**：计算机系统结构 / 计算机软件与理论（学硕 / 专硕）",
+      "canonical_candidate_key": "hust_cs",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "华中科技大学 — 计算机科学与技术学院",
+      "reason": "华科计院存在硕士推免路径，学术方向系统结构/软件理论有效，专硕正式类别未规范到电子信息，不据此否定整个院系推荐。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "#### 19. 同济大学 — 软件学院 / 计算机科学与技术学院\n* **具体专业与类型**：软件工程（学硕/专硕）或 电子信息（计算机技术，专硕）",
+      "canonical_candidate_key": "tongji_combined",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "同济大学 — 软件学院 / 计算机科学与技术学院",
+      "reason": "两个独立院系被斜杠合并且未逐一绑定学位/申请路径，保留一条含糊候选记录，不拆分计命中；软件培养路径有tongji依据，不能据缺细化证明项目不存在。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "#### 20. 中山大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+      "canonical_candidate_key": "sysu_cs",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中山大学 — 计算机学院",
+      "reason": "中大计算机学院计算机/电子信息路径身份有效，sysu支持；优营确定性断言另在质量项处理。 这里valid仅表示项目身份与已知约束相容，不表示已完成未知年度的逐年招生审计。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-matrix",
+      "answer_quote": "清华计系",
+      "canonical_candidate_key": "thu_cs",
+      "error_ids": [],
+      "label": "清华大学 — 计算机科学与技术系",
+      "reason": "编号1组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-matrix",
+      "answer_quote": "清华SIGS",
+      "canonical_candidate_key": "thu_sigs",
+      "error_ids": [],
+      "label": "清华大学 — 深圳国际研究生院（SIGS）",
+      "reason": "编号2组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-matrix",
+      "answer_quote": "北大计院",
+      "canonical_candidate_key": "pku_cs",
+      "error_ids": [],
+      "label": "北京大学 — 计算机学院",
+      "reason": "编号3组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-matrix",
+      "answer_quote": "上交电院CS",
+      "canonical_candidate_key": "sjtu_cs",
+      "error_ids": [],
+      "label": "上海交通大学 — 电子信息与电气工程学院（计算机科学与工程系）",
+      "reason": "编号4组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-matrix",
+      "answer_quote": "中科院计算所",
+      "canonical_candidate_key": "ucas_ict",
+      "error_ids": [],
+      "label": "中国科学院计算技术研究所（中科院计算所）",
+      "reason": "编号5组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-matrix",
+      "answer_quote": "浙大计院",
+      "canonical_candidate_key": "zju_cs",
+      "error_ids": [],
+      "label": "浙江大学 — 计算机科学与技术学院",
+      "reason": "编号6组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-matrix",
+      "answer_quote": "浙大软院",
+      "canonical_candidate_key": "zju_software",
+      "error_ids": [],
+      "label": "浙江大学 — 软件学院（宁波）",
+      "reason": "编号7组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-matrix",
+      "answer_quote": "南大计系",
+      "canonical_candidate_key": "nju_cs",
+      "error_ids": [],
+      "label": "南京大学 — 计算机科学与技术系",
+      "reason": "编号8组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-matrix",
+      "answer_quote": "复旦计院",
+      "canonical_candidate_key": "fdu_cs",
+      "error_ids": [],
+      "label": "复旦大学 — 计算机科学技术学院",
+      "reason": "编号9组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-matrix",
+      "answer_quote": "中科大计院",
+      "canonical_candidate_key": "ustc_cs",
+      "error_ids": [],
+      "label": "中国科学技术大学 — 计算机科学与技术学院",
+      "reason": "编号10组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-matrix",
+      "answer_quote": "北航计院",
+      "canonical_candidate_key": "buaa_cs",
+      "error_ids": [],
+      "label": "北京航空航天大学 — 计算机学院",
+      "reason": "编号11组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-matrix",
+      "answer_quote": "北大软微",
+      "canonical_candidate_key": "pku_ss",
+      "error_ids": [],
+      "label": "北京大学 — 软件与微电子学院",
+      "reason": "编号12组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-matrix",
+      "answer_quote": "中科院软件所",
+      "canonical_candidate_key": "ucas_iscas",
+      "error_ids": [],
+      "label": "中国科学院软件研究所（中科院软件所）",
+      "reason": "编号13组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-matrix",
+      "answer_quote": "中科院自动化所",
+      "canonical_candidate_key": "ucas_ia",
+      "error_ids": [],
+      "label": "中国科学院自动化研究所（中科院自动化所）",
+      "reason": "编号14组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-matrix",
+      "answer_quote": "人大高瓴AI",
+      "canonical_candidate_key": "ruc_ai",
+      "error_ids": [],
+      "label": "中国人民大学 — 高瓴人工智能学院",
+      "reason": "编号15组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-matrix",
+      "answer_quote": "武大计院",
+      "canonical_candidate_key": "whu_cs",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉大学 — 计算机学院",
+      "reason": "编号16组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-matrix",
+      "answer_quote": "武大网安",
+      "canonical_candidate_key": "whu_cyber",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉大学 — 国家网络安全学院",
+      "reason": "编号17组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-matrix",
+      "answer_quote": "华科计院",
+      "canonical_candidate_key": "hust_cs",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "华中科技大学 — 计算机科学与技术学院",
+      "reason": "编号18组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19-matrix",
+      "answer_quote": "同济软院/计院",
+      "canonical_candidate_key": "tongji_combined",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "同济大学 — 软件学院 / 计算机科学与技术学院",
+      "reason": "编号19组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-matrix",
+      "answer_quote": "中大计院",
+      "canonical_candidate_key": "sysu_cs",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中山大学 — 计算机学院",
+      "reason": "编号20组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。 档位把握过度承诺关联E02，仅由推荐适配项处理，项目有效性不随此错误归零。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-intro",
+      "answer_quote": "清华深研院",
+      "canonical_candidate_key": "thu_sigs",
+      "error_ids": [],
+      "label": "清华大学 — 深圳国际研究生院（SIGS）",
+      "reason": "学位规划段再次提出同一院系专硕作为头部高校选项，正文明确实际路径；不是新增组合。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-intro",
+      "answer_quote": "北大软微",
+      "canonical_candidate_key": "pku_ss",
+      "error_ids": [],
+      "label": "北京大学 — 软件与微电子学院",
+      "reason": "学位规划段再次提出同一院系专硕作为头部高校选项，正文明确实际路径；不是新增组合。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-intro",
+      "answer_quote": "浙大软院",
+      "canonical_candidate_key": "zju_software",
+      "error_ids": [],
+      "label": "浙江大学 — 软件学院（宁波）",
+      "reason": "学位规划段再次提出同一院系专硕作为头部高校选项，正文明确实际路径；不是新增组合。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-doctoral",
+      "answer_quote": "若有意深造，以程序设计竞赛高奖冲刺清华贵系、北大计院、中科院计算所直博的成功率往往高于冲刺学硕。",
+      "canonical_candidate_key": "thu_cs",
+      "error_ids": [],
+      "feasibility": "答卷提出若有意深造再选择直博，主组合给出直博及提前阅读导师论文、夏令营前联系研究组路径；学生未明示拒绝直博，可作软偏好条件方案。成功率断言不视为保证。",
+      "key_condition": "学生确有长期深造意愿并接受直接攻读博士；程序设计竞赛具体奖项须按通知核实。",
+      "label": "清华大学 — 计算机科学与技术系",
+      "reason": "编号1组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-doctoral",
+      "answer_quote": "若有意深造，以程序设计竞赛高奖冲刺清华贵系、北大计院、中科院计算所直博的成功率往往高于冲刺学硕。",
+      "canonical_candidate_key": "pku_cs",
+      "error_ids": [],
+      "feasibility": "答卷提出若有意深造再选择直博，主组合给出直博及提前阅读导师论文、夏令营前联系研究组路径；学生未明示拒绝直博，可作软偏好条件方案。成功率断言不视为保证。",
+      "key_condition": "学生确有长期深造意愿并接受直接攻读博士；程序设计竞赛具体奖项须按通知核实。",
+      "label": "北京大学 — 计算机学院",
+      "reason": "编号3组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "北京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-doctoral",
+      "answer_quote": "若有意深造，以程序设计竞赛高奖冲刺清华贵系、北大计院、中科院计算所直博的成功率往往高于冲刺学硕。",
+      "canonical_candidate_key": "ucas_ict",
+      "error_ids": [],
+      "feasibility": "答卷提出若有意深造再选择直博，主组合给出直博及提前阅读导师论文、夏令营前联系研究组路径；学生未明示拒绝直博，可作软偏好条件方案。成功率断言不视为保证。",
+      "key_condition": "学生确有长期深造意愿并接受直接攻读博士；程序设计竞赛具体奖项须按通知核实。",
+      "label": "中国科学院计算技术研究所（中科院计算所）",
+      "reason": "编号5组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "中国科学院大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-doctoral2",
+      "answer_quote": "由于清华计系硕士名额极少，若愿意接受**直博**，上岸几率大幅提升。",
+      "canonical_candidate_key": "thu_cs",
+      "error_ids": [],
+      "feasibility": "同段有计算机科学与技术直博路径与营前导师联系动作；可在学硕与直博间选择，不把未定的个人偏好视为硬性不符。",
+      "key_condition": "本人愿意接受直博而不是仅要硕士。",
+      "label": "清华大学 — 计算机科学与技术系",
+      "reason": "编号1组合的重复推荐/规范简称，全文已给对应院系和学位路径；使用相同canonical_candidate_key去重，不能新增覆盖。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-lamda",
+      "answer_quote": "LAMDA研究所（若对机器学习理论感兴趣）",
+      "canonical_candidate_key": "nju_cs",
+      "error_ids": [],
+      "feasibility": "正文已在南大计系计算机硕士路径下给出LAMDA，另有机试/算法理论准备和提前联系导师的一般动作；官方证据确认计系导师路径存在。提前面试具体节点未写，作为执行细节不足说明，不因此判路径不成立。",
+      "key_condition": "本人对机器学习理论有兴趣，愿意从软件工程/系统转向该研究方向。",
+      "label": "南京大学 — 计算机科学与技术系",
+      "reason": "南大计系推荐中明确给出机器学习兴趣下的LAMDA选组；官方lamda和lamda21支持通过计系攻读硕博。该答卷未另推荐人工智能学院申请，不把双重隶属替作者写成第二条院系组合；与A08使用同一canonical_candidate_key。",
+      "school_key": "南京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-priority",
+      "answer_quote": "中科大夏令营（科学岛与校本部并列），务必优先选择校本部计算机学院",
+      "canonical_candidate_key": "ustc_cs",
+      "error_ids": [],
+      "label": "中国科学技术大学 — 计算机科学与技术学院",
+      "reason": "实际优先推荐校本部计院，与A10相同；科学岛仅被并列提名，另以mentioned记录，不替其补造学院或专业。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-mentioned",
+      "answer_quote": "中科大夏令营（科学岛与校本部并列），务必优先选择校本部计算机学院",
+      "canonical_candidate_key": "ustc_science_island_unspecified",
+      "error_ids": [],
+      "label": "中科大科学岛夏令营（未细化项目的并列提名）",
+      "reason": "科学岛在择校申请关键中被列为与校本部并列的备选营，再优先本部；为避免遗漏候选提名，单独提取。未给具体计算机院系、专业或申请组合，因此不取得项目匹配，不判为事实无效。",
+      "school_key": "中国科学技术大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-late",
+      "answer_quote": "北大软微",
+      "canonical_candidate_key": "pku_ss",
+      "error_ids": [],
+      "label": "北京大学 — 软件与微电子学院",
+      "reason": "8—9月预推免安排中重复提出同一专硕项目，正文给出项目身份，重复不增加候选数；名额释放并非已核实的当届事实。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-late",
+      "answer_quote": "浙大软院",
+      "canonical_candidate_key": "zju_software",
+      "error_ids": [],
+      "label": "浙江大学 — 软件学院（宁波）",
+      "reason": "8—9月预推免安排中重复提出同一专硕项目，正文给出项目身份，重复不增加候选数；名额释放并非已核实的当届事实。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-late",
+      "answer_quote": "清华SIGS",
+      "canonical_candidate_key": "thu_sigs",
+      "error_ids": [],
+      "label": "清华大学 — 深圳国际研究生院（SIGS）",
+      "reason": "8—9月预推免安排中重复提出同一专硕项目，正文给出项目身份，重复不增加候选数；名额释放并非已核实的当届事实。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-name",
+      "answer_quote": "清华贵系",
+      "canonical_candidate_key": "thu_cs",
+      "error_ids": [],
+      "label": "清华大学 — 计算机科学与技术系",
+      "reason": "已推荐对象的别称在定位分析中再次出现；身份与主组合相同，不另算独立候选。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-name",
+      "answer_quote": "北大计院",
+      "canonical_candidate_key": "pku_cs",
+      "error_ids": [],
+      "label": "北京大学 — 计算机学院",
+      "reason": "已推荐对象的别称在定位分析中再次出现；身份与主组合相同，不另算独立候选。",
+      "school_key": "北京大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-name",
+      "answer_quote": "中科院计算所",
+      "canonical_candidate_key": "ucas_ict",
+      "error_ids": [],
+      "label": "中国科学院计算技术研究所（中科院计算所）",
+      "reason": "已推荐对象的别称在定位分析中再次出现；身份与主组合相同，不另算独立候选。",
+      "school_key": "中国科学院大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 20,
+  "rubric_sha256": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+  "score": 56.0,
+  "score_interval": [
+    56.0,
+    56.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-F-APPLY",
+  "task_kind": "recommendation",
+  "task_sha256": "9e6c30f0262872eaf4451dbd32a0c7f3b51c6b20c425ac3f59773723377b3aa6",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "candidate_count": 21,
+    "over_limit_count": 1,
+    "reason": "已审阅全部20编号组合、梯度矩阵、学位选项、条件选组、后文重提及科学岛并列提名；去重21个，含1个未细化且只提名对象，超额1个，仅报告不另扣分。LAMDA是计系内部条件选组，未创造独立院系申请；同济合并条目不拆。学校普通背景举例、依托资源、内部团队和导师不另计候选。",
+    "schools": [
+      {
+        "answer_quote": "#### 1. 清华大学 — 计算机科学与技术系\n* **具体专业与类型**：计算机科学与技术（工学硕士 / 计算机科学与技术直博生）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "#### 3. 北京大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学术型硕士 / 计算机软件与理论直博生）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "#### 4. 上海交通大学 — 电子信息与电气工程学院（计算机科学与工程系）\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术/软件工程，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "#### 5. 中国科学院计算技术研究所（中科院计算所）\n* **具体专业与类型**：计算机系统结构 / 计算机软件与理论（学术型硕士 / 直博）",
+        "downgraded": false,
+        "reason": "科研院所通过国科大培养与授位，不按无985标签机械降级；计算所、软件所、自动化所保持独立招生身份。",
+        "school_key": "中国科学院大学"
+      },
+      {
+        "answer_quote": "#### 6. 浙江大学 — 计算机科学与技术学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "#### 8. 南京大学 — 计算机科学与技术系\n* **具体专业与类型**：计算机科学与技术（学硕 / 专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "南京大学"
+      },
+      {
+        "answer_quote": "#### 9. 复旦大学 — 计算机科学技术学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "#### 10. 中国科学技术大学 — 计算机科学与技术学院\n* **具体专业与类型**：计算机科学与技术（学术型硕士 / 计算机技术专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "中国科学技术大学"
+      },
+      {
+        "answer_quote": "#### 11. 北京航空航天大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "#### 15. 中国人民大学 — 高瓴人工智能学院\n* **具体专业与类型**：人工智能（学硕 / 专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "#### 16. 武汉大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "#### 18. 华中科技大学 — 计算机科学与技术学院\n* **具体专业与类型**：计算机系统结构 / 计算机软件与理论（学硕 / 专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "#### 19. 同济大学 — 软件学院 / 计算机科学与技术学院\n* **具体专业与类型**：软件工程（学硕/专硕）或 电子信息（计算机技术，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "#### 20. 中山大学 — 计算机学院\n* **具体专业与类型**：计算机科学与技术（学硕）/ 电子信息（计算机技术，专硕）",
+        "downgraded": false,
+        "reason": "该校与题面武汉大学同属985层次；同档不降级，同校不同项目只作一条层次记录。",
+        "school_key": "中山大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "ark-glm-5-3-flash-260828",
+    "category": "择校推荐",
+    "deductions": [
+      {
+        "max_points": 4.6667,
+        "node": "B-03",
+        "points": 0,
+        "reason": "没有工程师学院直接推荐，但浙大电气学院080800电力系统路径与工程师学院独立085801智能电网项目构成同校跨院系高度相关关系，依官方项目招生与课程、导师信息确认，列related_department；不能算exact，也不能因院系未出现机械记miss。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-06",
+        "points": 0,
+        "reason": "重庆大学仅作为接受远距离时的学校级替换；全文没有给出学院或具体电气项目，不能替答卷补成参考电气工程学院路径。条件可接受不等于可识别项目，缺项确定为miss，不挂pending。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-08",
+        "points": 0,
+        "reason": "湖南大学仅为学校级条件替换，未落实任何电气院系或项目。普通电气强校评价不能补足实际申请单位；已核对全文无其他独立项目推荐，故miss。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-10",
+        "points": 0,
+        "reason": "四川大学在未列名单段被排除，且未给电气院系或申请项目；本版排除不计覆盖。不是因该校不合法或不在主列表而失分，而是缺有效直接/具体条件项目推荐。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-15",
+        "points": 0,
+        "reason": "全文未推荐、排除或提名南京理工大学任何申请项目，也没有同校相关院系替代路径；该项为纯缺失，原文无可支持的南京理工引句，故引句留空、miss。"
+      },
+      {
+        "max_points": 15,
+        "node": "BY-B-APPLY-R10-01",
+        "points": 7.5,
+        "reason": "正确结合排名、六级、充电调度在投科研、电网意向和学硕/专硕区别；明示以南京为地域假设，识别资格及成果风险，也有具体冲稳保结构。但将拿到主申录取写成就业与家近目标已成立，又把南航定为大概率保底，缺少核心的录取/就业不确定性校准，冲稳保合理性不能满档。未命中参考及数量超额不另扣本项。"
+      }
+    ],
+    "name": "GLM 5.3 Flash (Ark)",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 69.17,
+    "score_interval": [
+      69.17,
+      69.17
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "BY-B-APPLY"
+  }
+}

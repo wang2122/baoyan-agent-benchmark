@@ -1,0 +1,103 @@
+{
+  "task_id": "TRY-B-03",
+  "consultation_as_of": "2026-03-18",
+  "application_cycle": "2026年申请、2027年入学",
+  "method": "评审者事后检索官方资料。往届资料只用于项目身份、既有培养及政策边界；咨询时点之后发布的资料只用于确认答卷引用信息的发布时间，不倒灌为当时已知。",
+  "sources": [
+    {
+      "id": "EV01",
+      "source": "https://pi.zju.edu.cn/2025/0727/c67026a3071730/page.htm",
+      "title": "工程师学院2026年全日制专业学位硕士研究生推荐免试招生通知",
+      "published_at": "2025-07-27",
+      "applicable_cycle": "2025申请、2026入学；2027届准备期仅作往届参考",
+      "scope": "三年专业学位、校内外导师团队、工程实践导向、4万元全程学费、优秀硕士可申请硕博连读；往届报名7月28日至9月10日。领域（项目）填报。不能据此冻结2026申请日期。",
+      "retrieval_status": "official_page_opened"
+    },
+    {
+      "id": "EV02",
+      "source": "https://pi.zju.edu.cn/_upload/article/files/59/24/7b015db74c53b5dc792fd4b08f55/9d7dc0c7-77ef-44bb-84bd-9ea816906cb8.pdf",
+      "title": "工院2026年全日制推免招生计划20250725",
+      "published_at": "2025-07-25（附件标题日期）",
+      "applicable_cycle": "2025申请、2026入学；2027届准备期项目身份参考",
+      "scope": "PDF第3页第65行：能源动力类别0858、电气工程领域085801、电气工程（分布式智能电网项目），推免计划8。证明电气领域代码已细分；不把往届8名作为本届计划。",
+      "retrieval_status": "official_pdf_opened"
+    },
+    {
+      "id": "EV03",
+      "source": "https://pi.zju.edu.cn/2024/0802/c82654a2951030/page.htm",
+      "title": "2024级分布式智能电网卓越培养项目硕士培养方案",
+      "published_at": "2024-08-02",
+      "applicable_cycle": "2024级培养方案；2027届准备期已有培养形态参考",
+      "scope": "专业学位、学制3年；无两年以上企业经历者专业实践不少于1年，论文围绕真实工程问题。支持工程训练判断，不冻结2027培养条款。",
+      "retrieval_status": "official_page_opened"
+    },
+    {
+      "id": "EV04",
+      "source": "https://pi.zju.edu.cn/2023/0711/c68814a2783148/page.psp",
+      "title": "2024级分布式智能电网卓越培养项目校内导师及信息一览表",
+      "published_at": "2023-07-11",
+      "applicable_cycle": "2024级导师项目；2027届准备期方向身份参考",
+      "scope": "电气学院导师、源网荷储优化运行等研究方向及国网实践合作基地。支持方向与电气相关研究的相关性；不保证本届导师和名额不变。",
+      "retrieval_status": "official_search_result"
+    },
+    {
+      "id": "EV05",
+      "source": "https://yzst.chsi.com.cn/kyzx/zsjz/202510/20251011/2293437953.html",
+      "title": "浙江大学2026年硕士研究生招生简章（研招网发布，来源浙江大学）",
+      "published_at": "2025-10-11（正文落款2025-10-09）",
+      "applicable_cycle": "2026入学；2027届准备期可见的校级往届政策",
+      "scope": "其他事项（五）将第一年校外安排、后续自行解决及视情补贴列为全校全日制专业学位硕士政策。不能由电气学院教学地点玉泉推断其专硕有本部宿舍保障。2027政策仍须更新。",
+      "retrieval_status": "official_platform_full_page_opened"
+    },
+    {
+      "id": "EV06",
+      "source": "https://pi.zju.edu.cn/2026/0730/c67026a3192667/page.htm",
+      "title": "工程师学院2027年全日制专业学位硕士研究生推荐免试招生通知（0902更新）",
+      "published_at": "2026-08-05（页面显示日期）",
+      "applicable_cycle": "2026申请、2027入学；晚于咨询时点",
+      "scope": "含8月10日至9月10日报名、备注顺序、住宿及就业分工。仅确认信息于3月之后发布，不能当作3月当时已公开的本届规则。",
+      "retrieval_status": "official_page_opened"
+    },
+    {
+      "id": "EV07",
+      "source": "https://pi.zju.edu.cn/2022/0816/c67822a2609266/page.psp",
+      "title": "工程师学院全日制专业学位研究生招生问答【2027版】",
+      "published_at": "2026-08-05（页面显示日期；URL旧日期不能充当内容日期）",
+      "applicable_cycle": "2026申请、2027入学；晚于咨询时点",
+      "scope": "本版问答确认单学院志愿和不举办2027卓越工程师之旅夏令营。只核对答卷所用版本与发布时间，不能支持3月就断言本届唯一入口。",
+      "retrieval_status": "official_search_result_and_equivalent_htm_page_opened"
+    },
+    {
+      "id": "EV08",
+      "source": "https://yzst.chsi.com.cn/kyzx/yxzc/202509/20250909/2293407748.html",
+      "title": "浙江大学2026年招收推荐免试研究生办法（研招网发布，来源浙江大学）",
+      "published_at": "2025-09-09",
+      "applicable_cycle": "2025申请、2026入学；既有硕士与本科直博定义参考",
+      "scope": "推免攻读硕士、博士分别表述，本科直博另需专家书面推荐。支持直博不是学硕这一学位层次区分；不证明电气学院2027外校学硕是否开放。",
+      "retrieval_status": "official_platform_search_result；直接打开超时，不冒称已读取全文"
+    },
+    {
+      "id": "EV09",
+      "source": "https://news.seu.edu.cn/2026/0514/c55946a567761/page.htm",
+      "title": "东南大学—蒙纳士大学国际学院（苏州）2026年开始招收本科生",
+      "published_at": "2026-05-14",
+      "applicable_cycle": "机构更名沿革；晚于咨询时点",
+      "scope": "校方说明由原苏州联合研究生院升级更名，原机构已有电气工程等研究生项目。只核对项目身份与别名，不将五月升级信息当作三月已知。",
+      "retrieval_status": "official_search_result"
+    },
+    {
+      "id": "EV10",
+      "source": "https://pi.zju.edu.cn/2025/1009/c67821a3089218/page.htm",
+      "title": "工程师学院2026年全日制（卓越培养项目）专业学位硕士研究生统考招生简章",
+      "published_at": "2025-10-09",
+      "applicable_cycle": "2026入学；2027届准备期往届参考",
+      "scope": "工程师职称须本人申请并通过评审，不是获得硕士学位即自动发证；住宿亦遵循学校政策。",
+      "retrieval_status": "official_search_result"
+    }
+  ],
+  "limits": [
+    "电气学院官网访问返回502，未把访问失败或未找到2027外校学硕通知当作项目不存在的证据。",
+    "未检索任何学生身份、最终去向、本基准或其他答卷；个人状态以task.json为准。",
+    "本题无参考覆盖项且未启用分层匹配，coverage保持空数组，不另造参考目标或计算总分。"
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "actual_candidate_count": 27,
+  "answer_sha256": "4371903a1935c5adc3598c6d62bffb64d1c1034df17629bef5762a66baa3f1ff",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 65.0
+  },
+  "confirmed_points": 65.0,
+  "diagnostic_score": null,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N12-01-L1-01"
+    ],
+    "E02": [
+      "N12-01-L1-02"
+    ],
+    "E04": [
+      "N12-01-L1-05"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "排名前 3% 确保你在校内选拔中稳获推免资格，毫无后顾之忧。",
+      "id": "E01",
+      "reason": "题面只披露专业排名，未确认推免资格、综合遴选排名或当届名额。把高竞争力直接推成资格保证，违反本题明确要求的资格条件处理。后文要求关注细则不能撤回此保证。本错误仅归本科背景与资格项，不再在真实性项重复处罚。"
+    },
+    {
+      "answer_quote": "雅思 7.5（相当于六级 620+ 水平，具备无障碍阅读外文原版法学经典与文书撰写能力）",
+      "id": "E02",
+      "reason": "雅思与六级并不存在本题提供的正式分数换算；总分也不能单独证明专业文献阅读与法律写作均无障碍。答卷有正确的英语训练和门槛核验提醒，但没有落实所荐具体项目认可的考试、有效期与分项条件。本错误只归语言项。"
+    },
+    {
+      "answer_quote": "有科研训练流程感知，但“参与”缺乏独立主持身份",
+      "id": "E03",
+      "reason": "“参与过”不能证明本人不是主持人。题面也未披露已有代表作、结项或投稿状态，答卷不能把这些未知事实直接诊断为已经缺乏。后文使用“若非”“若无”的条件分析及客观分工建议具有实质价值；本错误仅登记在真实性项，不再次降低经历与材料项。"
+    },
+    {
+      "answer_quote": "系统开放当日（通常为 9 月 28 日或 29 日），按照预先确定的拟录取协议，零点第一时间填报接收志愿。",
+      "id": "E04",
+      "reason": "本题为2026年申请季；学信网当届帮助页明确2026年9月21日9:00开始填报志愿、9月22日8:00开始确认复试、9月24日14:00开始确认待录取。以28/29日零点作为开放节点会误导正式操作，影响执行安排，不能仅当作不重要日期措辞。依据见evidence.json的S01。未将评审运行日当作咨询日期；此错误只归申请阶段规划。"
+    },
+    {
+      "answer_quote": "你的背景入营率在 70% 以上，是最终录取的核心基本盘。",
+      "id": "E05",
+      "reason": "题面和答卷均未提供能将本人背景转成各目标校入营概率的统计模型或适用样本。清华2027届（2026年申请）官方办法采用专家材料审查及综合评价择优，并非仅靠本科排名即可量化胜率；这也不能支持“所有院校的初审算法”均为绿灯或确保100%成功。问题是无根据的确定性录取结论，而非单纯没有附链接。只归真实性项，不重复降低优先级项。官方依据见S02。"
+    },
+    {
+      "answer_quote": "**北京大学国际法学院（PKU STL，深圳）**（J.D./J.M.，全英文教学与考核，你的雅思 7.5 属于绝对优势生源）",
+      "id": "E06",
+      "reason": "STL官方2026入学招生说明明确中国法J.M.课程中文教学、普通法J.D.课程英文教学，因此“全英文教学与考核”的整体表述不准确。该校确有适合法学本科的法律（法学）路径，不能因课程语言表述错误将项目本身判为无效。往届招生说明仅用于核对培养模式，不冒充2026申请季名额或门槛审计；见S03、S04。本错误只归真实性项。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N12-01",
+  "input_sha256": "119a0805b37ca9a1c607a7cef6a214cc3df460d28e9520c3fdb40856a1e6deac",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "8a0950a56c00ef5c9c4c69ae7598e2e52095b0a69f1fe2c6c5cbf16f03a78dcf",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N12-01-L1-01",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N12-01-L1-02",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "N12-01-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N12-01-L1-04",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N12-01-L1-05",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": "pending",
+      "id": "N12-01-L1-06",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 1,
+      "id": "N12-01-L1-07",
+      "kind": "quality",
+      "points": 10.0
+    }
+  ],
+  "observed_candidate_count": 27,
+  "official": false,
+  "pending_nodes": [
+    "N12-01-L1-06"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "完全具备冲击清华、北大、人大、法大、武大、华五等国内法学顶尖名校的坚实基础",
+      "canonical_candidate_key": "thu_general",
+      "error_ids": [],
+      "label": "清华大学（院校级提名）",
+      "reason": "总体定位中明确提名为冲刺对象，登记院校级出现；本句不提供项目，不据此臆造独立院系或学位路径。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "完全具备冲击清华、北大、人大、法大、武大、华五等国内法学顶尖名校的坚实基础",
+      "canonical_candidate_key": "pku_general",
+      "error_ids": [],
+      "label": "北京大学（院校级提名）",
+      "reason": "总体定位中明确提名为冲刺对象，登记院校级出现；本句不提供项目，不据此臆造独立院系或学位路径。",
+      "school_key": "北京大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "完全具备冲击清华、北大、人大、法大、武大、华五等国内法学顶尖名校的坚实基础",
+      "canonical_candidate_key": "ruc_general",
+      "error_ids": [],
+      "label": "中国人民大学（院校级提名）",
+      "reason": "总体定位中明确提名为冲刺对象，登记院校级出现；本句不提供项目，不据此臆造独立院系或学位路径。",
+      "school_key": "中国人民大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "完全具备冲击清华、北大、人大、法大、武大、华五等国内法学顶尖名校的坚实基础",
+      "canonical_candidate_key": "cupl_general",
+      "error_ids": [],
+      "label": "中国政法大学（院校级提名）",
+      "reason": "总体定位中明确提名为冲刺对象，登记院校级出现；本句不提供项目，不据此臆造独立院系或学位路径。",
+      "school_key": "中国政法大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "完全具备冲击清华、北大、人大、法大、武大、华五等国内法学顶尖名校的坚实基础",
+      "canonical_candidate_key": "whu_general",
+      "error_ids": [],
+      "label": "武汉大学（院校级提名）",
+      "reason": "总体定位中明确提名为冲刺对象，登记院校级出现；本句不提供项目，不据此臆造独立院系或学位路径。",
+      "school_key": "武汉大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "完全具备冲击清华、北大、人大、法大、武大、华五等国内法学顶尖名校的坚实基础",
+      "canonical_candidate_key": "huawu_unexpanded",
+      "error_ids": [],
+      "label": "华五集合提名",
+      "reason": "答卷实际使用“华五”作为冲刺集合，予以登记；未逐校明确的部分不替作者扩写成员及项目，后文具体院校另按明确路径记录。集合提名不当作额外可申请招生主体。",
+      "school_key": "华东五校（集合未展开）",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "**中国政法大学**（国际法学院、全面依法治国研究院涉外专项）",
+      "canonical_candidate_key": "cupl_foreign_bundle",
+      "error_ids": [],
+      "label": "国际法学院/全面依法治国研究院涉外专项（合并项）",
+      "reason": "两单位合并列在同一推荐行，未分别说明招生代码与实际路径，不能拆出多个独立推荐。研究院涉外专项是否是当季推免招生主体仍有实质争议，S05仅支持研究院存在和研究合作；F01—F03记录官方获取受阻，未据此判不存在。待核对应真实性项。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "**武汉大学**（涉外法治学院、国际法研究所——国际法全国顶尖）",
+      "canonical_candidate_key": "whu_foreign_international_bundle",
+      "error_ids": [],
+      "label": "涉外法治学院/国际法研究所相关方向（合并项）",
+      "reason": "作为武大涉外/国际法方向的合并建议可识别，未拆出两个独立招生项目。S07确认涉外法治学院于2026年6月成立，S08支持国际法及涉外培养背景；咨询具体月份未知，不据运行日或新学院成立日期判全项不存在、停招或不可申请。valid仅表示方向身份及学生法学背景不构成已知冲突，并非年度窗口审计。 S12另确认既有国际法研究所身份及其与国际法治研究院的依托关系，不认定与新学院是同一招生主体。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "**中国人民大学**（涉外法治交叉学科平台、法硕涉外专项）",
+      "canonical_candidate_key": "ruc_foreign_jm",
+      "error_ids": [],
+      "label": "法律（法学）涉外法治方向/平台说明",
+      "reason": "S09官方2027届推免通知（2026年6月发布）包含法律（法学）涉外法治方向，适合法学本科。交叉平台作为培养说明不另创造招生主体；不把普通方向与涉外方向合并计为同一独立路径。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "**对外经济贸易大学**（法学院——涉外经贸法高地）",
+      "canonical_candidate_key": "uibe_foreign_law",
+      "error_ids": [],
+      "label": "法学院涉外经贸法方向",
+      "reason": "明确推荐法学院与涉外经贸方向，法学背景及语言优势与该方向相容；未报精确学位代码，不替答卷补造专项。无已知硬条件冲突，未逐年确认窗口不等于无效。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "**北京大学国际法学院（PKU STL，深圳）**（J.D./J.M.，全英文教学与考核，你的雅思 7.5 属于绝对优势生源）",
+      "canonical_candidate_key": "pku_stl_jm",
+      "error_ids": [
+        "E06"
+      ],
+      "label": "国际法学院J.D./J.M.培养路径",
+      "reason": "S03、S04确认STL法律（法学）与法律（非法学）及J.D.培养模式，法学本科并非只能申非法学，项目身份成立。全英文概括错误另记E06由真实性项处理，不取消实际存在的学位路径；并未审计全部2026申请门槛。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "**厦门大学**（环境法、海商法、国际经济法实力极强，与海大学术渊源深厚）",
+      "canonical_candidate_key": "xmu_feature_law_bundle",
+      "error_ids": [],
+      "label": "环境法/海商法/国际经济法方向（未分列路径）",
+      "reason": "结合段落学硕赛道，实际提出海商、国际经济和环境相关方向；未分别说明独立招生路径，作为一个方向组合登记，不替答卷拆出三项。与题面法学背景无已知路径冲突；关于渊源和实力的修辞不当作录取保障。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "**大连海事大学**（海商法全国前列，可作为强特色保底）",
+      "canonical_candidate_key": "dmu_maritime_law",
+      "error_ids": [],
+      "label": "海商法方向",
+      "reason": "明确海商法方向建议，方向与海大特色可相连。是否真正保底需择优考核，不能把保底标签当保证；该措辞不证明项目不存在或学位不适配。",
+      "school_key": "大连海事大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "**上海交通大学凯原法学院、浙江大学光华法学院**（重视综合素质与国际化，学科发展迅猛）",
+      "canonical_candidate_key": "sjtu_academic_law",
+      "error_ids": [],
+      "label": "凯原法学院特色学硕方向",
+      "reason": "同一行明确列出不同学校的独立法学院，可分别登记；该段落为特色学硕赛道，与后文明确法律（法学）路径分别记录，不臆补段落未指定的二级专业。未确认名额不等于内容无效。 S13核对到凯原法学院030100法学及035102法律（法学）两类招生路径。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "**上海交通大学凯原法学院、浙江大学光华法学院**（重视综合素质与国际化，学科发展迅猛）",
+      "canonical_candidate_key": "zju_academic_law",
+      "error_ids": [],
+      "label": "光华法学院特色学硕方向",
+      "reason": "同一行明确列出不同学校的独立法学院，可分别登记；该段落为特色学硕赛道，与后文明确法律（法学）路径分别记录，不臆补段落未指定的二级专业。未确认名额不等于内容无效。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+      "canonical_candidate_key": "thu_jm_law",
+      "error_ids": [],
+      "label": "清华大学法律（法学）",
+      "reason": "答卷明确推荐法律（法学），已知法学本科与类别相符。S02确认清华该类别及推免考核。valid不表示已逐项审计当季名额、英语有效期和截止日；胜率与安全网的保证性论断由真实性项处理，不机械把整个项目判无效。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+      "canonical_candidate_key": "pku_main_jm_law",
+      "error_ids": [],
+      "label": "北京大学法律（法学）",
+      "reason": "答卷明确推荐法律（法学），已知法学本科与类别相符。S10确认北大本部该类别及推免路径。valid不表示已逐项审计当季名额、英语有效期和截止日；胜率与安全网的保证性论断由真实性项处理，不机械把整个项目判无效。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+      "canonical_candidate_key": "ruc_ordinary_jm_law",
+      "error_ids": [],
+      "label": "中国人民大学法律（法学）",
+      "reason": "答卷明确推荐法律（法学），已知法学本科与类别相符。S09确认人大普通法律（法学）与涉外方向是独立选择。valid不表示已逐项审计当季名额、英语有效期和截止日；胜率与安全网的保证性论断由真实性项处理，不机械把整个项目判无效。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+      "canonical_candidate_key": "fdu_jm_law",
+      "error_ids": [],
+      "label": "复旦大学法律（法学）",
+      "reason": "答卷明确推荐法律（法学），已知法学本科与类别相符。S11支持复旦法律硕士培养及推免。valid不表示已逐项审计当季名额、英语有效期和截止日；胜率与安全网的保证性论断由真实性项处理，不机械把整个项目判无效。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+      "canonical_candidate_key": "sjtu_jm_law",
+      "error_ids": [],
+      "label": "上海交通大学法律（法学）",
+      "reason": "答卷明确推荐法律（法学），已知法学本科与类别相符。与上述同校特色学硕赛道属于不同的明确学位路径。valid不表示已逐项审计当季名额、英语有效期和截止日；胜率与安全网的保证性论断由真实性项处理，不机械把整个项目判无效。 S13核对到凯原法学院030100法学及035102法律（法学）两类招生路径。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+      "canonical_candidate_key": "zju_jm_law",
+      "error_ids": [],
+      "label": "浙江大学法律（法学）",
+      "reason": "答卷明确推荐法律（法学），已知法学本科与类别相符。与上述同校特色学硕赛道属于不同的明确学位路径。valid不表示已逐项审计当季名额、英语有效期和截止日；胜率与安全网的保证性论断由真实性项处理，不机械把整个项目判无效。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "北京大学 (本部/STL)",
+      "canonical_candidate_key": "pku_main_jm_law",
+      "error_ids": [],
+      "label": "北大本部",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "北京大学 (本部/STL)",
+      "canonical_candidate_key": "pku_stl_jm",
+      "error_ids": [],
+      "label": "北大STL",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "北京大学 (本部/STL) | 清华大学 | 中国人民大学",
+      "canonical_candidate_key": "thu_general",
+      "error_ids": [],
+      "label": "清华大学梯队建议",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "北京大学 (本部/STL) | 清华大学 | 中国人民大学",
+      "canonical_candidate_key": "ruc_general",
+      "error_ids": [],
+      "label": "人大梯队建议",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "中国政法大学 (涉外/民商)",
+      "canonical_candidate_key": "cupl_general",
+      "error_ids": [],
+      "label": "法大涉外/民商组合",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "武汉大学 (涉外法治/国际法)",
+      "canonical_candidate_key": "whu_foreign_international_bundle",
+      "error_ids": [],
+      "label": "武大涉外法治/国际法组合",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。 S12另确认既有国际法研究所身份及其与国际法治研究院的依托关系，不认定与新学院是同一招生主体。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "上海交通大学 | 浙江大学 | 复旦大学 | 南京大学",
+      "canonical_candidate_key": "sjtu_academic_law",
+      "error_ids": [],
+      "label": "上海交大重复提名",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。 S13核对到凯原法学院030100法学及035102法律（法学）两类招生路径。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "上海交通大学 | 浙江大学 | 复旦大学 | 南京大学",
+      "canonical_candidate_key": "zju_academic_law",
+      "error_ids": [],
+      "label": "浙江大学重复提名",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "上海交通大学 | 浙江大学 | 复旦大学 | 南京大学",
+      "canonical_candidate_key": "fdu_jm_law",
+      "error_ids": [],
+      "label": "复旦重复提名",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "上海交通大学 | 浙江大学 | 复旦大学 | 南京大学",
+      "canonical_candidate_key": "nju_law",
+      "error_ids": [],
+      "label": "南京大学法学申请（未明确项目）",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "厦门大学 (海商/国际法)",
+      "canonical_candidate_key": "xmu_feature_law_bundle",
+      "error_ids": [],
+      "label": "厦大海商/国际法",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "厦门大学 (海商/国际法) | 吉林大学 | 华东政法大学",
+      "canonical_candidate_key": "jlu_law",
+      "error_ids": [],
+      "label": "吉林大学法学申请（未明确项目）",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "吉林大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "厦门大学 (海商/国际法) | 吉林大学 | 华东政法大学",
+      "canonical_candidate_key": "ecupl_law",
+      "error_ids": [],
+      "label": "华东政法大学法学申请（未明确项目）",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "华东政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "对外经济贸易大学 (涉外经贸)",
+      "canonical_candidate_key": "uibe_foreign_law",
+      "error_ids": [],
+      "label": "外经贸涉外经贸方向",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "对外经济贸易大学 (涉外经贸) | 中南财经政法大学",
+      "canonical_candidate_key": "zuel_law",
+      "error_ids": [],
+      "label": "中南财经政法大学法学申请（未明确项目）",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "中国海洋大学 (本校底线兜底)",
+      "canonical_candidate_key": "ouc_law",
+      "error_ids": [],
+      "label": "本校法学兜底（未明确项目）",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "中国海洋大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "中国海洋大学 (本校底线兜底) | 山东大学 | 大连海事大学",
+      "canonical_candidate_key": "sdu_law",
+      "error_ids": [],
+      "label": "山东大学法学申请（未明确项目）",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "中国海洋大学 (本校底线兜底) | 山东大学 | 大连海事大学",
+      "canonical_candidate_key": "dmu_maritime_law",
+      "error_ids": [],
+      "label": "大连海事重复推荐",
+      "reason": "矩阵明确列入投递梯队，属于实际推荐；重复学校或方向按已明确方案合并，不追加猜测的项目。北大本部与STL已在正文分别明确，故矩阵这一合并简称可关联两条既存路径；法大“涉外/民商”未明确院系路径，保留院校级组合而不拆造多个项目。学校级valid仅确认法学申请方向和已知背景无明显硬冲突，不视为当季审核已完成，也不认可“保底”或入营概率保证。",
+      "school_key": "大连海事大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "本校提前联系导师确认接收意向",
+      "canonical_candidate_key": "ouc_law",
+      "error_ids": [],
+      "label": "本校提前联系接收意向",
+      "reason": "矩阵已将本校作为兜底，此处是该候选的接收行动，沿用同一键。接收意向不替代推免资格或正式录取；未因学校名称未在该句重写而漏提取。",
+      "school_key": "中国海洋大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "若夏令营结果不够理想，**切勿气馁，预推免是二次逆风翻盘的巨大窗口**。8 月底大量顶尖高校（包括北大国法、法大、武大、人大等）会放出预推免名额，利用夏令营沉淀的成熟面试经验与进一步完善的学术论文，全力出击。",
+      "canonical_candidate_key": "pku_stl_jm",
+      "error_ids": [],
+      "feasibility": "答卷提出每日查目标院校官网、记录截止日期与项目名称，并利用已有文书、论文和面试训练快速补投，属于现实可执行的调整。咨询具体月份未给，不能保证8月底必有名额；实际申报前按追踪表核验公告和资格，不能把条件句当作已核验。",
+      "key_condition": "夏令营结果不够理想，且该校当届公告存在仍可投递的适合法学本科项目及预推免窗口；须取得本校推免资格并满足对应项目条件。",
+      "label": "北大国法预推免备选",
+      "reason": "结果不理想时提出有院校指向的预推免调整，全文动态追踪表可用于核验窗口；未将“8月底会放出名额”视为已经核实或保证。广义校名不替它指定未知的招生学院；北大国法明确指STL，沿用其路径。",
+      "school_key": "北京大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "若夏令营结果不够理想，**切勿气馁，预推免是二次逆风翻盘的巨大窗口**。8 月底大量顶尖高校（包括北大国法、法大、武大、人大等）会放出预推免名额，利用夏令营沉淀的成熟面试经验与进一步完善的学术论文，全力出击。",
+      "canonical_candidate_key": "cupl_general",
+      "error_ids": [],
+      "feasibility": "答卷提出每日查目标院校官网、记录截止日期与项目名称，并利用已有文书、论文和面试训练快速补投，属于现实可执行的调整。咨询具体月份未给，不能保证8月底必有名额；实际申报前按追踪表核验公告和资格，不能把条件句当作已核验。",
+      "key_condition": "夏令营结果不够理想，且该校当届公告存在仍可投递的适合法学本科项目及预推免窗口；须取得本校推免资格并满足对应项目条件。",
+      "label": "法大预推免备选",
+      "reason": "结果不理想时提出有院校指向的预推免调整，全文动态追踪表可用于核验窗口；未将“8月底会放出名额”视为已经核实或保证。广义校名不替它指定未知的招生学院；北大国法明确指STL，沿用其路径。",
+      "school_key": "中国政法大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "若夏令营结果不够理想，**切勿气馁，预推免是二次逆风翻盘的巨大窗口**。8 月底大量顶尖高校（包括北大国法、法大、武大、人大等）会放出预推免名额，利用夏令营沉淀的成熟面试经验与进一步完善的学术论文，全力出击。",
+      "canonical_candidate_key": "whu_general",
+      "error_ids": [],
+      "feasibility": "答卷提出每日查目标院校官网、记录截止日期与项目名称，并利用已有文书、论文和面试训练快速补投，属于现实可执行的调整。咨询具体月份未给，不能保证8月底必有名额；实际申报前按追踪表核验公告和资格，不能把条件句当作已核验。",
+      "key_condition": "夏令营结果不够理想，且该校当届公告存在仍可投递的适合法学本科项目及预推免窗口；须取得本校推免资格并满足对应项目条件。",
+      "label": "武大预推免备选",
+      "reason": "结果不理想时提出有院校指向的预推免调整，全文动态追踪表可用于核验窗口；未将“8月底会放出名额”视为已经核实或保证。广义校名不替它指定未知的招生学院；北大国法明确指STL，沿用其路径。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "若夏令营结果不够理想，**切勿气馁，预推免是二次逆风翻盘的巨大窗口**。8 月底大量顶尖高校（包括北大国法、法大、武大、人大等）会放出预推免名额，利用夏令营沉淀的成熟面试经验与进一步完善的学术论文，全力出击。",
+      "canonical_candidate_key": "ruc_general",
+      "error_ids": [],
+      "feasibility": "答卷提出每日查目标院校官网、记录截止日期与项目名称，并利用已有文书、论文和面试训练快速补投，属于现实可执行的调整。咨询具体月份未给，不能保证8月底必有名额；实际申报前按追踪表核验公告和资格，不能把条件句当作已核验。",
+      "key_condition": "夏令营结果不够理想，且该校当届公告存在仍可投递的适合法学本科项目及预推免窗口；须取得本校推免资格并满足对应项目条件。",
+      "label": "人大预推免备选",
+      "reason": "结果不理想时提出有院校指向的预推免调整，全文动态追踪表可用于核验窗口；未将“8月底会放出名额”视为已经核实或保证。广义校名不替它指定未知的招生学院；北大国法明确指STL，沿用其路径。",
+      "school_key": "中国人民大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "b532c7f33bb557207caa5bc6a627e952cf9f39267099de17ef1ef4906049a0bb",
+  "score": null,
+  "score_interval": [
+    65.0,
+    75.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "N12-01",
+  "task_kind": "planning",
+  "task_sha256": "c084a1b17e0dab3305737390f3f826f0a618b0578f300236e8f214e4e4b26c69",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有school_tier节点，层次仅作附带内容核对。已通读全文：总体冲刺提名、赛道清单、矩阵、预推免条件备选及重复出现均登记；只讨论本科背景、机筛示例及学术门派的校名未当推荐。对热门民商/刑法的风险提醒和避免单一死磕不构成明确排除，因此没有excluded条目。华五仅按未展开集合提名登记，不擅自添学校；未明确院系组合不拆造申请路径。本题无参考覆盖、候选上限或参考分母，故coverage保留空数组，不进行分层匹配或数量额外扣分。valid仅是内容身份/已知约束判断，不是年度招生审计完成。",
+    "schools": [
+      {
+        "answer_quote": "**中国政法大学**（国际法学院、全面依法治国研究院涉外专项）",
+        "downgraded": true,
+        "reason": "按通则操作顺序，该校不属于985，相对中国海洋大学985本科基准低一档或以上；仅报告，不因法学学科强弱改变标签，也不对本题额外扣分。",
+        "school_key": "中国政法大学"
+      },
+      {
+        "answer_quote": "**武汉大学**（涉外法治学院、国际法研究所——国际法全国顶尖）",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "**中国人民大学**（涉外法治交叉学科平台、法硕涉外专项）",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "**对外经济贸易大学**（法学院——涉外经贸法高地）",
+        "downgraded": true,
+        "reason": "按通则操作顺序，该校不属于985，相对中国海洋大学985本科基准低一档或以上；仅报告，不因法学学科强弱改变标签，也不对本题额外扣分。",
+        "school_key": "对外经济贸易大学"
+      },
+      {
+        "answer_quote": "**北京大学国际法学院（PKU STL，深圳）**（J.D./J.M.，全英文教学与考核，你的雅思 7.5 属于绝对优势生源）",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "**厦门大学**（环境法、海商法、国际经济法实力极强，与海大学术渊源深厚）",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "**大连海事大学**（海商法全国前列，可作为强特色保底）",
+        "downgraded": true,
+        "reason": "按通则操作顺序，该校不属于985，相对中国海洋大学985本科基准低一档或以上；仅报告，不因法学学科强弱改变标签，也不对本题额外扣分。",
+        "school_key": "大连海事大学"
+      },
+      {
+        "answer_quote": "**上海交通大学凯原法学院、浙江大学光华法学院**（重视综合素质与国际化，学科发展迅猛）",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "**上海交通大学凯原法学院、浙江大学光华法学院**（重视综合素质与国际化，学科发展迅猛）",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "清华、北大、人大、复旦、交大、浙大的法硕（法学）。",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "上海交通大学 | 浙江大学 | 复旦大学 | 南京大学",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "南京大学"
+      },
+      {
+        "answer_quote": "厦门大学 (海商/国际法) | 吉林大学 | 华东政法大学",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "吉林大学"
+      },
+      {
+        "answer_quote": "厦门大学 (海商/国际法) | 吉林大学 | 华东政法大学",
+        "downgraded": true,
+        "reason": "按通则操作顺序，该校不属于985，相对中国海洋大学985本科基准低一档或以上；仅报告，不因法学学科强弱改变标签，也不对本题额外扣分。",
+        "school_key": "华东政法大学"
+      },
+      {
+        "answer_quote": "对外经济贸易大学 (涉外经贸) | 中南财经政法大学",
+        "downgraded": true,
+        "reason": "按通则操作顺序，该校不属于985，相对中国海洋大学985本科基准低一档或以上；仅报告，不因法学学科强弱改变标签，也不对本题额外扣分。",
+        "school_key": "中南财经政法大学"
+      },
+      {
+        "answer_quote": "中国海洋大学 (本校底线兜底)",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "中国海洋大学"
+      },
+      {
+        "answer_quote": "中国海洋大学 (本校底线兜底) | 山东大学 | 大连海事大学",
+        "downgraded": false,
+        "reason": "与中国海洋大学同属985档，本题通则下不构成降级；不由院校标签推断专业实力、资格或录取概率。",
+        "school_key": "山东大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

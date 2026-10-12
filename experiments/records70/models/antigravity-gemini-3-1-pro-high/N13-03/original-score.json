@@ -1,0 +1,1110 @@
+{
+  "actual_candidate_count": 22,
+  "answer_sha256": "e433c70f60b1170639c5be3e266795459054deb4dae7b403d72815ccf985f684",
+  "candidate_limit": 16,
+  "confirmed_component_points": {
+    "coverage": 11.38,
+    "quality": 15.0
+  },
+  "confirmed_points": 26.38,
+  "diagnostic_score": null,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-GUARANTEE": [
+      "facts"
+    ],
+    "E-PATH": [
+      "reasons"
+    ],
+    "E-QUAL": [
+      "facts"
+    ],
+    "E-RESULT": [
+      "facts"
+    ],
+    "E-TIME": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "| 12 | **第三梯队：高性价比** | **南方科技大学** | 系统设计与智能制造学院 | 机械工程（080200） | 学术型硕士 / 联培博士 | 智能系统设计与先进机器人化制造 |",
+      "id": "E-PATH",
+      "reason": "南科大旧SDIM学院具体080200机械工程学硕路径与官方专业结构不符。已核对真实更名而非按名字机械判错，官方在招专业列表与本届专项见evidence.json SUSTECH-PROGRAM、SUSTECH-2027；仅此参考外无效推荐影响reasons。"
+    },
+    {
+      "answer_quote": "第一段：表明身份、专业第 1 成绩、六级已过、已取得推免资格，表达对导师特定研究课题的浓厚兴趣；",
+      "id": "E-QUAL",
+      "reason": "题面只有排名、六级和参与项目，未披露已获得推免资格；答卷画像称稳拿，并要求邮件写已取得，擅自把优势变成既得资格。仅归facts。"
+    },
+    {
+      "answer_quote": "该梯队确保申请人“100% 绝对不滑档”",
+      "id": "E-GUARANTEE",
+      "reason": "全卷还承诺初审必过、必拿优秀生源、90%以上通过率、自由选团队和锁定席位。排名与项目参与不能推出这些确定录取结果，题设未给对应历史或个人核准证据；该错误系统性而非局部。仅归facts，不在tier/reasons重复处罚。"
+    },
+    {
+      "answer_quote": "改为“独立完成 6 自由度机械臂的正逆运动学建模，基于 ROS 框架实现轨迹规划，将末端重复定位精度控制在 ±0.5mm 以内”。",
+      "id": "E-RESULT",
+      "reason": "只有参与机器人和工程项目已知，未给独立模块、ROS实现或精度结果；答案要求改写成具体已完成事实而无按实际经历填写条件。长期阅读顶刊及无障碍阅读的回答模板亦无已知事实支撑。不能作为已核准成果或能力。仅归facts。"
+    },
+    {
+      "answer_quote": "【阶段三：国家推免系统决战与拟录取锁定（9月28日前后）】",
+      "id": "E-TIME",
+      "reason": "本题2026申请季对应2027入学，答案把正式系统决战定在9月28日前后且前文写9月28日起；本届官方湖南大学细则明示9月21日起系统报名、9月24日起待录取。此处将核心确认动作推迟，可能错过早批录取；不是凭评审当前日期推断逾期。仅归execution，见evidence.json HNU。"
+    }
+  ],
+  "excess_count": 6,
+  "id": "N13-03",
+  "input_sha256": "1898023e177e20a13cf6a6bf3bebfff6d7321961fcdfe13a58da3e8d52f97970",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "be470b83ffe689e53a336ba489a746c09f7736577dda226989dcb11e5f602a16",
+  "nodes": [
+    {
+      "id": "N13-01",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-03",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-04",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-06",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-08",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A01",
+      "points": 4.38,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-09",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A09",
+      "points": 1.31,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-10",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A07",
+      "points": 1.31,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A15",
+      "points": 4.38,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-12",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-13",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N13-16",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 8,
+        "numerator": 35
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "tier",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0,
+      "id": "facts",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 22,
+  "official": false,
+  "pending_nodes": [
+    "N13-13"
+  ],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "| 01 | **第一梯队：顶尖冲刺** | **华南理工大学** | 机械与汽车工程学院 | 机械（085500） | 专业型硕士 | 机器人工程与智能制造系统 |",
+      "canonical_candidate_key": "scut-mech-master",
+      "error_ids": [],
+      "label": "华南理工大学 · 机械与汽车工程学院｜机械专硕",
+      "reason": "同校同院系机械专硕，参考已有粒度下身份及方向成立，450–499分和机械/机器人背景未显示已知硬冲突；不采信必不过英语初审的保证。 全文数量复核：16项清单之外还明确提及华科直博、沈自所直博、哈工深直博、南科大联培博士、机能系提名与广工直博，共22个独立项目/路径，超题面16个上限6个；仅记录超额，不截取清单、不另扣数量分。重复院名、总表及行动表均使用同一canonical key。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-detail",
+      "answer_quote": "#### 01. 华南理工大学 · 机械与汽车工程学院\n* **建议申请专业（项目）**：**机械（085500）**，全日制专业型硕士（智能制造与机器人工程方向）。",
+      "canonical_candidate_key": "scut-mech-master",
+      "error_ids": [],
+      "label": "华南理工大学 · 机械与汽车工程学院｜机械专硕",
+      "reason": "同校同院系机械专硕，参考已有粒度下身份及方向成立，450–499分和机械/机器人背景未显示已知硬冲突；不采信必不过英语初审的保证。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "| 02 | **第一梯队：顶尖冲刺** | **哈尔滨工业大学（深圳）** | 机电工程与自动化学院 | 机械（085500） | 专业型硕士 | 智能机器人与仿生装备 |",
+      "canonical_candidate_key": "hit-shenzhen-mech-prof-master",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳） · 机电工程与自动化学院｜机械专硕",
+      "reason": "深圳机械专硕路径可识别；官方现名称及六级通过要求见HIT、HIT-NAME。旧学院名可追溯，不等于培养地混淆；答卷前1%优惠条款未核准。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-detail",
+      "answer_quote": "#### 02. 哈尔滨工业大学（深圳） · 机电工程与自动化学院\n* **建议申请专业（项目）**：**机械（085500）**，全日制专业型硕士（智能机器人与仿生装备方向）。",
+      "canonical_candidate_key": "hit-shenzhen-mech-prof-master",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳） · 机电工程与自动化学院｜机械专硕",
+      "reason": "深圳机械专硕路径可识别；官方现名称及六级通过要求见HIT、HIT-NAME。旧学院名可追溯，不等于培养地混淆；答卷前1%优惠条款未核准。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "| 03 | **第一梯队：顶尖冲刺** | **华中科技大学** | 机械科学与工程学院 | 机械工程（080200） | 学术型硕士 / 直博 | 智能制造装备与数字化制造 |",
+      "canonical_candidate_key": "hust-mse-mech-master",
+      "error_ids": [],
+      "label": "华中科技大学 · 机械科学与工程学院｜机械工程学硕",
+      "reason": "机械学院机械学硕为可识别机械/智能制造路径，官方2027推免信息支持主体；与中欧能源学院不同且答卷未明确清洁能源研究，不机械按华科校名匹配。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-detail",
+      "answer_quote": "#### 03. 华中科技大学 · 机械科学与工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士（或数字化制造直博生）。",
+      "canonical_candidate_key": "hust-mse-mech-master",
+      "error_ids": [],
+      "label": "华中科技大学 · 机械科学与工程学院｜机械工程学硕",
+      "reason": "机械学院机械学硕为可识别机械/智能制造路径，官方2027推免信息支持主体；与中欧能源学院不同且答卷未明确清洁能源研究，不机械按华科校名匹配。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "| 04 | **第一梯队：顶尖冲刺** | **中国科学院沈阳自动化研究所** | 机器人学国家重点实验室 | 机械工程（080200） | 学术型硕士 / 直博 | 智能机器人与光机电一体化 |",
+      "canonical_candidate_key": "ucas-sia-mech-master",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所 · 机器人学国家重点实验室｜机械工程学硕",
+      "reason": "沈阳自动化研究所为真实独立招生单位，机器人机械学硕方向合理；080200按0802一级学科统称理解，最近官方列机械制造/机械电子二级专业，未把统称当虚构。与广州能源所非同一主体。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-detail",
+      "answer_quote": "#### 04. 中国科学院沈阳自动化研究所 · 机器人学国家重点实验室\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士（或直博生）。",
+      "canonical_candidate_key": "ucas-sia-mech-master",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所 · 机器人学国家重点实验室｜机械工程学硕",
+      "reason": "沈阳自动化研究所为真实独立招生单位，机器人机械学硕方向合理；080200按0802一级学科统称理解，最近官方列机械制造/机械电子二级专业，未把统称当虚构。与广州能源所非同一主体。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "| 05 | **第二梯队：强势突破** | **湖南大学** | 机械与运载工程学院 | 机械工程（080200） | 学术型硕士 | 智能装备制造与高端车辆机电系统 |",
+      "canonical_candidate_key": "hnu-mve-mech-master",
+      "error_ids": [],
+      "label": "湖南大学 · 机械与运载工程学院｜机械工程学硕",
+      "reason": "官方本届目录与细则支持080200机械工程学硕，机械、机器人底盘与智能装备背景可衔接；未核准所谓高入营率，不将概率承诺视作项目身份错误。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-detail",
+      "answer_quote": "#### 05. 湖南大学 · 机械与运载工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士。",
+      "canonical_candidate_key": "hnu-mve-mech-master",
+      "error_ids": [],
+      "label": "湖南大学 · 机械与运载工程学院｜机械工程学硕",
+      "reason": "官方本届目录与细则支持080200机械工程学硕，机械、机器人底盘与智能装备背景可衔接；未核准所谓高入营率，不将概率承诺视作项目身份错误。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "| 06 | **第二梯队：强势突破** | **中南大学** | 机电工程学院 | 机械工程（080200） | 学术型硕士 | 高端装备智能制造与微纳机器人 |",
+      "canonical_candidate_key": "csu-mech-master",
+      "error_ids": [],
+      "label": "中南大学 · 机电工程学院｜机械工程学硕",
+      "reason": "学校机电工程学院机械学硕是可识别的机械智能装备申请路径，与学生方向相关；前1%优惠和六级通行说法不视为已核准年度门槛，未发现题设已知条件确定排斥该路径。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-detail",
+      "answer_quote": "#### 06. 中南大学 · 机电工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士（高端装备智能制造与微纳机器人方向）。",
+      "canonical_candidate_key": "csu-mech-master",
+      "error_ids": [],
+      "label": "中南大学 · 机电工程学院｜机械工程学硕",
+      "reason": "学校机电工程学院机械学硕是可识别的机械智能装备申请路径，与学生方向相关；前1%优惠和六级通行说法不视为已核准年度门槛，未发现题设已知条件确定排斥该路径。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "| 07 | **第二梯队：强势突破** | **重庆大学** | 机械与运载工程学院 | 机械（085500） | 专业型硕士 | 机械传动国家重点实验室智能制造 |",
+      "canonical_candidate_key": "cqu-mve-mech-prof-master",
+      "error_ids": [],
+      "label": "重庆大学 · 机械与运载工程学院｜机械专硕",
+      "reason": "机械专硕大类路径成立，当前细分机械工程专硕含精密传动、机电系统与智能无人系统；与参考自动化学院机器人/控制高度相关但跨院系，只可30%关系。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-detail",
+      "answer_quote": "#### 07. 重庆大学 · 机械与运载工程学院\n* **建议申请专业（项目）**：**机械（085500）**，全日制专业型硕士（智能制造与精密传动方向）。",
+      "canonical_candidate_key": "cqu-mve-mech-prof-master",
+      "error_ids": [],
+      "label": "重庆大学 · 机械与运载工程学院｜机械专硕",
+      "reason": "机械专硕大类路径成立，当前细分机械工程专硕含精密传动、机电系统与智能无人系统；与参考自动化学院机器人/控制高度相关但跨院系，只可30%关系。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "| 08 | **第二梯队：强势突破** | **大连理工大学** | 机械工程学院 | 机械工程（080200） | 学术型硕士 | 高性能智能制造与数字化装备 |",
+      "canonical_candidate_key": "dlut-mech-master",
+      "error_ids": [],
+      "label": "大连理工大学 · 机械工程学院｜机械工程学硕",
+      "reason": "机械工程学院机械学硕是可识别且方向相符的路径；没有参考关系不等于非法候选，年度门槛及多名额优惠未审计，不作为已知事实。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-detail",
+      "answer_quote": "#### 08. 大连理工大学 · 机械工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士。",
+      "canonical_candidate_key": "dlut-mech-master",
+      "error_ids": [],
+      "label": "大连理工大学 · 机械工程学院｜机械工程学硕",
+      "reason": "机械工程学院机械学硕是可识别且方向相符的路径；没有参考关系不等于非法候选，年度门槛及多名额优惠未审计，不作为已知事实。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "| 09 | **第二梯队：强势突破** | **北京理工大学** | 机械与车辆学院 | 机械（085500） | 专业型硕士 | 地面无人系统与特种机器人技术 |",
+      "canonical_candidate_key": "bit-beijing-mech-prof-master",
+      "error_ids": [],
+      "label": "北京理工大学 · 机械与车辆学院｜机械专硕",
+      "reason": "北京机械与车辆学院机械专硕路径成立，官方目录细分085501；与珠海同校不同培养单位，机械/无人系统方向相关，不能冒充珠海同一项目。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-detail",
+      "answer_quote": "#### 09. 北京理工大学 · 机械与车辆学院\n* **建议申请专业（项目）**：**机械（085500）**，全日制专业型硕士（智能机器人与地面无人装备方向）。",
+      "canonical_candidate_key": "bit-beijing-mech-prof-master",
+      "error_ids": [],
+      "label": "北京理工大学 · 机械与车辆学院｜机械专硕",
+      "reason": "北京机械与车辆学院机械专硕路径成立，官方目录细分085501；与珠海同校不同培养单位，机械/无人系统方向相关，不能冒充珠海同一项目。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "| 10 | **第三梯队：高性价比** | **山东大学** | 机械工程学院 | 机械工程（080200） | 学术型硕士 | 高效洁净制造与机电控制工程 |",
+      "canonical_candidate_key": "sdu-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "山东大学 · 机械工程学院｜机械工程学硕",
+      "reason": "机械学院真实存在本届推免路径，智能制造/机电控制对机械背景适配；官方只确认主体，不支持90%以上初审概率；非参考不因此无效。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-detail",
+      "answer_quote": "#### 10. 山东大学 · 机械工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士。",
+      "canonical_candidate_key": "sdu-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "山东大学 · 机械工程学院｜机械工程学硕",
+      "reason": "机械学院真实存在本届推免路径，智能制造/机电控制对机械背景适配；官方只确认主体，不支持90%以上初审概率；非参考不因此无效。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "| 11 | **第三梯队：高性价比** | **东北大学** | 机械工程与自动化学院 | 机械工程（080200） | 学术型硕士 | 工业机器人控制与数字化装备 |",
+      "canonical_candidate_key": "neu-mech-master",
+      "error_ids": [],
+      "label": "东北大学 · 机械工程与自动化学院｜机械工程学硕",
+      "reason": "机械工程与自动化学院机械学硕方向可识别，机械自动化与机器人意向合理；未发现确定已知硬条件冲突，不将未完成年度英语审核标作invalid。",
+      "school_key": "东北大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-detail",
+      "answer_quote": "#### 11. 东北大学 · 机械工程与自动化学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士。",
+      "canonical_candidate_key": "neu-mech-master",
+      "error_ids": [],
+      "label": "东北大学 · 机械工程与自动化学院｜机械工程学硕",
+      "reason": "机械工程与自动化学院机械学硕方向可识别，机械自动化与机器人意向合理；未发现确定已知硬条件冲突，不将未完成年度英语审核标作invalid。",
+      "school_key": "东北大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "| 12 | **第三梯队：高性价比** | **南方科技大学** | 系统设计与智能制造学院 | 机械工程（080200） | 学术型硕士 / 联培博士 | 智能系统设计与先进机器人化制造 |",
+      "canonical_candidate_key": "sustech-sdim-mech-master",
+      "error_ids": [
+        "E-PATH"
+      ],
+      "label": "南方科技大学 · 系统设计与智能制造学院（或机械与能源工程系）｜机械工程学硕",
+      "reason": "该学院旧名对应现自动化与智能制造学院可识别，但官方完整研究生专业介绍无080200机械工程学硕，本届专项招生亦为085400电子信息。机械工程研究内容不能等同机械工程学位路径，具体组合错误；见SUSTECH-PROGRAM、SUSTECH-2027。表中联培博士另提取，机能系仅提名不替本组合修复。",
+      "school_key": "南方科技大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A12-detail",
+      "answer_quote": "#### 12. 南方科技大学 · 系统设计与智能制造学院（或机械与能源工程系）\n* **建议申请专业（项目）**：**机械工程（080200）**，全日制学术型硕士（智能制造与先进机器人系统）。",
+      "canonical_candidate_key": "sustech-sdim-mech-master",
+      "error_ids": [
+        "E-PATH"
+      ],
+      "label": "南方科技大学 · 系统设计与智能制造学院（或机械与能源工程系）｜机械工程学硕",
+      "reason": "该学院旧名对应现自动化与智能制造学院可识别，但官方完整研究生专业介绍无080200机械工程学硕，本届专项招生亦为085400电子信息。机械工程研究内容不能等同机械工程学位路径，具体组合错误；见SUSTECH-PROGRAM、SUSTECH-2027。表中联培博士另提取，机能系仅提名不替本组合修复。",
+      "school_key": "南方科技大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "| 13 | **第三梯队：高性价比** | **中国科学院深圳先进技术研究院** | 集成技术研究所 | 机械（085500） | 专业型硕士 | 智能仿生机器人与机器视觉控制 |",
+      "canonical_candidate_key": "ucas-siat-integrated-mech-prof-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "中国科学院深圳先进技术研究院 (SIAT) · 集成技术研究所｜机械专硕",
+      "reason": "深圳先进院集成技术研究所内部机械/机器人专业型硕士路径可识别，两个中心/团队是内部分支，不拆独立推荐；国科大授位不等于广州能源所招生主体。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-detail",
+      "answer_quote": "#### 13. 中国科学院深圳先进技术研究院 (SIAT) · 集成技术研究所\n* **建议申请专业（项目）**：**机械（085500）**，全日制专业型硕士（智能仿生中心 / 机器视觉与控制团队）。",
+      "canonical_candidate_key": "ucas-siat-integrated-mech-prof-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "中国科学院深圳先进技术研究院 (SIAT) · 集成技术研究所｜机械专硕",
+      "reason": "深圳先进院集成技术研究所内部机械/机器人专业型硕士路径可识别，两个中心/团队是内部分支，不拆独立推荐；国科大授位不等于广州能源所招生主体。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "| 14 | **第四梯队：稳健兜底** | **武汉理工大学** | 机电工程学院 | 机械工程（080200） | 学术型硕士 | 智能制造装备与机电一体化技术 |",
+      "canonical_candidate_key": "whut-smee-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "武汉理工大学 · 机电工程学院｜机械工程学硕",
+      "reason": "官方确认机电工程学院080200机械工程真实存在，候选本身valid；冻结参考写机械工程学院，等价身份未证实，相关coverage另保留pending而不归咎答卷。",
+      "school_key": "武汉理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-detail",
+      "answer_quote": "#### 14. 武汉理工大学 · 机电工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士。",
+      "canonical_candidate_key": "whut-smee-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "武汉理工大学 · 机电工程学院｜机械工程学硕",
+      "reason": "官方确认机电工程学院080200机械工程真实存在，候选本身valid；冻结参考写机械工程学院，等价身份未证实，相关coverage另保留pending而不归咎答卷。",
+      "school_key": "武汉理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "| 15 | **第四梯队：稳健兜底** | **南京航空航天大学** | 机电学院 | 机械（085500） | 专业型硕士 | 航空宇航精密制造与机器人加工 |",
+      "canonical_candidate_key": "nuaa-mech-prof-master",
+      "error_ids": [],
+      "label": "南京航空航天大学 · 机电学院｜机械专硕",
+      "reason": "参考同名机电学院机械方向；本届官方推免硕士目录确认085500机械/机械工程航空工程方向，exact。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-detail",
+      "answer_quote": "#### 15. 南京航空航天大学 · 机电学院\n* **建议申请专业（项目）**：**机械（085500）**，全日制专业型硕士（航空宇航智能制造与机器人加工方向）。",
+      "canonical_candidate_key": "nuaa-mech-prof-master",
+      "error_ids": [],
+      "label": "南京航空航天大学 · 机电学院｜机械专硕",
+      "reason": "参考同名机电学院机械方向；本届官方推免硕士目录确认085500机械/机械工程航空工程方向，exact。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "| 16 | **第四梯队：稳健兜底** | **广东工业大学** | 机电工程学院 | 机械工程（080200） | 学硕（院士/重点实验室团队） | 精密电子制造技术与高速高精机器人 |",
+      "canonical_candidate_key": "gdut-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "广东工业大学 · 机电工程学院｜机械工程学硕",
+      "reason": "机电工程学院机械学硕路径可识别，与精密装备/智能制造意向相符，和广州大学本科操作层次同档；院士团队待遇与指标锁定承诺不采信，另在facts归属。",
+      "school_key": "广东工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-detail",
+      "answer_quote": "#### 16. 广东工业大学 · 机电工程学院\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士（直奔省部共建国家重点实验室，优选院士/国家杰青团队）。",
+      "canonical_candidate_key": "gdut-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "广东工业大学 · 机电工程学院｜机械工程学硕",
+      "reason": "机电工程学院机械学硕路径可识别，与精密装备/智能制造意向相符，和广州大学本科操作层次同档；院士团队待遇与指标锁定承诺不采信，另在facts归属。",
+      "school_key": "广东工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "若对科研有长远追求，华科机械直博录取概率显著高于学硕，且导师资源极顶尖。",
+      "canonical_candidate_key": "hust-mse-mech-phd",
+      "error_ids": [],
+      "feasibility": "答卷建议强化数学建模、算法及科研创新并选择机械直博；真实直博路径可申请，但需实际推免资格、导师接收及考核，录取概率并未证实。",
+      "key_condition": "愿意长期科研并选择直博培养路径。",
+      "label": "华科机械学院机械工程直博",
+      "reason": "属于明确具体院系学科的条件直博备选；官方2027推免公告含直博，机械基础可衔接。无概率证据，相关承诺仅归facts；未以条件句修复错误主体。",
+      "school_key": "华中科技大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-table",
+      "answer_quote": "| 03 | **第一梯队：顶尖冲刺** | **华中科技大学** | 机械科学与工程学院 | 机械工程（080200） | 学术型硕士 / 直博 | 智能制造装备与数字化制造 |",
+      "canonical_candidate_key": "hust-mse-mech-phd",
+      "error_ids": [],
+      "feasibility": "同A17，答卷给出机械学院直博以及强化数学建模和科研创新的准备方向；可申请真实路径，不采信所谓显著更高录取概率。",
+      "key_condition": "正文提出愿意长期科研并选择直博培养路径。",
+      "label": "华科机械工程直博（总表重复）",
+      "reason": "总表明确学术型硕士/直博，和A17为同一直博路径，不额外计数。",
+      "school_key": "华中科技大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "#### 04. 中国科学院沈阳自动化研究所 · 机器人学国家重点实验室\n* **建议申请专业（项目）**：**机械工程（080200）**，学术型硕士（或直博生）。",
+      "canonical_candidate_key": "ucas-sia-mech-phd",
+      "error_ids": [],
+      "label": "沈阳自动化所机械/机器人直博",
+      "reason": "明确推荐沈自所机械领域直博，独立于硕士学位路径；按机械领域大类理解，不新增参考关系。真实中科院机器人培养主体，未发现题设硬冲突。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-table",
+      "answer_quote": "| 04 | **第一梯队：顶尖冲刺** | **中国科学院沈阳自动化研究所** | 机器人学国家重点实验室 | 机械工程（080200） | 学术型硕士 / 直博 | 智能机器人与光机电一体化 |",
+      "canonical_candidate_key": "ucas-sia-mech-phd",
+      "error_ids": [],
+      "label": "沈自所直博（总表重复）",
+      "reason": "总表明确学硕/直博，和A18为同一直博路径。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "可在预推免阶段继续冲刺专硕或关注相关导师的直博生招生名额。",
+      "canonical_candidate_key": "hit-shenzhen-mech-phd",
+      "error_ids": [],
+      "label": "哈工深相关机器人机械导师直博名额提名",
+      "reason": "仅建议关注直博导师名额，未形成具体直博申请组合；按mentioned提取。现学院官方有机械直博路径，但不由评审补写成有效条件方案。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "| 12 | **第三梯队：高性价比** | **南方科技大学** | 系统设计与智能制造学院 | 机械工程（080200） | 学术型硕士 / 联培博士 | 智能系统设计与先进机器人化制造 |",
+      "canonical_candidate_key": "sustech-sdim-joint-phd-nomination",
+      "error_ids": [],
+      "label": "南科大系统设计智能制造联培博士提名",
+      "reason": "表中还列联培博士，未给合作/授位主体或独立博士申请路径，只记mentioned。官方学院存在电子信息专项直博和其他联培，不能凭080200学硕错误将所有联培博士判不存在，也不把它补成清华/同济具体项目。",
+      "school_key": "南方科技大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "夏令营关注南科大 SDIM 学院与机能系活动，提前准备好展示机器人硬件或控制代码的项目 PPT。",
+      "canonical_candidate_key": "sustech-mee-nomination",
+      "error_ids": [],
+      "label": "南科大机械与能源工程系候选提名",
+      "reason": "正文提名机能系活动，与SDIM是独立单位。标题含或机械与能源工程系但无独立明确学位项目，不能为其创造080200机械工程学硕推荐；mentioned无覆盖。",
+      "school_key": "南方科技大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "9 月底前若外校没有满意的 985 项目，可直接无缝对接广工国重室顶尖团队并锁定核心直博/学硕指标。",
+      "canonical_candidate_key": "gdut-mech-phd",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "feasibility": "机电学院实际招收推免直博，可以联系导师争取考核；答卷给出转投时机和团队对接动作，但不能保证尚有名额或锁定，具体资格和导师须实际审核。",
+      "key_condition": "9月底前没有满意的外校985结果，并愿意接受机械领域直博。",
+      "label": "广东工业大学机电工程学院机械领域直博备选",
+      "reason": "明确提及兜底时的直博路径，独立于已列学硕；官网本届硕士和直博招收公告支持存在。锁定指标不成立另归facts，条件推荐本身不因此虚构。",
+      "school_key": "广东工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-fallback",
+      "answer_quote": "9 月底前若外校没有满意的 985 项目，可直接无缝对接广工国重室顶尖团队并锁定核心直博/学硕指标。",
+      "canonical_candidate_key": "gdut-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "feasibility": "同学院真实学硕可作为转投方向，锁定承诺另归事实项，需遵循实际招生窗口、资格及考核。",
+      "key_condition": "9月底前没有满意985结果。",
+      "label": "广东工业大学机械学硕（兜底重复）",
+      "reason": "重复总表已列学硕，和A16同一canonical key，非额外候选；博士部分另A22。",
+      "school_key": "广东工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-priority1",
+      "answer_quote": "· 重点：主攻华工、哈工深、中科院沈自所、湖大、中南、重大。",
+      "canonical_candidate_key": "scut-mech-master",
+      "error_ids": [],
+      "label": "华南理工大学 · 机械与汽车工程学院（行动表重复）",
+      "reason": "同校同院系机械专硕，参考已有粒度下身份及方向成立，450–499分和机械/机器人背景未显示已知硬冲突；不采信必不过英语初审的保证。 行动表复现同一组合，不额外计数。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-priority1",
+      "answer_quote": "· 重点：主攻华工、哈工深、中科院沈自所、湖大、中南、重大。",
+      "canonical_candidate_key": "hit-shenzhen-mech-prof-master",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳） · 机电工程与自动化学院（行动表重复）",
+      "reason": "深圳机械专硕路径可识别；官方现名称及六级通过要求见HIT、HIT-NAME。旧学院名可追溯，不等于培养地混淆；答卷前1%优惠条款未核准。 行动表复现同一组合，不额外计数。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-priority1",
+      "answer_quote": "· 重点：主攻华工、哈工深、中科院沈自所、湖大、中南、重大。",
+      "canonical_candidate_key": "ucas-sia-mech-master",
+      "error_ids": [],
+      "label": "中国科学院沈阳自动化研究所 · 机器人学国家重点实验室（行动表重复）",
+      "reason": "沈阳自动化研究所为真实独立招生单位，机器人机械学硕方向合理；080200按0802一级学科统称理解，最近官方列机械制造/机械电子二级专业，未把统称当虚构。与广州能源所非同一主体。 行动表复现同一组合，不额外计数。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-priority1",
+      "answer_quote": "· 重点：主攻华工、哈工深、中科院沈自所、湖大、中南、重大。",
+      "canonical_candidate_key": "hnu-mve-mech-master",
+      "error_ids": [],
+      "label": "湖南大学 · 机械与运载工程学院（行动表重复）",
+      "reason": "官方本届目录与细则支持080200机械工程学硕，机械、机器人底盘与智能装备背景可衔接；未核准所谓高入营率，不将概率承诺视作项目身份错误。 行动表复现同一组合，不额外计数。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-priority1",
+      "answer_quote": "· 重点：主攻华工、哈工深、中科院沈自所、湖大、中南、重大。",
+      "canonical_candidate_key": "csu-mech-master",
+      "error_ids": [],
+      "label": "中南大学 · 机电工程学院（行动表重复）",
+      "reason": "学校机电工程学院机械学硕是可识别的机械智能装备申请路径，与学生方向相关；前1%优惠和六级通行说法不视为已核准年度门槛，未发现题设已知条件确定排斥该路径。 行动表复现同一组合，不额外计数。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-priority1",
+      "answer_quote": "· 重点：主攻华工、哈工深、中科院沈自所、湖大、中南、重大。",
+      "canonical_candidate_key": "cqu-mve-mech-prof-master",
+      "error_ids": [],
+      "label": "重庆大学 · 机械与运载工程学院（行动表重复）",
+      "reason": "机械专硕大类路径成立，当前细分机械工程专硕含精密传动、机电系统与智能无人系统；与参考自动化学院机器人/控制高度相关但跨院系，只可30%关系。 行动表复现同一组合，不额外计数。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-priority2",
+      "answer_quote": "· 重点：重点突破北理工专硕、大工、山大、东大、南科大、SIAT，以及夏令营未入营的 985。",
+      "canonical_candidate_key": "bit-beijing-mech-prof-master",
+      "error_ids": [],
+      "label": "北京理工大学 · 机械与车辆学院（行动表重复）",
+      "reason": "北京机械与车辆学院机械专硕路径成立，官方目录细分085501；与珠海同校不同培养单位，机械/无人系统方向相关，不能冒充珠海同一项目。 行动表复现同一组合，不额外计数。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-priority2",
+      "answer_quote": "· 重点：重点突破北理工专硕、大工、山大、东大、南科大、SIAT，以及夏令营未入营的 985。",
+      "canonical_candidate_key": "dlut-mech-master",
+      "error_ids": [],
+      "label": "大连理工大学 · 机械工程学院（行动表重复）",
+      "reason": "机械工程学院机械学硕是可识别且方向相符的路径；没有参考关系不等于非法候选，年度门槛及多名额优惠未审计，不作为已知事实。 行动表复现同一组合，不额外计数。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-priority2",
+      "answer_quote": "· 重点：重点突破北理工专硕、大工、山大、东大、南科大、SIAT，以及夏令营未入营的 985。",
+      "canonical_candidate_key": "sdu-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "山东大学 · 机械工程学院（行动表重复）",
+      "reason": "机械学院真实存在本届推免路径，智能制造/机电控制对机械背景适配；官方只确认主体，不支持90%以上初审概率；非参考不因此无效。 行动表复现同一组合，不额外计数。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-priority2",
+      "answer_quote": "· 重点：重点突破北理工专硕、大工、山大、东大、南科大、SIAT，以及夏令营未入营的 985。",
+      "canonical_candidate_key": "neu-mech-master",
+      "error_ids": [],
+      "label": "东北大学 · 机械工程与自动化学院（行动表重复）",
+      "reason": "机械工程与自动化学院机械学硕方向可识别，机械自动化与机器人意向合理；未发现确定已知硬条件冲突，不将未完成年度英语审核标作invalid。 行动表复现同一组合；东大结合第11项解作东北大学，不提取未推荐的东南大学。",
+      "school_key": "东北大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-priority2",
+      "answer_quote": "· 重点：重点突破北理工专硕、大工、山大、东大、南科大、SIAT，以及夏令营未入营的 985。",
+      "canonical_candidate_key": "sustech-sdim-mech-master",
+      "error_ids": [
+        "E-PATH"
+      ],
+      "label": "南方科技大学 · 系统设计与智能制造学院（或机械与能源工程系）（行动表重复）",
+      "reason": "该学院旧名对应现自动化与智能制造学院可识别，但官方完整研究生专业介绍无080200机械工程学硕，本届专项招生亦为085400电子信息。机械工程研究内容不能等同机械工程学位路径，具体组合错误；见SUSTECH-PROGRAM、SUSTECH-2027。表中联培博士另提取，机能系仅提名不替本组合修复。 行动表复现同一组合，不额外计数。",
+      "school_key": "南方科技大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A13-priority2",
+      "answer_quote": "· 重点：重点突破北理工专硕、大工、山大、东大、南科大、SIAT，以及夏令营未入营的 985。",
+      "canonical_candidate_key": "ucas-siat-integrated-mech-prof-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "中国科学院深圳先进技术研究院 (SIAT) · 集成技术研究所（行动表重复）",
+      "reason": "深圳先进院集成技术研究所内部机械/机器人专业型硕士路径可识别，两个中心/团队是内部分支，不拆独立推荐；国科大授位不等于广州能源所招生主体。 行动表复现同一组合，不额外计数。",
+      "school_key": "中国科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-priority3",
+      "answer_quote": "· 目标：正式填报 3 个平行志愿（如：冲刺志愿华工 + 稳固志愿湖大/重大 + 压舱志愿武理工/广工）。",
+      "canonical_candidate_key": "scut-mech-master",
+      "error_ids": [],
+      "label": "华南理工大学 · 机械与汽车工程学院（行动表重复）",
+      "reason": "同校同院系机械专硕，参考已有粒度下身份及方向成立，450–499分和机械/机器人背景未显示已知硬冲突；不采信必不过英语初审的保证。 行动表复现同一组合，不额外计数。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-priority3",
+      "answer_quote": "· 目标：正式填报 3 个平行志愿（如：冲刺志愿华工 + 稳固志愿湖大/重大 + 压舱志愿武理工/广工）。",
+      "canonical_candidate_key": "hnu-mve-mech-master",
+      "error_ids": [],
+      "label": "湖南大学 · 机械与运载工程学院（行动表重复）",
+      "reason": "官方本届目录与细则支持080200机械工程学硕，机械、机器人底盘与智能装备背景可衔接；未核准所谓高入营率，不将概率承诺视作项目身份错误。 行动表复现同一组合，不额外计数。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-priority3",
+      "answer_quote": "· 目标：正式填报 3 个平行志愿（如：冲刺志愿华工 + 稳固志愿湖大/重大 + 压舱志愿武理工/广工）。",
+      "canonical_candidate_key": "cqu-mve-mech-prof-master",
+      "error_ids": [],
+      "label": "重庆大学 · 机械与运载工程学院（行动表重复）",
+      "reason": "机械专硕大类路径成立，当前细分机械工程专硕含精密传动、机电系统与智能无人系统；与参考自动化学院机器人/控制高度相关但跨院系，只可30%关系。 行动表复现同一组合，不额外计数。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-priority3",
+      "answer_quote": "· 目标：正式填报 3 个平行志愿（如：冲刺志愿华工 + 稳固志愿湖大/重大 + 压舱志愿武理工/广工）。",
+      "canonical_candidate_key": "whut-smee-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "武汉理工大学 · 机电工程学院（行动表重复）",
+      "reason": "官方确认机电工程学院080200机械工程真实存在，候选本身valid；冻结参考写机械工程学院，等价身份未证实，相关coverage另保留pending而不归咎答卷。 行动表复现同一组合，不额外计数。",
+      "school_key": "武汉理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-priority3",
+      "answer_quote": "· 目标：正式填报 3 个平行志愿（如：冲刺志愿华工 + 稳固志愿湖大/重大 + 压舱志愿武理工/广工）。",
+      "canonical_candidate_key": "gdut-mech-master",
+      "error_ids": [
+        "E-GUARANTEE"
+      ],
+      "label": "广东工业大学 · 机电工程学院（行动表重复）",
+      "reason": "机电工程学院机械学硕路径可识别，与精密装备/智能制造意向相符，和广州大学本科操作层次同档；院士团队待遇与指标锁定承诺不采信，另在facts归属。 行动表复现同一组合，不额外计数。",
+      "school_key": "广东工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 16,
+  "rubric_sha256": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+  "score": null,
+  "score_interval": [
+    26.38,
+    30.75
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "N13-03",
+  "task_kind": "recommendation",
+  "task_sha256": "1ec5a0068ca3b1cdfd8a478a368f27783768d63fa8c6fb25e557293b52370acc",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "| 01 | **第一梯队：顶尖冲刺** | **华南理工大学** | 机械与汽车工程学院 | 机械（085500） | 专业型硕士 | 机器人工程与智能制造系统 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "华南理工大学"
+      },
+      {
+        "answer_quote": "| 02 | **第一梯队：顶尖冲刺** | **哈尔滨工业大学（深圳）** | 机电工程与自动化学院 | 机械（085500） | 专业型硕士 | 智能机器人与仿生装备 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "| 03 | **第一梯队：顶尖冲刺** | **华中科技大学** | 机械科学与工程学院 | 机械工程（080200） | 学术型硕士 / 直博 | 智能制造装备与数字化制造 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "| 04 | **第一梯队：顶尖冲刺** | **中国科学院沈阳自动化研究所** | 机器人学国家重点实验室 | 机械工程（080200） | 学术型硕士 / 直博 | 智能机器人与光机电一体化 |",
+        "downgraded": false,
+        "reason": "沈自所及深圳先进院均为中国科学院大学培养/授位体系的独立研究所路径，不因无985/211标签判降级；同授位学校只列一条，两所招生主体仍各自核对。",
+        "school_key": "中国科学院大学"
+      },
+      {
+        "answer_quote": "| 05 | **第二梯队：强势突破** | **湖南大学** | 机械与运载工程学院 | 机械工程（080200） | 学术型硕士 | 智能装备制造与高端车辆机电系统 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "湖南大学"
+      },
+      {
+        "answer_quote": "| 06 | **第二梯队：强势突破** | **中南大学** | 机电工程学院 | 机械工程（080200） | 学术型硕士 | 高端装备智能制造与微纳机器人 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "中南大学"
+      },
+      {
+        "answer_quote": "| 07 | **第二梯队：强势突破** | **重庆大学** | 机械与运载工程学院 | 机械（085500） | 专业型硕士 | 机械传动国家重点实验室智能制造 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "重庆大学"
+      },
+      {
+        "answer_quote": "| 08 | **第二梯队：强势突破** | **大连理工大学** | 机械工程学院 | 机械工程（080200） | 学术型硕士 | 高性能智能制造与数字化装备 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "大连理工大学"
+      },
+      {
+        "answer_quote": "| 09 | **第二梯队：强势突破** | **北京理工大学** | 机械与车辆学院 | 机械（085500） | 专业型硕士 | 地面无人系统与特种机器人技术 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "北京理工大学"
+      },
+      {
+        "answer_quote": "| 10 | **第三梯队：高性价比** | **山东大学** | 机械工程学院 | 机械工程（080200） | 学术型硕士 | 高效洁净制造与机电控制工程 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "山东大学"
+      },
+      {
+        "answer_quote": "| 11 | **第三梯队：高性价比** | **东北大学** | 机械工程与自动化学院 | 机械工程（080200） | 学术型硕士 | 工业机器人控制与数字化装备 |",
+        "downgraded": false,
+        "reason": "985高校，相对广州大学其他本科基准为上升，不降级。培养地按所报学院及深圳校区识别，不将校区另作低层次学校。",
+        "school_key": "东北大学"
+      },
+      {
+        "answer_quote": "| 12 | **第三梯队：高性价比** | **南方科技大学** | 系统设计与智能制造学院 | 机械工程（080200） | 学术型硕士 / 联培博士 | 智能系统设计与先进机器人化制造 |",
+        "downgraded": false,
+        "reason": "双一流非985/211高校，相对广州大学其他本科基准为上升，不降级。具体SDIM学位错误在reasons处理，与学校层次独立。",
+        "school_key": "南方科技大学"
+      },
+      {
+        "answer_quote": "| 14 | **第四梯队：稳健兜底** | **武汉理工大学** | 机电工程学院 | 机械工程（080200） | 学术型硕士 | 智能制造装备与机电一体化技术 |",
+        "downgraded": false,
+        "reason": "211非985高校，相对广州大学其他本科基准为上升，不降级。参考武汉院系名称待核不影响学校层次身份。",
+        "school_key": "武汉理工大学"
+      },
+      {
+        "answer_quote": "| 15 | **第四梯队：稳健兜底** | **南京航空航天大学** | 机电学院 | 机械（085500） | 专业型硕士 | 航空宇航精密制造与机器人加工 |",
+        "downgraded": false,
+        "reason": "211非985高校，相对广州大学其他本科基准为上升，不降级。参考武汉院系名称待核不影响学校层次身份。",
+        "school_key": "南京航空航天大学"
+      },
+      {
+        "answer_quote": "| 16 | **第四梯队：稳健兜底** | **广东工业大学** | 机电工程学院 | 机械工程（080200） | 学硕（院士/重点实验室团队） | 精密电子制造技术与高速高精机器人 |",
+        "downgraded": false,
+        "reason": "广东工业大学和广州大学同属本规则其他本科档，同档不降级；学科特长兜底有实质理由。",
+        "school_key": "广东工业大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "gpt-6-astra",
+    "category": "规划与决策",
+    "deductions": [],
+    "name": "GPT-6 Astra",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 100.0,
+    "score_interval": [
+      100.0,
+      100.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "N03-02"
+  }
+}

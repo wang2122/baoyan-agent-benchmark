@@ -1,0 +1,24 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "deepseek-v4-1-flash",
+  "task_id": "N06-03",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "api",
+    "cli": "dsh",
+    "cli_version": "0.2.0-rc.2",
+    "id": "deepseek-v4-1-flash",
+    "model": "deepseek-flash",
+    "reasoning_effort": "high"
+  },
+  "original_answer_sha256": "a0101d3f4d31fab60c0e1cc5a820e1fac128b5f48c97368fe4bc662041fe051f",
+  "public_display_answer_sha256": "d34a55f9fb1f55ec09cda8c919c67b32a9e362182c6b245aa2a72361e31d50c5",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}

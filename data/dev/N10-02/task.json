@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N10",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q047",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N10-02",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我在南京理工大学学智能制造，排名前约27%，六级550–599分。机械、自动化和控制方向好像都能接上本科所学，但我不太清楚各自以后的研究和培养差别。结合我的情况，选哪个方向更合适？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "ab5d26256c487ae6c63b0562c290725d78e533e881d486cf85e1c6af0db1be93",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

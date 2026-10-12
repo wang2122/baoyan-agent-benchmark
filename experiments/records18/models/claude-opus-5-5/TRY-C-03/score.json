@@ -1,0 +1,28 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "claude-opus-5-5",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 10,
+        "node": "TRY-C-03-R10-03",
+        "points": 5.0,
+        "reason": "已结合已有国二分析重复参赛的有限增量、长期设计任务及结果较晚造成的机会成本，支持暂缓；前文也解释旧奖体现工程设计、流程模拟和团队协作能力。但没有具体说明再次化工设计还能获得哪些新增训练，或比较这些训练能否补足当前能力缺口。训练收益一侧缺少核心分析，未达到满分要求；这是内容缺项，不是已证实的事实错误。"
+      }
+    ],
+    "name": "Claude Opus 5.5",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 95.0,
+    "score_interval": [
+      95.0,
+      95.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "TRY-C-03"
+  }
+}

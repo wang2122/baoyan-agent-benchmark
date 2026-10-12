@@ -1,0 +1,13 @@
+{
+  "baseline_ids": [
+    "gemini-app",
+    "qwen-app",
+    "kimi-k3"
+  ],
+  "id": "public-dev-apps-v2",
+  "official": false,
+  "protocol": "config/reproduction/historical-app.protocol.json",
+  "registry": "config/baselines.example.json",
+  "schema_version": "reproduction-profile.1",
+  "suite": "dev"
+}

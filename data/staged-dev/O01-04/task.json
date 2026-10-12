@@ -1,0 +1,38 @@
+{
+  "as_of": "2024年10月",
+  "case_group_id": "student-A",
+  "case_id": "O01",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "medium",
+  "document_question_id": "Q072",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "160ee061eaf75f35696aaacb0a8ece40fdb0d6af61270118c6ea3e2d07ed9e95",
+  "stages": [
+    {
+      "instruction": "现在是2024年10月，我在华东地区一所211高校读大二上，专业是新能源材料与器件（中外合作办学）。我想提前为争取本校推免资格做准备，未来两年应该怎么安排？",
+      "stage_id": "S0",
+      "visible_at": "2024年10月"
+    },
+    {
+      "instruction": "现在是2026年9月，我刚确认取得了本校推免资格，成绩排名前约29%，六级500–549分，还参与过一个国家级大创，但项目暂时没有形成正式成果。现在进入择校阶段，之前的准备方案有哪些地方需要沿用或调整？",
+      "stage_id": "S1",
+      "visible_at": "2026年9月"
+    }
+  ],
+  "task_id": "O01-04",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2024",
+    "assessment_period": "2024年10月",
+    "time_precision": "month"
+  }
+}

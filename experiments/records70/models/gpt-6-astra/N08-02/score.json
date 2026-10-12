@@ -1,0 +1,23 @@
+{
+  "agent": "gpt-6-astra",
+  "category": "两阶段任务",
+  "deductions": [
+    {
+      "max_points": 8,
+      "node": "N08-02-T5",
+      "points": 4.0,
+      "reason": "S0准确使用雅思6.5，并提出核查项目认可的考试类型、分数及有效期，给出英文文献理解和研究问题表达的能力检查方向；数学部分也提出导数、矩阵、概率、假设检验及回归自测。已有具体且正确的准备内容，但英语部分尚未落实到目标院校测试形式下的口语练习、模拟检查或可核验结果，仅以“能否”描述能力，故缺少满档要求的具体测试准备和结果检查。题面没有四级、六级或老师备考目标，不以这些未提供信息扣分；这里是内容缺失，并非待核争议。"
+    }
+  ],
+  "name": "GPT-6 Astra",
+  "pending_nodes": [],
+  "review_status": "completed",
+  "score": 96.0,
+  "score_interval": [
+    96.0,
+    96.0
+  ],
+  "score_status": "scored_draft",
+  "stage_count": 2,
+  "task_id": "N08-02"
+}

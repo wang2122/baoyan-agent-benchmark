@@ -1,0 +1,81 @@
+{
+  "episodes": [
+    {
+      "case_group_id": "student-E",
+      "id": "LONG-E",
+      "stages": [
+        {
+          "collection": "dev",
+          "id": "S0",
+          "rubric_sha256": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
+          "source_stage": null,
+          "task_id": "TRY-E-02",
+          "task_sha256": "c5136d7baae297d5461bfef159cfe92785f7bdd824a2db57c82ab10155758796"
+        },
+        {
+          "collection": "dev",
+          "id": "S1",
+          "rubric_sha256": "931dc97ea06be9c18bfa6ed53ccbb90b54ec6a32d339980240044f551500c201",
+          "source_stage": null,
+          "task_id": "BY-E-PREP",
+          "task_sha256": "29e71d88c9555a10d41434b62e9b09b418eec15ad3cde7238a202dbee68f3f25"
+        },
+        {
+          "collection": "dev",
+          "id": "S2",
+          "rubric_sha256": "c95123e41d8558f8aa54b6b785b72511391a5952e89c4fee24eae3e154b9e8e6",
+          "source_stage": null,
+          "task_id": "BY-E-APPLY",
+          "task_sha256": "2ab031c76d289227d251f1c08e239cd7fc6c0b0626eafb4b54b797a73a2e71b8"
+        },
+        {
+          "collection": "dev",
+          "id": "S3",
+          "rubric_sha256": "6acf9e98a08d60572df6e058820127e76076de771b47ae3aa293043ab0122631",
+          "source_stage": null,
+          "task_id": "BY-E-REPLAN",
+          "task_sha256": "a4825901fc0d98bd3932dbdc07ef5deff2dea2efe81e388c866c566fa897e752"
+        }
+      ],
+      "title": "人工智能学生：资格风险、准备、择校与升学方案调整"
+    },
+    {
+      "case_group_id": "student-C",
+      "id": "LONG-C",
+      "stages": [
+        {
+          "collection": "staged-dev",
+          "id": "S0",
+          "rubric_sha256": "a311947d9be78b5ad35499f6aefe3e07cefb436e24e807ec7dd74210bfc7af30",
+          "source_stage": "S0",
+          "task_id": "O03-04",
+          "task_sha256": "bcee2caef1d5baa476dccd7e4fcd2f36d5a96ca0d44681db38a04a8fbd87afd8"
+        },
+        {
+          "collection": "staged-dev",
+          "id": "S1",
+          "rubric_sha256": "a311947d9be78b5ad35499f6aefe3e07cefb436e24e807ec7dd74210bfc7af30",
+          "source_stage": "S1",
+          "task_id": "O03-04",
+          "task_sha256": "bcee2caef1d5baa476dccd7e4fcd2f36d5a96ca0d44681db38a04a8fbd87afd8"
+        },
+        {
+          "collection": "dev",
+          "id": "S2",
+          "rubric_sha256": "85962d132b5927fba28ebe1e91dc5383efd2355c3091450f78562331180e292a",
+          "source_stage": null,
+          "task_id": "BY-C-APPLY",
+          "task_sha256": "0839bfd3109df64370e905eacd9a94f1a6651c3d0d1c5e55140d96db4aebba1e"
+        }
+      ],
+      "title": "化工学生：寒假资源分配、申请期更新与直博择校"
+    }
+  ],
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "schema_version": "longitudinal-pilot.1",
+  "split": "dev",
+  "status": "public_dev_pending_calibration",
+  "version": "1.0.2",
+  "visibility": "public"
+}

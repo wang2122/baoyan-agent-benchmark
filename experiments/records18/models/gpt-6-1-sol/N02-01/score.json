@@ -1,0 +1,28 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "gpt-6-1-sol",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 10,
+        "node": "N02-01-I5",
+        "points": 5.0,
+        "reason": "采用题面给定的2026年推免申请季，询问报名、考核和接收进度，另收集预计毕业年份，并承诺核对该申请季对应院系通知，已有周期及进度意识。但没有明确询问当前大几；“未开始”不能单独区分低年级准备与当届尚未投递，预计毕业年份也未结合学制确认当前年级，阶段信息收集尚不完整，给半分而非待核。"
+      }
+    ],
+    "name": "GPT-6.1 Sol",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 95.0,
+    "score_interval": [
+      95.0,
+      95.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "N02-01"
+  }
+}

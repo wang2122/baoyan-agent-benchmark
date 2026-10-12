@@ -1,0 +1,109 @@
+{
+  "id": "TRY-E-02",
+  "task_id": "TRY-E-02",
+  "task_kind": "planning",
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "score": 42.5,
+  "diagnostic_score": 42.5,
+  "status": "scored_draft",
+  "confirmed_points": 42.5,
+  "score_interval": [
+    42.5,
+    42.5
+  ],
+  "pending_nodes": [],
+  "nodes": [
+    {
+      "id": "TRY-E-02-R10-01",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 15.0
+    },
+    {
+      "id": "TRY-E-02-R10-02",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 12.5
+    },
+    {
+      "id": "TRY-E-02-R10-03",
+      "kind": "quality",
+      "grade": 0,
+      "points": 0.0
+    },
+    {
+      "id": "TRY-E-02-R10-04",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 7.5
+    },
+    {
+      "id": "TRY-E-02-R10-05",
+      "kind": "quality",
+      "grade": 1.0,
+      "points": 5.0
+    },
+    {
+      "id": "TRY-E-02-R10-06",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 2.5
+    }
+  ],
+  "quantity_status": "not_applicable",
+  "candidate_limit": null,
+  "reference_denominator": null,
+  "actual_candidate_count": 0,
+  "observed_candidate_count": 0,
+  "excess_count": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 42.5
+  },
+  "tier_report": {
+    "reason": "已逐段审阅全文。本题为资格确认规划题；本校是学生本科背景，本科学院本院、计算机系和外校科研院所出现在预推免活动的一般举例中，未形成针对学生的独立项目推荐、条件备选、排除或候选提名，不提取为申请候选。本题亦无院校层次计分项。",
+    "schools": [],
+    "status": "confirmed"
+  },
+  "downgraded_schools": [],
+  "recommendation_review": [],
+  "errors": [
+    {
+      "answer_quote": "上一届“[往届传闻名额]个名额”（占年级 **57.29%**）",
+      "id": "E01",
+      "reason": "题面中的[专业人数]是本届专业排名分母，未提供上届人数，也未确认上届[往届传闻名额]人的统计单位和名额构成；因此不能用55/96宣称上届推免比例为57.29%。答卷虽否定直接保证资格，却仍混用跨届分母。该错误只归属跨届数据与当前排名口径项。"
+    },
+    {
+      "answer_quote": "一旦本届名额回落至40%~45%的常态区间（即38~[当前专业名次]个左右），[当前专业名次]名将直接面临被淘汰的风险。",
+      "id": "E02",
+      "reason": "题面没有常态推免比例、同届推免排名或可分配普通名额的依据。可以举例说明名额减少的风险，但把40%~45%称为常态、把当前专业[当前专业名次]名直接映射为推免淘汰风险，缺乏支持。后文普通指标很可能只有40~45个、邻近排名分差等亦未有可核实依据，不能据此确定学生属于边缘缓冲带。未检索到证据本身不证明这些区间必然为假；本错误是将未证实的估计用作学生风险定位，与E01同归一个评分项。"
+    },
+    {
+      "answer_quote": "原则上教务系统学位课程学分绩排名需处于专业**前70%**（前约45%约为约45%，满足参评门槛）。",
+      "id": "E03",
+      "reason": "学生明确说本届规则未定，且只提供专业排名，未确认这是规则所要求的教务系统学分绩排名。答卷把具体门槛当作本届已确定规则并判定已满足参评，缺少以本届最终细则和正确统计口径重新确认的条件。官方2025年度细则事后可支持前70%等规则的内容，但不能倒填为咨询当时已发布、已适用或学生已确认满足。此处只影响本届参评资格判断，归属R10-02，不再次处罚R10-01。官方依据及适用限制见evidence.json。"
+    }
+  ],
+  "error_impacts": {
+    "E01": [
+      "TRY-E-02-R10-01"
+    ],
+    "E02": [
+      "TRY-E-02-R10-01"
+    ],
+    "E03": [
+      "TRY-E-02-R10-02"
+    ]
+  },
+  "official": false,
+  "teacher_calibration": "pending",
+  "difficulty": "easy",
+  "split": "dev",
+  "task_sha256": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179",
+  "rubric_sha256": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+  "input_sha256": "e5c7a98e9af834a8de5ce78ff1b3fc51133f5d43f8c85d5ca7c721d0f1f88049",
+  "answer_sha256": "29cf0f996fef62057c11800f161e8604631f7e0c67320996e708c3dcf583e658",
+  "judgment_sha256": "85313d26fb1abd50e220851d8c9d7c5b624fb458815702e033c2c3852049c5d6",
+  "judge_version": "evidence-review-v1"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "question_id": "Q021",
+  "task_id": "BY-G-APPLY",
+  "answer_sha256": "9eed163ac5b631b76f318d000616e94b82f56f1b5ddebf97066a90bca821ed31",
+  "original_rubric_sha256": "27aee2ec3aa1aa46e7e47b63d11c5d538e1dda9d7e06dccec2288c55b125cf23",
+  "original_score_content_sha256": "945c73ea30d15c73b7e26c76059ef750cbda4179e07e7e366a5dbcf99ac4c218",
+  "original_rubric_content_sha256": "27aee2ec3aa1aa46e7e47b63d11c5d538e1dda9d7e06dccec2288c55b125cf23",
+  "original_evidence_hashes": {
+    "task.json": "3df204e7433a907624374923cbb7292b405aa8804f24d31effaa90a5e0b929b0",
+    "rubric.json": "27aee2ec3aa1aa46e7e47b63d11c5d538e1dda9d7e06dccec2288c55b125cf23",
+    "answer.md": "9eed163ac5b631b76f318d000616e94b82f56f1b5ddebf97066a90bca821ed31",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "review-settings.json": "396d4b777af45b1463a1dd00d5bc4cf86c256c9bbdbd86e272625caa5491ab23",
+    "judgment.json": "38739a58e2738c04982241eb88298316737d94b0da9e86eb95514f60aa236905",
+    "score.json": "341c6fe55a42450d75faf889c1b0310193c28eb3b7803ffc128b4eeb8f8c6b0e",
+    "evidence.json": "a79aff56f2b35a492d5ea12a3589c2dc531e40cc59c9bbf3deebd90e7775a958"
+  },
+  "authorized_policy_nodes": [
+    "G-11"
+  ],
+  "rulings": [
+    {
+      "question_id": "Q021",
+      "node_id": "G-11",
+      "status": "owner_policy_no_verified_credit",
+      "grade": 0,
+      "points": 0,
+      "decision": "机构事实已核：官网为人类表型组研究院；七模型已有同名勘误。Qwen冻结rubric却强制旧名称G-11 pending，不能在不改rubric时写miss。保留证据区间；建议维护者统一传播勘误/已授权政策结算，不冒充招生事实。",
+      "evidence_status_before_policy": "unresolved_frozen_reference_requires_version_decision",
+      "factual_status": "unresolved",
+      "policy_authorization": "Parent delegated user confirmation: Qwen also receives no credit for Q043 N08-23 only; Q021 G-11 no verified credit. Received 2026-10-11. Does not zero Q043 tier.",
+      "sources": [
+        {
+          "url": "https://phenome.fudan.edu.cn/",
+          "published_date": null,
+          "checked_date": "2026-10-11",
+          "scope": "机构身份",
+          "finding": "官网名称为复旦大学人类表型组研究院，HuPI；不是冻结参考的“人类表皮生物研究院”。"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    51.86,
+    51.86
+  ],
+  "teacher_calibration": "pending",
+  "source_rulings_sha256": "fd3fdf0feeb9820ca789918837916648cbafba0bf1b43db3ec0a84bcdf034e63",
+  "original_judgment_preserved": true,
+  "native_derived_score_replay_available": false,
+  "validation_note": "Explicit maintenance node overlay; original candidate validity states are preserved. This is not a native candidate-validator replay."
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "selected-record-availability.1",
+  "agent": "qwen3-8-max-0902",
+  "task_id": "N14-03",
+  "question_id": "Q056",
+  "source_kind": "retained_historical_summary",
+  "source_answer_sha256": "6b102f92bda541199c4874376f125f3f972e8261dd9492c4c950d6ab70531518",
+  "answer_text_available": true,
+  "scoring_evidence": "score-details-70.json",
+  "public_answer_sha256": "6a394015b9424221431a6a36cd86f12076518efc412f072f23521e5f3b7ee4c7",
+  "recovered_original_text_source": "experiments/records18/models/qwen3-8-max-0902/N14-03/answer.md",
+  "finished_at": "2026-10-09T14:18:24.752043+00:00",
+  "execution_mode": "record_assisted_continuation_not_native_session_resume",
+  "original_attempt_status": "failed"
+}

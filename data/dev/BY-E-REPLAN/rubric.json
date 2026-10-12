@@ -1,0 +1,92 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "BY-E-REPLAN",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "依据本轮国内推免通道已不可行的题设，停止依赖该通道的申请行动，把投入转向可执行路径。",
+      "grading": "three_level",
+      "half_credit": "方向调整正确，但停止哪些失效行动或如何转移投入不清楚。",
+      "id": "BY-E-REPLAN-R10-01",
+      "label": "停止不可行的国内推免安排",
+      "points": 15
+    },
+    {
+      "full_credit": "落实已决定留学的事实，从港新倾向比较可行申请路径，不猜最终学校，也不再建议等待国内推免机会。",
+      "grading": "three_level",
+      "half_credit": "留学和港新起点正确，且有具体路径建议，但比较或可行条件不足。",
+      "id": "BY-E-REPLAN-R10-02",
+      "label": "落实留学与港新优先比较",
+      "points": 25
+    },
+    {
+      "full_credit": "区分研究型和授课型硕士，联系AI、计算机训练及本人目标判断接受范围。",
+      "grading": "three_level",
+      "half_credit": "已有硕士类型比较，但本人目标、训练或接受条件联系不足。",
+      "id": "BY-E-REPLAN-R10-03",
+      "label": "硕士类型与目标",
+      "points": 10
+    },
+    {
+      "full_credit": "复用自然语言处理与课程基础，核七月科研、成绩、竞赛、语言最新状态并更新材料。",
+      "grading": "three_level",
+      "half_credit": "已有复用或状态更新动作，但另一部分或关键状态覆盖不足。",
+      "id": "BY-E-REPLAN-R10-04",
+      "label": "旧资料更新与复用",
+      "points": 15
+    },
+    {
+      "full_credit": "核认可语言考试、目标要求和出分时间，给补弱及申请准备安排。",
+      "grading": "three_level",
+      "half_credit": "已有具体语言动作，但考试适用、目标要求或时间安排不足。",
+      "id": "BY-E-REPLAN-R10-05",
+      "label": "语言与申请准备",
+      "points": 10
+    },
+    {
+      "full_credit": "确认预算、入学年和轮次，给约束不同的可执行安排，不编金额或截止日。 时点要求：以2025年7月转留学为起点，区分当前时间、目标入学年和开放轮次；入学年未给时可作明确假设并设调整分支。",
+      "grading": "three_level",
+      "half_credit": "已指出关键预算或时间约束，但条件方案或轮次安排不足。 时点边界：已有本项实质正确内容，但影响判断的阶段、届别或更新安排不足，可半分；核心结论依赖错误时点为0。仅缺不影响选择的日期措辞不扣分。",
+      "id": "BY-E-REPLAN-R10-06",
+      "label": "预算、时间和轮次（时点适配）",
+      "points": 10
+    },
+    {
+      "full_credit": "整理真实研究贡献、陈述和推荐材料，按需要联系适配导师。",
+      "grading": "three_level",
+      "half_credit": "已有具体科研文书动作，但贡献表达、材料衔接或导师适配不足。",
+      "id": "BY-E-REPLAN-R10-07",
+      "label": "研究与文书准备",
+      "points": 5
+    },
+    {
+      "full_credit": "安排语言、材料和申请的依赖、检查点及延期备用路径。",
+      "grading": "three_level",
+      "half_credit": "已有执行顺序或备用方案，但另一部分或检查点不足。",
+      "id": "BY-E-REPLAN-R10-08",
+      "label": "执行顺序与备用",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": true,
+  "tier_report_only": false
+}

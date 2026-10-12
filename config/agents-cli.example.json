@@ -1,0 +1,85 @@
+{
+  "schema": "native-cli-batch.1",
+  "repeats": 1,
+  "timeout_seconds": 1200,
+  "agents": [
+    {
+      "id": "gpt-6-astra",
+      "cli": "codex",
+      "binary": "codex",
+      "cli_version": "codex-cli 0.162.0",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "web_search": "live",
+      "auth": "subscription"
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "cli": "codex",
+      "binary": "codex",
+      "cli_version": "codex-cli 0.162.0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "web_search": "live",
+      "auth": "subscription"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "cli": "claude",
+      "binary": "claude",
+      "cli_version": "2.1.293 (Claude Code)",
+      "model": "claude-opus-5-5",
+      "reasoning_effort": "high",
+      "auth": "subscription"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "cli": "claude",
+      "binary": "claude",
+      "cli_version": "2.1.293 (Claude Code)",
+      "model": "claude-sonnet-5-5",
+      "reasoning_effort": "high",
+      "auth": "subscription"
+    },
+    {
+      "id": "antigravity-gemini-3-8-flash-high",
+      "cli": "antigravity",
+      "binary": "agy",
+      "cli_version": "1.3.2",
+      "model": "gemini-3.8-flash-high",
+      "reasoning_effort": "high",
+      "auth": "subscription"
+    },
+    {
+      "id": "deepseek-v4-1-flash",
+      "cli": "dsh",
+      "binary": "dsh",
+      "cli_version": null,
+      "model": "deepseek-flash",
+      "reasoning_effort": "high",
+      "base_url": "https://api.deepseek.com/anthropic",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "auth": "api"
+    },
+    {
+      "id": "qwen3-8-max-0902",
+      "cli": "qwen",
+      "binary": "qwen",
+      "cli_version": "0.25.0",
+      "model": "qwen3.8-max-0902",
+      "reasoning_effort": "native_default",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "api_key_env": "DASHSCOPE_API_KEY",
+      "auth": "api"
+    },
+    {
+      "id": "kimi-k3",
+      "cli": "kimi",
+      "binary": "kimi",
+      "cli_version": "2.1.1",
+      "model": "k3",
+      "reasoning_effort": "native_default",
+      "auth": "subscription"
+    }
+  ]
+}

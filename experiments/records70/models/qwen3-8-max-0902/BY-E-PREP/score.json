@@ -1,0 +1,600 @@
+{
+  "actual_candidate_count": 40,
+  "answer_sha256": "e3507190f06f05ec6f3683bfb77a16768b873df70af2db4c82fca3b65471496c",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 52.5
+  },
+  "confirmed_points": 52.5,
+  "diagnostic_score": 52.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "BY-E-PREP-R10-07"
+    ],
+    "E02": [
+      "BY-E-PREP-R10-06"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "你的名次不是 43，而是\"43 减去你还能拿到的加分\"",
+      "id": "E01",
+      "reason": "把名次与成绩加分混作同一量直接相减。2025年度华东地区一所985高校本科学院规定综合学分绩为推免学分绩加总加分，再在全院按综合成绩排序；排名如何变化还取决于他人成绩与加分，不能由43减去本人的加分得到。官方URL和适用周期见evidence.json EV01；只关联最直接的资格与执行安排节点R10-07。"
+    },
+    {
+      "answer_quote": "港新赛道的前置成本：**雅思 6.5（单项 ≥6.0）或托福 90+**（六级不可替代）",
+      "id": "E02",
+      "reason": "把不同港新项目的英语最低要求归为统一前置成本，且全文说考虑港新雅思“必须”。港科大CSE于2025-04-03更新的官方FAQ允许托福80或雅思6.5、各项5.5，并列英文授课本科豁免；2025/26冻结课程目录也支持该要求。见evidence.json EV02、EV03。应按具体项目核验，不能把这些数字当共同硬门槛。尚无证据证明相关院校不存在或学生无法补齐条件，因此不标无效候选；仅R10-06失分。"
+    }
+  ],
+  "excess_count": null,
+  "id": "BY-E-PREP",
+  "input_sha256": "f8529c90e72da8f6fb03dad85de0ef6d3c2f6f2c11a2abae9db14efbef7b879c",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "e19e908ef8d5e52dcc0e9ea14a4176d6ef17685267ccfa861784a58f9c243933",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "BY-E-PREP-R10-01",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-E-PREP-R10-02",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0,
+      "id": "BY-E-PREP-R10-03",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-PREP-R10-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-PREP-R10-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-PREP-R10-06",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-E-PREP-R10-07",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 40,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "清华（计算机系/软件学院/交叉信息院/深圳国际研究生院）",
+      "canonical_candidate_key": "tsinghua:cs-ai-group",
+      "error_ids": [],
+      "feasibility": "答卷安排定制邮件附CV、成绩单及论文草稿，20封后统计反馈、修改材料，并逐项目核对官方门槛；未满足硬门槛时删除，符合可推进的条件备选逻辑，不保证排名限制可豁免。",
+      "key_condition": "答卷将冲刺限定为论文成果推进及导师明确招生意向；仍须符合当年项目硬门槛并获得本校推免资格，不能把导师意向当破格许可或接收。",
+      "label": "清华计算机系/软件学院/交叉信息院/深圳国际研究生院合并候选",
+      "reason": "在冲刺档主动提出的条件候选。括号中多个院系只是斜杠并列，没有逐一明确独立申请路径，保留一条合并记录，不替答卷拆成多个具体项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "tsinghua",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "北大（计算机学院/智能学院/软件与微电子学院）",
+      "canonical_candidate_key": "pku:cs-ai-group",
+      "error_ids": [],
+      "feasibility": "答卷安排定制邮件附CV、成绩单及论文草稿，20封后统计反馈、修改材料，并逐项目核对官方门槛；未满足硬门槛时删除，符合可推进的条件备选逻辑，不保证排名限制可豁免。",
+      "key_condition": "答卷将冲刺限定为论文成果推进及导师明确招生意向；仍须符合当年项目硬门槛并获得本校推免资格，不能把导师意向当破格许可或接收。",
+      "label": "北大计算机学院/智能学院/软件与微电子学院合并候选",
+      "reason": "在冲刺档主动提出的条件候选。括号中多个院系只是斜杠并列，没有逐一明确独立申请路径，保留一条合并记录，不替答卷拆成多个具体项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "pku",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "上海交大",
+      "canonical_candidate_key": "sjtu:cs-ai-unspecified",
+      "error_ids": [],
+      "feasibility": "答卷安排定制邮件附CV、成绩单及论文草稿，20封后统计反馈、修改材料，并逐项目核对官方门槛；未满足硬门槛时删除，符合可推进的条件备选逻辑，不保证排名限制可豁免。",
+      "key_condition": "答卷将冲刺限定为论文成果推进及导师明确招生意向；仍须符合当年项目硬门槛并获得本校推免资格，不能把导师意向当破格许可或接收。",
+      "label": "上海交通大学AI/计算机方向（未指定项目）",
+      "reason": "在冲刺档主动提出的条件候选。只有学校层次提名，没有替其补造院系专业。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "sjtu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "复旦",
+      "canonical_candidate_key": "fudan:cs-ai-unspecified",
+      "error_ids": [],
+      "feasibility": "答卷安排定制邮件附CV、成绩单及论文草稿，20封后统计反馈、修改材料，并逐项目核对官方门槛；未满足硬门槛时删除，符合可推进的条件备选逻辑，不保证排名限制可豁免。",
+      "key_condition": "答卷将冲刺限定为论文成果推进及导师明确招生意向；仍须符合当年项目硬门槛并获得本校推免资格，不能把导师意向当破格许可或接收。",
+      "label": "复旦大学AI/计算机方向（未指定项目）",
+      "reason": "在冲刺档主动提出的条件候选。只有学校层次提名，没有替其补造院系专业。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "fudan",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "浙大",
+      "canonical_candidate_key": "zju:cs-ai-unspecified",
+      "error_ids": [],
+      "feasibility": "答卷安排定制邮件附CV、成绩单及论文草稿，20封后统计反馈、修改材料，并逐项目核对官方门槛；未满足硬门槛时删除，符合可推进的条件备选逻辑，不保证排名限制可豁免。",
+      "key_condition": "答卷将冲刺限定为论文成果推进及导师明确招生意向；仍须符合当年项目硬门槛并获得本校推免资格，不能把导师意向当破格许可或接收。",
+      "label": "浙江大学AI/计算机方向（未指定项目）",
+      "reason": "在冲刺档主动提出的条件候选。只有学校层次提名，没有替其补造院系专业。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "zju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "中科大（计算机/软件学院/大数据学院）",
+      "canonical_candidate_key": "ustc:cs-ai-group",
+      "error_ids": [],
+      "feasibility": "答卷安排定制邮件附CV、成绩单及论文草稿，20封后统计反馈、修改材料，并逐项目核对官方门槛；未满足硬门槛时删除，符合可推进的条件备选逻辑，不保证排名限制可豁免。",
+      "key_condition": "答卷将冲刺限定为论文成果推进及导师明确招生意向；仍须符合当年项目硬门槛并获得本校推免资格，不能把导师意向当破格许可或接收。",
+      "label": "中国科学技术大学计算机/软件学院/大数据学院合并候选",
+      "reason": "在冲刺档主动提出的条件候选。括号中多个院系只是斜杠并列，没有逐一明确独立申请路径，保留一条合并记录，不替答卷拆成多个具体项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "ustc",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "中科院计算所",
+      "canonical_candidate_key": "cas-ict:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "中科院计算所AI/计算机相关路径",
+      "reason": "匹配档列出独立研究所；计算所、自动化所还以“计算所 + 自动化所”明确作为可同时报的对象，故独立记录；没有拆出其内部方向。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "cas-ict",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "自动化所",
+      "canonical_candidate_key": "cas-ia:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "中科院自动化所AI/计算机相关路径",
+      "reason": "匹配档列出独立研究所；计算所、自动化所还以“计算所 + 自动化所”明确作为可同时报的对象，故独立记录；没有拆出其内部方向。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "cas-ia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "深圳先进院",
+      "canonical_candidate_key": "cas-siat:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "中科院深圳先进院AI/计算机相关路径",
+      "reason": "匹配档列出独立研究所；计算所、自动化所还以“计算所 + 自动化所”明确作为可同时报的对象，故独立记录；没有拆出其内部方向。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "cas-siat",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "北航",
+      "canonical_candidate_key": "buaa:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "北京航空航天大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "哈工大",
+      "canonical_candidate_key": "hit:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "哈尔滨工业大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "华科",
+      "canonical_candidate_key": "hust:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "华中科技大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "西安交大",
+      "canonical_candidate_key": "xjtu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "西安交通大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "同济",
+      "canonical_candidate_key": "tongji:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "同济大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "南开",
+      "canonical_candidate_key": "nankai:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "南开大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "nankai",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "中山大学",
+      "canonical_candidate_key": "sysu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "中山大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "厦门大学",
+      "canonical_candidate_key": "xmu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "厦门大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "武大",
+      "canonical_candidate_key": "whu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "武汉大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "东南大学",
+      "canonical_candidate_key": "seu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "东南大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "电子科大",
+      "canonical_candidate_key": "uestc:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "电子科技大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "uestc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "北邮",
+      "canonical_candidate_key": "bupt:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "北京邮电大学AI/计算机方向（未指定项目）",
+      "reason": "列于匹配档主战场，是实际目标提名与推荐，按学校及相关方向保留，未擅自具体化为某院系或学位项目。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "bupt",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "本校本校（本科学院/计算机学院/软件学院/LAMDA 等）",
+      "canonical_candidate_key": "home_985:cs-ai-group",
+      "error_ids": [],
+      "label": "华东地区一所985高校本科学院/计算机学院/软件学院/LAMDA合并候选",
+      "reason": "保底档与全文本校主线均明确推荐；重复出现的本校及现有自然语言处理实验室衔接并入此组合。斜杠列举未分别明确独立申请路径，LAMDA也不因实验室名称机械拆为独立招生主体。保底及概率只是答卷定位，不作为已接收承诺。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "home_985",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "大连理工",
+      "canonical_candidate_key": "dlut:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "大连理工大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "湖南大学",
+      "canonical_candidate_key": "hnu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "湖南大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "中南大学",
+      "canonical_candidate_key": "csu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "中南大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "重庆大学",
+      "canonical_candidate_key": "cqu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "重庆大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "西北工业大学",
+      "canonical_candidate_key": "nwpu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "西北工业大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "nwpu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "山东大学",
+      "canonical_candidate_key": "sdu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "山东大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "sdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "四川大学",
+      "canonical_candidate_key": "scu:cs-ai-unspecified",
+      "error_ids": [],
+      "label": "四川大学AI/计算机方向（未指定项目）",
+      "reason": "保底档明确提出的外校目标，未给具体院系项目，保留学校层次建议；所谓保底不视为已核实招生保障。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "scu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "部分中科院地方研究所",
+      "canonical_candidate_key": "cas-local-unspecified:placeholder",
+      "error_ids": [],
+      "label": "部分中科院地方研究所（未指明单位的候选类别）",
+      "reason": "保底清单中的泛称提名，未给可识别的独立研究所，不替其创造多个申请项目；保留该原文候选类别以记录全文审阅。valid仅表示此泛称没有已证实的虚构或硬条件错误，不表示存在已确定的可执行项目。",
+      "school_key": "cas-local-unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "nus:cs-ai-taught-unspecified",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排预算沟通、英语备考、8月前办材料、9至11月递交及公示前选择；实际英语要求按项目核验，不能把答卷的统一分数当硬门槛。一年学制与费用为笼统估计，不视为各校具体项目的已核准属性。",
+      "key_condition": "家庭预算充足、本人接受授课型，补齐目标项目认可的语言及材料；国内推免与港新选择需核验本校公示及放弃资格规则。",
+      "label": "新加坡国立大学AI/计算机授课型硕士候选（未指定项目）",
+      "reason": "表格明确列出该校，并在5.3将授课型与研究型置于不同预算及意愿条件下，故按两类培养路径分别记录；不从泛称MSc推断某个具体项目名称。统一英语门槛问题E02只影响英语节点，不足以判该校申请路径无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "nus",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "nus:cs-ai-research-group",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排论文预印本、科研贡献说明、推荐信及自然语言处理导师匹配作为准备；论文、资助和导师意向尚需确认，不认定已获奖学金或录取，也不把未投稿论文当已录用。",
+      "key_condition": "预算有限且科研意愿明确，论文上线后申请，匹配自然语言处理导师；核验相应学校实际研究型学位、语言要求、资助和国内推免选择边界。",
+      "label": "新加坡国立大学AI/计算机研究型MPhil/PhD候选（未指定项目）",
+      "reason": "5.3明确提出预算有限且科研意愿明确时选择研究型，区别于授课型；MPhil/PhD本身仍是合并备选，没有逐一院系学位说明，保留一条研究型组合，不宣称每校都设置两种同名学位。统一英语门槛问题不使相关学校项目自动无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "nus",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "ntu:cs-ai-taught-unspecified",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排预算沟通、英语备考、8月前办材料、9至11月递交及公示前选择；实际英语要求按项目核验，不能把答卷的统一分数当硬门槛。一年学制与费用为笼统估计，不视为各校具体项目的已核准属性。",
+      "key_condition": "家庭预算充足、本人接受授课型，补齐目标项目认可的语言及材料；国内推免与港新选择需核验本校公示及放弃资格规则。",
+      "label": "南洋理工大学AI/计算机授课型硕士候选（未指定项目）",
+      "reason": "表格明确列出该校，并在5.3将授课型与研究型置于不同预算及意愿条件下，故按两类培养路径分别记录；不从泛称MSc推断某个具体项目名称。统一英语门槛问题E02只影响英语节点，不足以判该校申请路径无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "ntu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A34",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "ntu:cs-ai-research-group",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排论文预印本、科研贡献说明、推荐信及自然语言处理导师匹配作为准备；论文、资助和导师意向尚需确认，不认定已获奖学金或录取，也不把未投稿论文当已录用。",
+      "key_condition": "预算有限且科研意愿明确，论文上线后申请，匹配自然语言处理导师；核验相应学校实际研究型学位、语言要求、资助和国内推免选择边界。",
+      "label": "南洋理工大学AI/计算机研究型MPhil/PhD候选（未指定项目）",
+      "reason": "5.3明确提出预算有限且科研意愿明确时选择研究型，区别于授课型；MPhil/PhD本身仍是合并备选，没有逐一院系学位说明，保留一条研究型组合，不宣称每校都设置两种同名学位。统一英语门槛问题不使相关学校项目自动无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "ntu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A35",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "hku:cs-ai-taught-unspecified",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排预算沟通、英语备考、8月前办材料、9至11月递交及公示前选择；实际英语要求按项目核验，不能把答卷的统一分数当硬门槛。一年学制与费用为笼统估计，不视为各校具体项目的已核准属性。",
+      "key_condition": "家庭预算充足、本人接受授课型，补齐目标项目认可的语言及材料；国内推免与港新选择需核验本校公示及放弃资格规则。",
+      "label": "香港大学AI/计算机授课型硕士候选（未指定项目）",
+      "reason": "表格明确列出该校，并在5.3将授课型与研究型置于不同预算及意愿条件下，故按两类培养路径分别记录；不从泛称MSc推断某个具体项目名称。统一英语门槛问题E02只影响英语节点，不足以判该校申请路径无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hku",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A36",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "hku:cs-ai-research-group",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排论文预印本、科研贡献说明、推荐信及自然语言处理导师匹配作为准备；论文、资助和导师意向尚需确认，不认定已获奖学金或录取，也不把未投稿论文当已录用。",
+      "key_condition": "预算有限且科研意愿明确，论文上线后申请，匹配自然语言处理导师；核验相应学校实际研究型学位、语言要求、资助和国内推免选择边界。",
+      "label": "香港大学AI/计算机研究型MPhil/PhD候选（未指定项目）",
+      "reason": "5.3明确提出预算有限且科研意愿明确时选择研究型，区别于授课型；MPhil/PhD本身仍是合并备选，没有逐一院系学位说明，保留一条研究型组合，不宣称每校都设置两种同名学位。统一英语门槛问题不使相关学校项目自动无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hku",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A37",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "hkust:cs-ai-taught-unspecified",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排预算沟通、英语备考、8月前办材料、9至11月递交及公示前选择；实际英语要求按项目核验，不能把答卷的统一分数当硬门槛。一年学制与费用为笼统估计，不视为各校具体项目的已核准属性。",
+      "key_condition": "家庭预算充足、本人接受授课型，补齐目标项目认可的语言及材料；国内推免与港新选择需核验本校公示及放弃资格规则。",
+      "label": "香港科技大学AI/计算机授课型硕士候选（未指定项目）",
+      "reason": "表格明确列出该校，并在5.3将授课型与研究型置于不同预算及意愿条件下，故按两类培养路径分别记录；不从泛称MSc推断某个具体项目名称。统一英语门槛问题E02只影响英语节点，不足以判该校申请路径无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hkust",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A38",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "hkust:cs-ai-research-group",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排论文预印本、科研贡献说明、推荐信及自然语言处理导师匹配作为准备；论文、资助和导师意向尚需确认，不认定已获奖学金或录取，也不把未投稿论文当已录用。",
+      "key_condition": "预算有限且科研意愿明确，论文上线后申请，匹配自然语言处理导师；核验相应学校实际研究型学位、语言要求、资助和国内推免选择边界。",
+      "label": "香港科技大学AI/计算机研究型MPhil/PhD候选（未指定项目）",
+      "reason": "5.3明确提出预算有限且科研意愿明确时选择研究型，区别于授课型；MPhil/PhD本身仍是合并备选，没有逐一院系学位说明，保留一条研究型组合，不宣称每校都设置两种同名学位。统一英语门槛问题不使相关学校项目自动无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "hkust",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A39",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "cuhk:cs-ai-taught-unspecified",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排预算沟通、英语备考、8月前办材料、9至11月递交及公示前选择；实际英语要求按项目核验，不能把答卷的统一分数当硬门槛。一年学制与费用为笼统估计，不视为各校具体项目的已核准属性。",
+      "key_condition": "家庭预算充足、本人接受授课型，补齐目标项目认可的语言及材料；国内推免与港新选择需核验本校公示及放弃资格规则。",
+      "label": "香港中文大学AI/计算机授课型硕士候选（未指定项目）",
+      "reason": "表格明确列出该校，并在5.3将授课型与研究型置于不同预算及意愿条件下，故按两类培养路径分别记录；不从泛称MSc推断某个具体项目名称。统一英语门槛问题E02只影响英语节点，不足以判该校申请路径无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "cuhk",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A40",
+      "answer_quote": "NUS、NTU、HKU、HKUST、CUHK 的 MSc（授课型）/ MPhil / PhD",
+      "canonical_candidate_key": "cuhk:cs-ai-research-group",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷安排论文预印本、科研贡献说明、推荐信及自然语言处理导师匹配作为准备；论文、资助和导师意向尚需确认，不认定已获奖学金或录取，也不把未投稿论文当已录用。",
+      "key_condition": "预算有限且科研意愿明确，论文上线后申请，匹配自然语言处理导师；核验相应学校实际研究型学位、语言要求、资助和国内推免选择边界。",
+      "label": "香港中文大学AI/计算机研究型MPhil/PhD候选（未指定项目）",
+      "reason": "5.3明确提出预算有限且科研意愿明确时选择研究型，区别于授课型；MPhil/PhD本身仍是合并备选，没有逐一院系学位说明，保留一条研究型组合，不宣称每校都设置两种同名学位。统一英语门槛问题不使相关学校项目自动无效。本题为规划题且无参考覆盖项；此记录判断答卷实际提出的目标，valid不表示已逐年审计具体项目门槛、名额或所列主观录取概率。",
+      "school_key": "cuhk",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+  "score": 52.5,
+  "score_interval": [
+    52.5,
+    52.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-E-PREP",
+  "task_kind": "planning",
+  "task_sha256": "c7a3f64aaa48e911d9187495ab64e4fa3201ce6d488ec193ce83f617afb0ffe2",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题七个节点均为准备规划，没有school_tier或院校层次评分节点；不额外建立层次失分。已在recommendation_review核对全部实际候选；普通背景中的清北上交英语偏好、北大流程举例不新增候选，泛称中西部强校等也不创造具体学校。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

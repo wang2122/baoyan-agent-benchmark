@@ -1,0 +1,93 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "1ae1299880e95271614788b063e815e0b2e023420b0ef2b5c53d49d1727f11b1",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 70.0
+  },
+  "confirmed_points": 70.0,
+  "diagnostic_score": 70.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "R1"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "你的本校[个人排名已概括] 排名、六级 [英语背景已概括] 以及已有 程序设计竞赛/程序设计竞赛 奖项，**初审硬件背景已经非常硬朗**（入营基本盘有保证）。",
+      "id": "E1",
+      "reason": "S0只披露排名[个人排名已概括]、六级[英语背景已概括]以及程序设计竞赛、程序设计竞赛拿过一些奖，没有奖项级别、赛事轮次、项目门槛或当届竞争信息。可以承认已有竞赛经历的准备价值，但这些信息不能推出入营有保证。此处属于超出已知信息的确定性推断，并非认定学生实际不具备资格或认定某个项目不能申请。仅归属R1，不在其他节点重复处罚，也未用S1新增科研状态倒灌S0。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O06-02",
+  "input_sha256": "cdbe9a4e1ecc6f658d26ca04bac04b2995d19d6e87a58c08e588d21113b4eaff",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "78ca2c4edd35725c8947a8b0a50a80ad132f2c3eba5de002c444013d78543b83",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "R1",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "R2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0,
+      "id": "R3",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "R4",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "R5",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R6",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "620f55f7dfe28fc1c419e00976cfc39705aae3f8fa74217edf6c86a24c78bfa1",
+  "score": 70.0,
+  "score_interval": [
+    70.0,
+    70.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "O06-02",
+  "task_kind": "planning",
+  "task_sha256": "6217c546ec53bf6c432dcc50e8ddcff6c0e30a2d8d2b3cf46336ba1f2b235379",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已完整核对answer.md的S0、S1及task.visible_history。原本科院校是学生本科背景；清北、华五、港三是已给申请目标及考核背景，MPhil/PhD、MSc是泛论学位路径，未提出具体学校、院系、导师或独立项目候选，也无排除或提名候选。本规划题候选集合为空，且rubric未设置层次评分项。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

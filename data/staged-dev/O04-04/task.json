@@ -1,0 +1,38 @@
+{
+  "as_of": "2024年上半年",
+  "case_group_id": "student-D",
+  "case_id": "O04",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "medium",
+  "document_question_id": "Q074",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "9995fea9282a0ca6f35c25262840bb0622b9580b01e615182e670a94c8ef52a3",
+  "stages": [
+    {
+      "instruction": "现在是2024年上半年，我在一所985高校读通信工程大一，上学期成绩较好，数学相关竞赛获过奖，还没正式科研论文，计划以后接触机器学习研究，四六级也在准备。我想争取保研，未来也希望冲清华或者通信、AI交叉方向。现在该怎么规划大学这几年的学习？",
+      "stage_id": "S0",
+      "visible_at": "2024年上半年"
+    },
+    {
+      "instruction": "现在是2026年3月，大三下，专业排名前约1%，六级500–549分，已经发表一篇通信类一作论文，也有国家级大创。现在更想申请清北本部，也考虑AI交叉。之前的大学规划有哪些仍适用，哪些该调整？",
+      "stage_id": "S1",
+      "visible_at": "2026年3月"
+    }
+  ],
+  "task_id": "O04-04",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2024",
+    "assessment_period": "2024年上半年",
+    "time_precision": "year_part"
+  }
+}

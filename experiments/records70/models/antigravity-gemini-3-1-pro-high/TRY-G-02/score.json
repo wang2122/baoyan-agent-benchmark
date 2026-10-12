@@ -1,0 +1,485 @@
+{
+  "actual_candidate_count": 20,
+  "answer_sha256": "329621c488188c4bf721e33a954a4185bea78538bbcce68dcd24fc09f01c8326",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 50.0
+  },
+  "confirmed_points": 50.0,
+  "diagnostic_score": 50.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-01": [
+      "TRY-G-02-R10-01"
+    ],
+    "ERR-02": [
+      "TRY-G-02-R10-02"
+    ],
+    "ERR-03": [
+      "TRY-G-02-R10-03"
+    ],
+    "ERR-04": [
+      "TRY-G-02-R10-06"
+    ],
+    "ERR-06": [
+      "TRY-G-02-R10-03"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "大学英语六级 425–449 分（刚过 425 分合格线）",
+      "id": "ERR-01",
+      "reason": "把425写成考试本身的合格线，没有区分通行的“过六级”说法与官方报道分制度。官方CET不设及格线，见evidence.json OFF-01。该错误只归R10-01；不否认425–449竞争力相对有限的判断。"
+    },
+    {
+      "answer_quote": "国内 80% 以上的高水平大学（包括多数 985 高校与中科院院所）对六级的报名资格门槛设定为 **425 分**。",
+      "id": "ERR-02",
+      "reason": "未给项目、学位类别、适用年份或统计依据，却断言80%以上高水平大学设425报名门槛，并以导师强推作普遍破局通道。OFF-02、OFF-03显示相关单位有各自遴选、导师确定及语言要求，不能由通行分数或导师意愿推得资格。题设周期未知，不裁定某具名学校当年拒收425–449；确定缺失的是项目化规则核对及正式例外依据。只归R10-02。"
+    },
+    {
+      "answer_quote": "材料中必须规范标注状态为 `Under Review`",
+      "id": "ERR-03",
+      "reason": "题面只披露在投稿、未录用，未确认已经送外审；Submitted与Under Review不能强制互换。另把第一作者身份直接解释为全流程独立完成、全英文独立撰写，也超过已披露个人贡献。应按真实投稿系统状态及实际分工呈现。只归R10-03。"
+    },
+    {
+      "answer_quote": "郑大生信大三在读，学业表现（具体排名已概括），六级已过，推免资格在握，立志攻读直博；",
+      "id": "ERR-04",
+      "reason": "题面未提供大三身份或已获得推免资格，前文自己还要求核验本校名额，却在可直接使用的套磁正文中写成既成事实。条件结论应保留待确认资格，而不能预先宣告在握。只归R10-06。"
+    },
+    {
+      "answer_quote": "**东南大学**（生命科学与技术学院，生物医学工程/生信国家一流学科）",
+      "id": "ERR-05",
+      "reason": "东南大学生命科学与技术学院真实存在，但答卷混写生物医学工程学科归属；OFF-04、OFF-05支持其归属生物科学与医学工程学院。不能由此认定生命科学与技术学院没有任何生信研究路径，因此保留候选定位而不将整项标invalid。本题六个节点没有院系身份或层次质量计分项，此处记录事实瑕疵，不另设失分或牵连语言项。"
+    },
+    {
+      "answer_quote": "所有高校夏令营及推免招生简章中均有明确规定——科研成果必须提供**“录用证明（Acceptance Letter）”**或**“DOI 检索号/在线发表链接（Online/Published）”**",
+      "id": "ERR-06",
+      "reason": "将已发表/录用成果证明要求泛化成所有高校对所有科研申请材料的统一规则。OFF-06明确接收未发表论文摘要；这不意味着在投论文一定有量化成果分，但说明“可提交并参与研究能力评审”与“可计正式发表成果分”须分开。该成果状态与科研作用错误只归R10-03，与ERR-03一起作该节点的整体档位判断，不追加小分。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-G-02",
+  "input_sha256": "7c45fd0622f17ca0dfc11c6f9689cd9ba27f84cf87ef7091034d4efa77cc3bab",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "b2d0627b268a8335fba1bcf2fbb8bf0a972431a615b25b674b433c7bda7f0e69",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-G-02-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-02-R10-02",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-02-R10-03",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-02-R10-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-02-R10-05",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-G-02-R10-06",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 20,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**中科院北京基因组研究所（国家生物信息中心 BIG）**",
+      "canonical_candidate_key": "big:bioinformatics-direct-phd",
+      "error_ids": [],
+      "feasibility": "答卷给出5月提前联系导师、交流技术栈并按六级要求筛选夏令营的途径，共同条件可关联到本冲刺对象。条件本身现实可核验；具体项目、届别与导师权限尚未落实，评审不把这些表述当作当届已满足硬条件的证明，相关核验不足归R10-02。",
+      "key_condition": "共同冲刺策略要求所选实际项目的语言门槛为425、导师方向匹配且有招生意愿/直博指标；导师意愿不能替代院校正式资格与考核。",
+      "label": "中科院北京基因组研究所（国家生物信息中心 BIG）",
+      "reason": "明确冲刺对象，生物信息研究与直博方向可保留；OFF-02确认该单位曾有生信及直博招生，但也明确统一遴选、录取后轮转双选，不能用答卷的导师承诺替代正式程序。没有指定学生年份，不据此判定其本轮资格。",
+      "school_key": "big",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "**复旦大学**（生命科学学院 / 复杂体系多尺度研究院 / 代谢与整合生物学研究院）",
+      "canonical_candidate_key": "fudan:combined-life-complex-imib",
+      "error_ids": [],
+      "feasibility": "答卷给出5月提前联系导师、交流技术栈并按六级要求筛选夏令营的途径，共同条件可关联到本冲刺对象。条件本身现实可核验；具体项目、届别与导师权限尚未落实，评审不把这些表述当作当届已满足硬条件的证明，相关核验不足归R10-02。",
+      "key_condition": "共同冲刺策略要求所选实际项目的语言门槛为425、导师方向匹配且有招生意愿/直博指标；导师意愿不能替代院校正式资格与考核。",
+      "label": "复旦大学：生命科学学院/复杂体系多尺度研究院/代谢与整合生物学研究院",
+      "reason": "明确冲刺组合；三个院系并列且没有分别明确独立申请路径，按原表达记录一组，不拆出三条。OFF-03仅支持生科院相关选拔身份和直博材料要求，不将其他列名单位或未知届别门槛视为已核实。",
+      "school_key": "fudan",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "**上海交通大学**（生命科学技术学院 / 医学院生信平台）",
+      "canonical_candidate_key": "sjtu:combined-life-medical-bioinformatics",
+      "error_ids": [],
+      "feasibility": "答卷给出5月提前联系导师、交流技术栈并按六级要求筛选夏令营的途径，共同条件可关联到本冲刺对象。条件本身现实可核验；具体项目、届别与导师权限尚未落实，评审不把这些表述当作当届已满足硬条件的证明，相关核验不足归R10-02。",
+      "key_condition": "共同冲刺策略要求所选实际项目的语言门槛为425、导师方向匹配且有招生意愿/直博指标；导师意愿不能替代院校正式资格与考核。",
+      "label": "上海交通大学：生命科学技术学院/医学院生信平台",
+      "reason": "明确冲刺组合，相关生命医学研究可作为导师筛选定位；学院与平台并列未给独立通道，保留一组。没有证据认定全部路径无效，也没有完成具体届别直博语言资格审计。",
+      "school_key": "sjtu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**浙江大学**（生命科学学院 / 医学院）",
+      "canonical_candidate_key": "zju:combined-life-medical",
+      "error_ids": [],
+      "feasibility": "答卷给出5月提前联系导师、交流技术栈并按六级要求筛选夏令营的途径，共同条件可关联到本冲刺对象。条件本身现实可核验；具体项目、届别与导师权限尚未落实，评审不把这些表述当作当届已满足硬条件的证明，相关核验不足归R10-02。",
+      "key_condition": "共同冲刺策略要求所选实际项目的语言门槛为425、导师方向匹配且有招生意愿/直博指标；导师意愿不能替代院校正式资格与考核。",
+      "label": "浙江大学：生命科学学院/医学院",
+      "reason": "明确冲刺组合，生命与医学可承载生信研究定位。两院并列但未分别说明具体申请路径，不拆分；有效候选定位不等于425–449已符合两院各自直博规则。",
+      "school_key": "zju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "**中国科学技术大学**（生命科学与医学部 / 计算机交叉学科）",
+      "canonical_candidate_key": "ustc:combined-life-medicine-computing",
+      "error_ids": [],
+      "feasibility": "答卷给出5月提前联系导师、交流技术栈并按六级要求筛选夏令营的途径，共同条件可关联到本冲刺对象。条件本身现实可核验；具体项目、届别与导师权限尚未落实，评审不把这些表述当作当届已满足硬条件的证明，相关核验不足归R10-02。",
+      "key_condition": "共同冲刺策略要求所选实际项目的语言门槛为425、导师方向匹配且有招生意愿/直博指标；导师意愿不能替代院校正式资格与考核。",
+      "label": "中国科学技术大学：生命科学与医学部/计算机交叉学科",
+      "reason": "明确冲刺组合；计算机交叉学科不是明确的独立招生项目，和学部一起保留为答卷的一组探索定位，不替其补专业或跨院系通道。未发现能裁定整项无效的硬限制。",
+      "school_key": "ustc",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**中山大学**（生命科学学院 / 中山医学院 / 肿瘤防治中心）",
+      "canonical_candidate_key": "sysu:combined-life-zhongshanmedical-cancer",
+      "error_ids": [],
+      "label": "中山大学：生命科学学院/中山医学院/肿瘤防治中心",
+      "reason": "主攻梯队直接推荐，以生命医学、多组学方向作定位。三个单位未分别指定学位或通道，记录组合而非三项；临床资源并不证明生信本科能申请全部临床学位路径。没有据此认定整组无效，也不认可“绝大部分无硬门槛”为已核事实。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**华中科技大学**（生命科学与技术学院 / 同济医学院）",
+      "canonical_candidate_key": "hust:combined-life-tongjimedical",
+      "error_ids": [],
+      "label": "华中科技大学：生命科学与技术学院/同济医学院",
+      "reason": "主攻梯队直接推荐，生信/系统生物方向的学校单位定位可以保留；学院并列不拆路径。实际须区分基础与临床方向及直博规则，但题设没有证实不可申请的具体限制。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**武汉大学**（生命科学学院 / 泰康生命医学中心）",
+      "canonical_candidate_key": "whu:combined-life-taikang",
+      "error_ids": [],
+      "label": "武汉大学：生命科学学院/泰康生命医学中心",
+      "reason": "主攻组合推荐；中心列名不自动等于独立招生主体，保留原组合，不创造第二通道。生命科学相关研究定位可保留，不据未逐年核查或名称粒度不细而判整个建议错误。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**四川大学**（生命科学学院 / 华西临床医学院生信团队）",
+      "canonical_candidate_key": "scu:combined-life-westchina",
+      "error_ids": [],
+      "label": "四川大学：生命科学学院/华西临床医学院生信团队",
+      "reason": "主攻组合，生命学院与临床学院生信团队并列。团队研究参与不等于临床医学专业学位申请资格，不替答卷创造路径；仍可作为生信导师探索候选，不将所有可能基础研究路径都判无效。",
+      "school_key": "scu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**山东大学**（生科院 / 基础医学院）",
+      "canonical_candidate_key": "sdu:combined-life-basicmedical",
+      "error_ids": [],
+      "label": "山东大学：生科院/基础医学院",
+      "reason": "主攻梯队明确组合；生科院是生命科学学院的常见简称，基础医学方向可供生信导师筛选。未分别给独立通道，保留一组；不代表其当届各类直博硬条件已通过审核。",
+      "school_key": "sdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**中科院广州健康院（GIBH）**",
+      "canonical_candidate_key": "gibh:bioinformatics-research",
+      "error_ids": [],
+      "label": "中科院广州健康院（GIBH）",
+      "reason": "中科院主攻段明确举荐的具体研究所；广州健康院简称与GIBH指向广州生物医药与健康研究院，非两个候选。相关生命医学研究定位可保留，没有提供独立专业或年度招生证明，不将此缺项直接标invalid。",
+      "school_key": "gibh",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**中科院昆明动物所**",
+      "canonical_candidate_key": "kiz:bioinformatics-research",
+      "error_ids": [],
+      "label": "中科院昆明动物所",
+      "reason": "中科院主攻段明确推荐研究所，动植物/演化组学相关科研可供生信导师选择。研究所简称不另拆别名；未声称核准具体届别425–449直博条件。",
+      "school_key": "kiz",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "**中科院深圳先进技术研究院（SIAT）**",
+      "canonical_candidate_key": "siat:bioinformatics-research",
+      "error_ids": [],
+      "label": "中科院深圳先进技术研究院（SIAT）",
+      "reason": "中科院主攻段明确推荐研究所，属于相关交叉研究探索定位；没有给内部单位或独立项目，不替其增造候选。有效定位不背书“绝大部分425–449无硬门槛”或当届招生能力。",
+      "school_key": "siat",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**东南大学**（生命科学与技术学院，生物医学工程/生信国家一流学科）",
+      "canonical_candidate_key": "seu:life-bioinformatics-mixed-bme",
+      "error_ids": [
+        "ERR-05"
+      ],
+      "label": "东南大学：生命科学与技术学院（混写生物医学工程/生信）",
+      "reason": "明确稳妥梯队推荐；学院真实，候选可按生命/生信方向定位保留。OFF-04/05确认生物医学工程学科归属混写，见ERR-05；未证明该学院所有生信方向或申请路径不存在，不把局部归属错误升级为整个对象invalid，也不替答卷改成另一学院。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "华中农业大学 / 中国农业大学",
+      "canonical_candidate_key": "hzau:bioinformatics-genomics",
+      "error_ids": [],
+      "label": "华中农业大学：生物信息学/动植物基因组学",
+      "reason": "稳妥梯队明确列出的一个学校候选，与中国农业大学是不同学校，分别提取。相关基因组研究定位可保留，未给具体院系/学位路径；“保底”称谓不构成录取保证。",
+      "school_key": "hzau",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "华中农业大学 / 中国农业大学",
+      "canonical_candidate_key": "cau:bioinformatics-genomics",
+      "error_ids": [],
+      "label": "中国农业大学：生物信息学/动植物基因组学",
+      "reason": "与华中农业大学并列的另一明确学校候选，分别记录，不将两校合成一所。动植物基因组及生信研究探索方向合理，不据此确认425–449满足具体直博要求或可保证保底。",
+      "school_key": "cau",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "吉林大学 / 中南大学 / 湖南大学",
+      "canonical_candidate_key": "jlu:school-level-bioinformatics-intent",
+      "error_ids": [],
+      "label": "吉林大学：生信直博探索定位",
+      "reason": "稳妥段明确学校推荐，和另两校分别提取。只报学校，尚不足以识别独立项目；本题无覆盖参考，不因学校层次建议未给项目就认定虚构或不可申请。保留粗粒度候选定位。",
+      "school_key": "jlu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "吉林大学 / 中南大学 / 湖南大学",
+      "canonical_candidate_key": "csu:school-level-bioinformatics-intent",
+      "error_ids": [],
+      "label": "中南大学：生信直博探索定位",
+      "reason": "稳妥段明确推荐的第二学校，分别记录；没有提供具体院系或学位项目，不能视为项目级核验通过。该粗粒度学校探索建议没有已证实的整体无效条件。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "吉林大学 / 中南大学 / 湖南大学",
+      "canonical_candidate_key": "hnu:school-level-bioinformatics-intent",
+      "error_ids": [],
+      "label": "湖南大学：生信直博探索定位",
+      "reason": "稳妥段明确推荐的第三学校，分别记录；只是学校层面探索，不补造专业、导师名额或年度资格。未命中任何参考与该对象有效性无关，因为本题参考为空。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**郑州大学（本校兜底）**：本校导师通常熟悉你的底细，若有优秀生信导师，可作为最坚实的底线保底。",
+      "canonical_candidate_key": "zzu:home-bioinformatics-mentor",
+      "error_ids": [],
+      "feasibility": "答卷可通过本校导师沟通、组内学生访谈及本校名额核验落实条件；若无合适导师则不能将本校当成优选兜底。该条件现实可核验，不构成保证录取。",
+      "key_condition": "本校确有符合干实验意向且值得选择的优秀生信导师，并保有对应招生机会；本校推免资格仍需核实。",
+      "label": "郑州大学：本校生信导师兜底",
+      "reason": "这是实际本校条件兜底推荐，与前文本科背景讨论不同；导师质量条件明确。作为同层次后备建议可保留，不代表本校必录取，也不把未确认推免资格写成已获得。",
+      "school_key": "zzu",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+  "score": 50.0,
+  "score_interval": [
+    50.0,
+    50.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-G-02",
+  "task_kind": "planning",
+  "task_sha256": "125e4950c3e956f4845685e42cd365dd2805c5420280a89c1dfb977d4f20214d",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "**中科院北京基因组研究所（国家生物信息中心 BIG）**",
+        "downgraded": false,
+        "reason": "中科院研究所/国科大培养路径不能仅因没有985/211标签视为降级。本题无层次计分节点，不另计分；未作全部年度学位及招生资格审计。",
+        "school_key": "big"
+      },
+      {
+        "answer_quote": "**复旦大学**（生命科学学院 / 复杂体系多尺度研究院 / 代谢与整合生物学研究院）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "fudan"
+      },
+      {
+        "answer_quote": "**上海交通大学**（生命科学技术学院 / 医学院生信平台）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "**浙江大学**（生命科学学院 / 医学院）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "**中国科学技术大学**（生命科学与医学部 / 计算机交叉学科）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "ustc"
+      },
+      {
+        "answer_quote": "**中山大学**（生命科学学院 / 中山医学院 / 肿瘤防治中心）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "sysu"
+      },
+      {
+        "answer_quote": "**华中科技大学**（生命科学与技术学院 / 同济医学院）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "**武汉大学**（生命科学学院 / 泰康生命医学中心）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "whu"
+      },
+      {
+        "answer_quote": "**四川大学**（生命科学学院 / 华西临床医学院生信团队）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "scu"
+      },
+      {
+        "answer_quote": "**山东大学**（生科院 / 基础医学院）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "sdu"
+      },
+      {
+        "answer_quote": "**中科院广州健康院（GIBH）**",
+        "downgraded": false,
+        "reason": "中科院研究所/国科大培养路径不能仅因没有985/211标签视为降级。本题无层次计分节点，不另计分；未作全部年度学位及招生资格审计。",
+        "school_key": "gibh"
+      },
+      {
+        "answer_quote": "**中科院昆明动物所**",
+        "downgraded": false,
+        "reason": "中科院研究所/国科大培养路径不能仅因没有985/211标签视为降级。本题无层次计分节点，不另计分；未作全部年度学位及招生资格审计。",
+        "school_key": "kiz"
+      },
+      {
+        "answer_quote": "**中科院深圳先进技术研究院（SIAT）**",
+        "downgraded": false,
+        "reason": "中科院研究所/国科大培养路径不能仅因没有985/211标签视为降级。本题无层次计分节点，不另计分；未作全部年度学位及招生资格审计。",
+        "school_key": "siat"
+      },
+      {
+        "answer_quote": "**东南大学**（生命科学与技术学院，生物医学工程/生信国家一流学科）",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "华中农业大学 / 中国农业大学",
+        "downgraded": false,
+        "reason": "211高校，与郑州大学本科基准同档；郑州大学为本校同层次兜底。依题库通则同档不降级，本题无层次计分节点。",
+        "school_key": "hzau"
+      },
+      {
+        "answer_quote": "华中农业大学 / 中国农业大学",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "cau"
+      },
+      {
+        "answer_quote": "吉林大学 / 中南大学 / 湖南大学",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "jlu"
+      },
+      {
+        "answer_quote": "吉林大学 / 中南大学 / 湖南大学",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "吉林大学 / 中南大学 / 湖南大学",
+        "downgraded": false,
+        "reason": "985高校，相对郑州大学211本科基准不降级。本题无层次计分节点，仅记录，不额外加减分。",
+        "school_key": "hnu"
+      },
+      {
+        "answer_quote": "**郑州大学（本校兜底）**：本校导师通常熟悉你的底细，若有优秀生信导师，可作为最坚实的底线保底。",
+        "downgraded": false,
+        "reason": "211高校，与郑州大学本科基准同档；郑州大学为本校同层次兜底。依题库通则同档不降级，本题无层次计分节点。",
+        "school_key": "zzu"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "code_license": "MIT",
+  "dataset_source": "data/questions-and-scoring.md",
+  "domains": [
+    "baoyan"
+  ],
+  "license_status": "specified",
+  "name": "保研 Agent Benchmark",
+  "primary_reporting_split": "dev",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "public_data_license": "CC-BY-4.0",
+  "reproduction_version": "1.0.1",
+  "sample_accounting": {
+    "derived_episodes_add_samples": false,
+    "difficulty_quotas": "not_defined_for_current_selection",
+    "report_tracks_separately": true,
+    "sample_unit": "independently_scored_task_or_episode",
+    "stages_and_repeats_add_samples": false,
+    "statistical_cluster": "case_group_id",
+    "target_policy": "current_document_questions_only"
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "excluded": [
+      "kaoyan",
+      "other_domains"
+    ],
+    "included": [
+      "baoyan"
+    ],
+    "own_agent_role": "baseline_only",
+    "primary_objective": "dataset_discrimination_and_scoring_reliability"
+  },
+  "selection": "config/selections/current.json",
+  "split_unit": "case_group_id",
+  "status": "release_candidate",
+  "target_total": 70,
+  "targets": {
+    "dev": {
+      "total": 70
+    }
+  },
+  "version": "1.0.2+privacy-v16-public70"
+}

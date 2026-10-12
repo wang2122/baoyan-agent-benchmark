@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-C",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q009",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-C-03",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年1月，我在哈工大（威海）读化工，六级450–499分，刚参加六级刷分还没出分。已有化工和数学建模类竞赛奖项，也参加过化工类校级竞赛团队；电池与催化论文在写，另一项材料相关项目是否继续还没决定。这学期电化学原理、化学反应工程也挺重要。我还值得再花寒假时间参加比赛吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "4282622f8530d8ff9eb5b9dc69148af28f1c73c59369009aed8bcbf154d712e3",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

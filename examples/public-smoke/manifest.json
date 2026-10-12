@@ -1,0 +1,21 @@
+{
+  "fingerprints": {
+    "REPRO-DEMO-001": {
+      "rubric": "418c2f3a0a74adf1e211bc9ebca6a1f6ecda57104dc74c5310af639dbf1728fe",
+      "task": "318b4b9d28beb0f5fa1764d8588ce6e2e909d4a57c6c8ede677f3af5f46c8ef2"
+    },
+    "REPRO-DEMO-002": {
+      "rubric": "ef13471a0c37f233568cefdf810daa3dcc55c045baa9c1e4455b0ff028374a84",
+      "task": "8867537cf5f3661c027c43de76b7be3eb6f930a313bfeeba1a8d49123dc733c0"
+    }
+  },
+  "prompt_version": "candidate-input.2",
+  "purpose": "public_synthetic_workflow_demo_not_formal_evaluation",
+  "schema_version": "1.0",
+  "split": "dev",
+  "tasks": [
+    "REPRO-DEMO-001",
+    "REPRO-DEMO-002"
+  ],
+  "version": "1.0.1"
+}

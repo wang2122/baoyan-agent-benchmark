@@ -1,0 +1,463 @@
+{
+  "actual_candidate_count": 23,
+  "answer_sha256": "3bb69736d4febde059246602b2eac0bd5240f89c15de1bd4fd8e47be2794a6e4",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 75.0
+  },
+  "confirmed_points": 75.0,
+  "diagnostic_score": null,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E03": [
+      "N06-02-L1-02"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "雅思 6.5 分（对标六级约 550 分以上）已稳稳达到 99% 高校的推免外语初审门槛。",
+      "id": "E01",
+      "reason": "没有适用项目与年度的依据支持固定六级换算和99%达标率，亦未检查考试类型、有效期及具体项目的认可方式。正式项目通知使用各自的外语证明及同等水平规定；不能由单一雅思总分自动确认全部目标合格。本错误关联第五项，不将任何学校仅因未审计年度或未附来源判为无效。"
+    },
+    {
+      "answer_quote": "必须以**学术型硕士**为跳板读博。",
+      "id": "E02",
+      "reason": "把适合科研训练的学硕建议写成了读博硬性必经条件。原本科院校2026年博士简章区分硕博连读、普通招考和本科直博；学术博士普通招考接受已获硕士学位或应届硕士等，并专列单证专业硕士情形，不等同于必须先读学硕。依据BNU-PHD-2026；这里只纠正绝对学位路径判断，未推断学生未来必然符合某博士项目。最直接归第五项，不再扣兴趣偏好或研究目标项。"
+    },
+    {
+      "answer_quote": "必须有一篇打磨极其精致、格式完全符合《中国语文》规范的课程论文或学年论文",
+      "id": "E03",
+      "reason": "课程论文可以作为语言学训练和申请材料，但题面没有具体目标项目，也没有给出该格式统一硬性要求。答卷将一种准备策略泛化为传统语言学必备条件，未按目标专业考核调整。最直接归第二项；不因建议打磨课程论文本身扣分。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N06-02",
+  "input_sha256": "4bf888b70213f8ea2537fe7f60a94e05a2e81512259846736c5f7032571c61ab",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "91c26a97edc11dab061d256f242056ef2853cd6992ad8da85c56ae0d78e1e090",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N06-02-L1-01",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N06-02-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N06-02-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N06-02-L1-04",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": "pending",
+      "id": "N06-02-L1-05",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 1,
+      "id": "N06-02-L1-06",
+      "kind": "quality",
+      "points": 10.0
+    }
+  ],
+  "observed_candidate_count": 23,
+  "official": false,
+  "pending_nodes": [
+    "N06-02-L1-05"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "“研究生支教团（研支团）”",
+      "canonical_candidate_key": "bnu:research-teaching-corps",
+      "error_ids": [],
+      "label": "北师大研究生支教团备选通道",
+      "reason": "全文作为应关注的专项备选提名，未给出学生是否符合遴选条件；不冒充已成立的保底路径。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "bnu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "“科技支教”",
+      "canonical_candidate_key": "bnu:science-teaching-route",
+      "error_ids": [],
+      "label": "北师大科技支教通道提名",
+      "reason": "只提名关注此类专项，未识别独立项目、当届名额或适用条件。没有证据证明其不存在，不把提名当作有效保底保障。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "bnu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "“思想政治骨干专项”",
+      "canonical_candidate_key": "bnu:ideological-political-route",
+      "error_ids": [],
+      "label": "北师大思想政治骨干专项提名",
+      "reason": "仅提名需留意的专项类型，未提供学生条件或具体计划；没有据此判定可获单列指标。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "bnu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**北京师范大学（北京本部）**：汉语文化学院（国际中文教育专硕）",
+      "canonical_candidate_key": "bnu:ice-beijing",
+      "error_ids": [],
+      "label": "北师大原汉语文化学院国际中文教育专硕（北京）",
+      "occurrences": [
+        {
+          "answer_quote": "北师大本部",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "BNU-RENAME官方沿革确认2022年整合为国际中文教育学院；BNU-ICE-2026目录确认北京方向国际中文教育专硕及推免。旧名可识别，不能机械判项目虚构。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "心理学部（认知神经科学/语言认知交叉方向）",
+      "canonical_candidate_key": "bnu:psych-language-cognition",
+      "error_ids": [],
+      "label": "北师大心理学部语言认知交叉方向",
+      "occurrences": [
+        {
+          "answer_quote": "利用相关心理与认知研究资源",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "与A04为明确不同招生单位，单列。官方心理学部简介及2026目录支持认知神经科学相关研究训练（BNU-PSYCH）；未明确导师和招生学科，保留答案实际方向粒度，不替答卷创造心理语言学独立专业。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**复旦大学 / 浙江大学 / 南京大学**：数字人文项目、现代语言学实证方向，利用本科文科背景冲刺；",
+      "canonical_candidate_key": "fudan:dh-linguistics-bundle",
+      "error_ids": [],
+      "label": "复旦大学数字人文/现代语言学实证候选组合",
+      "occurrences": [
+        {
+          "answer_quote": "复旦",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "学校逐一明确，但数字人文与现代语言学仅合并提出研究方向；每校保留一个候选组合，不凭两个方向创造两条招生项目。官方材料支持相关研究领域（DH-LING-IDENTITY），未据此断言存在同名独立硕士或当届可投窗口。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**复旦大学 / 浙江大学 / 南京大学**：数字人文项目、现代语言学实证方向，利用本科文科背景冲刺；",
+      "canonical_candidate_key": "zju:dh-linguistics-bundle",
+      "error_ids": [],
+      "label": "浙江大学数字人文/现代语言学实证候选组合",
+      "occurrences": [
+        {
+          "answer_quote": "浙大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "学校逐一明确，但数字人文与现代语言学仅合并提出研究方向；每校保留一个候选组合，不凭两个方向创造两条招生项目。官方材料支持相关研究领域（DH-LING-IDENTITY），未据此断言存在同名独立硕士或当届可投窗口。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**复旦大学 / 浙江大学 / 南京大学**：数字人文项目、现代语言学实证方向，利用本科文科背景冲刺；",
+      "canonical_candidate_key": "nju:dh-linguistics-bundle",
+      "error_ids": [],
+      "label": "南京大学数字人文/现代语言学实证候选组合",
+      "reason": "学校逐一明确，但数字人文与现代语言学仅合并提出研究方向；每校保留一个候选组合，不凭两个方向创造两条招生项目。官方材料支持相关研究领域（DH-LING-IDENTITY），未据此断言存在同名独立硕士或当届可投窗口。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**中国人民大学**：文学院国际中文教育",
+      "canonical_candidate_key": "ruc:wxy-ice",
+      "error_ids": [],
+      "label": "人民大学文学院国际中文教育",
+      "occurrences": [
+        {
+          "answer_quote": "人大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "RUC-WXY-PROFILE官方介绍仍载汉语国际教育；RUC-ICE-2027正式国际中文教育推免由国际文化交流学院发布，RUC-WXY-2026上一届文学院正式通知仅列学术硕士/直博。2027年文学院全文未从官方成功取得（索引确认通知存在，正文抓取失败），转载只能辅助定位不能替代官方裁决。招生主体存在影响资格项的实质争议，保留pending；不认定人民大学没有国际中文教育。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "信息资源管理学院（人文大数据方向）",
+      "canonical_candidate_key": "ruc:irm-humanities-data",
+      "error_ids": [],
+      "label": "人民大学信息资源管理学院人文大数据方向",
+      "occurrences": [
+        {
+          "answer_quote": "人大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "RUC-IRM-2027当届官方通知列信息资源管理数字人文学术硕士及数据管理等方向，支持院系内相关人文数据研究路径；“人文大数据”按研究描述理解，不硬造同名招生专业。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**北京语言大学（北语）**：**必投**！素有“小联合国”之称，国际中文教育与语言学（语言智能研究院、语言认知科学教育部重点实验室）处于国内绝对前沿。",
+      "canonical_candidate_key": "blcu:ice",
+      "error_ids": [],
+      "label": "北京语言大学国际中文教育",
+      "occurrences": [
+        {
+          "answer_quote": "北语",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "国际中文教育与其语言学路径明确并列，单列该专业。BLCU-IDENTITY确认相关学院及推免制度；“必投”、英语受欢迎和规模不等于学生必然达标。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "blcu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**北京语言大学（北语）**：**必投**！素有“小联合国”之称，国际中文教育与语言学（语言智能研究院、语言认知科学教育部重点实验室）处于国内绝对前沿。",
+      "canonical_candidate_key": "blcu:linguistics-intelligence-cognition-bundle",
+      "error_ids": [],
+      "label": "北京语言大学语言学及语言智能/认知相关路径组合",
+      "occurrences": [
+        {
+          "answer_quote": "北语",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "同一句的语言智能研究院与语言认知实验室是语言学平台举例，未分别说明独立招生专业，合并为一个实际候选方向，不机械拆两项。BLCU-IDENTITY支持语言智能研究院身份；不审计所有研究平台招生资格。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "blcu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "**华东师范大学 / 华中师范大学**：师范类巨头，国际中文教育实力极强，学制与就业出口成熟；",
+      "canonical_candidate_key": "ecnu:ice",
+      "error_ids": [],
+      "label": "华东师范大学国际中文教育",
+      "occurrences": [
+        {
+          "answer_quote": "华东师大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "该并列句把国际中文教育明确关联两所学校，按每校一个候选记录；官方ECNU-ICE支持项目身份。不从“成熟”推断统一考核、排名容忍度或录取保证。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "ecnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**华东师范大学 / 华中师范大学**：师范类巨头，国际中文教育实力极强，学制与就业出口成熟；",
+      "canonical_candidate_key": "ccnu:ice",
+      "error_ids": [],
+      "label": "华中师范大学国际中文教育",
+      "occurrences": [
+        {
+          "answer_quote": "华中师大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "该并列句把国际中文教育明确关联两所学校，按每校一个候选记录；官方CCNU-ICE支持项目身份。不从“成熟”推断统一考核、排名容忍度或录取保证。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "ccnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "**中山大学**：中国语言文学系",
+      "canonical_candidate_key": "sysu:chinese-department",
+      "error_ids": [],
+      "label": "中山大学中国语言文学系",
+      "occurrences": [
+        {
+          "answer_quote": "中大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "SYSU-CHINESE官方推免记录支持院系研究生路径，与汉语言文学背景及语言研究相关。答卷未指明专业，不替其补造项目；广州与原本科校区中文系不能按“同城”自动视为同一单位。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "国际翻译学院（原本科校区同城协同，极具地缘便利）",
+      "canonical_candidate_key": "sysu:translation-department",
+      "error_ids": [],
+      "label": "中山大学国际翻译学院",
+      "occurrences": [
+        {
+          "answer_quote": "中大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "该院系与中文系明确并列推荐，单列；SYSU-STI官方培养介绍支持语言、语料库与翻译技术研究相关性，未说明具体专业和学位，不能把它改写成国际中文教育或保证跨专业合格。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**暨南大学**：华文学院是全国海外华文教育的最高学府之一，海外影响深远；",
+      "canonical_candidate_key": "jnu:huawen",
+      "error_ids": [],
+      "label": "暨南大学华文学院",
+      "occurrences": [
+        {
+          "answer_quote": "暨大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "JNU-HUAWEN官方2026目录支持华文学院国际中文教育、语言学等推免路径；原文仅推荐院系，保留一条不拆专业。声誉和地域便利不证明初审偏好或录取概率。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "jnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**上海外国语大学 / 广东外语外贸大学**：语言智能、双语认知、语言数据科学交叉方向。",
+      "canonical_candidate_key": "shisu:language-interdisciplinary-bundle",
+      "error_ids": [],
+      "label": "上海外国语大学语言交叉方向组合",
+      "occurrences": [
+        {
+          "answer_quote": "上外",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "SHISU-LANGUAGE官方专业与2026目录支持语言数据科学与应用，关联语言智能和数据方法。几个描述合并提出，未分别明确三条招生路径，每校只留一个候选组合。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "shisu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "**上海外国语大学 / 广东外语外贸大学**：语言智能、双语认知、语言数据科学交叉方向。",
+      "canonical_candidate_key": "gdufs:language-interdisciplinary-bundle",
+      "error_ids": [],
+      "label": "广东外语外贸大学语言交叉方向组合",
+      "reason": "GDUFS-LANGUAGE官方学院与实验室资料支持双语认知、语言智能相关研究生训练；没有据此确认广外有“语言数据科学”同名招生专业。原文多方向合并推荐，保留一条组合。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "gdufs",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**[本科院校与校区已概括]本校项目**：密切关注原本科校区的相关学院（具体院系已概括）、原本科校区各交叉研究院招收本校推免生的政策宣讲与本硕衔接通道；",
+      "canonical_candidate_key": "bnu:zhuhai-local-bundle",
+      "error_ids": [],
+      "feasibility": "答卷给出关注政策宣讲、调阅本专业推免文件和向教务辅导员核准综测的核验途径，学生可开展；未明确具体研究院和专业，因此只能作为有待筛选的本校备选组合，不能保证兜底录取。",
+      "key_condition": "须取得本校推免资格，并确认具体文理学院专业或交叉研究院当届接收本校学生的条件及本硕衔接政策。",
+      "label": "北师大珠海校区本校项目组合",
+      "occurrences": [
+        {
+          "answer_quote": "原本科院校原本科校区项目",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "文理学院与未具名各研究院合并提出，仅留一个本校项目组合，不替答卷拆分多个研究院招生路径。BNU-ZHUHAI官方通知确认文理学院设在原本科校区并接收校内外推免，支持探索校内路径。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "bnu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "**华南师范大学 / 陕西师范大学 / 南京师范大学**：211 师范顶尖，国际中文教育专硕，确保稳稳拿下 Offer。",
+      "canonical_candidate_key": "scnu:ice",
+      "error_ids": [],
+      "label": "华南师范大学国际中文教育专硕",
+      "occurrences": [
+        {
+          "answer_quote": "华南师大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "并列句明确给出每所学校的国际中文教育专硕，分别记录；官方SCNU-ICE支持相关培养身份，但未作完整当届推免审计。“确保稳稳拿下Offer”没有学生竞争表现或具体门槛依据，不作为候选适配证据，也不能由此推断该真实项目无效。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "scnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "**华南师范大学 / 陕西师范大学 / 南京师范大学**：211 师范顶尖，国际中文教育专硕，确保稳稳拿下 Offer。",
+      "canonical_candidate_key": "snnu:ice",
+      "error_ids": [],
+      "label": "陕西师范大学国际中文教育专硕",
+      "occurrences": [
+        {
+          "answer_quote": "陕师大",
+          "reason": "同一候选的学校简称、梯队提名或再次推荐；不新增独立申请路径。"
+        }
+      ],
+      "reason": "并列句明确给出每所学校的国际中文教育专硕，分别记录；官方SNNU-ICE支持相关培养身份，但未作完整当届推免审计。“确保稳稳拿下Offer”没有学生竞争表现或具体门槛依据，不作为候选适配证据，也不能由此推断该真实项目无效。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "snnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "**华南师范大学 / 陕西师范大学 / 南京师范大学**：211 师范顶尖，国际中文教育专硕，确保稳稳拿下 Offer。",
+      "canonical_candidate_key": "njnu:ice",
+      "error_ids": [],
+      "label": "南京师范大学国际中文教育专硕",
+      "reason": "并列句明确给出每所学校的国际中文教育专硕，分别记录；官方NJNU-ICE支持相关培养身份，但未作完整当届推免审计。“确保稳稳拿下Offer”没有学生竞争表现或具体门槛依据，不作为候选适配证据，也不能由此推断该真实项目无效。内容判断限于相关候选身份或研究方向建议，不表示已审计2026申请季全部窗口、排名、语言条件或录取概率。",
+      "school_key": "njnu",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+  "score": null,
+  "score_interval": [
+    75.0,
+    90.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "N06-02",
+  "task_kind": "planning",
+  "task_sha256": "78496785bc9d334dcaa6c46bdc1fba401fdd9bbcde827dc5635f3a2e5f9e8a75",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题六个节点均为方向规划three_level项，没有school_tier项，也没有择校层次评分要求；层次审阅不适用，不因提出本科或其他院校另扣分。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

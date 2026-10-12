@@ -1,0 +1,108 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "af87d4e21a2f7459ebafd7f655d9b9c129fdceb9502082bcbdb1d894bc69ec8b",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 85.0
+  },
+  "confirmed_points": 85.0,
+  "diagnostic_score": 85.0,
+  "difficulty": "medium",
+  "display_notice": "Privacy-adapted display of original runs; scores, models and timestamps preserved. Original hashes identify internal evidence, not transformed text.",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "calendar": [
+      "N02-02-L1-07"
+    ],
+    "residency-duration": [
+      "N02-02-L1-02"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "临床路径的门槛（执业医师资格 + 3 年规培）是**刚性的、不可压缩的、必须按年消耗的时间成本**",
+      "id": "residency-duration",
+      "reason": "已正确区分学硕/专硕、住培并轨和执医的本科学历依据，并要求核对项目培养与招生资格。但以固定三年和多条绝对时间账证明唯一双出口，笼统化具体路径。官方管理办法使用一般三年，并允许按既有临床经历、诊疗能力确定具体时长；末尾提醒减免核验未消除正文不可压缩的绝对结论。本错误仅归本节点。"
+    },
+    {
+      "answer_quote": "**明确切换点：9 月 20 日**",
+      "id": "calendar",
+      "reason": "有今天确认资格、查通知、名单分层、导师/医院尽调与材料准备等可执行步骤。但答卷自定10月11日作答，另将9月20日/开网后5天列为明确切换点，且收官时间仅用历史惯例。官方本周期9月21日开始填志愿、10月18日停止新增志愿、10月20日截止确认；已经过去的关键节点及泛化两周安排未形成一致时间线，行动顺序/核验边界不完整。本错误仅归执行节点。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N02-02",
+  "input_sha256": "45a6bef0a4f0a3bb0b486c3bbb4385c581f85050bc5359aaf093ccfafb609a6b",
+  "judge_version": "manual-current75-20261011.1",
+  "judgment_sha256": "08f3fcf766b0ee9e4ae9b305a6ddf22bb8715c8dd36ecd0156881ab9233ce509",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N02-02-L1-01",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N02-02-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N02-02-L1-03",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N02-02-L1-04",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N02-02-L1-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N02-02-L1-06",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N02-02-L1-07",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "07eee181fa7b8c6fd9e1ba4b6589989d041c79f34aecf545d99a8624f1cd6e25",
+  "score": 85.0,
+  "score_interval": [
+    85.0,
+    85.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.2",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N02-02",
+  "task_kind": "planning",
+  "task_sha256": "0d367e0b547b4a006e194f7418fa4d52119b130722f13769be92cf7669ca0a8f",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [],
+    "status": "confirmed"
+  }
+}

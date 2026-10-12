@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-G",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q021",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-G-APPLY",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在郑州大学学生物信息，排名前约10%、六级425–449分，SCI一作还在投，也做过湿实验和大创。将来只想继续生信干实验，优先考虑华五及以上直博，也能接受中九硕士。能帮我推荐33个国内学校、科研院所和具体专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "221912891ae406bf39790ec59d7ad7c2c58d7bc9c4e1f61193957fcbead06e11",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

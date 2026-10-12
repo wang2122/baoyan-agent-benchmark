@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "gpt-6-1-sol",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 17,
+        "node": "N15-01-T2",
+        "points": 8.5,
+        "reason": "已明确法理、宪法、民刑及诉讼基础，要求按项目考核范围整理概念、制度和争议，每周两道限时案例或论述并接受反馈，且未把北大笔试面试设为所有学校通用要求。核心不足是没有安排法制史和行政法的基础复习，也未用已确定的主申方向或个人基础说明为何可暂缓这两个核心模块，不能以泛称各项目范围补足，故半分。"
+      },
+      {
+        "max_points": 10,
+        "node": "execution",
+        "points": 5.0,
+        "reason": "已有至少两个可核查阶段：第一周问题和文献、其后两周论证、最后反馈修改答辩；另有当天资格和一至两天渠道核对，并提出窗口只剩几天时改为精修已有文本。故不是缺乏执行安排。但题面仅为2026年推免申请季，答卷擅定10月9日并把候选缩减和本周补录作为当前主安排，导致规划是否适用于学生真实咨询阶段不能成立；季前方案虽能部分补救，仍未先按未知时点分支确定节点，也缺研究延期后如何压缩或重排交付的明确措施，判半分而非pending。"
+      }
+    ],
+    "name": "GPT-6.1 Sol",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 86.5,
+    "score_interval": [
+      86.5,
+      86.5
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "N15-01"
+  }
+}

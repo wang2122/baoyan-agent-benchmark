@@ -1,0 +1,410 @@
+{
+  "answer_sha256": "c8df84fe4b0693e4728208373f63e7178b0790348b7ca53b6a076aeab78ef079",
+  "candidates_reviewed": true,
+  "coverage": [],
+  "errors": [
+    {
+      "answer_quote": "专业类竞赛创新/专业类竞赛竞赛（国家一等奖，项目负责人，主导 HAZOP 分析、SIL 定级及本质安全车间布置）；",
+      "id": "E01",
+      "reason": "题面仅披露获奖，未披露负责人身份及所承担任务。简历模板将这些具体经历直接写成事实，且正文和套磁模板另将国家级大创写成主持项目，未要求按真实角色替换。此为未经披露的个人经历补写，不采信为学生已有能力证据；仅归入L1-06。"
+    },
+    {
+      "answer_quote": "目前我的阶段性成果是：通过水热共沉淀法调控 Fe/Ni 摩尔比，筛选出了最佳分散度的复合物，并在固定床微反装置上测得了初步的突破曲线。",
+      "id": "E02",
+      "reason": "题面只说明大创还在中途，没有披露制备方法、筛选结果、突破曲线或已掌握仪器。答卷在面试话术中直接断言这些已完成的阶段性成果，前文邮件还写成溶胶-凝胶合成，不能作为已知科研状态。仅归入L1-06，不在路线适配项重复处罚。"
+    },
+    {
+      "answer_quote": "本校推免资格稳拿。",
+      "id": "E03",
+      "reason": "专业排名前约3%并不等同于已经获得本校推免资格；题面未提供学校当届名额、资格规则和其他条件。答卷还将专业排名写作综测前3名、邮件中写综合考评稳获资格，扩大了已知事实。按申请边界和个人状态错误归入L1-06。"
+    }
+  ],
+  "input_sha256": "29fc88de3a1eb7c7401d3a28871b610cd383188552bad62d5f7404faef6e38a6",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。覆盖项matched_answer_item_id指向recommendation_review中的唯一记录；同一独立候选不能覆盖多个参考目标。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；allowed_exclusion另填rule_id，当前仅E-12可用E-AI-CS-ALT。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "**工业催化与特种催化材料**：与你的“相关金属材料催化剂大创”完全契合。催化剂配方开发、成型工艺、催化机理表征是精细化学品与绿色合成的核心，",
+      "error_ids": [],
+      "grade": 1,
+      "id": "TRY-H-02-L1-01",
+      "reason": "将相关金属材料催化剂对应配方、成型和机理表征，将吸附与催化对应分子筛、树脂及膜分离，并说明向精细化学品、绿色合成和高端分离延续。结合化工单元操作和工程放大基础，化工/催化主线的研究内容及个人适配核心成立。个人成果补写仅在L1-06处理，本项依据题面已披露项目评价。"
+    },
+    {
+      "answer_quote": "**电解液研发（极度推荐化工背景）**：涉及锂盐（LiPF6、LiFSI）、功能添加剂、有机溶剂的配方优化与纯化制备，本质上是精细化学品合成与配方工程，化工硕士上手极快。",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-02",
+      "reason": "具体比较电解液、正负极工艺、功能高分子以及氢能电催化，给出合成、分离、颗粒工程与化工基础的交集，并用有无产业项目筛导师，超出泛泛列名。但没有识别材料结构与性能、电化学基础及电池测试等课程/方法缺口，也未据现有项目区分转向所需补充训练；转向条件这一核心部分不足，半分。"
+    },
+    {
+      "answer_quote": "**湿电子化学品纯化研发**：超高纯硫酸、双氧水、氢氟酸等，要求金属杂质达到 ppt（万亿分之一）级别。**核心难点不是化学反应，而是化工单元操作（超精密精馏、特种吸附、结晶、色谱分离）**",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-03",
+      "reason": "已具体分析电子化学品纯化、CMP和光刻胶等化工/材料切入点，区别于电子物理类光伏工艺，具备正确的交叉内容。但把半导体电子化学品置于强烈推荐第一梯队，未讨论先修缺口、具体研究生专业的背景接收条件及培养差别，也未把它作为需核实的交叉备选。已有具体正确内容，缺边界条件，半分；不因未提供链接归零。"
+    },
+    {
+      "answer_quote": "★ 课题类型：企业委托技术转移（千万级横向）、中试产线工程放大、关键材料国产化替代。\n  ★ 对硕士态度：视工程硕士为项目技术骨干，支持三年制培养，支持去头部企业联培，毕业人脉与研发内推极硬。",
+      "error_ids": [],
+      "grade": 1,
+      "id": "TRY-H-02-L1-04",
+      "reason": "明确以先读硕士、不直博和研发目标组织比较，选择材料与化工专硕，区分硕士工程研发与博士基础研究倾向，并从实验验证、配方与表征、中试放大、企业横向和联培判断课题组。另提出电话/面谈锁定非直博硕士名额。研究训练、学位路径、校企项目与研发能力的核心成立；不要求补出题面未要求的完整职业调查。关于课题组类型及就业的绝对化描述不能理解为就业保证，但不抹去已成立的培养比较。"
+    },
+    {
+      "answer_quote": "**化工学院（主校区）**：重点关注催化化学与工程、分离工程（与你的大创完全匹配）；",
+      "error_ids": [],
+      "grade": 1,
+      "id": "TRY-H-02-L1-05",
+      "reason": "对天大给出化工专硕、储能及分子聚集态等平台，对大工区分精细化工、催化和分离并联系现有项目，对华理结合化工/材料平台、材料与化工培养和长三角研发资源，对北化指出软物质、高分子、超重力及能源化工平台。再用工程放大、企业横向和硕士培养态度作共同导师筛选依据，已经超出学校层次排名，学校—学科平台—研发目标的适配比较核心成立。未列具体导师姓名不是本项额外门槛；生源血缘、隐性机筛和胜率的强断言未获核实，不作为正向证据。"
+    },
+    {
+      "answer_quote": "国家级大创（吸附与催化、相关金属材料催化剂，在研中途）",
+      "error_ids": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-06",
+      "reason": "指标表正确保留前约3%、CET6 425–449、EI会议一作已发表和大创在研中途，认识到英语筛选和会议论文分量的边界。但后文直接虚构负责人/主持身份、实验进展及能力，且从排名保证推免资格，违反只使用已披露个人状态的要求。总体基础状态正确、核心事实处理出现错误，按半分边界判定，三条错误集中在本项，不另外累扣。"
+    },
+    {
+      "answer_quote": "在每个目标院校中筛选 1-2 位“有中试产线、有产业横向、偏向功能材料/半导体/锂电/特种催化”的骨干副教授或正教授，发送定向套磁信；",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-07",
+      "reason": "矩阵给出半导体/锂电、工业催化、功能材料及氢能等主次，氢能设有产业横向条件，并提出筛导师、发邮件及面谈确认非直博硕士名额，已有可操作内容。但没有系统核实学校当届的英语分数、跨专业接收、学硕/专硕名额、联合培养授位与窗口限制；GTSI仅说关注英语资格，无法支撑当届选择。题面未给周期，答卷也没有先确定咨询阶段再调整通用时间表。缺少可检验的当届项目限制核验这一核心，半分；不因没有真实获得导师回复而扣分。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "**不要硬刚化工学院本部大热门学术型导师**",
+      "canonical_candidate_key": "tju-chem-academic-hot",
+      "error_ids": [],
+      "label": "天津大学化工学院本部热门学术型导师路径（排除）",
+      "reason": "明确劝避化工学院热门学术型导师，不是排除全部化工学院；后文专硕冲刺另列。不把未经核实的隐性机筛叙述视为已证实的招生规则。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "天津大学（化工学院材料与化工专硕、储能平台、分子聚集态研究院）",
+      "canonical_candidate_key": "tju-chem-professional",
+      "error_ids": [],
+      "label": "天津大学化工学院材料与化工专业硕士",
+      "reason": "后文明确列化工学院材料与化工专硕为冲刺。2023级官方推免目录支持该学位身份（evidence.json EV01）；本条仅提取其中有明确院系和学位的候选，平台建议另记录。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "**天津大学分子聚集态科学研究院**",
+      "canonical_candidate_key": "tju-imas",
+      "error_ids": [],
+      "label": "天津大学分子聚集态科学研究院",
+      "reason": "作为交叉平台迂回候选，后文再次列入冲刺。官方培养概况支持化学一级学科硕士点及自2019年招收硕士（EV03），不将其解释为材料与化工专硕。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "**国家储能技术产教融合创新平台**",
+      "canonical_candidate_key": "tju-energy-platform",
+      "error_ids": [],
+      "label": "天津大学国家储能技术产教融合创新平台（平台候选）",
+      "reason": "列入应关注的平台并在冲刺组重复，但没有明确承接招生院系或独立专业。按平台提名提取，不替答卷创造独立硕士项目，也不由缺少年度证据推断平台无效。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "**理学院（应用化学/现代催化）**",
+      "canonical_candidate_key": "tju-science-catalysis",
+      "error_ids": [],
+      "label": "天津大学理学院应用化学/现代催化方向",
+      "reason": "作为迂回平台候选提名，尚未给具体研究生专业。官方理学院本科应用化学介绍及催化研究方向支持化学研究身份（EV04），这里按方向粒度理解，不把本科应用化学名称自动当成同名硕士招生专业。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "**天津大学佐治亚理工深圳学院（GTSI）**（全英文教学，需关注其具体英语资格）",
+      "canonical_candidate_key": "tju-gtsi",
+      "error_ids": [],
+      "feasibility": "只提出关注英语资格，未提供补齐考试成绩的安排、预算或具体对口项目，条件方案尚不充分；不能把已知CET6 425–449直接解释为达到其英语门槛。未披露其他英语成绩，亦没有证据证明未来不可补齐。",
+      "key_condition": "核对并满足GTSI所选硕士项目的具体英语资格；答卷未给分数、背景接收或拟选专业。",
+      "label": "天津大学佐治亚理工深圳学院（英语条件候选）",
+      "reason": "明示全英文及英语资格条件，应提取为条件备选。官方2023届指南检索摘要支持双学位硕士及英语/GPA要求（EV05），但未证明其有材料与化工项目；不将这条院校探索建议扩写为化工专硕或已可申请项目。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "**天大福州国际联合学院**",
+      "canonical_candidate_key": "tju-fuzhou",
+      "error_ids": [],
+      "label": "天津大学福州国际联合学院",
+      "reason": "作为异地/联合培养平台关注对象提名，没有具体方向。2024级官方接收告知信及拟录取公示支持天津大学推免硕士通道（EV02），不与外国学位项目混同，也不因提名缺少专业而认定项目不存在。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "**大连理工大学精细化工国家重点实验室**：极其契合高端染料、特种化学品、功能发光材料、新能源配方材料开发；",
+      "canonical_candidate_key": "dlut-chem",
+      "error_ids": [],
+      "label": "大连理工大学化工学院（含精细化工实验室内部方向）",
+      "reason": "实际推荐精细化工实验室方向及化工学院催化/分离。官方化工学院2025级预推免结果含精细应化系与催化化工系（EV06），实验室官方方向支持高附加值精细化学品研究（EV07）。按化工学院内部研究平台归并，不把实验室名称及院系隶属机械当作两个独立招生主体。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "**盘锦分校（大工盘锦校区化工与环境生命学部）**",
+      "canonical_candidate_key": "dlut-panjin-chem",
+      "error_ids": [],
+      "label": "大连理工大学盘锦校区化工与环境生命学部方向",
+      "reason": "明确另作稳妥校区候选，应与主校区区分；只按盘锦化工相关方向记录。名称沿革或未完成年度招生核对不足以证明无效，不能采信胜率保证，也不反推某年停招。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "华东理工大学（化工学院）",
+      "canonical_candidate_key": "ecust-chem",
+      "error_ids": [],
+      "label": "华东理工大学化工学院材料与化工研发路线",
+      "reason": "后文有明确独立化工学院主攻建议，结合前文材料与化工硕士培养论述记录。不同于矩阵同时提名的材料学院，不凭合并院系列自动造出两条已明确专业路径。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "化工学院 / 材料科学与工程学院",
+      "canonical_candidate_key": "ecust-materials-nomination",
+      "error_ids": [],
+      "label": "华东理工大学材料科学与工程学院（合并表中的提名）",
+      "reason": "矩阵的推荐报考栏提到材料学院，但没有另给独立专业或单独投递安排；提取这项候选提名以免遗漏，不当作已明确的材料学院项目。化工学院在后文独立推荐已另列。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "ecust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "北京化工大学（化学工程学院）",
+      "canonical_candidate_key": "buct-chem",
+      "error_ids": [],
+      "label": "北京化工大学化学工程学院",
+      "reason": "明确列为稳妥组并讨论超重力、能源化工等方向；按院系粒度提取。其录取概率和英语无障碍的断言不能视作当届核验，但无适用周期证据确认硬条件冲突，不标invalid。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "化学工程学院 / 软物质高精尖中心",
+      "canonical_candidate_key": "buct-softmatter-nomination",
+      "error_ids": [],
+      "label": "北京化工大学软物质科学与工程高精尖创新中心（提名）",
+      "reason": "推荐报考表中另提软物质中心，研究方向与材料意向有关，但合并表未给中心独立专业或投递路径。官方2026级通知可支持其中心身份和硕士通道（EV08），仅做存在性核对，不倒用该周期门槛。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "buct",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "| **中国石油大学(北京)**| A- | 211 / 一流学科 | 极友好（行业嫡系天花板） | 重质油国家重点实验室 / 化工学院 | **终极兜底（Safety Anchor）** | ★★★★☆ |",
+      "canonical_candidate_key": "cup-beijing-chem",
+      "error_ids": [],
+      "label": "中国石油大学（北京）重质油实验室/化工学院方向",
+      "reason": "清单外的明确兜底建议也纳入。重质油实验室与化工学院合并描述，没有两条独立申请路径，保持一条候选。研究方向没有已确认错误，所谓极友好及兜底不作录取保证。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "cup-beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "中国石油大学（北京/华东）",
+      "canonical_candidate_key": "cup-huadong-nomination",
+      "error_ids": [],
+      "label": "中国石油大学（华东）（仅学校级备选）",
+      "reason": "稳妥组新增华东对象，全文没有明确其院系或项目；提取为学校级候选提名，不从北京项目或外部资料补建华东专业。北京在矩阵有独立建议已另列。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "cup-huadong",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "主报**材料与化工专业型硕士（专硕）**",
+      "canonical_candidate_key": "tju-chem-professional",
+      "error_ids": [],
+      "label": "天津大学材料与化工专硕（前文重复）",
+      "reason": "位于天津大学攻防策略下，与后文化工学院专硕冲刺归并；不另增加一个未知院系项目。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "**化工学院（主校区）**：重点关注催化化学与工程、分离工程（与你的大创完全匹配）；",
+      "canonical_candidate_key": "dlut-chem",
+      "error_ids": [],
+      "label": "大连理工大学化工学院催化/分离（重复）",
+      "reason": "与同校精细化工实验室建议合并为化工学院内部研究方向，没有明示不同独立专业路径；已有个人大创适配依据。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "大连理工大学（精细化工国重室、化工学院）",
+      "canonical_candidate_key": "dlut-chem",
+      "error_ids": [],
+      "label": "大连理工大学主攻组（重复）",
+      "reason": "再次推荐化工学院及其精细化工平台，沿用同一canonical key，不能靠重复增加候选数量。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "| **华东理工大学** | A+ | 211 / 顶尖行业 | 较高（重视工科设计国奖） | 化工学院 / 材料科学与工程学院 | **核心主攻（Top Priority）** | ★★★★★ |",
+      "canonical_candidate_key": "ecust-chem",
+      "error_ids": [],
+      "label": "华东理工大学化工学院（矩阵重复）",
+      "reason": "矩阵与后文化工学院独立主攻建议对应；材料学院仅提名的部分已另作提取，不将此合并句拆出已明确项目。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "| **北京化工大学** | A | 211 / 一流学科 | 友好（石化血统高度互认） | 化学工程学院 / 软物质高精尖中心 | **核心稳妥（Solid Safety）** | ★★★★☆ |",
+      "canonical_candidate_key": "buct-chem",
+      "error_ids": [],
+      "label": "北京化工大学化学工程学院（矩阵重复）",
+      "reason": "与后文稳妥组化学工程学院归并；软物质中心仅提名的部分另列。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "中国石油大学（北京/华东）",
+      "canonical_candidate_key": "cup-beijing-chem",
+      "error_ids": [],
+      "label": "中国石油大学（北京）（投递清单重复）",
+      "reason": "北京在前文矩阵已有明确研究平台建议，后文并列校名沿用其候选；华东无独立院系另作提名。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "cup-beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "天津大学（化工学院材料与化工专硕、储能平台、分子聚集态研究院）",
+      "canonical_candidate_key": "tju-imas",
+      "error_ids": [],
+      "label": "天津大学分子聚集态研究院（冲刺组重复）",
+      "reason": "前文完整院名与此简称为同一对象，保持同一canonical key；不将全句同时解释为三种材料与化工专业。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "天津大学（化工学院材料与化工专硕、储能平台、分子聚集态研究院）",
+      "canonical_candidate_key": "tju-energy-platform",
+      "error_ids": [],
+      "label": "天津大学储能平台（冲刺组重复）",
+      "reason": "与前文国家储能技术产教融合创新平台归并，仅有平台名称，没有明示独立项目。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "重点强攻**大连理工大学**与**华东理工大学**的预推免考核",
+      "canonical_candidate_key": "dlut-chem",
+      "error_ids": [],
+      "label": "大连理工大学预推免/终局主攻（重复）",
+      "reason": "全文已有明确主攻/冲刺院系，学校简称及终局重复归并至既有候选；临时补录只是一项机会建议，不能视作当届必有名额。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "重点强攻**大连理工大学**与**华东理工大学**的预推免考核",
+      "canonical_candidate_key": "ecust-chem",
+      "error_ids": [],
+      "label": "华东理工大学预推免/终局主攻（重复）",
+      "reason": "全文已有明确主攻/冲刺院系，学校简称及终局重复归并至既有候选；临时补录只是一项机会建议，不能视作当届必有名额。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "预留 1 个填报志愿栏位用于冲击天津大学的临时补录名额；",
+      "canonical_candidate_key": "tju-chem-professional",
+      "error_ids": [],
+      "label": "天津大学临时补录建议（重复）",
+      "reason": "全文已有明确主攻/冲刺院系，学校简称及终局重复归并至既有候选；临时补录只是一项机会建议，不能视作当届必有名额。本题未指定申请周期；valid仅指此处的方向建议或候选身份没有已确认的实质错误，不表示逐年招生审计或保证录取。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "8d964d27ee4a93036d2d608b1531bdd02005275fa9b7634f269a080a18f81b2a",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "TRY-H-02",
+  "task_sha256": "99c021b5dff4089347f6228f08b39680c7d002b49fa43ab0b92775a4c3df0f3c",
+  "tier_review": {
+    "schools": [
+      {
+        "answer_quote": "天津大学（Tianjin University - 985 / 化工全国顶尖 A+）",
+        "downgraded": false,
+        "reason": "以题面辽宁石油化工大学本科为基准，天津大学985不构成降级；联合学院提名不额外计一所学校。本题无独立层次计分节点，仅报告。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "大连理工大学（Dalian University of Technology - 985 / 化工 A 档）",
+        "downgraded": false,
+        "reason": "大连理工大学985不构成相对本科基准降级，盘锦校区与主校区同校只记一次；本题不额外按层次扣分。",
+        "school_key": "dlut"
+      },
+      {
+        "answer_quote": "华东理工大学（ECUST - 211 / 双一流 / 化工 A+）",
+        "downgraded": false,
+        "reason": "华东理工大学211不构成相对本科基准降级，各院系同校只记一次；本题不额外按层次扣分。",
+        "school_key": "ecust"
+      },
+      {
+        "answer_quote": "北京化工大学（BUCT - 211 / 双一流 / 化工 A 档）",
+        "downgraded": false,
+        "reason": "北京化工大学211不构成相对本科基准降级；中心与学院同校只记一次；本题不额外按层次扣分。",
+        "school_key": "buct"
+      },
+      {
+        "answer_quote": "**中国石油大学(北京)**",
+        "downgraded": false,
+        "reason": "中国石油大学（北京）211不构成相对本科基准降级；中国石油大学（华东）仅提名，不纳入实际推荐院校层次清单。本题不额外按层次扣分。",
+        "school_key": "cup-beijing"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

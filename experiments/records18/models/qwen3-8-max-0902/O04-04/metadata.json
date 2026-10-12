@@ -1,0 +1,27 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "qwen3-8-max-0902",
+  "task_id": "O04-04",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "api",
+    "cli": "qwen",
+    "cli_version": "0.25.0",
+    "id": "qwen3-8-max-0902",
+    "model": "qwen3.8-max-0902",
+    "reasoning_effort": "native_default"
+  },
+  "original_answer_sha256": "1e2187e29eb0247feda0bb6964d12c60921d94b2e532b787ef1852ca6a8ec8fd",
+  "public_display_answer_sha256": "800abc4deea618fea6b20c2f0b484bc97e2f3218987cc15243ea747f9358185b",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "finished_at": "2026-10-09T15:25:07.387494+00:00",
+  "original_attempt_status": "failed",
+  "execution_mode": "native_checkpoint_recovery_after_account_error",
+  "public_execution_evidence": "Qwen retained per-task execution-progress row, source hash verified"
+}

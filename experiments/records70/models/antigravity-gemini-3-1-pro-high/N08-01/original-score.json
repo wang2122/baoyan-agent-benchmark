@@ -1,0 +1,931 @@
+{
+  "actual_candidate_count": 26,
+  "answer_sha256": "27634ee1e2c392b23f52ea0d4734177c76c0ce900fdc22d6ebca9a8442c868c6",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 42.5
+  },
+  "confirmed_points": 42.5,
+  "diagnostic_score": null,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "accuracy"
+    ],
+    "E02": [
+      "accuracy"
+    ],
+    "E03": [
+      "N08-01-T2"
+    ],
+    "E04": [
+      "accuracy"
+    ],
+    "E05": [
+      "accuracy"
+    ],
+    "E06": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "“前约2%”能够直接帮你击穿初审机筛，且校内推免名额100%稳拿。",
+      "id": "E01",
+      "reason": "题面只给专业排名，未给综合遴选、资格审核及名额结果，不能推出校内推免资格100%确定；后文“校内推免导师任意挑选，保底无忧”同属这一未经核实的资格与接收保证。仅在accuracy归属。"
+    },
+    {
+      "answer_quote": "雅思6.5分确实是我在大二阶段初次尝试的成绩",
+      "id": "E02",
+      "reason": "题面没有考试时间或次数，话术却写为大二首次考试；同段还声称核心课程均第一、已经完成全英文论文，下一问声称代表作已完成DID、Stata及多项实证检验，均无已披露事实支持，也未加“完成后才能使用”等条件。题面英语研究也不等于已有一篇论文。此类将拟补能力写成既成成果的错误统一归accuracy，其他研究节点仅评其独立的整理与核验缺项。"
+    },
+    {
+      "answer_quote": "经管夏令营面试考官必问实证方法。必须熟练掌握以下核心内容：",
+      "id": "E03",
+      "reason": "把所有经管夏令营面试一概写成必考实证方法，未按具体项目考核范围区分。数理和计量学习有价值，但这不构成商科、国际商务等各项目通用硬要求；归T2。"
+    },
+    {
+      "answer_quote": "南开经院",
+      "id": "E04",
+      "reason": "答卷把南开经济学院列为本人的冲刺目标，但2026年发布的2027级经济学院正式推免细则列明主修经济学类、数学类、历史学类、统计学类、管理学的申请范围，商务英语不在其中。不能靠前约2%或补修课程替代本科主修要求。官方证据EV01。该错误只处理实际经济学院分支，不扩大到商学院，统一归accuracy的资格状态判断。"
+    },
+    {
+      "answer_quote": "**中国社会科学院大学（UCASS）**：数字经济学院依托中国社会科学院数量经济与技术经济研究所、工业经济研究所等顶尖国家智库",
+      "id": "E05",
+      "reason": "2027级官方推免目录明确数字经济025800及数字经济学0201Z4属于经济学院，数量经济学等属于应用经济学院，完整招生学院表没有“数字经济学院”。答卷明确写成招生院系并附研究所隶属描述，不能视为已核实的同名项目或规范简称。仅这一错误院系路径invalid；另处未指定院系的社科大数字经济专硕方向确实存在，不一起判错。证据EV02、EV03；归accuracy。"
+    },
+    {
+      "answer_quote": "9月28日国家推免系统开放当天，在系统内正式接受待录取通知，圆满上岸。",
+      "id": "E06",
+      "reason": "将2026申请季的全国系统开启和接受待录取机械固定到9月28日。该周期南开经济学院官方细则已经安排9月21日17时前系统报名、9月22日发复试通知、9月24日开始待录取确认；答案的统一等待日期与本周期已公开流程冲突。这里只归execution，不再作为资格或研究状态错误扣分。证据EV01。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N08-01",
+  "input_sha256": "229c47a7c1e2c8dc5a01a0d076e5733716380421964b52689d8c86df116c6845",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "ff00802c78807bb234b5ecd426d29b87fed658760f4e0fbabc19c5ffc7d47686",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N08-01-T1",
+      "kind": "quality",
+      "points": 9.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N08-01-T2",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N08-01-T3",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N08-01-T4",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": "pending",
+      "id": "N08-01-T5",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "priority",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 26,
+  "official": false,
+  "pending_nodes": [
+    "N08-01-T5"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "人大数字经济/MIB",
+      "canonical_candidate_key": "ruc-bundle",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV04"
+      ],
+      "label": "人大数字经济/MIB及合并院系备选",
+      "quote_occurrences": [
+        {
+          "end_char": 4333,
+          "line": 101,
+          "start_char": 4323
+        }
+      ],
+      "reason": "答卷先把数字经济/MIB合写，后把应用经济学院/经济学院和商学院相关专硕作为备选合写，本记录保留合并粒度，不拆出应用经济学院数字经济或某个商学院专硕。经济学院确有数字经济项目，故不把整个学校建议判为虚构；独立表格明确的数字经济路径另记录。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "**中国人民大学**：应用经济学院/经济学院数字经济专硕，或商学院相关专硕。",
+      "canonical_candidate_key": "ruc-bundle",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV04"
+      ],
+      "label": "人大数字经济/MIB及合并院系备选",
+      "quote_occurrences": [
+        {
+          "end_char": 5583,
+          "line": 126,
+          "start_char": 5545
+        }
+      ],
+      "reason": "答卷先把数字经济/MIB合写，后把应用经济学院/经济学院和商学院相关专硕作为备选合写，本记录保留合并粒度，不拆出应用经济学院数字经济或某个商学院专硕。经济学院确有数字经济项目，故不把整个学校建议判为虚构；独立表格明确的数字经济路径另记录。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "**主力主攻方向**，建议重点锁定人大、贸大、社科大、华师大、南开等高校。",
+      "canonical_candidate_key": "ruc-digital",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV04"
+      ],
+      "label": "人大数字经济专硕（未独立限定院系）",
+      "quote_occurrences": [
+        {
+          "end_char": 5078,
+          "line": 119,
+          "start_char": 5041
+        }
+      ],
+      "reason": "数字经济专硕一行单独指向人大，构成明确的项目提名。官方经济学院招生栏目列有2027级数字经济项目；这是学校与专业粒度判断，不为答卷补定合并列出的院系，也不认可专业第一自动破格。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "南开经院",
+      "canonical_candidate_key": "nankai-econ",
+      "error_ids": [
+        "E04"
+      ],
+      "evidence_ids": [
+        "EV01"
+      ],
+      "label": "南开经济学院",
+      "quote_occurrences": [
+        {
+          "end_char": 4338,
+          "line": 101,
+          "start_char": 4334
+        }
+      ],
+      "reason": "图中独立列出的经济学院冲刺目标，2027级正式推免主修范围不含商务英语，补修课程和排名不能改变主修类别，invalid仅限该路径。",
+      "school_key": "nankai",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "**南开大学**：经济学院/商学院夏令营入营名额较多，对双非排名前1%学生相对公平包容。",
+      "canonical_candidate_key": "nankai-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "evidence_ids": [
+        "EV01"
+      ],
+      "label": "南开经济学院/商学院（合并备选）",
+      "quote_occurrences": [
+        {
+          "end_char": 5656,
+          "line": 127,
+          "start_char": 5612
+        }
+      ],
+      "reason": "将经济学院/商学院合写，不拆为两个项目；商学院作为商科院系方向提名本身成立，经济学院已知限制另在明确经济学院记录判错。不能用泛称公平包容证明可跨专业申请，也不采信排名即可入营的推断。",
+      "school_key": "nankai",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "**主力主攻方向**，建议重点锁定人大、贸大、社科大、华师大、南开等高校。",
+      "canonical_candidate_key": "nankai-digital",
+      "error_ids": [
+        "E04"
+      ],
+      "evidence_ids": [
+        "EV01",
+        "EV08"
+      ],
+      "label": "南开数字经济专硕",
+      "quote_occurrences": [
+        {
+          "end_char": 5078,
+          "line": 119,
+          "start_char": 5041
+        }
+      ],
+      "reason": "表格在数字经济专硕行明确主攻南开；往届官方项目为非全日制，2027级经济学院正式推免同时有不含商务英语的主修限制，因此当前答卷未提供可成立的推免路径。以该周期明确限制判invalid，不凭旧年度直接宣称2027停招或项目不存在。",
+      "school_key": "nankai",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "华东师大",
+      "canonical_candidate_key": "ecnu-digital",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV05"
+      ],
+      "label": "华东师范大学经济与管理学院数字经济专硕",
+      "quote_occurrences": [
+        {
+          "end_char": 4343,
+          "line": 101,
+          "start_char": 4339
+        }
+      ],
+      "reason": "全文把图中学校名与后文明确经济与管理学院数字经济专硕关联，同一学校项目重复合并。官方公告2026入学起开设且接收推免，2026年夏令营也列该专业，身份路径成立；并不验证“发展极为迅速”或2027个人入营机会。",
+      "school_key": "ecnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "**华东师范大学**：985高校，地处上海，其经济与管理学院数字经济专硕发展极为迅速，非常注重综合素质与交叉学科。",
+      "canonical_candidate_key": "ecnu-digital",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV05"
+      ],
+      "label": "华东师范大学经济与管理学院数字经济专硕",
+      "quote_occurrences": [
+        {
+          "end_char": 5718,
+          "line": 128,
+          "start_char": 5661
+        }
+      ],
+      "reason": "全文把图中学校名与后文明确经济与管理学院数字经济专硕关联，同一学校项目重复合并。官方公告2026入学起开设且接收推免，2026年夏令营也列该专业，身份路径成立；并不验证“发展极为迅速”或2027个人入营机会。",
+      "school_key": "ecnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "**主力主攻方向**，建议重点锁定人大、贸大、社科大、华师大、南开等高校。",
+      "canonical_candidate_key": "ecnu-digital",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV05"
+      ],
+      "label": "华东师范大学经济与管理学院数字经济专硕",
+      "quote_occurrences": [
+        {
+          "end_char": 5078,
+          "line": 119,
+          "start_char": 5041
+        }
+      ],
+      "reason": "全文把图中学校名与后文明确经济与管理学院数字经济专硕关联，同一学校项目重复合并。官方公告2026入学起开设且接收推免，2026年夏令营也列该专业，身份路径成立；并不验证“发展极为迅速”或2027个人入营机会。",
+      "school_key": "ecnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "北理工",
+      "canonical_candidate_key": "bit-management",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV11"
+      ],
+      "label": "北京理工大学经管方向（未限定独立学院/专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 4347,
+          "line": 101,
+          "start_char": 4344
+        }
+      ],
+      "reason": "两所不同学校分别提取；北理工只给经管方向，官方当前有经济学院和管理学院相关研究生路径。保留学校经管粒度，不替其选择拆分后的学院或专业，未逐年审计不是已证实无效。",
+      "school_key": "bit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "**北京理工大学 / 北京航空航天大学**：理工科985的经管学院",
+      "canonical_candidate_key": "bit-management",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV11"
+      ],
+      "label": "北京理工大学经管方向（未限定独立学院/专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 5756,
+          "line": 129,
+          "start_char": 5723
+        }
+      ],
+      "reason": "两所不同学校分别提取；北理工只给经管方向，官方当前有经济学院和管理学院相关研究生路径。保留学校经管粒度，不替其选择拆分后的学院或专业，未逐年审计不是已证实无效。",
+      "school_key": "bit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "北航经管",
+      "canonical_candidate_key": "buaa-sem",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV12"
+      ],
+      "label": "北京航空航天大学经济管理学院",
+      "quote_occurrences": [
+        {
+          "end_char": 4352,
+          "line": 101,
+          "start_char": 4348
+        }
+      ],
+      "reason": "北航经管简称可与全文明确经济管理学院关联，官方2027级接收推免工作通知可确认院系方向存在；没有具体专业，不补造金融或管理科学项目，也不核准“非常青睐”概率描述。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "**北京理工大学 / 北京航空航天大学**：理工科985的经管学院",
+      "canonical_candidate_key": "buaa-sem",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV12"
+      ],
+      "label": "北京航空航天大学经济管理学院",
+      "quote_occurrences": [
+        {
+          "end_char": 5756,
+          "line": 129,
+          "start_char": 5723
+        }
+      ],
+      "reason": "北航经管简称可与全文明确经济管理学院关联，官方2027级接收推免工作通知可确认院系方向存在；没有具体专业，不补造金融或管理科学项目，也不核准“非常青睐”概率描述。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "对外经济贸易大学（数字贸易/国际商务/信息学院）",
+      "canonical_candidate_key": "uibe-bundle",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "贸大数字贸易/国际商务/信息学院（合并建议）",
+      "quote_occurrences": [
+        {
+          "end_char": 4529,
+          "line": 105,
+          "start_char": 4505
+        }
+      ],
+      "reason": "图中混合研究方向、专业与院系，本记录保留为一条合并建议；国际商务项目在后文有独立明确推荐，不能据此再拆出信息学院某专业或数字贸易实验室招生路径。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "**对外经济贸易大学（UIBE）**：**第一顺位主攻目标**！UIBE国际经贸与商务外语在全国享有盛誉，其数字贸易实验室、国际商务专硕（数字贸易方向）与你的背景吻合度高达95%，且同在北京，夏令营和预推免极其值得重点突破。",
+      "canonical_candidate_key": "uibe-mib",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV13"
+      ],
+      "label": "贸大国际商务专硕（数字贸易意向）",
+      "quote_occurrences": [
+        {
+          "end_char": 5943,
+          "line": 131,
+          "start_char": 5831
+        }
+      ],
+      "reason": "国际商务专硕是与商英相符的实际学位方向，数字贸易按研究兴趣处理，实验室不另作招生单位。既有官方招生目录支持国际商务推免路径身份；未认证数字贸易为2027独立招生方向，也不采信95%适配率或最高转化率。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "**核心稳妥方向**，对外经贸、上财、央财等校认可度极高，面试转化率最高。",
+      "canonical_candidate_key": "uibe-mib",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV13"
+      ],
+      "label": "贸大国际商务专硕（数字贸易意向）",
+      "quote_occurrences": [
+        {
+          "end_char": 5225,
+          "line": 120,
+          "start_char": 5188
+        }
+      ],
+      "reason": "国际商务专硕是与商英相符的实际学位方向，数字贸易按研究兴趣处理，实验室不另作招生单位。既有官方招生目录支持国际商务推免路径身份；未认证数字贸易为2027独立招生方向，也不采信95%适配率或最高转化率。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "**主力主攻方向**，建议重点锁定人大、贸大、社科大、华师大、南开等高校。",
+      "canonical_candidate_key": "uibe-digital",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV06",
+        "EV07"
+      ],
+      "label": "贸大数字经济专硕",
+      "quote_occurrences": [
+        {
+          "end_char": 5078,
+          "line": 119,
+          "start_char": 5041
+        }
+      ],
+      "reason": "此处是数字经济专硕，不能与国际商务数字贸易兴趣合并。官方已公开的2026入学材料指向非全日制统考与调剂，与答卷推免主攻存在实质路径疑问；2027目录入口已定位但正文未成功获取，不能将上一周期规则冒充当轮事实，故validity保留pending，对应仅T5待核。",
+      "school_key": "uibe",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "中央财经大学（经济学院/统计学院/商学院）",
+      "canonical_candidate_key": "cufe-bundle",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV09",
+        "EV10"
+      ],
+      "label": "央财经济学院/统计学院/商学院（合并建议）",
+      "quote_occurrences": [
+        {
+          "end_char": 4570,
+          "line": 106,
+          "start_char": 4549
+        }
+      ],
+      "reason": "三院系作为合并备选保留一条，不为其拆出三条具体专业。统计学院是统计与数学学院的历史名称，官方可核实沿革；经济统计方向有学科依据，而数字经济专硕官方主体是经济学院，不能把括号内容解成统数学院已开同名专硕。未确认年度硬冲突，不机械按简称invalid。",
+      "school_key": "cufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "**中央财经大学（CUFE）**：经济学院、统计学院（数字经济/经济统计）或商学院",
+      "canonical_candidate_key": "cufe-bundle",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV09",
+        "EV10"
+      ],
+      "label": "央财经济学院/统计学院/商学院（合并建议）",
+      "quote_occurrences": [
+        {
+          "end_char": 5989,
+          "line": 132,
+          "start_char": 5948
+        }
+      ],
+      "reason": "三院系作为合并备选保留一条，不为其拆出三条具体专业。统计学院是统计与数学学院的历史名称，官方可核实沿革；经济统计方向有学科依据，而数字经济专硕官方主体是经济学院，不能把括号内容解成统数学院已开同名专硕。未确认年度硬冲突，不机械按简称invalid。",
+      "school_key": "cufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "**核心稳妥方向**，对外经贸、上财、央财等校认可度极高，面试转化率最高。",
+      "canonical_candidate_key": "cufe-mib",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV14"
+      ],
+      "label": "央财国际商务专硕（未指定院系）",
+      "quote_occurrences": [
+        {
+          "end_char": 5225,
+          "line": 120,
+          "start_char": 5188
+        }
+      ],
+      "reason": "表格国际商务行另有明确学校级建议，和三学院合并建议区别记录。官方国际经济与贸易学院国际商务简章支持实际项目身份及数字贸易课程相关性，未核准转化率或当轮全部门槛。",
+      "school_key": "cufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "中国社会科学院大学（数字经济学院/应用经济学）",
+      "canonical_candidate_key": "ucass-bundle",
+      "error_ids": [
+        "E05"
+      ],
+      "evidence_ids": [
+        "EV02",
+        "EV03"
+      ],
+      "label": "社科大数字经济学院/应用经济学（合并建议）",
+      "quote_occurrences": [
+        {
+          "end_char": 4613,
+          "line": 107,
+          "start_char": 4590
+        }
+      ],
+      "reason": "图中将错误院系名与应用经济学方向混合，保留合并原貌，不拆成多个专业。应用经济学方向及应用经济学院的相关硕士确实存在；错误“数字经济学院”在后文明确院系推荐单独判invalid，不牵连真实应用经济方向。",
+      "school_key": "ucass",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "**中国社会科学院大学（UCASS）**：数字经济学院依托中国社会科学院数量经济与技术经济研究所、工业经济研究所等顶尖国家智库，重视数据实证与学术潜力，师生比极高。",
+      "canonical_candidate_key": "ucass-wrong-school",
+      "error_ids": [
+        "E05"
+      ],
+      "evidence_ids": [
+        "EV02",
+        "EV03"
+      ],
+      "label": "社科大“数字经济学院”",
+      "quote_occurrences": [
+        {
+          "end_char": 6099,
+          "line": 133,
+          "start_char": 6017
+        }
+      ],
+      "reason": "这里明确把“数字经济学院”作为推荐院系，官方2027完整推免目录显示相应专硕是经济学院，研究所依托则与应用经济学院另有真实隶属，不能将两学院混成一个新招生主体，invalid并关联E05。",
+      "school_key": "ucass",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "**主力主攻方向**，建议重点锁定人大、贸大、社科大、华师大、南开等高校。",
+      "canonical_candidate_key": "ucass-digital",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV02"
+      ],
+      "label": "社科大数字经济专硕（未指定院系）",
+      "quote_occurrences": [
+        {
+          "end_char": 5078,
+          "line": 119,
+          "start_char": 5041
+        }
+      ],
+      "reason": "表格独立指向社科大数字经济专硕，未带错误院系名。2027官方推免目录确有经济学院025800数字经济，故这条学校与专业粒度建议成立，不能因另一处院系写错而把正确项目也归零。",
+      "school_key": "ucass",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "西南财经大学",
+      "canonical_candidate_key": "swufe-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "西南财经大学专硕方向（未限定专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 4649,
+          "line": 108,
+          "start_char": 4643
+        },
+        {
+          "end_char": 6112,
+          "line": 134,
+          "start_char": 6106
+        }
+      ],
+      "reason": "三所不同学校分别提取，各校自己的重复合并。本记录是财经类专硕学校提名，不创造某一专业；学校与意向相关，不将“第一基本都会入营”视为已证实承诺。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "swufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "**西南财经大学 / 中南财经政法大学 / 上海财经大学**：五财一贸主流强校，专硕夏令营与预推免对专业第一基本都会给予入营考核机会。",
+      "canonical_candidate_key": "swufe-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "西南财经大学专硕方向（未限定专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 6171,
+          "line": 134,
+          "start_char": 6104
+        }
+      ],
+      "reason": "三所不同学校分别提取，各校自己的重复合并。本记录是财经类专硕学校提名，不创造某一专业；学校与意向相关，不将“第一基本都会入营”视为已证实承诺。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "swufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "中南财经政法",
+      "canonical_candidate_key": "zuel-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "中南财经政法大学专硕方向（未限定专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 4642,
+          "line": 108,
+          "start_char": 4636
+        },
+        {
+          "end_char": 6121,
+          "line": 134,
+          "start_char": 6115
+        }
+      ],
+      "reason": "图中简称及后文全名归同一学校级备选，未指定专业，不擅自补充其数字经济项目。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "zuel",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "**西南财经大学 / 中南财经政法大学 / 上海财经大学**：五财一贸主流强校，专硕夏令营与预推免对专业第一基本都会给予入营考核机会。",
+      "canonical_candidate_key": "zuel-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "中南财经政法大学专硕方向（未限定专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 6171,
+          "line": 134,
+          "start_char": 6104
+        }
+      ],
+      "reason": "图中简称及后文全名归同一学校级备选，未指定专业，不擅自补充其数字经济项目。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "zuel",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "上财、中南财经政法、西南财经大学",
+      "canonical_candidate_key": "sufe-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "上海财经大学财经专硕方向（未限定专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 4649,
+          "line": 108,
+          "start_char": 4633
+        }
+      ],
+      "reason": "学校级主攻提名，三校并列中只提取上财这一学校，后文同名重复合并；表格国际商务项目另有明确推荐而另记。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "sufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "**西南财经大学 / 中南财经政法大学 / 上海财经大学**：五财一贸主流强校，专硕夏令营与预推免对专业第一基本都会给予入营考核机会。",
+      "canonical_candidate_key": "sufe-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "上海财经大学财经专硕方向（未限定专业）",
+      "quote_occurrences": [
+        {
+          "end_char": 6171,
+          "line": 134,
+          "start_char": 6104
+        }
+      ],
+      "reason": "学校级主攻提名，三校并列中只提取上财这一学校，后文同名重复合并；表格国际商务项目另有明确推荐而另记。按答卷明确给出的学校或院系方向提取，valid仅表示该粒度对象与商科/数据方向成立，不代表已审核2027级所有项目、英语硬门槛或录取概率；没有具体项目不替答卷补建路径。",
+      "school_key": "sufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "**核心稳妥方向**，对外经贸、上财、央财等校认可度极高，面试转化率最高。",
+      "canonical_candidate_key": "sufe-mib",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV15"
+      ],
+      "label": "上海财经大学国际商务专硕",
+      "quote_occurrences": [
+        {
+          "end_char": 5225,
+          "line": 120,
+          "start_char": 5188
+        }
+      ],
+      "reason": "国际商务表格明确指向上财，官方商学院MIB主页列有2027年接收推免预报名和宣讲，项目身份与商英背景相关；不认可“最高”转化率或认定全部年度条件已满足。",
+      "school_key": "sufe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "首都经济贸易大学（统计学院/经济学院 数字经济专硕）",
+      "canonical_candidate_key": "cueb-bundle",
+      "error_ids": [
+        "E01"
+      ],
+      "evidence_ids": [
+        "EV16"
+      ],
+      "label": "首经贸统计学院/经济学院数字经济专硕（合并保底）",
+      "quote_occurrences": [
+        {
+          "end_char": 4827,
+          "line": 112,
+          "start_char": 4801
+        }
+      ],
+      "reason": "图和后文都将本校统计学院与经济学院数字经济合为保底备选，保留一个合并候选，不拆分为统计学院数字经济专硕。官方校内新闻确认经济学院2026级数字经济专硕实际存在；本校备选可提出，但专业第一不证明导师任意挑选或接收保证，该保证已归E01。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "**首都经济贸易大学本校**：首经贸统计学院（全国学科评估前列、统计学博士后流动站）或经济学院数字经济专硕。",
+      "canonical_candidate_key": "cueb-bundle",
+      "error_ids": [
+        "E01"
+      ],
+      "evidence_ids": [
+        "EV16"
+      ],
+      "label": "首经贸统计学院/经济学院数字经济专硕（合并保底）",
+      "quote_occurrences": [
+        {
+          "end_char": 6256,
+          "line": 136,
+          "start_char": 6202
+        }
+      ],
+      "reason": "图和后文都将本校统计学院与经济学院数字经济合为保底备选，保留一个合并候选，不拆分为统计学院数字经济专硕。官方校内新闻确认经济学院2026级数字经济专硕实际存在；本校备选可提出，但专业第一不证明导师任意挑选或接收保证，该保证已归E01。",
+      "school_key": "cueb",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "北京工业大学等本地高校",
+      "canonical_candidate_key": "bjut-school",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京工业大学（仅学校提名）",
+      "quote_occurrences": [
+        {
+          "end_char": 4858,
+          "line": 113,
+          "start_char": 4847
+        }
+      ],
+      "reason": "图中作为本地兜底提名，只提供学校，没有商科/数字经济院系或学位路径，按mentioned记录。学校真实不等于存在已识别的推免项目；缺路径不自行补足，也不判不存在。",
+      "school_key": "bjut",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "**强力补充方向**，适合对产品与用户行为感兴趣的同学，可报清北复交以外的各档名校。",
+      "canonical_candidate_key": "tsinghua-marketing-excluded",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "清华大学市场营销/商业分析方向（排除）",
+      "quote_occurrences": [
+        {
+          "end_char": 5371,
+          "line": 121,
+          "start_char": 5329
+        }
+      ],
+      "reason": "“清北复交以外”在市场营销/商业分析行明确排除该学校方向，因此提取excluded；只是选校取舍，不认定项目不存在或已知硬性禁入。前文顶尖学院初审背景讨论及在线课程举例不另作候选。",
+      "school_key": "tsinghua",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "**强力补充方向**，适合对产品与用户行为感兴趣的同学，可报清北复交以外的各档名校。",
+      "canonical_candidate_key": "pku-marketing-excluded",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京大学市场营销/商业分析方向（排除）",
+      "quote_occurrences": [
+        {
+          "end_char": 5371,
+          "line": 121,
+          "start_char": 5329
+        }
+      ],
+      "reason": "“清北复交以外”在市场营销/商业分析行明确排除该学校方向，因此提取excluded；只是选校取舍，不认定项目不存在或已知硬性禁入。前文顶尖学院初审背景讨论及在线课程举例不另作候选。",
+      "school_key": "pku",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "**强力补充方向**，适合对产品与用户行为感兴趣的同学，可报清北复交以外的各档名校。",
+      "canonical_candidate_key": "fudan-marketing-excluded",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "复旦大学市场营销/商业分析方向（排除）",
+      "quote_occurrences": [
+        {
+          "end_char": 5371,
+          "line": 121,
+          "start_char": 5329
+        }
+      ],
+      "reason": "“清北复交以外”在市场营销/商业分析行明确排除该学校方向，因此提取excluded；只是选校取舍，不认定项目不存在或已知硬性禁入。前文顶尖学院初审背景讨论及在线课程举例不另作候选。",
+      "school_key": "fudan",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "**强力补充方向**，适合对产品与用户行为感兴趣的同学，可报清北复交以外的各档名校。",
+      "canonical_candidate_key": "sjtu-marketing-excluded",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "上海交通大学市场营销/商业分析方向（排除）",
+      "quote_occurrences": [
+        {
+          "end_char": 5371,
+          "line": 121,
+          "start_char": 5329
+        }
+      ],
+      "reason": "“清北复交以外”在市场营销/商业分析行明确排除该学校方向，因此提取excluded；只是选校取舍，不认定项目不存在或已知硬性禁入。前文顶尖学院初审背景讨论及在线课程举例不另作候选。",
+      "school_key": "sjtu",
+      "treatment": "excluded",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "88424e92227dc8a6ad7a249d7c7abfbe6a925dde1f01c4d500b6e2cd5bc88bf4",
+  "score": null,
+  "score_interval": [
+    42.5,
+    47.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "N08-01",
+  "task_kind": "planning",
+  "task_sha256": "b5ed808c185afeaaed1ea9fae83d197637b0a06ffc3c58aa87883e4611658482",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有school_tier或院校层次质量节点，规划评分不需要逐校层次核对，空schools表示不适用，不据此增加扣分。实际推荐和排除已在recommendation_review完整记录。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

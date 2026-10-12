@@ -1,0 +1,36 @@
+{
+  "case_group_id": "student-F",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-F-APPLY",
+  "prompt": "我在武汉大学读软件工程，排名前约5%、六级550–599分，程序设计竞赛获过较高奖项；研究经历有多段，其中有已停止的，也有还在方法调试的，目前尚无正式论文。希望申请计算机和软件方向，能推荐20个国内学校、学院和具体专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

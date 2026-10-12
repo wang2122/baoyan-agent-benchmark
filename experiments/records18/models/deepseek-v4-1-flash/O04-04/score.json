@@ -1,0 +1,40 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "deepseek-v4-1-flash",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 25,
+        "node": "E1",
+        "points": 12.5,
+        "reason": "S0围绕92分、奖项、英语准备和研究兴趣规划，S1才使用前约1%、500–549、一作和国家级大创，未将S1个人成果倒填S0，满足历史状态保持的部分核心。但S0采用2025招生来源，S1使用2026年5月才发布的通知当作3月已知事实（见对应错误及evidence.json）；缺少严格按当时可知材料组织论证的核心，取半分。"
+      },
+      {
+        "max_points": 15,
+        "node": "E4",
+        "points": 7.5,
+        "reason": "S0按学期、S1按3—10月给出具体材料、导师、专业课、论文防御和确认资格动作；同时要求逐目标官网记录截止、英语线及本校加分办法，具备可操作交付。核心不足是英语条件补齐没有核对考试、出分与截止的先后关系：提出6月前重考以补申请线，而最近考试6月13日且新成绩在6月窗口不能取得，亦未交付可替代的及时证明方案。故部分正确具体内容取半分；未来通知倒灌已归E1，不重复处理。"
+      },
+      {
+        "max_points": 10,
+        "node": "E5",
+        "points": 5.0,
+        "reason": "正面区分本校资格、优营、系统待录取，并要求检查论文载体/语言/贡献和GNN实际工作，没有虚构实际录取结果，因而有部分正确证据意识。但把S0无论文说成无科研，S1未披露语言说成中文一作，总结又把资格和GNN系统学习说成已达/已完成；缺少始终保持已知状态与待核条件边界的核心，取半分。招生时点倒灌只由E1承担。"
+      }
+    ],
+    "name": "DeepSeek V4.1 Flash",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 75.0,
+    "score_interval": [
+      75.0,
+      75.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "O04-04"
+  }
+}

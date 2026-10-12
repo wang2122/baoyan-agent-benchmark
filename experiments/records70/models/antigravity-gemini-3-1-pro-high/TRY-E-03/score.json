@@ -1,0 +1,514 @@
+{
+  "actual_candidate_count": 16,
+  "answer_sha256": "8dc4423a696bfa6c089704515d04a28aa0b0689248356b765c278be39a984a6c",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 42.5
+  },
+  "confirmed_points": 42.5,
+  "diagnostic_score": null,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-AI-GUARANTEE": [
+      "TRY-E-03-R10-01"
+    ],
+    "E-CS-CERTAINTY": [
+      "TRY-E-03-R10-02"
+    ],
+    "E-FINANCE-BACKGROUND": [
+      "TRY-E-03-R10-05"
+    ],
+    "E-FINANCE-DURATION": [
+      "TRY-E-03-R10-05"
+    ],
+    "E-PAPER-STATE": [
+      "TRY-E-03-R10-07"
+    ],
+    "E-PKU-POLICY": [
+      "TRY-E-03-R10-03"
+    ],
+    "E-QUAL-SAFE-RANK": [
+      "TRY-E-03-R10-08"
+    ],
+    "E-THU-PHD": [
+      "TRY-E-03-R10-04"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "若导师承诺给专硕或学硕，本校基本盘即可锁定",
+      "id": "E-AI-GUARANTEE",
+      "reason": "把导师承诺升级为录取基本盘锁定。既有实验室关系及导师意向不能替代本科资格、学院复试和正式录取；EV-AI-RECEIVE明确须机试、面试合格并择优录取。仅影响R10-01，不在资格项重复扣分。"
+    },
+    {
+      "answer_quote": "不具备实际操作空间，切忌盲目主报而浪费志愿",
+      "id": "E-CS-CERTAINTY",
+      "reason": "前约45%可以提示竞争劣势，但题面未提供当届外院硬排名线、本系优先配额或本人机试水平。答卷以这些未证实前提作近乎不可申请的排除，未建立AI不可行时CS替代的条件逻辑。不是以未检索到网页证明项目不存在；仅影响R10-02。"
+    },
+    {
+      "answer_quote": "对 C9 / 华东五校科班生源有极强的认可度与政策优待",
+      "id": "E-PKU-POLICY",
+      "reason": "学校背景可作优势，但将其表述为具体招生政策优待和较高录取保证缺少依据。EV-PKU支持差额复试、综合考核择优，而不能支持个人60%~75%概率。具体可申请方向与个人训练要求也未落实；仅影响R10-03，不否定电子信息专硕母体。"
+    },
+    {
+      "answer_quote": "又大概率强制绑定直博（违背个人意愿）",
+      "id": "E-THU-PHD",
+      "reason": "将存在直博分支夸大为大概率强制绑定，并据此整体排除硕士分支。EV-THU明确可申请推免硕士和推免直博；未核准院系具体比例，不能声称已证明绝大多数为直博。缺少对学生若接受工程硕士及企业实践时的独立取舍；仅影响R10-04。"
+    },
+    {
+      "answer_quote": "培养年限通常为 2 年",
+      "id": "E-FINANCE-DURATION",
+      "reason": "EV-FINANCE对应2025开放日、2026届申请对象的金融硕士明确为3年。此事实记录归R10-05；半分主要因跨方向基础与兴趣分析不足，而非单凭这一非关键年限细节降档。"
+    },
+    {
+      "answer_quote": "学生无经管辅修、无券商基金核心量化实习",
+      "id": "E-FINANCE-BACKGROUND",
+      "reason": "题面只有无正式企业实习，没有提供是否经管辅修的信息；不得把未提供的辅修状态断言为无。未评估工科数理与计算基础如何转入量化，也未具体核问兴趣。仅影响R10-05。"
+    },
+    {
+      "answer_quote": "凭借本校 C9 招牌稳拿海外名校 Offer",
+      "id": "E-OVERSEAS-GUARANTEE",
+      "reason": "把学校背景和未录用的科研工作推导为稳拿境外录取，未依据具体项目考核、语言、预算与竞争情况形成可靠兜底。80%以上个人概率也无可支持数据。仅在R10-06评实际条件取舍，不额外扣事实项。"
+    },
+    {
+      "answer_quote": "紧密配合导师修改在投 自然语言处理会议 的论文",
+      "id": "E-PAPER-STATE",
+      "reason": "题面为即将完稿、导师修改、准备投稿，尚无已提交事实。答卷1.2先准确区分，后续多次写成在投及已有投稿经历，前后不一致；数月实习也不能自动证明已经熟悉所有模型架构和复现能力。归R10-07的真实背景与尚缺能力判断，不在时间项重复扣分。"
+    },
+    {
+      "answer_quote": "力争把专业排名前移至 38 名以内，直接消灭推免资格滑落的隐患",
+      "id": "E-QUAL-SAFE-RANK",
+      "reason": "上届[往届推免名额传闻]的届人数未知，本届实际指标、综合排名规则和加分更新也未核清；排名38或35不能保证资格。应明确核验本届普通名额、资格条件、综合排序及公布安排，而非捏定安全名次。EV-AI-QUAL只作事后佐证，不能倒灌准备期学生已知信息；仅归R10-08。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-E-03",
+  "input_sha256": "6e7235f6c4f9d32dd081a45d015a849a866b38036e316b9da1e98f83b3e5e36f",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "27730780503df2abd9614002ad37419a153464ff2c2d72ec83ca302dde9ee06f",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-01",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-02",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-03",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-04",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-05",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": "pending",
+      "id": "TRY-E-03-R10-06",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-07",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-03-R10-08",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 16,
+  "official": false,
+  "pending_nodes": [
+    "TRY-E-03-R10-06"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "additional_answer_quotes": [
+        "方向完全契合，留在本校科研连续性最好",
+        "入读本校AI学院学硕",
+        "华东地区一所985高校（华东五校之一）本科学院（本院营，争取直接拿到优秀营员或候补优营）"
+      ],
+      "answer_item_id": "A01",
+      "answer_quote": "华东地区一所985高校（华东五校之一）本科学院（本院）—— 优先力争学硕",
+      "canonical_candidate_key": "NJU-AI-ACADEMIC-MASTER",
+      "error_ids": [
+        "E-AI-GUARANTEE"
+      ],
+      "label": "南京大学人工智能学院AI/计算机相关学硕",
+      "reason": "主选学硕，研究连续性与目标相符。目录、矩阵、决策树、阶段投递均重复此选择，统一身份。现有研究关系不保证录取；导师承诺锁定问题绑定R10-01。valid表示项目母体/推荐方向成立，非确认个人接收。",
+      "school_key": "NJU",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "若学硕不可得，理性接纳专硕",
+        "入读南大AI专硕或北大软微专硕"
+      ],
+      "answer_item_id": "A02",
+      "answer_quote": "若愿意接受“本院专硕”，则是可行性与综合收益极高的核心归宿",
+      "canonical_candidate_key": "NJU-AI-PROFESSIONAL-MASTER",
+      "error_ids": [
+        "E-AI-GUARANTEE"
+      ],
+      "feasibility": "答卷安排问当前导师学硕/专硕/直博指标，9月取得资格后再按是否接受专硕决定；既有NLP训练可作申请基础，但接受类型尚需本人确认。",
+      "key_condition": "取得本科推免资格；愿意接受专业硕士，导师/学院有对应硕士指标且考核通过。",
+      "label": "南京大学人工智能学院电子信息/人工智能专硕替代",
+      "reason": "与学硕明确形成另一个学位申请路径；矩阵主推专硕、决策树的专硕分支及末段选择合并。EV-AI-RENAME说明2026级旧电子信息改名人工智能，不据名称更新判虚构。",
+      "school_key": "NJU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "南京大学计算机科学与技术系（学硕、专硕、直博）",
+        "**严重不适配**"
+      ],
+      "answer_item_id": "A03",
+      "answer_quote": "南京大学计算机系学硕 —— 放弃报考",
+      "canonical_candidate_key": "NJU-CS-ACADEMIC-MASTER",
+      "error_ids": [
+        "E-CS-CERTAINTY"
+      ],
+      "label": "南京大学计算机相关学硕",
+      "reason": "明确排除也须提取。计算机系/学院称谓按同一招生母体处理，不按别称拆项；方向确实相关，但其排除逻辑及未建立AI条件替代关系在R10-02评。",
+      "school_key": "NJU",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-B",
+      "answer_quote": "若南大计算机系初审入围，可抱学习心态参营，但不作核心押注",
+      "canonical_candidate_key": "NJU-CS-ACADEMIC-MASTER",
+      "error_ids": [
+        "E-CS-CERTAINTY"
+      ],
+      "feasibility": "题面未证明硬条件不符合，可申请后按初审决定参营；答卷给出的入围条件可执行，但没有说明AI是否可行如何改变该备选。",
+      "key_condition": "计算机系实际初审入围，愿意以非核心押注方式参加考核。",
+      "label": "南京大学计算机入围后非核心参营备选",
+      "reason": "全文末段保留条件参营，与最终放弃表述有张力，不能漏提；同一CS学硕路径仍用A03的canonical key，不重复计为独立项目。",
+      "school_key": "NJU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "若学生坚决只要学硕，该项目必须直接排除",
+        "北京大学软件与微电子学院（充分利用 C9 背景红利，争取拿到专硕保底 Offer）"
+      ],
+      "answer_item_id": "A04",
+      "answer_quote": "北京大学软件与微电子学院 —— 仅在学生同意“以专硕换取北京大学顶格名校平台”的前提下作为首选冲刺",
+      "canonical_candidate_key": "PKU-SS-ELECTRONIC-INFO-MASTER",
+      "error_ids": [
+        "E-PKU-POLICY"
+      ],
+      "feasibility": "答卷以是否愿接受专硕为决策树分支、准备夏令营/预推免申请。条件接受专硕现实可补；具体方向未落实，故不声称已经完成项目级年度核验。",
+      "key_condition": "获得本科资格，并明确愿意用专业学位换平台；选到实际开放且符合CS/AI研究意向的推免方向并通过考核。",
+      "label": "北京大学软件与微电子学院电子信息专硕",
+      "reason": "0854电子信息母体存在，非学硕且明示专硕接受条件。内部AI/软件工程系讨论不机械拆成多个推荐。EV-PKU当届方向表显示须落实关键软件等实际推免方向，不能据普通AI方向推免名额为0否定学院全部路径；R10-03评适配不足。",
+      "school_key": "PKU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "清华大学自动化系/电子工程系国家卓越工程师学院专项（工程硕博培养改革专项）",
+        "放弃清华工程硕博和南大工管金融"
+      ],
+      "answer_item_id": "A05",
+      "answer_quote": "清华大学自动化/电子工程硕博 —— 坚决回避",
+      "canonical_candidate_key": "THU-AUTO-EE-ENGINEERING-COMBINED",
+      "error_ids": [
+        "E-THU-PHD"
+      ],
+      "label": "清华自动化/电子工程硕博合并候选",
+      "reason": "答卷始终按自动化/电子组合讨论，没有分别明确独立项目或申请志愿，保留一个合并提名/排除，不替答卷拆两条。专业工程学位及企业实践身份成立，直博强绑定依据不足；R10-04处理。",
+      "school_key": "THU",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "南京大学工程管理学院金融专业硕士（MF，专业代码 025100）",
+        "**坚决排除**。与“计算机/AI 方向”和“学硕优先”两大核心原则完全相左"
+      ],
+      "answer_item_id": "A06",
+      "answer_quote": "南京大学工管学院金融项目 —— 坚决排除",
+      "canonical_candidate_key": "NJU-SME-FINANCE-MASTER",
+      "error_ids": [
+        "E-FINANCE-DURATION",
+        "E-FINANCE-BACKGROUND"
+      ],
+      "label": "南京大学工程管理学院金融硕士（答卷限定MF）",
+      "reason": "MF025100母体存在，偏离AI/CS及学硕优先可排除；年限和无经管辅修错误、未核金融相关学硕备选由R10-05处理，不把合理排除本身判无效。",
+      "school_key": "NJU",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "港前三（HKU/CUHK/HKUST）的 MSc 计算机与人工智能相关项目",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "HKU-T",
+      "answer_quote": "9 月底系统开放第一时间提交港大（HKU）、港科大（HKUST）、港中文（CUHK）及新二（NUS、NTU）的第一轮申请，稳妥收获境外顶尖名校录取。",
+      "canonical_candidate_key": "HKU-AI-CS-TAUGHT-MASTER-OPTIONS",
+      "error_ids": [
+        "E-OVERSEAS-GUARANTEE"
+      ],
+      "feasibility": "答卷明确2025年6—8月提前备考、准备文书，待9月国内结果触发申请，语言成绩可补；已说明总预算35—50万但未确认支付意愿，项目需进一步筛选。不能据C9背景保证录取。",
+      "key_condition": "未取得满意的国内硕士、无法保研或国内要求直博时启用；须接受授课硕士及自费成本并补雅思/托福。",
+      "label": "香港大学计算机/AI相关授课硕士选项组合（答卷统称MSc）",
+      "reason": "末段实际投递建议而非普通学校背景讨论，故逐校提取。Computing/AI/Data Science只是院内待筛方向，未分别落实独立项目，不替答卷创造三条。多次港前三/新二及缩写与本记录合并。valid不是核验2026全部门槛和窗口；稳拿offer的错误只在R10-06处罚。",
+      "school_key": "HKU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "若有匹配导师可兼申 MPhil",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "HKU-R",
+      "answer_quote": "港新优质硕士（港前三/新二 MSc；若有匹配导师可兼申 MPhil）",
+      "canonical_candidate_key": "HKU-AI-CS-RESEARCH-MASTER-OPTIONS",
+      "error_ids": [],
+      "feasibility": "以数月NLP研究和正在准备的工作论文联系导师、先补语言再问硕士名额是可执行的条件路径。答卷条件方案仍粗略，资助及导师意向需确认，不能把考出语言等同接收。",
+      "key_condition": "存在与NLP研究匹配且愿意接收硕士的导师，满足语言要求；在需要港新备选时可兼申。",
+      "label": "香港大学计算机/AI相关研究硕士选项（答卷统称MPhil）",
+      "reason": "答卷有匹配导师可兼申的实际备选，按研究型/授课型不同申请路径另列，未将内部方向拆项。香港研究硕士母体可识别；尚未指定院系和导师，不声称逐年完成全部名额及资助审核。申请难度/全奖比例没有核准，不承认个体必然录取。",
+      "school_key": "HKU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "港前三（HKU/CUHK/HKUST）的 MSc 计算机与人工智能相关项目",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "CUHK-T",
+      "answer_quote": "9 月底系统开放第一时间提交港大（HKU）、港科大（HKUST）、港中文（CUHK）及新二（NUS、NTU）的第一轮申请，稳妥收获境外顶尖名校录取。",
+      "canonical_candidate_key": "CUHK-AI-CS-TAUGHT-MASTER-OPTIONS",
+      "error_ids": [
+        "E-OVERSEAS-GUARANTEE"
+      ],
+      "feasibility": "答卷明确2025年6—8月提前备考、准备文书，待9月国内结果触发申请，语言成绩可补；已说明总预算35—50万但未确认支付意愿，项目需进一步筛选。不能据C9背景保证录取。",
+      "key_condition": "未取得满意的国内硕士、无法保研或国内要求直博时启用；须接受授课硕士及自费成本并补雅思/托福。",
+      "label": "香港中文大学计算机/AI相关授课硕士选项组合（答卷统称MSc）",
+      "reason": "末段实际投递建议而非普通学校背景讨论，故逐校提取。Computing/AI/Data Science只是院内待筛方向，未分别落实独立项目，不替答卷创造三条。多次港前三/新二及缩写与本记录合并。valid不是核验2026全部门槛和窗口；稳拿offer的错误只在R10-06处罚。",
+      "school_key": "CUHK",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "若有匹配导师可兼申 MPhil",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "CUHK-R",
+      "answer_quote": "港新优质硕士（港前三/新二 MSc；若有匹配导师可兼申 MPhil）",
+      "canonical_candidate_key": "CUHK-AI-CS-RESEARCH-MASTER-OPTIONS",
+      "error_ids": [],
+      "feasibility": "以数月NLP研究和正在准备的工作论文联系导师、先补语言再问硕士名额是可执行的条件路径。答卷条件方案仍粗略，资助及导师意向需确认，不能把考出语言等同接收。",
+      "key_condition": "存在与NLP研究匹配且愿意接收硕士的导师，满足语言要求；在需要港新备选时可兼申。",
+      "label": "香港中文大学计算机/AI相关研究硕士选项（答卷统称MPhil）",
+      "reason": "答卷有匹配导师可兼申的实际备选，按研究型/授课型不同申请路径另列，未将内部方向拆项。香港研究硕士母体可识别；尚未指定院系和导师，不声称逐年完成全部名额及资助审核。申请难度/全奖比例没有核准，不承认个体必然录取。",
+      "school_key": "CUHK",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "港前三（HKU/CUHK/HKUST）的 MSc 计算机与人工智能相关项目",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "HKUST-T",
+      "answer_quote": "9 月底系统开放第一时间提交港大（HKU）、港科大（HKUST）、港中文（CUHK）及新二（NUS、NTU）的第一轮申请，稳妥收获境外顶尖名校录取。",
+      "canonical_candidate_key": "HKUST-AI-CS-TAUGHT-MASTER-OPTIONS",
+      "error_ids": [
+        "E-OVERSEAS-GUARANTEE"
+      ],
+      "feasibility": "答卷明确2025年6—8月提前备考、准备文书，待9月国内结果触发申请，语言成绩可补；已说明总预算35—50万但未确认支付意愿，项目需进一步筛选。不能据C9背景保证录取。",
+      "key_condition": "未取得满意的国内硕士、无法保研或国内要求直博时启用；须接受授课硕士及自费成本并补雅思/托福。",
+      "label": "香港科技大学计算机/AI相关授课硕士选项组合（答卷统称MSc）",
+      "reason": "末段实际投递建议而非普通学校背景讨论，故逐校提取。Computing/AI/Data Science只是院内待筛方向，未分别落实独立项目，不替答卷创造三条。多次港前三/新二及缩写与本记录合并。valid不是核验2026全部门槛和窗口；稳拿offer的错误只在R10-06处罚。",
+      "school_key": "HKUST",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "若有匹配导师可兼申 MPhil",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "HKUST-R",
+      "answer_quote": "港新优质硕士（港前三/新二 MSc；若有匹配导师可兼申 MPhil）",
+      "canonical_candidate_key": "HKUST-AI-CS-RESEARCH-MASTER-OPTIONS",
+      "error_ids": [],
+      "feasibility": "以数月NLP研究和正在准备的工作论文联系导师、先补语言再问硕士名额是可执行的条件路径。答卷条件方案仍粗略，资助及导师意向需确认，不能把考出语言等同接收。",
+      "key_condition": "存在与NLP研究匹配且愿意接收硕士的导师，满足语言要求；在需要港新备选时可兼申。",
+      "label": "香港科技大学计算机/AI相关研究硕士选项（答卷统称MPhil）",
+      "reason": "答卷有匹配导师可兼申的实际备选，按研究型/授课型不同申请路径另列，未将内部方向拆项。香港研究硕士母体可识别；尚未指定院系和导师，不声称逐年完成全部名额及资助审核。申请难度/全奖比例没有核准，不承认个体必然录取。",
+      "school_key": "HKUST",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "新二（NUS/NTU）的 MSc 项目",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "NUS-T",
+      "answer_quote": "9 月底系统开放第一时间提交港大（HKU）、港科大（HKUST）、港中文（CUHK）及新二（NUS、NTU）的第一轮申请，稳妥收获境外顶尖名校录取。",
+      "canonical_candidate_key": "NUS-AI-CS-TAUGHT-MASTER-OPTIONS",
+      "error_ids": [
+        "E-OVERSEAS-GUARANTEE"
+      ],
+      "feasibility": "答卷明确2025年6—8月提前备考、准备文书，待9月国内结果触发申请，语言成绩可补；已说明总预算35—50万但未确认支付意愿，项目需进一步筛选。不能据C9背景保证录取。",
+      "key_condition": "未取得满意的国内硕士、无法保研或国内要求直博时启用；须接受授课硕士及自费成本并补雅思/托福。",
+      "label": "新加坡国立大学计算机/AI相关授课硕士选项组合（答卷统称MSc）",
+      "reason": "末段实际投递建议而非普通学校背景讨论，故逐校提取。Computing/AI/Data Science只是院内待筛方向，未分别落实独立项目，不替答卷创造三条。EV-NUS-COURSE支持MComp等实际授课母体，MSc统称不严谨但不机械判虚构。多次港前三/新二及缩写与本记录合并。valid不是核验2026全部门槛和窗口；稳拿offer的错误只在R10-06处罚。",
+      "school_key": "NUS",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "港前三（HKU、CUHK、HKUST）和新二（NUS、NTU）的计算机/AI 学院",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "NUS-R",
+      "answer_quote": "港新优质硕士（港前三/新二 MSc；若有匹配导师可兼申 MPhil）",
+      "canonical_candidate_key": "NUS-COMPUTING-DIRECT-MPHIL",
+      "error_ids": [],
+      "feasibility": "答卷的匹配导师与提前语言准备可以实施，但不能消除直接硕士招生资格的实质争议；须先核2026入学届实际研究学位及直接招生资格。不能自行把PhD退出MSc当硕士替代。",
+      "key_condition": "答卷要求匹配导师、提前语言准备且国内结果不满意后兼申研究硕士。",
+      "label": "新加坡国立大学计算机独立MPhil研究硕士方案",
+      "reason": "全文明确港前三/新二对应学校，且有匹配导师可兼申、决策树MSc/MPhil投递，故提取为实际条件备选。EV-NUS-RESEARCH的AY2025/26历史官方制度不支持NUS计算学院独立MPhil申请，只有PhD及经批准转出的MSc；这构成真实通道冲突，不是因未命中参考、没有链接或只缺常规年度审核而待核。但本题目标为2025准备、2026秋入学，尚未取得能裁决对应2026/27直接研究硕士通道的官方资料，不能以旧年度或当前网页代替。因此保留pending，由R10-06同步待核；不把检索失败当作停招或不存在证据。",
+      "school_key": "NUS",
+      "treatment": "conditional",
+      "validity": "pending"
+    },
+    {
+      "additional_answer_quotes": [
+        "新二（NUS/NTU）的 MSc 项目",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "NTU-T",
+      "answer_quote": "9 月底系统开放第一时间提交港大（HKU）、港科大（HKUST）、港中文（CUHK）及新二（NUS、NTU）的第一轮申请，稳妥收获境外顶尖名校录取。",
+      "canonical_candidate_key": "NTU-AI-CS-TAUGHT-MASTER-OPTIONS",
+      "error_ids": [
+        "E-OVERSEAS-GUARANTEE"
+      ],
+      "feasibility": "答卷明确2025年6—8月提前备考、准备文书，待9月国内结果触发申请，语言成绩可补；已说明总预算35—50万但未确认支付意愿，项目需进一步筛选。不能据C9背景保证录取。",
+      "key_condition": "未取得满意的国内硕士、无法保研或国内要求直博时启用；须接受授课硕士及自费成本并补雅思/托福。",
+      "label": "南洋理工大学计算机/AI相关授课硕士选项组合（答卷统称MSc）",
+      "reason": "末段实际投递建议而非普通学校背景讨论，故逐校提取。Computing/AI/Data Science只是院内待筛方向，未分别落实独立项目，不替答卷创造三条。多次港前三/新二及缩写与本记录合并。valid不是核验2026全部门槛和窗口；稳拿offer的错误只在R10-06处罚。",
+      "school_key": "NTU",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "若有匹配导师可兼申 MPhil",
+        "9-10月立即全速投递港前三+新二 MSc/MPhil"
+      ],
+      "answer_item_id": "NTU-R",
+      "answer_quote": "港新优质硕士（港前三/新二 MSc；若有匹配导师可兼申 MPhil）",
+      "canonical_candidate_key": "NTU-AI-CS-RESEARCH-MASTER-OPTIONS",
+      "error_ids": [],
+      "feasibility": "以数月NLP研究和正在准备的工作论文联系导师、先补语言再问硕士名额是可执行的条件路径。答卷条件方案仍粗略，资助及导师意向需确认，不能把考出语言等同接收。",
+      "key_condition": "存在与NLP研究匹配且愿意接收硕士的导师，满足语言要求；在需要港新备选时可兼申。",
+      "label": "南洋理工大学计算机/AI相关研究硕士选项（答卷统称MPhil）",
+      "reason": "答卷有匹配导师可兼申的实际备选，按研究型/授课型不同申请路径另列，未将内部方向拆项。NTU研究硕士实际为MEng，EV-NTU-RESEARCH支持母体存在；MPhil统称错误须修正，但学生期望的研究硕士方向可成立，不机械因名称否定。申请难度/全奖比例没有核准，不承认个体必然录取。",
+      "school_key": "NTU",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f",
+  "score": null,
+  "score_interval": [
+    42.5,
+    57.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "TRY-E-03",
+  "task_kind": "planning",
+  "task_sha256": "3bc3c8c1f933ab117426e582a717856fd627a976f77a8e16d3bf7fa49552851d",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "华东地区一所985高校（华东五校之一）本科学院（本院）—— 优先力争学硕",
+        "downgraded": false,
+        "reason": "本校本校及北大为985同档，清北/华五背景适用tier_exception；本项仅报告，不追加层次分或负分。",
+        "school_key": "NJU"
+      },
+      {
+        "answer_quote": "北京大学软件与微电子学院 —— 仅在学生同意",
+        "downgraded": false,
+        "reason": "本校本校及北大为985同档，清北/华五背景适用tier_exception；本项仅报告，不追加层次分或负分。",
+        "school_key": "PKU"
+      },
+      {
+        "answer_quote": "港大（HKU）",
+        "downgraded": false,
+        "reason": "境外大学按实际授位主体看待，不因没有985/211标签自动降级；本题tier_exception且tier_report_only，仅报告，不额外扣分。",
+        "school_key": "HKU"
+      },
+      {
+        "answer_quote": "港中文（CUHK）",
+        "downgraded": false,
+        "reason": "境外大学按实际授位主体看待，不因没有985/211标签自动降级；本题tier_exception且tier_report_only，仅报告，不额外扣分。",
+        "school_key": "CUHK"
+      },
+      {
+        "answer_quote": "港科大（HKUST）",
+        "downgraded": false,
+        "reason": "境外大学按实际授位主体看待，不因没有985/211标签自动降级；本题tier_exception且tier_report_only，仅报告，不额外扣分。",
+        "school_key": "HKUST"
+      },
+      {
+        "answer_quote": "新加坡国立大学（NUS）",
+        "downgraded": false,
+        "reason": "境外大学按实际授位主体看待，不因没有985/211标签自动降级；本题tier_exception且tier_report_only，仅报告，不额外扣分。",
+        "school_key": "NUS"
+      },
+      {
+        "answer_quote": "南洋理工大学（NTU）",
+        "downgraded": false,
+        "reason": "境外大学按实际授位主体看待，不因没有985/211标签自动降级；本题tier_exception且tier_report_only，仅报告，不额外扣分。",
+        "school_key": "NTU"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N15-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "承认学生是法学大创主持人且项目仍在推进，提出阶段性研究成果、论证框架和材料整理的可执行计划，不当作已发表论文。",
+      "grading": "three_level",
+      "half_credit": "能关注大创但没有体现主持责任或成果状态。",
+      "id": "N15-02-L1-01",
+      "label": "主持大创的推进优先级",
+      "points": 25
+    },
+    {
+      "full_credit": "围绕法理、民法、刑法、宪法/行政法等申请面试基础制定按目标项目区分的复习重点。",
+      "grading": "three_level",
+      "half_credit": "有复习行动但缺优先顺序或考核联系。",
+      "id": "N15-02-L1-02",
+      "label": "法学核心课程复习的安排",
+      "points": 20
+    },
+    {
+      "full_credit": "区分法学大创主持、跨学科研究项目成员及参营材料与正式发表科研成果，明确可用于何种申请材料。",
+      "grading": "three_level",
+      "half_credit": "有贡献说明但将团队成果和本人角色混同。",
+      "id": "N15-02-L1-03",
+      "label": "本科生科研项目与未发表论文如何如实表述",
+      "points": 15
+    },
+    {
+      "full_credit": "在科研阶段成果、专业课、文书和英语面试间给出理由充分的时间安排，并说明如何应对截止日期变化。",
+      "grading": "three_level",
+      "half_credit": "只有任务清单，缺时间取舍。",
+      "id": "N15-02-L1-04",
+      "label": "时间分配与机会成本",
+      "points": 20
+    },
+    {
+      "full_credit": "第二轮正确使用主持人与本科生科研项目成员、无正式发表论文等新增信息，明确维持或修订初始建议的理由。",
+      "grading": "three_level",
+      "half_credit": "利用了补充资料但未交代对优先级的实际影响。",
+      "id": "N15-02-L1-05",
+      "label": "后续新证据的合理处理",
+      "points": 10
+    },
+    {
+      "full_credit": "不误认论文发表、推免资格或各目标院校的时间条件；给出关键核验动作。",
+      "grading": "three_level",
+      "half_credit": "基本准确但存在局部未经核实的结论。",
+      "id": "N15-02-L1-06",
+      "label": "事实、资格与阶段核查",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

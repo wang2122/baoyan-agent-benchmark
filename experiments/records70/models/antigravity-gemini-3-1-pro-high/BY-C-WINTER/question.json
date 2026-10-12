@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-C",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q007",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-C-WINTER",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年3月，我在哈工大（威海）读化学工程与工艺，排名前约7%，六级450–499分。化工和数学建模类竞赛获得过国家级及省级奖项，也有团队负责人经历。正在做电池与催化相关科研，论文还在写、大创正在推进，相关专业课程成绩较好。我想申请直博，梦校是复旦，也更偏好南方。申请前应该重点推进哪些事情？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "5d18e6260555ed2858aa62bfd7168969e02e65026ea4166feda937de200179de",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

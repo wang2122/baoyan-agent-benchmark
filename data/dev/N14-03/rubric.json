@@ -1,0 +1,165 @@
+{
+  "candidate_limit": 17,
+  "coverage_points": 70,
+  "coverage_policy": "layered_project_match.1",
+  "forced_pending_reference_ids": [],
+  "id": "N14-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+      "grading": "three_level",
+      "half_credit": "有适配分析但条件或组合取舍不完整",
+      "id": "reasons",
+      "label": "推荐理由、条件与组合",
+      "points": 15
+    },
+    {
+      "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+      "grading": "three_level",
+      "half_credit": "主要正确但个别层次判断无依据",
+      "id": "tier",
+      "label": "院校层次适配",
+      "points": 5
+    },
+    {
+      "full_credit": "给出清晰申请批次、导师联系或条件核验动作",
+      "grading": "three_level",
+      "half_credit": "只有排序或只有动作",
+      "id": "execution",
+      "label": "申请优先与执行",
+      "points": 5
+    },
+    {
+      "full_credit": "推免资格和科研成果均按已知状态处理；不过度承诺录取",
+      "grading": "three_level",
+      "half_credit": "出现局部尚可修正的事实状态问题",
+      "id": "facts",
+      "label": "事实与成果状态",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-01",
+      "project": "财政税务学院｜税务/资产评估",
+      "school": "中央财经大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-02",
+      "project": "国际经济贸易学院｜国际商务/金融",
+      "school": "对外经济贸易大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-03",
+      "project": "经济与工商管理学院｜国际商务/工商管理",
+      "school": "北京师范大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-04",
+      "project": "湾区商学院｜会计",
+      "school": "北京师范大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-05",
+      "project": "经济管理学院｜工商管理学（科技管理与技术创新）/会计专硕/金融专硕",
+      "school": "北京航空航天大学"
+    },
+    {
+      "guidance": "保留应用经济学专业目标，按2026申请季经济学院020200学硕确认招生主体；不扩张为管理学院相关专业。管理学院会计/工商管理学与本项为不同院系项目，具体财务、投资及公司金融研究关系核实成立时适用跨院系30%规则，不再仅凭旧院系名称给同院系60%。保留原分母、权重、一对一分配及候选有效性规则。",
+      "id": "N14-L1-06",
+      "project": "经济学院｜应用经济学（020200，学术学位）",
+      "school": "北京理工大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-07",
+      "project": "经济与管理学院｜金融",
+      "school": "中国科学院大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-08",
+      "project": "国际学院（苏州）｜金融",
+      "school": "中国人民大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-09",
+      "project": "智慧治理学院（苏州）｜数字经济",
+      "school": "中国人民大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-10",
+      "project": "经济管理学院｜会计",
+      "school": "中国农业大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-11",
+      "project": "管理学院｜会计",
+      "school": "中央民族大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-12",
+      "project": "经济与管理学院｜会计",
+      "school": "北京交通大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-13",
+      "project": "国际商学院｜会计",
+      "school": "北京外国语大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-14",
+      "project": "商学院｜会计",
+      "school": "中国社会科学院大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-15",
+      "project": "商学院｜审计",
+      "school": "中国政法大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-16",
+      "project": "经济管理学院｜应用经济学",
+      "school": "北京邮电大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N14-L1-17",
+      "project": "经济管理学院｜会计",
+      "school": "北京化工大学"
+    }
+  ],
+  "reference_denominator": 17,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2+privacy-v16-public70+reference-fixes",
+  "task_kind": "recommendation",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,1652 @@
+{
+  "schema": "execution-record-manifest.2",
+  "scope": "18-task execution record",
+  "task_count": 18,
+  "configuration_count": 9,
+  "record_count": 162,
+  "task_ids": [
+    "BY-B-APPLY",
+    "BY-E-REPLAN",
+    "BY-H-APPLY",
+    "N01-02",
+    "N02-01",
+    "N03-02",
+    "N04-03",
+    "N06-03",
+    "N08-02",
+    "N10-01",
+    "N11-03",
+    "N13-02",
+    "N14-03",
+    "N15-01",
+    "N16-02",
+    "O04-04",
+    "TRY-C-03",
+    "TRY-F-02"
+  ],
+  "score_report": "scores.json",
+  "score_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "records": [
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/gpt-6-astra/BY-B-APPLY/answer.md",
+      "answer_sha256": "0ca52203b4e0e72e04cb9f45c069f44b5f481d161ac13da2719ab42589fb58eb",
+      "score_path": "models/gpt-6-astra/BY-B-APPLY/score.json",
+      "score_sha256": "2a6e77f789a63c37e3bdbabadfb5e1027528849bb1f7ce47aa3ef9820f7f5f36",
+      "metadata_path": "models/gpt-6-astra/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/gpt-6-astra/BY-H-APPLY/answer.md",
+      "answer_sha256": "548fbea533cbab5cbad232679fbcd60c368afc4ca4390ec163265a13eed98e35",
+      "score_path": "models/gpt-6-astra/BY-H-APPLY/score.json",
+      "score_sha256": "27266ed6297e2a11bfe236b390a4b940689ca5e81848a82df1fe8e6ff8fb0c79",
+      "metadata_path": "models/gpt-6-astra/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N04-03",
+      "answer_path": "models/gpt-6-astra/N04-03/answer.md",
+      "answer_sha256": "2e82d3e3f39b31265fdbf90bd95fdee63f840984aa54d5c6164b5a49516acca1",
+      "score_path": "models/gpt-6-astra/N04-03/score.json",
+      "score_sha256": "57305f9cedf586572f220fca734d5fd7dcd2700c9ffc6b5490f0e93a90e79ef6",
+      "metadata_path": "models/gpt-6-astra/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N06-03",
+      "answer_path": "models/gpt-6-astra/N06-03/answer.md",
+      "answer_sha256": "c69ccded6920e6bf6d44c9068c9ec0db73f0debd9e822a6d44dcaecfa43750e3",
+      "score_path": "models/gpt-6-astra/N06-03/score.json",
+      "score_sha256": "30ed1cf3f7e2b663ce485ef2530a636781852671e5753ca79daf89718d7937bc",
+      "metadata_path": "models/gpt-6-astra/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N11-03",
+      "answer_path": "models/gpt-6-astra/N11-03/answer.md",
+      "answer_sha256": "17f497bf553b1297bed55712173c3b80c868648e76be5f9a9577063b9c1d2f0a",
+      "score_path": "models/gpt-6-astra/N11-03/score.json",
+      "score_sha256": "859c473a10522aa6288952b20b7e5a629977aa701a5d2072495a04c14963b04e",
+      "metadata_path": "models/gpt-6-astra/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N14-03",
+      "answer_path": "models/gpt-6-astra/N14-03/answer.md",
+      "answer_sha256": "f518ec7119c84edb2d3eaea021939a47674a645cd401510ecd3e1691d6c50c6b",
+      "score_path": "models/gpt-6-astra/N14-03/score.json",
+      "score_sha256": "bd395d014f5cb965268e64a38cca7bb3db5268f06d7f8f2cb172f5c8feeb272f",
+      "metadata_path": "models/gpt-6-astra/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/gpt-6-astra/TRY-C-03/answer.md",
+      "answer_sha256": "10c1b8ad0fd85ed603e8ccf5c2cab6ea73420d3331b3edad8d26354c000315a6",
+      "score_path": "models/gpt-6-astra/TRY-C-03/score.json",
+      "score_sha256": "65a451614a7a7f42346c1ab06993403e899c1d13ef7a6d36f492f219aba10817",
+      "metadata_path": "models/gpt-6-astra/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/gpt-6-astra/BY-E-REPLAN/answer.md",
+      "answer_sha256": "e92c402c651587562412af91e8e9478472e5b658a1e0952af97c3c3cf2cd425d",
+      "score_path": "models/gpt-6-astra/BY-E-REPLAN/score.json",
+      "score_sha256": "1bf402292103da61e2e0c705d456f0031e9bdcda14d60ee51f9ab4681a22add9",
+      "metadata_path": "models/gpt-6-astra/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/gpt-6-astra/TRY-F-02/answer.md",
+      "answer_sha256": "bb3d24308a428ebb79c6a5d213d35cd989a3c91d6d673f90588c14137f258997",
+      "score_path": "models/gpt-6-astra/TRY-F-02/score.json",
+      "score_sha256": "0ba374e5e14460c75aa16631b8de599d0e6cdfc41b958ba4ff53adfddacad2a2",
+      "metadata_path": "models/gpt-6-astra/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N02-01",
+      "answer_path": "models/gpt-6-astra/N02-01/answer.md",
+      "answer_sha256": "ee64937aaa6a83aeb41c37361dbfcc97daa4eb7e39ec08935372ad08061deb6d",
+      "score_path": "models/gpt-6-astra/N02-01/score.json",
+      "score_sha256": "661805de083c9561f97637071541e8b8c39b239dde43e0ea246ff0eca4772f35",
+      "metadata_path": "models/gpt-6-astra/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N03-02",
+      "answer_path": "models/gpt-6-astra/N03-02/answer.md",
+      "answer_sha256": "9b83d3925ae4d45577f32f5dcd4df0c50562c564cec1dfa39dfc3c432a763e18",
+      "score_path": "models/gpt-6-astra/N03-02/score.json",
+      "score_sha256": "bf83fb12d68b4f4f7fac1b77653c631ddf74547340f57aee12b5ab31dd979d11",
+      "metadata_path": "models/gpt-6-astra/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N10-01",
+      "answer_path": "models/gpt-6-astra/N10-01/answer.md",
+      "answer_sha256": "96b71fbf81b982f699b9bb5221ee9a169cf1f7b1716f267ea461f80923d62bd4",
+      "score_path": "models/gpt-6-astra/N10-01/score.json",
+      "score_sha256": "80f1436904a9f95a12a213c2239168351aedb1810ee2a1a75accdf18c9a7c0f8",
+      "metadata_path": "models/gpt-6-astra/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N13-02",
+      "answer_path": "models/gpt-6-astra/N13-02/answer.md",
+      "answer_sha256": "85e97d78bfe47238abd00105d0b997db27ad8ed699eab1e4b1aef0551a7a08e9",
+      "score_path": "models/gpt-6-astra/N13-02/score.json",
+      "score_sha256": "69a70ac0e3d2371a3b9a962e3e798f11a71d483fb285a5e89954c3bfba2ca92a",
+      "metadata_path": "models/gpt-6-astra/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N15-01",
+      "answer_path": "models/gpt-6-astra/N15-01/answer.md",
+      "answer_sha256": "51fd8ccce2bb45abcdeb99487d1534384c946ac385268d8c12ad82781edfbb51",
+      "score_path": "models/gpt-6-astra/N15-01/score.json",
+      "score_sha256": "678ee7d70b5747b7e6671cb01dd06788ce3ad56556e7625b3b75a0784760c9d6",
+      "metadata_path": "models/gpt-6-astra/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "O04-04",
+      "answer_path": "models/gpt-6-astra/O04-04/answer.md",
+      "answer_sha256": "5971020275581f64d24240bded778cef18aee266c765e550585440158a49686c",
+      "score_path": "models/gpt-6-astra/O04-04/score.json",
+      "score_sha256": "c119f13702502499debb724a9a4850f72671c81c86c04df452a7f052ab102941",
+      "metadata_path": "models/gpt-6-astra/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N01-02",
+      "answer_path": "models/gpt-6-astra/N01-02/answer.md",
+      "answer_sha256": "111382d0aaa27a27f70c5b4c4c6bfb11d6099aa778ed8fb4c63885a614b3a153",
+      "score_path": "models/gpt-6-astra/N01-02/score.json",
+      "score_sha256": "89b529b7aa09e9e68ca9361505765f0c2df0003465ef2d27a1fa38e83d2fbdbc",
+      "metadata_path": "models/gpt-6-astra/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N08-02",
+      "answer_path": "models/gpt-6-astra/N08-02/answer.md",
+      "answer_sha256": "001f00d5ce0289760b2289a36260d08e31ce48f5e77eece782a7724f001e958c",
+      "score_path": "models/gpt-6-astra/N08-02/score.json",
+      "score_sha256": "d8dc7f76d8bae7a713d0eee1ec05a75c36ed5a2598241ebd8ef504370dedcaa7",
+      "metadata_path": "models/gpt-6-astra/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N16-02",
+      "answer_path": "models/gpt-6-astra/N16-02/answer.md",
+      "answer_sha256": "9d001c604b855089ea0753401d6a158b59ae46000018fa6e8d77c093c1fdc8da",
+      "score_path": "models/gpt-6-astra/N16-02/score.json",
+      "score_sha256": "0077c88403acd5dfc23852b42148c9562ae510ba979f579ff07e476d9517329f",
+      "metadata_path": "models/gpt-6-astra/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/gpt-6-1-sol/BY-B-APPLY/answer.md",
+      "answer_sha256": "5d756a29fb302220219a1eaf2d29315064d0fde34947114c5c9b8f3f117d375a",
+      "score_path": "models/gpt-6-1-sol/BY-B-APPLY/score.json",
+      "score_sha256": "8a311da660530cbcff0057bb802ac5b77b5174c477cbd7d3876fd72635eed320",
+      "metadata_path": "models/gpt-6-1-sol/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/gpt-6-1-sol/BY-H-APPLY/answer.md",
+      "answer_sha256": "4ab2c149ffc041772802fad361969b158d3f54a8d8142144be27fda913b27f54",
+      "score_path": "models/gpt-6-1-sol/BY-H-APPLY/score.json",
+      "score_sha256": "49616071bce9da3856fc61347bd8e1437099d95b0698be8cbbfd93b9c1927551",
+      "metadata_path": "models/gpt-6-1-sol/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N04-03",
+      "answer_path": "models/gpt-6-1-sol/N04-03/answer.md",
+      "answer_sha256": "4c5ebdea6ec279273a80ed5845c7694373bd3648acbd3f273aeb5b083d6aae00",
+      "score_path": "models/gpt-6-1-sol/N04-03/score.json",
+      "score_sha256": "e8d89e6b1df34f4b591cd2ad5551b2ee6fcc0c43d5e8340987b0c9889d162b0b",
+      "metadata_path": "models/gpt-6-1-sol/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N06-03",
+      "answer_path": "models/gpt-6-1-sol/N06-03/answer.md",
+      "answer_sha256": "45f3d15f9102bf6caac114929b2e3b750738ef7d39227b31d53002c8e7d5de12",
+      "score_path": "models/gpt-6-1-sol/N06-03/score.json",
+      "score_sha256": "1649e77aee5af2f5f2e547abb19558277f79603635a7f1f3461974c174dabeff",
+      "metadata_path": "models/gpt-6-1-sol/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N11-03",
+      "answer_path": "models/gpt-6-1-sol/N11-03/answer.md",
+      "answer_sha256": "f27f62d96811d16d08e39177ed35293d328b50adf66c15a541bf2801736cb240",
+      "score_path": "models/gpt-6-1-sol/N11-03/score.json",
+      "score_sha256": "bd00bc27e3d2bdd7295af99619d3313f42481546edbd87bf1fb50b653d54360d",
+      "metadata_path": "models/gpt-6-1-sol/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N14-03",
+      "answer_path": "models/gpt-6-1-sol/N14-03/answer.md",
+      "answer_sha256": "3fe44e2e724cc52dcc5945c1beda1c9cd5c59fbc5f641a3d630ed4341043beb3",
+      "score_path": "models/gpt-6-1-sol/N14-03/score.json",
+      "score_sha256": "fbaea532698e284e7715a12aea4bb32d70b069f7b142e7921c0941417b3a65cb",
+      "metadata_path": "models/gpt-6-1-sol/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/gpt-6-1-sol/TRY-C-03/answer.md",
+      "answer_sha256": "4453a3a94cde9a8a61f35a724d11b275c900d66367b99aee92495888380dd8d3",
+      "score_path": "models/gpt-6-1-sol/TRY-C-03/score.json",
+      "score_sha256": "8d9fe54268b816b83e22b837ae1c4470ddb19f2590dcd9e64aca1c4a008b933a",
+      "metadata_path": "models/gpt-6-1-sol/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/gpt-6-1-sol/BY-E-REPLAN/answer.md",
+      "answer_sha256": "842a50077dcdc817f8058f456c478e5f9c3671d50e3ba84b2a702f413b2a2a6e",
+      "score_path": "models/gpt-6-1-sol/BY-E-REPLAN/score.json",
+      "score_sha256": "9fa46fff6b068a18ff943975a823946bff2241dd2a6a476a37da1c0de654ff00",
+      "metadata_path": "models/gpt-6-1-sol/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/gpt-6-1-sol/TRY-F-02/answer.md",
+      "answer_sha256": "9a412d7c43dc210a4ea5fd28a60656363a9392dd9a7dd8d922ab738606cdedd1",
+      "score_path": "models/gpt-6-1-sol/TRY-F-02/score.json",
+      "score_sha256": "8ec3207507600417198e41553afb9a17e35aff182d4947a301a4dfcf559d8d86",
+      "metadata_path": "models/gpt-6-1-sol/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N02-01",
+      "answer_path": "models/gpt-6-1-sol/N02-01/answer.md",
+      "answer_sha256": "45901bc829e4f3e372e6d40bdb5153ac3789d02658ab96f75c39fe87869aa748",
+      "score_path": "models/gpt-6-1-sol/N02-01/score.json",
+      "score_sha256": "606b528b05c0caf7d16314fd70be549f976dee17c467c4cd795dd02a218dcb5c",
+      "metadata_path": "models/gpt-6-1-sol/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N03-02",
+      "answer_path": "models/gpt-6-1-sol/N03-02/answer.md",
+      "answer_sha256": "eebc4ad3636358d50e6de056ba9f06e8561c23f162e38598e136200a101b34e7",
+      "score_path": "models/gpt-6-1-sol/N03-02/score.json",
+      "score_sha256": "862e1685632e94eb3261ede815b94351b43c90fde04d0935c9520ab8a7d451a9",
+      "metadata_path": "models/gpt-6-1-sol/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N10-01",
+      "answer_path": "models/gpt-6-1-sol/N10-01/answer.md",
+      "answer_sha256": "a1b292b87075227bdacb543ba2628a3eebe4f6e5fa543875943b466eb084e19a",
+      "score_path": "models/gpt-6-1-sol/N10-01/score.json",
+      "score_sha256": "ebd0b26032d26ffa2dc4b66ce08bafaf1583feb3575a7f23c72eb8f35e452fc2",
+      "metadata_path": "models/gpt-6-1-sol/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N13-02",
+      "answer_path": "models/gpt-6-1-sol/N13-02/answer.md",
+      "answer_sha256": "350df8b3551f131def16dff15ef6b35f24d63103ee41c1ecc1bfb70a5c8296bc",
+      "score_path": "models/gpt-6-1-sol/N13-02/score.json",
+      "score_sha256": "18fbb185e2fdd33b496fd09b594881601a5ab03fb9598ea91bc41212c95e0c00",
+      "metadata_path": "models/gpt-6-1-sol/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N15-01",
+      "answer_path": "models/gpt-6-1-sol/N15-01/answer.md",
+      "answer_sha256": "9f7fa2130ea7d7add4d36330efd2e991af6ddcc31b32ec1483fd027ddcd94d6e",
+      "score_path": "models/gpt-6-1-sol/N15-01/score.json",
+      "score_sha256": "91c91b8305a75d4d1447d0f5103a5ffd235a01ffeea94757193f3682f812fa4e",
+      "metadata_path": "models/gpt-6-1-sol/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "O04-04",
+      "answer_path": "models/gpt-6-1-sol/O04-04/answer.md",
+      "answer_sha256": "5ac44425b1e33aa2c50c6ae128dcf533d046d16e5ebc6e217dfabe8a2c7a04f0",
+      "score_path": "models/gpt-6-1-sol/O04-04/score.json",
+      "score_sha256": "3591bc5ec3d25c6edee45e59e6167dd6503482839cfdd93fda4aab00dd9d6382",
+      "metadata_path": "models/gpt-6-1-sol/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N01-02",
+      "answer_path": "models/gpt-6-1-sol/N01-02/answer.md",
+      "answer_sha256": "99899ce7c20013c7931cafe5640892b6e2a70acd3c3798d38b54f3f912674594",
+      "score_path": "models/gpt-6-1-sol/N01-02/score.json",
+      "score_sha256": "910d62315efff40e119e5f635baf62b6c172a12238a6d0811b1baefffd12af42",
+      "metadata_path": "models/gpt-6-1-sol/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N08-02",
+      "answer_path": "models/gpt-6-1-sol/N08-02/answer.md",
+      "answer_sha256": "49681250ece9d36f85af30420e403c4c1e1e3b23d9987410c2ab91816c8d5b7d",
+      "score_path": "models/gpt-6-1-sol/N08-02/score.json",
+      "score_sha256": "1f69d33c7d1367a536e29bb91e50e84be0bca3111c0eb6fa4d93fa45d7d55e75",
+      "metadata_path": "models/gpt-6-1-sol/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N16-02",
+      "answer_path": "models/gpt-6-1-sol/N16-02/answer.md",
+      "answer_sha256": "743f33703554e1a6d9a318dea6f5e38c76cf3a2040104b6632e4a5109d195279",
+      "score_path": "models/gpt-6-1-sol/N16-02/score.json",
+      "score_sha256": "5645fb4de1ab972158892166d167199be2f77a6f41837deba19fab13d845b179",
+      "metadata_path": "models/gpt-6-1-sol/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/deepseek-v4-1-flash/BY-B-APPLY/answer.md",
+      "answer_sha256": "c939262ba053955a3dd6d1c7f1a1f9c5060e627aaee5fbc6336115b55c5fe6c0",
+      "score_path": "models/deepseek-v4-1-flash/BY-B-APPLY/score.json",
+      "score_sha256": "04fdad97bd43090c213a8b63e2a402dbb1ef0d3014769ad8048937575472b2c1",
+      "metadata_path": "models/deepseek-v4-1-flash/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/deepseek-v4-1-flash/BY-H-APPLY/answer.md",
+      "answer_sha256": "f9abdfe0e0acbb84c17f50b09cbf314e567966cd4114fda0cd1a84850301f0ef",
+      "score_path": "models/deepseek-v4-1-flash/BY-H-APPLY/score.json",
+      "score_sha256": "c477c235cf7276b847629695f7b14670aa875faa510c20169fa9793252c7a443",
+      "metadata_path": "models/deepseek-v4-1-flash/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N04-03",
+      "answer_path": "models/deepseek-v4-1-flash/N04-03/answer.md",
+      "answer_sha256": "2da0d24c27914e9e4fe9ccea95e544797209658680b60b5cf1a0250d6b2483eb",
+      "score_path": "models/deepseek-v4-1-flash/N04-03/score.json",
+      "score_sha256": "19ccbe6febe85dd1938a8b61aaec63a1a840fb009c9ee3accbb2b0a7f6baf1ec",
+      "metadata_path": "models/deepseek-v4-1-flash/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N06-03",
+      "answer_path": "models/deepseek-v4-1-flash/N06-03/answer.md",
+      "answer_sha256": "d34a55f9fb1f55ec09cda8c919c67b32a9e362182c6b245aa2a72361e31d50c5",
+      "score_path": "models/deepseek-v4-1-flash/N06-03/score.json",
+      "score_sha256": "cfc24e4ce3bd11a0bcdbd7e5a816005ec9523a7a5570327ba0fca321d78d2df1",
+      "metadata_path": "models/deepseek-v4-1-flash/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N11-03",
+      "answer_path": "models/deepseek-v4-1-flash/N11-03/answer.md",
+      "answer_sha256": "15d14025856e3ed581764813104ab6fa867e340060dbe26488b3040a5bb61c19",
+      "score_path": "models/deepseek-v4-1-flash/N11-03/score.json",
+      "score_sha256": "7dd605b88353305064732710e8e1130b460c8a6a53744aaac89a796c91d45319",
+      "metadata_path": "models/deepseek-v4-1-flash/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N14-03",
+      "answer_path": "models/deepseek-v4-1-flash/N14-03/answer.md",
+      "answer_sha256": "01de166e865dbe84ca373aaf3c1d81e9a3ba25ed84e97c30cf4ecd4ea97598f3",
+      "score_path": "models/deepseek-v4-1-flash/N14-03/score.json",
+      "score_sha256": "424f41979693b8bc09296d250710992af69934ae3cfbff6a91802e411eb75dc0",
+      "metadata_path": "models/deepseek-v4-1-flash/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/deepseek-v4-1-flash/TRY-C-03/answer.md",
+      "answer_sha256": "7d18f9d870fd13ed9f7b65e043a56d814a0859f6319d6af715d601f8407b4f2a",
+      "score_path": "models/deepseek-v4-1-flash/TRY-C-03/score.json",
+      "score_sha256": "daf5eda8383d9ff834275a6afd762ec1962fe6d8bd9aa8ff5359fab8e6a92144",
+      "metadata_path": "models/deepseek-v4-1-flash/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/deepseek-v4-1-flash/BY-E-REPLAN/answer.md",
+      "answer_sha256": "60f1b3955ef131bc08241e7e444eb036a01dd46fc240be2d4624aa2cbdd7f246",
+      "score_path": "models/deepseek-v4-1-flash/BY-E-REPLAN/score.json",
+      "score_sha256": "41587abcb65048bea545e99aa0d113ddc7b6c8ae9aef3764cbe810b4cdbea02a",
+      "metadata_path": "models/deepseek-v4-1-flash/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/deepseek-v4-1-flash/TRY-F-02/answer.md",
+      "answer_sha256": "0aee31c7bdbfb56f6e419afc71534267c2e7c948f33fffd3ddbd30e5009cb721",
+      "score_path": "models/deepseek-v4-1-flash/TRY-F-02/score.json",
+      "score_sha256": "3fdbb80a12d0c6039766204849e92bc62bd375503bfbbc039c8e25e4426c61ee",
+      "metadata_path": "models/deepseek-v4-1-flash/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N02-01",
+      "answer_path": "models/deepseek-v4-1-flash/N02-01/answer.md",
+      "answer_sha256": "4b57151324d9c9397fb3d1763d35fb78b5670673be887431bacb54f089d50afe",
+      "score_path": "models/deepseek-v4-1-flash/N02-01/score.json",
+      "score_sha256": "e6f6d6d5c9998571c295a47dfb5ce2fb2c4a889b1c9a11a3a4da18b71413f670",
+      "metadata_path": "models/deepseek-v4-1-flash/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N03-02",
+      "answer_path": "models/deepseek-v4-1-flash/N03-02/answer.md",
+      "answer_sha256": "9be71ed362424bbf1d68c7bea3599fa1803e3b4fcf61d44a1976fd5a6b7e9add",
+      "score_path": "models/deepseek-v4-1-flash/N03-02/score.json",
+      "score_sha256": "1a4c450b36a6cb15b367fe0e79adbe245d4e01240f28ebc7af8bbb7c12c384b4",
+      "metadata_path": "models/deepseek-v4-1-flash/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N10-01",
+      "answer_path": "models/deepseek-v4-1-flash/N10-01/answer.md",
+      "answer_sha256": "75b1b700d54e5223985884fc4c7f34c6b8d4eae15c5262a2f850299c9f214ddd",
+      "score_path": "models/deepseek-v4-1-flash/N10-01/score.json",
+      "score_sha256": "fb1165b31eae1cd5f925920e1a9f5ed2b5091490d59c37b4062c7e56b350c53b",
+      "metadata_path": "models/deepseek-v4-1-flash/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N13-02",
+      "answer_path": "models/deepseek-v4-1-flash/N13-02/answer.md",
+      "answer_sha256": "80d21f7e41de6f4b24fbd0795612e9e42e979f873f910b9da54ef188eb046e28",
+      "score_path": "models/deepseek-v4-1-flash/N13-02/score.json",
+      "score_sha256": "7c9e8bcf19a89685e58f8d12434f44e8202f2483783d1ddfef7a5abdcdb8b154",
+      "metadata_path": "models/deepseek-v4-1-flash/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N15-01",
+      "answer_path": "models/deepseek-v4-1-flash/N15-01/answer.md",
+      "answer_sha256": "ee624987d6ce388ac3b8417c39ae0a11b2dc8643b8f169fff1b1465f9bdaebdf",
+      "score_path": "models/deepseek-v4-1-flash/N15-01/score.json",
+      "score_sha256": "3ff150e361bdc255cfb3b23ada11367cd2624189a6abc3fbab9b02fbcb071191",
+      "metadata_path": "models/deepseek-v4-1-flash/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "O04-04",
+      "answer_path": "models/deepseek-v4-1-flash/O04-04/answer.md",
+      "answer_sha256": "32527e181229fb7bd629214ef49602d54cfbcc259edd7aec6dbfd7609eb87609",
+      "score_path": "models/deepseek-v4-1-flash/O04-04/score.json",
+      "score_sha256": "dfbee0bfe8bf1eabf9b977170a85ed6fbcfd15aa4bb2344cdefb8cee861ae711",
+      "metadata_path": "models/deepseek-v4-1-flash/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N01-02",
+      "answer_path": "models/deepseek-v4-1-flash/N01-02/answer.md",
+      "answer_sha256": "83f0fc17d442ba824f67c60636a26247b0d01adfbc06c17f05904cf934e0a56a",
+      "score_path": "models/deepseek-v4-1-flash/N01-02/score.json",
+      "score_sha256": "1ddccfce8f823b6ed34d90bd1bc8f87aa26104f5b3ad211931a38e52bc8660ef",
+      "metadata_path": "models/deepseek-v4-1-flash/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N08-02",
+      "answer_path": "models/deepseek-v4-1-flash/N08-02/answer.md",
+      "answer_sha256": "07b799f1879c19f1bc5d602e3ef54d413cd3bd1f73fd4cefaa84d1befdf79e9b",
+      "score_path": "models/deepseek-v4-1-flash/N08-02/score.json",
+      "score_sha256": "3276be2f23d4b255ab4638ea88bd1013a45c19de6288a47ba1d3728dcc7483c4",
+      "metadata_path": "models/deepseek-v4-1-flash/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N16-02",
+      "answer_path": "models/deepseek-v4-1-flash/N16-02/answer.md",
+      "answer_sha256": "60085c1ffc000ef14f4764a00187a5af804db97ddea684e74a474e4cdfd76ee2",
+      "score_path": "models/deepseek-v4-1-flash/N16-02/score.json",
+      "score_sha256": "acd5d4fa7a7acac5fd546256b9169047fcd204c135fb7d7c7973d1df61be2eb4",
+      "metadata_path": "models/deepseek-v4-1-flash/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/BY-B-APPLY/answer.md",
+      "answer_sha256": "5021357309f1dd67b149fdbfdf1fe6764535e45268702d7e2714aea75afb07b2",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/BY-B-APPLY/score.json",
+      "score_sha256": "3b0e931e3880b698b32143c2a626f7149b055d52d1164907695c68bf5d27535c",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/BY-H-APPLY/answer.md",
+      "answer_sha256": "53700d87d3a3535ae3ddfc066572df3bd45407ae20dc5a5b28781266cb34bd7f",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/BY-H-APPLY/score.json",
+      "score_sha256": "6e55080874e5696356efbacc95c96acc5936b09d018a7d7670a627fed55b4f10",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N04-03",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N04-03/answer.md",
+      "answer_sha256": "e54362c38eb99345f79ee2ed55798bcdfd576bfbcbf7275855d82a9619e6dd0d",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N04-03/score.json",
+      "score_sha256": "e03378ab737136bf5358876e27335c878443ad4ca55f982416f37055939d0003",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N06-03",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N06-03/answer.md",
+      "answer_sha256": "f85384a00f363211431b214394aa35e77c64abf564fd895c56e6c4391fb91698",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N06-03/score.json",
+      "score_sha256": "9281b74173771b22fe639679d89926077f6466fe9ae38736d81d731f2212b30b",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N11-03",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N11-03/answer.md",
+      "answer_sha256": "d382ad9f73669fea777fdc0ec08f08d81dd7d78f99776808a8bc2de0a3532072",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N11-03/score.json",
+      "score_sha256": "1db0eb9323b20fdc13d947d21f4db098e2c3fe9a0b86ee28d143f8e1b1d780e1",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N14-03",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N14-03/answer.md",
+      "answer_sha256": "dec43bba85e4bad84ce137ebea210ef724ee3af52f6a2254b3fcee989627b57c",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N14-03/score.json",
+      "score_sha256": "1acf782f4c9aa77668847862f74acd63afccc6ed1345fed7b0abce04c5361731",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/TRY-C-03/answer.md",
+      "answer_sha256": "38aff71131050f1e6684c0a96f0479ca3dc99190c5a5960e473bb2b4c8450be1",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/TRY-C-03/score.json",
+      "score_sha256": "d6e9367305d45748af856df5e7aa3d1cd8710b37d52d89d1b874916e25152caa",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/BY-E-REPLAN/answer.md",
+      "answer_sha256": "c75d14c2eee2dc284a83054f58e277b9566cfd862e8efd9060c60e3063baeb3a",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/BY-E-REPLAN/score.json",
+      "score_sha256": "2083b965c7e6eceb744863aebfa84bace47e707db1c6fdbe03e8966009d8ae03",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/TRY-F-02/answer.md",
+      "answer_sha256": "fabd270c40c0bd694cc4ca5427b734aa71524c7b12212b48caecd36d675b8526",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/TRY-F-02/score.json",
+      "score_sha256": "0313dd57b4f55d0ae418e30219614903ff1e5b9d4bd8fa88cac85475cc9291ae",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N02-01",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N02-01/answer.md",
+      "answer_sha256": "235f21d9a22540d0ed7dc5ed38ce672b08a39390235d3d5638ddde5f770faa8d",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N02-01/score.json",
+      "score_sha256": "8ebc4c0a8422f52b65610bd9ece3a5fa8a1ca6344d09545cf9215e6f505dbaf0",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N03-02",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N03-02/answer.md",
+      "answer_sha256": "66d55de1437c0da9277528303b80b065e02f64a22bae88e25f9a4cc9d739bc6a",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N03-02/score.json",
+      "score_sha256": "36f0e86ef1c3d523c6e1e12a0e68e410ebc50aa9c8e573e7ffec0efb431a8a51",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N10-01",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N10-01/answer.md",
+      "answer_sha256": "c1e2c5eba11ba681daa1c54697834c46e2119fd5a2f2c8503839cd187cba9928",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N10-01/score.json",
+      "score_sha256": "da32866ea81d163ae33d18594b27b6ce706be077c90533630850b26df5116a19",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N13-02",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N13-02/answer.md",
+      "answer_sha256": "2f0f48291b1ad2f437bc5b81300586cf21d306b76b07de38ca931ae4ec5163b3",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N13-02/score.json",
+      "score_sha256": "767d774df98d20d060e29270c4509244fd791d0735c3321c70aa83a91d39bdc8",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N15-01",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N15-01/answer.md",
+      "answer_sha256": "68ed66cad7622d10fea98eb8e1800f938f57d3d4f6b699d6d184d058ea70b67f",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N15-01/score.json",
+      "score_sha256": "d58e38dc716f495dab7fe99023f84bbc78efb70d84c3bee1c45dee526d779a36",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "O04-04",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/O04-04/answer.md",
+      "answer_sha256": "ed47e4f5d113943362d74a7641ff508e1ee745b97ac8e7cdf4dc841e62be02d7",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/O04-04/score.json",
+      "score_sha256": "b83ff97e7b3b4eeb68a7cf09df8b74eedf22c881783b7ee53184943094514b92",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N01-02",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N01-02/answer.md",
+      "answer_sha256": "731e579c5f291b7ebd459d97fa9a366be735af3a62ca2986d7434cc1d200c0a6",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N01-02/score.json",
+      "score_sha256": "8c80fec00d37fecc7466f321f0186e03992482d357007a385f3f7ce44fbb5384",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N08-02",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N08-02/answer.md",
+      "answer_sha256": "a0ce983b20737dad9254b20e6fcff01032a84d132c42b64d0c73830656ef410c",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N08-02/score.json",
+      "score_sha256": "3ac3d4921641ecdf2314f43fc2733875df0afd876d69bfbd75d2bd0dc5f6a76b",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N16-02",
+      "answer_path": "models/antigravity-gemini-3-1-pro-high/N16-02/answer.md",
+      "answer_sha256": "b384957762f2c989fac7e2310615b24062a4c7a0f4ad9e60635be87099376d2a",
+      "score_path": "models/antigravity-gemini-3-1-pro-high/N16-02/score.json",
+      "score_sha256": "7e786b616a65cd9ecd3082e316ed6d02874d218d7c669d6f192ca31605957d01",
+      "metadata_path": "models/antigravity-gemini-3-1-pro-high/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/BY-B-APPLY/answer.md",
+      "answer_sha256": "628fcd005f99c9d4e66ea3506142bfb830c4292174bec767ebbf44a3883a1477",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/BY-B-APPLY/score.json",
+      "score_sha256": "d6eba628634951ca42e718778886073d3ab16d3d95f7381c2b2933b639d7006c",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/BY-H-APPLY/answer.md",
+      "answer_sha256": "7d39e161464aed947d5ac87667194ba7f0d5eb63db39f854ea14b78d8f321f1b",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/BY-H-APPLY/score.json",
+      "score_sha256": "55971d1642a9881ea0a959352c916c7519d39acd6342b0f8efe757ff11fd61b9",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N04-03",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N04-03/answer.md",
+      "answer_sha256": "7e3d71c581057d24ed0c0d96526c5e90f698c2daffb9718f3e1b592947a73203",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N04-03/score.json",
+      "score_sha256": "efe71dc4e57b0f811097d5529c74379c6ef597fd4d72c36d74126d523adf8248",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N06-03",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N06-03/answer.md",
+      "answer_sha256": "08fe38a6af6fe00a984ead950167d43f6a542230f7f199ee30e582aa48cba9f7",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N06-03/score.json",
+      "score_sha256": "43fac86c40048d711c5bfe0bed84e5a0a6f40c6f6ffbc195ece7291eddfc4fe9",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N11-03",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N11-03/answer.md",
+      "answer_sha256": "ae17be736476483231f34043c68781aadc3c7ba364f5b269bb2530fa3dd78a49",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N11-03/score.json",
+      "score_sha256": "d051c38469690fad9b714f8df80e36052b77546af752e481586daa5a73c7029f",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N14-03",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N14-03/answer.md",
+      "answer_sha256": "7f3459e3aeb30555d164450cfec62bfb9c46602c48e09df8031c3c14914e6fc7",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N14-03/score.json",
+      "score_sha256": "3d57a2df30cf11a869e39fa3363567984a90c284a0584e2649caaa2f89ed1779",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/TRY-C-03/answer.md",
+      "answer_sha256": "4fb7c3db46bb2fbb4e350ce903a071de003a603a8e86bb1522de364d19194209",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/TRY-C-03/score.json",
+      "score_sha256": "f269cd3cda2db560eb969ee504d6bd619e0c6fff313cd827fe4e50fe14dd2daf",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/BY-E-REPLAN/answer.md",
+      "answer_sha256": "8a015a8728102f0c715b5f97adc16bbd90e6f06d21182facd3ac76440ab984ee",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/BY-E-REPLAN/score.json",
+      "score_sha256": "98fc3b23abcba5d3c2accb6a002521bebfa41522798ddbfbdb3c29f24668e451",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/TRY-F-02/answer.md",
+      "answer_sha256": "cd159a05b2aa52e76a56c177784782df5cc8cca8e600f9d2e09477e819b684a9",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/TRY-F-02/score.json",
+      "score_sha256": "b3086ad7dd33e771dc08f1d2dfed190bd29f1abee63062e40672927a60b9852b",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N02-01",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N02-01/answer.md",
+      "answer_sha256": "a935df7d6f930121b82f17e38b72946b8a2bf6b37ee50ab93ccb0b166713317f",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N02-01/score.json",
+      "score_sha256": "2b5c6c056d3ea3a910d9f448333db0962ce045666c167a1f6be5c3c783f7f854",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N03-02",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N03-02/answer.md",
+      "answer_sha256": "3967de2db1a1a37619b6fbf905191b0d061d6b107204708241f79c18202792c3",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N03-02/score.json",
+      "score_sha256": "280fd242a4644db38d1c8677b45cd790194dfa7fde94f0bc7a842c30cf36a9d3",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N10-01",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N10-01/answer.md",
+      "answer_sha256": "ef9f990a7420f0afc09fbf67e811efe50dd5f96b47e4a62683f716065b204d55",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N10-01/score.json",
+      "score_sha256": "389c9ad5a129c959b82bef0e7853a22bfa6a12745106393e0d54b116acd312f2",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N13-02",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N13-02/answer.md",
+      "answer_sha256": "928840e4018a49d4b4cbf9e13d38d142b831cd0aea428357c4d36c8993ce9357",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N13-02/score.json",
+      "score_sha256": "5d5a5465893cb6d876ba75730d28facca6f69e97c9587505c6d9dfce0622821c",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N15-01",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N15-01/answer.md",
+      "answer_sha256": "34557018f87ecb24851ed403987b3479fbca524ec9b19e7d2a5b73e26f88899e",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N15-01/score.json",
+      "score_sha256": "2bb0dbfcc287d71ae7c6d2c6b9b054e865ec71f038fd24650e759e06fecc5456",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "O04-04",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/O04-04/answer.md",
+      "answer_sha256": "92df915db6a43bc5850c6687cec34160c3888af25e63614dd078caae45992194",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/O04-04/score.json",
+      "score_sha256": "bc4d5fbbfa412d9c93891c88977a34e7616f5be5188d69b99164601755bae3c3",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N01-02",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N01-02/answer.md",
+      "answer_sha256": "d079ef715450d9e9cdd417b4376127270d31be14cc82fdf34034cc530a855089",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N01-02/score.json",
+      "score_sha256": "2010b228d3e2e7b578d2734b1b3ac79d2f7bf6fc38657696028a11a8350a11e3",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N08-02",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N08-02/answer.md",
+      "answer_sha256": "37a21afc43194b9a3378e2908529187d7c13f5ecfe42b6d6d9f7e80c3728e13c",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N08-02/score.json",
+      "score_sha256": "f851026493007cfb05e4f76600d6497b7ec66db1b5a6e772775bbfc1163f0b9d",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N16-02",
+      "answer_path": "models/antigravity-gemini-3-8-flash-high/N16-02/answer.md",
+      "answer_sha256": "81cfc12da6fadcfb39e5378d1e3b4709c1fc9633c7faf2385362da68c8dea23c",
+      "score_path": "models/antigravity-gemini-3-8-flash-high/N16-02/score.json",
+      "score_sha256": "a58fcf86ca053436027414cb69d755bdc8e860e42eca9242ceead6116e5a2eb6",
+      "metadata_path": "models/antigravity-gemini-3-8-flash-high/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/qwen3-8-max-0902/BY-B-APPLY/answer.md",
+      "answer_sha256": "78fc2f87eaf02154e1524a3c7481f62aaf222cee28745ec5ad514cfd704e64f6",
+      "score_path": "models/qwen3-8-max-0902/BY-B-APPLY/score.json",
+      "score_sha256": "1fe872f3e4e4c1a9d427dc0df2c9153f680ff2570f8b6aee31bcb1412bcd35ea",
+      "metadata_path": "models/qwen3-8-max-0902/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/qwen3-8-max-0902/BY-H-APPLY/answer.md",
+      "answer_sha256": "41da9d7ab2251b578612090d9a89cba259a69a7752f788e687949a9b64834c9d",
+      "score_path": "models/qwen3-8-max-0902/BY-H-APPLY/score.json",
+      "score_sha256": "c474e7e8bba820969879325edc89d5640dd705dc5290bd45283913a4063b7811",
+      "metadata_path": "models/qwen3-8-max-0902/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N04-03",
+      "answer_path": "models/qwen3-8-max-0902/N04-03/answer.md",
+      "answer_sha256": "bfe9491eb43c8debba8684a1483d243b85ac6c27de3d856020631f2380eef833",
+      "score_path": "models/qwen3-8-max-0902/N04-03/score.json",
+      "score_sha256": "e1382f8ff1c14d91d28a382327a00adde47ec0d09aff03161793f02cd7f5c3c9",
+      "metadata_path": "models/qwen3-8-max-0902/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N06-03",
+      "answer_path": "models/qwen3-8-max-0902/N06-03/answer.md",
+      "answer_sha256": "321c9e16df457d67da74b05ce2cd1f60b57492cec59e9d691c71615abe35c4fd",
+      "score_path": "models/qwen3-8-max-0902/N06-03/score.json",
+      "score_sha256": "6c6e3418d024fbb0ba7c5183f0477d737abfad5579c751437e77ae7d008662b1",
+      "metadata_path": "models/qwen3-8-max-0902/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N11-03",
+      "answer_path": "models/qwen3-8-max-0902/N11-03/answer.md",
+      "answer_sha256": "1dececac2222771d2f6c24b8d55aa3e317fcafd0e66b9423f011367abfeef8eb",
+      "score_path": "models/qwen3-8-max-0902/N11-03/score.json",
+      "score_sha256": "80e00503c7cd983b9c7a0121858b60b8dfe9ba840d5037f8c04ce1d9d894db08",
+      "metadata_path": "models/qwen3-8-max-0902/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N14-03",
+      "answer_path": "models/qwen3-8-max-0902/N14-03/answer.md",
+      "answer_sha256": "6a394015b9424221431a6a36cd86f12076518efc412f072f23521e5f3b7ee4c7",
+      "score_path": "models/qwen3-8-max-0902/N14-03/score.json",
+      "score_sha256": "a53c4860af88ea39866a472b85dac4d7976bc930d17a8a927b91c1c33678a014",
+      "metadata_path": "models/qwen3-8-max-0902/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/qwen3-8-max-0902/TRY-C-03/answer.md",
+      "answer_sha256": "04e4ec16acb280200e84d616915ddfa9c251d4c1240b1fba67f1d1f5974d4270",
+      "score_path": "models/qwen3-8-max-0902/TRY-C-03/score.json",
+      "score_sha256": "f74f78d299786c315001bbc60e83f4b33187c19ecce98d29cbbf7910c418c82e",
+      "metadata_path": "models/qwen3-8-max-0902/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/qwen3-8-max-0902/BY-E-REPLAN/answer.md",
+      "answer_sha256": "159b93baae61e968d10fb312a9d4481e95c98591b400e28a2240c238926a1953",
+      "score_path": "models/qwen3-8-max-0902/BY-E-REPLAN/score.json",
+      "score_sha256": "0be018d716722475eb0996e42f6945d656a6ab32443f9b5ae846c96d13b1a905",
+      "metadata_path": "models/qwen3-8-max-0902/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/qwen3-8-max-0902/TRY-F-02/answer.md",
+      "answer_sha256": "012d44c5ecd1b8aa324705cf20d15ff9c42ffe3dbef9414584b68447221ba59d",
+      "score_path": "models/qwen3-8-max-0902/TRY-F-02/score.json",
+      "score_sha256": "b4826795b56191bdb8566c09334e397e55e40907f9605cfe520f0db4b0830e3e",
+      "metadata_path": "models/qwen3-8-max-0902/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N02-01",
+      "answer_path": "models/qwen3-8-max-0902/N02-01/answer.md",
+      "answer_sha256": "0931864f617130918a508204c44f1008ee9ea80c515300508e890b7c1ac21c46",
+      "score_path": "models/qwen3-8-max-0902/N02-01/score.json",
+      "score_sha256": "39ade4c9fc9daaa61a320cfb6992ae30735670f38fbaf729a6913ee6cb9dc78e",
+      "metadata_path": "models/qwen3-8-max-0902/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N03-02",
+      "answer_path": "models/qwen3-8-max-0902/N03-02/answer.md",
+      "answer_sha256": "f38c7bab7240cef9c71998002ee8f4d8d47eb2d07d9c00fd57cc8d5a676d1453",
+      "score_path": "models/qwen3-8-max-0902/N03-02/score.json",
+      "score_sha256": "d615f6d685016ecf948442b68d74a66cb98ce483f310a8338d1dbf9202ec1970",
+      "metadata_path": "models/qwen3-8-max-0902/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N10-01",
+      "answer_path": "models/qwen3-8-max-0902/N10-01/answer.md",
+      "answer_sha256": "b16cd1aa35acf2c47716150f83c7c2b83c22a9cf20419e41a6fc49f52d56a5f9",
+      "score_path": "models/qwen3-8-max-0902/N10-01/score.json",
+      "score_sha256": "1c3e2072a2c3632775e2fb2b91c1968255ca8537779036a6fd9dbfafc4d4e017",
+      "metadata_path": "models/qwen3-8-max-0902/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N13-02",
+      "answer_path": "models/qwen3-8-max-0902/N13-02/answer.md",
+      "answer_sha256": "995967e3347d3022b059d9629a73829d74b1fde1cb9388af8f7d3895c81db3ab",
+      "score_path": "models/qwen3-8-max-0902/N13-02/score.json",
+      "score_sha256": "191e12a30e165167735ae6b236dfbb66a17342a607d3a5b09cbb26b70bd930ee",
+      "metadata_path": "models/qwen3-8-max-0902/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N15-01",
+      "answer_path": "models/qwen3-8-max-0902/N15-01/answer.md",
+      "answer_sha256": "763a4014fe624153c84f0a5b7ff0a84ff16d03cc98a41b46dbc4a90aa0cc5464",
+      "score_path": "models/qwen3-8-max-0902/N15-01/score.json",
+      "score_sha256": "38980aa980859e3478074131143fceaa218eec3f1d03d50bac09ccdfa6000377",
+      "metadata_path": "models/qwen3-8-max-0902/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "O04-04",
+      "answer_path": "models/qwen3-8-max-0902/O04-04/answer.md",
+      "answer_sha256": "800abc4deea618fea6b20c2f0b484bc97e2f3218987cc15243ea747f9358185b",
+      "score_path": "models/qwen3-8-max-0902/O04-04/score.json",
+      "score_sha256": "5677c843e638d723b6d759c43f30c15652860983730b5f43c0f2c3c0a2178264",
+      "metadata_path": "models/qwen3-8-max-0902/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N01-02",
+      "answer_path": "models/qwen3-8-max-0902/N01-02/answer.md",
+      "answer_sha256": "6f91b99e6a136faebbef71b4ac68a43553799dfa876058e2f391c7bf548562b3",
+      "score_path": "models/qwen3-8-max-0902/N01-02/score.json",
+      "score_sha256": "8834af94b769acfa1e8fdb9627870bc11ee9d2f9e84ad78421acf5ecd528b178",
+      "metadata_path": "models/qwen3-8-max-0902/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N08-02",
+      "answer_path": "models/qwen3-8-max-0902/N08-02/answer.md",
+      "answer_sha256": "980c54cc45bd9280eaeaaa60d9b5c865b028790b515bb00e4d7c41a9ba3884e9",
+      "score_path": "models/qwen3-8-max-0902/N08-02/score.json",
+      "score_sha256": "f330c10fe89a0734352f20a2931b2d6db2375073dad45e2fe260df60aed33927",
+      "metadata_path": "models/qwen3-8-max-0902/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "task_id": "N16-02",
+      "answer_path": "models/qwen3-8-max-0902/N16-02/answer.md",
+      "answer_sha256": "f92aeafdf8344bfc6f5c574ff8ce76ab8c9ea9ff9cee5dbc825e5b89f78ce9af",
+      "score_path": "models/qwen3-8-max-0902/N16-02/score.json",
+      "score_sha256": "fe0cd4e9388a1cb9ab1d3e5a827c43a73c249e067f4b0fd8d19c8edd304ae65b",
+      "metadata_path": "models/qwen3-8-max-0902/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/kimi-k3/BY-B-APPLY/answer.md",
+      "answer_sha256": "0b3b719a98f09c8ea4055b3c60512e68543475ce4fc759f89557e7538be7939f",
+      "score_path": "models/kimi-k3/BY-B-APPLY/score.json",
+      "score_sha256": "201b238b6a8c5cbbf038bb701e84cd9d2d14198c96a70df3020140decbb50ee2",
+      "metadata_path": "models/kimi-k3/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/kimi-k3/BY-H-APPLY/answer.md",
+      "answer_sha256": "73ba173d98c3b814266d633dcb56bcebe187cf99884799eb731c63ff532447c0",
+      "score_path": "models/kimi-k3/BY-H-APPLY/score.json",
+      "score_sha256": "30076f289262eb98e62b8a2e58b1e5455f871b68e5e65d5ef073e335a703788c",
+      "metadata_path": "models/kimi-k3/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N04-03",
+      "answer_path": "models/kimi-k3/N04-03/answer.md",
+      "answer_sha256": "a0f78cebf74dcb28919d7a606f5ea16da3a8c1c1aed96143692ca5f2684602fe",
+      "score_path": "models/kimi-k3/N04-03/score.json",
+      "score_sha256": "578daa83fdb6bfc772e791656d43e7a8bb7850063993bed9a8fd505c7381f789",
+      "metadata_path": "models/kimi-k3/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N06-03",
+      "answer_path": "models/kimi-k3/N06-03/answer.md",
+      "answer_sha256": "2157c57d3933319ecca78be89bdbb1cca3324a40b458405687c8a4b7490490a6",
+      "score_path": "models/kimi-k3/N06-03/score.json",
+      "score_sha256": "e6a579db4c2555189b635b883419e3ef42a9d44aa56dfd84ca5e3c9b2363427c",
+      "metadata_path": "models/kimi-k3/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N11-03",
+      "answer_path": "models/kimi-k3/N11-03/answer.md",
+      "answer_sha256": "f6b93d13ffbab27c85161717240ed25baf6032281247a7927d5667c7c101c5ce",
+      "score_path": "models/kimi-k3/N11-03/score.json",
+      "score_sha256": "5131eef17b17ce8503a7becc05e53ff2ac2a181e013174e61ad8e0042b160638",
+      "metadata_path": "models/kimi-k3/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N14-03",
+      "answer_path": "models/kimi-k3/N14-03/answer.md",
+      "answer_sha256": "93e56d16f7574424a8468f814a136e03cfb9e006ad9b527a24ddc5ac1c76b774",
+      "score_path": "models/kimi-k3/N14-03/score.json",
+      "score_sha256": "77a6d4b6293e69adaf85265b7a4ec377829f86be4196175e9919ce7337b62bb8",
+      "metadata_path": "models/kimi-k3/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/kimi-k3/TRY-C-03/answer.md",
+      "answer_sha256": "4fdb82b9c01d2cfe44e82656b9539870b22fbecacc3a0285af7456d67feedf9d",
+      "score_path": "models/kimi-k3/TRY-C-03/score.json",
+      "score_sha256": "2733e500a6b0a0c6a85f8e336171849c9796e2b54c58fae4c4f55365ddebe96d",
+      "metadata_path": "models/kimi-k3/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/kimi-k3/BY-E-REPLAN/answer.md",
+      "answer_sha256": "da301edeae73fa64b97b574b5bee6fd1f97ffd6b8b9d2cd9da6b2fb7380ce13c",
+      "score_path": "models/kimi-k3/BY-E-REPLAN/score.json",
+      "score_sha256": "1e40f2aa4a65abd6d7e4b4988ec7943cd0157bc2b27f4f7984b66d6fe6a47f3b",
+      "metadata_path": "models/kimi-k3/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/kimi-k3/TRY-F-02/answer.md",
+      "answer_sha256": "f86ea8c94c28af7665bb2c9d1b954ddc44c065a3107cf9525267835888613e7a",
+      "score_path": "models/kimi-k3/TRY-F-02/score.json",
+      "score_sha256": "23c156d017e1ed971f0f604b3ae8052acbc4e18c9c895a0f20478fe3eee35532",
+      "metadata_path": "models/kimi-k3/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N02-01",
+      "answer_path": "models/kimi-k3/N02-01/answer.md",
+      "answer_sha256": "8634f6b8b431132b41c8801c092f9de07fe76c30fd91bcaedfafbb4863ec4f2e",
+      "score_path": "models/kimi-k3/N02-01/score.json",
+      "score_sha256": "3bc806c958887ede213d564b704f57e49c9174b2e63cac3c8fe3d7f70c8ccc4d",
+      "metadata_path": "models/kimi-k3/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N03-02",
+      "answer_path": "models/kimi-k3/N03-02/answer.md",
+      "answer_sha256": "86ce8f072a344faf542718e022ac7caadace088bc3718bb08b4e3adb63b3a3a0",
+      "score_path": "models/kimi-k3/N03-02/score.json",
+      "score_sha256": "54c3c058be6176e0d2d85463748b6fa50fe7bc6c8191a4de764f67c2a2075792",
+      "metadata_path": "models/kimi-k3/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N10-01",
+      "answer_path": "models/kimi-k3/N10-01/answer.md",
+      "answer_sha256": "eda16346b2cf9fcc44bc5439b496a70503b2d3834a9afe7ca967ba28594ad799",
+      "score_path": "models/kimi-k3/N10-01/score.json",
+      "score_sha256": "17f8f7675c643fe966c7a5653a6c3e1011ec0342b2ecfc0fa292e42e9f18fb97",
+      "metadata_path": "models/kimi-k3/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N13-02",
+      "answer_path": "models/kimi-k3/N13-02/answer.md",
+      "answer_sha256": "f7ed802fb0d99aae8dabfb012657e7d3489da0cf2cae98908fe75b302584c793",
+      "score_path": "models/kimi-k3/N13-02/score.json",
+      "score_sha256": "66835d1253d5528156c4b3d6e7910ed28f71406424e4af21557457e4907a675c",
+      "metadata_path": "models/kimi-k3/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N15-01",
+      "answer_path": "models/kimi-k3/N15-01/answer.md",
+      "answer_sha256": "fb74e73a2196352734e75cd9048c01f1e4cf3f302150b54e9be25c0a8664cb5d",
+      "score_path": "models/kimi-k3/N15-01/score.json",
+      "score_sha256": "6e2712a4eadda87c1b87aa33d0eee58928750311fdb700b5a49aa17c5115fb01",
+      "metadata_path": "models/kimi-k3/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "O04-04",
+      "answer_path": "models/kimi-k3/O04-04/answer.md",
+      "answer_sha256": "51001e646daa3502f0418a0e239dec5eb0068334ba691f84d2d516844f68b3dc",
+      "score_path": "models/kimi-k3/O04-04/score.json",
+      "score_sha256": "7f120a2405d5efdc8c94e99201d6ee436081c350e72300be6ef1e9ca666aa4bc",
+      "metadata_path": "models/kimi-k3/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N01-02",
+      "answer_path": "models/kimi-k3/N01-02/answer.md",
+      "answer_sha256": "e54ec89184e30812c60fbd3c2bc7ff13515bf7288d98ede67addfdff5e1305a3",
+      "score_path": "models/kimi-k3/N01-02/score.json",
+      "score_sha256": "8315f5f55d845c83851cf4c3973589e2955d7ba283d805a88e1244aba13d3c65",
+      "metadata_path": "models/kimi-k3/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N08-02",
+      "answer_path": "models/kimi-k3/N08-02/answer.md",
+      "answer_sha256": "ac09d7f13254ee9c025bfb195c8ac330caa1a8f68de62ef36be9d8472e129731",
+      "score_path": "models/kimi-k3/N08-02/score.json",
+      "score_sha256": "7ef5404c233e9c7e9d9c7522dad640eac50aade8aa1527acb6dc3ef9627ff8e8",
+      "metadata_path": "models/kimi-k3/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N16-02",
+      "answer_path": "models/kimi-k3/N16-02/answer.md",
+      "answer_sha256": "33c24f1e15af067a1f5ce1b7986ecf57ae29ec784940360dd48469a8bafda103",
+      "score_path": "models/kimi-k3/N16-02/score.json",
+      "score_sha256": "3818cb82523ee314328fdd9e9600f75b754354bab3a11916103e269ca69ceacd",
+      "metadata_path": "models/kimi-k3/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-B-APPLY/answer.md",
+      "answer_sha256": "765e0f77d6698eaa09fdc58af5e6b4aee35342c094db344973eabc502f037970",
+      "score_path": "models/ark-glm-5-3-flash-260828/BY-B-APPLY/score.json",
+      "score_sha256": "88525ae5998c5272cb1983b98a93ea954d9215c6bd1f93f6c304206bc62f3def",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-H-APPLY/answer.md",
+      "answer_sha256": "b84c8abc95b48512f29227abd8886f365759abbc6332ec7274bc19a5e80a5bfd",
+      "score_path": "models/ark-glm-5-3-flash-260828/BY-H-APPLY/score.json",
+      "score_sha256": "c77ad9b2203509cc92471ef00742bcc944350f821d2c59df1af45df0a3e6142f",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N04-03",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N04-03/answer.md",
+      "answer_sha256": "9c703bac80e8d3a4bd86e1ad6c8ce57f8d51d2f23ec52c08fffc95f3146f0334",
+      "score_path": "models/ark-glm-5-3-flash-260828/N04-03/score.json",
+      "score_sha256": "0efade1db3de47504a5cebf00fe21d90c718c62abfbaea49c8ac950ae8430713",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N06-03",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N06-03/answer.md",
+      "answer_sha256": "5189fa5d20ed6bf890f35e57dfa1b9457cc2774f0d8587c5c3de0b457be14f15",
+      "score_path": "models/ark-glm-5-3-flash-260828/N06-03/score.json",
+      "score_sha256": "3071194585e8049912ece3e2a273daec51185458d89698f39a5f7edeaf528ed4",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N11-03",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N11-03/answer.md",
+      "answer_sha256": "72b7ba1fa64e3e64f8ad1379979ca17c53d42d38f1c1f39def0c7131900a5cb3",
+      "score_path": "models/ark-glm-5-3-flash-260828/N11-03/score.json",
+      "score_sha256": "4ee6a80835a7a632358d6f5287a2c353135bafab1551465c6a1e938530af5546",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N14-03",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N14-03/answer.md",
+      "answer_sha256": "17c1cf10c8c981baba1d7a9236ab961424938b73f9962d56d1bd084c09b877d7",
+      "score_path": "models/ark-glm-5-3-flash-260828/N14-03/score.json",
+      "score_sha256": "6118ac4e2edece35e2601392e0360ae83f7caefcdfac50cfcfd980f2cce06057",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-C-03/answer.md",
+      "answer_sha256": "06531da99d30453e28789d4b2ccd3db3968cb323591538a08981b0e520d27138",
+      "score_path": "models/ark-glm-5-3-flash-260828/TRY-C-03/score.json",
+      "score_sha256": "f896dd2038eb29b6b1d780b59ffb7573b70afb392c19936a3f69229b982de98f",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-E-REPLAN/answer.md",
+      "answer_sha256": "19e1c5aa06b4bafd1d9fe1551e09c57d67d32ee37014c46c5446abeaa839095f",
+      "score_path": "models/ark-glm-5-3-flash-260828/BY-E-REPLAN/score.json",
+      "score_sha256": "ed5e4f562a7556e5faf488f5f6a2add8393923956fbfde9b897d8cf8a95a0275",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-F-02/answer.md",
+      "answer_sha256": "9b7a9a9c190cfcea6510b0322ecb85f3323b7c94f0fc6651f103f8e5b9b89137",
+      "score_path": "models/ark-glm-5-3-flash-260828/TRY-F-02/score.json",
+      "score_sha256": "85852c480dab5c8c3d8afd639e9cb1fb9bcf6d32c0182d538cf346cbd599dd5f",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N02-01",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N02-01/answer.md",
+      "answer_sha256": "2576e84f87b8e70d9bd8c0782f4a551358e32682b1ca8aa51a43710515a0c8f7",
+      "score_path": "models/ark-glm-5-3-flash-260828/N02-01/score.json",
+      "score_sha256": "7d18152412fb594ed42ec1616d66ef61ea1d7800dfde01c57e37b1963effa6e9",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N03-02",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N03-02/answer.md",
+      "answer_sha256": "7d5f0fbcf45619bbf1f13b7e87d6c8bbf7b2625a8d90d73cf21064a4cc765ea9",
+      "score_path": "models/ark-glm-5-3-flash-260828/N03-02/score.json",
+      "score_sha256": "64eff5bfdeb9323035b171b15a358f034466f68c7d66d662469ebf7dedbbd1a6",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N10-01",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N10-01/answer.md",
+      "answer_sha256": "46f55ad80638d66710093a33b9515b8bd7e2f4e403fbb5f95fd97a67c387008c",
+      "score_path": "models/ark-glm-5-3-flash-260828/N10-01/score.json",
+      "score_sha256": "2916b1591b9cec7de69c397c64e0f9145c7983540a59ceea91bc0e58249b95fe",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N13-02",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N13-02/answer.md",
+      "answer_sha256": "f93a991cbbf1d7ae0bd8f05eaf781d24d17525e5f354327242c4115c89a43d44",
+      "score_path": "models/ark-glm-5-3-flash-260828/N13-02/score.json",
+      "score_sha256": "d447579db1de918e570d75ac4b1a0cc7d092a899240628f2ab93b9c0c6480aed",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N15-01",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N15-01/answer.md",
+      "answer_sha256": "9bd26b3d75a6107dcea81ec8d857032a9ff1e15007fcb070995b3f5dd5fc3821",
+      "score_path": "models/ark-glm-5-3-flash-260828/N15-01/score.json",
+      "score_sha256": "04a584e6a8d8b89eb12bb4ba61f44a217be4b2f79dadb4f67ea7b3883058b3c3",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "O04-04",
+      "answer_path": "models/ark-glm-5-3-flash-260828/O04-04/answer.md",
+      "answer_sha256": "bc137e8ca77968dd0a6785fc1185d63679ae138be7192fda18c88d7ca4bc690a",
+      "score_path": "models/ark-glm-5-3-flash-260828/O04-04/score.json",
+      "score_sha256": "258a33ed823b8c73a4e721b67f11f93959065381e66e4eb4e7a614f19679ff74",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N01-02",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N01-02/answer.md",
+      "answer_sha256": "91e9d7bbc4f07148d52b95a390f68552386ae9d2294745f99d312420aa74f923",
+      "score_path": "models/ark-glm-5-3-flash-260828/N01-02/score.json",
+      "score_sha256": "590b5137362abf2eb9fcc269a223585624b0ecd6990c00a6834610ee112c5cf8",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N08-02",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N08-02/answer.md",
+      "answer_sha256": "a0b26ddf6199995698dab22504eb057670aae0032d170f6478a073cfe059e9be",
+      "score_path": "models/ark-glm-5-3-flash-260828/N08-02/score.json",
+      "score_sha256": "631b58281670e4746e52e54d09f394eb82382f9a06079c72ca870ea934ccb30a",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "task_id": "N16-02",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N16-02/answer.md",
+      "answer_sha256": "10b37d706a4360e6119fe1d8f429d8bc8c61c83a911c06eeb569ed1d95fdf13e",
+      "score_path": "models/ark-glm-5-3-flash-260828/N16-02/score.json",
+      "score_sha256": "2e287d66494ee0113aca0fc98f05f7d8d737b1d42817bd29149429143a57215f",
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N16-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "BY-B-APPLY",
+      "answer_path": "models/claude-opus-5-5/BY-B-APPLY/answer.md",
+      "answer_sha256": "9701917c49398be1fa5ba2254d19a32106513df6713dbbdce272bed87eda6269",
+      "score_path": "models/claude-opus-5-5/BY-B-APPLY/score.json",
+      "score_sha256": "5dbd05313bd82065b30f9c29c599d2d52272b555bb44baa3e1475ffa2651a8da",
+      "metadata_path": "models/claude-opus-5-5/BY-B-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "BY-H-APPLY",
+      "answer_path": "models/claude-opus-5-5/BY-H-APPLY/answer.md",
+      "answer_sha256": "1a9ddfffa522d275fc455d58519ad6a97f6cd96050440752655e00be239d22db",
+      "score_path": "models/claude-opus-5-5/BY-H-APPLY/score.json",
+      "score_sha256": "d1dc0f1eadb8f06e9d2f253ffea6517ba62c461c4b5e3b6517939060f8f2b4a7",
+      "metadata_path": "models/claude-opus-5-5/BY-H-APPLY/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N04-03",
+      "answer_path": "models/claude-opus-5-5/N04-03/answer.md",
+      "answer_sha256": "dc8cd0ad9b492fadd1f330898c092df4affa78b3de8f8025924da7260ffe6fd7",
+      "score_path": "models/claude-opus-5-5/N04-03/score.json",
+      "score_sha256": "ab2fc2588087799b9de991dc66f3d85c4c2b4282577122593d84b084bbd3da6e",
+      "metadata_path": "models/claude-opus-5-5/N04-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N06-03",
+      "answer_path": "models/claude-opus-5-5/N06-03/answer.md",
+      "answer_sha256": "a7c131128f82776e9f2aefe39fc60f9e1307cc72a2ab7a7541000a53745ba159",
+      "score_path": "models/claude-opus-5-5/N06-03/score.json",
+      "score_sha256": "30b2a292f908894ced5ab8865b9fad66cb701a4059ce47ea7134bfe7b3ea1e4f",
+      "metadata_path": "models/claude-opus-5-5/N06-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N11-03",
+      "answer_path": "models/claude-opus-5-5/N11-03/answer.md",
+      "answer_sha256": "b2c5fbf9f2c3e8c95ca6f847688a7619324667a73fc8b17f5d9ef4207353aa3c",
+      "score_path": "models/claude-opus-5-5/N11-03/score.json",
+      "score_sha256": "a3b873a7a2f5ef5024ce28ab916722ff95f33a6bc835ba7355a2a279201d1067",
+      "metadata_path": "models/claude-opus-5-5/N11-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N14-03",
+      "answer_path": "models/claude-opus-5-5/N14-03/answer.md",
+      "answer_sha256": "48f5d00eb9befacbf13eef6210c1692f2b5e9c8346c339db1f5c64e73cec9e5d",
+      "score_path": "models/claude-opus-5-5/N14-03/score.json",
+      "score_sha256": "81e502d627b3605af96a28808c323a40af9d50c5c4d2838d83dcb1f0bc4db14d",
+      "metadata_path": "models/claude-opus-5-5/N14-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "TRY-C-03",
+      "answer_path": "models/claude-opus-5-5/TRY-C-03/answer.md",
+      "answer_sha256": "0b04565434268e2c89d06a4101f37927134cdddf387d1237731ee9393ed8cf8b",
+      "score_path": "models/claude-opus-5-5/TRY-C-03/score.json",
+      "score_sha256": "61944cd7591d3afa3dda009737af5827c3d2812ae469281a4d38934a6e01d5dc",
+      "metadata_path": "models/claude-opus-5-5/TRY-C-03/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "BY-E-REPLAN",
+      "answer_path": "models/claude-opus-5-5/BY-E-REPLAN/answer.md",
+      "answer_sha256": "57dcc732bde35ae047a1b12a68ab77845bf060866a23febddcfe89f0a836ec09",
+      "score_path": "models/claude-opus-5-5/BY-E-REPLAN/score.json",
+      "score_sha256": "c6415cb2cc07926fd479f845ea1d2e7df960d5a7691c7d259f2ae21ae8e28c85",
+      "metadata_path": "models/claude-opus-5-5/BY-E-REPLAN/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "TRY-F-02",
+      "answer_path": "models/claude-opus-5-5/TRY-F-02/answer.md",
+      "answer_sha256": "a49d6074646ea849cf88a6241ac81ee79d2142570ccfc199be49cf42f7ca4983",
+      "score_path": "models/claude-opus-5-5/TRY-F-02/score.json",
+      "score_sha256": "f89f4bd003ea923c08c668f172a6a1e8ec9e3ffd3f174322ce7a076a7b824c75",
+      "metadata_path": "models/claude-opus-5-5/TRY-F-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N02-01",
+      "answer_path": "models/claude-opus-5-5/N02-01/answer.md",
+      "answer_sha256": "ae5a2598536bd4dd4850e641298d846d4f3a959153977b1ff22a0c4534752996",
+      "score_path": "models/claude-opus-5-5/N02-01/score.json",
+      "score_sha256": "080dab1042cd5ae713e037e8fbdd9be96a8b06631d089039217f281424351cb9",
+      "metadata_path": "models/claude-opus-5-5/N02-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N03-02",
+      "answer_path": "models/claude-opus-5-5/N03-02/answer.md",
+      "answer_sha256": "577a906613c1305f965460c01ea84baade4c2af1c20f1c192905db1da46a0ca3",
+      "score_path": "models/claude-opus-5-5/N03-02/score.json",
+      "score_sha256": "e315bfd8b73f33bd2803e47130ca10f093764fdf939dbcda6314207c5bc498ed",
+      "metadata_path": "models/claude-opus-5-5/N03-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N10-01",
+      "answer_path": "models/claude-opus-5-5/N10-01/answer.md",
+      "answer_sha256": "bf2a2df2c565c124f65e148318eea1641e0019f027d2736f1ddb9f8885da55d3",
+      "score_path": "models/claude-opus-5-5/N10-01/score.json",
+      "score_sha256": "55db1f06d4c2878606305464b093bb632c0318b123e710e841ed3aacd3321efb",
+      "metadata_path": "models/claude-opus-5-5/N10-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N13-02",
+      "answer_path": "models/claude-opus-5-5/N13-02/answer.md",
+      "answer_sha256": "e6fd642885441a001209d6f119c64fb1ac08b106d0e5eaa79cffad4f507517ca",
+      "score_path": "models/claude-opus-5-5/N13-02/score.json",
+      "score_sha256": "51c88e76f033461cba225744903f0c272062737c3b94db072bb03eddf3ac56b5",
+      "metadata_path": "models/claude-opus-5-5/N13-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N15-01",
+      "answer_path": "models/claude-opus-5-5/N15-01/answer.md",
+      "answer_sha256": "268b2b990c85d70188eeebaeb61602274407df588ac1354df17896a2eb898f49",
+      "score_path": "models/claude-opus-5-5/N15-01/score.json",
+      "score_sha256": "0e9e1dbe48935e1206d670793e326c207f8c74489d25d65c73746e83637c07eb",
+      "metadata_path": "models/claude-opus-5-5/N15-01/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "O04-04",
+      "answer_path": "models/claude-opus-5-5/O04-04/answer.md",
+      "answer_sha256": "c20d3d0d419b76e4f3bc0a79d392ef2be36b256f64debd8ef902515f565b7045",
+      "score_path": "models/claude-opus-5-5/O04-04/score.json",
+      "score_sha256": "d7457926c59a13063739be4f8095de05c5ef70c398e44edfc96fecffc28eda3e",
+      "metadata_path": "models/claude-opus-5-5/O04-04/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N01-02",
+      "answer_path": "models/claude-opus-5-5/N01-02/answer.md",
+      "answer_sha256": "9d52f96cf53b6fdcd8af7e085cf7c35d7283e9ac059902ca2a3b53b4977e4739",
+      "score_path": "models/claude-opus-5-5/N01-02/score.json",
+      "score_sha256": "1e7977af885cbb6e14ad98fbcd3fe829e7dae65b8a8cb5b7f9c0c654ac15fde6",
+      "metadata_path": "models/claude-opus-5-5/N01-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N08-02",
+      "answer_path": "models/claude-opus-5-5/N08-02/answer.md",
+      "answer_sha256": "c3adb8d34be733fcec7233f2aa6537322e5bec931f37f9fd5bbcb5a3d1fa71c3",
+      "score_path": "models/claude-opus-5-5/N08-02/score.json",
+      "score_sha256": "b9e3afb8a7797a9b7cbff74099d1621d12c4e810570cd4c40c744a0399c0cfc1",
+      "metadata_path": "models/claude-opus-5-5/N08-02/metadata.json",
+      "answer_status": "completed"
+    },
+    {
+      "agent": "claude-opus-5-5",
+      "task_id": "N16-02",
+      "answer_path": "models/claude-opus-5-5/N16-02/answer.md",
+      "answer_sha256": "854fc51c20291f424a53433b370cc830a91c6e65e5dd85545c32a728da4baff4",
+      "score_path": "models/claude-opus-5-5/N16-02/score.json",
+      "score_sha256": "fcf07511f3bd74405c73de5e1a1dce702ff523d077b803c4087a8d32b9a11c6b",
+      "metadata_path": "models/claude-opus-5-5/N16-02/metadata.json",
+      "answer_status": "completed"
+    }
+  ]
+}

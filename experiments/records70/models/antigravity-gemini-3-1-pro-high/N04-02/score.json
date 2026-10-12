@@ -1,0 +1,145 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "ab5c9222ced078e4138f1d1a0414334ee8602cfa3e330b6c91cf92fe02915e1c",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 65.0
+  },
+  "confirmed_points": 65.0,
+  "diagnostic_score": 65.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N04-02-T1"
+    ],
+    "E2": [
+      "N04-02-T1"
+    ],
+    "E3": [
+      "N04-02-T2"
+    ],
+    "E4": [
+      "N04-02-T3"
+    ],
+    "E5": [
+      "N04-02-T3"
+    ],
+    "E6": [
+      "N04-02-T4"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "[专业人数已概括]若按通常 **12%～15%** 的普通推免比例计算，推免名额大约在 **8～11 个** 之间。你的排位 **前约15%（约占前 约15%）正好处在保研名额的“极度敏感边缘线”**。",
+      "id": "E1",
+      "reason": "S0只披露成绩排名及人数，没有当年学院名额、专业分配或综合遴选规则。以通常比例推估后直接断定学生处于名额边缘，将成绩排序与推免名额排序混用，违反T1明确边界。问题是未成立的个人资格推断，不是已证明实际名额不在8～11；后面的往届细则核查建议不能使此前断言成立。仅归入T1。"
+    },
+    {
+      "answer_quote": "你手上的这批成果（EI一作 + SCI合作作者 + 国家级/校级大创 + 竞赛奖），大概率已经接近或吃满了学院综测科研加分的有效上限。此时即使再多弄出一篇小论文，在校内综测上带来的边际增量几乎为零",
+      "id": "E2",
+      "reason": "S1未提供本学院加分上限、会议论文及二作的认定方式、奖项等级或已确认加分值，不能据成果名称认定接近封顶并推断新增成果几乎无校内收益。应先按当届规则核算，再用条件分支安排课程与论文。此处是未经核实的封顶推论，未断言该学院实际不存在封顶；与E1同归T1，不再影响其他节点。"
+    },
+    {
+      "answer_quote": "六级 450–499 分已完全越过工科推免与外推审查的合格线",
+      "id": "E3",
+      "reason": "考试类型、分数使用正确，但学生没有确定目标项目和培养类型，无法直接认定450–499已经满足全部相关审查条件并无条件停止应试训练。官方当周期材料显示语言条件随项目和学位类型区分，部分还有限定成绩有效期，详见evidence.json的EV1、EV2。两份材料均不证明450–499本身不合格；本错误为以概括性判断替代目标项目门槛核查，缺失是确定的，不挂pending。仅归T2，不因缺链接扣分。"
+    },
+    {
+      "answer_quote": "但目前缺少一份最能定调学术深度的标志性成果。",
+      "id": "E4",
+      "reason": "S0只说课程、论文和英语准备冲突，没有说明已有成果是否存在、质量或发表状态。答卷把未披露成果当成缺少成果，超出当轮证据。应询问或按已有/在写等状态条件处理；判断此错误仅依S0信息，不拿S1披露的EI、SCI反证S0。仅归T3。"
+    },
+    {
+      "answer_quote": "把已有成果（锌电池主持+EI一作、光催化国创+SCI合作作者）的科研细节烂熟于心",
+      "id": "E5",
+      "reason": "S1明确电池校创主持、光催化国创成员和EI一作、SCI合作作者，但未说明两篇论文各对应哪个项目。答卷将EI固定绑定电池、SCI固定绑定光催化并据此构造项目产出闭环，属于未获支持的对应关系。角色与作者位次本身正确，仍可支持部分评分；缺的是核实项目、论文和个人贡献的实际对应。仅归T3，不再因同一绑定问题扣delivery。"
+    },
+    {
+      "answer_quote": "还熟练掌握宏观工艺流程模拟（Aspen）、设备选型及工程图纸规范。",
+      "id": "E6",
+      "reason": "题面只披露参加化工设计比赛及获奖，没有学生本人承担的模块、工具熟练度或队内角色。把团队经历直接当作个人熟练能力证据，缺少分工核验。可以建议从这些模块中选择本人实际完成的工作展示，但不能直接断言全部掌握。仅归T4；不要求学生或答卷猜测未披露的队长身份。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N04-02",
+  "input_sha256": "e36472a9941035e37dd63776227c281932d74fcf7b3cdb120e4c31aaa8915615",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "04043bdc07d6f39501b54bfcd0d663196f82d3dde025851b4fdba3b5067065f6",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N04-02-T1",
+      "kind": "quality",
+      "points": 9.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N04-02-T2",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N04-02-T3",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N04-02-T4",
+      "kind": "quality",
+      "points": 7.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N04-02-T5",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "evidence",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "tradeoff",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "delivery",
+      "kind": "quality",
+      "points": 10.0
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "e37fee323bda59d268ba36362da2b6c6c519ff48b5c1c973196ecb8fb2042187",
+  "score": 65.0,
+  "score_interval": [
+    65.0,
+    65.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N04-02",
+  "task_kind": "planning",
+  "task_sha256": "9069ab153c8458d09d9876155e789e00342b84f8a2c846343c37a1b6629534a7",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已完整审阅S0、S1及visible_history。本题为准备顺序规划，未提出实际院校申请推荐、条件备选、排除或候选提名。内蒙古大学是学生本科背景；S0外推核心竞争力段中的大化所、过程所、天大、华理、浙大仅作为说明论文作用的背景例子，没有对学生提出具体申请选择，不作为候选提取。本题无层次计分节点，无实际推荐院校需要层次判定。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

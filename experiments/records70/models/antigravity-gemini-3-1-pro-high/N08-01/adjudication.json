@@ -1,0 +1,28 @@
+{
+  "schema": "source-bound-post-review-adjudication.1",
+  "task_id": "N08-01",
+  "source_answer_sha256": "27634ee1e2c392b23f52ea0d4734177c76c0ce900fdc22d6ebca9a8442c868c6",
+  "source_original_judgment_sha256": "ff00802c78807bb234b5ecd426d29b87fed658760f4e0fbabc19c5ffc7d47686",
+  "source_original_score_sha256": "bf03f632fa41a7bccadffec7e2a6a2863b5f2fef3ad3abb8709077fa8ddb16a4",
+  "source_adjudicated_judgment_sha256": "bab0cd1c7ffa0d51ddba674acade7b89083b3528d4e537ffd522298087f642d5",
+  "source_adjudicated_score_sha256": "f8d991d4dfb287f71f84c94d8795791e4d904432034e7e46d3b0b902ed59eacc",
+  "original_interval": [
+    42.5,
+    47.5
+  ],
+  "effective_interval": [
+    45.0,
+    45.0
+  ],
+  "pending_nodes": [],
+  "native_arithmetic_replay_verified": true,
+  "new_model_or_cli_review_called": false,
+  "teacher_calibration": "pending",
+  "decisions": [
+    {
+      "node_id": "N08-01-T5",
+      "reason": "围绕雅思6.5的刷分、英文专业问答和双语自我介绍是已成立的具体语言动作，符合半分边界。未给按项目核验学位、费用、培养地及正式语言条件的检查动作，不能满分。新增2027官方目录确认贸大数经四方向非全日制、无推免计划，直接作为推免主攻路径不成立；只归T5，不改变accuracy等已确定节点。",
+      "decision": 0.5
+    }
+  ]
+}

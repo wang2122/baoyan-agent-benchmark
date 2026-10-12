@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N01",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q026",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N01-03",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我是湖南大学智能土木专业的，排名前约9%，四级450–499分，有工程场景机器视觉项目经历，参与过非第一作者论文和专利申请。准备申请推免，你能结合我的情况推荐17个具体的学校、学院和专业（项目）组合，并说说为什么吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "32a12d48c5f8e33f88ac3795e0cd60d99893bfb7e60cba881950f627d4f93179",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

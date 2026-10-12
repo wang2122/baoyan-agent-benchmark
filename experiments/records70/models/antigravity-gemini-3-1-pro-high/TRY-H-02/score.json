@@ -1,0 +1,699 @@
+{
+  "actual_candidate_count": 5,
+  "answer_sha256": "396905f5aceff401eacf11e80447aa04118bff364a523676967448be2798fe7c",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 77.5
+  },
+  "confirmed_points": 77.5,
+  "diagnostic_score": 77.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-01": [
+      "TRY-H-02-L1-06"
+    ],
+    "ERR-02": [
+      "TRY-H-02-L1-06"
+    ],
+    "ERR-03": [
+      "TRY-H-02-L1-06"
+    ],
+    "ERR-04": [
+      "TRY-H-02-L1-06"
+    ],
+    "ERR-05": [
+      "TRY-H-02-L1-06"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "目前这两个项目均按预定节点完成了核心前置工作：在吸附与催化项目中，我们已经完成了三种改性吸附剂的筛选及动态穿透曲线测试，吸附与催化率达到了XX%，目前正在攻关吸附剂的再生循环稳定性；在相关金属材料催化剂项目中，我们完成了水热合成与掺杂比例调试，完成了XRD和BET表征，正在进行电化学工作站的极化曲线与稳定性测试。",
+      "id": "ERR-01",
+      "reason": "题面只披露两个研究主题及项目在中途，未披露吸附剂数量、测试完成情况、合成方法或电催化用途。此段以第一人称已完成状态直接作为应答，未要求按真实情况替换或先询问；XX仅占位吸附与催化率，不能使其余具体进展变为条件方案。将未披露项目阶段性成果补为事实，归L1-06。"
+    },
+    {
+      "answer_quote": "我的第一篇EI会议论文完全由我自己进行英文写作与修改，在这个过程中我精读了数十篇相关领域的SCI顶刊文献",
+      "id": "ERR-02",
+      "reason": "EI会议一作已发表不证明论文语言、独立英文写作修改、阅读数量或文献领域。这是面试示范中无条件代学生陈述的未披露成果角色；没有明确按本人真实经历填充的限定。仅在L1-06处理，不能以此支持英语能力已验证。"
+    },
+    {
+      "answer_quote": "绝对头部成绩，本校保研资格稳固；满足绝大多数985/211高校“双非前3%以内”的推免申报硬门槛。",
+      "id": "ERR-03",
+      "reason": "前约3%能证明高排名，不能单独证明本校推免资格已经稳定取得，也不能推出绝大多数高校统一存在“双非前3%”硬门槛。题面未给本校资格规则与当届接收规则，答卷把优势变成资格保证，申请边界评价过度。官方往届通知只作规则差异的例证（EV-01），不据此宣判学生当届资格不符。归L1-06。"
+    },
+    {
+      "answer_quote": "| **北京化工大学** | 211 / A | 90%+ | 稳健（拿优营并保留硕士资格极稳） | 华北核心；央企研发总部、科研院所资源丰富 | 优势：录取确定性极高，行业血缘认可强，容错率高；<br>痛点：北京生活成本高，大型化工生产研发实体多已外迁。 |",
+      "id": "ERR-04",
+      "reason": "四校百分比胜率及基于同省/行业渊源的确定性断言没有样本、统计方法或适用周期依据；此行90%+与“录取确定性极高”把个人背景优势写成可量化的录取保障。同类天大35%~45%、大工75%~85%、华理65%~75%作为同一申请边界错误合并处理，只归L1-06。没有证据证明某个数字必然为假，也不将“隐形筛选线”当成已核实硬门槛或据此宣判候选invalid。"
+    },
+    {
+      "answer_quote": "兼报中国石油大学（北京）作为无条件托底",
+      "id": "ERR-05",
+      "reason": "明确的额外推荐须提取，但题面未给推免资格确认、当届报名条件或考核结果，不能承诺“无条件”托底。官方2024级学院细则存在资格审查和复试程序（EV-04），仅作历史路径及有条件录取例证，不用于替代题目未给的申请周期。错误是无依据保证，不是学校/项目不存在；保留候选valid，仅在申请边界L1-06处理。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-H-02",
+  "input_sha256": "29fc88de3a1eb7c7401d3a28871b610cd383188552bad62d5f7404faef6e38a6",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "7344844fa51ca3fadf08889321255e0ce17f7005fdfec6f5ab154acb32bf34e4",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "TRY-H-02-L1-01",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-03",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "TRY-H-02-L1-04",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "TRY-H-02-L1-05",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-06",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-H-02-L1-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 5,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_line": 117,
+      "answer_quote": "- **破局钥匙**：纯走系统网申大概率止步于初审；必须在5月份提前联系天大化工学院在工业催化、反应工程或过程系统工程方向有产业横向课题的导师，寄送包含化设成果的个人材料，争取导师向学院推荐免机筛入营。",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "化工学院应用导向导师路线具体，硕士选择与化工/催化经历相关；内部方向不拆成多个独立招生项目。valid仅认定建议内容与身份可成立，不保证当届入营或录取；未知申请年不补定。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_line": 129,
+      "answer_quote": "- **战术建议**：必须作为**第一主选985目标**！在夏令营前精准联系大工精细化工国重室或化工学院的导师，争取直接拿到“优秀营员（优营）”锁定硕士录取。",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "精细化工平台与化工学院导师是同一化工申请路线中的平台/导师指引，未明确另立招生主体，不机械拆分。方向与吸附与催化、催化及工程竞赛相关，内容可成立；不采信地缘胜率或优营锁定承诺，不等于已审计全部年度招生条件。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_line": 140,
+      "answer_quote": "- **战术建议**：如果你未来坚决希望留在华东（上海/苏州/无锡/杭州/宁波等）从事高端应用研发，**华理的实际研发就业性价比超越大连理工**。务必申报其夏令营，重点申报化工学院的化学工程、化学工艺或工业催化方向。",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "feasibility": "原文以化工学院化学工程/工艺或催化研究方向申报夏令营并联系导师；地域是可由学生确认的软偏好，方向路线现实存在（EV-02）。原文未核实当届硕士接收门槛，此处不代补已完成核验。",
+      "key_condition": "未来坚决希望留在上海及长三角从事应用研发时，相对大工提高华理优先级。",
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "按原文“方向”理解化工学院内化学工程、工艺及催化研究，不替答卷创造化学与分子工程学院独立推荐。2023年官方化工导师资料支持催化剂工程、电解液材料研究；工业催化081705另有招生主体并不证明化工学院无相关研究。内容valid，但地域条件只决定相对优先级，不保证当届接收。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_line": 152,
+      "answer_quote": "- **战术建议**：在夏令营早期果断拿下北化的优营资格，给整场保研战役买一份高确定性的“安全保险”，从而彻底放开手脚去冲刺天大、大工和华理。",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [
+        "ERR-04"
+      ],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "全文实际列为保底并讨论超重力、高分子、工业催化等平台，但未落实一个独立招生院系，不为其补造具体申请专业或拆出多个项目。学校级化工相关硕士建议可以成立；90%+与稳获优营不采信，保证性评价错误关联ERR-04并只在L1-06处理。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_line": 269,
+      "answer_quote": "└── 3. 密集填报天大、大工、华理、北化夏令营系统（兼报中国石油大学（北京）作为无条件托底）。",
+      "canonical_candidate_key": "cup_beijing:masters:school_level_unspecified",
+      "error_ids": [
+        "ERR-05"
+      ],
+      "evidence_ids": [
+        "EV-04"
+      ],
+      "label": "中国石油大学（北京）硕士备选（未指明招生院系）",
+      "reason": "全文末段明确兼报，属于实际直接推荐而非背景学校。仅按学校级未指定院系的硕士备选提取，不替答卷补出化学工程与环境学院推荐；官方历史细则只支持存在相关硕士路径。无条件托底错误关联ERR-05，不证明学校路线无效；valid不表示当届资格与录取已审计。",
+      "school_key": "china_university_of_petroleum_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R01",
+      "answer_line": 98,
+      "answer_quote": "【冲刺顶级梦想】 天津大学（化工A+ / 985）",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R01",
+      "answer_line": 100,
+      "answer_quote": "【胜率核心高地】 大连理工大学（化工A / 985）  ←──【重点突破：辽宁省内地缘红利 + 精细化工国重 + 实力互信】",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R01",
+      "answer_line": 102,
+      "answer_quote": "【研发资源高地】 华东理工大学（化工A+ / 211） ←──【战略主选：上海长三角研发外企/巨头直通车，工程实践极度青睐】",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-R01",
+      "answer_line": 104,
+      "answer_quote": "【安全兜底基石】 北京化工大学（化工A / 211）",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A04的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R02",
+      "answer_line": 152,
+      "answer_quote": "- **战术建议**：在夏令营早期果断拿下北化的优营资格，给整场保研战役买一份高确定性的“安全保险”，从而彻底放开手脚去冲刺天大、大工和华理。",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R02",
+      "answer_line": 152,
+      "answer_quote": "- **战术建议**：在夏令营早期果断拿下北化的优营资格，给整场保研战役买一份高确定性的“安全保险”，从而彻底放开手脚去冲刺天大、大工和华理。",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R02",
+      "answer_line": 152,
+      "answer_quote": "- **战术建议**：在夏令营早期果断拿下北化的优营资格，给整场保研战役买一份高确定性的“安全保险”，从而彻底放开手脚去冲刺天大、大工和华理。",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R03",
+      "answer_line": 160,
+      "answer_quote": "| **天津大学** | 985 / A+ | 35% ~ 45%（受制于六级与双非排位） | 极高（学硕名额极少，倾向直博） | 环渤海核心，全国认可；北方顶级研发中心通吃 | 优势：名气顶格；<br>痛点：机筛严苛，六级425–449在双非PK中劣势明显。 |",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [
+        "ERR-04"
+      ],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R03",
+      "answer_line": 161,
+      "answer_quote": "| **大连理工大学** | 985 / A | 75% ~ 85%（地缘加成极高） | 中等偏上（专硕/学硕胜率均可观） | 东北龙头，辐射全国；在大连、山东、华东均极具认可度 | 优势：省内生源互信深，课题与工程背景极度契合；<br>痛点：大连本地高端研发中心较长三角偏少。 |",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [
+        "ERR-04"
+      ],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R03",
+      "answer_line": 162,
+      "answer_quote": "| **华东理工大学** | 211 / A+ | 65% ~ 75% | 较高（长三角竞争激烈，专硕容量大） | **长三角研发极品高地**；外企与民企研发岗资源最丰富 | 优势：长三角研发就业无敌，极其看重工程设计竞赛；<br>痛点：纯体制内/某些人才引进政策对211抬头稍有偏见。 |",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [
+        "ERR-04"
+      ],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-R02",
+      "answer_line": 163,
+      "answer_quote": "| **北京化工大学** | 211 / A | 90%+ | 稳健（拿优营并保留硕士资格极稳） | 华北核心；央企研发总部、科研院所资源丰富 | 优势：录取确定性极高，行业血缘认可强，容错率高；<br>痛点：北京生活成本高，大型化工生产研发实体多已外迁。 |",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [
+        "ERR-04"
+      ],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A04的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R04",
+      "answer_line": 176,
+      "answer_quote": "├── 7-8月：夏令营梯度防守 ── 天大(冲) + 大工/华理(主) + 北化(保)",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R04",
+      "answer_line": 176,
+      "answer_quote": "├── 7-8月：夏令营梯度防守 ── 天大(冲) + 大工/华理(主) + 北化(保)",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R04",
+      "answer_line": 176,
+      "answer_quote": "├── 7-8月：夏令营梯度防守 ── 天大(冲) + 大工/华理(主) + 北化(保)",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-R03",
+      "answer_line": 176,
+      "answer_quote": "├── 7-8月：夏令营梯度防守 ── 天大(冲) + 大工/华理(主) + 北化(保)",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A04的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R05",
+      "answer_line": 267,
+      "answer_quote": "├── 1. 精准锁定大连理工（精细化工/工业催化）和华东理工（化学工程/工业催化）导师，发送定制套磁信；",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。原文只作研究方向并列，未明确独立学位/招生路径。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R05",
+      "answer_line": 267,
+      "answer_quote": "├── 1. 精准锁定大连理工（精细化工/工业催化）和华东理工（化学工程/工业催化）导师，发送定制套磁信；",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。原文只作研究方向并列，未明确独立学位/招生路径。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R05",
+      "answer_line": 268,
+      "answer_quote": "├── 2. 尝试联系天津大学应用导向导师，探寻推荐入营可能性；",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R06",
+      "answer_line": 269,
+      "answer_quote": "└── 3. 密集填报天大、大工、华理、北化夏令营系统（兼报中国石油大学（北京）作为无条件托底）。",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R06",
+      "answer_line": 269,
+      "answer_quote": "└── 3. 密集填报天大、大工、华理、北化夏令营系统（兼报中国石油大学（北京）作为无条件托底）。",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R06",
+      "answer_line": 269,
+      "answer_quote": "└── 3. 密集填报天大、大工、华理、北化夏令营系统（兼报中国石油大学（北京）作为无条件托底）。",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-R04",
+      "answer_line": 269,
+      "answer_quote": "└── 3. 密集填报天大、大工、华理、北化夏令营系统（兼报中国石油大学（北京）作为无条件托底）。",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A04的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-R05",
+      "answer_line": 272,
+      "answer_quote": "├── 1. 7月上旬：在北化夏令营锁定第一个稳妥“优秀营员”硕士名额，建立心理安全垫；",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A04的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R07",
+      "answer_line": 273,
+      "answer_quote": "├── 2. 7月中下旬：全力以赴攻坚大工与华理夏令营，利用工程设计与安全竞赛成果在面试中拿下优营；",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R07",
+      "answer_line": 273,
+      "answer_quote": "├── 2. 7月中下旬：全力以赴攻坚大工与华理夏令营，利用工程设计与安全竞赛成果在面试中拿下优营；",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R07",
+      "answer_line": 274,
+      "answer_quote": "└── 3. 8-9月预推免阶段：若天大夏令营未入营，利用化设与大创成果在天大预推免中发起二次冲刺。",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "feasibility": "原文明确下一批次尝试；EV-01支持往届未入营仍可申请9月推免面试的路径，具有现实可行性，但学生当届年份未给，原文也未核验当届开放时间和硕士名额。不是把当前运行年份机会倒填题目。",
+      "key_condition": "天津大学夏令营未入营，转向其8—9月预推免阶段再次尝试。",
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-R08",
+      "answer_line": 278,
+      "answer_quote": "作为辽石化前3%的拔尖学子，你手握全国化工设计与安全设计的“双国奖”顶配工程背书，已经远远甩开了绝大多数只会纸上谈兵的竞争者。六级425–449只是一个微小的瑕疵，绝不可能掩盖你卓越的工程实操与研发潜力。以**大连理工为攻坚王牌，以华东理工为战略要塞，全力冲刺天大，稳妥兜底北化**，坚定选择**现代化学工程与高价值电子化学品/新能源交叉领域**，你必将在中国高阶工业研发的舞台上大放异彩！",
+      "canonical_candidate_key": "tju:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "label": "天津大学化工学院硕士路线（工业催化/反应工程/过程系统等方向）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A01的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "tianjin_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-R08",
+      "answer_line": 278,
+      "answer_quote": "作为辽石化前3%的拔尖学子，你手握全国化工设计与安全设计的“双国奖”顶配工程背书，已经远远甩开了绝大多数只会纸上谈兵的竞争者。六级425–449只是一个微小的瑕疵，绝不可能掩盖你卓越的工程实操与研发潜力。以**大连理工为攻坚王牌，以华东理工为战略要塞，全力冲刺天大，稳妥兜底北化**，坚定选择**现代化学工程与高价值电子化学品/新能源交叉领域**，你必将在中国高阶工业研发的舞台上大放异彩！",
+      "canonical_candidate_key": "dlut:chemical_engineering:fine_chemicals_catalysis:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-05"
+      ],
+      "label": "大连理工大学化工学院/精细化工平台硕士路线",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A02的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "dalian_university_of_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-R08",
+      "answer_line": 278,
+      "answer_quote": "作为辽石化前3%的拔尖学子，你手握全国化工设计与安全设计的“双国奖”顶配工程背书，已经远远甩开了绝大多数只会纸上谈兵的竞争者。六级425–449只是一个微小的瑕疵，绝不可能掩盖你卓越的工程实操与研发潜力。以**大连理工为攻坚王牌，以华东理工为战略要塞，全力冲刺天大，稳妥兜底北化**，坚定选择**现代化学工程与高价值电子化学品/新能源交叉领域**，你必将在中国高阶工业研发的舞台上大放异彩！",
+      "canonical_candidate_key": "ecust:chemical_engineering_college:masters",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ],
+      "label": "华东理工大学化工学院硕士路线（化学工程/工艺及催化研究）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A03的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "east_china_university_of_science_and_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-R06",
+      "answer_line": 278,
+      "answer_quote": "作为辽石化前3%的拔尖学子，你手握全国化工设计与安全设计的“双国奖”顶配工程背书，已经远远甩开了绝大多数只会纸上谈兵的竞争者。六级425–449只是一个微小的瑕疵，绝不可能掩盖你卓越的工程实操与研发潜力。以**大连理工为攻坚王牌，以华东理工为战略要塞，全力冲刺天大，稳妥兜底北化**，坚定选择**现代化学工程与高价值电子化学品/新能源交叉领域**，你必将在中国高阶工业研发的舞台上大放异彩！",
+      "canonical_candidate_key": "buct:masters:school_level_unspecified",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "北京化工大学硕士申请（未明确独立招生院系）",
+      "reason": "同一独立候选的梯度、比较或行动复现，沿用A04的招生路径内容判断，不新增项目、不补造院系。个人精确胜率与录取保证不获认可；项目身份有效不代表当届招录条件已经核验。",
+      "school_key": "beijing_university_of_chemical_technology",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "8d964d27ee4a93036d2d608b1531bdd02005275fa9b7634f269a080a18f81b2a",
+  "score": 77.5,
+  "score_interval": [
+    77.5,
+    77.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-H-02",
+  "task_kind": "planning",
+  "task_sha256": "99c021b5dff4089347f6228f08b39680c7d002b49fa43ab0b92775a4c3df0f3c",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题无school_tier评分节点；仅记录实际推荐五校与辽石化本科基准的层次关系，不额外扣层次分。已审阅全文：辽石化是本科背景；就业企业与石科院/抚研院/北化院作为未来就业单位，不是推免推荐；材料学院、理论/纳米课题与导师类型的排除均未指明学校或独立招生项目，不能补造候选。四校的段落标题及其他学科/就业背景讨论不再作为新候选；实际申请建议、条件建议、梯度/表格和末段复现已归并，独立候选为五条学校/路径组合。",
+    "schools": [
+      {
+        "answer_quote": "- **破局钥匙**：纯走系统网申大概率止步于初审；必须在5月份提前联系天大化工学院在工业催化、反应工程或过程系统工程方向有产业横向课题的导师，寄送包含化设成果的个人材料，争取导师向学院推荐免机筛入营。",
+        "downgraded": false,
+        "reason": "985高校，相对于辽宁石油化工大学其他本科高校基准未降级；本题不按层次另扣分。",
+        "school_key": "tianjin_university"
+      },
+      {
+        "answer_quote": "- **战术建议**：必须作为**第一主选985目标**！在夏令营前精准联系大工精细化工国重室或化工学院的导师，争取直接拿到“优秀营员（优营）”锁定硕士录取。",
+        "downgraded": false,
+        "reason": "985高校，相对于辽宁石油化工大学其他本科高校基准未降级；本题不按层次另扣分。",
+        "school_key": "dalian_university_of_technology"
+      },
+      {
+        "answer_quote": "- **战术建议**：如果你未来坚决希望留在华东（上海/苏州/无锡/杭州/宁波等）从事高端应用研发，**华理的实际研发就业性价比超越大连理工**。务必申报其夏令营，重点申报化工学院的化学工程、化学工艺或工业催化方向。",
+        "downgraded": false,
+        "reason": "211（非985）高校，相对于辽宁石油化工大学其他本科高校基准未降级；本题不按层次另扣分。",
+        "school_key": "east_china_university_of_science_and_technology"
+      },
+      {
+        "answer_quote": "- **战术建议**：在夏令营早期果断拿下北化的优营资格，给整场保研战役买一份高确定性的“安全保险”，从而彻底放开手脚去冲刺天大、大工和华理。",
+        "downgraded": false,
+        "reason": "211（非985）高校，相对于辽宁石油化工大学其他本科高校基准未降级；本题不按层次另扣分。",
+        "school_key": "beijing_university_of_chemical_technology"
+      },
+      {
+        "answer_quote": "└── 3. 密集填报天大、大工、华理、北化夏令营系统（兼报中国石油大学（北京）作为无条件托底）。",
+        "downgraded": false,
+        "reason": "211（非985）高校，相对于辽宁石油化工大学其他本科高校基准未降级；本题不按层次另扣分。",
+        "school_key": "china_university_of_petroleum_beijing"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

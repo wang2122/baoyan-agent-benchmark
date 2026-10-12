@@ -1,0 +1,82 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "BY-A-PLAN",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "分清本科推免资格与接收申请，指出需核本学院、专业和届别规则；未知政策给核验办法，不用2026附件倒填2024。",
+      "grading": "three_level",
+      "half_credit": "已分清资格与接收且提出核规则，但适用届别或具体核验办法不完整。",
+      "id": "BY-A-PLAN-R10-01",
+      "label": "推免资格与适用规则",
+      "points": 10
+    },
+    {
+      "full_credit": "处理当前成绩、排名等信息缺口，以本校资格为目标确定薄弱或高学分课程重点，给具体学习动作，并优先保护课程投入。",
+      "grading": "three_level",
+      "half_credit": "成绩与排名优先判断正确，且有可执行学习动作，但课程重点、检查方式或投入取舍不完整。",
+      "id": "BY-A-PLAN-R10-02",
+      "label": "成绩目标与提升行动",
+      "points": 35
+    },
+    {
+      "full_credit": "确认英语起点，提出有针对性的备考及检查安排，区分资格硬要求与申请竞争力，不设无依据统一分数线。",
+      "grading": "three_level",
+      "half_credit": "已有针对英语弱项的具体备考建议，但起点诊断、目标依据或检查安排不完整。",
+      "id": "BY-A-PLAN-R10-03",
+      "label": "英语准备",
+      "points": 15
+    },
+    {
+      "full_credit": "建议联系能源、材料相关老师入组，说明如何介绍兴趣能力，并提出与本专业有关的入门研究任务。",
+      "grading": "three_level",
+      "half_credit": "已明确联系相关老师并给一个具体入组动作，但能力介绍或研究任务与专业的联系不足。",
+      "id": "BY-A-PLAN-R10-04",
+      "label": "联系老师入组与研究任务",
+      "points": 12
+    },
+    {
+      "full_credit": "提出大创准备，并联系课题组或研究资源说明选题、指导及申报的可行起步，不保证立项。",
+      "grading": "three_level",
+      "half_credit": "明确提出大创且有选题、联系指导或申报中的具体动作，但研究衔接或实施安排不完整。",
+      "id": "BY-A-PLAN-R10-05",
+      "label": "大创准备",
+      "points": 8
+    },
+    {
+      "full_credit": "将节能减排列为建议或具体条件候选，解释专业适配，核本校认可，并依据队伍、指导及时间决定投入或暂缓。",
+      "grading": "three_level",
+      "half_credit": "已具体评估节能减排及专业适配，但校内认可核验、资源条件或时间取舍不完整。",
+      "id": "BY-A-PLAN-R10-06",
+      "label": "节能减排竞赛及投入取舍",
+      "points": 15
+    },
+    {
+      "full_credit": "给课程优先的准备顺序和可检查的近期节点，进度变化时说明调整方向。",
+      "grading": "three_level",
+      "half_credit": "已有合理顺序或具体检查节点，但另一部分或调整办法不完整。",
+      "id": "BY-A-PLAN-R10-07",
+      "label": "阶段安排与检查",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

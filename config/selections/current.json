@@ -1,0 +1,1181 @@
+{
+  "case_group_count": 23,
+  "case_group_counts": {
+    "student-A": 4,
+    "student-B": 3,
+    "student-C": 4,
+    "student-D": 2,
+    "student-E": 5,
+    "student-F": 3,
+    "student-G": 3,
+    "student-H": 3,
+    "student-N01": 3,
+    "student-N02": 3,
+    "student-N03": 3,
+    "student-N04": 3,
+    "student-N05": 3,
+    "student-N06": 3,
+    "student-N08": 3,
+    "student-N09": 3,
+    "student-N10": 3,
+    "student-N11": 2,
+    "student-N12": 3,
+    "student-N13": 2,
+    "student-N14": 3,
+    "student-N15": 3,
+    "student-N16": 3
+  },
+  "counts": {
+    "planning_single": 36,
+    "recommendation_single": 21,
+    "staged": 13
+  },
+  "difficulty_approval": "owner_confirmed_2026-10-12",
+  "difficulty_approval_file": "config/difficulty/current70-owner-approved.csv",
+  "difficulty_approval_sha256": "9afa28c81d2f6a89e01487080f82cb04ac59a7cce886691973cf646ded483c57",
+  "difficulty_counts": {
+    "easy": 14,
+    "hard": 22,
+    "medium": 34
+  },
+  "id": "current",
+  "label": "当前题目与评分版本",
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "source_document": "data/questions-and-scoring.md",
+  "source_document_sha256": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
+  "source_files_sha256": {
+    "data/dev/manifest.json": "ebe55a95232e87bb59b89f82fded5159917d733d2e6311c6cdd78df06e728fea",
+    "data/questions-and-scoring.md": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
+    "data/staged-dev/manifest.json": "f34df70911357b6210150f2f0bbd8f8192cdac986842b88576ba52aa1dfaed09",
+    "docs/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374"
+  },
+  "source_version": "1.0.2+privacy-v16-public70",
+  "split": "dev",
+  "stage_count": 83,
+  "task_count": 70,
+  "task_ids": [
+    "BY-A-PLAN",
+    "BY-A-APPLY",
+    "TRY-A-03",
+    "BY-B-APPLY",
+    "TRY-B-02",
+    "TRY-B-03",
+    "BY-C-WINTER",
+    "BY-C-APPLY",
+    "TRY-C-03",
+    "TRY-D-02",
+    "BY-E-APPLY",
+    "TRY-E-02",
+    "TRY-E-03",
+    "BY-F-APPLY",
+    "TRY-F-02",
+    "TRY-G-01",
+    "TRY-G-02",
+    "BY-H-APPLY",
+    "TRY-H-02",
+    "BY-G-APPLY",
+    "BY-E-REPLAN",
+    "BY-E-PREP",
+    "N01-01",
+    "N01-03",
+    "N02-01",
+    "N02-02",
+    "N02-03",
+    "N03-01",
+    "N03-02",
+    "N03-03",
+    "N04-01",
+    "N04-03",
+    "N05-01",
+    "N05-03",
+    "N06-01",
+    "N06-02",
+    "N06-03",
+    "N08-01",
+    "N08-03",
+    "N09-01",
+    "N09-03",
+    "N10-01",
+    "N10-02",
+    "N10-03",
+    "N11-03",
+    "N12-01",
+    "N12-03",
+    "N13-02",
+    "N13-03",
+    "N14-01",
+    "N14-02",
+    "N14-03",
+    "N15-01",
+    "N15-03",
+    "N16-01",
+    "N16-03",
+    "O08-02",
+    "N01-02",
+    "N04-02",
+    "N05-02",
+    "N08-02",
+    "N09-02",
+    "N11-02",
+    "N12-02",
+    "N15-02",
+    "N16-02",
+    "O01-04",
+    "O03-04",
+    "O04-04",
+    "O06-02"
+  ],
+  "tasks": [
+    {
+      "case_group_id": "student-A",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "cd6f07d13e8f00dfdde428890b20744fcf0a4eea07092a21065402ef660f9c32",
+        "task": "97df3cb37dd1f3ed40347d9a8b94de1bcaaa3d672e43512a882decec57797200"
+      },
+      "question_id": "Q001",
+      "rubric_path": "data/dev/BY-A-PLAN/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-A-PLAN",
+      "task_path": "data/dev/BY-A-PLAN/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "8cf5cd8164fc2c9d47e3101855a9d703ffad01178e49fba745ddb206f68c83f3",
+        "task": "a03832cd5962b4537b5e9bf36941089d95c32e0904235b805872662b81dd2272"
+      },
+      "question_id": "Q002",
+      "rubric_path": "data/dev/BY-A-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-A-APPLY",
+      "task_path": "data/dev/BY-A-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "ed868793759fc6194a5fca8244ac973658bd058bff1241ddab195384a65dbcaa",
+        "task": "52852c5a7758a5a9e70c88a554600d0cb6c82341d059f140d6346576ff3e256c"
+      },
+      "question_id": "Q003",
+      "rubric_path": "data/dev/TRY-A-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-A-03",
+      "task_path": "data/dev/TRY-A-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-B",
+      "category": "recommendation_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "c37d8cf972c9732ca415d0e5096d7a891803e5521ec67590e4c99ce0bd9e39c7",
+        "task": "70b9c96765f497ba41983b73c434acac6b0c49d4fda0232c33fe2adc5def5aaa"
+      },
+      "question_id": "Q004",
+      "rubric_path": "data/dev/BY-B-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-B-APPLY",
+      "task_path": "data/dev/BY-B-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-B",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "da38fd1d15ff929817f308236e5a6d4f9989fe99dad217f48f44dc96e8c22577",
+        "task": "401a5f0845845da85e34d7681f24b6193a4a5fc66825b000ce47db25253354ac"
+      },
+      "question_id": "Q005",
+      "rubric_path": "data/dev/TRY-B-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-B-02",
+      "task_path": "data/dev/TRY-B-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-B",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "dfd39e18993a39f3ddd9e70877bb6d3be4f9d89f5fcb14e72edf73b0d7f958bc",
+        "task": "9935a2a0a20998be80ecb3b8c67bd81ad78eaf6137b69660e1d0005b49d9971e"
+      },
+      "question_id": "Q006",
+      "rubric_path": "data/dev/TRY-B-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-B-03",
+      "task_path": "data/dev/TRY-B-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "ab982e45c5ff59da79f3e28b48b20453471d662168610dcf63bc4613ae11c2ae",
+        "task": "0481f2c6ea49955eea8fddab113732689b819cc32ed1cd128edf5db7b415c7f4"
+      },
+      "question_id": "Q007",
+      "rubric_path": "data/dev/BY-C-WINTER/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-C-WINTER",
+      "task_path": "data/dev/BY-C-WINTER/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "85962d132b5927fba28ebe1e91dc5383efd2355c3091450f78562331180e292a",
+        "task": "0839bfd3109df64370e905eacd9a94f1a6651c3d0d1c5e55140d96db4aebba1e"
+      },
+      "question_id": "Q008",
+      "rubric_path": "data/dev/BY-C-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-C-APPLY",
+      "task_path": "data/dev/BY-C-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "4282622f8530d8ff9eb5b9dc69148af28f1c73c59369009aed8bcbf154d712e3",
+        "task": "189f0deff5b6cd69254bf72b9409ba4f0749f5add8785427032ccca410d2b359"
+      },
+      "question_id": "Q009",
+      "rubric_path": "data/dev/TRY-C-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-C-03",
+      "task_path": "data/dev/TRY-C-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-D",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "12be5bbce2834213f7a136cd1b4088ed8b0782312aa5798a68d31ba56be132a9",
+        "task": "499e716a101aa9911cc4467f327a3ef27fa00be61c9495ce14fd466f9e1fe522"
+      },
+      "question_id": "Q011",
+      "rubric_path": "data/dev/TRY-D-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-D-02",
+      "task_path": "data/dev/TRY-D-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "c95123e41d8558f8aa54b6b785b72511391a5952e89c4fee24eae3e154b9e8e6",
+        "task": "2ab031c76d289227d251f1c08e239cd7fc6c0b0626eafb4b54b797a73a2e71b8"
+      },
+      "question_id": "Q012",
+      "rubric_path": "data/dev/BY-E-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-APPLY",
+      "task_path": "data/dev/BY-E-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
+        "task": "c5136d7baae297d5461bfef159cfe92785f7bdd824a2db57c82ab10155758796"
+      },
+      "question_id": "Q013",
+      "rubric_path": "data/dev/TRY-E-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-E-02",
+      "task_path": "data/dev/TRY-E-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "0a1e32217d45ab977656d4876cc1bf4685e7597d96ea4dc66d8b488f864a3261",
+        "task": "b7568418e3bacd87d2349fac7b61c7ca3961898fa5761527d0e5d323ec803a23"
+      },
+      "question_id": "Q014",
+      "rubric_path": "data/dev/TRY-E-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-E-03",
+      "task_path": "data/dev/TRY-E-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "b42f8b13cf3ac28734f9b425593dada65fbab425bc2b04c623288f1890aa7916",
+        "task": "276bc03047b5da9d7868e97ac496331973da85b086fa03f25106f1ba454e3fdb"
+      },
+      "question_id": "Q015",
+      "rubric_path": "data/dev/BY-F-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-F-APPLY",
+      "task_path": "data/dev/BY-F-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "4a1ebb8234c48ae7b9ffcc268c104b5a1053614d40aa4ba156b1997cb1c338a5",
+        "task": "29e15a39e62fd521c7196910f45d426ebb8ed038e1488b3d99f39efcc71bad33"
+      },
+      "question_id": "Q016",
+      "rubric_path": "data/dev/TRY-F-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-F-02",
+      "task_path": "data/dev/TRY-F-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "31f05476783e758695c3e2deca4278830921fc3eab2181551851f94d3dd54b0b",
+        "task": "6266169ff8b352f1e0660fa7cd1dc3f7021e5fa5cf55a52bb151e6dfc2b1ec0a"
+      },
+      "question_id": "Q017",
+      "rubric_path": "data/dev/TRY-G-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-G-01",
+      "task_path": "data/dev/TRY-G-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "64381d0de423dbc6509dc088f010f2c896b05fe340c67564849c658fecf81018",
+        "task": "7685ac6caff8f6c65ca2b95642179bd34163f867bf86cbbf7ed937e5c7dd0f65"
+      },
+      "question_id": "Q018",
+      "rubric_path": "data/dev/TRY-G-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-G-02",
+      "task_path": "data/dev/TRY-G-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-H",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "03e78697492915a9582d83792e5a5af967c802221d575552e714f1cc4c4cff25",
+        "task": "3e165f21926f86a70949eaf8e279d1d0018424254a907bfffc5691ca6ee078dd"
+      },
+      "question_id": "Q019",
+      "rubric_path": "data/dev/BY-H-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-H-APPLY",
+      "task_path": "data/dev/BY-H-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-H",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "7d23b9636b4e6625b7baccd5c69aef9c2f82e0957aa7455b8f0b3530997188cd",
+        "task": "200e6d367150cb4d39e543b8f24af51969e9c0715ea3b35bfa147b74e9cad6fa"
+      },
+      "question_id": "Q020",
+      "rubric_path": "data/dev/TRY-H-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-H-02",
+      "task_path": "data/dev/TRY-H-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "221912891ae406bf39790ec59d7ad7c2c58d7bc9c4e1f61193957fcbead06e11",
+        "task": "a2bf46349451647cc74bdfb285ab16412c069804ec07b89c112ca69758592d47"
+      },
+      "question_id": "Q021",
+      "rubric_path": "data/dev/BY-G-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-G-APPLY",
+      "task_path": "data/dev/BY-G-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "6acf9e98a08d60572df6e058820127e76076de771b47ae3aa293043ab0122631",
+        "task": "a4825901fc0d98bd3932dbdc07ef5deff2dea2efe81e388c866c566fa897e752"
+      },
+      "question_id": "Q023",
+      "rubric_path": "data/dev/BY-E-REPLAN/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-REPLAN",
+      "task_path": "data/dev/BY-E-REPLAN/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "931dc97ea06be9c18bfa6ed53ccbb90b54ec6a32d339980240044f551500c201",
+        "task": "29e71d88c9555a10d41434b62e9b09b418eec15ad3cde7238a202dbee68f3f25"
+      },
+      "question_id": "Q024",
+      "rubric_path": "data/dev/BY-E-PREP/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-PREP",
+      "task_path": "data/dev/BY-E-PREP/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N01",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "e8bd7ae9fd3f87aa65547f4f380baa996d89abbaf24f6cecbf8fa30f0546a42f",
+        "task": "071e09a7fc13b9bcc6875c34c8a5348bf395efe285cb8035d37df258d6a1e209"
+      },
+      "question_id": "Q025",
+      "rubric_path": "data/dev/N01-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N01-01",
+      "task_path": "data/dev/N01-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N01",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "32a12d48c5f8e33f88ac3795e0cd60d99893bfb7e60cba881950f627d4f93179",
+        "task": "dfbe421d595ba3711fdd8d3853045c805002a796f142dec23a6c14d0c71f713c"
+      },
+      "question_id": "Q026",
+      "rubric_path": "data/dev/N01-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N01-03",
+      "task_path": "data/dev/N01-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "1e45971cd29cf8d1202a5a27ac5fcaebcaeb6f4d96fb0ea6707a9a28bd2635e2",
+        "task": "2ffd42058310b654ba4111abf3791f613e83d741b93c7b2259a74492ccb8d820"
+      },
+      "question_id": "Q027",
+      "rubric_path": "data/dev/N02-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-01",
+      "task_path": "data/dev/N02-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "d187a67fa06c35a4d0b04eddf958ef7e676cd51faf2608fb71874f0d4d2c62c8",
+        "task": "b32d1753696859b50229b37c10012a1bd82c7651f6c187d3da878fc20a6b390f"
+      },
+      "question_id": "Q028",
+      "rubric_path": "data/dev/N02-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-02",
+      "task_path": "data/dev/N02-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "7bcea7adbd71df4cb2a46f7d6cdf19fa8cb98c3bb7b48bb2138413bc7d5eeaf5",
+        "task": "79f4299f98bc89c0a9725ce1ffe349de15acc6547aea43b59873aa101163b0dc"
+      },
+      "question_id": "Q029",
+      "rubric_path": "data/dev/N02-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-03",
+      "task_path": "data/dev/N02-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N03",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "83d6400f2de8af2ec3d522b00ab1de6bbff153fde1423b8dd7d350b10deef138",
+        "task": "77e96e521a120cce5407e91832e2c157b0d5b48cf813f27c4693fba72aa5d223"
+      },
+      "question_id": "Q030",
+      "rubric_path": "data/dev/N03-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N03-01",
+      "task_path": "data/dev/N03-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N03",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "c98ce0373081e950bca071fa3e785dd74fbfa774f1b3e8d494475ab07f6e9dd4",
+        "task": "dd6d2a51b0e8a6975b4e9006e454711c55a5e9fff9fb92abd0c43c7012bdbe91"
+      },
+      "question_id": "Q031",
+      "rubric_path": "data/dev/N03-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N03-02",
+      "task_path": "data/dev/N03-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N03",
+      "category": "recommendation_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "f878b521e2dac669aa6474ca5f7650ef73c7cf2e47c2e1e713ddbe61eb0fb646",
+        "task": "b0286ad85be78d1777f6580cc90844939f52b720ae9e4c4481f98d5c2ed49b69"
+      },
+      "question_id": "Q032",
+      "rubric_path": "data/dev/N03-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N03-03",
+      "task_path": "data/dev/N03-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N04",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "d747ada0267c58b3a8915a3cfa13d5f5cada7aebd1c83e53769dc08fdff2ed74",
+        "task": "9eb1b51198d757a7f78b02016c8ba743d37abc9c173f3db102580a4e11d924af"
+      },
+      "question_id": "Q033",
+      "rubric_path": "data/dev/N04-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N04-01",
+      "task_path": "data/dev/N04-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N04",
+      "category": "recommendation_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "fe59e4ece45924c1f17d15a6c70cce94954577cb65bf927ef43bc01d0b255eb2",
+        "task": "27e7a6432e764d5e4ead90e749fa67f2fa24c88c9239991e9dfe0e4c5fce850f"
+      },
+      "question_id": "Q034",
+      "rubric_path": "data/dev/N04-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N04-03",
+      "task_path": "data/dev/N04-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "79164b566a1a235c05a15d3b6c325317c12c859ebf790b8c088901d5ec28a12c",
+        "task": "92deea9783c1cabafcd602664782d0c8c3047fc698cba003b023a011f7b66f3d"
+      },
+      "question_id": "Q035",
+      "rubric_path": "data/dev/N05-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N05-01",
+      "task_path": "data/dev/N05-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "c209f8b3eba7943dca9d54a56b4e0f517ccc6c238fefb5fe72e22f9c123c2166",
+        "task": "825a63032e20362a0d77f80dfb679f5fa6ffc0b81fd88ca5f8f7dff91a30216c"
+      },
+      "question_id": "Q036",
+      "rubric_path": "data/dev/N05-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N05-03",
+      "task_path": "data/dev/N05-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "6ede2f6754afcf869d97c204bd236929d0229c6dfe8917764f80a6a7442d7a30",
+        "task": "d7a3cc087686736e978b73c1fb6eae00e029574b685593c7c5082500cc24c30e"
+      },
+      "question_id": "Q037",
+      "rubric_path": "data/dev/N06-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-01",
+      "task_path": "data/dev/N06-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "0c831f98d95aa5517b550162fff851330044b79d6e9e20cc464505d489fa0641",
+        "task": "8981f425b458c6cbdf11fd32b4deecfef8f2bd66b8ef2ab8eab79cc3af3ac1b9"
+      },
+      "question_id": "Q038",
+      "rubric_path": "data/dev/N06-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-02",
+      "task_path": "data/dev/N06-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "abb960d3e9de0dbf611fa391bdf8774ebcf275d469e104437550677ec7723ec4",
+        "task": "fc5113f0d63f058867bde1dd9f53a8ec44d647230e8e6dfe2a4fa8e836459ef2"
+      },
+      "question_id": "Q039",
+      "rubric_path": "data/dev/N06-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-03",
+      "task_path": "data/dev/N06-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "4186c3b6d7f89f81b48a36a4d5f880c4e77bbc17940e65fa042248183bcca8f2",
+        "task": "dbc074d6e0bf342dcb62dd8a18a143778d7ff53d4163441295e3993b599e5f7d"
+      },
+      "question_id": "Q042",
+      "rubric_path": "data/dev/N08-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N08-01",
+      "task_path": "data/dev/N08-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "a9e26bb3675fb3fc008bc8e7772ea412ba5dee260978b565d70be84367fe6c22",
+        "task": "40b74b7947a5ea96a71dae9f924a7d283c45c57431af9b6c8e74bfb7288c34ae"
+      },
+      "question_id": "Q043",
+      "rubric_path": "data/dev/N08-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N08-03",
+      "task_path": "data/dev/N08-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "24bb3a6cc8725c8a964c4818c75640ef3984da42478c0b279ba6dd7128c21fd7",
+        "task": "fe7d9ca2688f8c3b7aa6ff3bc5aad3d4e54979f4c9e6f90b6773efd2411aa387"
+      },
+      "question_id": "Q044",
+      "rubric_path": "data/dev/N09-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N09-01",
+      "task_path": "data/dev/N09-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "recommendation_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "e6406dcfe27d936bc12d58321d533acef192e8ee536c48938585d0788181876a",
+        "task": "a9e5a9e7ed3a21fbc818ad5a99b8f8b1e0b57b687406c75642de28833ffea678"
+      },
+      "question_id": "Q045",
+      "rubric_path": "data/dev/N09-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N09-03",
+      "task_path": "data/dev/N09-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N10",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "c3805257c249700adceadc98c28ba02cf0be763f98ccbca1b1beaa096328bbdc",
+        "task": "0e9a504afd60c2c09c7a3dbbd73e3089ff259a05fd935ad8057c732de4c418ff"
+      },
+      "question_id": "Q046",
+      "rubric_path": "data/dev/N10-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N10-01",
+      "task_path": "data/dev/N10-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N10",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "ab5d26256c487ae6c63b0562c290725d78e533e881d486cf85e1c6af0db1be93",
+        "task": "0ebb8998b0f25d9cc582bc9d02b7f52c2a80d435e9a4810b1aa9420fdfe85cc5"
+      },
+      "question_id": "Q047",
+      "rubric_path": "data/dev/N10-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N10-02",
+      "task_path": "data/dev/N10-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N10",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "9b0d5d6b842effd99fb0957a8e391dce849abd1c98fbda2be43760d794e5d016",
+        "task": "b72b02058c897bc27647758491c9bb358aec300d246441755c3971fa908f8856"
+      },
+      "question_id": "Q048",
+      "rubric_path": "data/dev/N10-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N10-03",
+      "task_path": "data/dev/N10-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N11",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "7c866137eee04723a541db453a36a55857b98b5fb0b2addb0f8c82abe0d7623f",
+        "task": "ad7532587ae6b5fe288c60b07d88d45a77e571dc609493939089d8cfd75d7ce3"
+      },
+      "question_id": "Q049",
+      "rubric_path": "data/dev/N11-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N11-03",
+      "task_path": "data/dev/N11-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "860bc9f9df69268014007aa2cb7c23093c7861a0ed37d7a4898f9155a45e0e24",
+        "task": "bdcb8d77a99e2b434880a9353763101e3a16c6bef93f72a35ee40d22ef453374"
+      },
+      "question_id": "Q050",
+      "rubric_path": "data/dev/N12-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N12-01",
+      "task_path": "data/dev/N12-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "recommendation_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "6e1242c6ec0e766013333e03893299ac155ecae9446e522fb77f416baa6b9dbc",
+        "task": "731f216a89efba3b839e7f5dcc72c785c45024852b5077a4eae7321891e47318"
+      },
+      "question_id": "Q051",
+      "rubric_path": "data/dev/N12-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N12-03",
+      "task_path": "data/dev/N12-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N13",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "70d8687017a989b501c3e49359db2054ba3545d8183565a1a89b0c2c7ae23213",
+        "task": "bd7611c6065cc06fc7cb68746f4ec10a9efccb6b5ee8e74e5cd3722cc6a5f262"
+      },
+      "question_id": "Q052",
+      "rubric_path": "data/dev/N13-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N13-02",
+      "task_path": "data/dev/N13-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N13",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "b27b2ceabc6c4e2785c107e04a6d52ba4690508de7fb828c520c1f744db645f8",
+        "task": "6b09cfe79f459bb935a1a815665e25ac9b77f9c177390d4f96ef3202690df6f3"
+      },
+      "question_id": "Q053",
+      "rubric_path": "data/dev/N13-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N13-03",
+      "task_path": "data/dev/N13-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "b11402514c097354f5fed090f0aca4ea92c95611c1c9fa296bc8c80fa3f93ba9",
+        "task": "70233eb2b1911acf27b42a994970ef0cf556f954fee4e04c6263e1ccd6e70f7d"
+      },
+      "question_id": "Q054",
+      "rubric_path": "data/dev/N14-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-01",
+      "task_path": "data/dev/N14-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "18b0ed0e206c39b73c19345a843afca7600e9de313682dd8a5881ede90567203",
+        "task": "67a0656d766ce85ac95358017a36a4efc0d29556b4a3e004eda7f6c7ccde3d3a"
+      },
+      "question_id": "Q055",
+      "rubric_path": "data/dev/N14-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-02",
+      "task_path": "data/dev/N14-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "0804359f04dab104813be7c2389ec70ca866e9ebc7b1601c47ee52e8c1e37e81",
+        "task": "69e1a1707c3fe68f6426d7f66f8a1e2e7d95c66f52041d2e798eed7a520ffea1"
+      },
+      "question_id": "Q056",
+      "rubric_path": "data/dev/N14-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-03",
+      "task_path": "data/dev/N14-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N15",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "f45addc821403adad987ace5df1ec381df3089c19456e6d346b83dda890847b3",
+        "task": "e887f42a9551bc61cb005be2f2dc8fdf6c2cce1f6921ba421c32891f8f0b449b"
+      },
+      "question_id": "Q057",
+      "rubric_path": "data/dev/N15-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N15-01",
+      "task_path": "data/dev/N15-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N15",
+      "category": "recommendation_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "c2638f8b8642915918ccc02fa94dd3adc6430f8d0de073398600de5563a5173b",
+        "task": "c0541c04d90fe9f41e3384715d6061babc61d245b4f4c173bb1a873734a419d1"
+      },
+      "question_id": "Q058",
+      "rubric_path": "data/dev/N15-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N15-03",
+      "task_path": "data/dev/N15-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N16",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "26c1a999b22f4fd75d26382a3a9e8b90bfcd31a718cc4be41a6643e82fcaa8e1",
+        "task": "9fd5a726bf6bf0097ecf88040b61a2ca647cd1e72602e2b2c02c2c2d1f52e16f"
+      },
+      "question_id": "Q059",
+      "rubric_path": "data/dev/N16-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N16-01",
+      "task_path": "data/dev/N16-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N16",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "6fe6fb5f92bf84f78525e602d6cc357786126178091388dc76beeb5ba655e8fd",
+        "task": "b518f33d2d571b6ae531723ca6a93577ada610a76f0b31efc98f0c2b1785afa0"
+      },
+      "question_id": "Q060",
+      "rubric_path": "data/dev/N16-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N16-03",
+      "task_path": "data/dev/N16-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-H",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "3fdb003ab5f924736da0210ec805ec7eface5633a5f90b5376d00ba8e9292af4",
+        "task": "c2aa304e201854a60eb274f301d4da34ba06d5f17b6375d52408a0871693e7fe"
+      },
+      "question_id": "Q061",
+      "rubric_path": "data/dev/O08-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "O08-02",
+      "task_path": "data/dev/O08-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N01",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "3723ee6e2ce47720a078647e2ddfd9aa3617d9b89ddfe76c0a0db7b311d2de79",
+        "task": "921a28d9cb39e66ef7eea7628b54ace4b3808e63ba420418428fa591b5f49113"
+      },
+      "question_id": "Q062",
+      "rubric_path": "data/staged-dev/N01-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N01-02",
+      "task_path": "data/staged-dev/N01-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N04",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "e9febc735e44bc2cbf150a8ea8c40d1adf4b755f328794298b5d60d2b50af81a",
+        "task": "4047961f1f9b8a4172e24129cf981bf86a3a55caa45264d93ce9a0056d7bd665"
+      },
+      "question_id": "Q063",
+      "rubric_path": "data/staged-dev/N04-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N04-02",
+      "task_path": "data/staged-dev/N04-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "staged",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "1c0139a8e29bc8780017392978df47ba2b0788803eb3078e127c45208f523e12",
+        "task": "4ecbc99482a8811ea6010bed03eb72c2909a5db2bbd3b289286b5b257d0c4311"
+      },
+      "question_id": "Q064",
+      "rubric_path": "data/staged-dev/N05-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N05-02",
+      "task_path": "data/staged-dev/N05-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "staged",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "77af432eee81c4feb251dc9a91134e167cf104b14c1cc0bf8482455c4ef9cf6b",
+        "task": "c66e5fb5cc2fc72078b82c89ef61cf64be436f23ca8b257c501ff9f8ba95a5d6"
+      },
+      "question_id": "Q066",
+      "rubric_path": "data/staged-dev/N08-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N08-02",
+      "task_path": "data/staged-dev/N08-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "staged",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "53a83e7ef3ec4e19b9024005835665e93d62441fb23a692f15dbd5dc3bb0c619",
+        "task": "2769c6cafaefa2aba85692f76fadc2930fb755b79be63811466eea4bc0b042e4"
+      },
+      "question_id": "Q067",
+      "rubric_path": "data/staged-dev/N09-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N09-02",
+      "task_path": "data/staged-dev/N09-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N11",
+      "category": "staged",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "26aeece4ec5047883b1f1698a8bfde839d04f9a47ebc22caefbd5d64244bb1fe",
+        "task": "b0bb4565224d00d8c748ba00d80eda5e94f514c28430d1920a4fb53593408448"
+      },
+      "question_id": "Q068",
+      "rubric_path": "data/staged-dev/N11-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N11-02",
+      "task_path": "data/staged-dev/N11-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "e155ae3c1ab3319e8f45cdb01c927c0091af8201bb5f398ff9347d06ba666fa2",
+        "task": "856840a42e577f01def6297ed821a62cf8fd7c5ff8c03f5e87fabad2d1318597"
+      },
+      "question_id": "Q069",
+      "rubric_path": "data/staged-dev/N12-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N12-02",
+      "task_path": "data/staged-dev/N12-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N15",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "5adfe32a8fe6047ca2e98b5beed964b7d66dcb6c142a0f74aa33b56b68c5a559",
+        "task": "f96af7c772bf6c04305ea3ab747b7537ec928fa71f279c2402c3bc96bcdb4e91"
+      },
+      "question_id": "Q070",
+      "rubric_path": "data/staged-dev/N15-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N15-02",
+      "task_path": "data/staged-dev/N15-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N16",
+      "category": "staged",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "cf36380482a874986d9386516a0a04f24670108d92ce1386c078d929a7e33a04",
+        "task": "f008dfde3af1ff347a3ea7a73c195b795f1fea453f7218c5767cc7f0a6894f1f"
+      },
+      "question_id": "Q071",
+      "rubric_path": "data/staged-dev/N16-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N16-02",
+      "task_path": "data/staged-dev/N16-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "160ee061eaf75f35696aaacb0a8ece40fdb0d6af61270118c6ea3e2d07ed9e95",
+        "task": "c869639025e335bb1a7e93626b0a926be18ada19c2b954c03d46c07ff6f4a26e"
+      },
+      "question_id": "Q072",
+      "rubric_path": "data/staged-dev/O01-04/rubric.json",
+      "stage_count": 2,
+      "task_id": "O01-04",
+      "task_path": "data/staged-dev/O01-04/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "a311947d9be78b5ad35499f6aefe3e07cefb436e24e807ec7dd74210bfc7af30",
+        "task": "bcee2caef1d5baa476dccd7e4fcd2f36d5a96ca0d44681db38a04a8fbd87afd8"
+      },
+      "question_id": "Q073",
+      "rubric_path": "data/staged-dev/O03-04/rubric.json",
+      "stage_count": 2,
+      "task_id": "O03-04",
+      "task_path": "data/staged-dev/O03-04/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-D",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "9995fea9282a0ca6f35c25262840bb0622b9580b01e615182e670a94c8ef52a3",
+        "task": "daefc84a511bc0b635594b40aaf2c4e64de6931f59104dbed998ff0e71459b27"
+      },
+      "question_id": "Q074",
+      "rubric_path": "data/staged-dev/O04-04/rubric.json",
+      "stage_count": 2,
+      "task_id": "O04-04",
+      "task_path": "data/staged-dev/O04-04/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "staged",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "c6736c44100a7fc411a7a6aad383188a81e34ed2f0983c64b252c606f0bc9d6c",
+        "task": "bf61295b762252166c0153ff98fdcf5957322463b87f953b24e1261aa43d7f95"
+      },
+      "question_id": "Q075",
+      "rubric_path": "data/staged-dev/O06-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "O06-02",
+      "task_path": "data/staged-dev/O06-02/task.json",
+      "track": "staged-dev"
+    }
+  ]
+}

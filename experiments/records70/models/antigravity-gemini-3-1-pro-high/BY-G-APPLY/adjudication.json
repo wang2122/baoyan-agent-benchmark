@@ -1,0 +1,23 @@
+{
+  "schema": "user-approved-node-adjudication.1",
+  "task_id": "BY-G-APPLY",
+  "question_id": "Q021",
+  "node_id": "G-11",
+  "source_answer_sha256": "4659e92eafaa7eb8665faaed553e7fc4d9281e7991be1cce9a3592baab386fbb",
+  "source_original_score_display_sha256": "ceedec8023f454aab43dc559f27d4867fc89c0f87a697206a7097c33558d7aab",
+  "source_original_judgment_display_sha256": "1c57aaedd0acea128685fcdf05165533fa7c7bdf975947244979399e984b8714",
+  "before_interval": [
+    38.76,
+    40.88
+  ],
+  "effective_interval": [
+    38.76,
+    38.76
+  ],
+  "other_node_points_unchanged": true,
+  "new_model_or_judge_call": false,
+  "policy": "Q021 corrected Fudan Human Phenome Institute identity; independent program match required; year unresolved",
+  "original_rubric_display_sha256": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+  "effective_rubric_display_sha256": "b4621b56c0050bba4836d6d6e54fb9cb8dc4a04698ab4a51ca1d5c6bb5ad7c22",
+  "original_task_has_no_application_year": true
+}

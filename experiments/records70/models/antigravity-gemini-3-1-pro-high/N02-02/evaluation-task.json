@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N02",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N02-02",
+  "prompt": "现在是2026年推免申请季。我在一所医药类高校读临床医学，六级425–449分。做过微生物实验、临床病例和药理学研究，有一篇共同一作论文已经发表，另一篇综述还在投。我在临床工作和基础研究之间有点犹豫，读研路线该怎么选？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "a2d74f8770214075ced651844e79d26d530881f3040e726c99c81adba4612c4d",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N02",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q029",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N02-03",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "现在是2026年推免申请季。我在一所医药类高校读临床医学，排名前约5%，六级425–449分。有病例、微生物和药理研究经历，也有共同一作的已发表论文。我想继续内科方向，但不知道该选学术型还是专业型研究生，对以后做临床或科研有什么区别？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "8c353315af4d818e2730e8944f40a34d5f26b0a182836be71bb7e8b52dd70b05",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

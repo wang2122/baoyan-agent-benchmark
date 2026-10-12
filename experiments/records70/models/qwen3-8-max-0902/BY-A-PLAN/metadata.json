@@ -1,0 +1,36 @@
+{
+  "agent": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "run_id": "qwen20-user-start-20261012/BY-A-PLAN/r1",
+  "task_id": "BY-A-PLAN",
+  "question_id": "Q001",
+  "started_at": "2026-10-12T03:24:08.945189+00:00",
+  "finished_at": "2026-10-12T03:40:51.431019+00:00",
+  "controller_started_at": "2026-10-12T03:24:07.221770+00:00",
+  "controller_finished_at": "2026-10-12T03:40:53.651107+00:00",
+  "judge_started_at": "2026-10-12T03:40:53.755388+00:00",
+  "judge_finished_at": "2026-10-12T03:45:52.625013+00:00",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "source_run_sha256": "c1072a1fb9f28e58b4b5b367196992d7d9923c4c83f0ef4cc3bf2b9186281b97",
+  "source_answer_sha256": "bdabdcaa0ed14ef9e433b996c40ea98045c084be13400b180c82dc6dbac714a6",
+  "source_task_sha256": "d2fdc2ce2203a4056e1893f0a75b419a4da70de8102b58facb4ba8e831692368",
+  "source_rubric_sha256": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+  "source_judgment_sha256": "fc16fdbfaf083eae18755091929ed0a451ad6e62c1220a265cd80d79e2aa09fc",
+  "source_score_sha256": "0aa6e33c89387aed37cc5904d8693cfb9263007e641f8e3d7022c5acbe42a860",
+  "source_prompt_sha256": {
+    "S0": "b167d0f656ca6abf1d2b1ce172325242645cc629f2c568d0fc3ea955e9eb5ec4"
+  },
+  "judge_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "judge_auth_mode": "subscription",
+  "judge_model": "gpt-6.1-sol",
+  "original_source_hashes_preserved": true,
+  "new_attempt_is_historical_recovery": false,
+  "public_display_only": true,
+  "display_adjustments": [
+    "task.json: latest-reference display prompt, original scoring input hashes preserved"
+  ],
+  "privacy_reference_sha256": "46feb94aff98544963f827800ce27dc1f90671e665073271e193cc29e2c1c5b5",
+  "privacy_context_revision": "qwen20-latest-reference-context-v4",
+  "teacher_calibration": "pending",
+  "public_task_directory": "models/qwen3-8-max-0902/BY-A-PLAN"
+}

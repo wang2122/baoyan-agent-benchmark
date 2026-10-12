@@ -1,0 +1,68 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N13-03",
+  "question_id": "Q053",
+  "answer_sha256": "ec238cce4df8c841fff84da4b31ea2535599a86aa4b4d3ff21a08cf57f68c030",
+  "original_rubric_sha256": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+  "original_score_content_sha256": "2c750315d961e9abd3a255812f45b0721949336f7cf802b61766e1bf49ad350c",
+  "original_rubric_content_sha256": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "tier",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 2.5,
+      "rule": {
+        "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+        "grading": "three_level",
+        "half_credit": "主要正确但个别层次判断无依据",
+        "id": "tier",
+        "label": "院校层次适配",
+        "points": 5
+      },
+      "decision": "本科为其他本科档；主体985/211、研究院及本校同档安排有具体说明，大多数培养地和项目已区分，非零档。原主选南科大自动化学院0801Z1的挂靠有当届官方推免完整5条枚举反证：实际列电子电气、机械能源、创新创意设计；旧学院经历或同校其他院系路径不能补成所写院系。此独立主选培养主体缺陷使满档不成立，按“主要正确但个别层次判断无依据”半档2.5。081100专硕错误仍只留原reasons项，本次不重罚；推免资格和保证录取仍只facts，时点仍只execution。北航085500类别/085501叶子专业的正规化疑点保留事实待核，不伪造valid或invalid；无论该疑点最终成立与否，已存在正确主体与独立的南科大挂靠缺陷，均不改变tier半档边界。不是两所降级公式项，未套用Q005用户半分政策。",
+      "sources": [
+        {
+          "url": "https://yz.chsi.com.cn/tm/zyml/index",
+          "checked_at": "2026-10-12T06:18:39.785860+00:00",
+          "applicable_cycle": "2026申请、2027入学项目内容核对",
+          "scope": "广东+南科大+智能制造的完整5条当届推免记录",
+          "finding": "智能制造与机器人列电子电气、机械能源及创新创意设计，未列自动化与智能制造学院。",
+          "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+        },
+        {
+          "url": "https://aim.sustech.edu.cn/Article-index-id-26-typeid-5.html",
+          "checked_at": "2026-10-12T06:18:39.785860+00:00",
+          "applicable_cycle": "2026申请、2027入学项目内容核对",
+          "scope": "院系现有学位介绍辅助证据",
+          "finding": "硕士为081100学术型、080500学术型、085400专业型校企及085507专业型推免；不单凭无0801Z1作停招推断",
+          "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+        },
+        {
+          "url": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+          "checked_at": "2026-10-12T06:18:39.785860+00:00",
+          "applicable_cycle": "2026申请、2027入学项目内容核对",
+          "scope": "2027院系博士通知证据边界",
+          "finding": "该页援引2026目录并提示以2027最终简章为准；此旧页本身不决定停招，新增 national published listing 才是本次反证",
+          "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    27.81,
+    27.81
+  ],
+  "original_candidate_facts_changed": false,
+  "candidate_factual_uncertainties_preserved": [
+    "A008 BUAA085500 versus085501",
+    "A029/A030 original SUSTech pending retained in immutable original; new published enumeration recorded in this adjudication, not silently rewritten"
+  ],
+  "raw_to_public_binding": {
+    "original_score_raw_sha256": "4a2872da57283863066c46cebd0d354ca97d194da757b7a8163bdf7c18c9eee8",
+    "original_score_export_sha256": "2c750315d961e9abd3a255812f45b0721949336f7cf802b61766e1bf49ad350c",
+    "rubric_raw_sha256": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+    "rubric_export_sha256": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0"
+  }
+}

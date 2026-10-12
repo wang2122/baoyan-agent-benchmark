@@ -1,0 +1,77 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N14-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "比较会计/税务、金融、管理及交叉项目在培养目标、研究方法和课程要求方面的关键差别，不能都当成同一种商科。",
+      "grading": "three_level",
+      "half_credit": "有部分专业区别但不足以供学生取舍。",
+      "id": "N14-02-L1-01",
+      "label": "会计、金融、管理的研究与培养区别",
+      "points": 25
+    },
+    {
+      "full_credit": "基于会计本科已学知识，对经济学、数学、统计、金融等具体先修要求做条件化判断，不臆测所有项目统一门槛。",
+      "grading": "three_level",
+      "half_credit": "认识到跨专业缺口但不与申请方向关联。",
+      "id": "N14-02-L1-02",
+      "label": "数学和经管专业基础的差距",
+      "points": 20
+    },
+    {
+      "full_credit": "结合排名前约5%、CET6 550–599分及已知学习实践背景判断跨方向优势；不虚构论文或实习项目。",
+      "grading": "three_level",
+      "half_credit": "注意到成绩英语，但对专业能力迁移分析不足。",
+      "id": "N14-02-L1-03",
+      "label": "学生已有竞争力和可迁移技能",
+      "points": 20
+    },
+    {
+      "full_credit": "说明就业导向、研究导向与读博可能性如何改变学位/方向选择；在学生偏好不明时给条件判断。",
+      "grading": "three_level",
+      "half_credit": "有结论但对长远偏好依赖没有解释。",
+      "id": "N14-02-L1-04",
+      "label": "选择对未来路径的影响",
+      "points": 15
+    },
+    {
+      "full_credit": "给出需要从培养方案、先修课程、导师研究方向或招生条件核验的关键缺口。",
+      "grading": "three_level",
+      "half_credit": "知道要看官网但不具体。",
+      "id": "N14-02-L1-05",
+      "label": "研究方法与补充信息",
+      "points": 10
+    },
+    {
+      "full_credit": "按学生课程/兴趣/申请条件形成路线主次与现实动作，不要求必须提供具体学校清单。",
+      "grading": "three_level",
+      "half_credit": "有建议但无执行或关键改变条件。",
+      "id": "N14-02-L1-06",
+      "label": "优先排序和下一步",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

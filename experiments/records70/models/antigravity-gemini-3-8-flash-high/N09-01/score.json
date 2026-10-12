@@ -1,0 +1,476 @@
+{
+  "actual_candidate_count": 16,
+  "answer_sha256": "fd52842ebddce9941a50fd8e54d53b3fbb70f2db11f0ed8b814648d02b598e33",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 58.0
+  },
+  "confirmed_points": 58.0,
+  "diagnostic_score": 58.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "accuracy"
+    ],
+    "E02": [
+      "accuracy"
+    ],
+    "E03": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "已确定获得母校推免资格",
+      "evidence_ids": [],
+      "id": "E01",
+      "reason": "题面仅给排名[个人排名已概括]，没有推免资格确认、公示或其他资格信息。答卷正文还称保研资格100%无虞，并在可直接用于联络导师的模板中将资格写成已确定，属于将未提供状态写成既成事实。仅归accuracy，不再在T3或联系导师项重复扣分。"
+    },
+    {
+      "answer_quote": "已完全满足所有顶尖高校初审与导师预期",
+      "evidence_ids": [],
+      "id": "E02",
+      "reason": "六级[英语背景已概括]是已知成绩，但题面不支持所有院系语言门槛均已满足，更不能推出满足全部初审与导师预期。未给目标项目逐项要求，不能据此无条件下达无需核查的结论；不据这一泛化结论认定某个具体候选违反硬限制。归accuracy。"
+    },
+    {
+      "answer_quote": "9.28系统开放填报",
+      "evidence_ids": [
+        "EV01"
+      ],
+      "id": "E03",
+      "reason": "题面周期是2026年推免申请季。研招网当届2027入学系统说明明确2026年9月21日9:00开始志愿填报，9月22日与24日分别开始确认复试、待录取。按答卷9月28日再开始填报会错过首轮操作，这是影响执行的具体时间错误，归execution，未倒用其他年份或咨询当天。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N09-01",
+  "input_sha256": "33b635a1a07e37c62156bc3587b96634b8aca96b591bd33d0ae3c64521ee4f2a",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "e92b9199f49d1c93c3d607b6c8e061c8523373306c542397ade617c5c3829b2a",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N09-01-T1",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-01-T2",
+      "kind": "quality",
+      "points": 19.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N09-01-T3",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0,
+      "id": "N09-01-T4",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-01-T5",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 16,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**清华大学**：机械工程系、自动化系、TBSI、深圳国际研究生院",
+      "canonical_candidate_key": "tsinghua:merged_robotics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV23",
+        "EV24",
+        "EV25"
+      ],
+      "label": "清华大学：机械工程系、自动化系、TBSI、深圳国际研究生院",
+      "occurrence_quotes": [
+        "如清华部分院系、北大软微、中科院部分所、浙大工程师学院等"
+      ],
+      "reason": "冲刺档直接推荐。机械、自动化与深圳相关机器人/控制/机械方向符合已知背景；原文合并列举，没有逐项目说明申请路径，保留组合一条。TBSI与深圳国际研究生院存在隶属/项目关系，不机械拆成两个独立推荐；未声称所有列名均是同一项目。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "**北京大学**：工学院（力学/机器人）、前沿计算中心、智能学院",
+      "canonical_candidate_key": "pku:merged_robotics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV05",
+        "EV06",
+        "EV07"
+      ],
+      "label": "北京大学：工学院（力学/机器人）、前沿计算中心、智能学院",
+      "occurrence_quotes": [],
+      "reason": "冲刺档直接推荐，合并列举未逐项目确定学位路径，保留组合而不补造独立项目。官方资料支持智能学院、计算机学院前沿计算中心具身方向及旧工学院机器人/力学的后续单位；工学院旧称与结构调整不单独构成虚构项目。前沿计算中心为研究机构，未据此认定它是独立招生院系。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "**上海交通大学**：机械与动力工程学院、自动化系、密西根学院",
+      "canonical_candidate_key": "sjtu:merged_robotics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV02",
+        "EV03",
+        "EV04",
+        "EV26"
+      ],
+      "label": "上海交通大学：机械与动力工程学院、自动化系、密西根学院",
+      "occurrence_quotes": [
+        "若已获得顶尖主攻校（如浙大、北航、上交）优营，保底成功"
+      ],
+      "reason": "冲刺档组合推荐，未单独展开各院系具体申请路径，不拆分。机械学院真实；原自动化系现由自动化与感知学院承接；密西根学院旧称可对应浦江国际学院，均有相关机械/控制招生内容。身份可核对，不仅凭旧名称判无效；valid不代表初审通过或所有方向全年均可投。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**中科院自动化所 (CASIA)**：复杂系统/多模态国家重点实验室",
+      "canonical_candidate_key": "casia:complex_multimodal",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV13"
+      ],
+      "label": "中科院自动化所：复杂系统/多模态重点实验室",
+      "occurrence_quotes": [
+        "如清华部分院系、北大软微、中科院部分所、浙大工程师学院等"
+      ],
+      "reason": "直接推荐自动化所相关实验室方向。斜杠写法及实验室重组关系只保留一个组合，不生成两条招生路径。官方资料支持所内多模态感知、决策、控制研究及旧复杂系统实验室承接，专业相关；实验室开放课题文件只用于身份和研究方向，未被当作推免报名证据。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "casia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "**浙江大学**：控制科学与工程学院、机械工程学院",
+      "canonical_candidate_key": "zju:merged_control_mechanical",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV15"
+      ],
+      "label": "浙江大学：控制科学与工程学院、机械工程学院",
+      "occurrence_quotes": [
+        "若已获得顶尖主攻校（如浙大、北航、上交）优营，保底成功"
+      ],
+      "reason": "主攻档直接推荐控制与机械相关院系组合。已知机器人工程及机械项目背景适配；合并列举没有分别明确具体学位申请路径，不拆为独立项目。官方当届报考说明支持控制学院身份；不因机械学院未做逐年审核认定不存在。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**北京航空航天大学**：自动化科学与电气工程学院、机械工程及自动化学院、人工智能研究院",
+      "canonical_candidate_key": "buaa:merged_robotics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV08",
+        "EV09",
+        "EV27",
+        "EV28"
+      ],
+      "label": "北京航空航天大学：自动化学院、机械学院、人工智能研究院",
+      "occurrence_quotes": [
+        "若已获得顶尖主攻校（如浙大、北航、上交）优营，保底成功"
+      ],
+      "reason": "主攻档合并组合，控制、机械、人工智能与机器人相关；没有单独列各学位路径，不拆分。官方资料支持两学院与人工智能学院/研究院名称关系，旧研究院称呼不能单独判错。未把历史人工智能院通知当作2026年度窗口审计。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**同济大学**：控制科学与工程系、机械与能源工程学院",
+      "canonical_candidate_key": "tongji:merged_control_mechanical",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV18",
+        "EV19"
+      ],
+      "label": "同济大学：控制科学与工程系、机械与能源工程学院",
+      "occurrence_quotes": [],
+      "reason": "主攻档控制/机械组合，背景相关。控制系官方学科介绍支持机器人方向；机械学院有既有推免文件。原文没有分别展开实际申请路径，不补造两条推荐；历史文件只支持身份，不代表当届全部门槛已审核。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**华中科技大学**：机械科学与工程学院、人工智能与自动化学院",
+      "canonical_candidate_key": "hust:merged_mechanical_ai",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV17"
+      ],
+      "label": "华中科技大学：机械科学与工程学院、人工智能与自动化学院",
+      "occurrence_quotes": [],
+      "reason": "主攻档机械和自动化组合，符合机器人背景。学校当届推免通知列两学院接收主体，身份成立。原文未逐院系明确学位路径，保留组合；不把高排名推导成优营或录取保证。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**中国科学技术大学**：信息科学技术学院、工程科学学院",
+      "canonical_candidate_key": "ustc:merged_info_engineering",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV20",
+        "EV21"
+      ],
+      "label": "中国科学技术大学：信息科学技术学院、工程科学学院",
+      "occurrence_quotes": [],
+      "reason": "主攻档相关学科组合，工程学院机械等专业及信息学院既有夏令营路径真实。合并推荐未独立说明每一申请方向，保留一条组合。已检索往届资料仅支持院系/路径身份，不伪称2026夏令营窗口已完成核验。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**西安交通大学**：电气/电信/机械学院",
+      "canonical_candidate_key": "xjtu:merged_electric_electronic_mechanical",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV22"
+      ],
+      "label": "西安交通大学：电气/电信/机械学院",
+      "occurrence_quotes": [],
+      "reason": "主攻档提议相关工科组合。斜杠混合列院系，未提供可单独识别的三个申请路径，不拆分，且电信简称未替作者细化到某个具体学院。官方机械学院有推免路径；未找到或未审完其他单位当届文件不构成项目错误。只按学校相关工科组合内容判断valid，不支持精确专业命中。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**中科院沈阳自动化所**：机器人学国家重点实验室（极强对口）",
+      "canonical_candidate_key": "cas_sia:robotics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV14"
+      ],
+      "label": "中科院沈阳自动化所：机器人学重点实验室",
+      "occurrence_quotes": [
+        "如清华部分院系、北大软微、中科院部分所、浙大工程师学院等"
+      ],
+      "reason": "主攻档直接推荐研究所机器人方向，实验室是内部研究方向限定，不另计单位。官方2026夏令营明确机器人/智能制造领域并招机器人工程本科生，内容适配；未根据其非本科标签认定降级，也未将报名许可等同录取保证。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "cas_sia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**原本科院校（本部）**：机电工程学院（机器人研究所，全国顶尖）、航天学院（控制）、控制科学与工程系",
+      "canonical_candidate_key": "hit:harbin_merged_robotics_control",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV29"
+      ],
+      "label": "哈工大本部：机电学院机器人研究所、航天学院控制、控制科学与工程系",
+      "occurrence_quotes": [
+        "母校（本部/威海）高确定性兜底",
+        "以母校原本科院校兜底"
+      ],
+      "reason": "作为稳妥档直接推荐母校本部相关方向。学校当届汇总支持机电学院和航天学院接收主体；内部研究所/系隶属说明不机械拆作新院系，合并列举未分别展开学位路径，保留组合。方向建议成立，但本校背景不能证明绝对安全或零风险；这类资格与保证式事实不在候选身份上判不存在，也不额外重复扣分。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "**原本科院校（深圳）**：机电工程与自动化学院",
+      "canonical_candidate_key": "hit:shenzhen_merged_mechatronics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV10",
+        "EV11",
+        "EV12"
+      ],
+      "label": "哈工大深圳：机电工程与自动化学院（旧称合并范围）",
+      "occurrence_quotes": [],
+      "reason": "直接推荐深圳相关机电/控制方向。官方历史资料确认旧学院真实含机械、控制等学科，2025结构和2027推免资料显示后续智能学部及机器人与先进制造学院机械路径。旧学院为合并范围，不能由评审将它唯一指定成某一个新学院，更不能凭旧称认定方向虚构；只保留宽泛校区组合建议，未声称原名仍为2026独立报名主体。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**原本科院校**：本校兜底",
+      "canonical_candidate_key": "hit:weihai_unresolved_project",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV29"
+      ],
+      "label": "哈尔滨工业大学威海：兜底（本科关联已概括）（未列项目）",
+      "occurrence_quotes": [
+        "母校（本部/威海）高确定性兜底",
+        "以母校原本科院校兜底"
+      ],
+      "reason": "明确推荐母校威海，不是普通本科背景讨论。校区实际有推免接收路径，但答卷没有指定院系或独立项目，按学校/校区层面保留，不替其补专业。valid仅指真实学校方向建议，不说明本校必录、资格已确认或可覆盖精确项目。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "北大软微",
+      "canonical_candidate_key": "pku:software_microelectronics",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV30"
+      ],
+      "label": "北京大学软件与微电子学院（北大软微）",
+      "occurrence_quotes": [
+        "如清华部分院系、北大软微、中科院部分所、浙大工程师学院等"
+      ],
+      "reason": "5.4新增且要求二次申报的直接备选，必须提取。官方当届说明确认软微电子信息专硕推免路径；机器人学生跨向软件/芯片的适配尚需选方向，但题面未拒绝该学位类型，没有已知硬限制冲突。未将其与4.2北大组合合并成同一项目，也未据无机器人工程专门名称判无效。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "浙大工程师学院",
+      "canonical_candidate_key": "zju:polytechnic",
+      "error_ids": [],
+      "evidence_ids": [
+        "EV16"
+      ],
+      "label": "浙江大学工程师学院",
+      "occurrence_quotes": [
+        "如清华部分院系、北大软微、中科院部分所、浙大工程师学院等"
+      ],
+      "reason": "5.4新增直接预推免备选。官方当届通知支持工程师学院全日制专业学位硕士推免招生，学生没有明示排斥工程专硕。与4.2控制/机械组合是不同建议范围；不把其是否有夏令营或名额多少的未审核断言当成已核实。 本题没有参考候选，不据未命中参考扣分；此判断不等同逐年度招生审计。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "35e702c7d82650bbf5a8cf697722f891837015d4496a18b8c07e400be981d1ab",
+  "score": 58.0,
+  "score_interval": [
+    58.0,
+    58.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N09-01",
+  "task_kind": "planning",
+  "task_sha256": "a87126cc631c21f76d46f9604df7b7267211b973c8385fb9d575f00000fdb50e",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题所有计分节点均为three_level规划项，没有school_tier节点，不另计层次分。已完整提取推荐；实际具名高校均为与本科同档或以上的本科学校，原本科院校三个校区按同一学校；中科院研究所不按无本科标签认定降级。无需为不计分层次制造pending。",
+    "schools": [
+      {
+        "answer_quote": "**清华大学**：机械工程系、自动化系、TBSI、深圳国际研究生院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "tsinghua"
+      },
+      {
+        "answer_quote": "**北京大学**：工学院（力学/机器人）、前沿计算中心、智能学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "pku"
+      },
+      {
+        "answer_quote": "**上海交通大学**：机械与动力工程学院、自动化系、密西根学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "**中科院自动化所 (CASIA)**：复杂系统/多模态国家重点实验室",
+        "downgraded": false,
+        "reason": "科研院所建议按实际培养/授位主体理解，不因非985标签认定降级，本题不计层次分。",
+        "school_key": "casia"
+      },
+      {
+        "answer_quote": "**浙江大学**：控制科学与工程学院、机械工程学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "**北京航空航天大学**：自动化科学与电气工程学院、机械工程及自动化学院、人工智能研究院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "buaa"
+      },
+      {
+        "answer_quote": "**同济大学**：控制科学与工程系、机械与能源工程学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "**华中科技大学**：机械科学与工程学院、人工智能与自动化学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "**中国科学技术大学**：信息科学技术学院、工程科学学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "ustc"
+      },
+      {
+        "answer_quote": "**西安交通大学**：电气/电信/机械学院",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "xjtu"
+      },
+      {
+        "answer_quote": "**中科院沈阳自动化所**：机器人学国家重点实验室（极强对口）",
+        "downgraded": false,
+        "reason": "科研院所建议按实际培养/授位主体理解，不因非985标签认定降级，本题不计层次分。",
+        "school_key": "cas_sia"
+      },
+      {
+        "answer_quote": "**原本科院校（本部）**：机电工程学院（机器人研究所，全国顶尖）、航天学院（控制）、控制科学与工程系",
+        "downgraded": false,
+        "reason": "推荐的具名高校与原本科院校本科基准同属本科档，未降档；校区不另作一所学校，且本题无层次计分项。",
+        "school_key": "hit"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

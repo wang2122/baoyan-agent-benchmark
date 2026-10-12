@@ -1,0 +1,514 @@
+{
+  "answer_sha256": "ea203051ded91e81b214c907edec466bfb7ecdb90ba49d91edabfe54b93962e4",
+  "candidates_reviewed": true,
+  "coverage": [],
+  "errors": [
+    {
+      "answer_quote": "能作为队长统筹工艺流程（Aspen Plus）、设备选型、安全评价与经济性分析并斩获国奖",
+      "id": "E01",
+      "reason": "题面仅披露化工设计奖项与队长身份，未披露本人具体模拟、选型或评价任务。答卷直接确认为既有个人工作，后文又将熟练掌握流体与过程模拟软件放入应答稿；应先核真实分工和作品。属无依据扩充个人经历，不断定这些经历实际上不存在，最直接归属化工竞赛成果表达R10-03。"
+    },
+    {
+      "answer_quote": "450–499分已经达到华五及复旦大学各院系夏令营报名常规门槛（通常要求CET-6 $\\ge 425$分），**不存在资格硬伤**。",
+      "id": "E02",
+      "reason": "未按目标项目和申请周期核要求就推断各院系资格均无硬伤。2025年复旦iCOME和化学系官方通知没有这个统一425数字门槛，前者要求外语水平证明，后者另要求英语水平优良。已有450–499不等于全部项目资格获得确认，也不能据此判定450–499不可申请。该错误是未经核验的普遍资格保证，关联R10-05；官方证据及适用范围见evidence.json的EV02、EV03。"
+    },
+    {
+      "answer_quote": "不能因准备保研而轻视本学期专业课（如反应工程、分离工程等）",
+      "id": "E03",
+      "reason": "题面没有提供年级或本学期课表，只有已披露物化、电化学成绩不错。答卷直接按大三下且将反应工程、分离工程举作本学期课程，未提出核实或条件安排；保护课程投入正确，但在修状态不能推定。最直接归属R10-04。"
+    },
+    {
+      "answer_quote": "复旦夏令营允许根据专业目录申报材料系、化学系、先材等不同单位",
+      "id": "E04",
+      "reason": "截至题目2026年3月，2025年官方公告已显示材料及相关催化、电池力量纳入iCOME，先材夏令营依托iCOME同一通道报名；将材料系与先材仍作为独立申报单位的建议缺少招生主体核对。官方材料支持真实旧单位与新学院的隶属及通道关系，不支持将它们判为不存在，也不构成2026年夏令营最终规则审计。最直接影响R10-07的招生核验，旧称不另罚；见evidence.json的EV01、EV02。"
+    }
+  ],
+  "input_sha256": "72b92d0388061be3c77f84b3a459f0729c41c4007e31d9ab18d5581a38cc897e",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。覆盖项matched_answer_item_id指向recommendation_review中的唯一记录；同一独立候选不能覆盖多个参考目标。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；allowed_exclusion另填rule_id，当前仅E-12可用E-AI-CS-ALT。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "**倒排工期**：与指导老师沟通，加快写作进度。重点完成：",
+      "error_ids": [],
+      "grade": 1,
+      "id": "BY-C-WINTER-R10-01",
+      "reason": "明确与指导老师沟通并倒排英文初稿，落实机理推导、表征证据链、电化学对照及全电池图表；另要求理解RHE校准、iR补偿、电子转移数等方法。对未投出、未接收的论文以工作手稿或研究报告呈现，未把在写论文当作已发表，研究数据、方法、稿件三项核心成立。"
+    },
+    {
+      "answer_quote": "将大创中期成果整理为10~15页结构清晰的“学术成果汇编PPT”与“研究报告”，作为网申附件和套磁补充材料。",
+      "error_ids": [],
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-02",
+      "reason": "已有可检查的大创阶段报告和PPT交付，且将结题安排在以后而非视为已结题；后文也建议向学院教务或学工核大创立项加分。但没有落实当前实验/研究任务、本人分工、进度反馈，也未明确按威海校区核立项、中期与结题成果认定，缺少本人负责的执行核心，只达半分。"
+    },
+    {
+      "answer_quote": "**化工类国家级竞赛奖项的价值转化**：在个人陈述中说明，化工设计竞赛带给你的是**“多相传递过程、反应器工程、流场流动模拟与宏观放大思维”**。",
+      "error_ids": [
+        "E01"
+      ],
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-03",
+      "reason": "有具体工程能力表达，并将反应工程、传质与电极/电解槽放大联系起来。缺少根据真实参赛资料整理本人实际承担的模拟、选型、衡算与成果证据；把队长身份直接推成已掌握Aspen、选型及流体模拟能力，题面没有披露这些个人工作，不能替学生确认。已有具体能力与联系，但真实性核对和个人贡献不足，按半分；E01只在本项处理。"
+    },
+    {
+      "answer_quote": "**物理化学与电化学核心考点拉网式复习**",
+      "error_ids": [
+        "E03"
+      ],
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-04",
+      "reason": "列出能斯特方程、电极动力学、电双层与表征原理等具体复习内容，联系复旦面试和现有电催化研究，也要求保护课程成绩。但化学反应工程及相关化工基础只有能力宣传与课程名称，缺少具体复习巩固动作；又未经核实假定大三下及反应工程、分离工程正在本学期修读。缺少反应工程复习这一核心并有在修状态假定，按半分；E03仅关联本项。"
+    },
+    {
+      "answer_quote": "每天精读1篇Nature Energy/JACS/Angewandte/Adv. Mater.等顶刊关于电池/催化的最新通讯，练习用英文进行1分钟要点概括（Abstract elevator pitch）。",
+      "error_ids": [
+        "E02"
+      ],
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-05",
+      "reason": "针对六级450–499给出每天英文文献概括、术语表、3分钟英文科研自述和录音纠音，另安排中英文报告，科研表达训练具体。没有六级500+作为准备目标及听力/阅读等备考补弱安排，也没有逐目标项目核语言要求与最新成绩。未把500+规定为统一门槛，但将425泛化为华五和复旦各院系常规门槛并断言不存在资格硬伤，资格结论依据不足。官方2025年iCOME与化学系通知只列英语水平或成绩证明要求，不能据此保证2026申请周期所有项目资格；不反向断定450–499不能申请。按已有实质训练给半分，缺少提分目标与资格核验核心；E02仅在本项处理。"
+    },
+    {
+      "answer_quote": "**主题建议**：《高性能非碱性/弱酸性电池双功能氧电极催化剂的界面微环境调控及反应机理研究》；",
+      "error_ids": [],
+      "grade": 1,
+      "id": "BY-C-WINTER-R10-06",
+      "reason": "安排中英文学术简历、个人陈述、官方成绩与排名证明、科研工作报告和推荐人沟通；文书采用已知排名、竞赛与在研成果，论文状态在前文有明确区分。研究计划给出与电池催化相关的具体题目，覆盖背景、科学问题、技术路线和基于已有课程及实验积累的可行性，符合本人直博意愿。真实个人竞赛贡献的欠核问题已在R10-03归属，本项不重复扣；核心文书与项目研究设想成立。"
+    },
+    {
+      "answer_quote": "将你目前的电池催化剂课题（ORR/OER测试心得、遇到的动力学瓶颈）与导师的研究方向自然结合，展现你带着“思考和方案”而来，而非单纯寻求收留。",
+      "error_ids": [
+        "E04"
+      ],
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-07",
+      "reason": "根据电催化、水系电池与电池研究列导师，要求读近两年代表作、写研究联系邮件并附工作报告，方向匹配与联系准备具体。虽有搜集招生意向、优营后确认名额的安排，但未在申请前逐团队核直博招生主体及名额，并继续把材料系、先材当作可分别申报的单位。2025年官方资料已说明iCOME整合相关力量，先材夏令营经iCOME通道报名；这在2026年3月已是可用准备信息。旧单位/团队本身可识别，不能判项目虚构，但申请路径核验不足，按半分。E04只影响本项；不把2025通知直接当作2026夏令营最终规则。"
+    },
+    {
+      "answer_quote": "若夏令营结果未达预期，紧盯8月下旬开启的华五/知名高校预推免系统补报",
+      "error_ids": [],
+      "grade": 0,
+      "id": "BY-C-WINTER-R10-08",
+      "reason": "全文没有比较追加美赛、节能减排、化工设计等活动的增量收益、投入或实际赛程，也没有结合已有奖项及科研资源给参加/暂缓条件。美赛和化工设计仅用于已有成果包装，节能减排未出现。时间表虽给论文图表、简历、邮件等交付与夏令营失利后补报，但并非追加活动取舍、研究延期后调整或复盘，不能代替该项核心，故为0；这是确定缺项而非实质争议。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "复旦大学：材料科学系、化学系、先进材料实验室",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "复旦材料科学系（现iCOME相关招生方向）",
+      "reason": "旧单位和研究方向均真实可识别；2025年官方整合及先材报名公告支持与iCOME关联，材料系和先材报名不创造两个独立通道，以同一规范候选键合并。方向推荐仍有效，独立兼报表述的错误在R10-07处理，valid不代表2026年度招生已审计。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "复旦大学：材料科学系、化学系、先进材料实验室",
+      "canonical_candidate_key": "fudan:chemistry",
+      "error_ids": [],
+      "label": "复旦化学系",
+      "reason": "化学系为可识别的实际招生主体；2025年官方通知明确化学学术直博。部分催化与电池力量已转入iCOME，实际导师对应通道须分清；不由本评审把每位化学方向教师自动归入旧化学系。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "复旦大学：材料科学系、化学系、先进材料实验室",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "复旦先进材料实验室（iCOME报名通道）",
+      "reason": "旧单位和研究方向均真实可识别；2025年官方整合及先材报名公告支持与iCOME关联，材料系和先材报名不创造两个独立通道，以同一规范候选键合并。方向推荐仍有效，独立兼报表述的错误在R10-07处理，valid不代表2026年度招生已审计。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**复旦大学高分子科学系**：\n    *   **彭慧胜 院士团队**",
+      "canonical_candidate_key": "fudan:polymer-energy",
+      "error_ids": [],
+      "label": "复旦高分子科学系纤维储能方向",
+      "reason": "答卷明确列为导师申请方向；高分子与纤维储能研究可识别。2025年iCOME通知纳入高分子电池和纤维等应用方向力量，实际招生通道须随导师核定，不能把研究院/团队再拆成独立项目；未确认路径不可成立。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "**王飞 教授团队**：国际电池电池领域的顶尖力量。",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [],
+      "label": "复旦王飞团队",
+      "reason": "2021年官方报道支持电池电池Science工作；2025年新学院通知支持研究力量整合。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**晁栋梁 教授团队（先进材料实验室/水系电池中心）**",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [],
+      "label": "复旦晁栋梁团队",
+      "reason": "括号先材说明具体团队所属，不额外拆出所谓水系电池中心申请项目。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**郑耿锋 教授课题组**",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [],
+      "label": "复旦郑耿锋团队",
+      "reason": "化学系/先材合并标题下的具体导师推荐，结合先材隶属关系按iCOME相关方向归并。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**夏永姚 教授课题组**",
+      "canonical_candidate_key": "fudan:chemistry",
+      "error_ids": [],
+      "label": "复旦夏永姚团队",
+      "reason": "按答卷化学系/先材标题及化学电源方向记为化学系选导师记录；不声称已核准其2026指标。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**王永刚 教授课题组**",
+      "canonical_candidate_key": "fudan:chemistry",
+      "error_ids": [],
+      "label": "复旦王永刚团队",
+      "reason": "按答卷化学电源研究及化学系路径记导师记录，高分子合作不产生额外申请单位。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**蔡文斌 教授课题组**",
+      "canonical_candidate_key": "fudan:chemistry",
+      "error_ids": [],
+      "label": "复旦蔡文斌团队",
+      "reason": "电化学界面光谱方向与现有研究有联系，记单位内导师推荐。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**彭慧胜 院士团队**",
+      "canonical_candidate_key": "fudan:polymer-energy",
+      "error_ids": [],
+      "label": "复旦彭慧胜团队",
+      "reason": "与高分子纤维储能推荐同一组合，不增加独立项目。列在目标团队映射与精准联系部分，属于实际推荐而非背景人名；同一单位内导师备选与相关招生方向共用规范键。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "浙江大学：化学工程与生物工程学院（化工A+，匹配度极高）、材料学院",
+      "canonical_candidate_key": "zhejiang:che",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "zhejiang",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "浙江大学：化学工程与生物工程学院（化工A+，匹配度极高）、材料学院",
+      "canonical_candidate_key": "zhejiang:mse",
+      "error_ids": [],
+      "label": "浙江大学材料学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "zhejiang",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "上海交通大学：化学化工学院、材料科学与工程学院",
+      "canonical_candidate_key": "sjtu:chem",
+      "error_ids": [],
+      "label": "上海交通大学化学化工学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "上海交通大学：化学化工学院、材料科学与工程学院",
+      "canonical_candidate_key": "sjtu:mse",
+      "error_ids": [],
+      "label": "上海交通大学材料科学与工程学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "中国科学技术大学：化学与材料科学学院、微尺度物质科学国家研究中心",
+      "canonical_candidate_key": "ustc:chem-mat",
+      "error_ids": [],
+      "label": "中国科学技术大学化学与材料科学学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "中国科学技术大学：化学与材料科学学院、微尺度物质科学国家研究中心",
+      "canonical_candidate_key": "ustc:microscale",
+      "error_ids": [],
+      "label": "中国科学技术大学微尺度物质科学国家研究中心",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "厦门大学：化学化工学院（全国电化学第一梯队/固表国重，极度看重电化学）",
+      "canonical_candidate_key": "xiamen:chem-che",
+      "error_ids": [],
+      "label": "厦门大学化学化工学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "xiamen",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "华东理工大学：化工学院（上海，化工A+全国顶尖，对化工类国家级竞赛奖项极度认可）",
+      "canonical_candidate_key": "ecust:che",
+      "error_ids": [],
+      "label": "华东理工大学化工学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "南京大学：化学化工学院、现代工程与应用科学学院",
+      "canonical_candidate_key": "nanjing:chem-che",
+      "error_ids": [],
+      "label": "南京大学化学化工学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "nanjing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "南京大学：化学化工学院、现代工程与应用科学学院",
+      "canonical_candidate_key": "nanjing:eng-applied",
+      "error_ids": [],
+      "label": "南京大学现代工程与应用科学学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "nanjing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "同济大学：化学科学与工程学院、材料科学与工程学院",
+      "canonical_candidate_key": "tongji:chem",
+      "error_ids": [],
+      "label": "同济大学化学科学与工程学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "同济大学：化学科学与工程学院、材料科学与工程学院",
+      "canonical_candidate_key": "tongji:mse",
+      "error_ids": [],
+      "label": "同济大学材料科学与工程学院",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "中山大学 / 华南理工大学：材料/化工学院（粤港澳大湾区资源充沛）",
+      "canonical_candidate_key": "sysu:materials-chemical-unspecified",
+      "error_ids": [],
+      "label": "中山大学材料/化工学院（路径未细分）",
+      "reason": "同一条明确推荐了两所学校，因此各记一条；每所的材料/化工学院没有落实独立专业或单位，保留一个合并候选，不替答卷猜测学院全称或拆成多个有效项目。本题无参考覆盖项，粒度不足不等于证实虚构。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "中山大学 / 华南理工大学：材料/化工学院（粤港澳大湾区资源充沛）",
+      "canonical_candidate_key": "scut:materials-chemical-unspecified",
+      "error_ids": [],
+      "label": "华南理工大学材料/化工学院（路径未细分）",
+      "reason": "同一条明确推荐了两所学校，因此各记一条；每所的材料/化工学院没有落实独立专业或单位，保留一个合并候选，不替答卷猜测学院全称或拆成多个有效项目。本题无参考覆盖项，粒度不足不等于证实虚构。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "中国科学院上海硅酸盐研究所（无机能源材料、固态电池、电催化）",
+      "canonical_candidate_key": "cas:sic",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "cas_sic",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "中国科学院上海有机化学研究所（特种储能电解质/储能材料）",
+      "canonical_candidate_key": "cas:sioc",
+      "error_ids": [],
+      "label": "中国科学院上海有机化学研究所",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "cas_sioc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "中国科学院宁波材料技术与工程研究所（水系电池与新能源催化，转化极快）",
+      "canonical_candidate_key": "cas:nimte",
+      "error_ids": [],
+      "label": "中国科学院宁波材料技术与工程研究所",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "cas_nimte",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "中国科学院苏州纳米技术与纳米仿生研究所",
+      "canonical_candidate_key": "cas:sinano",
+      "error_ids": [],
+      "label": "中国科学院苏州纳米技术与纳米仿生研究所",
+      "reason": "直博梯度清单中明确推荐；逗号列明的不同院系各自登记，单位内部方向、实验室说明不再拆分。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "cas_sinano",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "**材料科学系与先进材料实验室的匹配度最高**",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "复旦材料与先材（重复优先推荐）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。旧单位和研究方向均真实可识别；2025年官方整合及先材报名公告支持与iCOME关联，材料系和先材报名不创造两个独立通道，以同一规范候选键合并。方向推荐仍有效，独立兼报表述的错误在R10-07处理，valid不代表2026年度招生已审计。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "复旦夏令营允许根据专业目录申报材料系、化学系、先材等不同单位",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "复旦材料系（重复兼报建议）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。旧单位和研究方向均真实可识别；2025年官方整合及先材报名公告支持与iCOME关联，材料系和先材报名不创造两个独立通道，以同一规范候选键合并。方向推荐仍有效，独立兼报表述的错误在R10-07处理，valid不代表2026年度招生已审计。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "复旦夏令营允许根据专业目录申报材料系、化学系、先材等不同单位",
+      "canonical_candidate_key": "fudan:chemistry",
+      "error_ids": [],
+      "label": "复旦化学系（重复兼报建议）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33",
+      "answer_quote": "复旦夏令营允许根据专业目录申报材料系、化学系、先材等不同单位",
+      "canonical_candidate_key": "fudan:icome",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "复旦先材（重复兼报建议）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。旧单位和研究方向均真实可识别；2025年官方整合及先材报名公告支持与iCOME关联，材料系和先材报名不创造两个独立通道，以同一规范候选键合并。方向推荐仍有效，独立兼报表述的错误在R10-07处理，valid不代表2026年度招生已审计。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A34",
+      "answer_quote": "务必列为南方核心志愿。",
+      "canonical_candidate_key": "xiamen:chem-che",
+      "error_ids": [],
+      "label": "厦门大学化学化工方向（重复核心志愿）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "xiamen",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A35",
+      "answer_quote": "**浙江大学与华东理工大学（化工本硕博贯通优势）**",
+      "canonical_candidate_key": "zhejiang:che",
+      "error_ids": [],
+      "label": "浙江大学化工（重复主攻建议）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "zhejiang",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A36",
+      "answer_quote": "**浙江大学与华东理工大学（化工本硕博贯通优势）**",
+      "canonical_candidate_key": "ecust:che",
+      "error_ids": [],
+      "label": "华东理工大学化工（重复主攻建议）",
+      "reason": "这是前文候选的重复强化或报考说明，结合所在段落识别对象，使用同一规范键，不新增独立项目。作为申请准备方向可识别，与化工、电化学或材料研究相近；valid仅判断该候选内容，无证据确认其不存在或违反已知硬条件，不代表已逐年核准2026夏令营、2027入学的直博名额、窗口或英语门槛。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "c1c9e61e6d38c2a3fad57b734499d9082077cafd67822241b3ff88b717ef6561",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "BY-C-WINTER",
+  "task_sha256": "6f732356f6ffbb61205a30dad58aaa2dca9d6f40fef3564e8c3657f998c2b7db",
+  "tier_review": {
+    "reason": "本题没有school_tier或院校层次three_level节点，故不引入层次扣分或逐校层次审计；全文实际申请候选已登记，哈工大为本科背景而非推荐，厦大院士姓名只是背景，华五/南方高校等泛称没有另造具体候选。全文没有院校排除或单独条件备选；8月若有/若无Offer只是准备进度分支，不是新增条件院校。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

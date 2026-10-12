@@ -1,0 +1,2658 @@
+{
+  "answer_sha256": "c64e769767c80c691222e1bfe1683645756c51a3cbbcf618b08abe5c4f25a382",
+  "candidates_reviewed": true,
+  "coverage": [
+    {
+      "answer_quote": "法学硕士（经济法学：030107）",
+      "error_ids": [],
+      "id": "N15-01",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A12",
+          "answer_quote": "法学硕士（经济法学：030107）",
+          "match_level": "exact",
+          "reason": "光华法学院学术法学硕士，经济法是其中方向；参考未限定二级专业，完整符合已有粒度。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "浙江大学光华法学院法学硕士；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2006年冻结985身份名单，2026年按评分通则核对层次",
+              "scope": "除中国政法大学外，实际推荐的其余13校均在985名单。名单身份只用于基准层次，不代替法学实力比较。",
+              "source": "https://www.moe.gov.cn/srcsite/A22/s7065/200612/t20061206_128833.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A12-detail",
+          "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——数字法学/涉外法治方向 或 法学硕士（经济法学：030107）",
+          "match_level": "exact",
+          "reason": "光华法学院学术法学硕士，经济法是其中方向；参考未限定二级专业，完整符合已有粒度。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "浙江大学光华法学院法学硕士；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2006年冻结985身份名单，2026年按评分通则核对层次",
+              "scope": "除中国政法大学外，实际推荐的其余13校均在985名单。名单身份只用于基准层次，不代替法学实力比较。",
+              "source": "https://www.moe.gov.cn/srcsite/A22/s7065/200612/t20061206_128833.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A12-alias0",
+          "answer_quote": "浙大光华",
+          "match_level": "exact",
+          "reason": "光华法学院学术法学硕士，经济法是其中方向；参考未限定二级专业，完整符合已有粒度。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "浙江大学光华法学院法学硕士；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2006年冻结985身份名单，2026年按评分通则核对层次",
+              "scope": "除中国政法大学外，实际推荐的其余13校均在985名单。名单身份只用于基准层次，不代替法学实力比较。",
+              "source": "https://www.moe.gov.cn/srcsite/A22/s7065/200612/t20061206_128833.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11",
+          "answer_quote": "法律硕士（法学，代码：035102）——数字法学/涉外法治方向",
+          "match_level": "same_department",
+          "reason": "同一光华法学院，法律（法学）与法学硕士学位类型不同；两者均培养法学本科学生、研究与处理法律制度及实务，数字涉外是具体领域，相近而非精确同学位。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "学术法学硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年入学已公开官方简章；仅核对持续法律（法学）学位及本科路径，不替代2027具体方向通知",
+              "scope": "浙大官方简章明确法律（法学）专业学位可由法学本科报考；结合冻结光华法学院身份和研究生实际课程，支持院系与法律学位路径，不声称数字涉外是当届独立招生项目。",
+              "source": "https://www.grs.zju.edu.cn/yjszs/2024/1008/c28504a2970208/page.htm"
+            },
+            {
+              "applicable_cycle": "2026-2027学年研究生开课情况；核对培养领域，不反推作答时已公布",
+              "scope": "光华法学院研究生课程包括经济法研究、数字法学理论、法理学及民法学原理，支持学院实际法学培养内容与数字经济研究取向。",
+              "source": "https://yjsy.zju.edu.cn/open/kkqkcx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11-matrix",
+          "answer_quote": "7. 浙江大学 光华法学院 法律硕士（数字法学方向）",
+          "match_level": "same_department",
+          "reason": "同一光华法学院，法律（法学）与法学硕士学位类型不同；两者均培养法学本科学生、研究与处理法律制度及实务，数字涉外是具体领域，相近而非精确同学位。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "学术法学硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年入学已公开官方简章；仅核对持续法律（法学）学位及本科路径，不替代2027具体方向通知",
+              "scope": "浙大官方简章明确法律（法学）专业学位可由法学本科报考；结合冻结光华法学院身份和研究生实际课程，支持院系与法律学位路径，不声称数字涉外是当届独立招生项目。",
+              "source": "https://www.grs.zju.edu.cn/yjszs/2024/1008/c28504a2970208/page.htm"
+            },
+            {
+              "applicable_cycle": "2026-2027学年研究生开课情况；核对培养领域，不反推作答时已公布",
+              "scope": "光华法学院研究生课程包括经济法研究、数字法学理论、法理学及民法学原理，支持学院实际法学培养内容与数字经济研究取向。",
+              "source": "https://yjsy.zju.edu.cn/open/kkqkcx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11-detail",
+          "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——数字法学/涉外法治方向 或 法学硕士（经济法学：030107）",
+          "match_level": "same_department",
+          "reason": "同一光华法学院，法律（法学）与法学硕士学位类型不同；两者均培养法学本科学生、研究与处理法律制度及实务，数字涉外是具体领域，相近而非精确同学位。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "学术法学硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年入学已公开官方简章；仅核对持续法律（法学）学位及本科路径，不替代2027具体方向通知",
+              "scope": "浙大官方简章明确法律（法学）专业学位可由法学本科报考；结合冻结光华法学院身份和研究生实际课程，支持院系与法律学位路径，不声称数字涉外是当届独立招生项目。",
+              "source": "https://www.grs.zju.edu.cn/yjszs/2024/1008/c28504a2970208/page.htm"
+            },
+            {
+              "applicable_cycle": "2026-2027学年研究生开课情况；核对培养领域，不反推作答时已公布",
+              "scope": "光华法学院研究生课程包括经济法研究、数字法学理论、法理学及民法学原理，支持学院实际法学培养内容与数字经济研究取向。",
+              "source": "https://yjsy.zju.edu.cn/open/kkqkcx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11-alias0",
+          "answer_quote": "浙大光华",
+          "match_level": "same_department",
+          "reason": "同一光华法学院，法律（法学）与法学硕士学位类型不同；两者均培养法学本科学生、研究与处理法律制度及实务，数字涉外是具体领域，相近而非精确同学位。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "学术法学硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年入学已公开官方简章；仅核对持续法律（法学）学位及本科路径，不替代2027具体方向通知",
+              "scope": "浙大官方简章明确法律（法学）专业学位可由法学本科报考；结合冻结光华法学院身份和研究生实际课程，支持院系与法律学位路径，不声称数字涉外是当届独立招生项目。",
+              "source": "https://www.grs.zju.edu.cn/yjszs/2024/1008/c28504a2970208/page.htm"
+            },
+            {
+              "applicable_cycle": "2026-2027学年研究生开课情况；核对培养领域，不反推作答时已公布",
+              "scope": "光华法学院研究生课程包括经济法研究、数字法学理论、法理学及民法学原理，支持学院实际法学培养内容与数字经济研究取向。",
+              "source": "https://yjsy.zju.edu.cn/open/kkqkcx"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A11-alias1",
+          "answer_quote": "浙大数字法学",
+          "match_level": "same_department",
+          "reason": "同一光华法学院，法律（法学）与法学硕士学位类型不同；两者均培养法学本科学生、研究与处理法律制度及实务，数字涉外是具体领域，相近而非精确同学位。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "学术法学硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-01]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年入学已公开官方简章；仅核对持续法律（法学）学位及本科路径，不替代2027具体方向通知",
+              "scope": "浙大官方简章明确法律（法学）专业学位可由法学本科报考；结合冻结光华法学院身份和研究生实际课程，支持院系与法律学位路径，不声称数字涉外是当届独立招生项目。",
+              "source": "https://www.grs.zju.edu.cn/yjszs/2024/1008/c28504a2970208/page.htm"
+            },
+            {
+              "applicable_cycle": "2026-2027学年研究生开课情况；核对培养领域，不反推作答时已公布",
+              "scope": "光华法学院研究生课程包括经济法研究、数字法学理论、法理学及民法学原理，支持学院实际法学培养内容与数字经济研究取向。",
+              "source": "https://yjsy.zju.edu.cn/open/kkqkcx"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "比较法学（代码：0301Z2）——中德双硕士项目",
+      "error_ids": [],
+      "id": "N15-02",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A15",
+          "answer_quote": "比较法学（代码：0301Z2）——中德双硕士项目",
+          "match_level": "same_department",
+          "reason": "已识别的中德法律比较双硕士通过比较法律制度和法学方法研究，与法理、法史及法硕法律训练相近；不将错写专业码认定为同名精确。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            },
+            {
+              "applicable_cycle": "2022年公布的持续项目培养介绍；2026年仅核对项目身份和培养内容",
+              "scope": "面向中国学生的中德法律比较双硕士：含赴德学习、德语论文及中文论文，合格获得两校硕士。英语六级不能替代德语学习要求。",
+              "source": "https://sgls.nju.edu.cn/85/be/c34415a558526/page.htm"
+            },
+            {
+              "applicable_cycle": "2024年9月及之后入学适用",
+              "scope": "经济法中德经济法方向不得变更至经济法其他方向，属于独立受限路径；不是普通经济法方向的别称。",
+              "source": "https://law.nju.edu.cn/info/1053/13981.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A15-matrix",
+          "answer_quote": "9. 南京大学 法学院（中德所） 比较法学（中德双硕士）或 民商法学硕",
+          "match_level": "same_department",
+          "reason": "已识别的中德法律比较双硕士通过比较法律制度和法学方法研究，与法理、法史及法硕法律训练相近；不将错写专业码认定为同名精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            },
+            {
+              "applicable_cycle": "2022年公布的持续项目培养介绍；2026年仅核对项目身份和培养内容",
+              "scope": "面向中国学生的中德法律比较双硕士：含赴德学习、德语论文及中文论文，合格获得两校硕士。英语六级不能替代德语学习要求。",
+              "source": "https://sgls.nju.edu.cn/85/be/c34415a558526/page.htm"
+            },
+            {
+              "applicable_cycle": "2024年9月及之后入学适用",
+              "scope": "经济法中德经济法方向不得变更至经济法其他方向，属于独立受限路径；不是普通经济法方向的别称。",
+              "source": "https://law.nju.edu.cn/info/1053/13981.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A15-detail",
+          "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2）——中德双硕士项目 或 法学硕士（民商法学：030105 / 经济法学：030107）",
+          "match_level": "same_department",
+          "reason": "已识别的中德法律比较双硕士通过比较法律制度和法学方法研究，与法理、法史及法硕法律训练相近；不将错写专业码认定为同名精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            },
+            {
+              "applicable_cycle": "2022年公布的持续项目培养介绍；2026年仅核对项目身份和培养内容",
+              "scope": "面向中国学生的中德法律比较双硕士：含赴德学习、德语论文及中文论文，合格获得两校硕士。英语六级不能替代德语学习要求。",
+              "source": "https://sgls.nju.edu.cn/85/be/c34415a558526/page.htm"
+            },
+            {
+              "applicable_cycle": "2024年9月及之后入学适用",
+              "scope": "经济法中德经济法方向不得变更至经济法其他方向，属于独立受限路径；不是普通经济法方向的别称。",
+              "source": "https://law.nju.edu.cn/info/1053/13981.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A16",
+          "answer_quote": "法学硕士（民商法学：030105 / 经济法学：030107）",
+          "match_level": "same_department",
+          "reason": "民商法学与参考备选综合法律硕士在民事商事制度和法律职业训练上实质相近，学位不同，不是法理/法史同名。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A16-matrix",
+          "answer_quote": "9. 南京大学 法学院（中德所） 比较法学（中德双硕士）或 民商法学硕",
+          "match_level": "same_department",
+          "reason": "民商法学与参考备选综合法律硕士在民事商事制度和法律职业训练上实质相近，学位不同，不是法理/法史同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A16-detail",
+          "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2）——中德双硕士项目 或 法学硕士（民商法学：030105 / 经济法学：030107）",
+          "match_level": "same_department",
+          "reason": "民商法学与参考备选综合法律硕士在民事商事制度和法律职业训练上实质相近，学位不同，不是法理/法史同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A17",
+          "answer_quote": "民商法学：030105 / 经济法学：030107",
+          "match_level": "same_department",
+          "reason": "经济法学与参考综合法律硕士在市场规制、经济法律制度分析及法律实务训练上实质相近；与中德受限路径分别审阅。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            },
+            {
+              "applicable_cycle": "2024年9月及之后入学适用",
+              "scope": "经济法中德经济法方向不得变更至经济法其他方向，属于独立受限路径；不是普通经济法方向的别称。",
+              "source": "https://law.nju.edu.cn/info/1053/13981.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A17-detail",
+          "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2）——中德双硕士项目 或 法学硕士（民商法学：030105 / 经济法学：030107）",
+          "match_level": "same_department",
+          "reason": "经济法学与参考综合法律硕士在市场规制、经济法律制度分析及法律实务训练上实质相近；与中德受限路径分别审阅。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为已公开的相邻年度路径依据",
+              "scope": "法学本科可申请法学硕士、法律（法学）、经济法学中德经济法方向；中德并非仅向德语本科开放。不证明当届所有日期不变。",
+              "source": "https://law.nju.edu.cn/__local/5/A9/70/B78ACE994B1DA46F9E645185045_DB1ACD3F_43771.pdf"
+            },
+            {
+              "applicable_cycle": "2026-08-03公布、2027年入学",
+              "scope": "确认法学院当届预报名和硕士咨询路径；通知不完整列出硕士专业条件，不能把直博外语条款应用于硕士。",
+              "source": "https://law.nju.edu.cn/__local/0/B3/4A/FC195B6CCD6A99FA6A69EAD2D58_CC2D6A96_27B5A.pdf"
+            },
+            {
+              "applicable_cycle": "2024年9月及之后入学适用",
+              "scope": "经济法中德经济法方向不得变更至经济法其他方向，属于独立受限路径；不是普通经济法方向的别称。",
+              "source": "https://law.nju.edu.cn/info/1053/13981.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+      "error_ids": [],
+      "id": "N15-03",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A08",
+          "answer_quote": "经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+          "match_level": "same_department",
+          "reason": "官方培养目标显示经济法采用法律和社会理论、制度比较、理论与实证研究；与法理学研究社会发展和法治运行的理论方法存在实质交集。仅给同院系相近，不把民商或涉外法硕的共同基础课自动视作专门法理培养。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度项目身份和可申请路径依据",
+              "scope": "法学本科可申请法学硕士与法律（法学），六级原则500以上；可提交原创工作，不以已发表论文作为唯一成果。未完成2027年逐项条件审计。",
+              "source": "https://law.fudan.edu.cn/_upload/article/files/57/93/aad34dfb4dd88b5fb93d54402a89/a953dc1f-46a8-4aa7-a63e-7acc2572892c.pdf"
+            },
+            {
+              "applicable_cycle": "官方持续培养目标，2026年核对学科关系；页面未给单届适用年份",
+              "scope": "法理培养研究社会发展与法治互动；经济法采用法律、社会、经济和管理理论，结合理论与实证研究市场监管制度。支持方法与法治制度理论上的相近性判断，非专业等价证明。",
+              "source": "https://law.fudan.edu.cn/27213/list.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A08-matrix",
+          "answer_quote": "5. 复旦大学 法学院 法学硕士（民商法/经济法）或 涉外法治法硕",
+          "match_level": "same_department",
+          "reason": "官方培养目标显示经济法采用法律和社会理论、制度比较、理论与实证研究；与法理学研究社会发展和法治运行的理论方法存在实质交集。仅给同院系相近，不把民商或涉外法硕的共同基础课自动视作专门法理培养。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度项目身份和可申请路径依据",
+              "scope": "法学本科可申请法学硕士与法律（法学），六级原则500以上；可提交原创工作，不以已发表论文作为唯一成果。未完成2027年逐项条件审计。",
+              "source": "https://law.fudan.edu.cn/_upload/article/files/57/93/aad34dfb4dd88b5fb93d54402a89/a953dc1f-46a8-4aa7-a63e-7acc2572892c.pdf"
+            },
+            {
+              "applicable_cycle": "官方持续培养目标，2026年核对学科关系；页面未给单届适用年份",
+              "scope": "法理培养研究社会发展与法治互动；经济法采用法律、社会、经济和管理理论，结合理论与实证研究市场监管制度。支持方法与法治制度理论上的相近性判断，非专业等价证明。",
+              "source": "https://law.fudan.edu.cn/27213/list.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A08-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（民商法学：030105 / 经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+          "match_level": "same_department",
+          "reason": "官方培养目标显示经济法采用法律和社会理论、制度比较、理论与实证研究；与法理学研究社会发展和法治运行的理论方法存在实质交集。仅给同院系相近，不把民商或涉外法硕的共同基础课自动视作专门法理培养。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度项目身份和可申请路径依据",
+              "scope": "法学本科可申请法学硕士与法律（法学），六级原则500以上；可提交原创工作，不以已发表论文作为唯一成果。未完成2027年逐项条件审计。",
+              "source": "https://law.fudan.edu.cn/_upload/article/files/57/93/aad34dfb4dd88b5fb93d54402a89/a953dc1f-46a8-4aa7-a63e-7acc2572892c.pdf"
+            },
+            {
+              "applicable_cycle": "官方持续培养目标，2026年核对学科关系；页面未给单届适用年份",
+              "scope": "法理培养研究社会发展与法治互动；经济法采用法律、社会、经济和管理理论，结合理论与实证研究市场监管制度。支持方法与法治制度理论上的相近性判断，非专业等价证明。",
+              "source": "https://law.fudan.edu.cn/27213/list.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A08-alias0",
+          "answer_quote": "复旦法硕/学硕",
+          "match_level": "same_department",
+          "reason": "官方培养目标显示经济法采用法律和社会理论、制度比较、理论与实证研究；与法理学研究社会发展和法治运行的理论方法存在实质交集。仅给同院系相近，不把民商或涉外法硕的共同基础课自动视作专门法理培养。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度项目身份和可申请路径依据",
+              "scope": "法学本科可申请法学硕士与法律（法学），六级原则500以上；可提交原创工作，不以已发表论文作为唯一成果。未完成2027年逐项条件审计。",
+              "source": "https://law.fudan.edu.cn/_upload/article/files/57/93/aad34dfb4dd88b5fb93d54402a89/a953dc1f-46a8-4aa7-a63e-7acc2572892c.pdf"
+            },
+            {
+              "applicable_cycle": "官方持续培养目标，2026年核对学科关系；页面未给单届适用年份",
+              "scope": "法理培养研究社会发展与法治互动；经济法采用法律、社会、经济和管理理论，结合理论与实证研究市场监管制度。支持方法与法治制度理论上的相近性判断，非专业等价证明。",
+              "source": "https://law.fudan.edu.cn/27213/list.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "法学硕士（经济法学：030107 / 知识产权与科技法自设方向）",
+      "error_ids": [],
+      "id": "N15-04",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A10",
+          "answer_quote": "法学硕士（经济法学：030107 / 知识产权与科技法自设方向）",
+          "match_level": "same_department",
+          "reason": "推荐含经济法法学硕士，官方经济法学术引导以权利、契约自由、法规范及法律经济分析为内容，与法理的权利正义、规范方法理论有实质交集；科技知识产权取向与法理/法史不是同名，不给精确。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度身份与路径参照",
+              "scope": "凯原法学院按030100法学招生；法学本科、双一流、前25%、六级425可申请。不将内部研究主题拆成多个独立030100申请项目。",
+              "source": "https://law.sjtu.edu.cn/xw-tzgg/20250922/8926.html"
+            },
+            {
+              "applicable_cycle": "2026-04-28发布；2026年学科方法关系依据",
+              "scope": "经济法讲座讨论法律的经济分析、权利资源和自由人权正义与经济规范的联系；支持经济法与法理研究方法的实质交集，不证明法理招生专业名称相同。",
+              "source": "https://law.sjtu.edu.cn/xw-xydt/20260428/11007.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A10-matrix",
+          "answer_quote": "6. 上海交通大学 凯原法学院 法学硕士（知识产权与科技法/民商法）",
+          "match_level": "same_department",
+          "reason": "推荐含经济法法学硕士，官方经济法学术引导以权利、契约自由、法规范及法律经济分析为内容，与法理的权利正义、规范方法理论有实质交集；科技知识产权取向与法理/法史不是同名，不给精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度身份与路径参照",
+              "scope": "凯原法学院按030100法学招生；法学本科、双一流、前25%、六级425可申请。不将内部研究主题拆成多个独立030100申请项目。",
+              "source": "https://law.sjtu.edu.cn/xw-tzgg/20250922/8926.html"
+            },
+            {
+              "applicable_cycle": "2026-04-28发布；2026年学科方法关系依据",
+              "scope": "经济法讲座讨论法律的经济分析、权利资源和自由人权正义与经济规范的联系；支持经济法与法理研究方法的实质交集，不证明法理招生专业名称相同。",
+              "source": "https://law.sjtu.edu.cn/xw-xydt/20260428/11007.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A10-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（经济法学：030107 / 知识产权与科技法自设方向）",
+          "match_level": "same_department",
+          "reason": "推荐含经济法法学硕士，官方经济法学术引导以权利、契约自由、法规范及法律经济分析为内容，与法理的权利正义、规范方法理论有实质交集；科技知识产权取向与法理/法史不是同名，不给精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度身份与路径参照",
+              "scope": "凯原法学院按030100法学招生；法学本科、双一流、前25%、六级425可申请。不将内部研究主题拆成多个独立030100申请项目。",
+              "source": "https://law.sjtu.edu.cn/xw-tzgg/20250922/8926.html"
+            },
+            {
+              "applicable_cycle": "2026-04-28发布；2026年学科方法关系依据",
+              "scope": "经济法讲座讨论法律的经济分析、权利资源和自由人权正义与经济规范的联系；支持经济法与法理研究方法的实质交集，不证明法理招生专业名称相同。",
+              "source": "https://law.sjtu.edu.cn/xw-xydt/20260428/11007.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A10-alias0",
+          "answer_quote": "上交凯原",
+          "match_level": "same_department",
+          "reason": "推荐含经济法法学硕士，官方经济法学术引导以权利、契约自由、法规范及法律经济分析为内容，与法理的权利正义、规范方法理论有实质交集；科技知识产权取向与法理/法史不是同名，不给精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度身份与路径参照",
+              "scope": "凯原法学院按030100法学招生；法学本科、双一流、前25%、六级425可申请。不将内部研究主题拆成多个独立030100申请项目。",
+              "source": "https://law.sjtu.edu.cn/xw-tzgg/20250922/8926.html"
+            },
+            {
+              "applicable_cycle": "2026-04-28发布；2026年学科方法关系依据",
+              "scope": "经济法讲座讨论法律的经济分析、权利资源和自由人权正义与经济规范的联系；支持经济法与法理研究方法的实质交集，不证明法理招生专业名称相同。",
+              "source": "https://law.sjtu.edu.cn/xw-xydt/20260428/11007.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A10-alias1",
+          "answer_quote": "上交知识产权与科技法",
+          "match_level": "same_department",
+          "reason": "推荐含经济法法学硕士，官方经济法学术引导以权利、契约自由、法规范及法律经济分析为内容，与法理的权利正义、规范方法理论有实质交集；科技知识产权取向与法理/法史不是同名，不给精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度身份与路径参照",
+              "scope": "凯原法学院按030100法学招生；法学本科、双一流、前25%、六级425可申请。不将内部研究主题拆成多个独立030100申请项目。",
+              "source": "https://law.sjtu.edu.cn/xw-tzgg/20250922/8926.html"
+            },
+            {
+              "applicable_cycle": "2026-04-28发布；2026年学科方法关系依据",
+              "scope": "经济法讲座讨论法律的经济分析、权利资源和自由人权正义与经济规范的联系；支持经济法与法理研究方法的实质交集，不证明法理招生专业名称相同。",
+              "source": "https://law.sjtu.edu.cn/xw-xydt/20260428/11007.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A10-civil-alias",
+          "answer_quote": "法学硕士（知识产权与科技法/民商法）",
+          "match_level": "same_department",
+          "reason": "推荐含经济法法学硕士，官方经济法学术引导以权利、契约自由、法规范及法律经济分析为内容，与法理的权利正义、规范方法理论有实质交集；科技知识产权取向与法理/法史不是同名，不给精确。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2025年申请、2026年入学，作为相邻年度身份与路径参照",
+              "scope": "凯原法学院按030100法学招生；法学本科、双一流、前25%、六级425可申请。不将内部研究主题拆成多个独立030100申请项目。",
+              "source": "https://law.sjtu.edu.cn/xw-tzgg/20250922/8926.html"
+            },
+            {
+              "applicable_cycle": "2026-04-28发布；2026年学科方法关系依据",
+              "scope": "经济法讲座讨论法律的经济分析、权利资源和自由人权正义与经济规范的联系；支持经济法与法理研究方法的实质交集，不证明法理招生专业名称相同。",
+              "source": "https://law.sjtu.edu.cn/xw-xydt/20260428/11007.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "法律硕士（法学，代码：035102）——涉外律师 / 国际仲裁方向专项",
+      "error_ids": [],
+      "id": "N15-05",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "推荐人大法学院涉外法硕，未推荐法理、法史、教育法。涉外实务专项与这些专门研究方向没有已证明的实质培养相近性；不能只因同为法学院或有基础法理课计60%。排除的民商/刑法学硕也不计匹配。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "知识产权法学（交叉学科代码：0301Z1）——含WIPO（世界知识产权组织）/ MIP国际双硕士项目",
+      "error_ids": [],
+      "id": "N15-06",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A23",
+          "answer_quote": "知识产权法学（交叉学科代码：0301Z1）——含WIPO（世界知识产权组织）/ MIP国际双硕士项目",
+          "match_level": "exact",
+          "reason": "原法学院知识产权学科2016年整体转至国知院，官方沿革和学硕路径支持同一知识产权学科项目的延续等价；不是仅因名字含知识产权而认定，也不是无关联的新跨院系项目。WIPO/MIP自动双学位属性不作为此学硕命中的前提。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2016年11月学科整体转移事实，适用于2026年项目身份核对",
+              "scope": "原同济法学院知识产权学科整体转移至上海国际知识产权学院；支持项目沿革等价关系，不把所有跨院系项目视为等价。",
+              "source": "https://sicip.tongji.edu.cn/xyjj1/xygk.htm"
+            },
+            {
+              "applicable_cycle": "2026-07-24公布、2027年入学",
+              "scope": "当届国知院接收推免通知的存在及招生主体身份；网页正文未能提取，不能据此声称已核准全部具体条件。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/4150.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；仅作相邻年度身份和学位路径参照",
+              "scope": "国知院招收030100法学等推免硕士；依初复试成绩择优接收。不能将该年日期当成2026年申请安排；未证明WIPO/MIP是自动双学位。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/3804.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A23-matrix",
+          "answer_quote": "12. 同济大学 上海国际知识产权学院 知识产权法学（WIPO/MIP硕士）",
+          "match_level": "exact",
+          "reason": "原法学院知识产权学科2016年整体转至国知院，官方沿革和学硕路径支持同一知识产权学科项目的延续等价；不是仅因名字含知识产权而认定，也不是无关联的新跨院系项目。WIPO/MIP自动双学位属性不作为此学硕命中的前提。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2016年11月学科整体转移事实，适用于2026年项目身份核对",
+              "scope": "原同济法学院知识产权学科整体转移至上海国际知识产权学院；支持项目沿革等价关系，不把所有跨院系项目视为等价。",
+              "source": "https://sicip.tongji.edu.cn/xyjj1/xygk.htm"
+            },
+            {
+              "applicable_cycle": "2026-07-24公布、2027年入学",
+              "scope": "当届国知院接收推免通知的存在及招生主体身份；网页正文未能提取，不能据此声称已核准全部具体条件。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/4150.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；仅作相邻年度身份和学位路径参照",
+              "scope": "国知院招收030100法学等推免硕士；依初复试成绩择优接收。不能将该年日期当成2026年申请安排；未证明WIPO/MIP是自动双学位。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/3804.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A23-detail",
+          "answer_quote": "* **招生专业及项目**：知识产权法学（交叉学科代码：0301Z1）——含WIPO（世界知识产权组织）/ MIP国际双硕士项目",
+          "match_level": "exact",
+          "reason": "原法学院知识产权学科2016年整体转至国知院，官方沿革和学硕路径支持同一知识产权学科项目的延续等价；不是仅因名字含知识产权而认定，也不是无关联的新跨院系项目。WIPO/MIP自动双学位属性不作为此学硕命中的前提。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2016年11月学科整体转移事实，适用于2026年项目身份核对",
+              "scope": "原同济法学院知识产权学科整体转移至上海国际知识产权学院；支持项目沿革等价关系，不把所有跨院系项目视为等价。",
+              "source": "https://sicip.tongji.edu.cn/xyjj1/xygk.htm"
+            },
+            {
+              "applicable_cycle": "2026-07-24公布、2027年入学",
+              "scope": "当届国知院接收推免通知的存在及招生主体身份；网页正文未能提取，不能据此声称已核准全部具体条件。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/4150.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；仅作相邻年度身份和学位路径参照",
+              "scope": "国知院招收030100法学等推免硕士；依初复试成绩择优接收。不能将该年日期当成2026年申请安排；未证明WIPO/MIP是自动双学位。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/3804.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A23-alias0",
+          "answer_quote": "同济国知院",
+          "match_level": "exact",
+          "reason": "原法学院知识产权学科2016年整体转至国知院，官方沿革和学硕路径支持同一知识产权学科项目的延续等价；不是仅因名字含知识产权而认定，也不是无关联的新跨院系项目。WIPO/MIP自动双学位属性不作为此学硕命中的前提。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2016年11月学科整体转移事实，适用于2026年项目身份核对",
+              "scope": "原同济法学院知识产权学科整体转移至上海国际知识产权学院；支持项目沿革等价关系，不把所有跨院系项目视为等价。",
+              "source": "https://sicip.tongji.edu.cn/xyjj1/xygk.htm"
+            },
+            {
+              "applicable_cycle": "2026-07-24公布、2027年入学",
+              "scope": "当届国知院接收推免通知的存在及招生主体身份；网页正文未能提取，不能据此声称已核准全部具体条件。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/4150.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；仅作相邻年度身份和学位路径参照",
+              "scope": "国知院招收030100法学等推免硕士；依初复试成绩择优接收。不能将该年日期当成2026年申请安排；未证明WIPO/MIP是自动双学位。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/3804.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A23-alias1",
+          "answer_quote": "同济SICIP",
+          "match_level": "exact",
+          "reason": "原法学院知识产权学科2016年整体转至国知院，官方沿革和学硕路径支持同一知识产权学科项目的延续等价；不是仅因名字含知识产权而认定，也不是无关联的新跨院系项目。WIPO/MIP自动双学位属性不作为此学硕命中的前提。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2016年11月学科整体转移事实，适用于2026年项目身份核对",
+              "scope": "原同济法学院知识产权学科整体转移至上海国际知识产权学院；支持项目沿革等价关系，不把所有跨院系项目视为等价。",
+              "source": "https://sicip.tongji.edu.cn/xyjj1/xygk.htm"
+            },
+            {
+              "applicable_cycle": "2026-07-24公布、2027年入学",
+              "scope": "当届国知院接收推免通知的存在及招生主体身份；网页正文未能提取，不能据此声称已核准全部具体条件。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/4150.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；仅作相邻年度身份和学位路径参照",
+              "scope": "国知院招收030100法学等推免硕士；依初复试成绩择优接收。不能将该年日期当成2026年申请安排；未证明WIPO/MIP是自动双学位。",
+              "source": "https://sicip.tongji.edu.cn/info/1069/3804.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。冻结参考院系旧名与知识产权整体转移沿革已核对。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+      "error_ids": [],
+      "id": "N15-07",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A20",
+          "answer_quote": "法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+          "match_level": "same_department",
+          "reason": "国际法学学硕与参考综合法律硕士在涉外法律制度、争议解决和专业法律实务上相近，不是知识产权/法律硕士同名。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A20-matrix",
+          "answer_quote": "11. 厦门大学 法学院 法学硕士（国际法学 / 经济法学-财税法）",
+          "match_level": "same_department",
+          "reason": "国际法学学硕与参考综合法律硕士在涉外法律制度、争议解决和专业法律实务上相近，不是知识产权/法律硕士同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A20-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+          "match_level": "same_department",
+          "reason": "国际法学学硕与参考综合法律硕士在涉外法律制度、争议解决和专业法律实务上相近，不是知识产权/法律硕士同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A20-alias0",
+          "answer_quote": "厦大法学院",
+          "match_level": "same_department",
+          "reason": "国际法学学硕与参考综合法律硕士在涉外法律制度、争议解决和专业法律实务上相近，不是知识产权/法律硕士同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A21",
+          "answer_quote": "经济法学-财税法方向：030107",
+          "match_level": "same_department",
+          "reason": "经济法学硕研究经济规制、财税法律制度，与参考法律硕士的经济法律实务培养相近；两种学位不等同。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A21-matrix",
+          "answer_quote": "11. 厦门大学 法学院 法学硕士（国际法学 / 经济法学-财税法）",
+          "match_level": "same_department",
+          "reason": "经济法学硕研究经济规制、财税法律制度，与参考法律硕士的经济法律实务培养相近；两种学位不等同。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A21-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+          "match_level": "same_department",
+          "reason": "经济法学硕研究经济规制、财税法律制度，与参考法律硕士的经济法律实务培养相近；两种学位不等同。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A21-alias0",
+          "answer_quote": "厦大法学院",
+          "match_level": "same_department",
+          "reason": "经济法学硕研究经济规制、财税法律制度，与参考法律硕士的经济法律实务培养相近；两种学位不等同。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A22",
+          "answer_quote": "民商法学：030105）",
+          "match_level": "same_department",
+          "reason": "民商法学硕的财产民商权利与知识产权私权保护有直接交集，也与综合法律硕士民商实务训练相近；不把参考未限定的法硕强行加上知识产权要求。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A22-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+          "match_level": "same_department",
+          "reason": "民商法学硕的财产民商权利与知识产权私权保护有直接交集，也与综合法律硕士民商实务训练相近；不把参考未限定的法硕强行加上知识产权要求。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A22-alias0",
+          "answer_quote": "厦大法学院",
+          "match_level": "same_department",
+          "reason": "民商法学硕的财产民商权利与知识产权私权保护有直接交集，也与综合法律硕士民商实务训练相近；不把参考未限定的法硕强行加上知识产权要求。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026-07-10发布、2027年入学",
+              "scope": "法学院列民商法、经济法、国际法、财税法等学硕与法律（法学）专硕；法学本科有相应路径。支持院系和项目身份，不支持答卷初审满分保证。",
+              "source": "https://law.xmu.edu.cn/info/1040/302401.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "",
+      "error_ids": [],
+      "id": "N15-08",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文没有中山大学推荐、条件备选、排除或项目提名；属确定缺项，不记pending。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "国际法学：030109 / 环境与资源保护法学：030108",
+      "error_ids": [],
+      "id": "N15-09",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A13",
+          "answer_quote": "国际法学：030109 / 环境与资源保护法学：030108",
+          "match_level": "same_department",
+          "reason": "法学院国际法学硕面向涉外法律制度与争议处理，与备选综合法律硕士的专业法律实务培养相近；不算宪法或党规同名。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院与综合法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A13-matrix",
+          "answer_quote": "8. 武汉大学 法学院 法学硕士（国际法学 / 环境与资源保护法学）",
+          "match_level": "same_department",
+          "reason": "法学院国际法学硕面向涉外法律制度与争议处理，与备选综合法律硕士的专业法律实务培养相近；不算宪法或党规同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院与综合法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A13-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 环境与资源保护法学：030108）",
+          "match_level": "same_department",
+          "reason": "法学院国际法学硕面向涉外法律制度与争议处理，与备选综合法律硕士的专业法律实务培养相近；不算宪法或党规同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院与综合法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A13-alias0",
+          "answer_quote": "武大法学院",
+          "match_level": "same_department",
+          "reason": "法学院国际法学硕面向涉外法律制度与争议处理，与备选综合法律硕士的专业法律实务培养相近；不算宪法或党规同名。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院与综合法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A14",
+          "answer_quote": "若考生的大创或跨学科项目涉及资源保护、长江流域治理、碳达峰碳中和法治，投递武大环境法学硕将具有极高的专业亲和力与认可度。",
+          "match_level": "same_department",
+          "reason": "具体可行条件推荐环境法学硕，环境立法、行政法规、政府监管与参考宪法行政法公共治理实质相近；官方环境法所沿革活动说明此联系。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院宪法与行政法及法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            },
+            {
+              "applicable_cycle": "2021年公布，历史上持续的学科研究内容，供2026年关系核对",
+              "scope": "武大环境法所参与环境法律及行政法规起草和政府咨询；支持环境法与行政法国家公共治理关系。",
+              "source": "https://news.whu.edu.cn/info/1015/65539.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A14-matrix",
+          "answer_quote": "8. 武汉大学 法学院 法学硕士（国际法学 / 环境与资源保护法学）",
+          "match_level": "same_department",
+          "reason": "具体可行条件推荐环境法学硕，环境立法、行政法规、政府监管与参考宪法行政法公共治理实质相近；官方环境法所沿革活动说明此联系。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院宪法与行政法及法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            },
+            {
+              "applicable_cycle": "2021年公布，历史上持续的学科研究内容，供2026年关系核对",
+              "scope": "武大环境法所参与环境法律及行政法规起草和政府咨询；支持环境法与行政法国家公共治理关系。",
+              "source": "https://news.whu.edu.cn/info/1015/65539.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A14-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 环境与资源保护法学：030108）",
+          "match_level": "same_department",
+          "reason": "具体可行条件推荐环境法学硕，环境立法、行政法规、政府监管与参考宪法行政法公共治理实质相近；官方环境法所沿革活动说明此联系。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院宪法与行政法及法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            },
+            {
+              "applicable_cycle": "2021年公布，历史上持续的学科研究内容，供2026年关系核对",
+              "scope": "武大环境法所参与环境法律及行政法规起草和政府咨询；支持环境法与行政法国家公共治理关系。",
+              "source": "https://news.whu.edu.cn/info/1015/65539.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A14-alias0",
+          "answer_quote": "武大法学院",
+          "match_level": "same_department",
+          "reason": "具体可行条件推荐环境法学硕，环境立法、行政法规、政府监管与参考宪法行政法公共治理实质相近；官方环境法所沿革活动说明此联系。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "武汉大学法学院宪法与行政法及法律硕士目标；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-09]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学，仅作相邻年度接收路径参照",
+              "scope": "武汉大学接收推免需资格审核、复试与择优录取；未将该年日期直接套用到2026申请。",
+              "source": "https://yz.chsi.com.cn/kyzx/yxzc/202509/20250925/2293430781.html"
+            },
+            {
+              "applicable_cycle": "2021年公布，历史上持续的学科研究内容，供2026年关系核对",
+              "scope": "武大环境法所参与环境法律及行政法规起草和政府咨询；支持环境法与行政法国家公共治理关系。",
+              "source": "https://news.whu.edu.cn/info/1015/65539.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "",
+      "error_ids": [],
+      "id": "N15-10",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文没有吉林大学候选；无匹配，确定缺项。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "法学硕士（环境与资源保护法学：030108 / 经济法学：030107 / 卓越法治人才计划）",
+      "error_ids": [],
+      "id": "N15-11",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A26",
+          "answer_quote": "法学硕士（环境与资源保护法学：030108 / 经济法学：030107 / 卓越法治人才计划）",
+          "match_level": "exact",
+          "reason": "同校同法学院学术法学硕士已明确经济法；官网一级学科入校定方向与参考方向粒度相容，不要求冻结参考未给的单独030107当届招生代码。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "重庆大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-11]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年入学目录；核对已公开的学位与一级学科路径",
+              "scope": "法学院030100法学一级学科招生，入校后定方向；环境法、经济法不拆成重复独立路径。",
+              "source": "https://yz.cqu.edu.cn/sszyml/2026/23.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A26-matrix",
+          "answer_quote": "15. 重庆大学 法学院（本校） 法学硕士（环境与资源保护法/卓越法治人才计划）",
+          "match_level": "exact",
+          "reason": "同校同法学院学术法学硕士已明确经济法；官网一级学科入校定方向与参考方向粒度相容，不要求冻结参考未给的单独030107当届招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "重庆大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-11]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年入学目录；核对已公开的学位与一级学科路径",
+              "scope": "法学院030100法学一级学科招生，入校后定方向；环境法、经济法不拆成重复独立路径。",
+              "source": "https://yz.cqu.edu.cn/sszyml/2026/23.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A26-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（环境与资源保护法学：030108 / 经济法学：030107 / 卓越法治人才计划）",
+          "match_level": "exact",
+          "reason": "同校同法学院学术法学硕士已明确经济法；官网一级学科入校定方向与参考方向粒度相容，不要求冻结参考未给的单独030107当届招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "重庆大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-11]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年入学目录；核对已公开的学位与一级学科路径",
+              "scope": "法学院030100法学一级学科招生，入校后定方向；环境法、经济法不拆成重复独立路径。",
+              "source": "https://yz.cqu.edu.cn/sszyml/2026/23.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A26-alias0",
+          "answer_quote": "重庆大学本校法学院",
+          "match_level": "exact",
+          "reason": "同校同法学院学术法学硕士已明确经济法；官网一级学科入校定方向与参考方向粒度相容，不要求冻结参考未给的单独030107当届招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "重庆大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-11]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年入学目录；核对已公开的学位与一级学科路径",
+              "scope": "法学院030100法学一级学科招生，入校后定方向；环境法、经济法不拆成重复独立路径。",
+              "source": "https://yz.cqu.edu.cn/sszyml/2026/23.html"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A26-guarantee",
+          "answer_quote": "本校推免资格与接收指标具有100%确定性",
+          "match_level": "exact",
+          "reason": "同校同法学院学术法学硕士已明确经济法；官网一级学科入校定方向与参考方向粒度相容，不要求冻结参考未给的单独030107当届招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "重庆大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-11]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026年入学目录；核对已公开的学位与一级学科路径",
+              "scope": "法学院030100法学一级学科招生，入校后定方向；环境法、经济法不拆成重复独立路径。",
+              "source": "https://yz.cqu.edu.cn/sszyml/2026/23.html"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "法学硕士（医事法学 / 工程法学自设方向：0301Z1）或 经济法学（030107）",
+      "error_ids": [],
+      "id": "N15-12",
+      "matched_answer_item_id": null,
+      "matches": [
+        {
+          "answer_item_id": "A25",
+          "answer_quote": "法学硕士（医事法学 / 工程法学自设方向：0301Z1）或 经济法学（030107）",
+          "match_level": "exact",
+          "reason": "同校同法学院，完整招生行已明确经济法；内部工程医事研究方向不排除其经济法备选，命中参考其一即可，不强求未给的细分招生代码。",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "东南大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-12]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026-02-14公布；2026年学科方向身份",
+              "scope": "法学院存在法学硕士授权和医事、工程等交叉研究方向；不将医事与工程共同代码认定为两个独立招生专业。",
+              "source": "https://law.seu.edu.cn/2026/0214/c9387a555924/page.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；相邻年度路径参考",
+              "scope": "法学本科双一流、前30%、六级450可申请法学或法律（法学）；交叉法研究方向在法学培养平台中开展。",
+              "source": "https://law.seu.edu.cn/2025/0701/c9387a534732/page.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A25-matrix",
+          "answer_quote": "14. 东南大学 法学院 法学硕士（医事法学 / 工程法学）",
+          "match_level": "exact",
+          "reason": "同校同法学院，完整招生行已明确经济法；内部工程医事研究方向不排除其经济法备选，命中参考其一即可，不强求未给的细分招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "东南大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-12]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026-02-14公布；2026年学科方向身份",
+              "scope": "法学院存在法学硕士授权和医事、工程等交叉研究方向；不将医事与工程共同代码认定为两个独立招生专业。",
+              "source": "https://law.seu.edu.cn/2026/0214/c9387a555924/page.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；相邻年度路径参考",
+              "scope": "法学本科双一流、前30%、六级450可申请法学或法律（法学）；交叉法研究方向在法学培养平台中开展。",
+              "source": "https://law.seu.edu.cn/2025/0701/c9387a534732/page.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A25-detail",
+          "answer_quote": "* **招生专业及项目**：法学硕士（医事法学 / 工程法学自设方向：0301Z1）或 经济法学（030107）",
+          "match_level": "exact",
+          "reason": "同校同法学院，完整招生行已明确经济法；内部工程医事研究方向不排除其经济法备选，命中参考其一即可，不强求未给的细分招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "东南大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-12]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026-02-14公布；2026年学科方向身份",
+              "scope": "法学院存在法学硕士授权和医事、工程等交叉研究方向；不将医事与工程共同代码认定为两个独立招生专业。",
+              "source": "https://law.seu.edu.cn/2026/0214/c9387a555924/page.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；相邻年度路径参考",
+              "scope": "法学本科双一流、前30%、六级450可申请法学或法律（法学）；交叉法研究方向在法学培养平台中开展。",
+              "source": "https://law.seu.edu.cn/2025/0701/c9387a534732/page.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A25-alias0",
+          "answer_quote": "东大法学院",
+          "match_level": "exact",
+          "reason": "同校同法学院，完整招生行已明确经济法；内部工程医事研究方向不排除其经济法备选，命中参考其一即可，不强求未给的细分招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "东南大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-12]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026-02-14公布；2026年学科方向身份",
+              "scope": "法学院存在法学硕士授权和医事、工程等交叉研究方向；不将医事与工程共同代码认定为两个独立招生专业。",
+              "source": "https://law.seu.edu.cn/2026/0214/c9387a555924/page.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；相邻年度路径参考",
+              "scope": "法学本科双一流、前30%、六级450可申请法学或法律（法学）；交叉法研究方向在法学培养平台中开展。",
+              "source": "https://law.seu.edu.cn/2025/0701/c9387a534732/page.htm"
+            }
+          ]
+        },
+        {
+          "answer_item_id": "A25-alias1",
+          "answer_quote": "东大工程法",
+          "match_level": "exact",
+          "reason": "同校同法学院，完整招生行已明确经济法；内部工程医事研究方向不排除其经济法备选，命中参考其一即可，不强求未给的细分招生代码。（该出现与主记录同一候选）",
+          "relation_evidence": [
+            {
+              "applicable_cycle": "2026年推免申请季（通常对应2027年入学；题设未给精确咨询日期）",
+              "scope": "东南大学法学院经济法方向；仅支持冻结目标身份，不代表审计当届全部招生条件。",
+              "source": "rubric.json reference_candidates[N15-12]（本题冻结参考）"
+            },
+            {
+              "applicable_cycle": "2026-02-14公布；2026年学科方向身份",
+              "scope": "法学院存在法学硕士授权和医事、工程等交叉研究方向；不将医事与工程共同代码认定为两个独立招生专业。",
+              "source": "https://law.seu.edu.cn/2026/0214/c9387a555924/page.htm"
+            },
+            {
+              "applicable_cycle": "2025年申请、2026年入学；相邻年度路径参考",
+              "scope": "法学本科双一流、前30%、六级450可申请法学或法律（法学）；交叉法研究方向在法学培养平台中开展。",
+              "source": "https://law.seu.edu.cn/2025/0701/c9387a534732/page.htm"
+            }
+          ]
+        }
+      ],
+      "reason": "已核对该校全部候选与全卷重复，以下列全成立关系；其他候选关系不成立。",
+      "status": "hit"
+    },
+    {
+      "answer_quote": "",
+      "error_ids": [],
+      "id": "N15-13",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文没有华东师范大学候选；无匹配，确定缺项。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "",
+      "error_ids": [],
+      "id": "N15-14",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文没有北京师范大学候选；北京大学STL不能替代北京师范大学，确定缺项。",
+      "status": "miss"
+    },
+    {
+      "answer_quote": "",
+      "error_ids": [],
+      "id": "N15-15",
+      "matched_answer_item_id": null,
+      "matches": [],
+      "reason": "全文没有苏州大学候选；无匹配，确定缺项。",
+      "status": "miss"
+    }
+  ],
+  "errors": [
+    {
+      "answer_quote": "法律硕士（法学，代码：035102）——计算法学方向",
+      "id": "E01",
+      "reason": "已披露法学本科与清华计算法学035101法律（非法学）硬条件冲突；当届2027推免目录及项目介绍确认。参考外无效对象仅关联tier中明确的不混淆学位要求，不因其在执行批次再次出现重复扣执行。官方依据见evidence.json的th和th_old。"
+    },
+    {
+      "answer_quote": "本校推免资格与接收指标具有100%确定性",
+      "id": "E02",
+      "reason": "题设只有排名，没有已获推免资格或接收事实；正文多处稳拿、零风险、95%录取、无条件导师权与全额奖学金将不确定状态写成保证，破坏facts核心而非局部笔误。重庆大学当届推荐及接收规则仍有资格申请、考核、公示和名额约束。真实本校项目不因此invalid，避免覆盖与facts重复处罚。"
+    },
+    {
+      "answer_quote": "9月28日00:00：教育部“全国推免服务系统”开放，填报心仪拟录取志愿",
+      "id": "E03",
+      "reason": "本题2026申请季对应官方2027推免说明：9月21日9时即可填志愿，9月22日8时复试确认，9月24日14时待录取确认。把28日0时当统一开通会导致关键确认动作延迟，执行降半档；不以运行日推断所有候选截止或取消覆盖。"
+    },
+    {
+      "answer_quote": "比较法学（代码：0301Z2）——中德双硕士项目",
+      "id": "E04",
+      "reason": "官方实际招生对应经济法学中德经济法方向，双硕士培养介绍要求德语学习及论文。明确中德所/哥廷根身份仍可识别真实项目，故不标invalid；但错误专业代码及遗漏关键语言准备属于推荐条件缺陷，仅归reasons。 此项仍待其他实质学位争议裁决，不为结构校验清除pending。"
+    }
+  ],
+  "input_sha256": "40a63d2ef5e088691be03829f5afa4bea865f3d579cbff4085163092a9d52356",
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。分层匹配：每个coverage项填写全部可成立的正向matches，不预先挑选一个候选。status=hit表示存在至少一条可成立匹配，miss表示无有效匹配，pending表示参考身份或匹配证据无法裁决。miss/pending的matches留空；matched_answer_item_id留空，由程序做最高总分的一对一分配。每条matches填写answer_item_id、match_level、answer_quote、reason和relation_evidence。match_level取exact（完整或等价，100%）、same_department（同院系相近专业，60%）、related_department（同校跨院系相关方向，30%）。只报学校或路径不成立不能填正向匹配。relation_evidence为数组，每项填写source、applicable_cycle、scope，记录项目身份、方向及路径的核验依据；来源可为题设材料或适用周期的官方资料，不要求答卷自身附链接。按参考已有粒度判断；参考内斜杠分隔项为备选，命中其一即可，不拆分参考项。同一候选可出现在多个参考项的matches中，程序只选择一次；别名及重复记录合并为同一canonical_candidate_key。未列出的候选—参考关系视为已核对且无有效匹配，必须审阅全部可能关系；无法裁决时保留pending。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；本版不使用allowed_exclusion：一般排除或只提及项目不取得项目匹配分。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。",
+  "judge_version": "evidence-review-v1",
+  "nodes": [
+    {
+      "answer_quote": "若追求学术深造，可利用大创成果申报经济法或民商法学硕；若追求高端实务与涉外执业，可申报涉外法治法硕，两者录取胜率均非常可观。",
+      "error_ids": [
+        "E04"
+      ],
+      "grade": "pending",
+      "id": "reasons",
+      "reason": "已给排名、六级、大创与交叉经历的具体方向适配、学硕/专硕和冲刺主适特色顺序，并有学术与实务取舍；中德专业/德语准备缺陷E04已确认；计算法学学位类别错误E01仅归tier，不在此重复扣分。中欧所写比较法/035102当届双硕士路径、清华科技法正式申请身份、同济WIPO/MIP自动双学位属性与官方公开资料存在实质身份/学位争议，当前官方当届证据无法裁决，故仅将最直接的推荐理由条件节点保留pending；不是因无链接或缺逐年审计挂起。不得用普通通用双硕士描述替它指定六个学硕中的某一条路径。"
+    },
+    {
+      "answer_quote": "法律硕士（法学，代码：035102）——计算法学方向",
+      "error_ids": [
+        "E01"
+      ],
+      "grade": 0.5,
+      "id": "tier",
+      "reason": "总体按重大985、排名与专业特长安排冲刺主适特色；推荐院校中中国政法大学为211非985，但明确以法学优势作取舍，北大STL深圳培养地也写明。这些主体安排正确。清华计算法学却把035101法律（非法学）写成035102法律（法学）并推荐给法学本科，E01是已核实的核心学位类别混淆，违反本项“不混淆培养地、校区、学位”，不能满分，主要院校安排仍成立故半档。此参考外无效对象的已确认错误仅在本项体现，不在reasons或execution再次处罚；中欧和科技法未决身份仍在reasons保留pending。"
+    },
+    {
+      "answer_quote": "夏令营批次（建议申报8-10所）",
+      "error_ids": [
+        "E03"
+      ],
+      "grade": 0.5,
+      "id": "execution",
+      "reason": "已有分批申请名单、预推免补充、成绩排名证明和推荐信准备、大创代表作及计划书行动，非仅排序，具备具体可执行内容；但统一决战动作依赖错误9月28日开系统E03，未区分当届志愿、复试确认及待录取确认窗口，关键周期处理不足，只给半档。题设没有精确咨询日期，不能以评审运行日取消此前准备阶段。清华硬条件错误不在此重复处罚。"
+    },
+    {
+      "answer_quote": "本校推免资格与接收指标具有100%确定性",
+      "error_ids": [
+        "E02"
+      ],
+      "grade": 0,
+      "id": "facts",
+      "reason": "承认无正式论文并建议以真实大创成果形成未发表工作论文，这部分正确；然而全卷反复稳拿、95%、绝对零风险，并将未知本校推荐资格、接收、导师权与全额奖学金当作必然事实，E02破坏不过度承诺录取的核心，超出局部可修正事实问题。不能因后来时间线有资格确认动作抵消这些保证。"
+    }
+  ],
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "法律硕士（法学，代码：035102）——涉外律师 / 国际仲裁方向专项",
+      "canonical_candidate_key": "ruc-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜法律（法学）涉外法治专项",
+      "reason": "当届官方涉外法治法硕通道成立，六级550–599超过500门槛。律师与仲裁作为同一涉外项目内部备选，不凭斜杠机械拆分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "法律硕士（法学，代码：035102）——计算法学方向",
+      "canonical_candidate_key": "thu-law-computational",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "法学院｜计算法学法律硕士",
+      "reason": "2027年推免目录及项目介绍确认这是035101法律（非法学），本题法学本科不能申报该路径。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "法学硕士（科技法方向）",
+      "canonical_candidate_key": "thu-law-academic-tech",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技法方向",
+      "reason": "2027年学硕目录无科技法独立方向，可能是知识产权等正式方向内的研究主题，但答卷没有对应正式路径。是与官方目录冲突的实质身份争议，未找到等价证明，保留pending，不直接认定虚构。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "普通法法律博士（J.D.）与中国法法律硕士（J.M.）双学位项目（四年制，深圳研究生院）",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "国际法学院STL｜JD/JM培养项目",
+      "reason": "官方2027研招介绍支持深圳STL法律硕士与JD培养结合路径，法学本科可以申请。美国律考资格表述不作为已核验结论。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "比较法学（代码：0301Z2，学硕）",
+      "canonical_candidate_key": "cupl-cesl-comparative-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜比较法双硕士",
+      "reason": "中欧双硕士真实存在，但已公开2026目录不含此专业，历史目录曾含比较法且代码为0301Z3；2027目录入口访问失败，无法裁决当届比较法路径恢复或对应关系。仅挂起此对象与reasons，不能以未找到网页直接判不存在。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "法律硕士（法学，代码：035102）——中欧双硕士项目（中国法硕士 + 汉堡大学欧洲-国际法LL.M.）",
+      "canonical_candidate_key": "cupl-cesl-law-jm-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜法律（法学）双硕士",
+      "reason": "2026中欧目录仅六个学硕专业，历史介绍中的法硕曾是非法学类别，与本题明确035102路径发生实质学位争议；2027依据未取得，不用旧介绍替代当届，保留pending。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "民商法学：030105 / 经济法学：030107",
+      "canonical_candidate_key": "fudan-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "民商法学是可识别学硕专业；与经济法按答卷明确不同专业代码分别记录。未把民商法一般理论训练自动等同参考法理、法史。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+      "canonical_candidate_key": "fudan-law-economic",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士",
+      "reason": "经济法学申请方向真实；研究市场规制制度的社会、法律理论，与参考法理学有实质交集但不是相同专业。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "法律硕士（涉外法治项目：035102）",
+      "canonical_candidate_key": "fudan-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜涉外法治法律（法学）",
+      "reason": "可识别法学院法律（法学）申请路径，涉外属于培养方向说明；不因没有当届独立方向链接断言无效。其专项培养内容未证明与法理或法史专门培养实质相近，不据共同基础课机械给分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "法学硕士（经济法学：030107 / 知识产权与科技法自设方向）",
+      "canonical_candidate_key": "sjtu-koguan-law-academic",
+      "error_ids": [],
+      "label": "凯原法学院｜法学硕士经济法/知识产权科技法/民商研究方向",
+      "reason": "官网按030100法学招生，经济法、知识产权科技法与矩阵民商作为同一学硕路径内部方向合并；不将矩阵与详细条目的差异创造新申请项目。经济分析法学、权利制度理论支持与法理研究相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "法律硕士（法学，代码：035102）——数字法学/涉外法治方向",
+      "canonical_candidate_key": "zju-guanghua-law-jm",
+      "error_ids": [],
+      "label": "光华法学院｜法律（法学）数字/涉外方向",
+      "reason": "法律（法学）可识别，数字/涉外作为研究培养取向，不作为独立新学位；与学术法学硕士分开记录。参考只要求光华法学硕士，按学位区别认定相近而非同名精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "法学硕士（经济法学：030107）",
+      "canonical_candidate_key": "zju-guanghua-law-economic",
+      "error_ids": [],
+      "label": "光华法学院｜法学硕士经济法",
+      "reason": "学校、学院、学术法学硕士身份与冻结参考一致；参考没有限定二级专业，不额外要求法理等方向。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "国际法学：030109 / 环境与资源保护法学：030108",
+      "canonical_candidate_key": "whu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "国际法学是独立可识别法学硕士专业，专业代码与环境法不同；与参考综合法律硕士有涉外法律实务培养交集，非宪法/党规精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "若考生的大创或跨学科项目涉及资源保护、长江流域治理、碳达峰碳中和法治，投递武大环境法学硕将具有极高的专业亲和力与认可度。",
+      "canonical_candidate_key": "whu-law-environment",
+      "error_ids": [],
+      "feasibility": "答卷第四部分给大创工作论文和跨学科计划书打磨动作，可用真实项目核对上述议题并提交研究材料；题设未排斥环境法，该条件现实可行。",
+      "key_condition": "大创或跨学科经历确实涉及资源保护、流域治理、碳中和法治，并愿意沿此方向研究。",
+      "label": "法学院｜环境资源法学硕士",
+      "reason": "全文同时列直接备选并给本人项目主题条件，按具体条件方案记录。环境治理立法执法与行政法关系成立，未把假设的课题方向当学生已知事实。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "比较法学（代码：0301Z2）——中德双硕士项目",
+      "canonical_candidate_key": "nju-sgls-comparative-dual",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "法学院中德所｜中德法律比较双硕士（招生对应中德经济法）",
+      "reason": "两校双硕士身份可由明确中德所和哥廷根大学描述识别，官方法学本科可申请中德经济法方向；答卷把招生专业和代码写成比较法0301Z2，且未处理德语培养，记E04，不凭误码将整个真实项目判无效。此方向与普通经济法有转方向限制，分别计数。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "法学硕士（民商法学：030105 / 经济法学：030107）",
+      "canonical_candidate_key": "nju-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "可识别民商法学硕路径，与同院系法律硕士法律实务训练相近，非参考法理/法史同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "民商法学：030105 / 经济法学：030107",
+      "canonical_candidate_key": "nju-law-economic",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士普通方向",
+      "reason": "独立经济法学专业，不与中德双硕士受限方向重复；参考包括综合法硕，经济法律规制与其法律实务培养相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "在民商经济法学院的大创项目经验，则契合经济法对市场规制、金融法、竞争法的热点探讨。",
+      "canonical_candidate_key": "cupl-civil-economic-school-economic",
+      "error_ids": [],
+      "label": "民商经济法学院｜经济法学硕士",
+      "reason": "虽标题将两学院斜杠并列，但正文分别对民商经济学院经济法、国际学院国际法作明确推荐与理由，允许按真实两个主体分别提取。学硕路径可由官方2026目录识别。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "考生的六级550–599分在国际法学院是一大硬核长处",
+      "canonical_candidate_key": "cupl-international-school-international",
+      "error_ids": [],
+      "label": "国际法学院｜国际法学硕士",
+      "reason": "正文明确国际法学院与国际法学专业，独立于民商经济学院经济法；无需评审从含糊标题创造对象。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+      "canonical_candidate_key": "xmu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "当届目录有国际法学；与参考法律硕士涉外实务和国际法律训练相近，不认定为知识产权同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "经济法学-财税法方向：030107",
+      "canonical_candidate_key": "xmu-law-economic-tax",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士财税研究取向",
+      "reason": "经济法可申请，财税作为研究取向识别；当届另列财税法学，不从此斜杠内研究主题另造一个独立财税法专业候选。与综合法硕经济法律实务相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "民商法学：030105）",
+      "canonical_candidate_key": "xmu-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "同段第三个独立专业代码与当届官方目录民商法学对应，民商知识产权权利保护与法律硕士实务培养相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "知识产权法学（交叉学科代码：0301Z1）——含WIPO（世界知识产权组织）/ MIP国际双硕士项目",
+      "canonical_candidate_key": "tongji-sicip-ip-law-academic",
+      "error_ids": [],
+      "label": "上海国际知识产权学院｜知识产权法学硕士（答卷含WIPO/MIP描述）",
+      "reason": "知识产权学硕在国知院路径成立，旧学科整体转移可核对。WIPO/MIP被写成含于同一项目，全文没有另一条独立报名或明确学位申请路径，不拆分新候选；自动双硕士属性尚有学位争议，挂起reasons，主学硕身份不受影响。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "法学硕士（科技法学 / 工业和信息化法治战略自设方向：0301Z1）",
+      "canonical_candidate_key": "buaa-law-tech-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技与工业信息化研究取向",
+      "reason": "官方确认法学硕士及科技、工业信息化领域，按学硕内部研究取向识别为一项；不宣称已核准0301Z1年度代码或把实验室名称当独立学位。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "法学硕士（医事法学 / 工程法学自设方向：0301Z1）或 经济法学（030107）",
+      "canonical_candidate_key": "seu-law-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士医事/工程/经济法取向",
+      "reason": "法学学硕与工程医事研究领域可核对；同一学院学硕内部取向合为一项，经济法已明列且冻结参考支持同名方向，不要求参考未提供的更细代码。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "法学硕士（环境与资源保护法学：030108 / 经济法学：030107 / 卓越法治人才计划）",
+      "canonical_candidate_key": "cqu-law-academic",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "法学院｜法学硕士环境/经济法（含卓越培养描述）",
+      "reason": "官网为030100一级法学、入校定方向，环境与经济不拆为独立项目；卓越计划未给独立申请路径，不另计。经济法与冻结参考同名；错误的接收保证只归facts，不取消真实项目覆盖。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "人大法学院学硕（如民商、刑法）在初审和复试中对学术论文（尤其是CSSCI或高质量发表）要求极严",
+      "canonical_candidate_key": "ruc-law-civil-academic-excluded",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕（避开）",
+      "reason": "在“避开学硕论文内卷”推荐理由中明确作为不主投的学硕对象，按排除提取；专业真实，论文偏好绝对化另由facts判断，不因非推荐计匹配。",
+      "school_key": "中国人民大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "人大法学院学硕（如民商、刑法）在初审和复试中对学术论文（尤其是CSSCI或高质量发表）要求极严",
+      "canonical_candidate_key": "ruc-law-criminal-academic-excluded",
+      "error_ids": [],
+      "label": "法学院｜刑法学硕（避开）",
+      "reason": "同一排除语句明确刑法学硕为另一专业，纳入数量；普通背景段如人大、法大仅说明学科声誉，不另造候选。",
+      "school_key": "中国人民大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-matrix",
+      "answer_quote": "1. 中国人民大学 法学院 法律硕士（涉外律师/国际仲裁）",
+      "canonical_candidate_key": "ruc-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜法律（法学）涉外法治专项",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A01的全文核对为依据。当届官方涉外法治法硕通道成立，六级550–599超过500门槛。律师与仲裁作为同一涉外项目内部备选，不凭斜杠机械拆分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-matrix",
+      "answer_quote": "2. 清华大学 法学院 法律硕士（计算法学方向）",
+      "canonical_candidate_key": "thu-law-computational",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "法学院｜计算法学法律硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A02的全文核对为依据。2027年推免目录及项目介绍确认这是035101法律（非法学），本题法学本科不能申报该路径。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A04-matrix",
+      "answer_quote": "3. 北京大学 国际法学院 普通法J.D.与中国法法律硕士(J.M.)",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "国际法学院STL｜JD/JM培养项目",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A04的全文核对为依据。官方2027研招介绍支持深圳STL法律硕士与JD培养结合路径，法学本科可以申请。美国律考资格表述不作为已核验结论。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-matrix",
+      "answer_quote": "4. 中国政法大学 中欧法学院 比较法学（中欧双硕士）",
+      "canonical_candidate_key": "cupl-cesl-comparative-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜比较法双硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A05的全文核对为依据。中欧双硕士真实存在，但已公开2026目录不含此专业，历史目录曾含比较法且代码为0301Z3；2027目录入口访问失败，无法裁决当届比较法路径恢复或对应关系。仅挂起此对象与reasons，不能以未找到网页直接判不存在。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A07-matrix",
+      "answer_quote": "5. 复旦大学 法学院 法学硕士（民商法/经济法）或 涉外法治法硕",
+      "canonical_candidate_key": "fudan-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A07的全文核对为依据。民商法学是可识别学硕专业；与经济法按答卷明确不同专业代码分别记录。未把民商法一般理论训练自动等同参考法理、法史。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-matrix",
+      "answer_quote": "5. 复旦大学 法学院 法学硕士（民商法/经济法）或 涉外法治法硕",
+      "canonical_candidate_key": "fudan-law-economic",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A08的全文核对为依据。经济法学申请方向真实；研究市场规制制度的社会、法律理论，与参考法理学有实质交集但不是相同专业。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-matrix",
+      "answer_quote": "5. 复旦大学 法学院 法学硕士（民商法/经济法）或 涉外法治法硕",
+      "canonical_candidate_key": "fudan-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜涉外法治法律（法学）",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A09的全文核对为依据。可识别法学院法律（法学）申请路径，涉外属于培养方向说明；不因没有当届独立方向链接断言无效。其专项培养内容未证明与法理或法史专门培养实质相近，不据共同基础课机械给分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-matrix",
+      "answer_quote": "6. 上海交通大学 凯原法学院 法学硕士（知识产权与科技法/民商法）",
+      "canonical_candidate_key": "sjtu-koguan-law-academic",
+      "error_ids": [],
+      "label": "凯原法学院｜法学硕士经济法/知识产权科技法/民商研究方向",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A10的全文核对为依据。官网按030100法学招生，经济法、知识产权科技法与矩阵民商作为同一学硕路径内部方向合并；不将矩阵与详细条目的差异创造新申请项目。经济分析法学、权利制度理论支持与法理研究相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-matrix",
+      "answer_quote": "7. 浙江大学 光华法学院 法律硕士（数字法学方向）",
+      "canonical_candidate_key": "zju-guanghua-law-jm",
+      "error_ids": [],
+      "label": "光华法学院｜法律（法学）数字/涉外方向",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A11的全文核对为依据。法律（法学）可识别，数字/涉外作为研究培养取向，不作为独立新学位；与学术法学硕士分开记录。参考只要求光华法学硕士，按学位区别认定相近而非同名精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-matrix",
+      "answer_quote": "8. 武汉大学 法学院 法学硕士（国际法学 / 环境与资源保护法学）",
+      "canonical_candidate_key": "whu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A13的全文核对为依据。国际法学是独立可识别法学硕士专业，专业代码与环境法不同；与参考综合法律硕士有涉外法律实务培养交集，非宪法/党规精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-matrix",
+      "answer_quote": "8. 武汉大学 法学院 法学硕士（国际法学 / 环境与资源保护法学）",
+      "canonical_candidate_key": "whu-law-environment",
+      "error_ids": [],
+      "feasibility": "答卷第四部分给大创工作论文和跨学科计划书打磨动作，可用真实项目核对上述议题并提交研究材料；题设未排斥环境法，该条件现实可行。",
+      "key_condition": "大创或跨学科经历确实涉及资源保护、流域治理、碳中和法治，并愿意沿此方向研究。",
+      "label": "法学院｜环境资源法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A14的全文核对为依据。全文同时列直接备选并给本人项目主题条件，按具体条件方案记录。环境治理立法执法与行政法关系成立，未把假设的课题方向当学生已知事实。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-matrix",
+      "answer_quote": "9. 南京大学 法学院（中德所） 比较法学（中德双硕士）或 民商法学硕",
+      "canonical_candidate_key": "nju-sgls-comparative-dual",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "法学院中德所｜中德法律比较双硕士（招生对应中德经济法）",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A15的全文核对为依据。两校双硕士身份可由明确中德所和哥廷根大学描述识别，官方法学本科可申请中德经济法方向；答卷把招生专业和代码写成比较法0301Z2，且未处理德语培养，记E04，不凭误码将整个真实项目判无效。此方向与普通经济法有转方向限制，分别计数。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-matrix",
+      "answer_quote": "9. 南京大学 法学院（中德所） 比较法学（中德双硕士）或 民商法学硕",
+      "canonical_candidate_key": "nju-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A16的全文核对为依据。可识别民商法学硕路径，与同院系法律硕士法律实务训练相近，非参考法理/法史同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-matrix",
+      "answer_quote": "10. 中国政法大学 民商经济法学院/国际法学院 法学硕士（经济法/国际法）",
+      "canonical_candidate_key": "cupl-civil-economic-school-economic",
+      "error_ids": [],
+      "label": "民商经济法学院｜经济法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A18的全文核对为依据。虽标题将两学院斜杠并列，但正文分别对民商经济学院经济法、国际学院国际法作明确推荐与理由，允许按真实两个主体分别提取。学硕路径可由官方2026目录识别。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19-matrix",
+      "answer_quote": "10. 中国政法大学 民商经济法学院/国际法学院 法学硕士（经济法/国际法）",
+      "canonical_candidate_key": "cupl-international-school-international",
+      "error_ids": [],
+      "label": "国际法学院｜国际法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A19的全文核对为依据。正文明确国际法学院与国际法学专业，独立于民商经济学院经济法；无需评审从含糊标题创造对象。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-matrix",
+      "answer_quote": "11. 厦门大学 法学院 法学硕士（国际法学 / 经济法学-财税法）",
+      "canonical_candidate_key": "xmu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A20的全文核对为依据。当届目录有国际法学；与参考法律硕士涉外实务和国际法律训练相近，不认定为知识产权同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-matrix",
+      "answer_quote": "11. 厦门大学 法学院 法学硕士（国际法学 / 经济法学-财税法）",
+      "canonical_candidate_key": "xmu-law-economic-tax",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士财税研究取向",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A21的全文核对为依据。经济法可申请，财税作为研究取向识别；当届另列财税法学，不从此斜杠内研究主题另造一个独立财税法专业候选。与综合法硕经济法律实务相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-matrix",
+      "answer_quote": "12. 同济大学 上海国际知识产权学院 知识产权法学（WIPO/MIP硕士）",
+      "canonical_candidate_key": "tongji-sicip-ip-law-academic",
+      "error_ids": [],
+      "label": "上海国际知识产权学院｜知识产权法学硕士（答卷含WIPO/MIP描述）",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A23的全文核对为依据。知识产权学硕在国知院路径成立，旧学科整体转移可核对。WIPO/MIP被写成含于同一项目，全文没有另一条独立报名或明确学位申请路径，不拆分新候选；自动双硕士属性尚有学位争议，挂起reasons，主学硕身份不受影响。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-matrix",
+      "answer_quote": "13. 北京航空航天大学 法学院 法学硕士（科技法与工业信息化法治）",
+      "canonical_candidate_key": "buaa-law-tech-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技与工业信息化研究取向",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A24的全文核对为依据。官方确认法学硕士及科技、工业信息化领域，按学硕内部研究取向识别为一项；不宣称已核准0301Z1年度代码或把实验室名称当独立学位。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-matrix",
+      "answer_quote": "14. 东南大学 法学院 法学硕士（医事法学 / 工程法学）",
+      "canonical_candidate_key": "seu-law-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士医事/工程/经济法取向",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A25的全文核对为依据。法学学硕与工程医事研究领域可核对；同一学院学硕内部取向合为一项，经济法已明列且冻结参考支持同名方向，不要求参考未提供的更细代码。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-matrix",
+      "answer_quote": "15. 重庆大学 法学院（本校） 法学硕士（环境与资源保护法/卓越法治人才计划）",
+      "canonical_candidate_key": "cqu-law-academic",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "法学院｜法学硕士环境/经济法（含卓越培养描述）",
+      "reason": "重复出现：梯度速览矩阵；与正文同一组合，不重计；身份、状态和条件均以A26的全文核对为依据。官网为030100一级法学、入校定方向，环境与经济不拆为独立项目；卓越计划未给独立申请路径，不另计。经济法与冻结参考同名；错误的接收保证只归facts，不取消真实项目覆盖。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-detail",
+      "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——涉外律师 / 国际仲裁方向专项",
+      "canonical_candidate_key": "ruc-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜法律（法学）涉外法治专项",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A01的全文核对为依据。当届官方涉外法治法硕通道成立，六级550–599超过500门槛。律师与仲裁作为同一涉外项目内部备选，不凭斜杠机械拆分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-detail",
+      "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——计算法学方向 / 法学硕士（科技法方向）",
+      "canonical_candidate_key": "thu-law-computational",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "法学院｜计算法学法律硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A02的全文核对为依据。2027年推免目录及项目介绍确认这是035101法律（非法学），本题法学本科不能申报该路径。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A03-detail",
+      "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——计算法学方向 / 法学硕士（科技法方向）",
+      "canonical_candidate_key": "thu-law-academic-tech",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技法方向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A03的全文核对为依据。2027年学硕目录无科技法独立方向，可能是知识产权等正式方向内的研究主题，但答卷没有对应正式路径。是与官方目录冲突的实质身份争议，未找到等价证明，保留pending，不直接认定虚构。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A04-detail",
+      "answer_quote": "* **招生专业及项目**：普通法法律博士（J.D.）与中国法法律硕士（J.M.）双学位项目（四年制，深圳研究生院）",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "国际法学院STL｜JD/JM培养项目",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A04的全文核对为依据。官方2027研招介绍支持深圳STL法律硕士与JD培养结合路径，法学本科可以申请。美国律考资格表述不作为已核验结论。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-detail",
+      "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2，学硕）或 法律硕士（法学，代码：035102）——中欧双硕士项目（中国法硕士 + 汉堡大学欧洲-国际法LL.M.）",
+      "canonical_candidate_key": "cupl-cesl-comparative-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜比较法双硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A05的全文核对为依据。中欧双硕士真实存在，但已公开2026目录不含此专业，历史目录曾含比较法且代码为0301Z3；2027目录入口访问失败，无法裁决当届比较法路径恢复或对应关系。仅挂起此对象与reasons，不能以未找到网页直接判不存在。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A06-detail",
+      "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2，学硕）或 法律硕士（法学，代码：035102）——中欧双硕士项目（中国法硕士 + 汉堡大学欧洲-国际法LL.M.）",
+      "canonical_candidate_key": "cupl-cesl-law-jm-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜法律（法学）双硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A06的全文核对为依据。2026中欧目录仅六个学硕专业，历史介绍中的法硕曾是非法学类别，与本题明确035102路径发生实质学位争议；2027依据未取得，不用旧介绍替代当届，保留pending。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A07-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（民商法学：030105 / 经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+      "canonical_candidate_key": "fudan-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A07的全文核对为依据。民商法学是可识别学硕专业；与经济法按答卷明确不同专业代码分别记录。未把民商法一般理论训练自动等同参考法理、法史。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（民商法学：030105 / 经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+      "canonical_candidate_key": "fudan-law-economic",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A08的全文核对为依据。经济法学申请方向真实；研究市场规制制度的社会、法律理论，与参考法理学有实质交集但不是相同专业。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（民商法学：030105 / 经济法学：030107）或 法律硕士（涉外法治项目：035102）",
+      "canonical_candidate_key": "fudan-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜涉外法治法律（法学）",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A09的全文核对为依据。可识别法学院法律（法学）申请路径，涉外属于培养方向说明；不因没有当届独立方向链接断言无效。其专项培养内容未证明与法理或法史专门培养实质相近，不据共同基础课机械给分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（经济法学：030107 / 知识产权与科技法自设方向）",
+      "canonical_candidate_key": "sjtu-koguan-law-academic",
+      "error_ids": [],
+      "label": "凯原法学院｜法学硕士经济法/知识产权科技法/民商研究方向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A10的全文核对为依据。官网按030100法学招生，经济法、知识产权科技法与矩阵民商作为同一学硕路径内部方向合并；不将矩阵与详细条目的差异创造新申请项目。经济分析法学、权利制度理论支持与法理研究相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-detail",
+      "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——数字法学/涉外法治方向 或 法学硕士（经济法学：030107）",
+      "canonical_candidate_key": "zju-guanghua-law-jm",
+      "error_ids": [],
+      "label": "光华法学院｜法律（法学）数字/涉外方向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A11的全文核对为依据。法律（法学）可识别，数字/涉外作为研究培养取向，不作为独立新学位；与学术法学硕士分开记录。参考只要求光华法学硕士，按学位区别认定相近而非同名精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-detail",
+      "answer_quote": "* **招生专业及项目**：法律硕士（法学，代码：035102）——数字法学/涉外法治方向 或 法学硕士（经济法学：030107）",
+      "canonical_candidate_key": "zju-guanghua-law-economic",
+      "error_ids": [],
+      "label": "光华法学院｜法学硕士经济法",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A12的全文核对为依据。学校、学院、学术法学硕士身份与冻结参考一致；参考没有限定二级专业，不额外要求法理等方向。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 环境与资源保护法学：030108）",
+      "canonical_candidate_key": "whu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A13的全文核对为依据。国际法学是独立可识别法学硕士专业，专业代码与环境法不同；与参考综合法律硕士有涉外法律实务培养交集，非宪法/党规精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 环境与资源保护法学：030108）",
+      "canonical_candidate_key": "whu-law-environment",
+      "error_ids": [],
+      "feasibility": "答卷第四部分给大创工作论文和跨学科计划书打磨动作，可用真实项目核对上述议题并提交研究材料；题设未排斥环境法，该条件现实可行。",
+      "key_condition": "大创或跨学科经历确实涉及资源保护、流域治理、碳中和法治，并愿意沿此方向研究。",
+      "label": "法学院｜环境资源法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A14的全文核对为依据。全文同时列直接备选并给本人项目主题条件，按具体条件方案记录。环境治理立法执法与行政法关系成立，未把假设的课题方向当学生已知事实。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-detail",
+      "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2）——中德双硕士项目 或 法学硕士（民商法学：030105 / 经济法学：030107）",
+      "canonical_candidate_key": "nju-sgls-comparative-dual",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "法学院中德所｜中德法律比较双硕士（招生对应中德经济法）",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A15的全文核对为依据。两校双硕士身份可由明确中德所和哥廷根大学描述识别，官方法学本科可申请中德经济法方向；答卷把招生专业和代码写成比较法0301Z2，且未处理德语培养，记E04，不凭误码将整个真实项目判无效。此方向与普通经济法有转方向限制，分别计数。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-detail",
+      "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2）——中德双硕士项目 或 法学硕士（民商法学：030105 / 经济法学：030107）",
+      "canonical_candidate_key": "nju-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A16的全文核对为依据。可识别民商法学硕路径，与同院系法律硕士法律实务训练相近，非参考法理/法史同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-detail",
+      "answer_quote": "* **招生专业及项目**：比较法学（代码：0301Z2）——中德双硕士项目 或 法学硕士（民商法学：030105 / 经济法学：030107）",
+      "canonical_candidate_key": "nju-law-economic",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士普通方向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A17的全文核对为依据。独立经济法学专业，不与中德双硕士受限方向重复；参考包括综合法硕，经济法律规制与其法律实务培养相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（经济法学：030107 / 国际法学：030109）",
+      "canonical_candidate_key": "cupl-civil-economic-school-economic",
+      "error_ids": [],
+      "label": "民商经济法学院｜经济法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A18的全文核对为依据。虽标题将两学院斜杠并列，但正文分别对民商经济学院经济法、国际学院国际法作明确推荐与理由，允许按真实两个主体分别提取。学硕路径可由官方2026目录识别。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（经济法学：030107 / 国际法学：030109）",
+      "canonical_candidate_key": "cupl-international-school-international",
+      "error_ids": [],
+      "label": "国际法学院｜国际法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A19的全文核对为依据。正文明确国际法学院与国际法学专业，独立于民商经济学院经济法；无需评审从含糊标题创造对象。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+      "canonical_candidate_key": "xmu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A20的全文核对为依据。当届目录有国际法学；与参考法律硕士涉外实务和国际法律训练相近，不认定为知识产权同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+      "canonical_candidate_key": "xmu-law-economic-tax",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士财税研究取向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A21的全文核对为依据。经济法可申请，财税作为研究取向识别；当届另列财税法学，不从此斜杠内研究主题另造一个独立财税法专业候选。与综合法硕经济法律实务相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+      "canonical_candidate_key": "xmu-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A22的全文核对为依据。同段第三个独立专业代码与当届官方目录民商法学对应，民商知识产权权利保护与法律硕士实务培养相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-detail",
+      "answer_quote": "* **招生专业及项目**：知识产权法学（交叉学科代码：0301Z1）——含WIPO（世界知识产权组织）/ MIP国际双硕士项目",
+      "canonical_candidate_key": "tongji-sicip-ip-law-academic",
+      "error_ids": [],
+      "label": "上海国际知识产权学院｜知识产权法学硕士（答卷含WIPO/MIP描述）",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A23的全文核对为依据。知识产权学硕在国知院路径成立，旧学科整体转移可核对。WIPO/MIP被写成含于同一项目，全文没有另一条独立报名或明确学位申请路径，不拆分新候选；自动双硕士属性尚有学位争议，挂起reasons，主学硕身份不受影响。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（科技法学 / 工业和信息化法治战略自设方向：0301Z1）",
+      "canonical_candidate_key": "buaa-law-tech-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技与工业信息化研究取向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A24的全文核对为依据。官方确认法学硕士及科技、工业信息化领域，按学硕内部研究取向识别为一项；不宣称已核准0301Z1年度代码或把实验室名称当独立学位。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（医事法学 / 工程法学自设方向：0301Z1）或 经济法学（030107）",
+      "canonical_candidate_key": "seu-law-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士医事/工程/经济法取向",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A25的全文核对为依据。法学学硕与工程医事研究领域可核对；同一学院学硕内部取向合为一项，经济法已明列且冻结参考支持同名方向，不要求参考未提供的更细代码。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-detail",
+      "answer_quote": "* **招生专业及项目**：法学硕士（环境与资源保护法学：030108 / 经济法学：030107 / 卓越法治人才计划）",
+      "canonical_candidate_key": "cqu-law-academic",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "法学院｜法学硕士环境/经济法（含卓越培养描述）",
+      "reason": "重复出现：详细项目招生行；与主记录是同一身份；身份、状态和条件均以A26的全文核对为依据。官网为030100一级法学、入校定方向，环境与经济不拆为独立项目；卓越计划未给独立申请路径，不另计。经济法与冻结参考同名；错误的接收保证只归facts，不取消真实项目覆盖。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-alias0",
+      "answer_quote": "人大涉外法硕专项",
+      "canonical_candidate_key": "ruc-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜法律（法学）涉外法治专项",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A01的全文核对为依据。当届官方涉外法治法硕通道成立，六级550–599超过500门槛。律师与仲裁作为同一涉外项目内部备选，不凭斜杠机械拆分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-alias1",
+      "answer_quote": "人大涉外专项",
+      "canonical_candidate_key": "ruc-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜法律（法学）涉外法治专项",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A01的全文核对为依据。当届官方涉外法治法硕通道成立，六级550–599超过500门槛。律师与仲裁作为同一涉外项目内部备选，不凭斜杠机械拆分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-alias0",
+      "answer_quote": "清华计算法学（预推免必投）",
+      "canonical_candidate_key": "thu-law-computational",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "法学院｜计算法学法律硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A02的全文核对为依据。2027年推免目录及项目介绍确认这是035101法律（非法学），本题法学本科不能申报该路径。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A02-alias1",
+      "answer_quote": "清华计算法学",
+      "canonical_candidate_key": "thu-law-computational",
+      "error_ids": [
+        "E01"
+      ],
+      "label": "法学院｜计算法学法律硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A02的全文核对为依据。2027年推免目录及项目介绍确认这是035101法律（非法学），本题法学本科不能申报该路径。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A04-alias0",
+      "answer_quote": "北大STL",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "国际法学院STL｜JD/JM培养项目",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A04的全文核对为依据。官方2027研招介绍支持深圳STL法律硕士与JD培养结合路径，法学本科可以申请。美国律考资格表述不作为已核验结论。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-alias0",
+      "answer_quote": "法大中欧双硕士",
+      "canonical_candidate_key": "cupl-cesl-comparative-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜比较法双硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A05的全文核对为依据。中欧双硕士真实存在，但已公开2026目录不含此专业，历史目录曾含比较法且代码为0301Z3；2027目录入口访问失败，无法裁决当届比较法路径恢复或对应关系。仅挂起此对象与reasons，不能以未找到网页直接判不存在。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A05-alias1",
+      "answer_quote": "法大中欧",
+      "canonical_candidate_key": "cupl-cesl-comparative-dual",
+      "error_ids": [],
+      "label": "中欧法学院｜比较法双硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A05的全文核对为依据。中欧双硕士真实存在，但已公开2026目录不含此专业，历史目录曾含比较法且代码为0301Z3；2027目录入口访问失败，无法裁决当届比较法路径恢复或对应关系。仅挂起此对象与reasons，不能以未找到网页直接判不存在。",
+      "school_key": "中国政法大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A07-alias0",
+      "answer_quote": "复旦法硕/学硕",
+      "canonical_candidate_key": "fudan-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A07的全文核对为依据。民商法学是可识别学硕专业；与经济法按答卷明确不同专业代码分别记录。未把民商法一般理论训练自动等同参考法理、法史。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-alias0",
+      "answer_quote": "复旦法硕/学硕",
+      "canonical_candidate_key": "fudan-law-economic",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A08的全文核对为依据。经济法学申请方向真实；研究市场规制制度的社会、法律理论，与参考法理学有实质交集但不是相同专业。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-alias0",
+      "answer_quote": "复旦法硕/学硕",
+      "canonical_candidate_key": "fudan-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜涉外法治法律（法学）",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A09的全文核对为依据。可识别法学院法律（法学）申请路径，涉外属于培养方向说明；不因没有当届独立方向链接断言无效。其专项培养内容未证明与法理或法史专门培养实质相近，不据共同基础课机械给分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-alias0",
+      "answer_quote": "上交凯原",
+      "canonical_candidate_key": "sjtu-koguan-law-academic",
+      "error_ids": [],
+      "label": "凯原法学院｜法学硕士经济法/知识产权科技法/民商研究方向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A10的全文核对为依据。官网按030100法学招生，经济法、知识产权科技法与矩阵民商作为同一学硕路径内部方向合并；不将矩阵与详细条目的差异创造新申请项目。经济分析法学、权利制度理论支持与法理研究相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-alias1",
+      "answer_quote": "上交知识产权与科技法",
+      "canonical_candidate_key": "sjtu-koguan-law-academic",
+      "error_ids": [],
+      "label": "凯原法学院｜法学硕士经济法/知识产权科技法/民商研究方向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A10的全文核对为依据。官网按030100法学招生，经济法、知识产权科技法与矩阵民商作为同一学硕路径内部方向合并；不将矩阵与详细条目的差异创造新申请项目。经济分析法学、权利制度理论支持与法理研究相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-alias0",
+      "answer_quote": "浙大光华",
+      "canonical_candidate_key": "zju-guanghua-law-jm",
+      "error_ids": [],
+      "label": "光华法学院｜法律（法学）数字/涉外方向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A11的全文核对为依据。法律（法学）可识别，数字/涉外作为研究培养取向，不作为独立新学位；与学术法学硕士分开记录。参考只要求光华法学硕士，按学位区别认定相近而非同名精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-alias1",
+      "answer_quote": "浙大数字法学",
+      "canonical_candidate_key": "zju-guanghua-law-jm",
+      "error_ids": [],
+      "label": "光华法学院｜法律（法学）数字/涉外方向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A11的全文核对为依据。法律（法学）可识别，数字/涉外作为研究培养取向，不作为独立新学位；与学术法学硕士分开记录。参考只要求光华法学硕士，按学位区别认定相近而非同名精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-alias0",
+      "answer_quote": "浙大光华",
+      "canonical_candidate_key": "zju-guanghua-law-economic",
+      "error_ids": [],
+      "label": "光华法学院｜法学硕士经济法",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A12的全文核对为依据。学校、学院、学术法学硕士身份与冻结参考一致；参考没有限定二级专业，不额外要求法理等方向。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-alias0",
+      "answer_quote": "武大法学院",
+      "canonical_candidate_key": "whu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A13的全文核对为依据。国际法学是独立可识别法学硕士专业，专业代码与环境法不同；与参考综合法律硕士有涉外法律实务培养交集，非宪法/党规精确。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-alias0",
+      "answer_quote": "武大法学院",
+      "canonical_candidate_key": "whu-law-environment",
+      "error_ids": [],
+      "feasibility": "答卷第四部分给大创工作论文和跨学科计划书打磨动作，可用真实项目核对上述议题并提交研究材料；题设未排斥环境法，该条件现实可行。",
+      "key_condition": "大创或跨学科经历确实涉及资源保护、流域治理、碳中和法治，并愿意沿此方向研究。",
+      "label": "法学院｜环境资源法学硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A14的全文核对为依据。全文同时列直接备选并给本人项目主题条件，按具体条件方案记录。环境治理立法执法与行政法关系成立，未把假设的课题方向当学生已知事实。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-alias0",
+      "answer_quote": "厦大法学院",
+      "canonical_candidate_key": "xmu-law-international",
+      "error_ids": [],
+      "label": "法学院｜国际法学硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A20的全文核对为依据。当届目录有国际法学；与参考法律硕士涉外实务和国际法律训练相近，不认定为知识产权同名。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-alias0",
+      "answer_quote": "厦大法学院",
+      "canonical_candidate_key": "xmu-law-economic-tax",
+      "error_ids": [],
+      "label": "法学院｜经济法学硕士财税研究取向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A21的全文核对为依据。经济法可申请，财税作为研究取向识别；当届另列财税法学，不从此斜杠内研究主题另造一个独立财税法专业候选。与综合法硕经济法律实务相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22-alias0",
+      "answer_quote": "厦大法学院",
+      "canonical_candidate_key": "xmu-law-civil",
+      "error_ids": [],
+      "label": "法学院｜民商法学硕士",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A22的全文核对为依据。同段第三个独立专业代码与当届官方目录民商法学对应，民商知识产权权利保护与法律硕士实务培养相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-alias0",
+      "answer_quote": "同济国知院",
+      "canonical_candidate_key": "tongji-sicip-ip-law-academic",
+      "error_ids": [],
+      "label": "上海国际知识产权学院｜知识产权法学硕士（答卷含WIPO/MIP描述）",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A23的全文核对为依据。知识产权学硕在国知院路径成立，旧学科整体转移可核对。WIPO/MIP被写成含于同一项目，全文没有另一条独立报名或明确学位申请路径，不拆分新候选；自动双硕士属性尚有学位争议，挂起reasons，主学硕身份不受影响。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-alias1",
+      "answer_quote": "同济SICIP",
+      "canonical_candidate_key": "tongji-sicip-ip-law-academic",
+      "error_ids": [],
+      "label": "上海国际知识产权学院｜知识产权法学硕士（答卷含WIPO/MIP描述）",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A23的全文核对为依据。知识产权学硕在国知院路径成立，旧学科整体转移可核对。WIPO/MIP被写成含于同一项目，全文没有另一条独立报名或明确学位申请路径，不拆分新候选；自动双硕士属性尚有学位争议，挂起reasons，主学硕身份不受影响。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-alias0",
+      "answer_quote": "北航法学院",
+      "canonical_candidate_key": "buaa-law-tech-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技与工业信息化研究取向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A24的全文核对为依据。官方确认法学硕士及科技、工业信息化领域，按学硕内部研究取向识别为一项；不宣称已核准0301Z1年度代码或把实验室名称当独立学位。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-alias1",
+      "answer_quote": "北航工业信息化法治",
+      "canonical_candidate_key": "buaa-law-tech-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士科技与工业信息化研究取向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A24的全文核对为依据。官方确认法学硕士及科技、工业信息化领域，按学硕内部研究取向识别为一项；不宣称已核准0301Z1年度代码或把实验室名称当独立学位。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-alias0",
+      "answer_quote": "东大法学院",
+      "canonical_candidate_key": "seu-law-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士医事/工程/经济法取向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A25的全文核对为依据。法学学硕与工程医事研究领域可核对；同一学院学硕内部取向合为一项，经济法已明列且冻结参考支持同名方向，不要求参考未提供的更细代码。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-alias1",
+      "answer_quote": "东大工程法",
+      "canonical_candidate_key": "seu-law-academic",
+      "error_ids": [],
+      "label": "法学院｜法学硕士医事/工程/经济法取向",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A25的全文核对为依据。法学学硕与工程医事研究领域可核对；同一学院学硕内部取向合为一项，经济法已明列且冻结参考支持同名方向，不要求参考未提供的更细代码。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-alias0",
+      "answer_quote": "重庆大学本校法学院",
+      "canonical_candidate_key": "cqu-law-academic",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "法学院｜法学硕士环境/经济法（含卓越培养描述）",
+      "reason": "重复出现：材料准备、行动日历或末尾组合再推荐，结合正文解析别名；泛校名不增新候选；身份、状态和条件均以A26的全文核对为依据。官网为030100一级法学、入校定方向，环境与经济不拆为独立项目；卓越计划未给独立申请路径，不另计。经济法与冻结参考同名；错误的接收保证只归facts，不取消真实项目覆盖。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-civil-alias",
+      "answer_quote": "法学硕士（知识产权与科技法/民商法）",
+      "canonical_candidate_key": "sjtu-koguan-law-academic",
+      "error_ids": [],
+      "label": "凯原法学院｜法学硕士经济法/知识产权科技法/民商研究方向",
+      "reason": "重复出现：速览新增民商内部兴趣方向，按统一030100合并；身份、状态和条件均以A10的全文核对为依据。官网按030100法学招生，经济法、知识产权科技法与矩阵民商作为同一学硕路径内部方向合并；不将矩阵与详细条目的差异创造新申请项目。经济分析法学、权利制度理论支持与法理研究相近。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-choice",
+      "answer_quote": "若追求高端实务与涉外执业，可申报涉外法治法硕",
+      "canonical_candidate_key": "fudan-law-jm-foreign",
+      "error_ids": [],
+      "label": "法学院｜涉外法治法律（法学）",
+      "reason": "重复出现：职业偏好取舍说明；身份、状态和条件均以A09的全文核对为依据。可识别法学院法律（法学）申请路径，涉外属于培养方向说明；不因没有当届独立方向链接断言无效。其专项培养内容未证明与法理或法史专门培养实质相近，不据共同基础课机械给分。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-guarantee",
+      "answer_quote": "本校推免资格与接收指标具有100%确定性",
+      "canonical_candidate_key": "cqu-law-academic",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "法学院｜法学硕士环境/经济法（含卓越培养描述）",
+      "reason": "重复出现：本校推荐的事实承诺另归E02，不改变项目真实身份；身份、状态和条件均以A26的全文核对为依据。官网为030100一级法学、入校定方向，环境与经济不拆为独立项目；卓越计划未给独立申请路径，不另计。经济法与冻结参考同名；错误的接收保证只归facts，不取消真实项目覆盖。valid只表示项目身份及学生路径内容成立，不表示逐年审计全部招生事实；申请仍需获得推免资格。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "rubric_sha256": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+  "schema_version": "admissions-judgment.1",
+  "task_id": "N15-03",
+  "task_sha256": "a1ac3ff5786f9848d3a6b2bbbce8358f51f4b0df65b1508d8765d22e7f4d2c62",
+  "tier_review": {
+    "schools": [
+      {
+        "answer_quote": "法律硕士（法学，代码：035102）——涉外律师 / 国际仲裁方向专项",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "法律硕士（法学，代码：035102）——计算法学方向",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "普通法法律博士（J.D.）与中国法法律硕士（J.M.）双学位项目（四年制，深圳研究生院）",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "比较法学（代码：0301Z2，学硕）",
+        "downgraded": true,
+        "reason": "相对重庆大学985为211非985；专业优势取舍在正文说明，层次降级只如实报告，按本题tier三档判断。",
+        "school_key": "中国政法大学"
+      },
+      {
+        "answer_quote": "民商法学：030105 / 经济法学：030107",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "法学硕士（经济法学：030107 / 知识产权与科技法自设方向）",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "法律硕士（法学，代码：035102）——数字法学/涉外法治方向",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "国际法学：030109 / 环境与资源保护法学：030108",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "比较法学（代码：0301Z2）——中德双硕士项目",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "南京大学"
+      },
+      {
+        "answer_quote": "法学硕士（国际法学：030109 / 经济法学-财税法方向：030107 / 民商法学：030105）",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "知识产权法学（交叉学科代码：0301Z1）——含WIPO（世界知识产权组织）/ MIP国际双硕士项目",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "法学硕士（科技法学 / 工业和信息化法治战略自设方向：0301Z1）",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "法学硕士（医事法学 / 工程法学自设方向：0301Z1）或 经济法学（030107）",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "法学硕士（环境与资源保护法学：030108 / 经济法学：030107 / 卓越法治人才计划）",
+        "downgraded": false,
+        "reason": "教育部985名单确认，与本科重大同档或更强，基准不降级；专业与培养项目另按coverage和reasons处理。",
+        "school_key": "重庆大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

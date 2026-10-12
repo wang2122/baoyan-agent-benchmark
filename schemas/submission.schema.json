@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "submission.schema.json",
+  "title": "Answer or reviewed result ZIP manifest",
+  "description": "Structural contract only. The standard-library importer also verifies release fingerprints, exact planned attempts, safe ZIP paths, raw answers and calculated scores.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "official",
+    "context",
+    "batch_plan",
+    "attempts",
+    "files",
+    "metadata_provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "benchmark-submission.1",
+        "benchmark-results.1"
+      ]
+    },
+    "official": {
+      "const": false
+    },
+    "context": {
+      "$ref": "reproduction.schema.json"
+    },
+    "batch_plan": {
+      "type": "object",
+      "required": [
+        "protocol_sha256",
+        "repeats",
+        "timeout_seconds",
+        "tasks",
+        "baselines"
+      ],
+      "properties": {
+        "protocol_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "repeats": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "timeout_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tasks": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "baselines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "model",
+              "version"
+            ]
+          }
+        }
+      }
+    },
+    "attempts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "task_id",
+          "adapter",
+          "repeat"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "task_id": {
+            "type": "string"
+          },
+          "adapter": {
+            "type": "string"
+          },
+          "repeat": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "files": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      }
+    },
+    "metadata_provenance": {
+      "const": "submitter_reported_not_authenticated"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

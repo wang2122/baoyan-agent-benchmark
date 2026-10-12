@@ -1,0 +1,934 @@
+{
+  "actual_candidate_count": 19,
+  "answer_sha256": "61514dbc9c9bf479f46f3d66a1ee5067eceeadc15754a62a1f2754b766c88c41",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 64.5
+  },
+  "confirmed_points": 64.5,
+  "diagnostic_score": 64.5,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "evidence"
+    ],
+    "E02": [
+      "evidence"
+    ],
+    "E03": [
+      "N11-02-T5"
+    ],
+    "E04": [
+      "evidence"
+    ],
+    "E05": [
+      "evidence"
+    ],
+    "E06": [
+      "evidence"
+    ],
+    "E07": [
+      "evidence"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "[个人排名已概括]，推免资格稳固",
+      "id": "E01",
+      "reason": "S0仅提供排名，未披露推免名额、资格公示及其他校内条件，不能据此断言资格稳固。错误为证据不足下的确定化推断，并非认定学生没有资格；仅归入evidence。"
+    },
+    {
+      "answer_quote": "非常容易锁定“华五”乃至清北的优质课题组或推免Offer",
+      "id": "E02",
+      "reason": "S0排名和笼统医学影像经历可以支持积极尝试，不能支持近似保证录取的结论。S1图中95%与90%匹配度及极高胜率也没有测量方法、招生名额或考核证据。此类概率确定化统一归入evidence，不在路线比较、阶段更新或各候选上重复扣分。"
+    },
+    {
+      "answer_quote": "等级尚未确定可直接写“校级重点/在研”",
+      "id": "E03",
+      "reason": "S1明确告知当前阶段主持项目级别未定，在研状态可以如实标注，但校级重点属于题面没有确认的级别，斜杠并不能使其自动成为真实材料。建议填写该级别会误报成果状态，最直接归入N11-02-T5。"
+    },
+    {
+      "answer_quote": "六级500–549分（已达到绝大多数顶尖院校的夏令营筛选门槛）",
+      "id": "E04",
+      "reason": "准确识别了六级500–549，但没有可支持绝大多数这一范围的项目级依据。官方上交生医工2027级材料仅能支持其一处CET6门槛，不能外推总体夏令营结论。作为过宽事实推断归入evidence；T4因缺英语训练核心独立判0，不重复引用本错误。"
+    },
+    {
+      "answer_quote": "你对医学数据特性（如小样本、类别不平衡、CT/MRI三维数据处理、Dice/HD95评估指标等）的经验",
+      "id": "E05",
+      "reason": "S1仅披露影像相关算法方向会议研究，未披露具体数据模态、三维处理及评估指标经验。这些可作准备问题，不能全部断言学生已经具备。仅归入evidence；T1的正向依据是要求整理贡献与复盘实际实验，不以这些未经证实的具体经历得分。"
+    },
+    {
+      "answer_quote": "缺乏已发表的CCF高水平会议长文，且大创成果尚未落地",
+      "id": "E06",
+      "reason": "S1没有披露会议研究的投稿、录用、发表或会议等级，也没有说明所有大创均无技术产出；延期和级别未定不足以证明这些否定事实。相对谨慎跨CS的方向可成立，但该理由应询问或条件处理。仅归入evidence，不因同一推断再次扣阶段更新项。"
+    },
+    {
+      "answer_quote": "部分顶尖CS院系对非计科专业有严格的非本专业比例限制",
+      "id": "E07",
+      "reason": "未指定院系、当届规则或适用范围，不能把未确认的比例政策当作学生的已知限制。记录为未受支持的政策断言，不认定所有跨专业渠道受限；最直接归入evidence。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N11-02",
+  "input_sha256": "b2e3257ecdd358edc42655834dedd0c3142ae86ac862d9fe3ab8244fc138f063",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "b34a1f0dc5d808bdb57110cff3f5d13945e81641f4f40dac8d0ea3c0bd21cebc",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N11-02-T1",
+      "kind": "quality",
+      "points": 21.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N11-02-T2",
+      "kind": "quality",
+      "points": 8.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N11-02-T3",
+      "kind": "quality",
+      "points": 6.0
+    },
+    {
+      "grade": 0,
+      "id": "N11-02-T4",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N11-02-T5",
+      "kind": "quality",
+      "points": 4.0
+    },
+    {
+      "grade": 0.5,
+      "id": "evidence",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "tradeoff",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "delivery",
+      "kind": "quality",
+      "points": 10.0
+    }
+  ],
+  "observed_candidate_count": 19,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "#### 路径一：深耕医学影像 / 生医工方向（BME学院/医学部/研究院所）",
+      "canonical_candidate_key": "route_bme_imaging",
+      "error_ids": [],
+      "label": "医学影像/生医工路线",
+      "occurrence_line": 10,
+      "reason": "S0将该路线作为实际选择提出；BME学院、医学部、研究院所是平台类型，保留组合，不拆出虚构项目。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "上海交通大学生医工学院",
+      "canonical_candidate_key": "sjtu_bme",
+      "error_ids": [],
+      "label": "上海交通大学生物医学工程学院",
+      "occurrence_line": 11,
+      "reason": "S0代表平台属于实际推荐。学院简称可识别，医学影像与生医工背景相符；官方EV01支持招生主体与路径。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "sjtu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "浙江大学生仪学院",
+      "canonical_candidate_key": "zju_bmi",
+      "error_ids": [],
+      "label": "浙江大学生物医学工程与仪器科学学院",
+      "occurrence_line": 11,
+      "reason": "S0代表平台属于实际推荐。生仪为学院简称，保留参考粒度以外不强求专业字段；EV02支持当届学院身份。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "zju",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "清华大学深圳国际研究生院/医学院",
+      "canonical_candidate_key": "tsinghua_sigs_or_med",
+      "error_ids": [],
+      "label": "清华深圳国际研究生院/医学院合并候选",
+      "occurrence_line": 11,
+      "reason": "S0代表平台属于实际推荐。两个独立单位被斜杠合并，按原组合记录，不拆为医学院与清深两条。全文第56、125行另有独立清深推荐，另行记录；EV03、EV04支持清深方向，不将其证据扩展为医学院具体项目审计。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV03",
+        "EV04"
+      ],
+      "school_key": "tsinghua",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "复旦大学类脑/影像中心",
+      "canonical_candidate_key": "fudan_istbi_imaging",
+      "error_ids": [],
+      "label": "复旦类脑/影像平台",
+      "occurrence_line": 11,
+      "reason": "S0代表平台属于实际推荐。EV05、EV06确认类脑研究院设生物医学影像中心及该院推免渠道，斜杠可解释为上下级平台及研究方向，不机械认定虚构或拆出两项。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV05",
+        "EV06"
+      ],
+      "school_key": "fudan",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "东南大学（BME顶尖）",
+      "canonical_candidate_key": "seu_bme",
+      "error_ids": [],
+      "label": "东南大学生医工方向",
+      "occurrence_line": 11,
+      "reason": "S0代表平台属于实际推荐。保留学校加BME方向的提名粒度，与学生影像经历相关；不以顶尖评价替代招生判断。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "seu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "中科院深圳先进技术研究院（SIAT，医学影像国家队）",
+      "canonical_candidate_key": "siat_bme_imaging",
+      "error_ids": [],
+      "label": "中国科学院深圳先进技术研究院医学影像方向",
+      "occurrence_line": 11,
+      "reason": "S0代表平台属于实际推荐。规范单位为中国科学院深圳先进技术研究院，答卷简称/技术二字差异不机械判虚构；EV07支持真实单位及2027级推免通知身份，国家队只作评价。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "siat",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "*   **冲名校胜率最大**：凭你“[个人排名已概括]”的排位，在生医工强校中属于头部生源，非常容易锁定“华五”乃至清北的优质课题组或推免Offer。",
+      "canonical_candidate_key": "route_bme_elite_groups",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "华五/清北生医工平台群体提名",
+      "occurrence_line": 14,
+      "reason": "在路径一收益说明中出现的可能目标群体，保留提名，不按华五、清北展开任何单校或院系；录取确定化E02归入证据项。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "group_huawu_qingbei",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "#### 路径二：直接跨保计算机 / 自动化 / 软件工程（纯CS/工科学院）",
+      "canonical_candidate_key": "route_pure_cs_engineering",
+      "error_ids": [],
+      "feasibility": "答卷自评表给出算法和系统基础判断，第62行提出力扣刷题；作为方向备选有可执行准备动作，但正式报考仍需确认目标院系当届考核，不能当作已确认录取条件。",
+      "key_condition": "学生确实选择跨计算机/工科路线，并评估、补齐目标项目需要的算法与计算机基础。",
+      "label": "纯计算机/自动化/软件工程合并路线",
+      "occurrence_line": 20,
+      "reason": "S0将其作为探索路线，后文以是否决意跨CS及基础准备为条件；三个独立学院类型未被落实成具体独立项目，不拆分。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "*   **代表平台**：各大工科强校的计算机学院、软件学院、自动化学院。",
+      "canonical_candidate_key": "route_pure_cs_engineering",
+      "error_ids": [],
+      "feasibility": "答卷自评表给出算法和系统基础判断，第62行提出力扣刷题；作为方向备选有可执行准备动作，但正式报考仍需确认目标院系当届考核，不能当作已确认录取条件。",
+      "key_condition": "学生确实选择跨计算机/工科路线，并评估、补齐目标项目需要的算法与计算机基础。",
+      "label": "纯计算机/自动化/软件工程路线代表平台重复",
+      "occurrence_line": 21,
+      "reason": "S0同一路线的泛化平台复述，与上一条同canonical key；不补造具体学校或学院。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "#### 路径三（最推荐）：双赢折中——计算机/AI/自动化学院下的“医学影像/医工交叉”课题组",
+      "canonical_candidate_key": "route_cs_medical",
+      "error_ids": [],
+      "label": "计算机/AI/自动化医工交叉路线",
+      "occurrence_line": 30,
+      "reason": "S0明确最推荐的第三路线；学院类型合并，研究目标为医学影像/医工交叉，保持组合层次。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "*   **核心逻辑**：**“人在计算机系，研究做医学影像，毕业拿工学（计算机/控制/电子信息）学位”**。",
+      "canonical_candidate_key": "route_cs_medical",
+      "error_ids": [],
+      "label": "第三路线学位逻辑重复",
+      "occurrence_line": 31,
+      "reason": "S0第三路线重复，沿用同canonical key。路径可以作为探索方向，但具体学位需招生专业确定，未把概念性推荐变为已审计项目。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "上交生医工",
+      "canonical_candidate_key": "sjtu_bme",
+      "error_ids": [],
+      "label": "上交生医工",
+      "occurrence_line": 56,
+      "reason": "S0主攻档明确要求申报，非背景讨论；与代表平台别称保持同key，清深在此有独立推荐。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "sjtu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "浙大生仪",
+      "canonical_candidate_key": "zju_bmi",
+      "error_ids": [],
+      "label": "浙大生仪",
+      "occurrence_line": 56,
+      "reason": "S0主攻档明确要求申报，非背景讨论；与代表平台别称保持同key，清深在此有独立推荐。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "zju",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "清华深研院",
+      "canonical_candidate_key": "tsinghua_sigs_bme",
+      "error_ids": [],
+      "label": "清华深研院生医工方向",
+      "occurrence_line": 56,
+      "reason": "S0主攻档明确要求申报，非背景讨论；与代表平台别称保持同key，清深在此有独立推荐。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV03",
+        "EV04"
+      ],
+      "school_key": "tsinghua",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "中科院深圳先进院（SIAT）",
+      "canonical_candidate_key": "siat_bme_imaging",
+      "error_ids": [],
+      "label": "SIAT医学影像方向",
+      "occurrence_line": 56,
+      "reason": "S0主攻档明确要求申报，非背景讨论；与代表平台别称保持同key，清深在此有独立推荐。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "siat",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "*   **冲刺拓展档（CS/AI交叉组）**：瞄准华五、北航、哈工大、东南等高校的**计算机/人工智能学院内从事医学图像分析、多模态医疗AI的知名团队**，提早邮件联系导师（附上简历与本科医学影像研究概述）。",
+      "canonical_candidate_key": "huawu_cs_medical_group",
+      "error_ids": [],
+      "label": "华五计算机/AI医学影像团队群体",
+      "occurrence_line": 57,
+      "reason": "S0冲刺拓展档实际推荐；共同引句明确学校群体或单校及医学图像/多模态医疗AI方向，并要求提早邮件联系。计算机/AI学院组合未分开明确，不拆成独立院系。华五群体不展开未点名学校；北航、哈工大方向分别有EV08、EV09支持。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "group_huawu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "*   **冲刺拓展档（CS/AI交叉组）**：瞄准华五、北航、哈工大、东南等高校的**计算机/人工智能学院内从事医学图像分析、多模态医疗AI的知名团队**，提早邮件联系导师（附上简历与本科医学影像研究概述）。",
+      "canonical_candidate_key": "buaa_cs_medical",
+      "error_ids": [],
+      "label": "北航计算机/AI医工交叉团队",
+      "occurrence_line": 57,
+      "reason": "S0冲刺拓展档实际推荐；共同引句明确学校群体或单校及医学图像/多模态医疗AI方向，并要求提早邮件联系。计算机/AI学院组合未分开明确，不拆成独立院系。华五群体不展开未点名学校；北航、哈工大方向分别有EV08、EV09支持。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV08"
+      ],
+      "school_key": "buaa",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "*   **冲刺拓展档（CS/AI交叉组）**：瞄准华五、北航、哈工大、东南等高校的**计算机/人工智能学院内从事医学图像分析、多模态医疗AI的知名团队**，提早邮件联系导师（附上简历与本科医学影像研究概述）。",
+      "canonical_candidate_key": "hit_cs_medical",
+      "error_ids": [],
+      "label": "哈工大计算机/AI医工交叉团队",
+      "occurrence_line": 57,
+      "reason": "S0冲刺拓展档实际推荐；共同引句明确学校群体或单校及医学图像/多模态医疗AI方向，并要求提早邮件联系。计算机/AI学院组合未分开明确，不拆成独立院系。华五群体不展开未点名学校；北航、哈工大方向分别有EV08、EV09支持。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV09"
+      ],
+      "school_key": "hit",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "*   **冲刺拓展档（CS/AI交叉组）**：瞄准华五、北航、哈工大、东南等高校的**计算机/人工智能学院内从事医学图像分析、多模态医疗AI的知名团队**，提早邮件联系导师（附上简历与本科医学影像研究概述）。",
+      "canonical_candidate_key": "seu_cs_medical",
+      "error_ids": [],
+      "label": "东南计算机/AI医工交叉团队",
+      "occurrence_line": 57,
+      "reason": "S0冲刺拓展档实际推荐；共同引句明确学校群体或单校及医学图像/多模态医疗AI方向，并要求提早邮件联系。计算机/AI学院组合未分开明确，不拆成独立院系。华五群体不展开未点名学校；北航、哈工大方向分别有EV08、EV09支持。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "seu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "本校本校控制/生医工学科实力强劲",
+      "canonical_candidate_key": "neu_control_or_bme",
+      "error_ids": [],
+      "label": "东北大学控制/生医工合并候选",
+      "occurrence_line": 58,
+      "reason": "S0本校稳妥档属于实际备选，非第2行的背景学校讨论；控制/生医工为组合推荐，不拆成两个项目。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "neu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "华中科技大学",
+      "canonical_candidate_key": "hust_engineering_unspecified",
+      "error_ids": [],
+      "label": "华中科技大学工科备选",
+      "occurrence_line": 58,
+      "reason": "S0明确可考虑的工科强校备选，保留学校层面的实际候选；未提供院系或项目，不能替答卷补出医学影像团队，也不能据此断言学校不合法。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "hust",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "天津大学",
+      "canonical_candidate_key": "tju_engineering_unspecified",
+      "error_ids": [],
+      "label": "天津大学工科备选",
+      "occurrence_line": 58,
+      "reason": "S0明确可考虑的工科强校备选，保留学校层面的实际候选；未提供院系或项目，不能替答卷补出医学影像团队，也不能据此断言学校不合法。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "tju",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "*   **评估机试与代码能力**：如果你决意尝试计算机院系，从现在起需要适当刷题（LeetCode/力扣），以应对部分计算机学院的硬性机试筛选。",
+      "canonical_candidate_key": "route_pure_cs_engineering",
+      "error_ids": [],
+      "feasibility": "答卷自评表给出算法和系统基础判断，第62行提出力扣刷题；作为方向备选有可执行准备动作，但正式报考仍需确认目标院系当届考核，不能当作已确认录取条件。",
+      "key_condition": "学生确实选择跨计算机/工科路线，并评估、补齐目标项目需要的算法与计算机基础。",
+      "label": "跨计算机路线条件动作重复",
+      "occurrence_line": 62,
+      "reason": "S0明确如果决意尝试计算机院系再刷题，与路径二为同一方向备选；具体条件和准备路径可关联。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "路径三（计算机/AI学院下的医工交叉组）",
+      "canonical_candidate_key": "route_cs_medical",
+      "error_ids": [],
+      "label": "S1维持医工交叉路线",
+      "occurrence_line": 66,
+      "reason": "S1明确维持第三路线，沿用S0方向key；新增影像相关算法经历只作用于S1判断。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "路径一（高水平生医工平台）",
+      "canonical_candidate_key": "route_bme_imaging",
+      "error_ids": [],
+      "label": "S1维持高水平生医工路线",
+      "occurrence_line": 66,
+      "reason": "S1明确维持第一路线，与S0方向重复。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "纯计算机科班（无医工背景导师）",
+      "canonical_candidate_key": "route_pure_cs_engineering",
+      "error_ids": [],
+      "label": "S1纯计算机路线降低优先级",
+      "occurrence_line": 66,
+      "reason": "S1讨论该路线难度和风险上升，属于原候选的重新评价；没有明示永不申请，故不记excluded或allowed_exclusion。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "[路径一：生医工强校/所]",
+      "canonical_candidate_key": "route_bme_imaging",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "S1图中生医工路线重复",
+      "occurrence_line": 100,
+      "reason": "S1图中继续推荐同一路线，与S0/S1第一段重复；无依据匹配度和胜率仅关联E02。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "[路径三：工科/CS医工交叉组]",
+      "canonical_candidate_key": "route_cs_medical",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "S1图中医工交叉路线重复",
+      "occurrence_line": 100,
+      "reason": "S1图中继续推荐同一路线；不据图中90%推断录取或确认学位。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "上交",
+      "canonical_candidate_key": "sjtu_bme",
+      "error_ids": [],
+      "label": "图中上交生医工重复",
+      "occurrence_line": 101,
+      "reason": "S1图中位于路径一的清单；结合S0明确的学校和方向规范别称，与相应候选同key。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "sjtu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "浙大",
+      "canonical_candidate_key": "zju_bmi",
+      "error_ids": [],
+      "label": "图中浙大生仪重复",
+      "occurrence_line": 101,
+      "reason": "S1图中位于路径一的清单；结合S0明确的学校和方向规范别称，与相应候选同key。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "zju",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "SIAT",
+      "canonical_candidate_key": "siat_bme_imaging",
+      "error_ids": [],
+      "label": "图中SIAT重复",
+      "occurrence_line": 101,
+      "reason": "S1图中位于路径一的清单；结合S0明确的学校和方向规范别称，与相应候选同key。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "siat",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "清深",
+      "canonical_candidate_key": "tsinghua_sigs_bme",
+      "error_ids": [],
+      "label": "图中清深重复",
+      "occurrence_line": 101,
+      "reason": "S1图中位于路径一的清单；结合S0明确的学校和方向规范别称，与相应候选同key。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV03",
+        "EV04"
+      ],
+      "school_key": "tsinghua",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "东南",
+      "canonical_candidate_key": "seu_bme",
+      "error_ids": [],
+      "label": "图中东南生医工重复",
+      "occurrence_line": 101,
+      "reason": "S1图中位于路径一的清单；结合S0明确的学校和方向规范别称，与相应候选同key。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "seu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "华五/中九计算机、AI、自动化学院",
+      "canonical_candidate_key": "huawu_zhongjiu_cs_medical_group",
+      "error_ids": [],
+      "label": "华五/中九计算机、AI、自动化合并群体",
+      "occurrence_line": 101,
+      "reason": "S1图中第三路线的群体推荐，保留华五/中九和多个学院类型的合并粒度，不展开中九学校或创造独立学院项目。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "group_huawu_zhongjiu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "#### 为什么直接跨保“纯计算机科班（路径二）”的阻力增大？",
+      "canonical_candidate_key": "route_pure_cs_engineering",
+      "error_ids": [],
+      "label": "S1纯计算机路径二复述",
+      "occurrence_line": 107,
+      "reason": "S1对既有候选解释阻力增加，保持同key；只是相对不优先，没有绝对排除。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "纯计算机无交叉背景的课题组（如做系统结构、数据库、通用大模型、图形学等），由于你看重的是CS学位，他们评估你时会横向对比计算机科班生源。缺乏已发表的CCF高水平会议长文，且大创成果尚未落地，在面对科班顶尖选手的竞赛奖项（ACM/程序设计竞赛）或机试考核时容易处于下风。",
+      "canonical_candidate_key": "route_pure_cs_engineering",
+      "error_ids": [
+        "E06"
+      ],
+      "label": "S1纯CS课题组例举重复",
+      "occurrence_line": 108,
+      "reason": "S1继续讨论原路径二；系统、数据库、通用大模型、图形学仅为课题组类型举例，不被当成具体推荐项目。否定成果的E06只归入证据项。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "为什么“路径三”与“路径一”依然是绝对优选？",
+      "canonical_candidate_key": "route_cs_medical",
+      "error_ids": [],
+      "label": "S1再次确认路径三优选",
+      "occurrence_line": 110,
+      "reason": "S1再次维持原第三路线，与S0和S1既有记录重复。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "为什么“路径三”与“路径一”依然是绝对优选？",
+      "canonical_candidate_key": "route_bme_imaging",
+      "error_ids": [],
+      "label": "S1再次确认路径一优选",
+      "occurrence_line": 110,
+      "reason": "S1再次维持原第一路线，与S0和S1既有记录重复；此处同时明示两条已分别界定的路线，可各记重复出现。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "*   **你的背景恰好落在交叉导师的需求点上**：计算机学院做医学视觉/医疗AI的导师，手里往往有海量临床/影像课题，正需要既懂医学图像处理又会写PyTorch代码的学生。",
+      "canonical_candidate_key": "route_cs_medical",
+      "error_ids": [],
+      "label": "S1医疗视觉/医疗AI导师路线复述",
+      "occurrence_line": 111,
+      "reason": "S1为路径三的实际适配解释，没有新独立院校，沿用同key；不把学生未披露的PyTorch能力当作已核验事实。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "清华深研院",
+      "canonical_candidate_key": "tsinghua_sigs_bme",
+      "error_ids": [],
+      "label": "清深冲顶重复",
+      "occurrence_line": 125,
+      "reason": "S1冲顶清单明确积极投递，保留全文重复出现并与S0同key；已披露影像相关算法经历支持方向继续适用。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV03",
+        "EV04"
+      ],
+      "school_key": "tsinghua",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "上交生医工",
+      "canonical_candidate_key": "sjtu_bme",
+      "error_ids": [],
+      "label": "上交生医工冲顶重复",
+      "occurrence_line": 125,
+      "reason": "S1冲顶清单明确积极投递，保留全文重复出现并与S0同key；已披露影像相关算法经历支持方向继续适用。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "sjtu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "浙大生仪",
+      "canonical_candidate_key": "zju_bmi",
+      "error_ids": [],
+      "label": "浙大生仪冲顶重复",
+      "occurrence_line": 125,
+      "reason": "S1冲顶清单明确积极投递，保留全文重复出现并与S0同key；已披露影像相关算法经历支持方向继续适用。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "zju",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "中科院深圳先进院（SIAT）",
+      "canonical_candidate_key": "siat_bme_imaging",
+      "error_ids": [],
+      "label": "SIAT冲顶重复",
+      "occurrence_line": 125,
+      "reason": "S1冲顶清单明确积极投递，保留全文重复出现并与S0同key；已披露影像相关算法经历支持方向继续适用。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "siat",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "*   **交叉布局**：锁定华五、北航、哈工大、东南等高校**计算机/人工智能/自动化学院中，明确招收医学影像分析方向的导师**，通过提前邮件联系（附带详细科研简历）建立联系。",
+      "canonical_candidate_key": "huawu_cs_medical_group",
+      "error_ids": [],
+      "feasibility": "答卷要求锁定明确招收该方向的导师，通过附详细科研简历提前邮件联系确认匹配；这是可以执行的筛选/联系动作，不把口头意向等同录取。具体专业、名额及考核仍未完成审计。",
+      "key_condition": "该校目标计算机/人工智能/自动化团队的导师确实招收本轮医学影像分析方向研究生，并接受学生的专业背景与目标培养类型。",
+      "label": "华五医工交叉团队重复",
+      "occurrence_line": 126,
+      "reason": "S1明确限定实际招收医学影像分析方向的导师，并提出附详细科研简历提前邮件联系，属于可具体核验的条件方案。沿用S0相应学校与交叉方向key，未分别落实的学院类型不拆开。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "group_huawu",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "*   **交叉布局**：锁定华五、北航、哈工大、东南等高校**计算机/人工智能/自动化学院中，明确招收医学影像分析方向的导师**，通过提前邮件联系（附带详细科研简历）建立联系。",
+      "canonical_candidate_key": "buaa_cs_medical",
+      "error_ids": [],
+      "feasibility": "答卷要求锁定明确招收该方向的导师，通过附详细科研简历提前邮件联系确认匹配；这是可以执行的筛选/联系动作，不把口头意向等同录取。具体专业、名额及考核仍未完成审计。",
+      "key_condition": "该校目标计算机/人工智能/自动化团队的导师确实招收本轮医学影像分析方向研究生，并接受学生的专业背景与目标培养类型。",
+      "label": "北航医工交叉团队重复",
+      "occurrence_line": 126,
+      "reason": "S1明确限定实际招收医学影像分析方向的导师，并提出附详细科研简历提前邮件联系，属于可具体核验的条件方案。沿用S0相应学校与交叉方向key，未分别落实的学院类型不拆开。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV08"
+      ],
+      "school_key": "buaa",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "*   **交叉布局**：锁定华五、北航、哈工大、东南等高校**计算机/人工智能/自动化学院中，明确招收医学影像分析方向的导师**，通过提前邮件联系（附带详细科研简历）建立联系。",
+      "canonical_candidate_key": "hit_cs_medical",
+      "error_ids": [],
+      "feasibility": "答卷要求锁定明确招收该方向的导师，通过附详细科研简历提前邮件联系确认匹配；这是可以执行的筛选/联系动作，不把口头意向等同录取。具体专业、名额及考核仍未完成审计。",
+      "key_condition": "该校目标计算机/人工智能/自动化团队的导师确实招收本轮医学影像分析方向研究生，并接受学生的专业背景与目标培养类型。",
+      "label": "哈工大医工交叉团队重复",
+      "occurrence_line": 126,
+      "reason": "S1明确限定实际招收医学影像分析方向的导师，并提出附详细科研简历提前邮件联系，属于可具体核验的条件方案。沿用S0相应学校与交叉方向key，未分别落实的学院类型不拆开。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "reviewer_evidence_ids": [
+        "EV09"
+      ],
+      "school_key": "hit",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "*   **交叉布局**：锁定华五、北航、哈工大、东南等高校**计算机/人工智能/自动化学院中，明确招收医学影像分析方向的导师**，通过提前邮件联系（附带详细科研简历）建立联系。",
+      "canonical_candidate_key": "seu_cs_medical",
+      "error_ids": [],
+      "feasibility": "答卷要求锁定明确招收该方向的导师，通过附详细科研简历提前邮件联系确认匹配；这是可以执行的筛选/联系动作，不把口头意向等同录取。具体专业、名额及考核仍未完成审计。",
+      "key_condition": "该校目标计算机/人工智能/自动化团队的导师确实招收本轮医学影像分析方向研究生，并接受学生的专业背景与目标培养类型。",
+      "label": "东南医工交叉团队重复",
+      "occurrence_line": 126,
+      "reason": "S1明确限定实际招收医学影像分析方向的导师，并提出附详细科研简历提前邮件联系，属于可具体核验的条件方案。沿用S0相应学校与交叉方向key，未分别落实的学院类型不拆开。按规划题的院系/方向层面审阅，valid仅说明方向内容可成立，不表示完成全部当届名额、门槛与窗口审计；本题无参考覆盖项，不因粗粒度或无链接判invalid。",
+      "school_key": "seu",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "c5827528e0b775e734f21cc7eed4ca88103dd721e5bed22b29e747c92ce9287f",
+  "score": 64.5,
+  "score_interval": [
+    64.5,
+    64.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N11-02",
+  "task_kind": "planning",
+  "task_sha256": "e2ba2e0b63d03250bccca08efe550907f4ee6195297682bcc3b465130b6f15d1",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "上海交通大学生医工学院",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "浙江大学生仪学院",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "清华大学深圳国际研究生院/医学院",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "tsinghua"
+      },
+      {
+        "answer_quote": "复旦大学类脑/影像中心",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "fudan"
+      },
+      {
+        "answer_quote": "东南大学（BME顶尖）",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "中科院深圳先进技术研究院（SIAT，医学影像国家队）",
+        "downgraded": false,
+        "reason": "科研院所不按是否具有985标签机械认定降级；官方EV07支持其实际推免培养主体身份。本题无层次计分节点。",
+        "school_key": "siat"
+      },
+      {
+        "answer_quote": "北航",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "buaa"
+      },
+      {
+        "answer_quote": "哈工大",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "本校本校控制/生医工学科实力强劲",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "neu"
+      },
+      {
+        "answer_quote": "华中科技大学",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "天津大学",
+        "downgraded": false,
+        "reason": "与题面原本科院校同为本科层次，不构成学校层次降级。本题没有层次计分节点，仅作报告。",
+        "school_key": "tju"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

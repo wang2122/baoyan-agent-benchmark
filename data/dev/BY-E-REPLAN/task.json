@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-E",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q023",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-E-REPLAN",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在华东地区一所985高校读人工智能。现在是2025年7月，本轮已无法通过国内推免通道升学，我已经决定转向留学。\n\n此前准备国内申请时，我的成绩排名在专业中游，六级500–549分，还没有雅思或托福成绩；在校内做过数月自然语言处理科研，另一段科研正在进行，当时论文正在修改、准备投稿。\n\n我原本更想读国内学硕，也一直把港新作为备选。现在想优先考虑港新的研究生项目，但还需要比较授课型和研究型培养方式。能结合预算、入学时间和语言考试准备，帮我重新安排升学申请吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "6acf9e98a08d60572df6e058820127e76076de771b47ae3aa293043ab0122631",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

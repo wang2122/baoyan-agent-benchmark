@@ -1,0 +1,67 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "O03-04",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "明确S0可知和S1才知的信息，不倒灌",
+      "grading": "three_level",
+      "half_credit": "有部分正确可执行内容，但缺关键时点或因果",
+      "id": "E1",
+      "label": "历史状态保持",
+      "points": 25
+    },
+    {
+      "full_credit": "覆盖真实阶段相符的学业、英语、研究与专业优先项",
+      "grading": "three_level",
+      "half_credit": "有部分正确可执行内容，但缺关键时点或因果",
+      "id": "E2",
+      "label": "教师方向对应",
+      "points": 25
+    },
+    {
+      "full_credit": "对照两个真实阶段的信息，保留仍适用的安排，调整不再适用的安排；说明取舍依据与优先顺序",
+      "grading": "three_level",
+      "half_credit": "有部分正确可执行内容，但缺关键时点或因果",
+      "id": "E3",
+      "label": "新信息核对与计划适配",
+      "points": 25
+    },
+    {
+      "full_credit": "输出可操作时间表、研究与招生条件核验",
+      "grading": "three_level",
+      "half_credit": "有部分正确可执行内容，但缺关键时点或因果",
+      "id": "E4",
+      "label": "结果交付与复核",
+      "points": 15
+    },
+    {
+      "full_credit": "区分论文、资格、申请结果的实际状态",
+      "grading": "three_level",
+      "half_credit": "有部分正确可执行内容，但缺关键时点或因果",
+      "id": "E5",
+      "label": "事实与证据",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据各轮截至当时已披露的事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。两阶段回答合并按本题评分表计分，不倒灌后续事实；同一错误不得重复扣分。分值仍待教师校准。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

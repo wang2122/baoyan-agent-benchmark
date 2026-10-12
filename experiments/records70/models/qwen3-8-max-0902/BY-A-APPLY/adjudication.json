@@ -1,0 +1,178 @@
+{
+  "schema": "source-bound-post-review-adjudication.1",
+  "task_id": "BY-A-APPLY",
+  "source_answer_sha256": "df8a802ee5a8c172f32d3258cc2be7fdf5ab1f7b67ff1beadf4722fe039ad8b8",
+  "source_original_judgment_sha256": "0795814a34bbc975475c31bf92e82fc2fd6838f736f95f91f2b847820d3dcd5b",
+  "source_original_score_sha256": "75b3ba9b8aac5a34986f18840564110d082259a3324490d6394843732cbccfc7",
+  "source_adjudicated_judgment_sha256": "82805afbead15e6211627e3e415b51288b5c49d3253357c363358eb4c9ee825c",
+  "source_adjudicated_score_sha256": "c179430ebff2ef3699bb2b15d30c692ea11dee19835bcbc1228168fc3c8dc8b2",
+  "original_interval": [
+    22.65,
+    44.42
+  ],
+  "effective_interval": [
+    30.15,
+    30.15
+  ],
+  "pending_nodes": [],
+  "native_arithmetic_replay_verified": true,
+  "new_model_or_cli_review_called": false,
+  "teacher_calibration": "pending",
+  "decisions": [
+    {
+      "schema": "official-node-and-path-adjudication.1",
+      "question_id": "Q002",
+      "task_id": "BY-A-APPLY",
+      "original_answer_sha256": "df8a802ee5a8c172f32d3258cc2be7fdf5ab1f7b67ff1beadf4722fe039ad8b8",
+      "original_rubric_sha256": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+      "original_interval": [
+        22.65,
+        44.42
+      ],
+      "expected_interval": [
+        30.15,
+        30.15
+      ],
+      "rulings": [
+        {
+          "node_id": "A-12",
+          "status": "resolved_counter_evidence",
+          "points": 0,
+          "decision": "No valid project relation via B03 as written; existing direct candidates separately reviewed and unchanged",
+          "sources": [
+            {
+              "url": "https://yz.chsi.com.cn/tm/zyml/index",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "四川+电子科大+材料的完整14条当届推免记录",
+              "finding": "003学院有全日制材料与化工，材料工程另在002及国家卓工学院；不是仅凭ksfs22空接口推断。",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085601?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085601培养方式",
+              "finding": "唯一列出非全日制，6人",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085600?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085600培养方式",
+              "finding": "全日制，58人；与非全日制085601共存，不是同一项目的更名",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            }
+          ]
+        },
+        {
+          "node_id": "A-13",
+          "status": "resolved_counter_evidence",
+          "points": 0,
+          "decision": "No valid project relation via B03 as written; existing direct candidates separately reviewed and unchanged",
+          "sources": [
+            {
+              "url": "https://yz.chsi.com.cn/tm/zyml/index",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "四川+电子科大+材料的完整14条当届推免记录",
+              "finding": "003学院有全日制材料与化工，材料工程另在002及国家卓工学院；不是仅凭ksfs22空接口推断。",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085601?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085601培养方式",
+              "finding": "唯一列出非全日制，6人",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085600?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085600培养方式",
+              "finding": "全日制，58人；与非全日制085601共存，不是同一项目的更名",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            }
+          ]
+        },
+        {
+          "node_id": "A-14",
+          "status": "resolved_counter_evidence",
+          "points": 0,
+          "decision": "No valid project relation via B03 as written; existing direct candidates separately reviewed and unchanged",
+          "sources": [
+            {
+              "url": "https://yz.chsi.com.cn/tm/zyml/index",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "四川+电子科大+材料的完整14条当届推免记录",
+              "finding": "003学院有全日制材料与化工，材料工程另在002及国家卓工学院；不是仅凭ksfs22空接口推断。",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085601?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085601培养方式",
+              "finding": "唯一列出非全日制，6人",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085600?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085600培养方式",
+              "finding": "全日制，58人；与非全日制085601共存，不是同一项目的更名",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            }
+          ]
+        },
+        {
+          "node_id": "BY-A-APPLY-R10-01",
+          "status": "resolved_counter_evidence",
+          "grade": 0.5,
+          "points": 7.5,
+          "rule": {
+            "full_credit": "体现本人方向、学位、排名、科研和申请约束；有合理冲稳保",
+            "grading": "three_level",
+            "half_credit": "已有相关内容但主要条件或执行不完整",
+            "id": "BY-A-APPLY-R10-01",
+            "label": "推荐理由与适配",
+            "points": 15
+          },
+          "decision": "排名与资格位次分开、科研制备表征和实习适配、硕士/直博取舍、冲稳保及身份核验都有具体正确内容，非零档。B03作为清单外补位的精确学位路径不成立，使组合与条件方案不完整，依原half_credit取0.5。只将本新错误归此项；金属所/纳米所主体错误仍仅R10-02，错误首轮保底与回复期限仍仅R10-03，不重罚。A12/13/14是不成立项目关系的正常匹配缺失，不附加同一错误扣分。",
+          "sources": [
+            {
+              "url": "https://yz.chsi.com.cn/tm/zyml/index",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "四川+电子科大+材料的完整14条当届推免记录",
+              "finding": "003学院有全日制材料与化工，材料工程另在002及国家卓工学院；不是仅凭ksfs22空接口推断。",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085601?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085601培养方式",
+              "finding": "唯一列出非全日制，6人",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            },
+            {
+              "url": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085600?ksfs=21",
+              "checked_at": "2026-10-12T06:18:39.785860+00:00",
+              "applicable_cycle": "2026申请、2027入学项目内容核对",
+              "scope": "003院085600培养方式",
+              "finding": "全日制，58人；与非全日制085601共存，不是同一项目的更名",
+              "capture_sha256": "c852301be51e40e83254c933776d8d494e19d1e02f1dba948bf5ccf24f9c41f8"
+            }
+          ]
+        }
+      ],
+      "interpretation_boundary": "A different school-specific 085600 alternative was not written for B03; the listed codes refer to coexistently different learning modes, rather than an obsolete institutional name or formatting difference."
+    }
+  ]
+}

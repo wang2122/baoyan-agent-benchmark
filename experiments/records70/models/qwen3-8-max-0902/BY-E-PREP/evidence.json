@@ -1,0 +1,80 @@
+{
+  "task_id": "BY-E-PREP",
+  "purpose": "独立评审者事后官方核验；不替代生成期证据，不计算总分",
+  "consultation_cycle": "2025年申请阶段；国内对应2026届毕业生推免",
+  "retrieved_on": "2026-10-12",
+  "evidence": [
+    {
+      "id": "EV01",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "title": "2025年度华东地区一所985高校本科学院推免生遴选工作实施细则",
+      "source_type": "official",
+      "provenance": "reviewer_posthoc_web",
+      "published_on": "2025-09-01（文末落款2025-08-28）",
+      "applicable_cycle": "2025年度推荐、2026届本科毕业生",
+      "scope": "综合学分绩为课程学分绩加总加分，再全院排序；个人所有加分不超过0.3。论文常规加分需第一作者及2025-08-31前正式录用通知，未投稿或预印本不能直接认定符合常规加分。",
+      "supports": [
+        "E01",
+        "BY-E-PREP-R10-07"
+      ],
+      "limitations": "用于事后判明2025申请周期的实际规则；不将2025-09发布内容倒填为未明咨询日之前学生已知，也不核准答卷学院名额估算。"
+    },
+    {
+      "id": "EV02",
+      "source": "https://cse.hkust.edu.hk/pg/admissions/faq/",
+      "title": "HKUST CSE FAQ for Prospective Postgraduate Students",
+      "source_type": "official",
+      "provenance": "reviewer_posthoc_web",
+      "published_on": "网页标明Last updated on 2025-04-03",
+      "applicable_cycle": "2025年已公布的CSE研究生申请说明；2025申请准备可参照，未据此宣称逐年审计全部2026入学项目",
+      "scope": "CSE非本地申请人英语要求包括旧制托福iBT80，或雅思6.5且各项5.5；英文授课本科有豁免。说明MPhil/PhD路径、可联系意向导师。",
+      "supports": [
+        "E02",
+        "BY-E-PREP-R10-06",
+        "HKUST研究型条件候选身份"
+      ],
+      "limitations": "仅CSE研究型相关说明，不能外推到所有港新院校、项目；答卷统一门槛缺少依据，不否定更高备考目标的可选性。"
+    },
+    {
+      "id": "EV03",
+      "source": "https://prog-crs-2025.ust.hk/pgprog/2025-26/mphil-phd-cse",
+      "title": "HKUST Program & Course Catalog 2025/26 — MPhil/PhD Computer Science and Engineering",
+      "source_type": "official",
+      "provenance": "reviewer_posthoc_web",
+      "applicable_cycle": "2025/26学年课程目录；2025年申请准备的官方历史参考",
+      "scope": "确认CSE的MPhil/PhD及托福80、雅思6.5且单项5.5的项目英语要求，佐证不存在答卷声称的该地区统一最低分数。",
+      "supports": [
+        "E02",
+        "HKUST研究型条件候选身份"
+      ],
+      "limitations": "不是2026/27全部项目年度审计，不从上一学年目录推断下一周期具体截止日或名额。"
+    },
+    {
+      "id": "EV04",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "title": "华东地区一所985高校出国成绩、学历证明办理流程",
+      "source_type": "official",
+      "provenance": "reviewer_posthoc_web",
+      "published_on": "文末2025年8月修订",
+      "applicable_cycle": "2025年8月修订后的办理流程",
+      "scope": "推免期间大三升大四学生暂停英文成绩单办理，确有需要可提交经学院签字盖章的放弃资格承诺书；支持预先准备材料，并说明限制有例外路径。",
+      "supports": [
+        "BY-E-PREP-R10-07材料安排的部分成立"
+      ],
+      "limitations": "没有据此推出雅思也必须在8月前考出；不把材料办理规定扩张成所有港新项目申请时间线。"
+    },
+    {
+      "id": "EV05",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "title": "华东地区一所985高校推荐免试硕士生流程",
+      "source_type": "official",
+      "provenance": "reviewer_posthoc_web",
+      "applicable_cycle": "页面现载一般流程，要求具体办法依推免当年度通知；页面未标发布日期",
+      "scope": "区分推荐资格与接收阶段，载明推荐期间出国材料限制及名单公示后放弃资格的约束；支持答卷核实选择边界的动作。",
+      "supports": [
+        "BY-E-PREP-R10-07资格核实动作"
+      ],
+      "limitations": "无明确发布日期，不单独据此证明2025全年原文完全相同；不是全地区港新和国内推免互斥的法规。"
+    }
+  ]
+}

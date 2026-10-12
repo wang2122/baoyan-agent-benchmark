@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N06",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N06-02",
+  "prompt": "现在是2026年推免申请季。我是汉语言文学专业的，雅思6.5。语言学、国际中文教育，还有部分交叉方向我都在看，但不太清楚它们的研究训练和申请要求有什么区别。我应该怎样选择？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

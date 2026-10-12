@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-F",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q016",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-F-02",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在武汉大学读软件工程，申请前排名前约5%、六级550–599分。程序设计竞赛获得过较高奖项；科研做过多段，有已停止的，也有还在方法调试的，目前没有正式论文。想申请清北、华五，也考虑港三，但学硕、专硕还是直博尚未确定。竞赛优势能在多大程度上弥补科研不足，我该怎么定位自己？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "4a1ebb8234c48ae7b9ffcc268c104b5a1053614d40aa4ba156b1997cb1c338a5",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "antigravity-gemini-3-8-flash-high",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 15,
+        "node": "E4",
+        "points": 7.5,
+        "reason": "已有S0分学年里程碑及S1的3—7月材料、PPT、复习、联系和申报时间表，能执行；研究汇报给出了拓扑建模、实验对比、消融和物理解释，S0亦提醒核对本校加分细则。缺失核心是按院系、学位及适用周期实际核验招生条件：第127—129行将本部直博优势及“数量级提升”作普遍断言，未区分真实硕士/博士路径与往届参考；官方2025年发布的2026级资料确认北大电子、计算机均接收硕博，电子学院六级门槛450，清华电子信息/通信开放日也涵盖工程硕士（evidence.json），这些只能供S1准备参考，不能当2027级已定规则。此外只读硕士分支内推荐直博（ERR-MASTER/A12）造成实际路径矛盾。正确具体安排足够半分，招生条件复核核心未成立；缺核验是确定缺项，不挂pending。"
+      },
+      {
+        "max_points": 10,
+        "node": "E5",
+        "points": 5.0,
+        "reason": "S0把论文作为未来在投/录用目标，S1明确一作已发表；全卷将导师交流、口头意向和优营作为争取目标，未宣称已被录取，故存在正确状态区分。关键不足是把当前排名等同推免资格已锁定（ERR-QUAL），把未披露的全英文独立写作及GNN论文闭环当既成事实（ERR-ENGLISH、ERR-GNN），并宣称满足所有加分要求（ERR-ALLREQ）。资格、研究属性和具体贡献应继续核实或条件化，核心证据边界不够，仅半分。各错误仅在本项扣档，不重复影响E1—E3。"
+      }
+    ],
+    "name": "Gemini 3.8 Flash",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 87.5,
+    "score_interval": [
+      87.5,
+      87.5
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "O04-04"
+  }
+}

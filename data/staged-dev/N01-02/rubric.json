@@ -1,0 +1,77 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N01-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "用当前工程场景图像标注、视觉模型实验等真实工作判断是否具备继续深入视觉研究的基础。",
+      "grading": "three_level",
+      "half_credit": "识别方向优势，但缺具体贡献或科研证据。",
+      "id": "N01-02-L1-01",
+      "label": "机器视觉研究路线的证据基础",
+      "points": 25
+    },
+    {
+      "full_credit": "分析机器人系统方向需要的控制、硬件集成、实践能力以及学生已具备与缺少的条件，不假定必须转向。",
+      "grading": "three_level",
+      "half_credit": "提到转向条件但缺能力缺口或投入成本。",
+      "id": "N01-02-L1-02",
+      "label": "转向机器人系统的适配与成本",
+      "points": 20
+    },
+    {
+      "full_credit": "从科研积累、本人兴趣、申请项目适配和时间约束比较继续视觉与转系统，给有条件的选择理由。",
+      "grading": "three_level",
+      "half_credit": "有明确选择但未充分比较条件或反向机会成本。",
+      "id": "N01-02-L1-03",
+      "label": "两条路线的实际取舍",
+      "points": 20
+    },
+    {
+      "full_credit": "准确处理论文非第一作者、个人实验、图表工作及成果状态，据此更新竞争力判断。",
+      "grading": "three_level",
+      "half_credit": "利用了补充事实但作者位次或成果状态不完整。",
+      "id": "N01-02-L1-04",
+      "label": "新增论文与项目分工的正确利用",
+      "points": 10
+    },
+    {
+      "full_credit": "将第二轮新证据与第一轮结论比较，必要时调整；维持原结论也可满分，但须阐述新证据为何支持保持不变。",
+      "grading": "three_level",
+      "half_credit": "有针对补充资料的回应，但未明确保留或改变结论的依据。",
+      "id": "N01-02-L1-05",
+      "label": "前后建议的一致性",
+      "points": 15
+    },
+    {
+      "full_credit": "给出1–2个能验证研究方向适配、导师要求或个人能力缺口的具体动作。",
+      "grading": "three_level",
+      "half_credit": "有行动但难以核实或与所选路线关系不清。",
+      "id": "N01-02-L1-06",
+      "label": "可执行后续验证",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

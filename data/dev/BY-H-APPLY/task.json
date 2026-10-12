@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-H",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q019",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-H-APPLY",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在辽宁石油化工大学读化工，排名前约3%、六级425–449分，吸附与催化大创还在推进，有一篇已发表EI会议一作论文，也拿过化工类国家级竞赛奖项。想读化工或材料方向的硕士，将来从事研发，尤其想尝试天津大学、大连理工，也在看华东理工和北京化工。能推荐23个具体学校、学院和专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "03e78697492915a9582d83792e5a5af967c802221d575552e714f1cc4c4cff25",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

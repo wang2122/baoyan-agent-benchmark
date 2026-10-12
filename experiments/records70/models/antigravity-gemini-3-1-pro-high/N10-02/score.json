@@ -1,0 +1,676 @@
+{
+  "actual_candidate_count": 28,
+  "answer_sha256": "85de30ff09182f2e39b00c780853f330b2608f0215111cb2caff7367f3c88bc4",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 62.5
+  },
+  "confirmed_points": 62.5,
+  "diagnostic_score": 62.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N10-02-L1-02"
+    ],
+    "E02": [
+      "N10-02-L1-03"
+    ],
+    "E03": [
+      "N10-02-L1-03"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "我四年中跨学科选修了机械结构、电控硬件和程序算法三套核心课程。",
+      "id": "E01",
+      "reason": "题面没有提供课程记录或项目贡献，却在拟供学生使用的第一人称面试话术中当作事实陈述。亦未将该话术标成仅在本人确有经历时采用。错误是以专业名称推断具体个人经历，最直接影响N10-02-L1-02的可验证适配；不要求答卷猜出题面未给的项目。"
+    },
+    {
+      "answer_quote": "以你 约27% 的排位加上 **六级 550–599分** 的超高英语表现，完全能够通过大部分中上游 985 高校（如中南大学、湖南大学、山东大学、大连理工大学、重庆大学等）的机械学院机电所初审；",
+      "id": "E02",
+      "reason": "仅凭两个分数就保证多数指定院校的初审，未核对当届项目要求、申请材料和推荐资格。山东大学2026年夏令营官方通知要求预计获资格并按材料筛选，南京理工大学2027接收办法要求取得本校推荐资格、通过材料审核和综合考核；这些规则不支持英语对冲排名即保证初审的推断。未确认其给出的每个历史比例均错误，也不因此将真实院校候选标invalid；本错误归N10-02-L1-03。官方依据见evidence.json中的EV01、EV02。"
+    },
+    {
+      "answer_quote": "**盯紧专项推免计划**：重点关注南京理工大学近年持续扩张的**“国家卓越工程师学院专项”**、**“产教融合研究生专项”**、**“本校直博/硕博连读专项”**以及国防科工专项。这些专项往往对排名要求比常规学硕宽松，智能制造专业在卓越工程师计划中享有极高契合度。",
+      "id": "E03",
+      "reason": "此段置于“校内保研资格保卫战”，将接收培养路径的潜在门槛差异推导为校内推荐资格补救方案；没有说明推荐端实际专项名额、资格排序/限制及个人能否满足。本校直博仍需本科学校推荐资格，硕博连读是另一个培养阶段，不能据名称获得当届本科推荐资格。EV01要求获得所在学校推荐免试资格，且直博需排名专业前列。本错误归N10-02-L1-03；没有由检索不到就断言上述所有专项不存在。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N10-02",
+  "input_sha256": "70bc59683aba07bf2911d99db1edfc2497cd47f77856bb0e8bf9a0e133a74f05",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "d321311b2762f719d9e07dd3c4a3667bc9cf148ea40795a3e9e9e220d57f6336",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N10-02-L1-01",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N10-02-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N10-02-L1-03",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N10-02-L1-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N10-02-L1-05",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N10-02-L1-06",
+      "kind": "quality",
+      "points": 7.5
+    }
+  ],
+  "observed_candidate_count": 28,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "首选【机械工程学院下的机电工程 / 智能制造与机器人系统】",
+      "canonical_candidate_key": "route:mechanical_mechatronics_smart",
+      "error_ids": [],
+      "label": "未指定学校的机械学院机电/智能制造/机器人系统路线",
+      "reason": "实际方向推荐；几个内部方向组成同一泛指路线，不拆为多条院系项目。学科和研究训练关系成立，valid只表示路线本身合理，不证明学生已有相应项目能力或任何学校必然接收。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "第一推荐（最优解·黄金赛道）：机械电子工程 / 智能制造方向（机械学院）",
+      "canonical_candidate_key": "route:mechanical_mechatronics_smart",
+      "error_ids": [],
+      "label": "未指定学校的机械学院机电/智能制造/机器人系统路线",
+      "reason": "实际方向推荐；几个内部方向组成同一泛指路线，不拆为多条院系项目。学科和研究训练关系成立，valid只表示路线本身合理，不证明学生已有相应项目能力或任何学校必然接收。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "机械学院机电/智能制造方向为主（60%）",
+      "canonical_candidate_key": "route:mechanical_mechatronics_smart",
+      "error_ids": [],
+      "label": "未指定学校的机械学院机电/智能制造/机器人系统路线",
+      "reason": "实际方向推荐；几个内部方向组成同一泛指路线，不拆为多条院系项目。学科和研究训练关系成立，valid只表示路线本身合理，不证明学生已有相应项目能力或任何学校必然接收。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "将主攻方向确立在**机械工程学院的机电工程、工业机器人与智能制造方向**",
+      "canonical_candidate_key": "route:mechanical_mechatronics_smart",
+      "error_ids": [],
+      "label": "未指定学校的机械学院机电/智能制造/机器人系统路线",
+      "reason": "实际方向推荐；几个内部方向组成同一泛指路线，不拆为多条院系项目。学科和研究训练关系成立，valid只表示路线本身合理，不证明学生已有相应项目能力或任何学校必然接收。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "次选【自动化学院的控制工程专硕 / 本校控制】",
+      "canonical_candidate_key": "route:control_professional",
+      "error_ids": [],
+      "label": "未指定学校的控制工程专硕路线",
+      "reason": "明确的第二方向与外校替代路线。085406控制工程路径成立；本校控制在下文另有具体招生单位记录，此处只保留泛指方向，不能凭“专硕”认定竞争必然低一档。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "转而申请**专业型硕士（085406 控制工程）**",
+      "canonical_candidate_key": "route:control_professional",
+      "error_ids": [],
+      "label": "未指定学校的控制工程专硕路线",
+      "reason": "明确的第二方向与外校替代路线。085406控制工程路径成立；本校控制在下文另有具体招生单位记录，此处只保留泛指方向，不能凭“专硕”认定竞争必然低一档。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "控制工程专硕为辅（40%）",
+      "canonical_candidate_key": "route:control_professional",
+      "error_ids": [],
+      "label": "未指定学校的控制工程专硕路线",
+      "reason": "明确的第二方向与外校替代路线。085406控制工程路径成立；本校控制在下文另有具体招生单位记录，此处只保留泛指方向，不能凭“专硕”认定竞争必然低一档。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "辅以**控制工程专硕**",
+      "canonical_candidate_key": "route:control_professional",
+      "error_ids": [],
+      "label": "未指定学校的控制工程专硕路线",
+      "reason": "明确的第二方向与外校替代路线。085406控制工程路径成立；本校控制在下文另有具体招生单位记录，此处只保留泛指方向，不能凭“专硕”认定竞争必然低一档。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "慎选【纯机械结构/制造工艺】",
+      "canonical_candidate_key": "route:mechanical_structure_process",
+      "error_ids": [],
+      "label": "纯机械结构/传统制造工艺作为首选的方案",
+      "reason": "实际降优先级/排除首选的路线，纳入全文提取。排除范围是首选而非禁止申请；该学科真实，未因学生仅有智能制造专业就认定其力学必然较弱。",
+      "school_key": "unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "不建议作为首选：纯机械结构与传统制造工艺方向",
+      "canonical_candidate_key": "route:mechanical_structure_process",
+      "error_ids": [],
+      "label": "纯机械结构/传统制造工艺作为首选的方案",
+      "reason": "实际降优先级/排除首选的路线，纳入全文提取。排除范围是首选而非禁止申请；该学科真实，未因学生仅有智能制造专业就认定其力学必然较弱。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "如果申请外校自动化学院，务必避开学硕（0811）尤其是极度内卷的“模式识别与智能系统（纯CV/AI）”",
+      "canonical_candidate_key": "route:external_control_academic_ai",
+      "error_ids": [],
+      "label": "外校控制0811、特别是纯CV/AI学硕的排除方案",
+      "reason": "明确排除/限制的候选路线，非背景学科枚举。该路径真实；不认可所有外校控制学硕统一前5%~10%的推断，也不将排除误写为不存在。",
+      "school_key": "external_985_unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "绝不盲目去外校卷纯算法学硕。",
+      "canonical_candidate_key": "route:external_control_academic_ai",
+      "error_ids": [],
+      "label": "外校控制0811、特别是纯CV/AI学硕的排除方案",
+      "reason": "明确排除/限制的候选路线，非背景学科枚举。该路径真实；不认可所有外校控制学硕统一前5%~10%的推断，也不将排除误写为不存在。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "external_985_unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "不要盲目全海投外校 985 的控制学院",
+      "canonical_candidate_key": "route:external_985_control_all",
+      "error_ids": [],
+      "label": "盲目全海投外校985控制学院的方案",
+      "reason": "仅排除全海投策略，未将每个外校控制学院分别创造为被排除项目，也未扩大成全部985控制不可申请。",
+      "school_key": "external_985_unspecified",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "或偏工程落地的“检测技术与自动化装置”",
+      "canonical_candidate_key": "route:detection_automation",
+      "error_ids": [],
+      "label": "检测技术与自动化装置方向",
+      "reason": "招生选择段明确推荐，区别于前文背景目录。081102是控制科学与工程下的学术方向；可作为偏工程研究路线，不将它自动等同085406专硕。",
+      "school_key": "unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "第二推荐（冲刺/特色选择）：本校（南理工）或国防特色鲜明的控制方向",
+      "canonical_candidate_key": "route:defense_control",
+      "error_ids": [],
+      "feasibility": "答卷建议利用本校平台并考虑偏工程控制，已有现实路线；但未说明外校国防特色项目的逐项门槛和核验，方向可行性不等于接收保证。",
+      "key_condition": "对控制理论、算法、无人系统有强烈志趣。",
+      "label": "未具体点名的国防特色控制路线",
+      "reason": "泛指条件方向，未猜测额外院校。本校部分另行记录；条件来自紧接着的兴趣限定。没有指定外校项目，不能当作已核实的当届可投清单。",
+      "school_key": "unspecified",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "在保研夏令营与预推免初审中，各大 985 高校机械学院对 211 高校排名的容忍度通常在 **前 20% ~ 30%**。以你 约27% 的排位加上 **六级 550–599分** 的超高英语表现，完全能够通过大部分中上游 985 高校（如中南大学、湖南大学、山东大学、大连理工大学、重庆大学等）的机械学院机电所初审；若投控制学院，很可能在机筛阶段便被直接卡掉。",
+      "canonical_candidate_key": "中南大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中南大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "* **中南大学 / 湖南大学**：机械工程（机电与车辆底盘、先进装备控制领域强，对 211 友好度较高）；",
+      "canonical_candidate_key": "中南大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中南大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "在保研夏令营与预推免初审中，各大 985 高校机械学院对 211 高校排名的容忍度通常在 **前 20% ~ 30%**。以你 约27% 的排位加上 **六级 550–599分** 的超高英语表现，完全能够通过大部分中上游 985 高校（如中南大学、湖南大学、山东大学、大连理工大学、重庆大学等）的机械学院机电所初审；若投控制学院，很可能在机筛阶段便被直接卡掉。",
+      "canonical_candidate_key": "湖南大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "* **中南大学 / 湖南大学**：机械工程（机电与车辆底盘、先进装备控制领域强，对 211 友好度较高）；",
+      "canonical_candidate_key": "湖南大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "在保研夏令营与预推免初审中，各大 985 高校机械学院对 211 高校排名的容忍度通常在 **前 20% ~ 30%**。以你 约27% 的排位加上 **六级 550–599分** 的超高英语表现，完全能够通过大部分中上游 985 高校（如中南大学、湖南大学、山东大学、大连理工大学、重庆大学等）的机械学院机电所初审；若投控制学院，很可能在机筛阶段便被直接卡掉。",
+      "canonical_candidate_key": "山东大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "山东大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "* **山东大学 / 重庆大学 / 大连理工大学**：机械工程（制造自动化与机器人所，对高六级、有工程实践经历的学生非常青睐）；",
+      "canonical_candidate_key": "山东大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "山东大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "在保研夏令营与预推免初审中，各大 985 高校机械学院对 211 高校排名的容忍度通常在 **前 20% ~ 30%**。以你 约27% 的排位加上 **六级 550–599分** 的超高英语表现，完全能够通过大部分中上游 985 高校（如中南大学、湖南大学、山东大学、大连理工大学、重庆大学等）的机械学院机电所初审；若投控制学院，很可能在机筛阶段便被直接卡掉。",
+      "canonical_candidate_key": "大连理工大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "大连理工大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "* **山东大学 / 重庆大学 / 大连理工大学**：机械工程（制造自动化与机器人所，对高六级、有工程实践经历的学生非常青睐）；",
+      "canonical_candidate_key": "大连理工大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "大连理工大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "在保研夏令营与预推免初审中，各大 985 高校机械学院对 211 高校排名的容忍度通常在 **前 20% ~ 30%**。以你 约27% 的排位加上 **六级 550–599分** 的超高英语表现，完全能够通过大部分中上游 985 高校（如中南大学、湖南大学、山东大学、大连理工大学、重庆大学等）的机械学院机电所初审；若投控制学院，很可能在机筛阶段便被直接卡掉。",
+      "canonical_candidate_key": "重庆大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "重庆大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "* **山东大学 / 重庆大学 / 大连理工大学**：机械工程（制造自动化与机器人所，对高六级、有工程实践经历的学生非常青睐）；",
+      "canonical_candidate_key": "重庆大学:mechanical_mechatronics",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "重庆大学机械工程机电/制造自动化相关路线",
+      "reason": "前文与梯队矩阵均实际推荐，按明确学校逐一提取；多校共享机械方向可以识别每所学校，但没有为“机电所/机器人所”创造独立于机械招生的项目。valid为真实学校的相关学科方向层面判断，不是2026季初审胜率或具体研究所规范名称的年度审计。E02的保证式初审推断在资格约束项处理。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "哈工大威海/郑州研究院专项",
+      "canonical_candidate_key": "hit:merged_weihai_zhengzhou",
+      "error_ids": [],
+      "label": "哈尔滨工业大学威海/郑州研究院合并专项建议",
+      "reason": "实际提出冲刺的合并建议，但未分别给出威海与郑州申请路径，保留一条合并候选，不拆出两个可计项目。EV03确认2026交流营有机械等专业学位路线，EV04确认2027郑州专硕含机械；这些支持郑州方向存在，不能替答卷补成威海和郑州两套具体可投方案。valid限定于真实单位及相关研究生培养可能性，不保证名额、排名门槛或咨询日窗口。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "华中科技大学中欧能源/智能制造专项",
+      "canonical_candidate_key": "hust:merged_icare_smart",
+      "error_ids": [],
+      "label": "华中科技大学中欧能源/智能制造合并专项建议",
+      "reason": "实际冲刺建议，保留一条合并候选，不替答卷创造另一智能制造专项。EV05确认中欧能源学院2026季接收0807Z2新能源科学与工程学术硕士，EV06的官方导师名单包含智能制造大数据相关方向，因此真实中欧能源及交叉研究路线本身不判不存在。答卷未区分新能源学硕与机械/控制专硕，也未明确哪个智能制造招生项目；不能将此条解读成已核实的智能制造专硕专项。以规划题的广义候选身份记valid，未判定任何未命名专项成立，相关路径说明不足已由学位与核验节点按核心缺项评价。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "稳妥：南理工本校机电/控制",
+      "canonical_candidate_key": "njust:mechanical_mechatronics",
+      "error_ids": [],
+      "label": "南京理工大学机械学院机电/智能装备路线（含合并表述）",
+      "reason": "全文独立提出本校机电，再出现机械学院/智能制造学院合并表述；仅记录一条本校机械机电路线，不从合并句另造智能制造学院独立推荐。EV01、EV07确认机械工程学院和本校接收路径；新旧学院名是否对应具体项目未由评审自行补定。valid不确认留本校极稳、兜底录取或学生已具备资格。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "**南京理工大学（本校机械工程学院 / 智能制造学院）**",
+      "canonical_candidate_key": "njust:mechanical_mechatronics",
+      "error_ids": [],
+      "label": "南京理工大学机械学院机电/智能装备路线（含合并表述）",
+      "reason": "全文独立提出本校机电，再出现机械学院/智能制造学院合并表述；仅记录一条本校机械机电路线，不从合并句另造智能制造学院独立推荐。EV01、EV07确认机械工程学院和本校接收路径；新旧学院名是否对应具体项目未由评审自行补定。valid不确认留本校极稳、兜底录取或学生已具备资格。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "提前联系意向高校（特别是南理工本校及中流985）的机电/智能装备导师！",
+      "canonical_candidate_key": "njust:mechanical_mechatronics",
+      "error_ids": [],
+      "label": "南京理工大学机械学院机电/智能装备路线（含合并表述）",
+      "reason": "全文独立提出本校机电，再出现机械学院/智能制造学院合并表述；仅记录一条本校机械机电路线，不从合并句另造智能制造学院独立推荐。EV01、EV07确认机械工程学院和本校接收路径；新旧学院名是否对应具体项目未由评审自行补定。valid不确认留本校极稳、兜底录取或学生已具备资格。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "如果你对控制理论、算法、无人系统有极大的个人志趣，一定要注意：**不要盲目全海投外校 985 的控制学院**。自动化学院的控制学科在外校 211 筛查中通常要求专业前 5%~10%。但你可以重点考虑**南京理工大学本校自动化学院**！",
+      "canonical_candidate_key": "njust:automation_control",
+      "error_ids": [],
+      "feasibility": "答卷建议本校自动化学院及085406控制工程，学生本科为相关工科，路线合理；仍需取得校内推荐资格并按学院当届要求审核成绩与专业基础。答卷没有完成这些审核，不能据英语高分认定稳录。",
+      "key_condition": "本人确实偏好控制理论、算法或无人系统，特别是希望转算法。",
+      "label": "南京理工大学自动化学院控制路线（后文明示控制工程专硕）",
+      "reason": "同一路线的兴趣条件推荐，后文明示专硕；未把“控制科学与工程优势”背景介绍再拆成一个学硕推荐。EV01、EV07确认本校自动化学院接收路径；本校优势可作联系理由，不能保证接收。",
+      "school_key": "南京理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "**南京理工大学（自动化学院控制工程专硕）**：若想转算法，可作为本校志愿主攻；",
+      "canonical_candidate_key": "njust:automation_control",
+      "error_ids": [],
+      "feasibility": "答卷建议本校自动化学院及085406控制工程，学生本科为相关工科，路线合理；仍需取得校内推荐资格并按学院当届要求审核成绩与专业基础。答卷没有完成这些审核，不能据英语高分认定稳录。",
+      "key_condition": "本人确实偏好控制理论、算法或无人系统，特别是希望转算法。",
+      "label": "南京理工大学自动化学院控制路线（后文明示控制工程专硕）",
+      "reason": "同一路线的兴趣条件推荐，后文明示专硕；未把“控制科学与工程优势”背景介绍再拆成一个学硕推荐。EV01、EV07确认本校自动化学院接收路径；本校优势可作联系理由，不能保证接收。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "南京理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "保底：本校兜底/中科院工程所",
+      "canonical_candidate_key": "njust:unspecified_fallback",
+      "error_ids": [],
+      "label": "南京理工大学未细化项目的本校兜底建议",
+      "reason": "确有泛指本校兜底推荐，单独保留其未细化状态，不能替它再分成学硕和专硕两个项目。与上文具体学院可能重合，不将泛指句认定另一个已存在的独立申请路径；学校接收路径真实，但“兜底预录取”不能由本校身份与六级推出，其资格和接收保证问题并入E02/E03所述约束缺口。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "**南京理工大学本校学硕/专硕兜底预录取**",
+      "canonical_candidate_key": "njust:unspecified_fallback",
+      "error_ids": [],
+      "label": "南京理工大学未细化项目的本校兜底建议",
+      "reason": "确有泛指本校兜底推荐，单独保留其未细化状态，不能替它再分成学硕和专硕两个项目。与上文具体学院可能重合，不将泛指句认定另一个已存在的独立申请路径；学校接收路径真实，但“兜底预录取”不能由本校身份与六级推出，其资格和接收保证问题并入E02/E03所述约束缺口。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "**盯紧专项推免计划**：重点关注南京理工大学近年持续扩张的**“国家卓越工程师学院专项”**、**“产教融合研究生专项”**、**“本校直博/硕博连读专项”**以及国防科工专项。这些专项往往对排名要求比常规学硕宽松，智能制造专业在卓越工程师计划中享有极高契合度。",
+      "canonical_candidate_key": "njust:qualification_inquiry:excellent_engineer",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "南京理工大学资格阶段提名：国家卓越工程师学院专项",
+      "reason": "属于资格筹划段明确提名的待了解培养/专项类别，完整纳入提取；并非已给出招生单位和专业的直接接收推荐。valid仅承认了解相关制度是可行核验动作，不确认“近年持续扩张”、当届本科专项名额或原文称谓就是正式计划名称。E03记录将这些类别当作资格补救的错误；未以缺网页断言专项不存在。",
+      "school_key": "南京理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "**盯紧专项推免计划**：重点关注南京理工大学近年持续扩张的**“国家卓越工程师学院专项”**、**“产教融合研究生专项”**、**“本校直博/硕博连读专项”**以及国防科工专项。这些专项往往对排名要求比常规学硕宽松，智能制造专业在卓越工程师计划中享有极高契合度。",
+      "canonical_candidate_key": "njust:qualification_inquiry:industry",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "南京理工大学资格阶段提名：产教融合研究生专项",
+      "reason": "属于资格筹划段明确提名的待了解培养/专项类别，完整纳入提取；并非已给出招生单位和专业的直接接收推荐。valid仅承认了解相关制度是可行核验动作，不确认“近年持续扩张”、当届本科专项名额或原文称谓就是正式计划名称。E03记录将这些类别当作资格补救的错误；未以缺网页断言专项不存在。",
+      "school_key": "南京理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "**盯紧专项推免计划**：重点关注南京理工大学近年持续扩张的**“国家卓越工程师学院专项”**、**“产教融合研究生专项”**、**“本校直博/硕博连读专项”**以及国防科工专项。这些专项往往对排名要求比常规学硕宽松，智能制造专业在卓越工程师计划中享有极高契合度。",
+      "canonical_candidate_key": "njust:qualification_inquiry:doctoral",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "南京理工大学资格阶段提名：本校直博/硕博连读专项",
+      "reason": "属于资格筹划段明确提名的待了解培养/专项类别，完整纳入提取；并非已给出招生单位和专业的直接接收推荐。valid仅承认了解相关制度是可行核验动作，不确认“近年持续扩张”、当届本科专项名额或原文称谓就是正式计划名称。E03记录将这些类别当作资格补救的错误；未以缺网页断言专项不存在。",
+      "school_key": "南京理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "**盯紧专项推免计划**：重点关注南京理工大学近年持续扩张的**“国家卓越工程师学院专项”**、**“产教融合研究生专项”**、**“本校直博/硕博连读专项”**以及国防科工专项。这些专项往往对排名要求比常规学硕宽松，智能制造专业在卓越工程师计划中享有极高契合度。",
+      "canonical_candidate_key": "njust:qualification_inquiry:defense",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "南京理工大学资格阶段提名：国防科工专项",
+      "reason": "属于资格筹划段明确提名的待了解培养/专项类别，完整纳入提取；并非已给出招生单位和专业的直接接收推荐。valid仅承认了解相关制度是可行核验动作，不确认“近年持续扩张”、当届本科专项名额或原文称谓就是正式计划名称。E03记录将这些类别当作资格补救的错误；未以缺网页断言专项不存在。",
+      "school_key": "南京理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "锁定专项名额 (卓越工程师)",
+      "canonical_candidate_key": "njust:qualification_inquiry:excellent_engineer",
+      "error_ids": [
+        "E03"
+      ],
+      "label": "南京理工大学卓越工程师资格筹划重复提名",
+      "reason": "与正文卓越工程师类别为同一泛指提名，沿用key；本图没有提供新的独立项目或已获专项名额证据。",
+      "school_key": "南京理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "**哈尔滨工程大学、北京科技大学、西南交通大学**等顶尖行业 211 的机电王牌团队。",
+      "canonical_candidate_key": "哈尔滨工程大学:mechanical_mechatronics",
+      "error_ids": [],
+      "label": "哈尔滨工程大学机电团队方向",
+      "reason": "梯队中的实际推荐，逐学校记录，未根据“等”添加其他学校。真实学校具有相关机械/机电培养方向，valid限于学科路线；未指明团队名称，不创造独立的王牌项目，也不确认约27%排名就能稳进。西南交通大学当届机械及机械专硕接收路径另由EV08支持。",
+      "school_key": "哈尔滨工程大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "**哈尔滨工程大学、北京科技大学、西南交通大学**等顶尖行业 211 的机电王牌团队。",
+      "canonical_candidate_key": "北京科技大学:mechanical_mechatronics",
+      "error_ids": [],
+      "label": "北京科技大学机电团队方向",
+      "reason": "梯队中的实际推荐，逐学校记录，未根据“等”添加其他学校。真实学校具有相关机械/机电培养方向，valid限于学科路线；未指明团队名称，不创造独立的王牌项目，也不确认约27%排名就能稳进。西南交通大学当届机械及机械专硕接收路径另由EV08支持。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "**哈尔滨工程大学、北京科技大学、西南交通大学**等顶尖行业 211 的机电王牌团队。",
+      "canonical_candidate_key": "西南交通大学:mechanical_mechatronics",
+      "error_ids": [],
+      "label": "西南交通大学机电团队方向",
+      "reason": "梯队中的实际推荐，逐学校记录，未根据“等”添加其他学校。真实学校具有相关机械/机电培养方向，valid限于学科路线；未指明团队名称，不创造独立的王牌项目，也不确认约27%排名就能稳进。西南交通大学当届机械及机械专硕接收路径另由EV08支持。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "保底：本校兜底/中科院工程所",
+      "canonical_candidate_key": "cas:engineering_unspecified",
+      "error_ids": [],
+      "label": "中国科学院未具体命名的工程应用研究所建议",
+      "reason": "确有概括性保底推荐，保留未细化状态；下文三所另行提取，概括项不构成其外第四所独立研究所，不猜测其他单位。科研院所相关方向成立，不据“非热门”或英语成绩确认保底胜率。",
+      "school_key": "中国科学院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "**中国科学院部分工程应用类研究所**",
+      "canonical_candidate_key": "cas:engineering_unspecified",
+      "error_ids": [],
+      "label": "中国科学院未具体命名的工程应用研究所建议",
+      "reason": "确有概括性保底推荐，保留未细化状态；下文三所另行提取，概括项不构成其外第四所独立研究所，不猜测其他单位。科研院所相关方向成立，不据“非热门”或英语成绩确认保底胜率。 同一路线重复出现，沿用相同canonical_candidate_key。",
+      "school_key": "中国科学院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "（如沈阳自动化所、宁波材料所、长春光机所的非热门机电系统组，通常非常看重六级英语与动手实操）",
+      "canonical_candidate_key": "cas:sia:mechatronics",
+      "error_ids": [],
+      "label": "沈阳自动化所机电系统相关组",
+      "reason": "置于保底推荐语境的实际举例，不是普通背景讨论；所名别称规范化并保留相关组的概括粒度。官方当届材料EV09支持机械/机电研究生路径。valid不代表“非热门”“保底”及看重六级的程度已逐年审计，更不代表学生已达到接收条件；没有找到细化组的网页不能证明其不存在。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "（如沈阳自动化所、宁波材料所、长春光机所的非热门机电系统组，通常非常看重六级英语与动手实操）",
+      "canonical_candidate_key": "cas:nimte:mechatronics",
+      "error_ids": [],
+      "label": "宁波材料所机电系统相关组",
+      "reason": "置于保底推荐语境的实际举例，不是普通背景讨论；所名别称规范化并保留相关组的概括粒度。官方当届材料EV10支持机械/机电研究生路径。valid不代表“非热门”“保底”及看重六级的程度已逐年审计，更不代表学生已达到接收条件；没有找到细化组的网页不能证明其不存在。",
+      "school_key": "中国科学院宁波材料技术与工程研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "（如沈阳自动化所、宁波材料所、长春光机所的非热门机电系统组，通常非常看重六级英语与动手实操）",
+      "canonical_candidate_key": "cas:ciomp:mechatronics",
+      "error_ids": [],
+      "label": "长春光机所机电系统相关组",
+      "reason": "置于保底推荐语境的实际举例，不是普通背景讨论；所名别称规范化并保留相关组的概括粒度。该所为真实精密机械研究与研究生培养单位；没有将未给出的具体组名补成一个项目。valid不代表“非热门”“保底”及看重六级的程度已逐年审计，更不代表学生已达到接收条件；没有找到细化组的网页不能证明其不存在。",
+      "school_key": "中国科学院长春光学精密机械与物理研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "稳妥：南理工本校机电/控制",
+      "canonical_candidate_key": "njust:automation_control",
+      "error_ids": [],
+      "feasibility": "答卷建议本校自动化学院及085406控制工程，学生本科为相关工科，路线合理；仍需取得校内推荐资格并按学院当届要求审核成绩与专业基础。答卷没有完成这些审核，不能据英语高分认定稳录。",
+      "key_condition": "本人确实偏好控制理论、算法或无人系统，特别是希望转算法。",
+      "label": "南京理工大学自动化学院控制路线（后文明示控制工程专硕）",
+      "reason": "流程图再次提到本校控制，与后文自动化学院控制专硕是同一意向路线，沿用canonical_candidate_key；未从流程图另造本校控制学硕项目。后文的兴趣条件仍适用。",
+      "school_key": "南京理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "9b02243e25a1a70ac0da2ac353e0cb3e4cba7b4dcd372e02964dfaa50696b143",
+  "score": 62.5,
+  "score_interval": [
+    62.5,
+    62.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N10-02",
+  "task_kind": "planning",
+  "task_sha256": "a48571b715c98394c0b6e87cd01778e0ef2b821c707f74d41165a0858b51e28d",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题为方向比较规划题，rubric没有层次评分节点，故不额外实施院校降级扣分；所有实际候选及重复表述已在recommendation_review审阅。泛指方向和专项提名不被补成院校清单。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

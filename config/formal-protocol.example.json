@@ -1,0 +1,33 @@
+{
+  "schema_version": "benchmark-study-protocol.1",
+  "id": "baoyan-native-products-study-v1",
+  "status": "draft",
+  "formal_results_enabled": false,
+  "comparison_unit": "native_agent_product_configuration",
+  "evaluation_split": "test",
+  "primary_metric": "mean_task_score_with_full_coverage",
+  "failure_policy": "report_incomplete_without_mean",
+  "repeats": 3,
+  "time_limit_seconds": 900,
+  "token_limit": null,
+  "cost_limit": null,
+  "resource_policy": "time_limited_product_comparison_tokens_and_cost_reported_not_enforced",
+  "judge_version": "evidence-review-v1",
+  "attempt_policy": "one_attempt_per_repeat_no_automatic_retry",
+  "human_intervention": "new_conversation_no_extra_prompts_no_answer_edits",
+  "web_mode": "per_task_declared",
+  "required_web_modes": null,
+  "evidence_cutoff": null,
+  "primary_reviewer_settings_sha256": null,
+  "baseline_registry_sha256": null,
+  "dataset_manifest_sha256": null,
+  "calibration_acceptance_criteria": null,
+  "statistics": {
+    "aggregation": "equal_task_weight_after_equal_repeat_weight",
+    "interval": "percentile_case_group_bootstrap",
+    "confidence_level": 0.95,
+    "samples": 2000,
+    "seed": 0
+  },
+  "notes": "Proposed starting settings, not calibrated constants. Resolve remaining fields using dev pilots and expert review before freezing. Native product tools differ; do not claim equal compute."
+}

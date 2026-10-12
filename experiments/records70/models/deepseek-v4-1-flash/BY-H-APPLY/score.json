@@ -1,0 +1,15 @@
+{
+  "schema": "selected-score-row.1",
+  "task_id": "BY-H-APPLY",
+  "question_id": "Q019",
+  "score_interval": [
+    40.59,
+    40.59
+  ],
+  "pending_nodes": [],
+  "answer_status": "completed",
+  "source_answer_sha256": "066f623e60af60c8ced963b9a34b7c16c88d3fc3ea623f8152b20770c3220fee",
+  "source_kind": "retained_historical_summary",
+  "answer_text_available": true,
+  "recovered_original_text_source": "experiments/records18/models/deepseek-v4-1-flash/BY-H-APPLY/answer.md"
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "user-approved-node-adjudication.1",
+  "task_id": "BY-G-APPLY",
+  "question_id": "Q021",
+  "node_id": "G-11",
+  "source_answer_sha256": "2433a5de0e01bc0d97bc261ba18d069976f753ad77597af292f3175f6148be09",
+  "source_original_score_display_sha256": "ec141283da537e887945f0ad5b9b0e105378781e2ecfcff5017990606ea5957c",
+  "source_original_judgment_display_sha256": "1d59177d4b78f35d9dad928b5c408211222009d174955e3f7546f3921a91922e",
+  "before_interval": [
+    42.71,
+    66.2
+  ],
+  "effective_interval": [
+    50.21,
+    50.21
+  ],
+  "other_node_points_unchanged": true,
+  "new_model_or_judge_call": false,
+  "policy": "Q021 corrected G-11 program identity; R10-01 half-credit 7.5; G-14/G-15/G-16 receive 0 for unverified scoreable matches in this settlement; task has no application year.",
+  "original_rubric_display_sha256": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+  "effective_rubric_display_sha256": "b4621b56c0050bba4836d6d6e54fb9cb8dc4a04698ab4a51ca1d5c6bb5ad7c22",
+  "original_task_has_no_application_year": true,
+  "before_latest_ruling_interval": [
+    42.71,
+    64.08
+  ],
+  "additional_user_approved_ruling": {
+    "approved_at_utc_date": "2026-10-12",
+    "source": "User confirmation relayed from source_thread_id 01a12af6-3c78-77e5-a5fd-8889e118303c",
+    "R10-01": {
+      "grade": 0.5,
+      "points": 7.5,
+      "basis": "Half-credit tier in original rubric"
+    },
+    "G-14/G-15/G-16": {
+      "points_each": 0,
+      "status": "No verified scoreable program match for this settlement; no claim that a program is fake or invalid",
+      "scope": "Apply consistently to the same evidence situation; other unresolved nodes are not automatically zeroed"
+    },
+    "original_pending_review_preserved": true,
+    "original_component_rounding_carry": 0.01
+  },
+  "effective_judgment_display_sha256": "77b6355f9b41c2d671398c94a0c8761c4916826bc421f04fccd0e3ea21af6f8a",
+  "effective_score_display_sha256": "6af2737386a0d20ea67a167ba4cc5c086300e4416153f8720351e20b8e64ed93"
+}

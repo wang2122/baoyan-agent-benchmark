@@ -1,0 +1,91 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N11-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "围绕学生实际项目、作者位次、个人分工或成果阶段，落实“医学影像真实科研经历”；至少给出与真实证据对应的整理、实验、验证或推进动作，不得将计划/在投说成录用发表。",
+      "grading": "three_level",
+      "half_credit": "识别出真实研究方向并给出一项具体动作，但缺个人贡献、成果状态、证据核验或进度反馈中的重要一环。",
+      "id": "N11-02-T1",
+      "label": "医学影像真实科研经历",
+      "points": 21
+    },
+    {
+      "full_credit": "具体回应“工程和医学课程匹配”，确定所需知识模块、与目标考核或个人研究的关系及可执行复习动作；不得把不明政策或尚未确定的考试科目说成通用要求。",
+      "grading": "three_level",
+      "half_credit": "确定了相关课程或研究方向，但未落实到复习重点、阶段安排或考核联系。",
+      "id": "N11-02-T2",
+      "label": "工程和医学课程匹配",
+      "points": 17
+    },
+    {
+      "full_credit": "围绕“硕士直博和学院区别”给出学校/院系/学位或方向层面的适配判断，指出关键限制和可核验渠道；不得只泛称顶尖院校或保证录取。",
+      "grading": "three_level",
+      "half_credit": "方向合理且有一个可落实动作，但缺关键适用条件、个人适配依据或结果检查。",
+      "id": "N11-02-T3",
+      "label": "硕士直博和学院区别",
+      "points": 12
+    },
+    {
+      "full_credit": "对照题面实际考试类型及分数，说明“英语与专业课准备”的用途和具体训练/检查动作；区分老师备考目标与目标院校当年硬性门槛，不能把四级当六级。",
+      "grading": "three_level",
+      "half_credit": "给出相关英语备考动作，但未结合考试类型和实际分数，或遗漏项目级语言门槛、口语训练及检查节点中的重要一环。",
+      "id": "N11-02-T4",
+      "label": "英语与专业课准备",
+      "points": 12
+    },
+    {
+      "full_credit": "围绕“成果状态和导师联系”给出学校/院系/学位或方向层面的适配判断，指出关键限制和可核验渠道；不得只泛称顶尖院校或保证录取。",
+      "grading": "three_level",
+      "half_credit": "识别出真实研究方向并给出一项具体动作，但缺个人贡献、成果状态、证据核验或进度反馈中的重要一环。",
+      "id": "N11-02-T5",
+      "label": "成果状态和导师联系",
+      "points": 8
+    },
+    {
+      "full_credit": "能指出证据不足处并设置验证办法",
+      "grading": "three_level",
+      "half_credit": "知道不确定性但核验不具体",
+      "id": "evidence",
+      "label": "证据和条件边界",
+      "points": 10
+    },
+    {
+      "full_credit": "解释多个路线的收益成本与转向条件",
+      "grading": "three_level",
+      "half_credit": "仅说明偏好，缺完整权衡",
+      "id": "tradeoff",
+      "label": "比较与可解释取舍",
+      "points": 10
+    },
+    {
+      "full_credit": "准确利用新增事实重新评估原建议：需要修改时说明具体变化和理由；无需修改时解释为何原判断仍成立，并给出相应的可执行行动",
+      "grading": "three_level",
+      "half_credit": "利用了补充材料，但缺少维持或调整判断的理由，或缺可执行行动",
+      "id": "delivery",
+      "label": "结合新证据重新评估建议",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据各轮截至当时已披露的事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。两阶段回答合并按本题评分表计分，不倒灌后续事实；同一错误不得重复扣分。分值仍待教师校准。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

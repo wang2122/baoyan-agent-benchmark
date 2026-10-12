@@ -1,0 +1,91 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N08-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "对照题面实际考试类型及分数，说明“把商务英语+数据分析/统计课程串成专业转型证据”的用途和具体训练/检查动作；区分老师备考目标与目标院校当年硬性门槛，不能把四级当六级。",
+      "grading": "three_level",
+      "half_credit": "给出相关英语备考动作，但未结合考试类型和实际分数，或遗漏项目级语言门槛、口语训练及检查节点中的重要一环。",
+      "id": "N08-01-T1",
+      "label": "把商务英语+数据分析/统计课程串成专业转型证据",
+      "points": 18
+    },
+    {
+      "full_credit": "具体回应“重点补宏微观经济学、金融、国际商务及数理基础”，确定所需知识模块、与目标考核或个人研究的关系及可执行复习动作；不得把不明政策或尚未确定的考试科目说成通用要求。",
+      "grading": "three_level",
+      "half_credit": "方向合理且有一个可落实动作，但缺关键适用条件、个人适配依据或结果检查。",
+      "id": "N08-01-T2",
+      "label": "重点补宏微观经济学、金融、国际商务及数理基础",
+      "points": 25
+    },
+    {
+      "full_credit": "围绕学生实际项目、作者位次、个人分工或成果阶段，落实“如实介绍D刊/B刊论文作者身份及不同发表状态”；至少给出与真实证据对应的整理、实验、验证或推进动作，不得将计划/在投说成录用发表。",
+      "grading": "three_level",
+      "half_credit": "识别出真实研究方向并给出一项具体动作，但缺个人贡献、成果状态、证据核验或进度反馈中的重要一环。",
+      "id": "N08-01-T3",
+      "label": "如实介绍D刊/B刊论文作者身份及不同发表状态",
+      "points": 12
+    },
+    {
+      "full_credit": "就“突出数据分析、产品实践的量化结果与个人贡献”给出与该学生已知背景相符的具体建议，说明优先级及可检验交付或判断依据；不以空泛口号代替行动。",
+      "grading": "three_level",
+      "half_credit": "方向合理且有一个可落实动作，但缺关键适用条件、个人适配依据或结果检查。",
+      "id": "N08-01-T4",
+      "label": "突出数据分析、产品实践的量化结果与个人贡献",
+      "points": 10
+    },
+    {
+      "full_credit": "对照题面实际考试类型及分数，说明“兼顾英语/雅思面试和申请学位、费用、培养地的核验”的用途和具体训练/检查动作；区分老师备考目标与目标院校当年硬性门槛，不能把四级当六级。",
+      "grading": "three_level",
+      "half_credit": "给出相关英语备考动作，但未结合考试类型和实际分数，或遗漏项目级语言门槛、口语训练及检查节点中的重要一环。",
+      "id": "N08-01-T5",
+      "label": "兼顾英语/雅思面试和申请学位、费用、培养地的核验",
+      "points": 5
+    },
+    {
+      "full_credit": "准确区分已完成/在投/规划，成绩与资格状态不虚构",
+      "grading": "three_level",
+      "half_credit": "大体准确但遗漏一项影响决策的状态",
+      "id": "accuracy",
+      "label": "事实与成果状态",
+      "points": 10
+    },
+    {
+      "full_credit": "明确有限时间下优先保护哪些任务及为何",
+      "grading": "three_level",
+      "half_credit": "给了优先级但缺可解释理由或取舍",
+      "id": "priority",
+      "label": "机会成本与投入优先级",
+      "points": 10
+    },
+    {
+      "full_credit": "提供至少两个可核查阶段节点和延期重排措施",
+      "grading": "three_level",
+      "half_credit": "有节点但不能根据进度调整",
+      "id": "execution",
+      "label": "检查节点与调整机制",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

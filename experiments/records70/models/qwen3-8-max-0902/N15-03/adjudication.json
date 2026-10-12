@@ -1,0 +1,57 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "question_id": "Q058",
+  "task_id": "N15-03",
+  "answer_sha256": "7d421bd1123bfef05d8d262ecaa0acdb79ddca6b10410c2333d47099c5b727d4",
+  "original_rubric_sha256": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+  "original_score_content_sha256": "36651dc2d245455a194ba1e9dee114e82be805ac413148c202f732dcffe71e21",
+  "original_rubric_content_sha256": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+  "original_evidence_hashes": {
+    "task.json": "a1ac3ff5786f9848d3a6b2bbbce8358f51f4b0df65b1508d8765d22e7f4d2c62",
+    "rubric.json": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+    "answer.md": "7d421bd1123bfef05d8d262ecaa0acdb79ddca6b10410c2333d47099c5b727d4",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "review-settings.json": "ece57aec9fd942efc08fb505f97f3dcc8202ee786fc58dade6acfcc8e21802b2",
+    "judgment.json": "aa53b772b9a6bedcc5fdc6a643a29a6655c01b704f5c66117f4504b1229a81a4",
+    "score.json": "e7660d2e684eed63a321f54eabf687b6a4db9fc8634fd4aade608fb6c2b624d7",
+    "evidence.json": "dec38e41b9759621c5051bffd70c4a5bfa0d85ead684e4d2afe2d8e261fa8698"
+  },
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "question_id": "Q058",
+      "node_id": "tier",
+      "status": "resolved_by_official_evidence",
+      "grade": 0.5,
+      "points": 2.5,
+      "rule": {
+        "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+        "grading": "three_level",
+        "half_credit": "主要正确但个别层次判断无依据",
+        "id": "tier",
+        "label": "院校层次适配",
+        "points": 5
+      },
+      "original_claim": "**权衡（务必想清）**：华政**无985／211／双一流标签**。若目标是定向选调生或有标签硬门槛的单位，此项应降序；若志在法律职业本身，此项应升序。",
+      "decision": "重大985背景与学科职业取舍有具体说明，非零档。吉林误列北京原E04保留；法大涉外律师2027实际为法律（非法学）且限英语及相近本科，法学本科所报备选不成立，培养学位混淆使满档不成立，依原半档结算0.5。M04国际法学学硕保留，既有E01/E02仍只归reasons。",
+      "sources": [
+        {
+          "url": "https://flxy.cupl.edu.cn/info/1017/17993.htm",
+          "published_date": "2026-07-20",
+          "checked_date": "2026-10-11",
+          "scope": "2027涉外律师推免专项完整正文",
+          "finding": "法律学院法律（非法学），本科须英语及相近专业；法学本科不能由补雅思恢复此入口"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    39.43,
+    39.43
+  ],
+  "teacher_calibration": "pending",
+  "source_rulings_sha256": "fd3fdf0feeb9820ca789918837916648cbafba0bf1b43db3ec0a84bcdf034e63",
+  "original_judgment_preserved": true,
+  "native_derived_score_replay_available": true,
+  "validation_note": "Explicit maintenance node overlay; original candidate validity states are preserved. This is not a native candidate-validator replay."
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>保研 Agent Benchmark · Leaderboard</title>
+<style>
+:root{color-scheme:light;--ink:#182b29;--muted:#63716d;--line:#d4ded6;--accent:#23694e;--paper:#f5f6f0}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}main{max-width:1280px;margin:auto;padding:32px 48px 60px}a{color:var(--accent);text-underline-offset:4px}header{display:flex;align-items:center;justify-content:space-between;padding-bottom:24px;border-bottom:1px solid var(--ink);gap:16px}.brand{font-weight:700;letter-spacing:.02em}.tag{font:11px/1.4 ui-monospace,monospace;letter-spacing:.12em;color:var(--accent);border:1px solid #a6beb0;padding:7px 10px}.intro{display:grid;grid-template-columns:1.7fr 1fr;gap:64px;padding:52px 0 38px}.eyebrow{font-size:11px;letter-spacing:.18em;color:var(--accent);font-weight:650}h1{font-size:clamp(40px,5vw,66px);line-height:1.08;letter-spacing:-.055em;font-weight:600;margin:17px 0 20px}p{margin:0;color:var(--muted)}.intro p{max-width:560px}.method{border-left:2px solid var(--line);padding-left:24px;align-self:end}.method strong{display:block;font-size:13px;margin-bottom:8px}.method p{font-size:13px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0;gap:24px}.metric span{display:block;color:var(--muted);font-size:12px}.metric strong{font-size:30px;letter-spacing:-.04em;font-weight:550;font-variant-numeric:tabular-nums}.toolbar{display:flex;gap:20px;align-items:end;justify-content:space-between;margin:36px 0 18px}h2{font-size:20px;font-weight:600;margin:0}.controls{display:flex;gap:12px;align-items:end}label{font-size:11px;color:var(--muted)}input,select{display:block;border:1px solid var(--line);border-radius:3px;background:#fff;color:var(--ink);padding:9px 11px;min-height:40px;font:inherit;font-size:13px}input{width:220px}:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.table-wrap{overflow:auto;background:#fff;border-top:2px solid var(--ink)}table{border-collapse:collapse;width:100%;text-align:left;white-space:nowrap}th{font-size:11px;font-weight:500;color:var(--muted);background:#f0f3ed;padding:14px 18px;border-bottom:1px solid var(--line)}td{padding:20px 18px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}td small{display:block;color:var(--muted);font-size:11px;max-width:280px;white-space:normal;overflow-wrap:anywhere}.score{font-size:25px;letter-spacing:-.03em}.badge{font-size:11px;color:var(--accent);background:#edf5ef;padding:4px 8px;display:inline-block}.badge.pending{color:#816220;background:#f8f2e6}.empty{padding:55px 24px 60px;text-align:center}.empty .zero{font:44px ui-monospace,monospace;color:#91a69c}.empty h3{font-size:20px;font-weight:550;margin:16px 0 10px}.empty p{font-size:13px;max-width:520px;margin:auto}.details-cell{white-space:normal;padding-top:0}details{font-size:12px}summary{cursor:pointer;color:var(--accent);padding:12px 0;width:fit-content}details table{font-size:12px;min-width:480px}details td{padding:9px 12px}details p{padding:8px 0}.footnotes{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin:32px 0 38px}.footnotes strong{font-size:12px}.footnotes p{font-size:12px;margin-top:8px}footer{border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:11px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}#context{overflow-wrap:anywhere;max-width:80%}[hidden]{display:none!important}
+@media(max-width:760px){main{padding:24px 20px}.intro{grid-template-columns:1fr;gap:24px;padding:36px 0 26px}.method{padding-left:16px}.metrics{grid-template-columns:repeat(2,1fr);gap:16px}.toolbar{align-items:start;flex-direction:column}.controls{width:100%;flex-wrap:wrap}input{width:180px}.footnotes{grid-template-columns:1fr;gap:20px}td,th{padding:14px 12px}header{align-items:start}.tag{white-space:nowrap}#context{max-width:100%}}
+</style>
+<main>
+<header><div class="brand">保研 Agent Benchmark</div><div class="tag" id="mode-tag">RESEARCH PREVIEW</div></header>
+<section class="intro"><div><div class="eyebrow">EVALUATION / LEADERBOARD</div><h1>从答卷，到证据。</h1><p>比较 Agent 在背景理解、项目选择与申请规划中的表现。每项成绩来自独立评审，并由固定评分程序复算。</p></div><aside class="method"><strong id="suite">开发集 · 本地预览</strong><p id="scope-note">当前结果用于开发与评审校准。尚未形成正式私有测试结论；模型标签与运行设置以提交记录为准。</p></aside></section>
+<section class="metrics" aria-label="评测概况"><div class="metric"><span>任务范围</span><strong id="tasks">—</strong></div><div class="metric"><span>参评配置</span><strong id="configs">0</strong></div><div class="metric"><span>完整成绩</span><strong id="complete">0</strong></div><div class="metric"><span>待核答卷</span><strong id="pending">0</strong></div></section>
+<section aria-label="结果"><div class="toolbar"><h2>评测结果 <span id="count" class="eyebrow"></span></h2><div class="controls"><label>查找配置或模型<input id="search" type="search" placeholder="输入名称…"></label><label>排列方式<select id="sort"><option value="name">配置名称</option><option value="score">完整均分由高到低</option><option value="coverage">评分完成度</option></select></label></div></div>
+<div class="table-wrap"><table id="results"><thead><tr><th scope="col">配置 / 模型</th><th scope="col">均分 / 100</th><th scope="col">已评分 / 预期</th><th scope="col">待核 / 缺评审</th><th scope="col">95% 案例组区间</th><th scope="col">状态</th></tr></thead><tbody id="rows"></tbody></table><div class="empty" id="empty"><div class="zero">[ — ]</div><h3 id="empty-title">还没有导入评测结果</h3><p id="empty-description">完成答卷后运行固定 Judge，校验评审记录并导出榜单。这里仅展示真实批次；不会以示例数据填充排名。</p></div></div></section>
+<section class="footnotes"><div><strong>01 / 同一比较口径</strong><p>同一页面仅合并题库、协议、工作流与评审配置一致的批次。不同设置需要分别导出。</p></div><div><strong>02 / 不完整结果保持可见</strong><p>失败、未作答、缺评审与待核均保留。只有全部任务及预期重复次数都有数值分，才显示总体均分。</p></div><div><strong>03 / 分数可复算，判断待校准</strong><p>每题先平均重复运行，再等权汇总。区间按学生案例组抽样；计算校验不代表语义判断或后端模型身份已获独立确认。</p></div></section>
+<footer><span id="context">尚无评测上下文</span><span id="updated"></span><a href="leaderboard.json" download>下载结果 JSON ↗</a></footer>
+</main>
+<script>
+'use strict';
+const data = /* BENCHMARK_DATA */null;
+const $ = id => document.getElementById(id);
+const number = value => value == null ? '—' : Number(value).toFixed(2);
+const element = (tag, text, className) => {const el=document.createElement(tag);if(text!=null)el.textContent=text;if(className)el.className=className;return el;};
+const rows = data?.rows || [];
+$('tasks').textContent=data?.expected_episodes!=null?data.expected_tasks+' 原题 + '+data.expected_episodes+' 连续任务':data?.expected_tasks ?? '—';$('configs').textContent=rows.length;
+$('complete').textContent=rows.filter(r=>r.complete).length;
+$('pending').textContent=rows.reduce((n,r)=>n+r.pending_attempts,0);
+const formal = data?.evaluation_scope==='project_official_public_benchmark';
+if(formal)$('mode-tag').textContent='OFFICIAL PUBLIC EVALUATION';
+$('suite').textContent=formal?'正式公开评测 · 79 道原题':data?.suite==='public-smoke'?'':'开发集 · 本地预览';
+if(formal)$('scope-note').textContent='项目正式公开题集评测，连续任务单列。'+(data.publication_ready?'全部作答与评审已完成。':'作答或评审尚未完成，完整结果待准入。')+'未宣称私有留出测试或教师校准完成。';
+$('updated').textContent=data?.generated_at?'导出于 '+new Date(data.generated_at).toLocaleString('zh-CN'):'';
+$('context').textContent=data?.context_sha256?'评测上下文 '+data.context_sha256.slice(0,16)+' · Judge '+(data.reviewer_profiles[0]?.slice(0,16)||'未记录'):'尚无评测上下文';
+function render(){
+ const query=$('search').value.toLowerCase();
+ const filtered=rows.filter(r=>(r.adapter+' '+r.model).toLowerCase().includes(query));
+ filtered.sort((a,b)=>$('sort').value==='score'?(b.mean_score??-1)-(a.mean_score??-1):$('sort').value==='coverage'?b.scored_attempts/b.expected_attempts-a.scored_attempts/a.expected_attempts:a.adapter.localeCompare(b.adapter));
+ $('rows').replaceChildren();$('empty').hidden=filtered.length>0;$('results').hidden=filtered.length===0;$('count').textContent=filtered.length+' CONFIGURATIONS';
+ $('empty-title').textContent=rows.length?'没有匹配的配置':'还没有导入评测结果';
+ $('empty-description').textContent=rows.length?'调整搜索词，查看已导入的配置与模型。':'完成答卷后运行固定 Judge，校验评审记录并导出榜单。这里仅展示真实批次；不会以示例数据填充排名。';
+ for(const r of filtered){
+  const tr=element('tr'), identity=element('td');identity.append(element('strong',r.adapter),element('small',r.model));tr.append(identity);
+  tr.append(element('td',number(r.mean_score),'score'),element('td',r.scored_attempts+' / '+r.expected_attempts),element('td',r.pending_attempts+' / '+r.missing_reviews));
+  const ci=r.confidence_interval;tr.append(element('td',ci?number(ci.lower)+' – '+number(ci.upper):'—'));
+  const state=element('td');state.append(element('span',formal?(r.admission_status==='admitted'?'正式结果':'待完成 / 待评审'):(r.complete?'完整预览':'不完整'),(formal?r.admission_status==='admitted':r.complete)?'badge':'badge pending'));tr.append(state);$('rows').append(tr);
+  const detailRow=element('tr'),cell=element('td',null,'details-cell');cell.colSpan=6;
+  const detail=element('details');detail.append(element('summary','查看题型、逐题与运行证据'));
+  if(formal)detail.append(element('p','正式登记：复用登记前完成答卷 '+r.reused_completed+' 项；保留登记前中断记录 '+r.prior_attempts_retained+' 项。评测源码 '+r.capture_release_sha256.slice(0,16)+'。'));
+  detail.append(element('p','重复次数 '+r.expected_repeats+' · 已完成答卷 '+r.completed_attempts+'/'+r.expected_attempts+' · 未完成答卷 '+(r.expected_attempts-r.completed_attempts)));
+  detail.append(element('p',Object.entries(r.by_task_kind).map(([k,v])=>k+'：'+number(v.mean_score)+'（'+v.scored_tasks+'/'+v.expected_tasks+' 题）').join('；')));
+  const t=element('table'),head=element('thead'),hr=element('tr');for(const title of ['任务','题型','均分','已评分 / 重复','运行状态'])hr.append(element('th',title));head.append(hr);t.append(head);
+  const body=element('tbody');for(const task of r.tasks){const line=element('tr');for(const v of [task.task_id,task.task_kind,number(task.mean_score),task.scored_repeats+' / '+r.expected_repeats,task.repeats.map(x=>x.status).join(', ')])line.append(element('td',v));body.append(line);}t.append(body);detail.append(t);
+  const ev=r.runtime_evidence;if(ev)detail.append(element('p','模型观察：'+Object.entries(ev.model_observation_statuses).map(([k,v])=>k+' '+v).join(' / ')+'；本地隔离验证 '+ev.locally_verified_isolation_attempts+' 次；所需轨迹已记录 '+ev.required_trajectory_recorded+'/'+ev.required_trajectory_attempts+'（记录不等于审计通过）。'));
+  if(r.episodes?.length){
+   detail.append(element('h3','连续任务 · 单独评测'));
+   detail.append(element('p','复用原题，不加入原题均分。原题质量均分与跨阶段诊断分开报告。'));
+   const et=element('table'),eh=element('tr');for(const title of ['任务 / 重复','完成阶段','运行 / 评审','原题质量均分','连续性诊断'])eh.append(element('th',title));const eth=element('thead');eth.append(eh);et.append(eth);const eb=element('tbody');
+   for(const ep of r.episodes)for(const attempt of ep.repeats){const line=element('tr');for(const v of [ep.episode_id+' / r'+attempt.repeat,attempt.stages?attempt.stages.completed+'/'+attempt.stages.total:'未开始',attempt.status+' / '+attempt.review_status,number(attempt.source_quality_mean),attempt.chain_diagnostics.map(x=>x.criterion+'：'+x.status).join('；')||'未评审'])line.append(element('td',v));eb.append(line);}et.append(eb);detail.append(et);
+   for(const ep of r.episodes)for(const attempt of ep.repeats)if(Object.keys(attempt.unit_scores).length)detail.append(element('p',ep.episode_id+' / r'+attempt.repeat+' 原题：'+Object.entries(attempt.unit_scores).map(([id,v])=>id+' '+number(v.score)+'（'+v.status+'）').join('；')));
+  }
+  cell.append(detail);detailRow.append(cell);$('rows').append(detailRow);
+ }
+}
+$('search').addEventListener('input',render);$('sort').addEventListener('change',render);render();
+</script></html>

@@ -1,0 +1,371 @@
+{
+  "actual_candidate_count": 17,
+  "answer_sha256": "d98aefb1c016bb11d07c6dea19a20856614ec032876d3db06c10e7be68d15ac3",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 72.5
+  },
+  "confirmed_points": 72.5,
+  "diagnostic_score": 72.5,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N05-01-L1-04"
+    ],
+    "E02": [
+      "N05-01-L1-05"
+    ],
+    "E03": [
+      "N05-01-L1-07"
+    ],
+    "E04": [
+      "N05-01-L1-07"
+    ],
+    "E05": [
+      "N05-01-L1-07"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "用\"英文 EI 论文由本人主笔 + 长期英文文献阅读/综述能力 + 若有国际会议英文汇报\"作为学术英语实证，在个人陈述中主动写一句。",
+      "id": "E01",
+      "reason": "题面仅披露EI已录用，没有论文语种、署名顺序或本人主笔事实。这里在“若有”只约束会议的情况下要求把本人主笔作为证据，后文面试模板也直接称英文稿由本人主笔，缺少先核实个人贡献的条件。属于成果贡献组织中的无依据补写，最直接只影响L1-04，不再在英语或通用事实项重复扣分。"
+    },
+    {
+      "answer_quote": "**事实层**：425 以上即视为通过，多数院校硬性门槛你已达标。",
+      "id": "E02",
+      "reason": "官方CET分数解释明确不设及格线（evidence.json EV01）。425可作常用参考口径，但不能直接导出所建议项目的硬门槛大多已满足；答卷没有对应项目要求依据。此处问题是把通用口径当已满足招生硬条件，最直接归L1-05，后续逐校核验计划可支持部分内容但不消除该确定断言。"
+    },
+    {
+      "answer_quote": "**当前已是 10 月中旬，处在推免季收尾阶段**",
+      "id": "E03",
+      "reason": "task只给2026年推免申请季，没有咨询月份或日期。答卷擅自把当前状态定为10月中旬，不能以评审环境日期补充或证明学生时点。三个实际状态分支仍有条件化价值，故不把全部路线规划归零；该未披露时间被当事实仅归L1-07。"
+    },
+    {
+      "answer_quote": "本校在推免季末通常仍有名额",
+      "id": "E04",
+      "reason": "未提供本校相关项目该周期的余量依据，不能把学校身份或本校背景等同于仍有名额；只能提出询问或查系统。这里的内容缺陷是未查明名额的确定性概括，未证明任何真实项目停招或不存在，不将本校候选invalid。只归L1-07。"
+    },
+    {
+      "answer_quote": "交叉平台（含不少高校的**卓越工程师学院、交叉学科研究院**）对跨专业背景的包容度明显高于传统单一学科学院",
+      "id": "E05",
+      "reason": "未有跨专业接收规则或比较证据却作平台整体的确定判断，并进一步泛称卓越工程师学院直博名额更宽松。项目资格、导师方向和培养类型需具体判断，不能由平台名称或历史印象推导。这类泛化只归L1-07，不另在路线衔接或条件核验项重复处罚。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N05-01",
+  "input_sha256": "97ca7956c3d68d4ac6fffe80554f42f12e76658b1cf1ede380f2060869c62567",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "9367cb4db6d6e806c8ebeb3037b3bb4c8618a564bb547eead032c3890326facd",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N05-01-L1-01",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N05-01-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-05",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "N05-01-L1-06",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-07",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 17,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "- 北京航空航天大学：航空宇航（结构与热防护）、材料科学与工程、安全工程——与航空隔热材料契合度极高，竞争激烈。",
+      "canonical_candidate_key": "buaa:combined",
+      "error_ids": [],
+      "label": "北京航空航天大学：航空宇航/材料/安全合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。官方2027材料学院方案确认材料科学与工程学术硕士及材料工程专业硕士路径（evidence.json EV03）；不由此推定交通本科已满足全部条件。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "- 西北工业大学：航空宇航、材料（超高温复合材料/热防护方向国内领先）。",
+      "canonical_candidate_key": "nwpu:combined",
+      "error_ids": [],
+      "label": "西北工业大学：航空宇航/材料合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。",
+      "school_key": "nwpu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "- 同济大学、东南大学：交通运输工程、土木工程（机场工程、道路材料）。",
+      "canonical_candidate_key": "tongji:combined",
+      "error_ids": [],
+      "label": "同济大学：交通运输工程/土木合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。并列两所学校可明确分别识别；学校内的方向仍合并。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "- 同济大学、东南大学：交通运输工程、土木工程（机场工程、道路材料）。",
+      "canonical_candidate_key": "seu:combined",
+      "error_ids": [],
+      "label": "东南大学：交通运输工程/土木合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。与同济为不同招生单位，分别提取。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "- 中国科学技术大学 **火灾科学国家重点实验室**：阻燃、热防护、火灾安全，与\"航空隔热材料\"高度契合，且历来对跨专业学生较为开放——**这是你这份背景最值得重点研究的一个单位**。",
+      "canonical_candidate_key": "ustc:fire",
+      "error_ids": [],
+      "label": "中国科学技术大学火灾科学国家重点实验室（现火灾安全全国重点实验室）",
+      "reason": "明确重点建议。官方简介确认2025年更名及原名承接关系，阻燃、防火与结构耐火方向成立（evidence.json EV02）；往届2026招生简章列安全科学与工程及相关专业推免路径（EV04），仅作身份与培养方向依据，不倒推2026申请季对交通本科的最终接收或当届剩余名额。关于“历来开放”的泛化不单独证明录取可行，也不把旧名当虚构单位。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "- 南京航空航天大学：航空宇航结构与材料、民航学院（民航特色 + 航空材料，行业接口好）。",
+      "canonical_candidate_key": "nuaa:combined",
+      "error_ids": [],
+      "label": "南京航空航天大学：航空宇航结构与材料/民航学院合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。官方往届2026招生简章列材料科学与技术学院及民航学院（EV05），仅支持招生主体身份，不替答卷拆出两条确定专业路径。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "- 哈尔滨工业大学：复合材料与材料学科顶尖，竞争强。",
+      "canonical_candidate_key": "hit:materials",
+      "error_ids": [],
+      "label": "哈尔滨工业大学：复合材料/材料",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。“稳”只是答卷梯度标签，不能解释为已核实录取概率；答卷自身亦注明竞争强。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "- 西南交通大学、北京交通大学、中南大学：交通运输工程/土木，其中轨道与基础设施材料交叉空间较大。",
+      "canonical_candidate_key": "swjtu:combined",
+      "error_ids": [],
+      "label": "西南交通大学：交通运输工程/土木合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。三所明确命名学校分别提取，校内交通与土木仍合并。",
+      "school_key": "swjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "- 西南交通大学、北京交通大学、中南大学：交通运输工程/土木，其中轨道与基础设施材料交叉空间较大。",
+      "canonical_candidate_key": "bjtu:combined",
+      "error_ids": [],
+      "label": "北京交通大学：交通运输工程/土木合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。三所明确命名学校分别提取，校内交通与土木仍合并。",
+      "school_key": "bjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "- 西南交通大学、北京交通大学、中南大学：交通运输工程/土木，其中轨道与基础设施材料交叉空间较大。",
+      "canonical_candidate_key": "csu:combined",
+      "error_ids": [],
+      "label": "中南大学：交通运输工程/土木合并建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。三所明确命名学校分别提取，校内交通与土木仍合并。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "- 华南理工大学、武汉理工大学、北京科技大学：材料强校，需确认跨专业接受度。",
+      "canonical_candidate_key": "scut:materials",
+      "error_ids": [],
+      "feasibility": "答卷要求查当届专业目录和推免简章、邮件询问是否接受非材料背景及需补课程，阅读导师论文并补材料基础；路径可操作，但尚非获得接收承诺。",
+      "key_condition": "目标材料项目允许交通工程本科跨申，英语及先修/加试条件可满足，导师方向与实际隔热材料工作匹配。",
+      "label": "华南理工大学：材料方向条件建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。原句明示需确认跨专业接受度，属于条件方案。",
+      "school_key": "scut",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "- 华南理工大学、武汉理工大学、北京科技大学：材料强校，需确认跨专业接受度。",
+      "canonical_candidate_key": "whut:materials",
+      "error_ids": [],
+      "feasibility": "答卷要求查当届专业目录和推免简章、邮件询问是否接受非材料背景及需补课程，阅读导师论文并补材料基础；路径可操作，但尚非获得接收承诺。",
+      "key_condition": "目标材料项目允许交通工程本科跨申，英语及先修/加试条件可满足，导师方向与实际隔热材料工作匹配。",
+      "label": "武汉理工大学：材料方向条件建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。原句明示需确认跨专业接受度，属于条件方案。",
+      "school_key": "whut",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "- 华南理工大学、武汉理工大学、北京科技大学：材料强校，需确认跨专业接受度。",
+      "canonical_candidate_key": "ustb:materials",
+      "error_ids": [],
+      "feasibility": "答卷要求查当届专业目录和推免简章、邮件询问是否接受非材料背景及需补课程，阅读导师论文并补材料基础；路径可操作，但尚非获得接收承诺。",
+      "key_condition": "目标材料项目允许交通工程本科跨申，英语及先修/加试条件可满足，导师方向与实际隔热材料工作匹配。",
+      "label": "北京科技大学：材料方向条件建议",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。原句明示需确认跨专业接受度，属于条件方案。",
+      "school_key": "ustb",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "- **中国民航大学本校**：航空宇航科学与技术、交通运输工程、安全科学与工程、材料科学与工程等（以本校当年硕士招生专业目录为准）。本校推免通常最稳，且民航行业背景就是你的主场优势；你的\"交通工程本科 + 航空隔热材料科研\"在本校航空工程、交通科学与工程、民航安全相关学院都能找到接口。",
+      "canonical_candidate_key": "cauc:combined",
+      "error_ids": [],
+      "label": "中国民航大学：航空宇航/交通运输/安全/材料及相关学院合并兜底",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。题面已明确本科单位；官方研招网往届目录支持交通、航空和材料培养身份（EV06）。该历史资料不证明2026申请季末余量；不能因检索未返回当届官网目录认定不存在。",
+      "school_key": "cauc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "- 长安大学、长沙理工大学等交通土木强校。",
+      "canonical_candidate_key": "changan:transport_civil",
+      "error_ids": [],
+      "label": "长安大学：交通土木",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。学校分别命名，可区分于长沙理工；未额外猜测招生学院或专业代码。",
+      "school_key": "changan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "- 长安大学、长沙理工大学等交通土木强校。",
+      "canonical_candidate_key": "csust:transport_civil",
+      "error_ids": [],
+      "label": "长沙理工大学：交通土木",
+      "reason": "属于实际列出的申请候选，方向与交通或航空材料科研存在合理联系；本题为路线规划，无冻结参考覆盖项。valid仅表示该粒度的内容判断，未声称已核实2026申请季全部门槛、窗口和导师名额。同一学校本行内并列方向未分别给出独立申请路径，保留为一条合并候选，不代答卷拆项。只按答卷已有交通土木方向粒度评价，无证据认定项目或培养路径错误。",
+      "school_key": "csust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "- 民航局/应急管理部系统科研院所（如中国民航科学技术研究院等）——部分有学位点或与高校联合培养，值得查目录。",
+      "canonical_candidate_key": "castc:unidentified_training",
+      "error_ids": [],
+      "label": "中国民航科学技术研究院等系统科研院所：待查学位点/联合培养提名",
+      "reason": "属于候选提名，须纳入提取。原句只说部分院所有学位点或联合培养、值得查目录，没有落实此院的招生专业、授位高校与推免路径。未取得足够官方依据确认此院当届学位路径，记pending仅指该提名身份/路径待查；未查到不能判invalid。该提名不作为有效直接推荐或条件方案，也不将不相关的博士后招聘当硕士招生证据。",
+      "school_key": "castc",
+      "treatment": "mentioned",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**关于本校的正确态度**：本校不是\"失败选项\"，而是让外冲变得理性的**兜底**。不要因为\"想往外走\"而放弃提前联系本校导师——万一外冲不顺，这条退路必须提前铺好，不能事到临头才找。",
+      "canonical_candidate_key": "cauc:combined",
+      "error_ids": [],
+      "label": "中国民航大学：本校兜底（重复出现）",
+      "reason": "再次要求联系本校导师并把本校作为兜底。使用相同canonical_candidate_key去重，普通自我介绍、邮件标题和教育背景中的校名不作为推荐。",
+      "school_key": "cauc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "2. **同步**联系本校（中国民航大学）相关学院导师作为兜底，本校在推免季末通常仍有名额；",
+      "canonical_candidate_key": "cauc:combined",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "中国民航大学：本校兜底（重复出现）",
+      "reason": "收尾分支重复本校兜底；“通常仍有名额”未获依据，错误E04仅归事实可靠项，不据此把整所学校判invalid。使用相同canonical_candidate_key去重，普通自我介绍、邮件标题和教育背景中的校名不作为推荐。",
+      "school_key": "cauc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "- [ ] **兜底**：提前与本校导师沟通，确认外冲失败时的退路。",
+      "canonical_candidate_key": "cauc:combined",
+      "error_ids": [],
+      "label": "中国民航大学：本校兜底（重复出现）",
+      "reason": "行动清单再次联系本校，与前述合并推荐同一候选。使用相同canonical_candidate_key去重，普通自我介绍、邮件标题和教育背景中的校名不作为推荐。",
+      "school_key": "cauc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "3. **不要只押一个方向。** 跨方向申请的方差本来就大，用\"三线并行 + 本校兜底\"把不确定性摊平，这是这份背景最理性的投法。",
+      "canonical_candidate_key": "cauc:combined",
+      "error_ids": [],
+      "label": "中国民航大学：本校兜底（重复出现）",
+      "reason": "再次重复本校兜底组合，不创造新候选。使用相同canonical_candidate_key去重，普通自我介绍、邮件标题和教育背景中的校名不作为推荐。",
+      "school_key": "cauc",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "6658f6315d767a664d8b66be63c7183197a98304cf5574d114e077b29d6b826e",
+  "score": 72.5,
+  "score_interval": [
+    72.5,
+    72.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N05-01",
+  "task_kind": "planning",
+  "task_sha256": "15a9ff1dfecac080038995e761f69a9fce8745f2c04d7d2526b1d68973d88e99",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有school_tier或层次质量节点，也无参考覆盖，层次核对不适用；不因答卷冲稳保梯度标签另设层次扣分。全文已提取17个具名候选及本校重复出现，未明确独立申请的校内合并方向不机械拆分；没有具名排除项。coverage为空是冻结rubric无参考项，不是漏评。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

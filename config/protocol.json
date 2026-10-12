@@ -1,0 +1,21 @@
+{
+  "cost_limit": null,
+  "evidence_cutoff": null,
+  "formal_results_enabled": false,
+  "id": "admissions-agent-v1-draft",
+  "isolation": "external_sandbox_required_for_official_runs",
+  "judge_version": null,
+  "notes": "预算、重复次数、联网资料口径和评审版本待试点后冻结；不得把CLI进程超时当成已控制token、成本或工具权限。",
+  "primary_metric": "mean_task_score_with_full_coverage",
+  "repeats": null,
+  "secondary_metrics": [
+    "by_task_kind",
+    "by_difficulty",
+    "repeat_variation",
+    "completion_coverage"
+  ],
+  "status": "draft",
+  "time_limit_seconds": null,
+  "token_limit": null,
+  "web_mode": "pending"
+}

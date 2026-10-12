@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this MIT-licensed software for code or tooling; cite the CC BY 4.0 dataset separately at https://huggingface.co/datasets/yuxin7778/baoyan-agent-benchmark/blob/main/CITATION.cff. Record the version and content hashes used."
+title: "Baoyan Agent Benchmark"
+type: software
+version: "1.0.2+privacy-v16-public70"
+authors:
+  - name: "Baoyan Agent Benchmark contributors"
+license: "MIT"
+repository-code: "https://github.com/yeyuxin777/baoyan-agent-benchmark"

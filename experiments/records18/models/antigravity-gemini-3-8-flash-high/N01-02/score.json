@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "antigravity-gemini-3-8-flash-high",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 20,
+        "node": "N01-02-L1-02",
+        "points": 10.0,
+        "reason": "具体列出控制、硬件、通信、定位和规划等系统能力及紧迫时间下的投入成本，并利用已有视觉积累说明感知角色，具备正确的部分分析。缺失的核心是学生已经接触机器人的具体程度：未核对其已有控制、硬件集成或系统实践能力，也未区分哪些能力已具备、哪些需要补齐，直接采用“从零”场景不能完成个体适配判断。这里评价能力核对缺失，路线选择缺少兴趣和项目条件的比较另由取舍项评价。"
+      },
+      {
+        "max_points": 20,
+        "node": "N01-02-L1-03",
+        "points": 10.0,
+        "reason": "结合既有视觉积累、保研时间紧迫、智能建造或机器人感知应用提出明确选择，并在S0允许对机器人有兴趣时将其作为视觉落地载体，已形成部分比较。缺失的核心是有条件的双向取舍：没有了解本人更偏好的研究工作及拟申请项目的具体要求，也没有说明何种兴趣或项目条件下转系统值得付出成本，或只深挖视觉会放弃什么机会。S1的绝对禁转结论因此超出当前比较依据，按半分边界判断；不再以系统技能核对不足重复扣此项。"
+      }
+    ],
+    "name": "Gemini 3.8 Flash",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 80.0,
+    "score_interval": [
+      80.0,
+      80.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "N01-02"
+  }
+}

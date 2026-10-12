@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "gpt-6-astra",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 10,
+        "node": "TRY-C-03-R10-02",
+        "points": 0.0,
+        "reason": "全文没有对节能减排竞赛作具体评估，也未把该竞赛与化工、能源或电池催化研究联系起来。通用竞赛筛选条件不能替代本项专业适配分析及队伍、认可、投入条件，核心缺项，判0；该遗漏不另在通用执行项重复扣分。"
+      },
+      {
+        "max_points": 10,
+        "node": "TRY-C-03-R10-03",
+        "points": 0.0,
+        "reason": "承认已有化工设计国二及同类新奖的有限增量，但全文未具体评价继续化工设计能新增什么训练，也未比较其训练收益与参赛成本或给出该赛事继续条件。课程段提到重新理解比赛中的选择，属于课程价值说明，不能视作继续参赛的新增训练评估。未达到半分所需的旧奖与新增训练价值分析，故本项判0；已有奖项的通用增量与认定分析仍在R10-04独立给分。"
+      }
+    ],
+    "name": "GPT-6 Astra",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 80.0,
+    "score_interval": [
+      80.0,
+      80.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "TRY-C-03"
+  }
+}

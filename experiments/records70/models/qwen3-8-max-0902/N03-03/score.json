@@ -1,0 +1,1369 @@
+{
+  "actual_candidate_count": 50,
+  "answer_sha256": "bdc095566e9319309f27e370dc801928b342481d409aa21c6d7bb0ac628ac455",
+  "candidate_limit": 15,
+  "confirmed_component_points": {
+    "coverage": 52.27,
+    "quality": 17.5
+  },
+  "confirmed_points": 69.77,
+  "diagnostic_score": 69.77,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "facts"
+    ],
+    "E02": [
+      "facts"
+    ],
+    "E03": [
+      "execution"
+    ],
+    "E04": [
+      "reasons"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "以第一作者发表EI会议论文一篇",
+      "id": "E01",
+      "reason": "题面仅说明有一篇农业视觉EI会议论文，未披露作者顺序。模板把第一作者写成既定事实，未设作者顺序待填写/核验位置；这是可以局部修正的成果状态越界，仅归facts。"
+    },
+    {
+      "additional_answer_quotes": [
+        "本校录取几乎无悬念",
+        "若需第二个 100% 确定性选项"
+      ],
+      "answer_quote": "本校是确定性 100% 的兜底选项。",
+      "id": "E02",
+      "reason": "排名较靠前（精确名次已概括）不等于已获推免资格、导师接收或复试录取。该绝对承诺与全文另称东华/上海理工可作第二个100%选项一起属于过度承诺，尽管答卷其他段落正确要求先取资格，仍不能据此保证录取；只归facts，不取消真实上大项目。"
+    },
+    {
+      "answer_quote": "恳请您考虑接收我作为2026级推免生。",
+      "evidence": [
+        {
+          "applicable_cycle": "2026年申请、2027年入学",
+          "scope": "工程师学院卓越培养项目含控制工程、电气工程，采取专业学位培养并联合相关专业院系；用于跨院系路径核对。",
+          "source": "https://pi.zju.edu.cn/2026/0730/c67820a3192667/page.psp"
+        },
+        {
+          "applicable_cycle": "2026年申请、2027年入学",
+          "scope": "智慧能源创新学院有电气工程、能源动力专业学位推免路径，接收电气等理工科背景；与电气工程学院为不同学院。",
+          "source": "https://www.senergy.sjtu.edu.cn/mobile/tongzhigonggao/4070.html"
+        }
+      ],
+      "id": "E03",
+      "reason": "题设是2026推免申请季，官方本季申请通知对应2027入学。可直接使用的邮件模板却申请2026级且自行填2022级本科，未区分申请年与入学届别，也未保留未知年级；形成实际联系目标届别错误。批次及核验动作仍有价值，错误仅归execution，不在facts或每个coverage重复处罚。"
+    },
+    {
+      "answer_quote": "中山大学 · 智能工程学院（深圳）· 电气工程",
+      "evidence": [
+        {
+          "applicable_cycle": "2026年申请、2027年入学",
+          "scope": "已下载并提取目录第7、15页，766智能工程学院硕士与直博均无电气工程招生专业；电机研究课题不能替代电气工程学位项目。",
+          "source": "https://graduate.sysu.edu.cn/zsw/sites/default/files/2026-09/5.%20%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E6%8B%9B%E6%94%B6%E6%8E%A8%E5%85%8D%E7%94%9F%EF%BC%88%E5%90%AB%E7%9B%B4%E5%8D%9A%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        }
+      ],
+      "id": "E04",
+      "reason": "中山大学2027推免招生专业目录第7页列766智能工程学院硕士为控制科学与工程、交通运输工程、电子信息、交通运输、低空技术与工程；第15页直博也没有电气工程。原组合明确写专业电气工程，不能把该院电机控制研究课题或控制学位代作电气项目。此为参考外无效推荐，只归reasons，不扣任何参考覆盖项。"
+    }
+  ],
+  "excess_count": 35,
+  "id": "N03-03",
+  "input_sha256": "9778b6fd52bf8991c4239427bd16ba1ed3d07537739a6766171e96237ca44b8c",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "c42ade232cdba36464fce439780fee89ddac0a5ffe0705f55ce86e12f81389d7",
+  "nodes": [
+    {
+      "id": "N03-01",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03-detail",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-02",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02-detail",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-03",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A11-detail",
+      "points": 1.4,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-04",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A05-detail",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-05",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A06-detail",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-06",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01-detail",
+      "points": 1.4,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-08",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-09",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "B01",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-10",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "B10",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "B07",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "B06",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-13",
+      "kind": "coverage",
+      "match_coefficient": 0.6,
+      "match_level": "same_department",
+      "matched_answer_item_id": "S07",
+      "points": 2.8,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-14",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "B04",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-15",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "B12",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "tier",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "facts",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 50,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-table",
+      "answer_quote": "| 1 | 冲刺 | 清华大学 | 电机工程与应用电子技术系 | 电气工程（学硕/直博）· 电机与电器、电力电子方向 | A |",
+      "canonical_candidate_key": "thu-eea-electrical",
+      "error_ids": [],
+      "label": "清华大学 · 电机工程与应用电子技术系 · 电气工程（学硕/直博）· 电机与电器、电力电子方向",
+      "reason": "总览表中的主推荐。本部电机系电气工程为可识别工科硕士/直博选择，电机、电力电子与大创契合；并非深圳院项目。官方本季硕士办法支持身份，具体名额未逐年全审。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-detail",
+      "answer_quote": "清华大学 · 电机工程与应用电子技术系 · 电气工程（学硕/直博）",
+      "canonical_candidate_key": "thu-eea-electrical",
+      "error_ids": [],
+      "label": "清华大学 · 电机工程与应用电子技术系 · 电气工程（学硕/直博）",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。本部电机系电气工程为可识别工科硕士/直博选择，电机、电力电子与大创契合；并非深圳院项目。官方本季硕士办法支持身份，具体名额未逐年全审。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-table",
+      "answer_quote": "| 2 | 冲刺 | 上海交通大学 | 电子信息与电气工程学院 电气工程系 | 电气工程（学硕/直博）· 电机与电器、电力电子与电力传动 | A |",
+      "canonical_candidate_key": "sjtu-electrical-lineage",
+      "error_ids": [],
+      "label": "上海交通大学 · 电子信息与电气工程学院 电气工程系 · 电气工程（学硕/直博）· 电机与电器、电力电子与电力传动",
+      "reason": "总览表中的主推荐。旧电院电气工程系的电气工程路径已延续至电气工程学院，官方沿革和目录支持等价身份；不把原隶属名过时机械判为不存在。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-detail",
+      "answer_quote": "上海交通大学 · 电子信息与电气工程学院 电气工程系 · 电气工程（学硕/直博）",
+      "canonical_candidate_key": "sjtu-electrical-lineage",
+      "error_ids": [],
+      "label": "上海交通大学 · 电子信息与电气工程学院 电气工程系 · 电气工程（学硕/直博）",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。旧电院电气工程系的电气工程路径已延续至电气工程学院，官方沿革和目录支持等价身份；不把原隶属名过时机械判为不存在。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-table",
+      "answer_quote": "| 3 | 冲刺 | 浙江大学 | 电气工程学院 | 电气工程（直博为主）· 电机与电力电子、新能源发电 | A |",
+      "canonical_candidate_key": "zju-ee-electrical",
+      "error_ids": [],
+      "label": "浙江大学 · 电气工程学院 · 电气工程（直博为主）· 电机与电力电子、新能源发电",
+      "reason": "总览表中的主推荐。与冻结参考的学校、电气工程学院、电气方向一致，研究主线与本科和电机控制相同；直博意愿须本人确认，但题面未拒绝读博，不据此判无效。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-detail",
+      "answer_quote": "浙江大学 · 电气工程学院 · 电气工程（直博为主）",
+      "canonical_candidate_key": "zju-ee-electrical",
+      "error_ids": [],
+      "label": "浙江大学 · 电气工程学院 · 电气工程（直博为主）",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。与冻结参考的学校、电气工程学院、电气方向一致，研究主线与本科和电机控制相同；直博意愿须本人确认，但题面未拒绝读博，不据此判无效。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-table",
+      "answer_quote": "| 4 | 冲刺 | 北京航空航天大学 | 自动化科学与电气工程学院 | 电气工程 / 控制科学与工程 · 电机与驱动、飞行器电推进 | A/B |",
+      "canonical_candidate_key": "buaa-asee-electrical-control-bundle",
+      "error_ids": [],
+      "label": "北京航空航天大学 · 自动化科学与电气工程学院 · 电气工程 / 控制科学与工程 · 电机与驱动、飞行器电推进",
+      "reason": "总览表中的主推荐。同一院内将电气/控制作为选择包，航空电驱动和伺服方向对应大创；未分别展开独立项目步骤，保留一条推荐包，不替答案增加条目。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-detail",
+      "answer_quote": "北京航空航天大学 · 自动化科学与电气工程学院 · 电气工程 / 控制科学与工程",
+      "canonical_candidate_key": "buaa-asee-electrical-control-bundle",
+      "error_ids": [],
+      "label": "北京航空航天大学 · 自动化科学与电气工程学院 · 电气工程 / 控制科学与工程",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。同一院内将电气/控制作为选择包，航空电驱动和伺服方向对应大创；未分别展开独立项目步骤，保留一条推荐包，不替答案增加条目。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-table",
+      "answer_quote": "| 5 | 主攻 | 华中科技大学 | 电气与电子工程学院 | 电气工程（直博/学硕）· 电机与电器（强电磁方向） | A |",
+      "canonical_candidate_key": "hust-ee-electrical",
+      "error_ids": [],
+      "label": "华中科技大学 · 电气与电子工程学院 · 电气工程（直博/学硕）· 电机与电器（强电磁方向）",
+      "reason": "总览表中的主推荐。命中冻结参考电气与电子工程学院电气路径，电机/强电磁研究与大创有关；有效性判断不采信其录取确定性宣传。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-detail",
+      "answer_quote": "华中科技大学 · 电气与电子工程学院 · 电气工程（直博/学硕）· 电机与电器",
+      "canonical_candidate_key": "hust-ee-electrical",
+      "error_ids": [],
+      "label": "华中科技大学 · 电气与电子工程学院 · 电气工程（直博/学硕）· 电机与电器",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。命中冻结参考电气与电子工程学院电气路径，电机/强电磁研究与大创有关；有效性判断不采信其录取确定性宣传。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-table",
+      "answer_quote": "| 6 | 主攻 | 西安交通大学 | 电气工程学院 | 电气工程（学硕/直博）· 电机与电器、电力电子 | A |",
+      "canonical_candidate_key": "xjtu-ee-electrical",
+      "error_ids": [],
+      "label": "西安交通大学 · 电气工程学院 · 电气工程（学硕/直博）· 电机与电器、电力电子",
+      "reason": "总览表中的主推荐。冻结参考同名院系电气路径，电机、电力电子专业特长相符，未见违反已知条件。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-detail",
+      "answer_quote": "西安交通大学 · 电气工程学院 · 电气工程（学硕/直博）",
+      "canonical_candidate_key": "xjtu-ee-electrical",
+      "error_ids": [],
+      "label": "西安交通大学 · 电气工程学院 · 电气工程（学硕/直博）",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。冻结参考同名院系电气路径，电机、电力电子专业特长相符，未见违反已知条件。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-table",
+      "answer_quote": "| 7 | 主攻 | 哈尔滨工业大学 | 电气工程及自动化学院 | 电气工程 · 电机与电器（伺服与特种电机） | A |",
+      "canonical_candidate_key": "hit-harbin-ee-electrical",
+      "error_ids": [],
+      "label": "哈尔滨工业大学 · 电气工程及自动化学院 · 电气工程 · 电机与电器（伺服与特种电机）",
+      "reason": "总览表中的主推荐。本部电气工程及自动化学院的真实电气研究生路径，官方校级简章支持院系名；与深圳提名分别审阅。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-detail",
+      "answer_quote": "哈尔滨工业大学 · 电气工程及自动化学院 · 电气工程 · 电机与电器",
+      "canonical_candidate_key": "hit-harbin-ee-electrical",
+      "error_ids": [],
+      "label": "哈尔滨工业大学 · 电气工程及自动化学院 · 电气工程 · 电机与电器",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。本部电气工程及自动化学院的真实电气研究生路径，官方校级简章支持院系名；与深圳提名分别审阅。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-table",
+      "answer_quote": "| 8 | 主攻 | 南京航空航天大学 | 自动化学院 | 电气工程 · 电力电子与电力传动（航空电源） | A |",
+      "canonical_candidate_key": "nuaa-auto-electrical",
+      "error_ids": [],
+      "label": "南京航空航天大学 · 自动化学院 · 电气工程 · 电力电子与电力传动（航空电源）",
+      "reason": "总览表中的主推荐。自动化学院内电气工程路径可识别，电力电子、电传动和航空电源直接对应电机控制训练。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-detail",
+      "answer_quote": "南京航空航天大学 · 自动化学院 · 电气工程 · 电力电子与电力传动（航空电源）",
+      "canonical_candidate_key": "nuaa-auto-electrical",
+      "error_ids": [],
+      "label": "南京航空航天大学 · 自动化学院 · 电气工程 · 电力电子与电力传动（航空电源）",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。自动化学院内电气工程路径可识别，电力电子、电传动和航空电源直接对应电机控制训练。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-table",
+      "answer_quote": "| 9 | 主攻 | 同济大学 | 汽车学院 | 车辆工程 / 能源动力（专硕）· 新能源汽车电驱动与电机控制 | A |",
+      "canonical_candidate_key": "tongji-auto-vehicle-energy-bundle",
+      "error_ids": [],
+      "label": "同济大学 · 汽车学院 · 车辆工程 / 能源动力（专硕）· 新能源汽车电驱动与电机控制",
+      "reason": "总览表中的主推荐。汽车学院车辆/能源动力选择包有车辆工程及能源动力真实路径，汽车感知、执行和智能控制与电机大创有关；保留电气转车辆/能源的学位取舍，不拆两个模糊组合。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-detail",
+      "answer_quote": "同济大学 · 汽车学院 · 车辆工程 / 能源动力（专硕）· 新能源汽车电驱动与电机控制",
+      "canonical_candidate_key": "tongji-auto-vehicle-energy-bundle",
+      "error_ids": [],
+      "label": "同济大学 · 汽车学院 · 车辆工程 / 能源动力（专硕）· 新能源汽车电驱动与电机控制",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。汽车学院车辆/能源动力选择包有车辆工程及能源动力真实路径，汽车感知、执行和智能控制与电机大创有关；保留电气转车辆/能源的学位取舍，不拆两个模糊组合。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-table",
+      "answer_quote": "| 10 | 主攻 | 中国科学院电工研究所 | （中国科学院大学 培养体系） | 电气工程 · 电机与电器、电力电子与新能源 | A |",
+      "canonical_candidate_key": "cas-iee-electrical",
+      "error_ids": [],
+      "label": "中国科学院电工研究所 · （中国科学院大学 培养体系） · 电气工程 · 电机与电器、电力电子与新能源",
+      "reason": "总览表中的主推荐。以电工研究所为招生培养主体，国科大为学位培养体系，不把国科大隶属说明再计一个候选；研究所电气和电力电子路径相关，直博比例断言不作为有效性依据。",
+      "school_key": "中国科学院电工研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-detail",
+      "answer_quote": "中国科学院电工研究所 · （中国科学院大学培养体系）· 电气工程 · 电机与电器 / 电力电子与新能源",
+      "canonical_candidate_key": "cas-iee-electrical",
+      "error_ids": [],
+      "label": "中国科学院电工研究所 · （中国科学院大学培养体系）· 电气工程 · 电机与电器 / 电力电子与新能源",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。以电工研究所为招生培养主体，国科大为学位培养体系，不把国科大隶属说明再计一个候选；研究所电气和电力电子路径相关，直博比例断言不作为有效性依据。",
+      "school_key": "中国科学院电工研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-table",
+      "answer_quote": "| 11 | 交叉·高价值 | 浙江大学 | 生物系统工程与食品科学学院 | 农业工程（0828）· 农业信息感知与智能装备、智慧农业 | C |",
+      "canonical_candidate_key": "zju-bse-agricultural-engineering",
+      "error_ids": [],
+      "label": "浙江大学 · 生物系统工程与食品科学学院 · 农业工程（0828）· 农业信息感知与智能装备、智慧农业",
+      "reason": "总览表中的主推荐。生工食品学院农业工程研究生路径有官方历史学位目录和本季学院入口支持；视觉、感知、机器人、自动控制为相关交叉，不等同电气学院。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-detail",
+      "answer_quote": "浙江大学 · 生物系统工程与食品科学学院 · 农业工程（0828）· 农业信息感知与智能装备 / 智慧农业",
+      "canonical_candidate_key": "zju-bse-agricultural-engineering",
+      "error_ids": [],
+      "label": "浙江大学 · 生物系统工程与食品科学学院 · 农业工程（0828）· 农业信息感知与智能装备 / 智慧农业",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。生工食品学院农业工程研究生路径有官方历史学位目录和本季学院入口支持；视觉、感知、机器人、自动控制为相关交叉，不等同电气学院。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-table",
+      "answer_quote": "| 12 | 交叉·高价值 | 中国农业大学 | 信息与电气工程学院 | 农业工程（农业电气化与自动化 082804）/ 电气工程 | C/A |",
+      "canonical_candidate_key": "cau-ceie-agri-electrical-bundle",
+      "error_ids": [],
+      "label": "中国农业大学 · 信息与电气工程学院 · 农业工程（农业电气化与自动化 082804）/ 电气工程",
+      "reason": "总览表中的主推荐。信电学院农业电气化/电气在同一条组合里列作备选，电机控制与农业视觉形成实质适配；未明确分别申请，不代拆独立项目。",
+      "school_key": "中国农业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-detail",
+      "answer_quote": "中国农业大学 · 信息与电气工程学院 · 农业工程（农业电气化与自动化 082804）/ 电气工程",
+      "canonical_candidate_key": "cau-ceie-agri-electrical-bundle",
+      "error_ids": [],
+      "label": "中国农业大学 · 信息与电气工程学院 · 农业工程（农业电气化与自动化 082804）/ 电气工程",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。信电学院农业电气化/电气在同一条组合里列作备选，电机控制与农业视觉形成实质适配；未明确分别申请，不代拆独立项目。",
+      "school_key": "中国农业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-table",
+      "answer_quote": "| 13 | 交叉·稳 | 南京农业大学 | 工学院 | 农业工程 · 农业信息学、智慧农业与农业机器人 | C |",
+      "canonical_candidate_key": "njau-engineering-agri",
+      "error_ids": [],
+      "label": "南京农业大学 · 工学院 · 农业工程 · 农业信息学、智慧农业与农业机器人",
+      "reason": "总览表中的主推荐。工学院农业工程与农业机器人为可识别研究路径，农业视觉可转入农机感知执行；其泛称学科A级与高录取把握不作为项目有效依据。",
+      "school_key": "南京农业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-detail",
+      "answer_quote": "南京农业大学 · 工学院 · 农业工程 · 农业信息学 / 智慧农业与农业机器人",
+      "canonical_candidate_key": "njau-engineering-agri",
+      "error_ids": [],
+      "label": "南京农业大学 · 工学院 · 农业工程 · 农业信息学 / 智慧农业与农业机器人",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。工学院农业工程与农业机器人为可识别研究路径，农业视觉可转入农机感知执行；其泛称学科A级与高录取把握不作为项目有效依据。",
+      "school_key": "南京农业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-table",
+      "answer_quote": "| 14 | 稳妥 | 华北电力大学（北京） | 电气与电子工程学院 | 电气工程 · 电力系统及其自动化 / 电机与电器 | A |",
+      "canonical_candidate_key": "ncepu-beijing-ee-electrical",
+      "error_ids": [],
+      "label": "华北电力大学（北京） · 电气与电子工程学院 · 电气工程 · 电力系统及其自动化 / 电机与电器",
+      "reason": "总览表中的主推荐。明确北京校部电气学院项目，学校211与上大同档，电机、电力系统是真实专业方向；与保定关注对象区分。",
+      "school_key": "华北电力大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-detail",
+      "answer_quote": "华北电力大学（北京）· 电气与电子工程学院 · 电气工程 · 电力系统及其自动化 / 电机与电器",
+      "canonical_candidate_key": "ncepu-beijing-ee-electrical",
+      "error_ids": [],
+      "label": "华北电力大学（北京）· 电气与电子工程学院 · 电气工程 · 电力系统及其自动化 / 电机与电器",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。明确北京校部电气学院项目，学校211与上大同档，电机、电力系统是真实专业方向；与保定关注对象区分。",
+      "school_key": "华北电力大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-table",
+      "answer_quote": "| 15 | 保底 | 上海大学 | 机电工程与自动化学院 | 电气工程 / 控制科学与工程（本校） | A/B |",
+      "canonical_candidate_key": "shu-mea-electrical-control-bundle",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "上海大学 · 机电工程与自动化学院 · 电气工程 / 控制科学与工程（本校）",
+      "reason": "总览表中的主推荐。本校机电学院电气/控制选择包真实存在，资格、导师与复试仍是未获确认状态；E02为过度承诺，不等于这个项目无效。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-detail",
+      "answer_quote": "上海大学 · 机电工程与自动化学院 · 电气工程 / 控制科学与工程（本校保底）",
+      "canonical_candidate_key": "shu-mea-electrical-control-bundle",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "上海大学 · 机电工程与自动化学院 · 电气工程 / 控制科学与工程（本校保底）",
+      "reason": "逐条理由中的同一组合，和总览表合并计量。本校机电学院电气/控制选择包真实存在，资格、导师与复试仍是未获确认状态；E02为过度承诺，不等于这个项目无效。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S01",
+      "answer_quote": "清华深圳国际研究生院（电子信息/能源与环境相关方向，与电机系、自动化系有联合培养）",
+      "canonical_candidate_key": "thu-sigs-unspecified-electronic-energy",
+      "error_ids": [],
+      "label": "深圳国际研究生院 · 泛称电子信息/能源环境",
+      "reason": "曲线通道提名，泛称大类及能源环境，没有选出具体相关项目。官方SIGS确有电气/智能制造，但不能代答卷补写成它们，不给正向匹配；未证实其泛称方向不存在，valid仅指此提名无已证实硬冲突。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S02",
+      "answer_quote": "清华—伯克利深圳学院类交叉项目",
+      "canonical_candidate_key": "thu-tbsi-unspecified-cross",
+      "error_ids": [],
+      "label": "清华—伯克利深圳学院类交叉项目",
+      "reason": "“同时考虑”的另一交叉项目提名，未给专业和学位路径，不能转化为SIGS电气或制造项目；与前一泛称通道不是别名重复。无充分项目描述，不能匹配，不因未命中判虚构。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S03",
+      "answer_quote": "不要挤自动化/计算机分场。",
+      "canonical_candidate_key": "sjtu-auto-camp-excluded",
+      "error_ids": [],
+      "label": "原电院自动化系分场（未明确专业）",
+      "reason": "明确不建议参加自动化系分场，按排除候选提取；不另从相邻热度比较抽取普通背景对象，也不为排除对象给匹配。",
+      "school_key": "上海交通大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S04",
+      "answer_quote": "不要挤自动化/计算机分场。",
+      "canonical_candidate_key": "sjtu-cs-camp-excluded",
+      "error_ids": [],
+      "label": "原电院计算机系分场（未明确专业）",
+      "reason": "与自动化为两个不同分场，明确排除计算机，计入候选数量；同一排除句可支持两个对象，无推荐匹配。",
+      "school_key": "上海交通大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S05",
+      "answer_quote": "**哈工大（深圳）竞争更激烈、地域更好；本部性价比更高、录取概率更大**。你可以同时关注两个校区",
+      "canonical_candidate_key": "hit-shenzhen-electrical-unspecified",
+      "error_ids": [],
+      "label": "深圳校区电气相关入口（院系未明确）",
+      "reason": "在电气组合段落明确提名同时关注深圳，故提取；未给深圳对应招生院系，不能把本部学院移到深圳。威海仅出现在三个校区的背景列举，不构成推荐。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S06",
+      "answer_quote": "可考虑机电工程学院的机器人方向作为交叉选择。",
+      "canonical_candidate_key": "hit-harbin-me-robot-nomination",
+      "error_ids": [],
+      "feasibility": "答卷在该段明确兴趣触发条件，并在全卷要求核验专业代码、学位类型和导师实际方向/名额；可用电机大创及视觉经历联系机器人团队，不据泛称补写具体学位代码。",
+      "key_condition": "愿意从纯电气转向电机控制与机器人交叉，接受机电学院的学科/学位路径。",
+      "label": "本部机电工程学院 · 机器人方向",
+      "reason": "按明确的兴趣条件提出本部机器人交叉入口；有院系和机器人方向，可作方向候选，未见已知硬冲突；本题无哈工大参考，不取得覆盖。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S07",
+      "answer_quote": "同济大学**电子与信息工程学院**（控制科学与工程 A 级）也可作为同城备选，走 B 线。",
+      "canonical_candidate_key": "tongji-see-control",
+      "error_ids": [],
+      "label": "电子与信息工程学院 · 控制科学与工程",
+      "reason": "有独立学院和控制学科备选，不只是背景讨论；与后文B线同济替补合并。官方院系资料确认控制学硕及电子信息自动化专硕关系，适配电机控制与视觉。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S08",
+      "answer_quote": "中国农大的**工学院**同样设有农业工程相关方向（农业机械化工程等），可作为校内第二个入口。",
+      "canonical_candidate_key": "cau-engineering-agri",
+      "error_ids": [],
+      "label": "工学院 · 农业工程/农业机械化",
+      "reason": "实际提出另一个学院的农业机械化入口，有识别路径；与信电学院分开计量。农业智能装备包含机电控制应用，非参考学校不等于非法推荐。",
+      "school_key": "中国农业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S09",
+      "answer_quote": "南农的**信息管理学院 / 人工智能学院**（部分年份设有农业信息、智慧农业相关交叉方向）也可关注，具体以当年招生目录为准。",
+      "canonical_candidate_key": "njau-im-ai-merged-nomination",
+      "error_ids": [],
+      "label": "信息管理学院 / 人工智能学院 · 未指定智慧农业交叉入口",
+      "reason": "两个独立学院被斜杠合并，未明确各自专业或独立推荐，保留一个未决入口提名，不代拆人工智能学院。官方确认智慧农业/人工智能学院存在，但该信息不足不是停招证据，不挂实质pending。",
+      "school_key": "南京农业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S10",
+      "answer_quote": "华北电力有**北京校部与保定校区**两个招生单位，两地专业与培养方案基本一致但录取分数与地域不同，**可同时关注**。",
+      "canonical_candidate_key": "ncepu-baoding-electrical-nomination",
+      "error_ids": [],
+      "label": "保定校区 · 电气方向（院系未明确）",
+      "reason": "在北京电气主项外实际提名关注保定，单独记录培养地，未把北京电气与电子工程学院名移到保定；未展开可识别保定院系项目，不给覆盖。",
+      "school_key": "华北电力大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B01",
+      "answer_quote": "东南大学 · 电气工程学院 · 电气工程（电机与伺服，长三角，主攻档）",
+      "canonical_candidate_key": "seu-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气工程学院 · 电气工程",
+      "reason": "电机与伺服入口明确，与冻结参考东南电气学院电气方向一致；备选触发不是新的学术硬限制。",
+      "school_key": "东南大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B02",
+      "answer_quote": "西南交通大学 · 电气工程学院 · 电气工程（**轨道交通牵引传动与电机控制**国内顶尖，与电机控制背景高度对口，稳）",
+      "canonical_candidate_key": "swjtu-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气工程学院 · 电气工程",
+      "reason": "轨道牵引传动与电机控制实际对口大创，211与上大同档；清单外有效项目。",
+      "school_key": "西南交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B03",
+      "answer_quote": "北京交通大学 · 电气工程学院 · 电气工程（同为牵引传动强校，北京，稳）",
+      "canonical_candidate_key": "bjtu-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气工程学院 · 电气工程",
+      "reason": "牵引电传动研究与电机控制有关，211同档，没有已知地域拒绝。",
+      "school_key": "北京交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B04",
+      "answer_quote": "天津大学 · 电气自动化与信息工程学院 · 电气工程（主攻档）",
+      "canonical_candidate_key": "tju-seea-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气自动化与信息工程学院 · 电气工程",
+      "reason": "按冻结参考粒度为同校同院电气，可识别，未因现代简称自动取消身份。",
+      "school_key": "天津大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B05",
+      "answer_quote": "大连理工大学 · 电气工程学院 · 电气工程（主攻/稳）",
+      "canonical_candidate_key": "dlut-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气工程学院 · 电气工程",
+      "reason": "官方历史推免章程确认电气工程学院路径；学生电气背景符合学科逻辑，未完成全部年度核验不判错误。",
+      "school_key": "大连理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B06",
+      "answer_quote": "重庆大学 · 电气工程学院 · 电气工程（输配电装备及系统安全与新技术国家重点实验室，主攻/稳）",
+      "canonical_candidate_key": "cqu-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气工程学院 · 电气工程",
+      "reason": "与冻结参考同校同院电气，电气本科和电机项目可申请；实验室描述不另算项目。",
+      "school_key": "重庆大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B07",
+      "answer_quote": "湖南大学 · 电气与信息工程学院 · 电气工程（国家电能变换工程技术研究中心，稳）",
+      "canonical_candidate_key": "hnu-eei-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气与信息工程学院 · 电气工程",
+      "reason": "冻结参考同院电气；电能变换与电力电子、大创有关，中心名不另算组合。",
+      "school_key": "湖南大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B08",
+      "answer_quote": "合肥工业大学 · 电气与自动化工程学院 · 电气工程（**特种电机与电机控制**传统强校，稳/保底）",
+      "canonical_candidate_key": "hfut-eea-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电气与自动化工程学院 · 电气工程",
+      "reason": "特种电机、电机控制支持本人专业特长；211同档保底路径合理，不因未在参考判无效。",
+      "school_key": "合肥工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B09",
+      "answer_quote": "山东大学 · 电气工程学院",
+      "canonical_candidate_key": "sdu-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "山东大学 · 电气工程学院 · 电气方向",
+      "reason": "同一行以完整校名分别列出三个学校及各自学院，属于明确逐校推荐；A线标题限定电气方向。按参考仅到院系/电气方向的粒度识别，无须补参考未给的专业代码。该校对象与另两个学校分开计量，并非在同校两个学院间未定路径。",
+      "school_key": "山东大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B10",
+      "answer_quote": "武汉大学 · 电气与自动化学院",
+      "canonical_candidate_key": "whu-eea-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "武汉大学 · 电气与自动化学院 · 电气方向",
+      "reason": "同一行以完整校名分别列出三个学校及各自学院，属于明确逐校推荐；A线标题限定电气方向。按参考仅到院系/电气方向的粒度识别，无须补参考未给的专业代码。该校对象与另两个学校分开计量，并非在同校两个学院间未定路径。",
+      "school_key": "武汉大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B11",
+      "answer_quote": "四川大学 · 电气工程学院",
+      "canonical_candidate_key": "scu-ee-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "四川大学 · 电气工程学院 · 电气方向",
+      "reason": "同一行以完整校名分别列出三个学校及各自学院，属于明确逐校推荐；A线标题限定电气方向。按参考仅到院系/电气方向的粒度识别，无须补参考未给的专业代码。该校对象与另两个学校分开计量，并非在同校两个学院间未定路径。",
+      "school_key": "四川大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B12",
+      "answer_quote": "华南理工大学 · 电力学院",
+      "canonical_candidate_key": "scut-power-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电力学院 · 电气方向",
+      "reason": "与中山分别给出完整校名与学院，A线及该行电气工程说明限定电气方向；冻结参考只要求电力学院电气，达到该粒度，不能强求未提供的专业代码。",
+      "school_key": "华南理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B13",
+      "answer_quote": "中山大学 · 智能工程学院（深圳）· 电气工程",
+      "canonical_candidate_key": "sysu-intelligent-electrical-invalid",
+      "error_ids": [
+        "E04"
+      ],
+      "feasibility": "该院电气工程路径不成立，不能靠等待、英语或学生成果补齐；必须更换专业或招生主体才可形成另一合法推荐，评审不代答案替换。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "智能工程学院（深圳）· 电气工程",
+      "reason": "已审计本季官方推免目录，766智能工程学院没有电气工程硕士/直博专业，明确专业组合不成立。控制团队做电机研究不能替代招生专业；E04仅落参考外的reasons。",
+      "school_key": "中山大学",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "B14",
+      "answer_quote": "沈阳工业大学 · 电气工程学院 · 电机与电器（**永磁电机方向国内顶尖，院士团队**；院校为双非但细分方向极强，适合\"只求方向不求牌子\"的情形）",
+      "canonical_candidate_key": "syut-ee-motor",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。该项另要求学生确实接受双非学校并把永磁电机细分研究置于学校层次之前。",
+      "label": "电气工程学院 · 电机与电器",
+      "reason": "明确双非及只求细分方向不求学校牌子的条件，电机研究方向与大创相关，项目本身有效；学校层次下降另在tier判断，不重复取消候选。",
+      "school_key": "沈阳工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B15",
+      "answer_quote": "同济大学 · 电子与信息工程学院 · 控制科学与工程（A 级，上海，主攻）",
+      "canonical_candidate_key": "tongji-see-control",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "电子与信息工程学院 · 控制科学与工程",
+      "reason": "和S07同一独立组合，再次出现按相同canonical合并；同院控制学硕与参考电子信息相关而不同，非完整同专业。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B16",
+      "answer_quote": "北京理工大学 · 自动化学院 · 控制科学与工程（智能车辆与无人系统电机控制，主攻）",
+      "canonical_candidate_key": "bit-auto-control",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "自动化学院 · 控制科学与工程",
+      "reason": "智能车辆、无人系统的控制方向支持电机大创及视觉，985选择可行。",
+      "school_key": "北京理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B17",
+      "answer_quote": "东北大学 · 信息科学与工程学院 · 控制科学与工程（A 级，稳）",
+      "canonical_candidate_key": "neu-ise-control",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "信息科学与工程学院 · 控制科学与工程",
+      "reason": "明确控制学科与学院，控制基础与大创相符，985层次不下降。",
+      "school_key": "东北大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B18",
+      "answer_quote": "西北工业大学 · 自动化学院 · 控制/电气（无人系统电驱动，主攻）",
+      "canonical_candidate_key": "nwpu-auto-control-electrical",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "自动化学院 · 控制/电气方向包",
+      "reason": "同学院控制/电气作为一项备选包，电驱动目标可识别；不把斜杠内部方向机械拆成两个数量。",
+      "school_key": "西北工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B19",
+      "answer_quote": "华东理工大学 · 信息科学与工程学院 · 控制科学与工程（上海 211，稳/保底）",
+      "canonical_candidate_key": "ecust-ise-control",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "信息科学与工程学院 · 控制科学与工程",
+      "reason": "上海211的控制路径与电机控制有迁移关系；学校同档，保底定位有专业和地域依据。",
+      "school_key": "华东理工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B20",
+      "answer_quote": "哈尔滨工业大学（深圳）· 电子与信息工程学院 / 机电工程学院 · 机器人方向（交叉，冲）",
+      "canonical_candidate_key": "hit-shenzhen-ei-me-robot-merged",
+      "error_ids": [],
+      "label": "深圳 · 电子与信息工程学院 / 机电工程学院 · 机器人",
+      "reason": "同校两个独立学院合并且没有另文给出深圳机器人明确单一专业入口，不能拆选其中任一学院。保留合并提名，未检索到全部年度关系不等于已证实虚构。与S05深圳电气提名及S06本部机电机器人不同。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B21",
+      "answer_quote": "华中农业大学 · 工学院 · 农业工程（农业机器人与视觉、农业遥感方向强，稳）",
+      "canonical_candidate_key": "hzau-engineering-agri",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "工学院 · 农业工程",
+      "reason": "农业工程机器人与视觉方向对应论文，211同档；不能仅因不在电气参考名单就判无效。",
+      "school_key": "华中农业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B22",
+      "answer_quote": "江苏大学 · 农业工程学院 · 农业工程（**农业电气化与农业装备**传统强校，学科评估处于前列，稳/保底）",
+      "canonical_candidate_key": "ujs-agri-engineering",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "农业工程学院 · 农业工程",
+      "reason": "农业工程与农业装备为可识别工科研究方向，农业视觉论文可支撑该交叉选择；学校低于上大211，但该项作为农业电气化/装备特色备选有专业特长依据，层次下降在tier学校报告如实记录，不把非985/211或参考外身份误作项目不存在。",
+      "school_key": "江苏大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B23",
+      "answer_quote": "西北农林科技大学 · 机械与电子工程学院 · 农业工程（985，录取友好，保底）",
+      "canonical_candidate_key": "nwafu-mee-agri",
+      "error_ids": [],
+      "feasibility": "答卷给出方向分组及具体院系，并将全体候选关联到年度专业目录、学位类型、报名批次、英语/排名门槛及导师方向/名额核验。对本学生，电气课程、电机大创、CET6 650–699支持先准备对应材料，再核验可用的夏令营/预推免入口；未逐年审计不等于无效。",
+      "key_condition": "主清单对象当年无夏令营、时间冲突或申请未通过，需要按同档位更换；并愿意接受该候选列明的方向和学位。",
+      "label": "机械与电子工程学院 · 农业工程",
+      "reason": "农业机电装备路径与两段科研有关，985不降级；其录取友好说法不据作录取保证。",
+      "school_key": "西北农林科技大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B24",
+      "answer_quote": "浙江大学 · 农业与生物技术学院 / 新农村发展研究院（智慧农业交叉，冲）",
+      "canonical_candidate_key": "zju-cab-rural-merged-smartagri",
+      "error_ids": [],
+      "label": "农业与生物技术学院 / 新农村发展研究院 · 智慧农业",
+      "reason": "两个独立单位合并，缺具体研究生专业、授位及实际申报入口。既非生工食品农业工程的别称，又未明确任一独立路径；计合并提名，不凭“智慧农业”把它匹配到控制、电气或工程师学院，也不把描述不足伪装成历史争议。",
+      "school_key": "浙江大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R01",
+      "answer_quote": "上海大学本校（已列入 #15）",
+      "canonical_candidate_key": "shu-mea-electrical-control-bundle",
+      "error_ids": [],
+      "label": "本校机电学院电气/控制重复",
+      "reason": "备选池末尾重申#15，同一canonical合并，不另增一个本校名额。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02",
+      "answer_quote": "**本校保底（#15）一定要办，但绝不轻易在系统中确认。**",
+      "canonical_candidate_key": "shu-mea-electrical-control-bundle",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "本校保底重申",
+      "reason": "决策段重申同一上大组合；合理的确认顺序不恢复E02绝对录取保证，仍与主项合并。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B25",
+      "answer_quote": "东华大学信息科学技术学院",
+      "canonical_candidate_key": "dhu-information-electrical-control",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "答卷全体核验事项要求查当年专业代码、学位和外校推免门槛，可依据电机控制/视觉背景核验控制或电子信息方向，再联系导师；此路径不支持录取100%保证。",
+      "key_condition": "确有需要增加上海地区兜底选择，接受211同档及该学院控制相关的实际学位，而非仅因电机课题坚持电气学位。",
+      "label": "信息科学技术学院 · 电气/控制方向",
+      "reason": "最后兜底句明确学校与学院，句尾电气/控制方向共同修饰两校；在该校信息学院走控制及电气相关研究的选择可识别。“100%确定”属于E02过度承诺，不证明项目不存在。",
+      "school_key": "东华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B26",
+      "answer_quote": "上海理工大学相关学院的电气/控制方向",
+      "canonical_candidate_key": "usst-unspecified-electrical-control",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "相关学院 · 电气/控制（未指定学院）",
+      "reason": "确有最后兜底提名，但“相关学院”未给招生院系或独立项目，保留学校方向提名而非评审替其创造学院。“100%选项”的把握已在E02统一处理；未明确路径不等于学校根本没有相关研究。",
+      "school_key": "上海理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 15,
+  "rubric_sha256": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+  "score": 69.77,
+  "score_interval": [
+    69.77,
+    69.77
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N03-03",
+  "task_kind": "recommendation",
+  "task_sha256": "7b3dd0ced91e0d667e8e2779d454ef867e40730ec4b6e8c6be19ceeab00fc6a7",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "candidate_count": 50,
+    "candidate_limit": 15,
+    "cycle_interpretation": "2026年推免申请季（对应2027年入学）；咨询日未给出，不以评审运行日判定窗口",
+    "overflow_count": 35,
+    "quantity_reason": "审阅全部主项、侧向入口、备选池、明确排除和末尾兜底；相同组合使用同一canonical。独立学校分别列全，未明确单一院系的同校斜杠组合保留一条提名，普通学科热度比较/三校区背景不算提名。数量超额只报告警示，不截前15、不加额外负分。",
+    "reason": "已按211本科基准逐所核对直接及条件推荐。仅提名/排除不列降级表（上海理工为不完整入口提名，虽低档仍未计入实际推荐院校）。学位和校区问题与真实项目身份分别说明；不计算总分。",
+    "schools": [
+      {
+        "answer_quote": "| 1 | 冲刺 | 清华大学 | 电机工程与应用电子技术系 | 电气工程（学硕/直博）· 电机与电器、电力电子方向 | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "| 2 | 冲刺 | 上海交通大学 | 电子信息与电气工程学院 电气工程系 | 电气工程（学硕/直博）· 电机与电器、电力电子与电力传动 | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "| 3 | 冲刺 | 浙江大学 | 电气工程学院 | 电气工程（直博为主）· 电机与电力电子、新能源发电 | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "| 4 | 冲刺 | 北京航空航天大学 | 自动化科学与电气工程学院 | 电气工程 / 控制科学与工程 · 电机与驱动、飞行器电推进 | A/B |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "| 5 | 主攻 | 华中科技大学 | 电气与电子工程学院 | 电气工程（直博/学硕）· 电机与电器（强电磁方向） | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "| 6 | 主攻 | 西安交通大学 | 电气工程学院 | 电气工程（学硕/直博）· 电机与电器、电力电子 | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "西安交通大学"
+      },
+      {
+        "answer_quote": "| 7 | 主攻 | 哈尔滨工业大学 | 电气工程及自动化学院 | 电气工程 · 电机与电器（伺服与特种电机） | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "| 8 | 主攻 | 南京航空航天大学 | 自动化学院 | 电气工程 · 电力电子与电力传动（航空电源） | A |",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "南京航空航天大学"
+      },
+      {
+        "answer_quote": "| 9 | 主攻 | 同济大学 | 汽车学院 | 车辆工程 / 能源动力（专硕）· 新能源汽车电驱动与电机控制 | A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "| 10 | 主攻 | 中国科学院电工研究所 | （中国科学院大学 培养体系） | 电气工程 · 电机与电器、电力电子与新能源 | A |",
+        "downgraded": false,
+        "reason": "按电工研究所科研培养与国科大学位体系判断，不因研究所没有985/211标签机械降级；与大学电气课题方向相符。",
+        "school_key": "中国科学院电工研究所"
+      },
+      {
+        "answer_quote": "| 12 | 交叉·高价值 | 中国农业大学 | 信息与电气工程学院 | 农业工程（农业电气化与自动化 082804）/ 电气工程 | C/A |",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "中国农业大学"
+      },
+      {
+        "answer_quote": "| 13 | 交叉·稳 | 南京农业大学 | 工学院 | 农业工程 · 农业信息学、智慧农业与农业机器人 | C |",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "南京农业大学"
+      },
+      {
+        "answer_quote": "| 14 | 稳妥 | 华北电力大学（北京） | 电气与电子工程学院 | 电气工程 · 电力系统及其自动化 / 电机与电器 | A |",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "华北电力大学"
+      },
+      {
+        "answer_quote": "| 15 | 保底 | 上海大学 | 机电工程与自动化学院 | 电气工程 / 控制科学与工程（本校） | A/B |",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "上海大学"
+      },
+      {
+        "answer_quote": "东南大学 · 电气工程学院 · 电气工程（电机与伺服，长三角，主攻档）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "西南交通大学 · 电气工程学院 · 电气工程（**轨道交通牵引传动与电机控制**国内顶尖，与电机控制背景高度对口，稳）",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "西南交通大学"
+      },
+      {
+        "answer_quote": "北京交通大学 · 电气工程学院 · 电气工程（同为牵引传动强校，北京，稳）",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "北京交通大学"
+      },
+      {
+        "answer_quote": "天津大学 · 电气自动化与信息工程学院 · 电气工程（主攻档）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "大连理工大学 · 电气工程学院 · 电气工程（主攻/稳）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "大连理工大学"
+      },
+      {
+        "answer_quote": "重庆大学 · 电气工程学院 · 电气工程（输配电装备及系统安全与新技术国家重点实验室，主攻/稳）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "重庆大学"
+      },
+      {
+        "answer_quote": "湖南大学 · 电气与信息工程学院 · 电气工程（国家电能变换工程技术研究中心，稳）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "湖南大学"
+      },
+      {
+        "answer_quote": "合肥工业大学 · 电气与自动化工程学院 · 电气工程（**特种电机与电机控制**传统强校，稳/保底）",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "合肥工业大学"
+      },
+      {
+        "answer_quote": "山东大学 · 电气工程学院",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "山东大学"
+      },
+      {
+        "answer_quote": "武汉大学 · 电气与自动化学院",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "四川大学 · 电气工程学院",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "四川大学"
+      },
+      {
+        "answer_quote": "华南理工大学 · 电力学院",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "华南理工大学"
+      },
+      {
+        "answer_quote": "中山大学 · 智能工程学院（深圳）· 电气工程",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "中山大学"
+      },
+      {
+        "answer_quote": "沈阳工业大学 · 电气工程学院 · 电机与电器（**永磁电机方向国内顶尖，院士团队**；院校为双非但细分方向极强，适合\"只求方向不求牌子\"的情形）",
+        "downgraded": true,
+        "reason": "非985、非211，低于上海大学211基准；仅报告真实下降，three_level层次项综合判断，不按学校数量另扣分。",
+        "school_key": "沈阳工业大学"
+      },
+      {
+        "answer_quote": "北京理工大学 · 自动化学院 · 控制科学与工程（智能车辆与无人系统电机控制，主攻）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "北京理工大学"
+      },
+      {
+        "answer_quote": "东北大学 · 信息科学与工程学院 · 控制科学与工程（A 级，稳）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "东北大学"
+      },
+      {
+        "answer_quote": "西北工业大学 · 自动化学院 · 控制/电气（无人系统电驱动，主攻）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "西北工业大学"
+      },
+      {
+        "answer_quote": "华东理工大学 · 信息科学与工程学院 · 控制科学与工程（上海 211，稳/保底）",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "华东理工大学"
+      },
+      {
+        "answer_quote": "华中农业大学 · 工学院 · 农业工程（农业机器人与视觉、农业遥感方向强，稳）",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "华中农业大学"
+      },
+      {
+        "answer_quote": "江苏大学 · 农业工程学院 · 农业工程（**农业电气化与农业装备**传统强校，学科评估处于前列，稳/保底）",
+        "downgraded": true,
+        "reason": "非985、非211，低于上海大学211基准；仅报告真实下降，three_level层次项综合判断，不按学校数量另扣分。",
+        "school_key": "江苏大学"
+      },
+      {
+        "answer_quote": "西北农林科技大学 · 机械与电子工程学院 · 农业工程（985，录取友好，保底）",
+        "downgraded": false,
+        "reason": "985高于本科上海大学211（非985）；同校不同学院/校区不再重复报告。学校层次成立不证明每个招生组合都有效。",
+        "school_key": "西北农林科技大学"
+      },
+      {
+        "answer_quote": "东华大学信息科学技术学院",
+        "downgraded": false,
+        "reason": "211（非985），与本科上海大学同档；特色学科强弱不改变学校操作层次。",
+        "school_key": "东华大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

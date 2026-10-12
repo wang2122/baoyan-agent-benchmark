@@ -1,0 +1,634 @@
+{
+  "actual_candidate_count": 22,
+  "answer_sha256": "9acd789a7111700a22e81f19d2d14000e44a76d36928fd250889275bdfb48dae",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 45.0
+  },
+  "confirmed_points": 45.0,
+  "diagnostic_score": 45.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR01": [
+      "N06-01-I6"
+    ],
+    "ERR02": [
+      "N06-01-I7"
+    ],
+    "ERR03": [
+      "N06-01-I7"
+    ],
+    "ERR04": [
+      "N06-01-I7"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "现阶段（大三下）的复习",
+      "id": "ERR01",
+      "reason": "题面未给年级或月份，答卷直接设为大三下并据此安排春季至秋季操作；这是学生时点假定，最直接关联I6，不在其他节点重复处罚。"
+    },
+    {
+      "answer_quote": "推荐申报院校梯队矩阵",
+      "id": "ERR02",
+      "reason": "缺少实际排名、英语和资格验证时直接给多校申报矩阵及冲刺、核心、托底投递策略，超出有限条件性建议；关联I7。"
+    },
+    {
+      "answer_quote": "对外汉语教育学院（语应学硕/国中专硕）",
+      "id": "ERR03",
+      "reason": "该院2027入学推免方案仅列国际中文教育专业硕士，答卷把语应学硕列为可申请路径。官方依据见evidence.json EV01；仅语应学硕无效，国中专硕不受影响，错误只关联I7。"
+    },
+    {
+      "answer_quote": "国际文化交流学院（国中专硕/学硕）",
+      "id": "ERR04",
+      "reason": "复旦2027硕士官方目录080国际文化交流学院只列045300专业学位，学硕路径不成立。依据见evidence.json EV03；保留真实国中专硕，只将学硕推荐标无效并关联I7。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N06-01",
+  "input_sha256": "5cad7720af6aeeb9374a8ff408b3efaa50bfc76ac8b290f83223adc4d10e7dc5",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "4fba72c5f75696a3d163a0c9987c10cee49f439928a9e4e5dbf1759ee4ed9742",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N06-01-I1",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N06-01-I2",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N06-01-I3",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "N06-01-I4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N06-01-I5",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0,
+      "id": "N06-01-I6",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0,
+      "id": "N06-01-I7",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 22,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "如北大对外汉语教育学院、北师大汉语文化学院、北语均有该类学硕",
+      "canonical_candidate_key": "pku:duiwaihanyu:050102",
+      "error_ids": [
+        "ERR03"
+      ],
+      "feasibility": "本轮无法按该院语应学硕路径实施；真正存在的国际中文教育专硕不能替换成学硕。",
+      "key_condition": "既偏爱二语习得、对外汉语研究课题，又希望保留学硕身份和读博路径。",
+      "label": "北京大学对外汉语教育学院语应学硕（条件推荐首次）",
+      "reason": "第三条道路明确条件推荐该院学硕；与矩阵重复项同一key。官方确认本轮该院没有该学硕推免路径。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "pku",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "如北大对外汉语教育学院、北师大汉语文化学院、北语均有该类学硕",
+      "canonical_candidate_key": "bnu:internationalchinese:050102",
+      "error_ids": [],
+      "feasibility": "学硕培养路径存在；补充推免排序、英语及预计资格后按当轮招生目录与导师方向筛选，答卷未完成这些核验，不能视为已获录取保障。",
+      "key_condition": "既偏爱二语习得、对外汉语研究课题，又希望保留学硕身份和读博路径。",
+      "label": "北京师范大学汉语文化学院／现国际中文教育学院语应学硕（首次）",
+      "reason": "第三条道路的条件建议；旧名对应现国际中文教育学院，不因名称沿革判错。只确认身份与培养方向，资格和当轮名额仍需补充。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV09"
+      ],
+      "school_key": "bnu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "如北大对外汉语教育学院、北师大汉语文化学院、北语均有该类学硕",
+      "canonical_candidate_key": "blcu:linguistics:academic",
+      "error_ids": [],
+      "feasibility": "北语相关学硕路径确实存在；须补充资格、排名、英语并选择实际招生单位。本记录不把学院各专业扩展为答卷未推荐的新项目。",
+      "key_condition": "既偏爱二语习得、对外汉语研究课题，又希望保留学硕身份和读博路径。",
+      "label": "北京语言大学语应相关学硕（首次学校级条件建议）",
+      "reason": "第三条道路以北语提名语应学硕，未给学院；后文语言学系是进一步具体化的相关学术路径，按同一候选归并，不为宽泛校名另造独立项目。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV04",
+        "EV05"
+      ],
+      "school_key": "blcu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "北京大学：中文系（汉语言文字学/语应学硕）",
+      "canonical_candidate_key": "pku:chinese:050103",
+      "error_ids": [],
+      "label": "北京大学中文系汉语言文字学",
+      "reason": "明确列出不同学科路径，汉语言文字学为可识别相关学硕；未证明学生达到门槛，身份有效不表示本届可录取。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "北京大学：中文系（汉语言文字学/语应学硕）",
+      "canonical_candidate_key": "pku:chinese:050102",
+      "error_ids": [],
+      "label": "北京大学中文系语应学硕",
+      "reason": "语应与该系汉语言文字学为不同学科路径，单独提取；不把对外汉语教育学院的错误迁移到中文系。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "对外汉语教育学院（语应学硕/国中专硕）",
+      "canonical_candidate_key": "pku:duiwaihanyu:050102",
+      "error_ids": [
+        "ERR03"
+      ],
+      "label": "北京大学对外汉语教育学院语应学硕（矩阵重复）",
+      "reason": "重复了前文条件建议，矩阵中直接推荐；该学硕推免路径不成立，与首次记录同key去重。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "对外汉语教育学院（语应学硕/国中专硕）",
+      "canonical_candidate_key": "pku:duiwaihanyu:045300",
+      "error_ids": [],
+      "label": "北京大学对外汉语教育学院国际中文教育专硕",
+      "reason": "官方本轮列国际中文教育专业硕士，身份有效；学生资格和竞争力未知，不能判定冲刺是否适配。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV01"
+      ],
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "复旦大学：中文系（汉语言文字学/语应学硕）",
+      "canonical_candidate_key": "fudan:chinese:050100-linguistics",
+      "error_ids": [],
+      "label": "复旦大学中文系语言学相关学硕（汉语言文字学／语应方向）",
+      "reason": "官方2027目录为同一050100中国语言文学学硕下不同内部方向，归并一条相关学术路径；不机械按内部方向拆为两个独立项目。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV03"
+      ],
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "国际文化交流学院（国中专硕/学硕）",
+      "canonical_candidate_key": "fudan:internationalexchange:045300",
+      "error_ids": [],
+      "label": "复旦大学国际文化交流学院国际中文教育专硕",
+      "reason": "该院实际045300专业学位成立；与其被误报的学硕区分，保留有效专硕建议。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV03"
+      ],
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "国际文化交流学院（国中专硕/学硕）",
+      "canonical_candidate_key": "fudan:internationalexchange:academic-claimed",
+      "error_ids": [
+        "ERR04"
+      ],
+      "label": "复旦大学国际文化交流学院学硕（专业未明确）",
+      "reason": "学位路径已明确声称为学硕，虽没给专业也须提取；官方完整2027硕士目录该院只列专业学位，故这条学硕路径无效。",
+      "repeated_school_level_quotes": [
+        "冲刺档（北大、复旦等）投递 1~2 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV03"
+      ],
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "南京大学 / 浙江大学：文学院语言学学硕",
+      "canonical_candidate_key": "nju:literature:linguistics-academic",
+      "error_ids": [],
+      "label": "南京大学文学院语言学学硕",
+      "reason": "此处明确并列两所学校，共同指向各校文学院相关学术方向，分别提取学校；不擅自添加更细专业或导师。有效指方向与主体身份，未逐项证明本轮窗口及学生竞争力。",
+      "reviewer_evidence_ids": [
+        "EV06"
+      ],
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "南京大学 / 浙江大学：文学院语言学学硕",
+      "canonical_candidate_key": "zju:literature:linguistics-academic",
+      "error_ids": [],
+      "label": "浙江大学文学院语言学学硕",
+      "reason": "此处明确并列两所学校，共同指向各校文学院相关学术方向，分别提取学校；不擅自添加更细专业或导师。有效指方向与主体身份，未逐项证明本轮窗口及学生竞争力。",
+      "reviewer_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "文学院（北京校区）：汉语言文字学",
+      "canonical_candidate_key": "bnu:literature:linguistics-academic",
+      "error_ids": [],
+      "label": "北京师范大学文学院汉语言文字学／语言学学硕",
+      "reason": "明确推荐汉语言文字学；末尾泛称文学院语言学学硕没有新增独立专业，不由评审额外创造语应项目。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV08"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "汉语文化学院（北京校区）：语言学及应用语言学学硕、国际中文教育专硕",
+      "canonical_candidate_key": "bnu:internationalchinese:050102",
+      "error_ids": [],
+      "label": "北京师范大学汉语文化学院语应学硕（矩阵重复）",
+      "reason": "现国际中文教育学院的前身名称，语应学硕身份成立；与第三条道路同一key。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV09"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "汉语文化学院（北京校区）：语言学及应用语言学学硕、国际中文教育专硕",
+      "canonical_candidate_key": "bnu:internationalchinese:045300",
+      "error_ids": [],
+      "label": "北京师范大学汉语文化学院国际中文教育专硕",
+      "reason": "与同院学硕为不同学位路径，分别提取；旧名沿革不构成无效项目。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV09"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "国际中文教育学院 / 文理学院（候选项目；本科校区关联已概括）：[就读关联已概括]，名额政策利好，地缘极佳",
+      "canonical_candidate_key": "bnu:zhuhai:internationalchinese-or-fas-unspecified",
+      "error_ids": [],
+      "label": "北京师范大学珠海校区国际中文教育学院／文理学院合并建议",
+      "reason": "两个单位含糊合并，未明确独立专业或学位，全文没有将此珠海行分别具体化；保留一条合并候选，不拆任一院系计命中。培养主体和相关方向有身份基础，不因缺细粒度就称虚构；政策利好和学生适配未获证实。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV10"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "北京语言大学：语言学系、国际中文教育研究院",
+      "canonical_candidate_key": "blcu:linguistics:academic",
+      "error_ids": [],
+      "label": "北京语言大学语言学系（矩阵重复）",
+      "reason": "语言学系隶属语言科学与资源学院，有语应等相关学硕路径；与前文宽泛学硕提名归并，未额外创造多专业。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV05"
+      ],
+      "school_key": "blcu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "北京语言大学：语言学系、国际中文教育研究院",
+      "canonical_candidate_key": "blcu:internationalchinese-research:unspecified",
+      "error_ids": [],
+      "label": "北京语言大学国际中文教育研究院相关方向",
+      "reason": "与语言学系用顿号分别提名，可识别另一培养领域；官方显示研究院为国际中文学院基地，不能另加一个学院项目或把研究院等同独立招生通道。答卷未指定学位，按研究领域候选身份判断有效，不宣称已核本轮全部专业。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV04"
+      ],
+      "school_key": "blcu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "中国人民大学：文学院（汉语言文字学）",
+      "canonical_candidate_key": "ruc:literature:050103",
+      "error_ids": [],
+      "label": "中国人民大学文学院汉语言文字学",
+      "reason": "可识别相关文学院学术方向；没有已知学生硬条件冲突，也不因缺个人信息直接判虚构。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "国际文化交流学院（国中专硕）",
+      "canonical_candidate_key": "ruc:internationalexchange:045300",
+      "error_ids": [],
+      "label": "中国人民大学国际文化交流学院国际中文教育专硕",
+      "reason": "此行人民大学上下文明确，国际中文教育专硕为相关培养路径；不与复旦同名院系混淆。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV11"
+      ],
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "华东师范大学：国际汉语文化学院",
+      "canonical_candidate_key": "ecnu:internationalchineseculture:unspecified",
+      "error_ids": [],
+      "label": "华东师范大学国际汉语文化学院",
+      "reason": "院系级候选，相关学硕/专硕培养身份成立；答卷未单列学位，不替其拆成两条推荐。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV12"
+      ],
+      "school_key": "ecnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "中山大学：中国语言文学系",
+      "canonical_candidate_key": "sysu:chinese:unspecified",
+      "error_ids": [],
+      "label": "中山大学中国语言文学系",
+      "reason": "院系级相关方向建议，官方有对应学位基础；未具体培养路径和个人适配，不因宽泛或未逐年审计就标无效。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV13"
+      ],
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "暨南大学：华文学院",
+      "canonical_candidate_key": "jnu:huawen:unspecified",
+      "error_ids": [],
+      "label": "暨南大学华文学院",
+      "reason": "可识别华文教育与语言学相关培养主体，未指定学位不增拆多个专业；身份有效不代表稳妥托底已证实。",
+      "repeated_school_level_quotes": [
+        "托底档（暨大、厦大、华师）投递 2 所。"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV14"
+      ],
+      "school_key": "jnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "厦门大学：中文系 / 海外教育学院",
+      "canonical_candidate_key": "xmu:chinese-or-overseaseducation:unspecified",
+      "error_ids": [],
+      "label": "厦门大学中文系／海外教育学院合并建议",
+      "reason": "不同单位合并且未分别明确实际申请路径，全文未拆解，按一条含糊建议保存；海外教育学院有现名称关系，名称本身不是虚构。没有覆盖参考项，不为其创造两条项目。",
+      "repeated_school_level_quotes": [
+        "托底档（暨大、厦大、华师）投递 2 所。"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV15"
+      ],
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "华南师范大学：文学院 / 国际文化学院",
+      "canonical_candidate_key": "scnu:literature-or-internationalculture:unspecified",
+      "error_ids": [],
+      "label": "华南师范大学文学院／国际文化学院合并建议",
+      "reason": "不同单位合并，全文没有分别给具体项目，保留一条建议；招生主体身份真实，不替答卷选院系、专业、学位以获取覆盖。",
+      "repeated_school_level_quotes": [
+        "托底档（暨大、厦大、华师）投递 2 所。"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV16"
+      ],
+      "school_key": "scnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "本校（北师大）既关注文学院的语言学学硕，也关注汉语文化学院的语应学硕或国际中文教育专硕",
+      "canonical_candidate_key": "bnu:literature:linguistics-academic",
+      "error_ids": [],
+      "label": "北京师范大学文学院语言学学硕（末尾组合申报重复）",
+      "reason": "末尾直接申报建议再次出现，沿用对应前文key去重；泛称语言学不额外创造新专业，旧名按已核名称沿革处理。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV08",
+        "EV09"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "本校（北师大）既关注文学院的语言学学硕，也关注汉语文化学院的语应学硕或国际中文教育专硕",
+      "canonical_candidate_key": "bnu:internationalchinese:050102",
+      "error_ids": [],
+      "label": "北京师范大学汉语文化学院语应学硕（末尾组合申报重复）",
+      "reason": "末尾直接申报建议再次出现，沿用对应前文key去重；泛称语言学不额外创造新专业，旧名按已核名称沿革处理。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV08",
+        "EV09"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "本校（北师大）既关注文学院的语言学学硕，也关注汉语文化学院的语应学硕或国际中文教育专硕",
+      "canonical_candidate_key": "bnu:internationalchinese:045300",
+      "error_ids": [],
+      "label": "北京师范大学汉语文化学院国际中文教育专硕（末尾组合申报重复）",
+      "reason": "末尾直接申报建议再次出现，沿用对应前文key去重；泛称语言学不额外创造新专业，旧名按已核名称沿革处理。",
+      "repeated_school_level_quotes": [
+        "核心档（北师大文院/汉院、人大、北语、华东师大、中大）投递 3~4 所；"
+      ],
+      "repetition_note": "海投段仅重复该校既有建议集合，未明确新增独立路径；不把泛称学校强行绑定一个具体项目，也不重复增加候选数量。",
+      "reviewer_evidence_ids": [
+        "EV02",
+        "EV08",
+        "EV09"
+      ],
+      "school_key": "bnu",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "cb6a63d9bdd2f5e782a459f1c36c383bb40662fb19b4f720785a7e0e6839e1e0",
+  "score": 45.0,
+  "score_interval": [
+    45.0,
+    45.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N06-01",
+  "task_kind": "planning",
+  "task_sha256": "03214b1a472d16416a63e9a8b78933c4c1c16bf77b917ecdc6d0f7fbfb25d20f",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题为补全咨询条件的规划题，没有层次评分节点，不另做院校降级扣分。矩阵各校已在候选审阅中全量提取。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

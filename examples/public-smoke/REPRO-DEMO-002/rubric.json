@@ -1,0 +1,58 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "REPRO-DEMO-002",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "具体比较A的文献与问题讨论、B的脚本数据字典和反馈，结合缺少可复现过程的经历判断适配，不把活动当成接收。",
+      "grading": "three_level",
+      "half_credit": "比较有具体内容，但与个人缺口或接收边界关联不完整。",
+      "id": "REPRO-DEMO-002-N01",
+      "label": "活动比较",
+      "points": 25
+    },
+    {
+      "full_credit": "识别A需12小时、B需12小时，两者完整参加共24小时超过16小时；给出可行主次选择，不默认可以减免或挤占课程。",
+      "grading": "three_level",
+      "half_credit": "识别不能全做并给出主次，但完整成本计算或课程约束不明确。",
+      "id": "REPRO-DEMO-002-N02",
+      "label": "预算与选择",
+      "points": 30
+    },
+    {
+      "full_credit": "4周累计不超过16小时，分配选定活动、产物与复盘；可用余下时间作补充准备但不宣称完成另一活动全部要求。",
+      "grading": "three_level",
+      "half_credit": "有阶段安排但产物或总预算不完整。",
+      "id": "REPRO-DEMO-002-N03",
+      "label": "四周产物",
+      "points": 25
+    },
+    {
+      "full_credit": "核实实际时间、反馈和任务要求；调整取决于可用预算及体验结果，不预设接收或已获任务减免。",
+      "grading": "three_level",
+      "half_credit": "核实部分事项，但调整条件笼统。",
+      "id": "REPRO-DEMO-002-N04",
+      "label": "核实与调整",
+      "points": 20
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "not_calibrated_demo",
+  "tier_exception": false,
+  "tier_report_only": true
+}

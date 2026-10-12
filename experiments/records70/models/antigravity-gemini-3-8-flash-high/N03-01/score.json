@@ -1,0 +1,895 @@
+{
+  "actual_candidate_count": 19,
+  "answer_sha256": "4b14a574fb48319743b9c693698494efc843afa4a92548d315814260e201e485",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 65.0
+  },
+  "confirmed_points": 65.0,
+  "diagnostic_score": 65.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N03-01-T1"
+    ],
+    "E02": [
+      "accuracy"
+    ],
+    "E03": [
+      "accuracy"
+    ],
+    "E04": [
+      "N03-01-T5"
+    ],
+    "E05": [
+      "N03-01-T5"
+    ],
+    "E06": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "前约2% 意味着无论本校保研资格还是外校初审材料关，你都握有最高优先级的通行证。",
+      "id": "E01",
+      "reason": "把学业排名直接推成校内资格和初审最高优先权，未核对排名口径、综合排序、届别或名额。题面未给已获资格；EV01说明当届规则还包括全面发展评价及其他条件。最直接影响T1，不再在accuracy重复扣分。"
+    },
+    {
+      "answer_quote": "以第一作者发表 EI 会议论文 1 篇，算法 mAP 相比基线模型提升 X%，推理延迟降低 Y%。",
+      "id": "E02",
+      "reason": "题面仅给机器视觉相关EI会议研究，未披露作者位次、发表/接收/检索状态及具体创新工作。简历段无条件写成第一作者已发表，虽指标用X/Y占位，作者和发表状态并未标为待核或条件，不能当已披露事实。最直接影响accuracy。"
+    },
+    {
+      "answer_quote": "完成系统样机调试，转速超调量控制在 X% 以内，获优秀项目立项/结题。",
+      "id": "E03",
+      "reason": "题面仅给做过控制方向大创，未给样机调试完成或优秀立项/结题；简历成稿口吻补写这些阶段成果，且前文尚允许项目未结题，未统一状态。指标占位不等于已完成状态有依据。仅影响accuracy，不重复处罚电机复盘与专业课建议。"
+    },
+    {
+      "answer_quote": "浙大夏令营对排名卡得很死，前约2% 必定能通过初审，入营后重点攻坚专业机试/面试。",
+      "id": "E04",
+      "reason": "成绩第一是优势，无法仅凭题面保证通过初审；答卷自己此前也承认第一名仍可能面对初审竞争。此处把目标选拔结果当确定，未核对具体项目及完整条件。该保证是T5的独立择校限制错误，不据此认定浙江大学电气、控制项目不存在。"
+    },
+    {
+      "answer_quote": "本校电气工程学院必定能够为你提供稳妥保障。",
+      "id": "E05",
+      "reason": "EV02明确真实招生主体是机电工程与自动化学院，其电气路径需资格与选拔。可识别的本校电气推荐保留，院系措辞不精准及必定兜底断言记录为T5质量问题，不将真实相关路径判为无效。"
+    },
+    {
+      "answer_quote": "9月28日国家推免系统开放，第一时间完成志愿填报与确认",
+      "id": "E06",
+      "reason": "本题是2026申请季且答卷明确2027级；EV03给出的志愿起始是2026年9月21日，确认环节也分别开放。固定9月28日再第一时间操作与当届规则不符，可能错后首批确认。仅归执行安排，不据此假定题目咨询日已截止。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N03-01",
+  "input_sha256": "15714eb494c97b98cd411095b6a28148dc1933fe4489709f77661e1c87bc8cf6",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "02229b6670bf7b4f842e78a0330a661f5066ce3482ac605acb667c4a6b2b8901",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N03-01-T1",
+      "kind": "quality",
+      "points": 11.0
+    },
+    {
+      "grade": 1,
+      "id": "N03-01-T2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N03-01-T3",
+      "kind": "quality",
+      "points": 6.5
+    },
+    {
+      "grade": 1,
+      "id": "N03-01-T4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N03-01-T5",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 19,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "电机工程与应用电子技术系（校本部直博竞争极度白热化，建议主冲其交叉方向如电机驱动、新型能源储能等）",
+      "canonical_candidate_key": "thu_electrical",
+      "error_ids": [],
+      "label": "清华大学电机系，电机驱动/储能交叉方向",
+      "reason": "明确校本部电机系和相关方向，控制方向背景适配；建议联系直博导师是推荐策略，不能等同容易录取。",
+      "review_evidence_ids": [
+        "EV11"
+      ],
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "清华深圳国际研究生院（SIGS）、清华-伯克利深圳研究院（TBSI）",
+      "canonical_candidate_key": "thu_sigs_tbsi_unspecified",
+      "error_ids": [],
+      "label": "清华SIGS/TBSI深圳体系，具体项目未细化",
+      "reason": "实际深圳方向推荐；EV09支持机构沿革关系，EV10支持相关推免项目。TBSI规范称学院，答卷未明确两条独立专业/学位申请路径，合并保留，不机械因名称/层级判不存在。",
+      "review_evidence_ids": [
+        "EV09",
+        "EV10"
+      ],
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "电子信息与电气工程学院（电气工程系、自动化系、智能感知与仪器系）",
+      "canonical_candidate_key": "sjtu_electrical",
+      "error_ids": [],
+      "label": "上海交大电气工程路径（原电院电气系）",
+      "reason": "并列明确给出电气方向，后文又单独提到电气系，可识别为独立电气申请路径。2027目录对应电气工程学院；旧隶属需更新，但真实路径成立。",
+      "review_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "电子信息与电气工程学院（电气工程系、自动化系、智能感知与仪器系）",
+      "canonical_candidate_key": "sjtu_control",
+      "error_ids": [],
+      "label": "上海交大自动化/控制路径",
+      "reason": "方向清单及后文多赛道分别明确自动化系，控制与电机项目相关；EV06/07确认院系重组后控制路径延续，不把旧电院隶属误认成路径无效。",
+      "review_evidence_ids": [
+        "EV06",
+        "EV07"
+      ],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "电子信息与电气工程学院（电气工程系、自动化系、智能感知与仪器系）",
+      "canonical_candidate_key": "sjtu_sensing",
+      "error_ids": [],
+      "label": "上海交大智能感知/仪器路径",
+      "reason": "该列表明确提名智能感知与仪器方向，与视觉和电子实践相关，和控制属于不同学科路径。EV06/07确认现招生主体及仪器路径；答卷旧系称不是现行独立学院，不另造感知学院第四条。",
+      "review_evidence_ids": [
+        "EV06",
+        "EV07"
+      ],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "可多赛道并进（如同时关注电气系、自动化系及密西根联合学院）",
+      "canonical_candidate_key": "sjtu_global_college",
+      "error_ids": [],
+      "label": "上海交大密西根联合学院（现浦江国际学院）",
+      "reason": "明确建议另关注该院申请赛道。EV04直接确认旧称同一实体，EV05列控制等研究生路径，可作为相关方向备选；不补定答卷未选的专业。",
+      "review_evidence_ids": [
+        "EV04",
+        "EV05"
+      ],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "电气工程学院（电力电子全国顶尖）、控制科学与工程学院（机器视觉与控制的完美结合点）",
+      "canonical_candidate_key": "zju_electrical",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "浙江大学电气工程学院",
+      "reason": "分别明确电气学院；学生电机项目与电力电子方向相关。合法方向保留；初审必过断言另记E04，不将缺当届完整初审材料等同无效。",
+      "review_evidence_ids": [],
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "电气工程学院（电力电子全国顶尖）、控制科学与工程学院（机器视觉与控制的完美结合点）",
+      "canonical_candidate_key": "zju_control",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "浙江大学控制科学与工程学院",
+      "reason": "控制学院独立明确，视觉与控制交叉属于合理可探索方向；完美匹配和必过的措辞不能替代核验。未证实硬条件冲突，保留方向，跨申核心不足归T3。",
+      "review_evidence_ids": [],
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "**华中科技大学**（电气与电子工程学院）：电机与电力电子领域殿堂级存在，极其看重工程实践和硬件能力，你的电赛和大创非常对口；",
+      "canonical_candidate_key": "hust_electrical",
+      "error_ids": [],
+      "label": "华中科技大学电气与电子工程学院",
+      "reason": "明确主攻电机/电力电子方向，与大创和电赛相符；判断院系及方向合法，不审计录取概率或全部当届条件。",
+      "review_evidence_ids": [],
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "**西安交通大学**（电气工程学院）：电气学科体量庞大，科研实力深厚，对学业第一名非常友好；",
+      "canonical_candidate_key": "xjtu_electrical",
+      "error_ids": [],
+      "label": "西安交通大学电气工程学院",
+      "reason": "学校院系明确，电气本科可合理探索本行方向；EV12支持院系身份，不把友好宣传当录取保证。",
+      "review_evidence_ids": [
+        "EV12"
+      ],
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "**东南大学**（电气工程学院 / 自动化学院）：长三角工科霸主，控制与电气实力顶尖。",
+      "canonical_candidate_key": "seu_electrical_automation_combined",
+      "error_ids": [],
+      "label": "东南大学电气工程学院/自动化学院合并方向",
+      "reason": "实际推荐的电气/自动化合并组合；全文未分别落实两院具体申请项目，不替答卷拆两条。电气与控制均与背景相关，EV14支持其中明确的电气路径。",
+      "review_evidence_ids": [
+        "EV14"
+      ],
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "哈尔滨工业大学 (电气学院)",
+      "canonical_candidate_key": "hit_electrical",
+      "error_ids": [],
+      "label": "哈尔滨工业大学电气工程及自动化学院",
+      "reason": "图示给出电气学院，后文再次推荐学校。官方身份为电气工程及自动化学院，简称可识别；不虚构具体校区或方向。",
+      "review_evidence_ids": [
+        "EV13"
+      ],
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "**同济大学**（电子与信息工程学院）：上海本地 985，在智能网联汽车、铁道电气化、自主智能无人系统等方向与你的背景高度契合，拿优营概率极大；",
+      "canonical_candidate_key": "tongji_see",
+      "error_ids": [],
+      "label": "同济大学电子与信息工程学院，铁道电气化等方向",
+      "reason": "后文明确电信学院及铁道电气化等内部方向，故图示电信学院/铁道不拆出第二条不明确招生路径。EV15支持院系及电气工程系；优营概率没有证据，作为T5整体限制处理，不证明项目无效。",
+      "review_evidence_ids": [
+        "EV15"
+      ],
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "天津大学 (自动化学院电气)",
+      "canonical_candidate_key": "tju_electrical",
+      "error_ids": [],
+      "label": "天津大学自动化学院电气工程",
+      "reason": "方向可以识别，EV08当届官方文件同样用自动化学院称谓并列电气工程学位路径，是合理简称；不按院名表面差异判无效。",
+      "review_evidence_ids": [
+        "EV08"
+      ],
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "**华北电力大学（北京）**：电气工程王牌 211，电力系统与电网行业认可度极高；",
+      "canonical_candidate_key": "ncepu_beijing_electrical",
+      "error_ids": [],
+      "label": "华北电力大学北京电气方向",
+      "reason": "图示电气学院、后文北京及电力系统方向共同形成可识别推荐，与电气本科相关；保底定位不意味着保证接收。有效指方向建议成立，不表示完成逐年门槛审计。",
+      "review_evidence_ids": [],
+      "school_key": "ncepu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "**上海大学（本校兜底）**：本校电气工程学院必定能够为你提供稳妥保障。",
+      "canonical_candidate_key": "shu_electrical",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "上海大学本校电气方向（机自学院电气工程系）",
+      "reason": "EV02确认机自学院电气工程路径，本校本行备选可识别。电气工程学院措辞不准确及必定保障是E05，不将真实相关路径整体判invalid。",
+      "review_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "shu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "可作为顶级名校（如上交电院、浙大工程师学院）的稳健备选，在预推免阶段作为核心抓手。",
+      "canonical_candidate_key": "zju_engineer_professional",
+      "error_ids": [],
+      "label": "浙江大学工程师学院专硕备选",
+      "reason": "专硕行明确提出工程师学院，属于院系/学位备选，与前文电气控制申请不同；没有给具体专业或项目，不能由评审代填。真实培养单位和备选方向不因未精细化就视为错误，也不据此声称每个专业均适配。",
+      "review_evidence_ids": [],
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "可作为顶级名校（如上交电院、浙大工程师学院）的稳健备选，在预推免阶段作为核心抓手。",
+      "canonical_candidate_key": "sjtu_former_seiee_professional_unspecified",
+      "error_ids": [],
+      "label": "上海交大原电院范围专硕备选，专业未指定",
+      "reason": "该处仅限定原电院范围和专硕类型，未选定电气/控制/仪器具体专业，作为一个未细化学位备选记录，不拆成三条。EV07显示相应真实专硕路径；有效不等于已完成个人项目匹配。",
+      "review_evidence_ids": [
+        "EV07"
+      ],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "对清北交浙等顶级目标导师展开首轮学术邮件套磁。",
+      "canonical_candidate_key": "pku_unspecified",
+      "error_ids": [],
+      "label": "北京大学，直博/导师方向未细化",
+      "reason": "这里的北是明确目标套磁建议，不再是前文背景高校比较，故纳入全文候选。只有学校和直博战略，未指院系/导师/方向，是纯粹缺项而非已证实项目错误，不设pending，也不代造北京大学电气项目。",
+      "review_evidence_ids": [],
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "清华大学 (电机系/TBSI/SIGS)",
+      "canonical_candidate_key": "thu_electrical",
+      "error_ids": [],
+      "label": "清华电机系重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "清华大学 (电机系/TBSI/SIGS)",
+      "canonical_candidate_key": "thu_sigs_tbsi_unspecified",
+      "error_ids": [],
+      "label": "清华深圳体系重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "上海交通大学 (电院电气系/自动化/感知学院)",
+      "canonical_candidate_key": "sjtu_electrical",
+      "error_ids": [],
+      "label": "上交电气重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "上海交通大学 (电院电气系/自动化/感知学院)",
+      "canonical_candidate_key": "sjtu_control",
+      "error_ids": [],
+      "label": "上交自动化重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "上海交通大学 (电院电气系/自动化/感知学院)",
+      "canonical_candidate_key": "sjtu_sensing",
+      "error_ids": [],
+      "label": "上交感知重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "可多赛道并进（如同时关注电气系、自动化系及密西根联合学院）",
+      "canonical_candidate_key": "sjtu_electrical",
+      "error_ids": [],
+      "label": "上交电气重复多赛道",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "可多赛道并进（如同时关注电气系、自动化系及密西根联合学院）",
+      "canonical_candidate_key": "sjtu_control",
+      "error_ids": [],
+      "label": "上交自动化重复多赛道",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "浙江大学 (电气工程学院)",
+      "canonical_candidate_key": "zju_electrical",
+      "error_ids": [],
+      "label": "浙大电气重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "华中科技大学 (电气学院)",
+      "canonical_candidate_key": "hust_electrical",
+      "error_ids": [],
+      "label": "华科电气重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "西安交通大学 (电气学院)",
+      "canonical_candidate_key": "xjtu_electrical",
+      "error_ids": [],
+      "label": "西交电气重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "东南大学 (电气/自动化)",
+      "canonical_candidate_key": "seu_electrical_automation_combined",
+      "error_ids": [],
+      "label": "东南合并方向重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "同济大学 (电信学院/铁道)",
+      "canonical_candidate_key": "tongji_see",
+      "error_ids": [],
+      "label": "同济电信/铁道重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "华北电力大学 (电气学院)",
+      "canonical_candidate_key": "ncepu_beijing_electrical",
+      "error_ids": [],
+      "label": "华电电气重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "ncepu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "上海大学 (本校兜底)",
+      "canonical_candidate_key": "shu_electrical",
+      "error_ids": [],
+      "label": "上大本校重复图示",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "shu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "**哈尔滨工业大学**、**天津大学**：工科底蕴极深，面试规范，优营含金量高。",
+      "canonical_candidate_key": "hit_electrical",
+      "error_ids": [],
+      "label": "哈工大重复主攻",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "**哈尔滨工业大学**、**天津大学**：工科底蕴极深，面试规范，优营含金量高。",
+      "canonical_candidate_key": "tju_electrical",
+      "error_ids": [],
+      "label": "天大重复主攻",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "适合作为华科、西交、东南、同济等主力 985 的主攻目标。",
+      "canonical_candidate_key": "hust_electrical",
+      "error_ids": [],
+      "label": "华科重复学硕主攻",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "适合作为华科、西交、东南、同济等主力 985 的主攻目标。",
+      "canonical_candidate_key": "xjtu_electrical",
+      "error_ids": [],
+      "label": "西交重复学硕主攻",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "适合作为华科、西交、东南、同济等主力 985 的主攻目标。",
+      "canonical_candidate_key": "seu_electrical_automation_combined",
+      "error_ids": [],
+      "label": "东南重复学硕主攻",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "适合作为华科、西交、东南、同济等主力 985 的主攻目标。",
+      "canonical_candidate_key": "tongji_see",
+      "error_ids": [],
+      "label": "同济重复学硕主攻",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "如清华/上交报直博，华科/西交报学硕，同济/东南保底学硕/专硕",
+      "canonical_candidate_key": "thu_electrical",
+      "error_ids": [],
+      "label": "清华重复直博策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "如清华/上交报直博，华科/西交报学硕，同济/东南保底学硕/专硕",
+      "canonical_candidate_key": "sjtu_electrical",
+      "error_ids": [],
+      "label": "上交重复直博策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "如清华/上交报直博，华科/西交报学硕，同济/东南保底学硕/专硕",
+      "canonical_candidate_key": "hust_electrical",
+      "error_ids": [],
+      "label": "华科重复组合策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "如清华/上交报直博，华科/西交报学硕，同济/东南保底学硕/专硕",
+      "canonical_candidate_key": "xjtu_electrical",
+      "error_ids": [],
+      "label": "西交重复组合策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "如清华/上交报直博，华科/西交报学硕，同济/东南保底学硕/专硕",
+      "canonical_candidate_key": "tongji_see",
+      "error_ids": [],
+      "label": "同济重复组合策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "如清华/上交报直博，华科/西交报学硕，同济/东南保底学硕/专硕",
+      "canonical_candidate_key": "seu_electrical_automation_combined",
+      "error_ids": [],
+      "label": "东南重复组合策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "以清华、上交、浙大为冲刺标杆，以华科、西交、东南为稳固主力；",
+      "canonical_candidate_key": "thu_electrical",
+      "error_ids": [],
+      "label": "清华重复结语策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "以清华、上交、浙大为冲刺标杆，以华科、西交、东南为稳固主力；",
+      "canonical_candidate_key": "sjtu_electrical",
+      "error_ids": [],
+      "label": "上交重复结语策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "以清华、上交、浙大为冲刺标杆，以华科、西交、东南为稳固主力；",
+      "canonical_candidate_key": "zju_electrical",
+      "error_ids": [],
+      "label": "浙大重复结语策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A049",
+      "answer_quote": "以清华、上交、浙大为冲刺标杆，以华科、西交、东南为稳固主力；",
+      "canonical_candidate_key": "hust_electrical",
+      "error_ids": [],
+      "label": "华科重复结语策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A050",
+      "answer_quote": "以清华、上交、浙大为冲刺标杆，以华科、西交、东南为稳固主力；",
+      "canonical_candidate_key": "xjtu_electrical",
+      "error_ids": [],
+      "label": "西交重复结语策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A051",
+      "answer_quote": "以清华、上交、浙大为冲刺标杆，以华科、西交、东南为稳固主力；",
+      "canonical_candidate_key": "seu_electrical_automation_combined",
+      "error_ids": [],
+      "label": "东南重复结语策略",
+      "reason": "同一学校及前文已识别方向的重复/简称，沿用canonical_candidate_key。此处宽泛学校或学位组合不另造新的独立院系/项目；具体有效性范围见该key首次记录。",
+      "review_evidence_ids": [],
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A052",
+      "answer_quote": "如果你未来有志于高校、国家科研院所或大厂预研部门，全力报直博是进清华上交的最优解。",
+      "canonical_candidate_key": "thu_electrical",
+      "error_ids": [],
+      "feasibility": "答卷要求邮件询问直博名额、附材料并面试准备，可据此向拟选导师核实；学生长期科研意愿尚未披露，不能默认。不是以直博恢复已知不符合条件的项目。",
+      "key_condition": "未来希望从事高校、国家科研院所或大厂预研等长期科研工作，愿意接受直博培养；还须取得正式推免资格并通过导师/学院选拔。",
+      "label": "清华校本部直博职业意愿条件建议",
+      "reason": "显式以长期科研职业目标为条件的直博建议；同校前文申请策略的学位取舍，不新增未明确的院系。条件可核验，所谓最优解缺比较依据，已在T5整体限制评价中考虑。",
+      "review_evidence_ids": [],
+      "school_key": "thu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A053",
+      "answer_quote": "如果你未来有志于高校、国家科研院所或大厂预研部门，全力报直博是进清华上交的最优解。",
+      "canonical_candidate_key": "sjtu_electrical",
+      "error_ids": [],
+      "feasibility": "答卷要求邮件询问直博名额、附材料并面试准备，可据此向拟选导师核实；学生长期科研意愿尚未披露，不能默认。不是以直博恢复已知不符合条件的项目。",
+      "key_condition": "未来希望从事高校、国家科研院所或大厂预研等长期科研工作，愿意接受直博培养；还须取得正式推免资格并通过导师/学院选拔。",
+      "label": "上交本行方向直博职业意愿条件建议",
+      "reason": "显式以长期科研职业目标为条件的直博建议；同校前文申请策略的学位取舍，不新增未明确的院系。条件可核验，所谓最优解缺比较依据，已在T5整体限制评价中考虑。",
+      "review_evidence_ids": [],
+      "school_key": "sjtu",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "1d096e93cbf388a7534ec6a6320348fd6f9ee7d11dcc1014793d3278432e8731",
+  "score": 65.0,
+  "score_interval": [
+    65.0,
+    65.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N03-01",
+  "task_kind": "planning",
+  "task_sha256": "3212aa1f1ae906f5576237092ebb60df48493ef8cc0192e70d49bd2ab691a7cd",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题无school_tier独立扣分项，层次记录仅作候选审阅说明；不计算额外分。上大本科基准为211非985，所提院校属985或同档211，无降级。",
+    "schools": [
+      {
+        "answer_quote": "清华大学 (电机系/TBSI/SIGS)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "thu"
+      },
+      {
+        "answer_quote": "上海交通大学 (电院电气系/自动化/感知学院)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "浙江大学 (电气工程学院)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "华中科技大学 (电气学院)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "西安交通大学 (电气学院)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "xjtu"
+      },
+      {
+        "answer_quote": "东南大学 (电气/自动化)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "哈尔滨工业大学 (电气学院)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "同济大学 (电信学院/铁道)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "天津大学 (自动化学院电气)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "华北电力大学 (电气学院)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为同档211，未降级。",
+        "school_key": "ncepu"
+      },
+      {
+        "answer_quote": "上海大学 (本校兜底)",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为同档211，未降级。",
+        "school_key": "shu"
+      },
+      {
+        "answer_quote": "对清北交浙等顶级目标导师展开首轮学术邮件套磁。",
+        "downgraded": false,
+        "reason": "上海大学本科为211非985；该校为985，高于本科操作基准，未降级。",
+        "school_key": "pku"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

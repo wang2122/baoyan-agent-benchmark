@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "deepseek-v4-1-flash",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 20,
+        "node": "N01-02-L1-03",
+        "points": 10.0,
+        "reason": "有明确且有条件的取舍：保留视觉积累，以工程机器人作为出口；比较了时间紧时重建技术证据的成本、交汇课题组适配和硬件控制兴趣，并给出改变选择的条件，达到半分。但纯视觉竞争力及路线降权的重要依据包含S0未经披露的“目前无顶会”，没有按未知成果状态作条件比较，因而两条路线的比较未完全建立在当轮已知条件上。核心缺口是选择依据的事实边界，而非缺英语计划、详细时间表或具体导师名单。E01只在本项处理；S1贡献断言的错误归L1-04，不重复扣分。"
+      },
+      {
+        "max_points": 10,
+        "node": "N01-02-L1-04",
+        "points": 5.0,
+        "reason": "准确提及非第一作者、主要实验和图表工作，并据此强调实验能力和面试讲清个人贡献，具体利用了新增事实。没有把题面未披露的录用或发表状态虚构为已发表；成果状态未披露本身不扣分。但把主要分工和作者位次进一步断言为没有个人方法创新，未保留实际贡献边界尚需确认这一核心区别，竞争力更新因此过度确定，评半分。"
+      }
+    ],
+    "name": "DeepSeek V4.1 Flash",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 85.0,
+    "score_interval": [
+      85.0,
+      85.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "N01-02"
+  }
+}

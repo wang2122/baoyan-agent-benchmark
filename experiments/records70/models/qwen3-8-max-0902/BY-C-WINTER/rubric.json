@@ -1,0 +1,90 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "BY-C-WINTER",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "推进现有电池、催化研究的数据、方法和稿件任务，成果状态如实。",
+      "grading": "three_level",
+      "half_credit": "已有具体研究推进动作，但方法理解、反馈或稿件安排不足。",
+      "id": "BY-C-WINTER-R10-01",
+      "label": "电化学研究和论文",
+      "points": 20
+    },
+    {
+      "full_credit": "落实大创当前任务、本人分工及交付，核校区认定，不当已结题。",
+      "grading": "three_level",
+      "half_credit": "已有具体大创任务，但个人分工、交付或认定核验不足。",
+      "id": "BY-C-WINTER-R10-02",
+      "label": "大创推进",
+      "points": 15
+    },
+    {
+      "full_credit": "整理化工设计中真实个人的模拟、选型或衡算工作，说明工程能力。",
+      "grading": "three_level",
+      "half_credit": "已有具体工作或能力表达，但个人贡献及其联系不足。",
+      "id": "BY-C-WINTER-R10-03",
+      "label": "化工竞赛成果表达",
+      "points": 10
+    },
+    {
+      "full_credit": "给电化学、化学反应工程及相关化工、化学基础的具体复习巩固动作，联系本人研究或申请考核并保护课程投入；不假定这些课程均为当前在修。",
+      "grading": "three_level",
+      "half_credit": "已有相关专业课的具体复习动作，但研究、考核联系或投入安排不足。",
+      "id": "BY-C-WINTER-R10-04",
+      "label": "专业课巩固与研究联系",
+      "points": 15
+    },
+    {
+      "full_credit": "结合六级450–499给具体补弱安排，将六级500+明确为教师准备目标而非统一招生门槛；同时安排中英文科研自述、术语或文献翻译训练，按目标项目核语言要求及最新成绩。",
+      "grading": "three_level",
+      "half_credit": "目标与门槛区分正确，且有具体备考补弱或科研表达训练，但另一部分、最新成绩核验或训练安排不足。",
+      "id": "BY-C-WINTER-R10-05",
+      "label": "英语目标、补弱与科研表达",
+      "points": 10
+    },
+    {
+      "full_credit": "整理真实申请文书，并在本人直博意愿下准备与项目相符的研究设想。",
+      "grading": "three_level",
+      "half_credit": "已有文书或研究计划动作，但另一部分或项目适配不足。",
+      "id": "BY-C-WINTER-R10-06",
+      "label": "文书与研究计划",
+      "points": 10
+    },
+    {
+      "full_credit": "从电化学、催化研究筛选相近导师，准备研究联系并核招生。",
+      "grading": "three_level",
+      "half_credit": "已有导师筛选或联系动作，但研究匹配或招生核验不足。",
+      "id": "BY-C-WINTER-R10-07",
+      "label": "方向相近导师",
+      "points": 10
+    },
+    {
+      "full_credit": "比较美赛、节能减排和化工设计等追加竞赛的增量与投入，结合已有奖项、研究资源及实际赛程给参加或暂缓条件，保护论文和课程；给可检查的交付与延期调整。未确认的新研究项目先核状态，不要求全部继续。",
+      "grading": "three_level",
+      "half_credit": "已有具体追加活动的收益、成本及取舍判断，但主要候选比较、检查节点或延期调整不足。",
+      "id": "BY-C-WINTER-R10-08",
+      "label": "追加活动取舍与阶段复盘",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "selected-record-availability.1",
+  "agent": "deepseek-v4-1-flash",
+  "task_id": "O06-02",
+  "question_id": "Q075",
+  "source_kind": "retained_historical_summary",
+  "source_answer_sha256": "f7d470c2b394efcd66580c0656412368ac20d072fbfd877df6d343a8b00cb4ad",
+  "answer_text_available": false,
+  "scoring_evidence": "score-details-70.json"
+}

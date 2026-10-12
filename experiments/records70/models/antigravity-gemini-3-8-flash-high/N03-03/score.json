@@ -1,0 +1,992 @@
+{
+  "actual_candidate_count": 27,
+  "answer_sha256": "27228bb70d9c58612fa655be5efe8ef56e1845e2459912c8fd1391fbb0b3cc59",
+  "candidate_limit": 15,
+  "confirmed_component_points": {
+    "coverage": 33.6,
+    "quality": 17.5
+  },
+  "confirmed_points": 51.1,
+  "diagnostic_score": 51.1,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-CODE": [
+      "reasons"
+    ],
+    "E-ECNU": [
+      "reasons"
+    ],
+    "E-PROMISE": [
+      "facts"
+    ],
+    "E-QUAL": [
+      "facts"
+    ],
+    "E-SKILL": [
+      "facts"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "作为本校前约2%名，你拥有无可争议的保研资格与院系最高自主推免选择权。",
+      "id": "E-QUAL",
+      "reason": "题面只说准备走推免，未披露已取得资格。排名和英语不能替代正式资格及综合条件，也没有任选导师、直博名额的已知权利。最直接归facts；不因资格仍需确认而否定真实学校项目。"
+    },
+    {
+      "answer_quote": "全面铺开申请，必定能斩获理想的顶尖学府推免录取！",
+      "id": "E-PROMISE",
+      "reason": "全文多处无依据地保证录取或优营、免考、导师任选：同济确定性极高、华师大接近100%、南航免考锁定团队、华电任意泰斗导师提前敲定、海投过营率75%以上等。只有排名、英语与两项科研信息，不足以推导这些概率或特权；官方规则仍要求综合择优。全部合并归facts，避免在tier和reasons重复扣同一保证错误。"
+    },
+    {
+      "answer_quote": "控制方向大创 (工程底盘) --> 精通驱动控制、FOC矢量算法、电机拖动与硬件微控",
+      "id": "E-SKILL",
+      "reason": "仅参与控制方向大创不证明精通FOC、DSP/FPGA等全部技能；农业视觉EI论文也不证明必然使用PyTorch/目标检测分割或独立完成英文写作。答案把未知贡献与技术栈写成已证实能力，并让学生据此陈述，属于科研成果/能力状态越界，归facts。"
+    },
+    {
+      "answer_quote": "电子信息 (085400，专硕) 或 控制理论与控制工程",
+      "id": "E-ECNU",
+      "reason": "官方2027级对应学院的完整推免专业表没有控制理论与控制工程，上一年度学院项目信息也不支持该院该专业组合；电子信息专业学位大类仍有可识别子领域，仅控制备选invalid。参考外无效对象最直接影响推荐组合reasons，不作额外负分。依据见evidence.json的ecnu与ecnu_prev。"
+    },
+    {
+      "answer_quote": "电气工程 (080800，学硕/专硕)",
+      "id": "E-CODE",
+      "reason": "同济官方硕士点明确080800是学硕，085801是电气专硕；将080800同时标作专硕不准确。专业名与专硕路径本身真实可识别，保留同院系相近匹配，代码/学位选择说明欠缺仅影响reasons。"
+    }
+  ],
+  "excess_count": 12,
+  "id": "N03-03",
+  "input_sha256": "9778b6fd52bf8991c4239427bd16ba1ed3d07537739a6766171e96237ca44b8c",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "a6b7183c85254eafddf38690845458df64ea9be91a5b36f706d47c9042037429",
+  "nodes": [
+    {
+      "id": "N03-01",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03a",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-02",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A01a",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-03",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A03p",
+      "points": 1.4,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-04",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04a",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-05",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A09",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02e",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-07",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01p",
+      "points": 1.4,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-08",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-09",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A07p",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-11",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-12",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-13",
+      "kind": "coverage",
+      "match_coefficient": 0.6,
+      "match_level": "same_department",
+      "matched_answer_item_id": "A05p",
+      "points": 2.8,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "N03-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "tier",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0,
+      "id": "facts",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 27,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01a",
+      "answer_quote": "#### 1. 上海交通大学 —— 电子信息与电气工程学院 (电院)\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，电气工程专硕)\n* **主攻方向**：电力电子与电力传动 / 电机与电器 / 智能电气系统",
+      "canonical_candidate_key": "上海交通大学|电气工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "上海交通大学｜电气工程学院｜080800学硕",
+      "reason": "旧电院电气学科身份可由官方院系调整说明定位，符合控制方向背景。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01p",
+      "answer_quote": "#### 1. 上海交通大学 —— 电子信息与电气工程学院 (电院)\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，电气工程专硕)\n* **主攻方向**：电力电子与电力传动 / 电机与电器 / 智能电气系统",
+      "canonical_candidate_key": "上海交通大学|电气工程学院｜专业电气硕士",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "上海交通大学｜电气工程学院｜专业电气硕士",
+      "reason": "答卷能源动力电气专硕虽用旧大类085800，现085801是可识别的电气专业学位路径；不因旧代码单独取消真实项目。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02d",
+      "answer_quote": "#### 2. 清华大学 —— 深圳国际研究生院 (SIGS)\n* **专业/项目**：数据科学与信息技术 (085400，电子信息专硕) 或 能源动力 (智能电力与能源系统)\n* **主攻方向**：具身感知与智能控制 / 智能能源装备与机器视觉检测",
+      "canonical_candidate_key": "清华大学|深圳国际研究生院｜电子信息数据科学和信息技术专硕",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜电子信息数据科学和信息技术专硕",
+      "reason": "数据项目为真实独立申请路径；农业视觉可衔接机器人感知，但不等价电气或智能制造专业。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02e",
+      "answer_quote": "#### 2. 清华大学 —— 深圳国际研究生院 (SIGS)\n* **专业/项目**：数据科学与信息技术 (085400，电子信息专硕) 或 能源动力 (智能电力与能源系统)\n* **主攻方向**：具身感知与智能控制 / 智能能源装备与机器视觉检测",
+      "canonical_candidate_key": "清华大学|深圳国际研究生院｜电气专业硕士",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜电气专业硕士",
+      "reason": "能源动力加智能电力/能源系统描述可定位电气专业学位路线。官方既有能源动力电气及2027电气推免支持路径；不认定其括号文字就是当年正式方向名。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03a",
+      "answer_quote": "#### 3. 浙江大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，专硕)\n* **主攻方向**：电机与电器 / 电力电子与电力传动 (国家重点实验室)",
+      "canonical_candidate_key": "浙江大学|电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "浙江大学｜电气工程学院｜080800学硕",
+      "reason": "与冻结参考电气方向同一院系，路径可识别。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03p",
+      "answer_quote": "#### 3. 浙江大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，专硕)\n* **主攻方向**：电机与电器 / 电力电子与电力传动 (国家重点实验室)",
+      "canonical_candidate_key": "浙江大学|电气工程学院｜专业电气硕士",
+      "error_ids": [],
+      "label": "浙江大学｜电气工程学院｜专业电气硕士",
+      "reason": "主攻电机、电力电子，能源动力专硕可定位该院085801电气；旧大类表述不凭空生成工程师学院推荐。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04a",
+      "answer_quote": "#### 4. 华中科技大学 —— 电气与电子工程学院\n* **专业/项目**：电气工程 (080800，学硕/直博)\n* **主攻方向**：电机与电器 / 强电磁工程与新型电机系统",
+      "canonical_candidate_key": "华中科技大学|电气与电子工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "华中科技大学｜电气与电子工程学院｜080800学硕",
+      "reason": "与冻结参考同院系同方向，直博与学硕分开记录。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04b",
+      "answer_quote": "#### 4. 华中科技大学 —— 电气与电子工程学院\n* **专业/项目**：电气工程 (080800，学硕/直博)\n* **主攻方向**：电机与电器 / 强电磁工程与新型电机系统",
+      "canonical_candidate_key": "华中科技大学|电气与电子工程学院｜080800直博",
+      "error_ids": [],
+      "label": "华中科技大学｜电气与电子工程学院｜080800直博",
+      "reason": "明确提出直博备选，为另一学位路径；题设未明示拒绝读博，因此不取消有效性；长期读博意愿没有解释，归入理由项欠缺。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05c",
+      "answer_quote": "#### 5. 同济大学 —— 电子与信息工程学院\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕/专硕)\n* **主攻方向**：自主智能无人系统 / 机器人运动控制与感知",
+      "canonical_candidate_key": "同济大学|电子与信息工程学院｜081100学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "同济大学｜电子与信息工程学院｜081100学硕",
+      "reason": "官方硕士点将控制学硕与电子信息人工智能/自动化专硕并列，属于同院系相近专业。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05a",
+      "answer_quote": "#### 5. 同济大学 —— 电子与信息工程学院\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕/专硕)\n* **主攻方向**：自主智能无人系统 / 机器人运动控制与感知",
+      "canonical_candidate_key": "同济大学|电子与信息工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "同济大学｜电子与信息工程学院｜080800学硕",
+      "reason": "电气学硕有可识别路径；控制方向与电力电子可与电子信息自动化相邻，但并非同名电子信息。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05p",
+      "answer_quote": "#### 5. 同济大学 —— 电子与信息工程学院\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕/专硕)\n* **主攻方向**：自主智能无人系统 / 机器人运动控制与感知",
+      "canonical_candidate_key": "同济大学|电子与信息工程学院｜085801电气专硕",
+      "error_ids": [
+        "E-CODE",
+        "E-PROMISE"
+      ],
+      "label": "同济大学｜电子与信息工程学院｜085801电气专硕",
+      "reason": "明确同时推荐电气专硕，官方有真实085801路径；原文080800只能代表学硕，代码与学位混写错误记E-CODE，不把实际存在的专硕虚构为不存在。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "#### 6. 哈尔滨工业大学 —— 电气工程及自动化学院\n* **专业/项目**：电气工程 (080800，学硕)\n* **主攻方向**：电机与电器 (微特电机与先进伺服控制系统)",
+      "canonical_candidate_key": "哈尔滨工业大学|电气工程及自动化学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "哈尔滨工业大学｜电气工程及自动化学院｜080800学硕",
+      "reason": "电气学院、电机方向身份可识别，作为控制方向主线有效的参考外建议。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07a",
+      "answer_quote": "#### 7. 东南大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，专硕)\n* **主攻方向**：电力电子与电力传动 / 微网及运动控制系统",
+      "canonical_candidate_key": "东南大学|电气工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "东南大学｜电气工程学院｜080800学硕",
+      "reason": "与冻结参考同院系电气方向，学位路径清晰。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07p",
+      "answer_quote": "#### 7. 东南大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，专硕)\n* **主攻方向**：电力电子与电力传动 / 微网及运动控制系统",
+      "canonical_candidate_key": "东南大学|电气工程学院｜专业电气硕士",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "东南大学｜电气工程学院｜专业电气硕士",
+      "reason": "能源动力旧大类结合主攻电机/电力电子可定位专业电气；官方2026级085801证实既有路径，未声称审核2027全部名额。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "#### 8. 复旦大学 —— 工程与应用技术研究院 (工研院)\n* **专业/项目**：电子信息 (085400，智能机器人与智能装备专硕)\n* **主攻方向**：智能具身机器人 / 机器视觉与自主控制系统",
+      "canonical_candidate_key": "复旦大学|工研院机器人平台｜电子信息专硕",
+      "error_ids": [],
+      "label": "复旦大学｜工研院机器人平台｜电子信息专硕",
+      "reason": "工研院内机器人研究院与现智能机器人创新学院有官方组织关系，且有电子信息专硕。旧组织称谓可以定位真实机器人平台；不因清单外或未附链接判错。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "#### 9. 西安交通大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕)\n* **主攻方向**：电力电子与电机驱动研究所",
+      "canonical_candidate_key": "西安交通大学|电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "西安交通大学｜电气工程学院｜080800学硕",
+      "reason": "与冻结参考院系电气方向一致。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10c",
+      "answer_quote": "#### 10. 北京航空航天大学 —— 自动化科学与电气工程学院 (3系)\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕)\n* **主攻方向**：高精度伺服驱动控制 / 视觉伺服与智能导航",
+      "canonical_candidate_key": "北京航空航天大学|自动化科学与电气工程学院｜081100学硕",
+      "error_ids": [],
+      "label": "北京航空航天大学｜自动化科学与电气工程学院｜081100学硕",
+      "reason": "真实控制学科及当季学院推免路径，与视觉伺服意向相符；没有录取保证。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10e",
+      "answer_quote": "#### 10. 北京航空航天大学 —— 自动化科学与电气工程学院 (3系)\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕)\n* **主攻方向**：高精度伺服驱动控制 / 视觉伺服与智能导航",
+      "canonical_candidate_key": "北京航空航天大学|自动化科学与电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "北京航空航天大学｜自动化科学与电气工程学院｜080800学硕",
+      "reason": "官方确认学院电气学科和电机、电力电子方向；年度名额未完整审计不等于停招或内容错误。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "#### 11. 中国科学技术大学 —— 信息科学技术学院 / 科学岛分院\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电子信息 (085400，专硕)\n* **主攻方向**：特种装备智能感知与控制 / 农业智能装备机器人",
+      "canonical_candidate_key": "中国科学技术大学|信息科学技术学院/科学岛分院合并推荐｜控制学硕或电子信息专硕",
+      "error_ids": [],
+      "label": "中国科学技术大学｜信息科学技术学院/科学岛分院合并推荐｜控制学硕或电子信息专硕",
+      "reason": "两个独立招生单位均真实，但并列院系和学位未分别绑定，按原文只保留一个含糊组合，不代拆两院四条路径。后文科学岛科研契合讨论仍未单列学位路径，不能机械计信息学院控制exact或科学岛related。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12p",
+      "answer_quote": "#### 12. 华东师范大学 —— 通信与电子工程学院\n* **专业/项目**：电子信息 (085400，专硕) 或 控制理论与控制工程\n* **主攻方向**：智能感知与自主控制 / 机器视觉与智能系统",
+      "canonical_candidate_key": "华东师范大学|原通信与电子工程学院｜电子信息专业硕士",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "华东师范大学｜原通信与电子工程学院｜电子信息专业硕士",
+      "reason": "现信息与电子工程学院招生有通信、集成电路及人工智能专业学位子领域；电子信息是可识别大类路径，不要求答卷猜参考未给的细分专业；软性留沪偏好仅是理由，并非硬条件推荐。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "华东师范大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12c",
+      "answer_quote": "#### 12. 华东师范大学 —— 通信与电子工程学院\n* **专业/项目**：电子信息 (085400，专硕) 或 控制理论与控制工程\n* **主攻方向**：智能感知与自主控制 / 机器视觉与智能系统",
+      "canonical_candidate_key": "华东师范大学|原通信与电子工程学院｜控制理论与控制工程",
+      "error_ids": [
+        "E-ECNU",
+        "E-PROMISE"
+      ],
+      "label": "华东师范大学｜通信与电子工程学院｜控制理论与控制工程",
+      "reason": "适用2026申请季的2027级官方推免细则完整专业表没有控制理论与控制工程；2026级项目信息也不支持。不是因检索未命中判不存在，而是有明确招生目录不支持该院该路径；参考外错误仅关联reasons。",
+      "school_key": "华东师范大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "#### 13. 南京航空航天大学 —— 自动化学院\n* **专业/项目**：电气工程 (080800，学硕 - 电机与电器 / 电力电子)\n* **主攻方向**：多电飞机航空电机系统 / 高频电力电子与微特电机驱动",
+      "canonical_candidate_key": "南京航空航天大学|自动化学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "南京航空航天大学｜自动化学院｜080800学硕",
+      "reason": "2027级官方推免目录有电气学硕，211与本科学校同档且电机特色适合，清单外不等于错误。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "#### 14. 华北电力大学 (北京) —— 控制与计算机工程学院 / 电气与电子工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 控制科学与工程 (081100，学硕)\n* **主攻方向**：新能源发电设备驱动控制 / 智慧电网智能感知与视频巡检",
+      "canonical_candidate_key": "华北电力大学|北京控制与计算机/电气与电子两院合并推荐｜电气或控制学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "华北电力大学｜北京控制与计算机/电气与电子两院合并推荐｜电气或控制学硕",
+      "reason": "官方目录确认两院各有相应专业，但答卷未分别绑定学院和专业。保留一个合并推荐，不由评审拆出独立组合；能源行业软性职业偏好不构成申请硬条件。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "华北电力大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15e",
+      "answer_quote": "#### 15. 上海大学 —— 机电工程与自动化学院 (机自学院)\n* **专业/项目**：电气工程 (080800，学硕) 或 控制科学与工程 (081100，学硕)\n* **主攻方向**：特种电机及其控制 / 先进运动控制与工业视觉",
+      "canonical_candidate_key": "上海大学|机电工程与自动化学院｜080800学硕",
+      "error_ids": [
+        "E-QUAL",
+        "E-PROMISE"
+      ],
+      "label": "上海大学｜机电工程与自动化学院｜080800学硕",
+      "reason": "真实本校电气路径；与本科同档。本校推荐有效，不意味着该生已有正式推免资格或有任选导师权。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15c",
+      "answer_quote": "#### 15. 上海大学 —— 机电工程与自动化学院 (机自学院)\n* **专业/项目**：电气工程 (080800，学硕) 或 控制科学与工程 (081100，学硕)\n* **主攻方向**：特种电机及其控制 / 先进运动控制与工业视觉",
+      "canonical_candidate_key": "上海大学|机电工程与自动化学院｜081100学硕",
+      "error_ids": [
+        "E-QUAL",
+        "E-PROMISE"
+      ],
+      "label": "上海大学｜机电工程与自动化学院｜081100学硕",
+      "reason": "本校控制学硕为另一独立专业路径。学生资格未知与原文保证属于事实错误，不取消项目身份。 有效性只确认可识别项目及当前已知学生约束，未声称逐年审计名额；推免资格仍须学校正式确认。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15b",
+      "answer_quote": "可直接任选机自学院最顶尖的国家级人才、院长团队或直博名额",
+      "canonical_candidate_key": "上海大学|机电工程与自动化学院｜未细分直博路径",
+      "error_ids": [
+        "E-QUAL",
+        "E-PROMISE"
+      ],
+      "label": "上海大学｜机自学院直博提名",
+      "reason": "提到可选直博名额，计入候选提名数量；没有单独明确电气/控制博士专业，按一条未细分直博提名记录。不能把泛称名额认作已落实可申请方案。",
+      "school_key": "上海大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X01",
+      "answer_quote": "清华校本部电机工程系学硕竞争极度白热化且留给统考/外校名额极少",
+      "canonical_candidate_key": "清华大学|校本部电机工程系｜学硕",
+      "error_ids": [],
+      "label": "清华校本部电机工程系学硕（战略避开）",
+      "reason": "明确以避开硬碰而转深圳院的对象，计数量但排除不计覆盖。项目身份真实；此处未证明各年外校名额判断，不据此保证深圳更易录取。",
+      "school_key": "清华大学",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03",
+      "answer_quote": "你的机器视觉EI论文与科学岛在“智慧农业/农业机器人环境感知与表型检测”上的纵向课题几乎严丝合缝",
+      "canonical_candidate_key": "中国科学技术大学|信息科学技术学院/科学岛分院合并推荐｜控制学硕或电子信息专硕",
+      "error_ids": [],
+      "label": "中国科学技术大学｜信息科学技术学院/科学岛分院合并推荐｜控制学硕或电子信息专硕（重复出现）",
+      "reason": "仅强化原合并推荐中的科学岛研究适配；没有独立绑定学位和申请项目，不替其创造新的科学岛候选。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04",
+      "answer_quote": "本校前约2%名，你拥有无可争议的保研资格与院系最高自主推免选择权",
+      "canonical_candidate_key": "上海大学|机电工程与自动化学院｜080800学硕",
+      "error_ids": [
+        "E-QUAL",
+        "E-PROMISE"
+      ],
+      "label": "上海大学｜机电工程与自动化学院｜080800学硕（重复出现）",
+      "reason": "本校建议的重复理由，继续沿用原路径身份；不采信保证。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "上海交通大学|电气工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "上海交通大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R06",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "浙江大学|电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "浙江大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "同济大学|电子与信息工程学院｜081100学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "同济大学｜电子与信息工程学院｜081100学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R08",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "哈尔滨工业大学|电气工程及自动化学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "哈尔滨工业大学｜电气工程及自动化学院｜080800学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "东南大学|电气工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "东南大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R10",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "复旦大学|工研院机器人平台｜电子信息专硕",
+      "error_ids": [],
+      "label": "复旦大学｜工研院机器人平台｜电子信息专硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R11",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "上海大学|机电工程与自动化学院｜080800学硕",
+      "error_ids": [
+        "E-QUAL",
+        "E-PROMISE"
+      ],
+      "label": "上海大学｜机电工程与自动化学院｜080800学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "上海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R12",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "华东师范大学|原通信与电子工程学院｜电子信息专业硕士",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "华东师范大学｜原通信与电子工程学院｜电子信息专业硕士（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "华东师范大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R13",
+      "answer_quote": "建议以**上交电院、浙大电气、同济电信**为主攻主干，以**哈工大、东南、复旦工研院**为核心支撑，以**本校与华师大/南航**为稳健底盘",
+      "canonical_candidate_key": "南京航空航天大学|自动化学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "南京航空航天大学｜自动化学院｜080800学硕（重复出现）",
+      "reason": "结论回指前文编号项目；沿用对应首条身份用于去重。结论不指明学位时不另创造新学位或招生单位。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R14",
+      "answer_quote": "优先参加同济、上交、浙大等营。",
+      "canonical_candidate_key": "同济大学|电子与信息工程学院｜081100学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "同济大学｜电子与信息工程学院｜081100学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R15",
+      "answer_quote": "优先参加同济、上交、浙大等营。",
+      "canonical_candidate_key": "上海交通大学|电气工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "上海交通大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R16",
+      "answer_quote": "优先参加同济、上交、浙大等营。",
+      "canonical_candidate_key": "浙江大学|电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "浙江大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R17",
+      "answer_quote": "密切关注清华SIGS、浙大、北航等预推免补录窗口",
+      "canonical_candidate_key": "清华大学|深圳国际研究生院｜电子信息数据科学和信息技术专硕",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜电子信息数据科学和信息技术专硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R18",
+      "answer_quote": "密切关注清华SIGS、浙大、北航等预推免补录窗口",
+      "canonical_candidate_key": "浙江大学|电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "浙江大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R19",
+      "answer_quote": "密切关注清华SIGS、浙大、北航等预推免补录窗口",
+      "canonical_candidate_key": "北京航空航天大学|自动化科学与电气工程学院｜081100学硕",
+      "error_ids": [],
+      "label": "北京航空航天大学｜自动化科学与电气工程学院｜081100学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R20",
+      "answer_quote": "稳扎稳打冲刺上交/浙大/同济",
+      "canonical_candidate_key": "上海交通大学|电气工程学院｜080800学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "上海交通大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R21",
+      "answer_quote": "稳扎稳打冲刺上交/浙大/同济",
+      "canonical_candidate_key": "浙江大学|电气工程学院｜080800学硕",
+      "error_ids": [],
+      "label": "浙江大学｜电气工程学院｜080800学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R22",
+      "answer_quote": "稳扎稳打冲刺上交/浙大/同济",
+      "canonical_candidate_key": "同济大学|电子与信息工程学院｜081100学硕",
+      "error_ids": [
+        "E-PROMISE"
+      ],
+      "label": "同济大学｜电子与信息工程学院｜081100学硕（重复出现）",
+      "reason": "时间表重复推荐既有学校项目，未新增院系或学位；用首条代表身份合并去重，不把纯学校回指当新路径。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 15,
+  "rubric_sha256": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+  "score": 51.1,
+  "score_interval": [
+    51.1,
+    51.1
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N03-03",
+  "task_kind": "recommendation",
+  "task_sha256": "7b3dd0ced91e0d667e8e2779d454ef867e40730ec4b6e8c6be19ceeab00fc6a7",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "#### 1. 上海交通大学 —— 电子信息与电气工程学院 (电院)\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，电气工程专硕)\n* **主攻方向**：电力电子与电力传动 / 电机与电器 / 智能电气系统",
+        "downgraded": false,
+        "reason": "上海交通大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "#### 2. 清华大学 —— 深圳国际研究生院 (SIGS)\n* **专业/项目**：数据科学与信息技术 (085400，电子信息专硕) 或 能源动力 (智能电力与能源系统)\n* **主攻方向**：具身感知与智能控制 / 智能能源装备与机器视觉检测",
+        "downgraded": false,
+        "reason": "清华大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "#### 3. 浙江大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，专硕)\n* **主攻方向**：电机与电器 / 电力电子与电力传动 (国家重点实验室)",
+        "downgraded": false,
+        "reason": "浙江大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "#### 4. 华中科技大学 —— 电气与电子工程学院\n* **专业/项目**：电气工程 (080800，学硕/直博)\n* **主攻方向**：电机与电器 / 强电磁工程与新型电机系统",
+        "downgraded": false,
+        "reason": "华中科技大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "#### 5. 同济大学 —— 电子与信息工程学院\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕/专硕)\n* **主攻方向**：自主智能无人系统 / 机器人运动控制与感知",
+        "downgraded": false,
+        "reason": "同济大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "#### 6. 哈尔滨工业大学 —— 电气工程及自动化学院\n* **专业/项目**：电气工程 (080800，学硕)\n* **主攻方向**：电机与电器 (微特电机与先进伺服控制系统)",
+        "downgraded": false,
+        "reason": "哈尔滨工业大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "#### 7. 东南大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 能源动力 (085800，专硕)\n* **主攻方向**：电力电子与电力传动 / 微网及运动控制系统",
+        "downgraded": false,
+        "reason": "东南大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "#### 8. 复旦大学 —— 工程与应用技术研究院 (工研院)\n* **专业/项目**：电子信息 (085400，智能机器人与智能装备专硕)\n* **主攻方向**：智能具身机器人 / 机器视觉与自主控制系统",
+        "downgraded": false,
+        "reason": "复旦大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "#### 9. 西安交通大学 —— 电气工程学院\n* **专业/项目**：电气工程 (080800，学硕)\n* **主攻方向**：电力电子与电机驱动研究所",
+        "downgraded": false,
+        "reason": "西安交通大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "西安交通大学"
+      },
+      {
+        "answer_quote": "#### 10. 北京航空航天大学 —— 自动化科学与电气工程学院 (3系)\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电气工程 (080800，学硕)\n* **主攻方向**：高精度伺服驱动控制 / 视觉伺服与智能导航",
+        "downgraded": false,
+        "reason": "北京航空航天大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "#### 11. 中国科学技术大学 —— 信息科学技术学院 / 科学岛分院\n* **专业/项目**：控制科学与工程 (081100，学硕) 或 电子信息 (085400，专硕)\n* **主攻方向**：特种装备智能感知与控制 / 农业智能装备机器人",
+        "downgraded": false,
+        "reason": "中国科学技术大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "中国科学技术大学"
+      },
+      {
+        "answer_quote": "#### 12. 华东师范大学 —— 通信与电子工程学院\n* **专业/项目**：电子信息 (085400，专硕) 或 控制理论与控制工程\n* **主攻方向**：智能感知与自主控制 / 机器视觉与智能系统",
+        "downgraded": false,
+        "reason": "华东师范大学为985，相对上海大学211（非985）本科为更高档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "华东师范大学"
+      },
+      {
+        "answer_quote": "#### 13. 南京航空航天大学 —— 自动化学院\n* **专业/项目**：电气工程 (080800，学硕 - 电机与电器 / 电力电子)\n* **主攻方向**：多电飞机航空电机系统 / 高频电力电子与微特电机驱动",
+        "downgraded": false,
+        "reason": "南京航空航天大学为211（非985），相对上海大学211（非985）本科为同档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "南京航空航天大学"
+      },
+      {
+        "answer_quote": "#### 14. 华北电力大学 (北京) —— 控制与计算机工程学院 / 电气与电子工程学院\n* **专业/项目**：电气工程 (080800，学硕) 或 控制科学与工程 (081100，学硕)\n* **主攻方向**：新能源发电设备驱动控制 / 智慧电网智能感知与视频巡检",
+        "downgraded": false,
+        "reason": "华北电力大学为211（非985），相对上海大学211（非985）本科为同档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "华北电力大学"
+      },
+      {
+        "answer_quote": "#### 15. 上海大学 —— 机电工程与自动化学院 (机自学院)\n* **专业/项目**：电气工程 (080800，学硕) 或 控制科学与工程 (081100，学硕)\n* **主攻方向**：特种电机及其控制 / 先进运动控制与工业视觉",
+        "downgraded": false,
+        "reason": "上海大学为211（非985），相对上海大学211（非985）本科为同档，按通则不降级；学科实力和录取确定性分开评价。同校不同学位只列一次。",
+        "school_key": "上海大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

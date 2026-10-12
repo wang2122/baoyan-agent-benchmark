@@ -1,0 +1,83 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N12-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "结合中国海洋大学、排名前约3%及推免资格是否确认分析优势与风险，避免保证取得资格。",
+      "grading": "three_level",
+      "half_credit": "有竞争力判断但缺校内资格或申请范围。",
+      "id": "N12-01-L1-01",
+      "label": "本科背景、排名与资格竞争力",
+      "points": 20
+    },
+    {
+      "full_credit": "正确利用雅思7.5，区分语言竞争力与具体目标项目的正式门槛。",
+      "grading": "three_level",
+      "half_credit": "英语优势明确但缺对应项目核验。",
+      "id": "N12-01-L1-02",
+      "label": "英语优势和项目语言条件",
+      "points": 15
+    },
+    {
+      "full_credit": "分析SRTP、竞赛经历中的本人角色和成果状态，指出材料中值得突出及仍缺少的证据。",
+      "grading": "three_level",
+      "half_credit": "谈到经历但缺真实贡献或材料落地。",
+      "id": "N12-01-L1-03",
+      "label": "科研竞赛经历及材料准备",
+      "points": 15
+    },
+    {
+      "full_credit": "结合申请方向制定法学课程、研究问题与政策热点的实质训练建议。",
+      "grading": "three_level",
+      "half_credit": "有专业课建议但缺与申请目标的联系。",
+      "id": "N12-01-L1-04",
+      "label": "法学专业知识与研究准备",
+      "points": 15
+    },
+    {
+      "full_credit": "提出当阶段实际可执行的文书、推荐信、目标项目筛选与模拟面试节点。",
+      "grading": "three_level",
+      "half_credit": "有清晰计划但遗漏关键步骤。",
+      "id": "N12-01-L1-05",
+      "label": "申请阶段规划",
+      "points": 15
+    },
+    {
+      "full_credit": "不把未投稿研究说成已发表，不默认推免资格和年度录取条件。",
+      "grading": "three_level",
+      "half_credit": "小部分结论需要核对但主旨可信。",
+      "id": "N12-01-L1-06",
+      "label": "成果、政策与结论真实性",
+      "points": 10
+    },
+    {
+      "full_credit": "根据本人优势与短板排定准备顺序并说明原因。",
+      "grading": "three_level",
+      "half_credit": "有清单但缺理由或先后。",
+      "id": "N12-01-L1-07",
+      "label": "优先级与合理取舍",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

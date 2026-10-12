@@ -1,0 +1,185 @@
+{
+  "actual_candidate_count": 7,
+  "answer_sha256": "97efc300d4cf6588459d808ddd7584d8bfdae7560d86ab98393b7bef83021a45",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 52.5
+  },
+  "confirmed_points": 52.5,
+  "diagnostic_score": null,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "TRY-E-02-R10-01"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "真正留给自由排序的普通推免名额通常仅有 **35～45 个左右**。",
+      "id": "E01",
+      "reason": "题面只披露上届名额（具体人数已概括）的传闻，本届名额和规则未定。答卷却无依据地给出普通名额的常态范围，并据此将前约45%判断为压线边缘；这不是标明假设的40人情景。现有官方细则只支持按综合学分绩和正式名额决定资格，不能推出35～45的范围，也不能由相差12人推出毫无抗风险弹性。错误是把未知名额转为确定风险依据，不是声称检索不到就证明实际名额不在该区间。仅归属跨届数据与排名判断项，见evidence.json的EV01。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-E-02",
+  "input_sha256": "e5c7a98e9af834a8de5ce78ff1b3fc51133f5d43f8c85d5ca7c721d0f1f88049",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "fd2111f1e1c8ac565ad6824da8e759c6d7b59d5d52c6c6562c2d6645eaf88d17",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-E-02-R10-01",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "TRY-E-02-R10-02",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0,
+      "id": "TRY-E-02-R10-03",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-E-02-R10-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": "pending",
+      "id": "TRY-E-02-R10-05",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 1,
+      "id": "TRY-E-02-R10-06",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 7,
+  "official": false,
+  "pending_nodes": [
+    "TRY-E-02-R10-05"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "8 月至 9 月初各高校（包括华东地区一所985高校（华东五校之一）本院、计算机系、软件学院以及外校知名科研所）的预推免考核要积极报名并全力参面，争取锁定拟录取或候补 Offer。",
+      "canonical_candidate_key": "nju:ai:general-recommendation",
+      "error_ids": [],
+      "label": "南京大学人工智能学院预推免",
+      "reason": "“本院”可由全文本科学院背景识别，句子明确要求积极报名，属于实际推荐而非学生本科背景讨论。只提取院系层面的预推免路径，不补造学硕、专硕或导师；EV02支持该院2025申请周期存在接收推免路径，不表示学生必然入围或已全面审计年度门槛。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "8 月至 9 月初各高校（包括华东地区一所985高校（华东五校之一）本院、计算机系、软件学院以及外校知名科研所）的预推免考核要积极报名并全力参面，争取锁定拟录取或候补 Offer。",
+      "canonical_candidate_key": "nju:cs:general-recommendation",
+      "error_ids": [],
+      "label": "南京大学计算机系预推免",
+      "reason": "同一句并列且明确建议积极报名的独立院系候选；按答卷名称记录计算机系，不凭名称替换为某个专业或跨院系匹配。本题无参考项目覆盖项，认可一般相关院系路径不等于核准每个具体项目的2025年度条件。不得因缺逐年网页而认定不存在。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "8 月至 9 月初各高校（包括华东地区一所985高校（华东五校之一）本院、计算机系、软件学院以及外校知名科研所）的预推免考核要积极报名并全力参面，争取锁定拟录取或候补 Offer。",
+      "canonical_candidate_key": "nju:software:general-recommendation",
+      "error_ids": [],
+      "label": "南京大学软件学院预推免",
+      "reason": "同一句明确列出的独立院系推荐，不能因与计算机系并列而漏提取。本题没有指定专业或已知硬限制；记录院系层面的一般相关路径，不据未取得适用年度官方专业解释就确认跨专业冲突。未审计具体专业准入，valid并非证明所有年度条件已满足，也不把软件学院与智能软件与工程学院混同。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "8 月至 9 月初各高校（包括华东地区一所985高校（华东五校之一）本院、计算机系、软件学院以及外校知名科研所）的预推免考核要积极报名并全力参面，争取锁定拟录取或候补 Offer。",
+      "canonical_candidate_key": "unspecified:external-research-institutes",
+      "error_ids": [],
+      "label": "外校知名科研所（未指定单位）",
+      "reason": "句子建议投递该类单位，但没有实际校所、院系或独立项目身份，作为概括候选提名保留一条，不能由评审拆造多个研究所或计任何项目命中。valid只表示提出进一步调研的类别建议未见确定事实错误。",
+      "school_key": "unspecified",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "如果最终普通学术型/专业型硕士名额十分紧张，应主动向辅导员了解本年度学院是否有**本博贯通 / 直博生专项指标**、**卓越工程师硕博专项**或**领军人才培养计划**。",
+      "canonical_candidate_key": "nju:ai:integrated-or-direct-doctoral-special",
+      "error_ids": [],
+      "feasibility": "答卷提供向辅导员核查本年度是否有计划的可执行入口。仅可开展咨询，尚未说明具体招生主体、专项资格及培养选择，不能按已落实或已证明可申请的项目计命中。",
+      "key_condition": "最终普通学术型或专业型硕士名额十分紧张，并需确认本年度本院是否有该项适用指标或计划。",
+      "label": "本博贯通 / 直博生专项指标（咨询备选）",
+      "reason": "普通硕士名额紧张时提出向本院辅导员询问的条件路径；按真实提名保留，名称不是已获核准项目。此前名额构成段落中同类专项仅为背景举例，不重复新增候选。本博贯通与直博指标在此合并讨论而未给不同实际申请方案，A05不机械拆分。后文关于直博门槛更弹性的泛化不能支持任何特殊资格或有效匹配；此处valid限于可进行的咨询动作，不确认该专项实际存在或能让学生免除校内资格。",
+      "school_key": "nju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "如果最终普通学术型/专业型硕士名额十分紧张，应主动向辅导员了解本年度学院是否有**本博贯通 / 直博生专项指标**、**卓越工程师硕博专项**或**领军人才培养计划**。",
+      "canonical_candidate_key": "nju:ai:engineering-special",
+      "error_ids": [],
+      "feasibility": "答卷提供向辅导员核查本年度是否有计划的可执行入口。仅可开展咨询，尚未说明具体招生主体、专项资格及培养选择，不能按已落实或已证明可申请的项目计命中。",
+      "key_condition": "最终普通学术型或专业型硕士名额十分紧张，并需确认本年度本院是否有该项适用指标或计划。",
+      "label": "卓越工程师硕博专项（咨询备选）",
+      "reason": "普通硕士名额紧张时提出向本院辅导员询问的条件路径；按真实提名保留，名称不是已获核准项目。此前名额构成段落中同类专项仅为背景举例，不重复新增候选。本博贯通与直博指标在此合并讨论而未给不同实际申请方案，A05不机械拆分。后文关于直博门槛更弹性的泛化不能支持任何特殊资格或有效匹配；此处valid限于可进行的咨询动作，不确认该专项实际存在或能让学生免除校内资格。",
+      "school_key": "nju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "如果最终普通学术型/专业型硕士名额十分紧张，应主动向辅导员了解本年度学院是否有**本博贯通 / 直博生专项指标**、**卓越工程师硕博专项**或**领军人才培养计划**。",
+      "canonical_candidate_key": "nju:ai:leading-talent-plan",
+      "error_ids": [],
+      "feasibility": "答卷提供向辅导员核查本年度是否有计划的可执行入口。仅可开展咨询，尚未说明具体招生主体、专项资格及培养选择，不能按已落实或已证明可申请的项目计命中。",
+      "key_condition": "最终普通学术型或专业型硕士名额十分紧张，并需确认本年度本院是否有该项适用指标或计划。",
+      "label": "领军人才培养计划（咨询备选）",
+      "reason": "普通硕士名额紧张时提出向本院辅导员询问的条件路径；按真实提名保留，名称不是已获核准项目。此前名额构成段落中同类专项仅为背景举例，不重复新增候选。本博贯通与直博指标在此合并讨论而未给不同实际申请方案，A05不机械拆分。后文关于直博门槛更弹性的泛化不能支持任何特殊资格或有效匹配；此处valid限于可进行的咨询动作，不确认该专项实际存在或能让学生免除校内资格。",
+      "school_key": "nju",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+  "score": null,
+  "score_interval": [
+    52.5,
+    57.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "TRY-E-02",
+  "task_kind": "planning",
+  "task_sha256": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "8 月至 9 月初各高校（包括华东地区一所985高校（华东五校之一）本院、计算机系、软件学院以及外校知名科研所）的预推免考核要积极报名并全力参面，争取锁定拟录取或候补 Offer。",
+        "downgraded": false,
+        "reason": "明确可识别的推荐院校仅华东地区一所985高校（华东五校之一），与学生本科学校相同，无降级。本题无层次评分节点；未指定的外校科研所无法逐校比较，不凭笼统类别制造院校或降级记录。",
+        "school_key": "nju"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

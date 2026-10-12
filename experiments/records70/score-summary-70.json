@@ -1,0 +1,444 @@
+{
+  "question_count": 70,
+  "points_per_question": 100,
+  "maximum_total_score": 7000,
+  "generated_at": "2026-10-12T08:49:12+00:00",
+  "official": false,
+  "category_counts": {
+    "planning_single": 36,
+    "recommendation_single": 21,
+    "staged": 13
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "model": "GPT Sol",
+      "question_count": 70,
+      "total_score_interval": [
+        5535.28,
+        5535.28
+      ],
+      "mean_score_interval": [
+        79.07542857142857,
+        79.07542857142857
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            1025.78,
+            1025.78
+          ],
+          "mean_score_interval": [
+            48.846666666666664,
+            48.846666666666664
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            3303.5,
+            3303.5
+          ],
+          "mean_score_interval": [
+            91.76388888888889,
+            91.76388888888889
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            1206.0,
+            1206.0
+          ],
+          "mean_score_interval": [
+            92.76923076923077,
+            92.76923076923077
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 2,
+      "model": "GPT Astra",
+      "question_count": 70,
+      "total_score_interval": [
+        5485.17,
+        5485.17
+      ],
+      "mean_score_interval": [
+        78.35957142857143,
+        78.35957142857143
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            1054.67,
+            1054.67
+          ],
+          "mean_score_interval": [
+            50.22238095238095,
+            50.22238095238095
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            3257.5,
+            3257.5
+          ],
+          "mean_score_interval": [
+            90.48611111111111,
+            90.48611111111111
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            1173.0,
+            1173.0
+          ],
+          "mean_score_interval": [
+            90.23076923076923,
+            90.23076923076923
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 3,
+      "model": "DeepSeek V4.1 Flash",
+      "question_count": 70,
+      "total_score_interval": [
+        4771.035263157894,
+        4771.035263157894
+      ],
+      "mean_score_interval": [
+        68.15764661654136,
+        68.15764661654136
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            1092.93,
+            1092.93
+          ],
+          "mean_score_interval": [
+            52.044285714285714,
+            52.044285714285714
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2629.6052631578946,
+            2629.6052631578946
+          ],
+          "mean_score_interval": [
+            73.04459064327486,
+            73.04459064327486
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            1048.5,
+            1048.5
+          ],
+          "mean_score_interval": [
+            80.65384615384616,
+            80.65384615384616
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 4,
+      "model": "GLM 5.3 Flash",
+      "question_count": 70,
+      "total_score_interval": [
+        4676.17,
+        4676.17
+      ],
+      "mean_score_interval": [
+        66.80242857142858,
+        66.80242857142858
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            1028.17,
+            1028.17
+          ],
+          "mean_score_interval": [
+            48.96047619047619,
+            48.96047619047619
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2550.0,
+            2550.0
+          ],
+          "mean_score_interval": [
+            70.83333333333333,
+            70.83333333333333
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            1098.0,
+            1098.0
+          ],
+          "mean_score_interval": [
+            84.46153846153847,
+            84.46153846153847
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 5,
+      "model": "Qwen3.8 Max",
+      "question_count": 70,
+      "total_score_interval": [
+        4496.92,
+        4496.92
+      ],
+      "mean_score_interval": [
+        64.24171428571428,
+        64.24171428571428
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            980.92,
+            980.92
+          ],
+          "mean_score_interval": [
+            46.71047619047619,
+            46.71047619047619
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2572.0,
+            2572.0
+          ],
+          "mean_score_interval": [
+            71.44444444444444,
+            71.44444444444444
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            944.0,
+            944.0
+          ],
+          "mean_score_interval": [
+            72.61538461538461,
+            72.61538461538461
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0,
+      "extended_budget_seconds": 2400,
+      "extended_replacement_count": 12,
+      "new_attempt_timeout_count": 0,
+      "new_attempt_failure_count": 0,
+      "pending_node_count": 3,
+      "extended_pending_answer_count": 0
+    },
+    {
+      "rank": 6,
+      "model": "Kimi K3",
+      "question_count": 70,
+      "total_score_interval": [
+        4127.184736842105,
+        4127.184736842105
+      ],
+      "mean_score_interval": [
+        58.95978195488722,
+        58.95978195488722
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            926.29,
+            926.29
+          ],
+          "mean_score_interval": [
+            44.10904761904762,
+            44.10904761904762
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2249.8947368421054,
+            2249.8947368421054
+          ],
+          "mean_score_interval": [
+            62.49707602339181,
+            62.49707602339181
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            951.0,
+            951.0
+          ],
+          "mean_score_interval": [
+            73.15384615384616,
+            73.15384615384616
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 7,
+      "model": "Gemini 3.8 Flash",
+      "question_count": 70,
+      "total_score_interval": [
+        4076.0,
+        4076.0
+      ],
+      "mean_score_interval": [
+        58.22857142857143,
+        58.22857142857143
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            925.0,
+            925.0
+          ],
+          "mean_score_interval": [
+            44.04761904761905,
+            44.04761904761905
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2229.0,
+            2229.0
+          ],
+          "mean_score_interval": [
+            61.916666666666664,
+            61.916666666666664
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            922.0,
+            922.0
+          ],
+          "mean_score_interval": [
+            70.92307692307692,
+            70.92307692307692
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    },
+    {
+      "rank": 8,
+      "model": "Gemini 3.1 Pro",
+      "question_count": 70,
+      "total_score_interval": [
+        3888.67,
+        3888.67
+      ],
+      "mean_score_interval": [
+        55.55242857142857,
+        55.55242857142857
+      ],
+      "categories": {
+        "recommendation_single": {
+          "question_count": 21,
+          "total_score_interval": [
+            876.67,
+            876.67
+          ],
+          "mean_score_interval": [
+            41.74619047619048,
+            41.74619047619048
+          ]
+        },
+        "planning_single": {
+          "question_count": 36,
+          "total_score_interval": [
+            2091.0,
+            2091.0
+          ],
+          "mean_score_interval": [
+            58.083333333333336,
+            58.083333333333336
+          ]
+        },
+        "staged": {
+          "question_count": 13,
+          "total_score_interval": [
+            921.0,
+            921.0
+          ],
+          "mean_score_interval": [
+            70.84615384615384,
+            70.84615384615384
+          ]
+        }
+      },
+      "completed_count": 70,
+      "timeout_count": 0,
+      "completion_rate": 1.0,
+      "pending_answer_count": 0
+    }
+  ],
+  "score_note": {
+    "zh-CN": "固定70题分母、按下界排序；超时计0，待核保留区间。区间只覆盖已登记未决点，教师复核状态逐条保留。",
+    "en": "Fixed 70-task denominator and lower-bound ordering; timeouts score zero and pending points remain intervals. Intervals cover recorded unresolved points; teacher calibration remains pending."
+  },
+  "evidence_adjudication_note": "Eleven Gemini quality nodes have source-bound rulings; all selected 70-task scores are now determinate.",
+  "selected_record_count": 560,
+  "answer_text_available_count": 443,
+  "new_result_answer_count": 124
+}

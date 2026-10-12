@@ -1,0 +1,1751 @@
+{
+  "id": "BY-A-APPLY",
+  "task_id": "BY-A-APPLY",
+  "task_kind": "recommendation",
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "score": 30.15,
+  "diagnostic_score": 30.15,
+  "status": "scored_draft",
+  "confirmed_points": 30.15,
+  "score_interval": [
+    30.15,
+    30.15
+  ],
+  "pending_nodes": [],
+  "nodes": [
+    {
+      "id": "A-01",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.26,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "T04",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-02",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-03",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.26,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "T25",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-04",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 0.68,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "related_department",
+      "match_coefficient": 0.3,
+      "matched_answer_item_id": "T26-NANO",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-05",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-06",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-07",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-08",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.26,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "T10",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-09",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-10",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-11",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-12",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-13",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-14",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-15",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-16",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-17",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-18",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-19",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-20",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-21",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 0.68,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "related_department",
+      "match_coefficient": 0.3,
+      "matched_answer_item_id": "T21",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-22",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-23",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-24",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-25",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.26,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "T07",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-26",
+      "kind": "coverage",
+      "status": "hit",
+      "points": 2.26,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": "exact",
+      "match_coefficient": 1.0,
+      "matched_answer_item_id": "T05",
+      "reviewed_status": "hit"
+    },
+    {
+      "id": "A-27",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-28",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-29",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-30",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "A-31",
+      "kind": "coverage",
+      "status": "miss",
+      "points": 0,
+      "weight": {
+        "numerator": 70,
+        "denominator": 31
+      },
+      "match_level": null,
+      "match_coefficient": 0,
+      "matched_answer_item_id": null,
+      "reviewed_status": "miss"
+    },
+    {
+      "id": "BY-A-APPLY-R10-01",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 7.5
+    },
+    {
+      "id": "BY-A-APPLY-R10-02",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 2.5
+    },
+    {
+      "id": "BY-A-APPLY-R10-03",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 2.5
+    },
+    {
+      "id": "BY-A-APPLY-R10-04",
+      "kind": "quality",
+      "grade": 1,
+      "points": 5.0
+    }
+  ],
+  "quantity_status": "over_limit",
+  "candidate_limit": 31,
+  "reference_denominator": 31,
+  "actual_candidate_count": 56,
+  "observed_candidate_count": 56,
+  "excess_count": 25,
+  "confirmed_component_points": {
+    "coverage": 12.65,
+    "quality": 17.5
+  },
+  "tier_report": {
+    "status": "confirmed",
+    "schools": [
+      {
+        "school_key": "上海大学",
+        "answer_quote": "| 21 | 上海大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 211 平级 + **上海区位**，就业与实习资源对你的产业方向（氢能/新能源汽车）极有利。风险：上海高校保研热度全国最高之一，实际可能偏冲 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "上海理工大学",
+        "answer_quote": "| 30 | 上海理工大学 | 材料与光学学院 | 085601 材料工程 | 专硕 | ★**上海区位的保底选项**，性价比极高——以双非分数拿上海的实习与就业资源。风险：非 211 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "东北大学",
+        "answer_quote": "| 17 | 东北大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，材料与冶金结合，表面工程/涂层有传统；报考热度低于大连理工。风险：区位 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "东华大学",
+        "answer_quote": "| B-4 | 东华大学 · 材料科学与工程学院 | 085601 材料工程 / 085604 纺织工程 | 稳 | 211 + 上海，复合材料有特色 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "中南大学",
+        "answer_quote": "| 5 | 中南大学 | 材料科学与工程学院（或粉末冶金研究院） | 085601 材料工程 / 085603 冶金工程（涂层、粉末冶金、表面防护） | 专硕 | 985，材料 A+；粉末冶金与涂层方向与你的材料加工经历有接口。风险：学科太强，竞争者多为前 10% |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "中国海洋大学",
+        "answer_quote": "| B-7 | 中国海洋大学 · 材料科学与工程学院 | 085601 材料工程 | 稳 | 985，青岛，报考热度低于同层次 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "中国矿业大学",
+        "answer_quote": "| 22 | 中国矿业大学（徐州） | 材料科学与工程学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 211，江苏本地，离苏州近；材料学科有博士点，报考热度低于南理工。风险：行业标签偏矿业，需想清楚是否接受 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "中国科学技术大学",
+        "answer_quote": "| 3 | 中国科学院大学 | **金属研究所**（沈阳）· 表面工程 / 腐蚀防护与涂层 | 0805 材料科学与工程（080503 材料加工工程）/ 085601 材料工程 | 学硕 / 专硕 / 直博 | 材料制备、材料制备、SEM/拉曼——与该所表面工程方向技能栈高度重合。风险：地处沈阳，需确认你接受 |",
+        "downgraded": false,
+        "reason": "金属所本轮实际招生主体为中科大材料科学与工程学院，985高于本校211；答卷误填国科大属招生身份错误，已单列，研究所不能按普通双非降级。"
+      },
+      {
+        "school_key": "中国科学院大学",
+        "answer_quote": "| 1 | 中国科学院大学 | **大连化学物理研究所**（招生单位代码 80038）· 燃料电池研究部 | 085601 材料工程（氢燃料电池**材料相关课题** / 电催化方向）；亦可申 0805 材料科学与工程 | 专硕 / **直博** | ★最高优先级。国内 PEMFC 与材料相关课题最核心单位，你的经历与之精准对口。风险：竞争激烈，须**提前邮件锁定导师意向**，走预推免而非等系统 |",
+        "downgraded": false,
+        "reason": "按国科大研究生招生与授位主体、研究所具体培养判断，不因无985/211标签机械降级；同校多研究所只记一所，内容valid不意味着当届全部专业代码已审计。"
+      },
+      {
+        "school_key": "中国计量大学",
+        "answer_quote": "| B-8 | 中国计量大学 · 质量与标准化学院 / 材料学院 | 085601 材料工程 | 保 | ★与你的**复合材料质检实习**最对口的一个；若你倾向质检/标准化/认证职业路径，这一格的优先级应提到 C 档前列 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "兰州大学",
+        "answer_quote": "| 16 | 兰州大学 | 材料与本校能源相关院系 / 化学化工学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | ★985 里性价比最高的一个。地理偏远导致保研报考人数长期不足，每年有缺额；学科底子扎实。风险：区位，且部分年份名额被本校生占用 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "北京科技大学",
+        "answer_quote": "| 8 | 北京科技大学 | 材料科学与工程学院 / 新材料技术研究院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 211 但材料学科 A+，新金属材料国家重点实验室；行业认可度极高（钢铁、涂层、表面工程）。风险：材料强校，属 211 平级向上冲 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "华东理工大学",
+        "answer_quote": "| B-2 | 华东理工大学 · 材料科学与工程学院 | 085601 材料工程 | 稳 | 211 + 上海区位，化工材料交叉强 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "华中科技大学",
+        "answer_quote": "| 4 | 华中科技大学 | 材料科学与工程学院 | 085601 材料工程（表面工程 / 材料成形） | 专硕 | 985，材料学科 A 类，招生体量大，专硕名额相对充足。风险：材料强校，前 29% 排名在初审环节可能被卡 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "华南理工大学",
+        "answer_quote": "| 10 | 华南理工大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，珠三角产业与就业最好，专硕招生量大。风险：地处广州、报考热度高，前 29% 属明显冲刺 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "南京工业大学",
+        "answer_quote": "| 28 | 南京工业大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 南京，化工与材料学科实力超过多数 211（化工 A 类），产业界认可度高。风险：非 211 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "南京理工大学",
+        "answer_quote": "| 18 | 南京理工大学 | 材料科学与工程学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 211，江苏本地，地缘与校友网络对你最有利；材料学科近年上升快。风险：本地生源竞争激烈 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "南京航空航天大学",
+        "answer_quote": "| B-6 | 南京航空航天大学 · 材料科学与技术学院 | 085601 材料工程 | 稳偏冲 | 211，航空航天材料，表面工程强 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "南昌大学",
+        "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "合肥工业大学",
+        "answer_quote": "| 24 | 合肥工业大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 211，工科底子厚，汽车行业校友网络强（与材料相关课题/新能源汽车产业衔接）。风险：合肥近年热度上升 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "哈尔滨工程大学",
+        "answer_quote": "| 19 | 哈尔滨工程大学 | 材料科学与化学工程学院 | 085601 材料工程（舰船材料、腐蚀防护、涂层） | 专硕 | 211，「三海一核」特色，腐蚀防护与涂层方向与材料制备高度契合；报考热度低于同层次 211。风险：区位 + 军工背景院校的政审要求 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "大连理工大学",
+        "answer_quote": "| 7 | 大连理工大学 | 材料科学与工程学院（三束材料改性教育部重点实验室） | 085601 材料工程 | 专硕 | 985；「三束材料改性」即离子束/激光/电子束表面改性，与镀层调控同一知识体系。风险：东北区位使其近年报考热度下降，反而是机会 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "太原理工大学",
+        "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "常州大学",
+        "answer_quote": "| B-11 | 常州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 江苏常州，石化特色，长三角就业便利，兜底用 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "武汉理工大学",
+        "answer_quote": "| 9 | 武汉理工大学 | 材料科学与工程学院（材料复合新技术全国重点实验室） | 0805 材料科学与工程 / 085601 材料工程 | 学硕 / 专硕 | 211 但材料 A+，三大行业特色校之一；复合材料方向与你的**复合材料质检实习**直接呼应。风险：材料是其王牌，院内竞争最激烈 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "江南大学",
+        "answer_quote": "| 23 | 江南大学 | 化学与材料工程学院 | 085601 材料工程 | 专硕 | 211，无锡，离苏州 30 分钟高铁；材料学科有博士点，保研接收相对友好。**实为「保底里的升级选项」** |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "江苏大学",
+        "answer_quote": "| 27 | 江苏大学 | 材料科学与工程学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 镇江，江苏重点建设高校，材料学科有博士点，接收推免生名额充裕。风险：非 211，学历标签略降 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "河海大学",
+        "answer_quote": "| B-5 | 河海大学 · 力学与材料学院 / 能源与电气学院 | 085601 材料工程 / 085800 能源动力 | 稳 | 211，南京，地缘有利 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "浙江工业大学",
+        "answer_quote": "| 29 | 浙江工业大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 杭州，浙江头部双非，区位与就业极佳，推免接收友好。风险：非 211 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "湖南大学",
+        "answer_quote": "| 14 | 湖南大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，材料学科实力强而报考热度低于华科/中南，性价比好。⚠️**特别注意**：湖大推免办法对中外合作办学项目学生设有「学院 3 名以上教授考核认定」附加条款，务必先电话问清接收端是否同样审核 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "电子科技大学",
+        "answer_quote": "| B-3 | 电子科技大学 · 材料与本校能源相关院系 | 085601 材料工程 | 冲 | 985，电子材料方向，就业极好 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "福州大学",
+        "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "苏州大学",
+        "answer_quote": "| 25 | **华东地区一所211高校** | **本校材料相关院系（本校材料相关院系）** | 0805 材料科学与工程 / 085601 材料工程 | 学硕 / 专硕 | ★本校第一保底。本校材料学科实力不俗，学部平台大、导师多；本校生信息与人脉优势最大。风险：本院同学也会留，需早联系导师 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "西北工业大学",
+        "answer_quote": "| 6 | 西北工业大学 | 材料学院 | 0805 材料科学与工程 / 085601 材料工程（凝固技术、表面防护） | 学硕 / 专硕 | 985，表面防护与涂层是国家重点方向。风险：军工背景院校对政治审查与本科专业背景有要求，须先电话确认中外合作办学是否受限 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "西南交通大学",
+        "answer_quote": "| 20 | 西南交通大学 | 材料科学与工程学院（材料先进技术教育部重点实验室） | 085601 材料工程 | 专硕 | 211，轨道交通行业龙头，材料表面强化与焊接涂层是特色；行业就业极好。风险：地处成都，报考热度中等偏上 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "西安建筑科技大学",
+        "answer_quote": "| 31 | 西安建筑科技大学 | 材料科学与工程学院 | 085601 材料工程（**建筑材料方向**） | 专硕 | ★与你的**建筑材料实习**直接对口，「八大建筑老校」之一，行业内认可度远超其学校层次。风险：地处西安，行业偏建筑 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      },
+      {
+        "school_key": "郑州大学",
+        "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "重庆大学",
+        "answer_quote": "| 15 | 重庆大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，西部区位使竞争烈度低于同层次东部院校；专硕名额多。风险：地处西南，需确认接受 |",
+        "downgraded": false,
+        "reason": "相对华东地区一所211高校211基准为985提升或211同档，不降级。"
+      },
+      {
+        "school_key": "青岛科技大学",
+        "answer_quote": "| B-9 | 青岛科技大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 高分子与橡胶特色，行业认可度高 |",
+        "downgraded": true,
+        "reason": "基准为华东地区一所211高校211；该校属非985/211的其他本科高校，按本题操作层次为下降。答卷作为地域/行业保底，降级只用于three_level层次评价，不作逐校机械扣分。"
+      }
+    ],
+    "quantity_review": {
+      "actual_candidate_count": 56,
+      "candidate_limit": 31,
+      "excess_count": 25,
+      "reason": "全卷纳入主表、备选、明确排除、正文提名及重复出现；重复按canonical去重。院系含糊合并未凭空拆出独立路径；B-10共同院系专业适用于逐一列举的四所学校，分别可识别。数量超额按score_with_warning处理，评审不算总分。"
+    }
+  },
+  "downgraded_schools": [],
+  "recommendation_review": [
+    {
+      "answer_item_id": "T01",
+      "canonical_candidate_key": "中国科学院大学|大连化学物理研究所燃料电池方向，材料学位备选",
+      "school_key": "中国科学院大学",
+      "label": "大连化学物理研究所燃料电池方向，材料学位备选",
+      "answer_quote": "| 1 | 中国科学院大学 | **大连化学物理研究所**（招生单位代码 80038）· 燃料电池研究部 | 085601 材料工程（氢燃料电池**材料相关课题** / 电催化方向）；亦可申 0805 材料科学与工程 | 专硕 / **直博** | ★最高优先级。国内 PEMFC 与材料相关课题最核心单位，你的经历与之精准对口。风险：竞争激烈，须**提前邮件锁定导师意向**，走预推免而非等系统 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表给出燃料电池方向并明确0805备选；官方国科大目录可支持大连化物所材料科学与工程的学位身份。085601专硕分支不在本次认定依据内，不因该分支未核准而否定已写明的材料学位备选；直博需本人接受长期培养并联系导师核实。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T02",
+      "canonical_candidate_key": "中国科学院大学|宁波材料技术与工程研究所燃料电池材料工程",
+      "school_key": "中国科学院大学",
+      "label": "宁波材料技术与工程研究所燃料电池材料工程",
+      "answer_quote": "| 2 | 中国科学院大学 | **宁波材料技术与工程研究所**（代码 801743）· 先进燃料电池与电解池技术重点实验室 | 085601 材料工程（燃料电池技术 / 氢能与储能材料） | 专硕 / 直博 | ★最高优先级。已发布 2027 推免规程、9 月复试，持有「燃料电池材料相关课题流道结构设计方法」发明专利；长三角地缘，区域交通较便利。风险：规程既出说明报名已在进行，须立刻行动 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T03",
+      "canonical_candidate_key": "中国科学技术大学|金属研究所材料项目（答卷误列为中国科学院大学）",
+      "school_key": "中国科学技术大学",
+      "label": "金属研究所材料项目（答卷误列为中国科学院大学）",
+      "answer_quote": "| 3 | 中国科学院大学 | **金属研究所**（沈阳）· 表面工程 / 腐蚀防护与涂层 | 0805 材料科学与工程（080503 材料加工工程）/ 085601 材料工程 | 学硕 / 专硕 / 直博 | 材料制备、材料制备、SEM/拉曼——与该所表面工程方向技能栈高度重合。风险：地处沈阳，需确认你接受 |",
+      "treatment": "conditional",
+      "validity": "invalid",
+      "reason": "2026-08-24公布的2027年推免通知明确为中国科学技术大学材料科学与工程学院，金属所负责培养；答卷却把招生学校填成中国科学院大学。不是研究所简称问题，按实际招生、授位主体记录school_key；未因九月未知具体日而另外判定截止。见evidence.json：EV-IMR。",
+      "error_ids": [
+        "E-IMR"
+      ],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T04",
+      "canonical_candidate_key": "华中科技大学|材料科学与工程学院材料工程",
+      "school_key": "华中科技大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 4 | 华中科技大学 | 材料科学与工程学院 | 085601 材料工程（表面工程 / 材料成形） | 专硕 | 985，材料学科 A 类，招生体量大，专硕名额相对充足。风险：材料强校，前 29% 排名在初审环节可能被卡 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T05",
+      "canonical_candidate_key": "中南大学|材料科学与工程学院或粉末冶金研究院材料/冶金工程（合并候选）",
+      "school_key": "中南大学",
+      "label": "材料科学与工程学院或粉末冶金研究院材料/冶金工程（合并候选）",
+      "answer_quote": "| 5 | 中南大学 | 材料科学与工程学院（或粉末冶金研究院） | 085601 材料工程 / 085603 冶金工程（涂层、粉末冶金、表面防护） | 专硕 | 985，材料 A+；粉末冶金与涂层方向与你的材料加工经历有接口。风险：学科太强，竞争者多为前 10% |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "表内并列两个独立院系，专业没有逐一对应，不替答卷拆成两个候选。其材料/冶金硕士意向仍可识别；对中南大学只给到推免硕士的参考粒度，可核对学校与硕士路径，不额外强求参考没有规定的院系粒度。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T06",
+      "canonical_candidate_key": "西北工业大学|材料学院材料科学与工程/材料工程",
+      "school_key": "西北工业大学",
+      "label": "材料学院材料科学与工程/材料工程",
+      "answer_quote": "| 6 | 西北工业大学 | 材料学院 | 0805 材料科学与工程 / 085601 材料工程（凝固技术、表面防护） | 学硕 / 专硕 | 985，表面防护与涂层是国家重点方向。风险：军工背景院校对政治审查与本科专业背景有要求，须先电话确认中外合作办学是否受限 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "推荐的是材料学院凝固技术/表面防护，身份与材料硕士意向可识别；不是柔性电子学院的别名。传统结构材料/防护方向不能仅因同校、同属材料就视为柔性电子项目。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T07",
+      "canonical_candidate_key": "大连理工大学|材料科学与工程学院材料工程",
+      "school_key": "大连理工大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 7 | 大连理工大学 | 材料科学与工程学院（三束材料改性教育部重点实验室） | 085601 材料工程 | 专硕 | 985；「三束材料改性」即离子束/激光/电子束表面改性，与镀层调控同一知识体系。风险：东北区位使其近年报考热度下降，反而是机会 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T08",
+      "canonical_candidate_key": "北京科技大学|材料科学与工程学院/新材料技术研究院材料项目（合并候选）",
+      "school_key": "北京科技大学",
+      "label": "材料科学与工程学院/新材料技术研究院材料项目（合并候选）",
+      "answer_quote": "| 8 | 北京科技大学 | 材料科学与工程学院 / 新材料技术研究院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 211 但材料学科 A+，新金属材料国家重点实验室；行业认可度极高（钢铁、涂层、表面工程）。风险：材料强校，属 211 平级向上冲 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "表内并列两个独立院系，专业没有逐一对应，不替答卷拆成两个候选。其材料/冶金硕士意向仍可识别；对中南大学只给到推免硕士的参考粒度，可核对学校与硕士路径，不额外强求参考没有规定的院系粒度。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T09",
+      "canonical_candidate_key": "武汉理工大学|材料科学与工程学院材料项目",
+      "school_key": "武汉理工大学",
+      "label": "材料科学与工程学院材料项目",
+      "answer_quote": "| 9 | 武汉理工大学 | 材料科学与工程学院（材料复合新技术全国重点实验室） | 0805 材料科学与工程 / 085601 材料工程 | 学硕 / 专硕 | 211 但材料 A+，三大行业特色校之一；复合材料方向与你的**复合材料质检实习**直接呼应。风险：材料是其王牌，院内竞争最激烈 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T10",
+      "canonical_candidate_key": "华南理工大学|材料科学与工程学院材料工程",
+      "school_key": "华南理工大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 10 | 华南理工大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，珠三角产业与就业最好，专硕招生量大。风险：地处广州、报考热度高，前 29% 属明显冲刺 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T11",
+      "canonical_candidate_key": "中国科学技术大学|苏州纳米所|答卷误列国科大材料纳米项目",
+      "school_key": "中国科学技术大学",
+      "label": "苏州纳米技术与纳米仿生研究所材料/纳米项目",
+      "answer_quote": "| 11 | 中国科学院大学 | **苏州纳米技术与纳米仿生研究所** | 085601 材料工程 / 纳米科学与工程（二维碳材料、二维材料） | 专硕 / 直博 | ★地缘王牌。就在苏州，你的二维碳材料经历直接对口；导师面谈成本极低，可当场上门。风险：本地生源与本校同学也会投，需早联系 |",
+      "treatment": "conditional",
+      "validity": "invalid",
+      "reason": "中国科大官方招生简介说明2016年与苏州纳米所共建纳米技术与纳米仿生学院，录取研究生取得中国科大学籍，在材料等专业招收推免。答卷填“中国科学院大学”混淆招生授位主体。证据支持长期科教融合身份，不以未找到某年网页判不存在；不替答卷换招生学校恢复有效。见EV-SINANO。",
+      "error_ids": [
+        "E-SINANO"
+      ],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T12",
+      "canonical_candidate_key": "中国科学院大学|青岛生物能源与过程研究所燃料电池材料项目",
+      "school_key": "中国科学院大学",
+      "label": "青岛生物能源与过程研究所燃料电池材料项目",
+      "answer_quote": "| 12 | 中国科学院大学 | **青岛生物能源与过程研究所**（代码 80179）· 燃料电池工程研究中心 | 085601 材料工程 / 材料科学与工程 | 专硕 / 直博 | 设燃料电池工程研究中心，侧重膜、电堆集成与密封，与材料相关课题相邻；「清源聚能」夏令营是推免主渠道，错过后走 9 月预推免。风险：山东能源研究院科教融合后招生结构调整，须核对当年目录 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T13",
+      "canonical_candidate_key": "中国科学院大学|上海硅酸盐研究所材料项目",
+      "school_key": "中国科学院大学",
+      "label": "上海硅酸盐研究所材料项目",
+      "answer_quote": "| 13 | 中国科学院大学 | **上海硅酸盐研究所** | 085601 材料工程 / 0805 材料科学与工程（能源无机材料、功能涂层） | 专硕 / 直博 | 上海区位 + 中科院平台 + 涂层/无机材料积累。风险：偏陶瓷与无机材料，与材料相关课题方向关联度中等 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T14",
+      "canonical_candidate_key": "湖南大学|材料科学与工程学院材料工程",
+      "school_key": "湖南大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 14 | 湖南大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，材料学科实力强而报考热度低于华科/中南，性价比好。⚠️**特别注意**：湖大推免办法对中外合作办学项目学生设有「学院 3 名以上教授考核认定」附加条款，务必先电话问清接收端是否同样审核 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "材料学院项目内容可识别；答卷将湖大本校推荐端的教授考核规定类推为接收端风险，依据不足，但给出了实际接收端电话核验路径，未据此直接排除。该未知条件不等于学生不合格。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T15",
+      "canonical_candidate_key": "重庆大学|材料科学与工程学院材料工程",
+      "school_key": "重庆大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 15 | 重庆大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，西部区位使竞争烈度低于同层次东部院校；专硕名额多。风险：地处西南，需确认接受 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T16",
+      "canonical_candidate_key": "兰州大学|材料与能源学院/化学化工学院材料项目（合并未消歧）",
+      "school_key": "兰州大学",
+      "label": "材料与能源学院/化学化工学院材料项目（合并未消歧）",
+      "answer_quote": "| 16 | 兰州大学 | 材料与本校能源相关院系 / 化学化工学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | ★985 里性价比最高的一个。地理偏远导致保研报考人数长期不足，每年有缺额；学科底子扎实。风险：区位，且部分年份名额被本校生占用 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "材料与本校能源相关院系/化学化工学院为两个独立招生院系，0805/085601未分别对应；全文没有另外明确院系与专业组合。保留这条实际合并推荐用于数量审阅，不能拆出材料与本校能源相关院系计A-19命中；合并含糊本身不证明院系不存在。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T17",
+      "canonical_candidate_key": "东北大学|材料科学与工程学院材料工程",
+      "school_key": "东北大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 17 | 东北大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 985，材料与冶金结合，表面工程/涂层有传统；报考热度低于大连理工。风险：区位 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T18",
+      "canonical_candidate_key": "南京理工大学|材料科学与工程学院材料项目",
+      "school_key": "南京理工大学",
+      "label": "材料科学与工程学院材料项目",
+      "answer_quote": "| 18 | 南京理工大学 | 材料科学与工程学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 211，江苏本地，地缘与校友网络对你最有利；材料学科近年上升快。风险：本地生源竞争激烈 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T19",
+      "canonical_candidate_key": "哈尔滨工程大学|材料科学与化学工程学院材料工程",
+      "school_key": "哈尔滨工程大学",
+      "label": "材料科学与化学工程学院材料工程",
+      "answer_quote": "| 19 | 哈尔滨工程大学 | 材料科学与化学工程学院 | 085601 材料工程（舰船材料、腐蚀防护、涂层） | 专硕 | 211，「三海一核」特色，腐蚀防护与涂层方向与材料制备高度契合；报考热度低于同层次 211。风险：区位 + 军工背景院校的政审要求 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T20",
+      "canonical_candidate_key": "西南交通大学|材料科学与工程学院材料工程",
+      "school_key": "西南交通大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 20 | 西南交通大学 | 材料科学与工程学院（材料先进技术教育部重点实验室） | 085601 材料工程 | 专硕 | 211，轨道交通行业龙头，材料表面强化与焊接涂层是特色；行业就业极好。风险：地处成都，报考热度中等偏上 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T21",
+      "canonical_candidate_key": "上海大学|材料科学与工程学院材料工程",
+      "school_key": "上海大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 21 | 上海大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 211 平级 + **上海区位**，就业与实习资源对你的产业方向（氢能/新能源汽车）极有利。风险：上海高校保研热度全国最高之一，实际可能偏冲 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "明确推荐上海大学材料科学与工程学院材料工程。与材料基因组研究院是不同招生单位；同校材料学位、实验表征及材料开发培养内容有官方研究院招生和复试材料支持，可建立相关院系关系，不认作院系同名。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T22",
+      "canonical_candidate_key": "中国矿业大学|徐州材料科学与工程学院材料项目",
+      "school_key": "中国矿业大学",
+      "label": "徐州材料科学与工程学院材料项目",
+      "answer_quote": "| 22 | 中国矿业大学（徐州） | 材料科学与工程学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 211，江苏本地，离苏州近；材料学科有博士点，报考热度低于南理工。风险：行业标签偏矿业，需想清楚是否接受 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T23",
+      "canonical_candidate_key": "江南大学|化学与材料工程学院材料工程",
+      "school_key": "江南大学",
+      "label": "化学与材料工程学院材料工程",
+      "answer_quote": "| 23 | 江南大学 | 化学与材料工程学院 | 085601 材料工程 | 专硕 | 211，无锡，离苏州 30 分钟高铁；材料学科有博士点，保研接收相对友好。**实为「保底里的升级选项」** |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T24",
+      "canonical_candidate_key": "合肥工业大学|材料科学与工程学院材料工程",
+      "school_key": "合肥工业大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 24 | 合肥工业大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 211，工科底子厚，汽车行业校友网络强（与材料相关课题/新能源汽车产业衔接）。风险：合肥近年热度上升 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T25",
+      "canonical_candidate_key": "苏州大学|材料与化学化工学部材料项目",
+      "school_key": "苏州大学",
+      "label": "材料与化学化工学部材料项目",
+      "answer_quote": "| 25 | **华东地区一所211高校** | **本校材料相关院系（本校材料相关院系）** | 0805 材料科学与工程 / 085601 材料工程 | 学硕 / 专硕 | ★本校第一保底。本校材料学科实力不俗，学部平台大、导师多；本校生信息与人脉优势最大。风险：本院同学也会留，需早联系导师 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T26",
+      "canonical_candidate_key": "苏州大学|能源学院085800能源动力/0807动力工程及工程热物理",
+      "school_key": "苏州大学",
+      "label": "能源学院085800能源动力/0807动力工程及工程热物理",
+      "answer_quote": "| 26 | **华东地区一所211高校** | **本校能源相关院系**（或本校纳米相关院系 本校纳米相关院系） | 085800 能源动力（专硕）/ 0807 动力工程及工程热物理（学硕）；本校纳米相关院系可考虑纳米科学与工程 | 专硕 / 学硕 | ★**最稳的一格**。本院直系，导师可能就是你大创的指导教师或同院老师，专业连续性最强，几乎不存在信息差。本校纳米相关院系（本校纳米相关院系）是本校最强平台之一，可作为「保底中的冲高」 |",
+      "treatment": "conditional",
+      "validity": "invalid",
+      "reason": "表内本校能源相关院系对应085800/0807；2027目录列的是0702Z2能源与环境系统工程、0805J4新能源科学与工程、085601材料工程，没有答卷指定的两条学位路径。2026年已公开复试细则也支持其材料招生身份。纳米学院在同一行另有明确专业描述，另行提取，不用其有效路径修复本校能源相关院系错误。见EV-home_school-CATALOG、EV-home_school-2026。",
+      "error_ids": [
+        "E-home_school-ENERGY"
+      ],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T27",
+      "canonical_candidate_key": "江苏大学|材料科学与工程学院材料项目",
+      "school_key": "江苏大学",
+      "label": "材料科学与工程学院材料项目",
+      "answer_quote": "| 27 | 江苏大学 | 材料科学与工程学院 | 085601 材料工程 / 0805 材料科学与工程 | 专硕 / 学硕 | 镇江，江苏重点建设高校，材料学科有博士点，接收推免生名额充裕。风险：非 211，学历标签略降 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。 答卷明示或能识别为非211保底，有地域/行业取舍；层次下降只在层次项按rubric边界评价，不取消合法项目身份。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T28",
+      "canonical_candidate_key": "南京工业大学|材料科学与工程学院材料工程",
+      "school_key": "南京工业大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 28 | 南京工业大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 南京，化工与材料学科实力超过多数 211（化工 A 类），产业界认可度高。风险：非 211 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。 答卷明示或能识别为非211保底，有地域/行业取舍；层次下降只在层次项按rubric边界评价，不取消合法项目身份。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T29",
+      "canonical_candidate_key": "浙江工业大学|材料科学与工程学院材料工程",
+      "school_key": "浙江工业大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| 29 | 浙江工业大学 | 材料科学与工程学院 | 085601 材料工程 | 专硕 | 杭州，浙江头部双非，区位与就业极佳，推免接收友好。风险：非 211 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。 答卷明示或能识别为非211保底，有地域/行业取舍；层次下降只在层次项按rubric边界评价，不取消合法项目身份。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T30",
+      "canonical_candidate_key": "上海理工大学|材料与光学学院材料工程",
+      "school_key": "上海理工大学",
+      "label": "材料与光学学院材料工程",
+      "answer_quote": "| 30 | 上海理工大学 | 材料与光学学院 | 085601 材料工程 | 专硕 | ★**上海区位的保底选项**，性价比极高——以双非分数拿上海的实习与就业资源。风险：非 211 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。 答卷明示或能识别为非211保底，有地域/行业取舍；层次下降只在层次项按rubric边界评价，不取消合法项目身份。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T31",
+      "canonical_candidate_key": "西安建筑科技大学|材料科学与工程学院建筑材料工程",
+      "school_key": "西安建筑科技大学",
+      "label": "材料科学与工程学院建筑材料工程",
+      "answer_quote": "| 31 | 西安建筑科技大学 | 材料科学与工程学院 | 085601 材料工程（**建筑材料方向**） | 专硕 | ★与你的**建筑材料实习**直接对口，「八大建筑老校」之一，行业内认可度远超其学校层次。风险：地处西安，行业偏建筑 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "主表实际推荐。院系、材料专业或研究方向可识别，科研制备/镀层/表征或实习背景提供适配基础；按共同身份核验条件申请。未命中参考不意味着该推荐错误，也不将主观命中率当作录取证据。 答卷明示或能识别为非211保底，有地域/行业取舍；层次下降只在层次项按rubric边界评价，不取消合法项目身份。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "T26-NANO",
+      "canonical_candidate_key": "苏州大学|FUNSOM|纳米科学与工程",
+      "school_key": "苏州大学",
+      "label": "纳米科学技术学院/FUNSOM纳米科学与工程",
+      "answer_quote": "| 26 | **华东地区一所211高校** | **本校能源相关院系**（或本校纳米相关院系 本校纳米相关院系） | 085800 能源动力（专硕）/ 0807 动力工程及工程热物理（学硕）；本校纳米相关院系可考虑纳米科学与工程 | 专硕 / 学硕 | ★**最稳的一格**。本院直系，导师可能就是你大创的指导教师或同院老师，专业连续性最强，几乎不存在信息差。本校纳米相关院系（本校纳米相关院系）是本校最强平台之一，可作为「保底中的冲高」 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "同一行另有“本校纳米相关院系可考虑纳米科学与工程”，并解释可作为保底中的冲高，因此是明确的独立替代项目。学院教学名称与研究生招生单位功能纳米与软物质研究院（本校纳米相关院系）为隶属/同平台关系，官方招生资料支持140600纳米科学与工程；与本校能源相关院系分开记录，不能当成本校能源相关院系别名。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B01",
+      "canonical_candidate_key": "中国科学院大学|福建物质结构研究所/上海高等研究院材料项目（合并未消歧）",
+      "school_key": "中国科学院大学",
+      "label": "福建物质结构研究所/上海高等研究院材料项目（合并未消歧）",
+      "answer_quote": "| B-1 | 中国科学院大学 · 福建物质结构研究所 / 上海高等研究院 | 085601 材料工程 / 0805 材料科学与工程 | 稳 | 中科院系统对排名宽容，是补位首选 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "此行合并独立招生单位或院系，未分别说明专业归属；只能保留实际合并候选，不能替它创造多条独立路径或院系命中。并列内容有相关材料/能源培养意向，缺清晰映射不等于证明单位不存在。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B02",
+      "canonical_candidate_key": "华东理工大学|材料科学与工程学院材料工程",
+      "school_key": "华东理工大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| B-2 | 华东理工大学 · 材料科学与工程学院 | 085601 材料工程 | 稳 | 211 + 上海区位，化工材料交叉强 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "备选池实际条件推荐；主表对象不能接收时按同档或相邻档补位。材料方向与本人材料实验/质检背景相关，逐院核验中外合作接收条件与剩余名额；没有参考关系不判错误。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B03",
+      "canonical_candidate_key": "电子科技大学|材料与能源学院085601材料工程",
+      "school_key": "电子科技大学",
+      "label": "材料与能源学院085601材料工程",
+      "answer_quote": "| B-3 | 电子科技大学 · 材料与本校能源相关院系 | 085601 材料工程 | 冲 | 985，电子材料方向，就业极好 |",
+      "treatment": "conditional",
+      "validity": "invalid",
+      "reason": "2027正式目录003院085601是非全日制，085600是全日制，两者并存；国家推免目录该校材料查询完整14条，003只列材料科学与工程/材料与化工，材料工程在002及国家卓工学院。答卷具体B03精确选择003/085601，不是085600的规范简称或更名；全卷一般性“部分院校按085600”介绍未为B03列此具体可行改报方案，评审不得替其创造路径。故本轮所写B03推免路径不成立。不是未找到网页即判错，也不声称非全日制全国一律不能推免。",
+      "error_ids": [
+        "ADJ-UESTC-003-PATH"
+      ],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B04",
+      "canonical_candidate_key": "东华大学|材料科学与工程学院材料/纺织工程",
+      "school_key": "东华大学",
+      "label": "材料科学与工程学院材料/纺织工程",
+      "answer_quote": "| B-4 | 东华大学 · 材料科学与工程学院 | 085601 材料工程 / 085604 纺织工程 | 稳 | 211 + 上海，复合材料有特色 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "备选池实际条件推荐；主表对象不能接收时按同档或相邻档补位。材料方向与本人材料实验/质检背景相关，逐院核验中外合作接收条件与剩余名额；没有参考关系不判错误。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B05",
+      "canonical_candidate_key": "河海大学|力学与材料学院/能源与电气学院材料工程/能源动力（合并未消歧）",
+      "school_key": "河海大学",
+      "label": "力学与材料学院/能源与电气学院材料工程/能源动力（合并未消歧）",
+      "answer_quote": "| B-5 | 河海大学 · 力学与材料学院 / 能源与电气学院 | 085601 材料工程 / 085800 能源动力 | 稳 | 211，南京，地缘有利 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "此行合并独立招生单位或院系，未分别说明专业归属；只能保留实际合并候选，不能替它创造多条独立路径或院系命中。并列内容有相关材料/能源培养意向，缺清晰映射不等于证明单位不存在。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B06",
+      "canonical_candidate_key": "南京航空航天大学|材料科学与技术学院材料工程",
+      "school_key": "南京航空航天大学",
+      "label": "材料科学与技术学院材料工程",
+      "answer_quote": "| B-6 | 南京航空航天大学 · 材料科学与技术学院 | 085601 材料工程 | 稳偏冲 | 211，航空航天材料，表面工程强 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "备选池实际条件推荐；主表对象不能接收时按同档或相邻档补位。材料方向与本人材料实验/质检背景相关，逐院核验中外合作接收条件与剩余名额；没有参考关系不判错误。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B07",
+      "canonical_candidate_key": "中国海洋大学|材料科学与工程学院材料工程",
+      "school_key": "中国海洋大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| B-7 | 中国海洋大学 · 材料科学与工程学院 | 085601 材料工程 | 稳 | 985，青岛，报考热度低于同层次 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "备选池实际条件推荐；主表对象不能接收时按同档或相邻档补位。材料方向与本人材料实验/质检背景相关，逐院核验中外合作接收条件与剩余名额；没有参考关系不判错误。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B08",
+      "canonical_candidate_key": "中国计量大学|质量与标准化学院/材料学院材料工程（合并未消歧）",
+      "school_key": "中国计量大学",
+      "label": "质量与标准化学院/材料学院材料工程（合并未消歧）",
+      "answer_quote": "| B-8 | 中国计量大学 · 质量与标准化学院 / 材料学院 | 085601 材料工程 | 保 | ★与你的**复合材料质检实习**最对口的一个；若你倾向质检/标准化/认证职业路径，这一格的优先级应提到 C 档前列 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "此行合并独立招生单位或院系，未分别说明专业归属；只能保留实际合并候选，不能替它创造多条独立路径或院系命中。并列内容有相关材料/能源培养意向，缺清晰映射不等于证明单位不存在。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B09",
+      "canonical_candidate_key": "青岛科技大学|材料科学与工程学院材料工程",
+      "school_key": "青岛科技大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| B-9 | 青岛科技大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 高分子与橡胶特色，行业认可度高 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "备选池实际条件推荐；主表对象不能接收时按同档或相邻档补位。材料方向与本人材料实验/质检背景相关，逐院核验中外合作接收条件与剩余名额；没有参考关系不判错误。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B10-太原理工大学",
+      "canonical_candidate_key": "太原理工大学|材料科学与工程学院|材料工程",
+      "school_key": "太原理工大学",
+      "label": "材料科学与工程学院材料工程备选",
+      "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该行逐一列出四所学校，给出共同的材料学院、材料工程及保底补位说明，可识别为四个学校的同类申请对象；无不同院系与不同专业交叉映射的歧义，分别提取，不由数量上限截断。",
+      "error_ids": [],
+      "key_condition": "主表对象被划掉时补位，且接收身份、专业目录与本轮窗口核验通过。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B10-郑州大学",
+      "canonical_candidate_key": "郑州大学|材料科学与工程学院|材料工程",
+      "school_key": "郑州大学",
+      "label": "材料科学与工程学院材料工程备选",
+      "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该行逐一列出四所学校，给出共同的材料学院、材料工程及保底补位说明，可识别为四个学校的同类申请对象；无不同院系与不同专业交叉映射的歧义，分别提取，不由数量上限截断。",
+      "error_ids": [],
+      "key_condition": "主表对象被划掉时补位，且接收身份、专业目录与本轮窗口核验通过。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B10-南昌大学",
+      "canonical_candidate_key": "南昌大学|材料科学与工程学院|材料工程",
+      "school_key": "南昌大学",
+      "label": "材料科学与工程学院材料工程备选",
+      "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该行逐一列出四所学校，给出共同的材料学院、材料工程及保底补位说明，可识别为四个学校的同类申请对象；无不同院系与不同专业交叉映射的歧义，分别提取，不由数量上限截断。",
+      "error_ids": [],
+      "key_condition": "主表对象被划掉时补位，且接收身份、专业目录与本轮窗口核验通过。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B10-福州大学",
+      "canonical_candidate_key": "福州大学|材料科学与工程学院|材料工程",
+      "school_key": "福州大学",
+      "label": "材料科学与工程学院材料工程备选",
+      "answer_quote": "| B-10 | 太原理工大学 / 郑州大学 / 南昌大学 / 福州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 四所 211，中西部区位使其保研接收相对友好，是可靠的保底补位 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该行逐一列出四所学校，给出共同的材料学院、材料工程及保底补位说明，可识别为四个学校的同类申请对象；无不同院系与不同专业交叉映射的歧义，分别提取，不由数量上限截断。",
+      "error_ids": [],
+      "key_condition": "主表对象被划掉时补位，且接收身份、专业目录与本轮窗口核验通过。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "B11",
+      "canonical_candidate_key": "常州大学|材料科学与工程学院材料工程",
+      "school_key": "常州大学",
+      "label": "材料科学与工程学院材料工程",
+      "answer_quote": "| B-11 | 常州大学 · 材料科学与工程学院 | 085601 材料工程 | 保 | 江苏常州，石化特色，长三角就业便利，兜底用 |",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "备选池实际条件推荐；主表对象不能接收时按同档或相邻档补位。材料方向与本人材料实验/质检背景相关，逐院核验中外合作接收条件与剩余名额；没有参考关系不判错误。",
+      "error_ids": [],
+      "key_condition": "主表组合被核验为不接收或无剩余机会时补位；该备选必须接收中外合作本科身份且本轮窗口开放。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "X-清华大学",
+      "canonical_candidate_key": "清华大学|全校排除",
+      "school_key": "清华大学",
+      "label": "清华大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-北京大学",
+      "canonical_candidate_key": "北京大学|全校排除",
+      "school_key": "北京大学",
+      "label": "北京大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-复旦大学",
+      "canonical_candidate_key": "复旦大学|全校排除",
+      "school_key": "复旦大学",
+      "label": "复旦大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-上海交通大学",
+      "canonical_candidate_key": "上海交通大学|全校排除",
+      "school_key": "上海交通大学",
+      "label": "上海交通大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-浙江大学",
+      "canonical_candidate_key": "浙江大学|全校排除",
+      "school_key": "浙江大学",
+      "label": "浙江大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-中国科学技术大学",
+      "canonical_candidate_key": "中国科学技术大学|全校排除",
+      "school_key": "中国科学技术大学",
+      "label": "中国科学技术大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-南京大学",
+      "canonical_candidate_key": "南京大学|全校排除",
+      "school_key": "南京大学",
+      "label": "南京大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-哈尔滨工业大学",
+      "canonical_candidate_key": "哈尔滨工业大学|全校排除",
+      "school_key": "哈尔滨工业大学",
+      "label": "哈尔滨工业大学本部排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "X-北京航空航天大学",
+      "canonical_candidate_key": "北京航空航天大学|全校排除",
+      "school_key": "北京航空航天大学",
+      "label": "北京航空航天大学全校层面的排除",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "treatment": "excluded",
+      "validity": "valid",
+      "reason": "全文明确排除，纳入候选与数量审阅，但没有独立学院/专业推荐，不取得分层覆盖。valid仅表示可识别的真实学校，并非认可“本轮不具备可行性”的断言；机械排除的质量问题统一归R10-02，不逐校重复扣分。",
+      "error_ids": [
+        "E-TIER-BLANKET"
+      ]
+    },
+    {
+      "answer_item_id": "M-CJLU",
+      "canonical_candidate_key": "中国计量大学|质量与标准化学院|检测标准化提名",
+      "school_key": "中国计量大学",
+      "label": "质量与标准化学院检测/标准化方向提名",
+      "answer_quote": "如西安建筑科技大学材料学院、中国计量大学质量与标准化学院",
+      "treatment": "mentioned",
+      "validity": "valid",
+      "reason": "专业策略正文举例提名的真实候选，不是一般背景校名；没有给该院明确硕士专业，按提名提取而不补造085601。与备选池含两个院系的合并对象区分。",
+      "error_ids": []
+    },
+    {
+      "answer_item_id": "R-XAUAT",
+      "canonical_candidate_key": "西安建筑科技大学|材料科学与工程学院建筑材料工程",
+      "school_key": "西安建筑科技大学",
+      "label": "材料科学与工程学院建筑材料工程（重复使用）",
+      "answer_quote": "如西安建筑科技大学材料学院、中国计量大学质量与标准化学院",
+      "treatment": "mentioned",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T31确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": []
+    },
+    {
+      "answer_item_id": "R-DICP-RESEARCH",
+      "canonical_candidate_key": "中国科学院大学|大连化学物理研究所燃料电池方向，材料学位备选",
+      "school_key": "中国科学院大学",
+      "label": "大连化学物理研究所燃料电池方向，材料学位备选（重复使用）",
+      "answer_quote": "中科院大连化物所是国内 PEMFC 与材料相关课题最核心的研究单位（燃料电池研究部，邵志刚、俞红梅团队，衣宝廉院士体系，薄层材料相关课题电堆技术已有专利许可产业化报道）；中科院宁波材料所设有「全省先进燃料电池与电解池技术重点实验室」，四大方向之一即燃料电池技术，并持有「一种燃料电池材料相关课题流道结构设计方法」发明专利。**你做的东西，正好是这几家单位在招的方向。**",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T01确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-NIMTE-RESEARCH",
+      "canonical_candidate_key": "中国科学院大学|宁波材料技术与工程研究所燃料电池材料工程",
+      "school_key": "中国科学院大学",
+      "label": "宁波材料技术与工程研究所燃料电池材料工程（重复使用）",
+      "answer_quote": "中科院大连化物所是国内 PEMFC 与材料相关课题最核心的研究单位（燃料电池研究部，邵志刚、俞红梅团队，衣宝廉院士体系，薄层材料相关课题电堆技术已有专利许可产业化报道）；中科院宁波材料所设有「全省先进燃料电池与电解池技术重点实验室」，四大方向之一即燃料电池技术，并持有「一种燃料电池材料相关课题流道结构设计方法」发明专利。**你做的东西，正好是这几家单位在招的方向。**",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T02确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-DICP-STRATEGY",
+      "canonical_candidate_key": "中国科学院大学|大连化学物理研究所燃料电池方向，材料学位备选",
+      "school_key": "中国科学院大学",
+      "label": "大连化学物理研究所燃料电池方向，材料学位备选（重复使用）",
+      "answer_quote": "你的材料相关课题 / 材料加工 / SEM 经历与化物所、宁波材料所在研课题几乎无缝对接",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T01确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-NIMTE-STRATEGY",
+      "canonical_candidate_key": "中国科学院大学|宁波材料技术与工程研究所燃料电池材料工程",
+      "school_key": "中国科学院大学",
+      "label": "宁波材料技术与工程研究所燃料电池材料工程（重复使用）",
+      "answer_quote": "你的材料相关课题 / 材料加工 / SEM 经历与化物所、宁波材料所在研课题几乎无缝对接",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T02确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-DICP-FIRST",
+      "canonical_candidate_key": "中国科学院大学|大连化学物理研究所燃料电池方向，材料学位备选",
+      "school_key": "中国科学院大学",
+      "label": "大连化学物理研究所燃料电池方向，材料学位备选（重复使用）",
+      "answer_quote": "大连化物所 + 兰州大学 + 华东地区一所211高校",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T01确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-LZU-FIRST",
+      "canonical_candidate_key": "兰州大学|材料与能源学院/化学化工学院材料项目（合并未消歧）",
+      "school_key": "兰州大学",
+      "label": "材料与能源学院/化学化工学院材料项目（合并未消歧）（重复使用）",
+      "answer_quote": "大连化物所 + 兰州大学 + 华东地区一所211高校",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T16确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-home_school-FIRST",
+      "canonical_candidate_key": "苏州大学|能源学院085800能源动力/0807动力工程及工程热物理",
+      "school_key": "苏州大学",
+      "label": "能源学院085800能源动力/0807动力工程及工程热物理（重复使用）",
+      "answer_quote": "大连化物所 + 兰州大学 + 华东地区一所211高校",
+      "treatment": "conditional",
+      "validity": "invalid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T26确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。本校能源相关院系专业路径错误仍为E-home_school-ENERGY，不重复计罚。",
+      "error_ids": [
+        "E-home_school-ENERGY"
+      ],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-NIMTE-URGENT",
+      "canonical_candidate_key": "中国科学院大学|宁波材料技术与工程研究所燃料电池材料工程",
+      "school_key": "中国科学院大学",
+      "label": "宁波材料技术与工程研究所燃料电池材料工程（重复使用）",
+      "answer_quote": "宁波材料所已出规程，**这一步最紧急**",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T02确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-home_school-END-ENERGY",
+      "canonical_candidate_key": "苏州大学|能源学院085800能源动力/0807动力工程及工程热物理",
+      "school_key": "苏州大学",
+      "label": "能源学院085800能源动力/0807动力工程及工程热物理（重复使用）",
+      "answer_quote": "华东地区一所211高校 / 本校材料相关院系（第 25、26 格）+ 江苏大学或南京工业大学其一",
+      "treatment": "conditional",
+      "validity": "invalid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T26确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。本校能源相关院系专业路径错误仍为E-home_school-ENERGY，不重复计罚。",
+      "error_ids": [
+        "E-home_school-ENERGY"
+      ],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-home_school-END-MAT",
+      "canonical_candidate_key": "苏州大学|材料与化学化工学部材料项目",
+      "school_key": "苏州大学",
+      "label": "材料与化学化工学部材料项目（重复使用）",
+      "answer_quote": "华东地区一所211高校 / 本校材料相关院系（第 25、26 格）+ 江苏大学或南京工业大学其一",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T25确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-JSU-END",
+      "canonical_candidate_key": "江苏大学|材料科学与工程学院材料项目",
+      "school_key": "江苏大学",
+      "label": "材料科学与工程学院材料项目（重复使用）",
+      "answer_quote": "华东地区一所211高校 / 本校材料相关院系（第 25、26 格）+ 江苏大学或南京工业大学其一",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T27确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-NJTECH-END",
+      "canonical_candidate_key": "南京工业大学|材料科学与工程学院材料工程",
+      "school_key": "南京工业大学",
+      "label": "材料科学与工程学院材料工程（重复使用）",
+      "answer_quote": "华东地区一所211高校 / 本校材料相关院系（第 25、26 格）+ 江苏大学或南京工业大学其一",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T28确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-DICP-END",
+      "canonical_candidate_key": "中国科学院大学|大连化学物理研究所燃料电池方向，材料学位备选",
+      "school_key": "中国科学院大学",
+      "label": "大连化学物理研究所燃料电池方向，材料学位备选（重复使用）",
+      "answer_quote": "尤其是大连化物所和宁波材料所，那两格是这份方案里唯一「你的经历正好是他们在招的方向」的机会",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T01确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    },
+    {
+      "answer_item_id": "R-NIMTE-END",
+      "canonical_candidate_key": "中国科学院大学|宁波材料技术与工程研究所燃料电池材料工程",
+      "school_key": "中国科学院大学",
+      "label": "宁波材料技术与工程研究所燃料电池材料工程（重复使用）",
+      "answer_quote": "尤其是大连化物所和宁波材料所，那两格是这份方案里唯一「你的经历正好是他们在招的方向」的机会",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "该处再次用于举例、优先联系、首轮志愿或安全网，结合主表T02确定具体身份，是同一独立组合的重复而非新增推荐；继承主表内容判断。",
+      "error_ids": [],
+      "key_condition": "接收院系允许该中外合作本科身份，申请窗口尚开放；学位和专业应与实际目录一致。",
+      "feasibility": "答卷共同条件明确要求逐院电话确认身份限制，否定即删除并由备选补位；九月立即联系导师、报名预推免或正式系统，有补录时核对实时缺额。学生已获资格，不把未知接收条件等同于已知不符合；此处valid仅为内容与可行条件判断，不表示逐年逐句招生事实已审计。"
+    }
+  ],
+  "errors": [
+    {
+      "id": "E-IMR",
+      "answer_quote": "| 3 | 中国科学院大学 | **金属研究所**（沈阳）· 表面工程 / 腐蚀防护与涂层 | 0805 材料科学与工程（080503 材料加工工程）/ 085601 材料工程 | 学硕 / 专硕 / 直博 | 材料制备、材料制备、SEM/拉曼——与该所表面工程方向技能栈高度重合。风险：地处沈阳，需确认你接受 |",
+      "reason": "金属所本周期由中国科学技术大学材料科学与工程学院招生，答卷误填中国科学院大学；是研究所/科教融合招生主体差别识别错误，最直接归R10-02，不重复归推荐理由或其他覆盖项。",
+      "evidence_ids": [
+        "EV-IMR"
+      ]
+    },
+    {
+      "id": "E-home_school-ENERGY",
+      "answer_quote": "085800 能源动力（专硕）/ 0807 动力工程及工程热物理（学硕）",
+      "reason": "本校本校能源相关院系所给085800/0807两条学位路径不在当届目录，却被指定为最稳安全网及首轮保底。A-05可由其他有效相关院系建立关系，不强行归零；本候选错误归最直接的首轮申请与核验动作R10-03，不重复归R10-01。",
+      "evidence_ids": [
+        "EV-home_school-CATALOG",
+        "EV-home_school-2026",
+        "EV-home_school-TM"
+      ]
+    },
+    {
+      "id": "E-TIER-BLANKET",
+      "answer_quote": "**清北复交浙、中科大、南大、哈工大本部、北航这一档在本轮不具备可行性**",
+      "reason": "以学校档次和前29%一刀切断言清北复交浙、科大、南大、哈工大本部、北航本轮全无可行性，未分学院/专项/校企工程硕博等例外。录取困难可以判冲，不等于已有硬性不可申请结论；本周期官方专项资料和金属所招生主体显示不能机械排除。只归层次匹配，不按排除学校逐项处罚。",
+      "evidence_ids": [
+        "EV-USTC-EXCEPTION",
+        "EV-IMR"
+      ]
+    },
+    {
+      "id": "E-WAIT-OFFER",
+      "answer_quote": "若手中已有 B 档及以上待录取 → 可再等 3~5 天搏 A 档",
+      "reason": "已收到正式待录取仍建议统一等3至5天，没有先核对该通知回复期限；官方系统规定逾期可撤销待录取。虽有正确注册、报名、复试确认和缺额动作，但关键录取决策缺少期限约束，只归执行项。",
+      "evidence_ids": [
+        "EV-SYSTEM-ACCEPT",
+        "EV-SYSTEM"
+      ]
+    },
+    {
+      "id": "E-SINANO",
+      "answer_quote": "| 11 | 中国科学院大学 | **苏州纳米技术与纳米仿生研究所** | 085601 材料工程 / 纳米科学与工程（二维碳材料、二维材料） | 专硕 / 直博 | ★地缘王牌。就在苏州，你的二维碳材料经历直接对口；导师面谈成本极低，可当场上门。风险：本地生源与本校同学也会投，需早联系 |",
+      "reason": "苏州纳米所共建学院研究生取得中国科大学籍，答卷误填中国科学院大学；只归研究所与联合培养主体识别的R10-02，不按参考未列该项目或重复提及另罚。",
+      "evidence_ids": [
+        "EV-SINANO"
+      ]
+    },
+    {
+      "id": "ADJ-UESTC-003-PATH",
+      "answer_quote": "| B-3 | 电子科技大学 · 材料与本校能源相关院系 | 085601 材料工程 | 冲 | 985，电子材料方向，就业极好 |",
+      "reason": "2027正式目录003院085601是非全日制，085600是全日制，两者并存；国家推免目录该校材料查询完整14条，003只列材料科学与工程/材料与化工，材料工程在002及国家卓工学院。答卷具体B03精确选择003/085601，不是085600的规范简称或更名；全卷一般性“部分院校按085600”介绍未为B03列此具体可行改报方案，评审不得替其创造路径。故本轮所写B03推免路径不成立。不是未找到网页即判错，也不声称非全日制全国一律不能推免。",
+      "evidence_ids": [
+        "ADJ-TM-UESTC",
+        "ADJ-CATALOG-601",
+        "ADJ-CATALOG-600"
+      ]
+    }
+  ],
+  "error_impacts": {
+    "ADJ-UESTC-003-PATH": [
+      "BY-A-APPLY-R10-01"
+    ],
+    "E-TIER-BLANKET": [
+      "BY-A-APPLY-R10-02"
+    ],
+    "E-IMR": [
+      "BY-A-APPLY-R10-02"
+    ],
+    "E-SINANO": [
+      "BY-A-APPLY-R10-02"
+    ],
+    "E-WAIT-OFFER": [
+      "BY-A-APPLY-R10-03"
+    ],
+    "E-home_school-ENERGY": [
+      "BY-A-APPLY-R10-03"
+    ]
+  },
+  "official": false,
+  "teacher_calibration": "pending",
+  "difficulty": "hard",
+  "split": "dev",
+  "task_sha256": "df6403023f38e09b249c7fc93211bb0102331957240d9c1f28e401b81fbcca89",
+  "rubric_sha256": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+  "input_sha256": "7dfb4b21a4649f442e701ea14f1c354db1d3857477c31df4693beff763c2552b",
+  "answer_sha256": "df8a802ee5a8c172f32d3258cc2be7fdf5ab1f7b67ff1beadf4722fe039ad8b8",
+  "judgment_sha256": "3fb93eb413decd70b9e6bfc20b08c734d5b2a5655d911d4717836f8ddb143af4",
+  "judge_version": "qwen20-pending-official-adjudication.1"
+}

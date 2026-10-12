@@ -1,0 +1,28 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "claude-opus-5-5",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 15,
+        "node": "BY-E-REPLAN-R10-04",
+        "points": 7.5,
+        "reason": "已有正确且具体的复用动作：把AI课程基础与NLP研究转入CV/PS，整理成绩单、科研记录，并要求论文审稿后更新、后续学期保持成绩。缺失的核心是转轨当下的资料重核：直接把此前83.4、前约45%、论文快完稿及无雅托当作现状，没有明确确认截至2025年7月的最新成绩排名、两段科研实际进展与贡献、是否已投稿、竞赛及是否新获语言成绩；未来更新不等于先重核旧记录。故半分，属于确定缺项而非待核事实争议。"
+      }
+    ],
+    "name": "Claude Opus 5.5",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 92.5,
+    "score_interval": [
+      92.5,
+      92.5
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "BY-E-REPLAN"
+  }
+}

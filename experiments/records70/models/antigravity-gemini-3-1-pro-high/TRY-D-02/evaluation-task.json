@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-D",
+  "context": {
+    "observation": {
+      "评测时间": "2026年3月"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-D-02",
+  "prompt": "我在一所985高校读通信工程，2026年3月，大三下排名前约1%，六级500–549分，发表过一篇通信方向一作论文，也主持过国家级大创，有竞赛获奖经历。我优先考虑清北本部、通信或AI交叉方向，也能接受学硕、直博、硕博连读，并关注企业研发就业。清华深圳、北大深圳、鹏城实验室和清华—JHU联合项目看起来差异很大，对我各有什么实际影响？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

@@ -1,0 +1,25 @@
+{
+  "attempt_policy": "one_attempt_no_automatic_retry",
+  "cost_limit": null,
+  "evidence_cutoff": "supplied_task_materials",
+  "failure_policy": "report_incomplete_without_mean",
+  "formal_results_enabled": false,
+  "id": "baoyan-materials-reproduction-v1",
+  "isolation": "native_cli_seatbelt_or_manual_app_self_reported_separate_conditions",
+  "judge_version": "evidence-review-v1",
+  "notes": "Frozen preview workflow only; no teacher calibration, formal leaderboard or equal-compute claim.",
+  "official": false,
+  "primary_metric": "mean_task_score_with_full_coverage",
+  "repeats": 1,
+  "resource_policy": "tokens_and_cost_reported_if_available_not_enforced",
+  "reviewer_selection": "human_or_separate_llm_record_actual_reviewer",
+  "secondary_metrics": [
+    "by_task_kind",
+    "by_difficulty",
+    "completion_coverage"
+  ],
+  "status": "frozen_preview",
+  "time_limit_seconds": 900,
+  "token_limit": null,
+  "web_mode": "provided_materials_only"
+}

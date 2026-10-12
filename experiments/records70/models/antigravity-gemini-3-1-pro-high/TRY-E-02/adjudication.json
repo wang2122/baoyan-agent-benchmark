@@ -1,0 +1,20 @@
+{
+  "schema": "user-approved-node-adjudication.1",
+  "task_id": "TRY-E-02",
+  "question_id": "Q013",
+  "node_id": "TRY-E-02-R10-05",
+  "source_answer_sha256": "97efc300d4cf6588459d808ddd7584d8bfdae7560d86ab98393b7bef83021a45",
+  "source_original_score_display_sha256": "e6f463c6b84b5b7dbfb212f781a290af49a006820728803d06d02feae6d2b918",
+  "source_original_judgment_display_sha256": "c34a59b43aec196476556dad0db613afa9c96b72c0dff9fcc87efca2e7c8cac5",
+  "before_interval": [
+    52.5,
+    57.5
+  ],
+  "effective_interval": [
+    57.5,
+    57.5
+  ],
+  "other_node_points_unchanged": true,
+  "new_model_or_judge_call": false,
+  "policy": "Q013 undisclosed Hong Kong/Singapore preference: full 5 points for this affected node"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "antigravity-gemini-3-1-pro-high",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 20,
+        "node": "N02-01-I2",
+        "points": 10.0,
+        "reason": "明确询问排名，并以前约3%示范名次和人数，已有具体且有用的询问内容。但全文没有区分成绩排名与用于本校推免资格的综合排名，也没有确认年级排名是否为同专业口径；缺少对排名性质的核心澄清，不能达到本项满分边界。"
+      },
+      {
+        "max_points": 15,
+        "node": "N02-01-I4",
+        "points": 7.5,
+        "reason": "答卷另有“你的就读专业是什么？”，并在引句中询问目标专业及学硕、专硕、直博培养目标，作为制定择校名单的输入。但全文未问是否已取得或预计取得本校推免资格；这一关键申请资格缺失，故只给半档。"
+      },
+      {
+        "max_points": 10,
+        "node": "N02-01-I5",
+        "points": 0.0,
+        "reason": "这里只沿用题面给定的2026年申请季，没有询问或确认学生的申请年份、拟入学届别、当前大几及所处批次。全文也无其他阶段确认，不能把泛称当季形势视为完成时间与阶段询问；此为确定缺项，不是待核争议。"
+      },
+      {
+        "max_points": 5,
+        "node": "N02-01-I7",
+        "points": 2.5,
+        "reason": "按硬性条件、软性背景、目标偏好分层，核心背景问题可辨识。但首次澄清同时展开科研、论文、专利、各类竞赛、荣誉、地域等多项信息，又附三档策略及较多解释，未收敛为少数核心问题，提问成本和篇幅偏高；这一表达负担独立于资格、阶段信息的缺项，给半档。"
+      }
+    ],
+    "name": "Gemini 3.1 Pro",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 70.0,
+    "score_interval": [
+      70.0,
+      70.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "N02-01"
+  }
+}

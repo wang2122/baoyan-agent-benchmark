@@ -1,0 +1,27 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "qwen3-8-max-0902",
+  "task_id": "N15-01",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "api",
+    "cli": "qwen",
+    "cli_version": "0.25.0",
+    "id": "qwen3-8-max-0902",
+    "model": "qwen3.8-max-0902",
+    "reasoning_effort": "native_default"
+  },
+  "original_answer_sha256": "2cf2beaf870d30812bdcc6ace8e2ca2f82c34c3c14e0ac0c795cc232e12e5ecd",
+  "public_display_answer_sha256": "763a4014fe624153c84f0a5b7ff0a84ff16d03cc98a41b46dbc4a90aa0cc5464",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "finished_at": "2026-10-09T12:56:28.541331+00:00",
+  "original_attempt_status": "completed",
+  "execution_mode": "original_campaign",
+  "public_execution_evidence": "Qwen retained per-task execution-progress row, source hash verified"
+}

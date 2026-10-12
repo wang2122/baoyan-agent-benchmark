@@ -1,0 +1,356 @@
+{
+  "actual_candidate_count": 16,
+  "answer_sha256": "b2308f82fa9584495034f957df28c40cbc2e3bae21052b3f047b727a8534e917",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 60.0
+  },
+  "confirmed_points": 60.0,
+  "diagnostic_score": 60.0,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-CET-TIME": [
+      "BY-C-WINTER-R10-05"
+    ],
+    "E-UNCONFIRMED-PERSONAL": [
+      "BY-C-WINTER-R10-06"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "不再将精力耗费在刷六级上（6月考试7月出分，赶不上夏令营初审）",
+      "id": "E-CET-TIME",
+      "reason": "7月出分说法不符合咨询时点前可用的官方上半年CET安排。教育部教育考试院2025年考生须知计划8月底出分，2025年实际查询通知也在8月；官方常见问题说明一般在8月中下旬。见evidence.json的CET-2025-NOTICE、CET-2025-RESULT及CET-FAQ。上述材料不用于断言2026具体出分日，也不否认早期夏令营可能赶不上新成绩；错误是把未经当届核实的7月作为确定时序，并据此放弃所有补弱和后续成绩更新安排。仅影响英语项。"
+    },
+    {
+      "additional_answer_quotes": [
+        "不仅确保了校内推免资格稳拿",
+        "目前我正在撰写全英文的催化剂学术论文，日常文献调研均以顶刊英文原文为主，并且在美赛中担任队长完成了数十页全英文建模论文的撰写并获得M奖。"
+      ],
+      "answer_quote": "具备校内推免资格，拟申请2027级直博研究生。",
+      "id": "E-UNCONFIRMED-PERSONAL",
+      "reason": "题面只披露排名和加权，未确认已取得推免资格；邮件示例直接宣称具备资格，前文也保证稳拿。另一个拟用英文应答把目前撰写全英文论文、日常顶刊阅读以及美赛数十页论文由本人撰写当作事实，题面并未披露这些状态或分工。问题是没有核实就替学生补写事实，不是已证明学生不可能具备这些经历。应标清未确认、预计/拟取得，英文论文和写作分工先核实再使用。仅归文书真实性，不重复扣其他节点。"
+    }
+  ],
+  "excess_count": null,
+  "id": "BY-C-WINTER",
+  "input_sha256": "72b92d0388061be3c77f84b3a459f0729c41c4007e31d9ab18d5581a38cc897e",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "12fb5db48a73b2bd30b9e3fd1cba412a448d77917bc4d38e594efa4d2450e435",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "BY-C-WINTER-R10-01",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-02",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-03",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-05",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-WINTER-R10-06",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-C-WINTER-R10-07",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0,
+      "id": "BY-C-WINTER-R10-08",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 16,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "additional_answer_quotes": [
+        "尤其复旦大学化学系、先进材料实验室等",
+        "1. 复旦大学 (Dream)           │ 化学系、先进材料实验室(FIST)",
+        "复旦（化学系、先材、材料系）"
+      ],
+      "answer_item_id": "A01",
+      "answer_quote": "化学系             │ • 传统殿堂级强系，无机化学/物理化学全国顶尖",
+      "canonical_candidate_key": "fudan_chemistry",
+      "error_ids": [],
+      "label": "复旦大学化学系（能源化学/电催化）",
+      "reason": "复旦化学系被单独拆解并推荐，电催化/储能方向与本人研究相近。2025年官方资料提示部分催化和电池研究力量已进入新学院，应依导师实际所属招生单位核报名；不能把所有化学系路径一概视为消失。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "先进材料实验室/FIST",
+        "(先材 / FIST)",
+        "1. 复旦大学 (Dream)           │ 化学系、先进材料实验室(FIST)",
+        "复旦（化学系、先材、材料系）"
+      ],
+      "answer_item_id": "A02",
+      "answer_quote": "先进材料实验室     │ • 顶尖国家级交叉科研平台（FIST）",
+      "canonical_candidate_key": "fudan_icome",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/FIST（新学院延续路径）",
+      "reason": "单独推荐先材平台，名称及研究团队可识别。2025年复旦官方整合报道与当年新学院推免通知支持其通过智能材料与未来能源创新学院延续相关申请路径（evidence.json）。材料系与先材在本文未区分整合后的独立专业路径，使用同一canonical key去重，不因旧称认定虚构。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "复旦大学化学系、先进材料实验室/FIST、材料科学系、高分子科学系",
+        "复旦（化学系、先材、材料系）"
+      ],
+      "answer_item_id": "A03",
+      "answer_quote": "材料科学系         │ • 涵盖储能材料与器件、清洁能源转化、先进功能材料",
+      "canonical_candidate_key": "fudan_icome",
+      "error_ids": [],
+      "label": "复旦大学材料科学系（新学院延续路径）",
+      "reason": "被单独推荐为储能和功能材料方向。2025年官方材料确认原材料系与先材构成新学院基础，研究方向及学位培养延续（evidence.json）。本文未明确整合后不同专业路径，因此与先材共用canonical key，保留两次推荐记录而不创造额外独立路径。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "高分子基催化剂载体、凝胶电解质研究深入",
+        "复旦大学化学系、先进材料实验室/FIST、材料科学系、高分子科学系"
+      ],
+      "answer_item_id": "A04",
+      "answer_quote": "高分子科学系       │ • 聚合物分子工程国家重点实验室",
+      "canonical_candidate_key": "fudan_polymer",
+      "error_ids": [],
+      "label": "复旦大学高分子科学系（高分子载体/凝胶电解质）",
+      "reason": "原文独立说明高分子基催化剂载体和凝胶电解质等研究，属于实际候选。2025年整合报道吸纳部分高分子系力量，不证明全系不存在；拟联系的电池应用团队可能应经新学院报考，须核导师具体归属。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "**浙大化工**：全国学科评估A+，工程与催化实力雄厚",
+        "密集投递复旦/浙大/交大等夏令营",
+        "复旦（化学系、先材、材料系）、浙大、交大、中科大等官网通知"
+      ],
+      "answer_item_id": "A05",
+      "answer_quote": "2. 浙江大学                   │ 化工学院(顶尖A+)、化学系",
+      "canonical_candidate_key": "zju_chemical_engineering_chemistry",
+      "error_ids": [],
+      "label": "浙江大学化工学院/化学系（另明确化工路线）",
+      "reason": "梯队中合并提出化工与化学，后文明确单独说明浙大化工的工程与催化适配，可识别化工路线；化学系没有进一步分立路径，不替答卷拆出第二个独立候选。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "密集投递复旦/浙大/交大等夏令营",
+        "复旦（化学系、先材、材料系）、浙大、交大、中科大等官网通知"
+      ],
+      "answer_item_id": "A06",
+      "answer_quote": "3. 上海交通大学               │ 化学化工学院、材料科学与工程",
+      "canonical_candidate_key": "sjtu_chemical_materials_group",
+      "error_ids": [],
+      "label": "上海交通大学化学化工/材料方向合并候选",
+      "reason": "同校相关院系/学科并列，但无分别独立的具体申请路线，保留原组合为一个候选；化工、电化学与材料方向总体适配，不据省略学院全称判不存在。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "复旦（化学系、先材、材料系）、浙大、交大、中科大等官网通知"
+      ],
+      "answer_item_id": "A07",
+      "answer_quote": "4. 中国科学技术大学 (华东顶尖)│ 化学与材料科学学院、微尺度",
+      "canonical_candidate_key": "ustc_chem_materials_microscale_group",
+      "error_ids": [],
+      "label": "中国科学技术大学化学材料/微尺度合并候选",
+      "reason": "明确冲刺推荐，化学材料与微尺度相关研究平台并列，但未分别建立申请路径；保留一组合，不把内部/交叉科研平台机械拆成额外招生项目。地理属于华东，符合南方软偏好的合理拓展。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [],
+      "answer_item_id": "A08",
+      "answer_quote": "1. 南京大学                   │ 化学化工学院(物化/电化学极强)",
+      "canonical_candidate_key": "nju_chemistry_chemical_engineering",
+      "error_ids": [],
+      "label": "南京大学化学化工学院",
+      "reason": "实际列为稳健候选，物化电化学方向与申请人相近。所谓稳健只是答卷定位，不等于保证录取；不据此臆造名额或硬门槛。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "**厦门大学化学化工学院**：中国电化学的发源地与学术圣殿"
+      ],
+      "answer_item_id": "A09",
+      "answer_quote": "2. 厦门大学                   │ 化学化工学院(全国电化学泰斗)",
+      "canonical_candidate_key": "xmu_chemistry_chemical_engineering",
+      "error_ids": [],
+      "label": "厦门大学化学化工学院",
+      "reason": "学院及电化学催化方向在表格和后文明确推荐，适配现有科研。修辞性的学术赞誉不当作项目招生依据。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "3. 中科院南方知名研究所       │ 上海硅酸盐所、宁波材料所",
+        "且聚焦储能电池与催化产业转化"
+      ],
+      "answer_item_id": "A10",
+      "answer_quote": "中科院宁波材料所 / 上海硅酸盐所",
+      "canonical_candidate_key": "siccas_materials_energy",
+      "error_ids": [],
+      "label": "中科院上海硅酸盐所（储能电池/催化）",
+      "reason": "表格的中科院南方研究所已具体落实到硅酸盐所，后文明确储能电池与催化研究，提取一个单位路径；笼统中科院不是额外第三个候选。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "siccas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "3. 中科院南方知名研究所       │ 上海硅酸盐所、宁波材料所",
+        "且聚焦储能电池与催化产业转化"
+      ],
+      "answer_item_id": "A11",
+      "answer_quote": "中科院宁波材料所 / 上海硅酸盐所",
+      "canonical_candidate_key": "nimte_materials_energy",
+      "error_ids": [],
+      "label": "中科院宁波材料所（储能电池/催化）",
+      "reason": "与硅酸盐所是两个可识别的不同研究所，故分别记录；方向在后文明确。待遇和名额较充裕的泛化陈述不当作已经核实的招生优势。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "nimte",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [],
+      "answer_item_id": "A12",
+      "answer_quote": "4. 华中科技大学 / 武汉大学    │ 化学与化工学院、材料学院",
+      "canonical_candidate_key": "hust_chemical_materials_group",
+      "error_ids": [],
+      "label": "华中科技大学（化学化工/材料方向合并候选）",
+      "reason": "原文列出两个不同学校，华中科技大学是实际推荐对象；共享院系描述未清楚分配到具体学校，也未给各自独立路线，按学校及相关化学/材料组合记录，不自行为它创造多个专业或套用另一校院系名称。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [],
+      "answer_item_id": "A13",
+      "answer_quote": "4. 华中科技大学 / 武汉大学    │ 化学与化工学院、材料学院",
+      "canonical_candidate_key": "whu_chemical_materials_group",
+      "error_ids": [],
+      "label": "武汉大学（化学化工/材料方向合并候选）",
+      "reason": "武汉大学亦是实际推荐对象，与华中科技大学不同校而分别提取；共同院系标签不足以拆多个独立项目，按原文相关方向组合记录。不能由模糊合并反推其虚构了特定材料学院招生项目。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [],
+      "answer_item_id": "A14",
+      "answer_quote": "5. 中山大学 / 华南理工大学    │ 化学学院、化学与化工学院",
+      "canonical_candidate_key": "sysu_chemistry_group",
+      "error_ids": [],
+      "label": "中山大学（化学相关方向候选）",
+      "reason": "两个不同高校均为直接推荐，中山大学单独记录；共同列出的化学相关院系未清晰逐校分配，不额外拆项或代写具体专业路径。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [],
+      "answer_item_id": "A15",
+      "answer_quote": "5. 中山大学 / 华南理工大学    │ 化学学院、化学与化工学院",
+      "canonical_candidate_key": "scut_chemistry_chemical_engineering_group",
+      "error_ids": [],
+      "label": "华南理工大学（化学化工相关方向候选）",
+      "reason": "华南理工大学是另一真实推荐学校，化学化工与研究背景相关。共享标签不作机械的精确院系等价证明，也不由评审补创多个独立项目。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [
+        "**哈工大深圳校区**：满足南方地理偏好，母校血统在初审和复试中占尽优势"
+      ],
+      "answer_item_id": "A16",
+      "answer_quote": "1. 哈工大深圳校区 (南方偏好)  │ 理学院/材料学院(本校认可度极高)",
+      "canonical_candidate_key": "hit_shenzhen_science_materials_group",
+      "error_ids": [],
+      "label": "哈工大深圳校区理学/材料合并候选",
+      "reason": "明确作为南方备选，理学与材料合并未独立说明两条申请路径，按一组合提取。母校背景不保证保底成功；在准备期拟调研相关直博导师与名额，不能仅凭未完成年度审计判无效。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "additional_answer_quotes": [],
+      "answer_item_id": "A17",
+      "answer_quote": "2. 哈尔滨工业大学本部         │ 化工与化学学院(本校直博底牌)",
+      "canonical_candidate_key": "hit_main_chemical_chemistry",
+      "error_ids": [],
+      "label": "哈尔滨工业大学本部化工与化学学院",
+      "reason": "与深圳为不同校区申请路径而分别记录，school_key保持同一授位高校。明确作为备选，地域偏好是软偏好，列北方本校后备不自动无效；直博指标仍应实际调研，所谓底牌不作为录取保证。这是2026年3月准备期的方向/导师候选，按原文粒度审阅；不代表已审计2026年申请、2027级入学的全部名额、语言门槛或窗口。未附链接和未命中空参考表不构成无效理由。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "c1c9e61e6d38c2a3fad57b734499d9082077cafd67822241b3ff88b717ef6561",
+  "score": 60.0,
+  "score_interval": [
+    60.0,
+    60.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-C-WINTER",
+  "task_kind": "planning",
+  "task_sha256": "6f732356f6ffbb61205a30dad58aaa2dca9d6f40fef3564e8c3657f998c2b7db",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题为准备规划题，rubric没有school_tier或院校层次评分节点；不另行设置层次扣分。本栏确认无须作计分层次核对，不表示对各项目的年度招生完成核准。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

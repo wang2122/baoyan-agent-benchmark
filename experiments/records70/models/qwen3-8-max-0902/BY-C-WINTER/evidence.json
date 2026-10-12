@@ -1,0 +1,53 @@
+{
+  "task_id": "BY-C-WINTER",
+  "review_as_of": "题面咨询时点：2026年3月",
+  "application_cycle": "按答卷2026年准备并申请、2027年入学的规划理解；检索采用2026年3月以前已公开的往届材料作身份和条件参照，不倒灌后来通知。",
+  "method": "评审方事后检索官方原文；不是答卷作答前已核验的证据。只记录确有检索结果并用于判断的来源。",
+  "sources": [
+    {
+      "id": "EV-01",
+      "title": "西湖大学理学院化学系2025年夏令营公告",
+      "source": "https://science.westlake.edu.cn/newsevents/news/202504/t20250424_55121.shtml",
+      "published_at": "2025-04-24",
+      "applicable_cycle": "2025年夏令营，作为2026年3月已公开的往届准备资料；不代替2026年申请、2027年入学规则。",
+      "scope": "该往届化学营原则六级460，特别优秀可放宽425，或托福90、雅思6.0；足以说明425不是所有项目无条件通用底线，也支持化学博士准备方向。学生450–499满足该通知通常六级条件，不能据此标为无效。",
+      "provenance": "reviewer_official_web_search"
+    },
+    {
+      "id": "EV-02",
+      "title": "上海交通大学化学化工学院（含变革性分子前沿科学中心）2025年优才夏令营公告",
+      "source": "https://scce.sjtu.edu.cn/index_notice/4509.html",
+      "published_at": "2025年公告（页面所述活动周期）",
+      "applicable_cycle": "2025年夏令营、2026届申请；2026年3月可用的往届资料，非2027届招生承诺。",
+      "scope": "该周期六级425或托福90、雅思6.0，含化学、化工、材料与化工直博路径；直博须导师签名同意报考。支持合并院系候选的相关性及英语按项目核验，不推断当届名额。",
+      "provenance": "reviewer_official_web_search"
+    },
+    {
+      "id": "EV-03",
+      "title": "北京大学深圳研究生院新材料学院2026年接收推荐免试研究生说明",
+      "source": "https://sam.pkusz.edu.cn/info/1032/2166.htm",
+      "published_at": "2025-09-02",
+      "applicable_cycle": "2025年推免、2026年入学；截至2026年3月已公开，非2027届规则。",
+      "scope": "该单位推免接收硕士、博士，博士报材料科学与工程；英语六级425等可任选，雅思6.0且有有效期。核实新材料学院项目身份与往届博士路径；不证明2027届名额独立程度或录取概率。",
+      "provenance": "reviewer_official_web_search"
+    },
+    {
+      "id": "EV-04",
+      "title": "二轮招生开启丨西湖大学2026年化学学科博士研究生招生",
+      "source": "https://science.westlake.edu.cn/newsevents/news/202511/t20251127_61706.shtml",
+      "published_at": "2025-11-27",
+      "applicable_cycle": "2026年入学博士，2026年3月已公开；仅用于身份与路径，不替代2027届规则。",
+      "scope": "化学0703按定导制招博士，区分直接攻博与普通招考，推免优秀应届本科可直博；方向包括合成催化、材料及能源化学。支持西湖化学博士候选身份，不证明化学与材料为同一独立报名路径。",
+      "provenance": "reviewer_official_web_search"
+    },
+    {
+      "id": "EV-05",
+      "title": "厦门大学化学化工学院2025年全国优秀大学生夏令营活动通知（第一轮）",
+      "source": "https://chem.xmu.edu.cn/info/1272/117455.htm",
+      "published_at": "2025年公告（页面所述活动周期）",
+      "applicable_cycle": "2025年夏令营，2026年3月已公开的往届资料；非2027届招生保证。",
+      "scope": "学院与能源材料化学协同创新中心共同举办相关夏令营，含化学、化工、材料等背景；当期英语四级425即可。只支持学院级候选身份和当期英语条件，不据此新增独立实验室招生路径。",
+      "provenance": "reviewer_official_web_search"
+    }
+  ]
+}

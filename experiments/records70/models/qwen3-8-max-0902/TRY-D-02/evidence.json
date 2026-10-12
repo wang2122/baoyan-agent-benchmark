@@ -1,0 +1,102 @@
+{
+  "task_id": "TRY-D-02",
+  "consultation_time": "2026年3月",
+  "application_cycle": "2026年申请、2027年入学",
+  "purpose": "评审者事后官方内容核验；不是答卷生成前检索证明",
+  "sources": [
+    {
+      "id": "EV-01",
+      "source": "https://www.ece.pku.edu.cn/info/1025/3011.htm",
+      "title": "北京大学信息工程学院2026年接收推荐免试研究生说明",
+      "applicable_cycle": "2025年申请、2026年入学；2026年3月可用的往届准备参考，不替代2027届通知",
+      "published_as_of": "2025-09-02（正文落款2025-09-01）",
+      "retrieval_status": "official_full_text",
+      "scope": "确认深圳招生单位为信息工程学院；硕士入口为集成电路科学与工程、计算机科学与技术，通信与信息系统为博士入口；六级450为该往届可选语言条件。",
+      "supports": [
+        "TRY-D-02-L1-02",
+        "ERR-01"
+      ],
+      "limits": "不证明2027届专业、名额或门槛已经公布。"
+    },
+    {
+      "id": "EV-02",
+      "source": "https://www.ee.tsinghua.edu.cn/__local/F/A1/87/18A9CD13B3DD9EE86727477CFA5_80D58903_1C942.pdf",
+      "title": "清华大学电子工程系2025年硕士推免生考核及录取办法",
+      "applicable_cycle": "2024年申请、2025年入学；咨询时点前已存在的项目与考核机制",
+      "published_as_of": "正文落款2024-09-07",
+      "retrieval_status": "official_full_text_pdf",
+      "scope": "电子工程系双硕士申请者在初步录取前须分别通过清华、JHU考核；说明并非仅选清华导师或一般访学。",
+      "supports": [
+        "TRY-D-02-L1-04",
+        "ERR-02"
+      ],
+      "limits": "不把2025届考核时间、名额倒填到2027届。"
+    },
+    {
+      "id": "EV-03",
+      "source": "https://70.ee.tsinghua.edu.cn/nzc70/a70njs.htm",
+      "title": "清华电子系70年简史",
+      "applicable_cycle": "建系70周年历史材料，回溯2018年设立双硕士项目；2026年3月前的项目身份",
+      "published_as_of": "页面为70周年历史材料，检索标注约4.5年前发布；不补造精确发布日期",
+      "retrieval_status": "official_search_excerpt",
+      "scope": "2018年电子工程系建设清华—约翰霍普金斯双硕士项目，存在两校入口及已毕业学生；支持项目身份，反驳仅因与深圳选项并列就推为SIGS项目。",
+      "supports": [
+        "ERR-02"
+      ],
+      "limits": "历史身份依据，不用于审计2027届招生。"
+    },
+    {
+      "id": "EV-04",
+      "source": "https://www.ee.tsinghua.edu.cn/zsjx/yjs/qh_yhhpjssssxm1.htm",
+      "title": "清华—约翰霍普金斯双硕士项目介绍",
+      "applicable_cycle": "未标年项目介绍；仅作项目结构补充，历史存在性由EV-02、EV-03绑定",
+      "published_as_of": "页面未标发布日期，未证明当前全文在2026年3月完全相同",
+      "retrieval_status": "official_full_text",
+      "scope": "描述第一年JHU生物医学工程课程、第二年起清华导师科研与论文，满足双方要求获两校硕士；分校缴费，英语与双方考核条件。",
+      "supports": [
+        "TRY-D-02-L1-04"
+      ],
+      "limits": "未用当前页面的精确语言、GRE条件或行政名称作为2027届已知硬门槛。"
+    },
+    {
+      "id": "EV-05",
+      "source": "https://www.sigs.tsinghua.edu.cn/2025/0916/c7769a285646/page.psp",
+      "title": "清华大学深圳国际研究生院2026年招收国际研究生招生说明",
+      "applicable_cycle": "2026年入学的往届目录，页面路径日期2025-09-16",
+      "published_as_of": "2025-09-16（官方URL日期及搜索结果）",
+      "retrieval_status": "official_search_excerpt",
+      "scope": "电子与通信工程、人工智能列在085400电子信息硕士下，信息与通信工程列在博士目录；支持对专业学位和研究型路径区分的必要性。",
+      "supports": [
+        "TRY-D-02-L1-01"
+      ],
+      "limits": "国际生通知仅辅助项目学位身份，不将其报名条件套用境内推免生；不据此认定SIGS所有学硕不存在。"
+    },
+    {
+      "id": "EV-06",
+      "source": "https://www.pcl.ac.cn/html/1036/2025-07-09/content-4611.html",
+      "title": "哈尔滨工业大学党委书记在鹏城实验室首届联培博士生毕业典礼上的讲话",
+      "applicable_cycle": "2025年7月已公开的联培实践；2026年3月前的平台身份",
+      "published_as_of": "2025-07-09",
+      "retrieval_status": "official_search_excerpt",
+      "scope": "证实鹏城与高校开展博士专项联合培养及网络通信、网络智能重大科研平台定位；支持答卷对平台、方向和联培性质的正确识别。",
+      "supports": [
+        "TRY-D-02-L1-03"
+      ],
+      "limits": "不用于证明清北2027届名额，也不证明普通导师兼职就必然取得专项资格。"
+    },
+    {
+      "id": "EV-07",
+      "source": "https://www.sigs.tsinghua.edu.cn/_upload/article/files/ce/e3/c137f27b469d9286de4263efc90d/ba481c14-3a96-4a37-92c0-9ff4399b5426.pdf",
+      "title": "深圳国际研究生院2026年博士招生考核及录取办法相关段落",
+      "applicable_cycle": "2026年入学往届文件，搜索结果标注约1.1年前公开",
+      "published_as_of": "未取得精确日期；不以搜索相对日期替代正式落款",
+      "retrieval_status": "official_search_excerpt",
+      "scope": "清华—鹏城国家实验室联合培养专项另见各自招生简章和考核办法；支持联合培养须依具体高校专项处理。",
+      "supports": [
+        "TRY-D-02-L1-03"
+      ],
+      "limits": "只使用实际命中的官方检索段落，不声称已完成2027届专项招生审计。"
+    }
+  ],
+  "review_limits": "未搜索本基准、其他答卷或作者身份。2026年3月以后发布的2027届通知不作当时已知事实。未取得全文的来源明确标作检索摘要；检索失败未作为不存在证据。"
+}

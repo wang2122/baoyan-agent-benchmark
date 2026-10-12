@@ -1,0 +1,55 @@
+{
+  "schema": "source-bound-post-review-adjudication.1",
+  "task_id": "TRY-B-02",
+  "source_answer_sha256": "5ce7c134991b2d4c0b2ba23671d27ccf12c834e477d542def057d27a92d954d6",
+  "source_original_judgment_sha256": "a20409a718d9fa21307805892ae9abd8650ded15dd1e7031aa5baf20cdcbd648",
+  "source_original_score_sha256": "52ca2e6aff3eb9511ebe8cbca7723abd1ccdf4f0605a01451430e3bbe93ccf9e",
+  "source_adjudicated_judgment_sha256": "d403aa49c8ab40143e5bb9311a4206ffb4d1c4d12bcf48d2654dceb0962b09be",
+  "source_adjudicated_score_sha256": "405e544626f8da4635aa22fdc7acaf06c19d816f6eae4330153855e36eadf98d",
+  "original_interval": [
+    85.0,
+    90.0
+  ],
+  "effective_interval": [
+    87.5,
+    87.5
+  ],
+  "pending_nodes": [],
+  "native_arithmetic_replay_verified": true,
+  "new_model_or_cli_review_called": false,
+  "teacher_calibration": "pending",
+  "decisions": [
+    {
+      "status": "resolved_by_explicit_user_policy",
+      "node_id": "TRY-B-02-R10-09",
+      "grade": 0.5,
+      "points": 2.5,
+      "rule": {
+        "full_credit": "按本题本科基准及例外核对：有实际推荐时，5－min(5，降级院校数)；同校多个项目只计一次。报告列对象、原因和扣分。",
+        "grading": "three_level",
+        "half_credit": "本项按扣分公式，不使用半分档。",
+        "id": "TRY-B-02-R10-09",
+        "label": "院校层次匹配（降级扣分）",
+        "points": 5
+      },
+      "original_interval": [
+        85.0,
+        90.0
+      ],
+      "expected_interval": [
+        87.5,
+        87.5
+      ],
+      "user_quote": "这种情况用半分吧，或者其他模型是怎么算的",
+      "scope": "Only this two-downgraded-schools 5-point grading conflict; do not modify all tier nodes",
+      "original_answer_sha256": "5ce7c134991b2d4c0b2ba23671d27ccf12c834e477d542def057d27a92d954d6",
+      "original_rubric_sha256": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+      "original_score_content_sha256": "52ca2e6aff3eb9511ebe8cbca7723abd1ccdf4f0605a01451430e3bbe93ccf9e",
+      "new_generation_calls": 0,
+      "new_subscription_judge_calls": 0,
+      "not_new_native_llm_review": true,
+      "candidate_only": true,
+      "public_workspace_modified": false
+    }
+  ]
+}

@@ -1,0 +1,1182 @@
+{
+  "actual_candidate_count": 15,
+  "answer_sha256": "ff89fec8474ac1d986860d585363e89962fb84f0ada73a7ec13e8ed5aa1e5c2b",
+  "candidate_limit": 15,
+  "confirmed_component_points": {
+    "coverage": 42.0,
+    "quality": 17.5
+  },
+  "confirmed_points": 59.5,
+  "diagnostic_score": 59.5,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-LETTERS": [
+      "BY-C-APPLY-R10-03"
+    ],
+    "ERR-ORG": [
+      "BY-C-APPLY-R10-03"
+    ],
+    "ERR-PERSONAL": [
+      "BY-C-APPLY-R10-04"
+    ],
+    "ERR-QUAL": [
+      "BY-C-APPLY-R10-04"
+    ],
+    "ERR-RISK": [
+      "BY-C-APPLY-R10-01"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "形成 15 个精准匹配的项目矩阵，确保零滑档风险。",
+      "id": "ERR-RISK",
+      "reason": "推荐梯度虽有具体研究适配，但把本部/深圳、科研所等申请风险说成绝对托底，并以零风险保证整个布局；排名与大创不能推出导师指标、考核和接收结果确定。错误归推荐理由与冲稳保校准项，推免资格未定的不同错误另归事实状态项。"
+    },
+    {
+      "answer_quote": "**化学系、材料科学系、先进材料实验室（iCOME）** 的系统申报通常互不冲突或可选择第一/第二志愿。",
+      "id": "ERR-ORG",
+      "reason": "2025年已公开的复旦组织整合及新学院统一报名通知不支持把原材料科学系、先材实验室与iCOME当作相互独立的三个院系并安排三院系同时网申。招生项目仍可等价匹配；本错误影响具体申报行动，归执行项，不重复取消C-05有效覆盖。官方依据见evidence.json OFF-02至OFF-05。"
+    },
+    {
+      "answer_quote": "两封副教授以上专家推荐信",
+      "id": "ERR-LETTERS",
+      "reason": "对首选复旦直博的统一材料准备要求不足：2025年iCOME夏令营要求正高级且有博导资格，预报名也要求正高级并排除拟报导师作为推荐专家。题设时点应按已公开往届规则做准备并更新当届要求，不能把副教授作为通用充分标准。归执行项。官方依据见evidence.json OFF-03/OFF-04；并非将往届要求硬套成尚未发布的2027届硬限制。"
+    },
+    {
+      "answer_quote": "前约7% 稳拿校内保研推免资格（直博/学硕指标均稳）",
+      "id": "ERR-QUAL",
+      "reason": "题面仅给2026年3月排名和成绩，没有确定推免资格、综测结果或当届名额。仅据排名反复断言稳拿、毫无悬念违反事实和结论状态满分核心；不因此否定真实推荐项目，也不向其他节点重复归责。"
+    },
+    {
+      "answer_quote": "重点举证自身在大创中已通读超过 80 篇顶尖期刊",
+      "id": "ERR-PERSONAL",
+      "reason": "学生未提供阅读80篇事实，答卷却建议作为已经完成的个人经历举证；同样把大创级别、负责人身份写成既定，而题面只说正在推进大创。可建议如实总结已有工作，不能新增已完成事实。归事实状态项；不把这种无依据补充当作学生真有该经历。"
+    }
+  ],
+  "excess_count": 0,
+  "id": "BY-C-APPLY",
+  "input_sha256": "9f8c7ef727d8c88a9062ee27c8e476e98e581118367e2e622883c2cb0260ecf3",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "f1b710ca79daea3cc331e76a354e047cbecdb55f6d306e0ba597f42bf50807a8",
+  "nodes": [
+    {
+      "id": "C-01",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A08-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-03",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A05-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-04",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-05",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A10-D",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-07",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A06-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-08",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A13-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-12",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-13",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A11-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-15",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A15-T",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-APPLY-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "BY-C-APPLY-R10-02",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-APPLY-R10-03",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-APPLY-R10-04",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 15,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "within_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-T",
+      "answer_quote": "| **01** | **复旦大学** | 化学系 | 070300 化学（物理化学/无机化学） | 直博生 | 郑耿锋教授、夏永姚教授、王永刚教授（电催化/储能） | 冲刺（首选） | 上海 |",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-T",
+      "answer_quote": "| **02** | **复旦大学** | 材料科学系 | 080500 材料科学与工程 | 直博生 | 吴仁兵教授（碳载金属基ORR/OER电催化与电池器件） | 冲刺（首选） | 上海 |",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-T",
+      "answer_quote": "| **03** | **复旦大学** | 先进材料实验室 / 智能材料与未来能源创新学院 | 070300 化学 / 080500 材料科学与工程 | 直博生 | 晁栋梁教授、赵东元院士团队（水系电池/介孔催化材料） | 冲刺（首选） | 上海 |",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-T",
+      "answer_quote": "| **04** | **浙江大学** | 化学工程与生物工程学院 | 081700 化学工程与技术 | 直博生 | 陆俊教授、任其龙院士团队（储能材料/电化学工程） | 冲刺梯队 | 杭州 |",
+      "canonical_candidate_key": "zju-chemicalengineering",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院化工直博",
+      "reason": "学校、院系、081700与直博层次明确，落在C-04已冻结参考粒度，化工与能源电化学方向适配。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-T",
+      "answer_quote": "| **05** | **上海交通大学** | 化学化工学院 | 081700 化学工程与技术 / 070300 化学 | 直博生 | 马紫峰教授、杨晓伟教授（二次电池/电催化与碳材料） | 冲刺梯队 | 上海 |",
+      "canonical_candidate_key": "sjtu-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "上海交通大学化学化工学院相关直博",
+      "reason": "学院与直博路径明确；同院系0817/0703为内部专业备选，按一条推荐处理，符合C-03宽粒度。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-T",
+      "answer_quote": "| **06** | **中国科学技术大学** | 化学与材料科学学院 / 碳中和研究院 | 070300 化学 / 080500 材料科学与工程 | 直博生 | 陈维教授、季恒星教授（水系锌电池/电催化与界面调控） | 主力攻坚 | 合肥 |",
+      "canonical_candidate_key": "ustc-scms-carbonneutral",
+      "error_ids": [],
+      "label": "中国科学技术大学化学与材料科学学院/碳中和平台相关直博",
+      "reason": "官方学院招生目录及陈维、季恒星的学院归属，结合正文的化学/材料分营申请说明，足以识别化学与材料科学学院申请路径；碳中和平台不另拆成独立招生项目。只确认这一明确学院路径，并未证明所有碳中和平台年度招生事项。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-T",
+      "answer_quote": "| **07** | **华东理工大学** | 化工学院 / 工业催化研究所 | 081700 化学工程与技术（A+学科） | 直博生/硕博 | 韩一帆教授、郭旭虹教授团队（多相催化/工业反应工程） | 主力攻坚 | 上海 |",
+      "canonical_candidate_key": "ecust-chemicalengineering",
+      "error_ids": [],
+      "label": "华东理工大学化工学院相关直博/硕博路径",
+      "reason": "全文组合07单独题名化工学院；研究所为科研组织说明而非评审另造学院推荐。上海、化工A+与催化方向有具体适配理由，虽不与参考有同校关系仍是可支持质量项的清单外推荐。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-T",
+      "answer_quote": "| **08** | **清华大学** | 深圳国际研究生院（SIGS）材料与新能源学部 | 080500 材料科学与工程 | 直博生 | 贺艳兵教授、周光敏副教授、康飞宇教授（锌电池/固态电极） | 主力攻坚 | 深圳 |",
+      "canonical_candidate_key": "tsinghua-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院材料相关直博",
+      "reason": "SIGS材料080500直博有可识别路径；C-01已涵盖相关材料/深圳项目，官方2026博士目录进一步支持该身份及学位路径。不视为清华本部院系。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-T",
+      "answer_quote": "| **09** | **厦门大学** | 化学化工学院 | 070304 物理化学 / 081700 化学工程与技术 | 直博生 | 孙世刚院士团队、郑南峰院士团队（电催化机理与能源材料） | 主力攻坚 | 厦门 |",
+      "canonical_candidate_key": "xmu-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "厦门大学化学化工学院相关直博",
+      "reason": "明确学院、物理化学/化工与直博，电催化方向适配；实验室是研究平台说明。该校不在参考且没有同校分层关系，不等于无效。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-T",
+      "answer_quote": "| **10** | **南京大学** | 化学化工学院 / 现代工程与应用科学学院 | 081700 化学工程与技术 / 080500 材料科学与工程 | 直博生 | 金钟教授、王学斌教授（多孔碳电催化剂与电池电池器件） | 主力攻坚 | 南京 |",
+      "canonical_candidate_key": "nju-combined-chemistry-modernengineering",
+      "error_ids": [],
+      "label": "南京大学化学化工学院/现代工程学院合并直博建议",
+      "reason": "组合10最初合并化学化工学院/现代工学院；但其专属申请策略又明确“南大化院夏令营”，联系同段直博培养层次，全文足以独立识别化学化工学院相关直博申请，符合C-06参考院系/方向粒度。仅将这一已有行动明确的路径用于匹配；现代工院仍未分别明确推荐，不拆出第二候选，不强求参考未列的具体专业绑定。重复记录沿用同一canonical_candidate_key。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-T",
+      "answer_quote": "| **11** | **华南理工大学** | 化学与化工学院 | 081700 化学工程与技术 | 直博生 | 李映伟教授、彭峰教授（MOF基功能电催化与反应工程） | 主力攻坚 | 广州 |",
+      "canonical_candidate_key": "scut-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "华南理工大学化学与化工学院化工直博",
+      "reason": "明确081700、相关学院及直博/硕博连读备选，符合C-13化学化工相关直博粒度。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-T",
+      "answer_quote": "| **12** | **哈尔滨工业大学（深圳）** | 理学院 / 材料科学与工程学院 | 070300 化学 / 080500 材料科学与工程 | 直博生/学硕 | 慈立杰教授、李德平副教授（先进储能电化学与水系催化） | 稳健托底 | 深圳 |",
+      "canonical_candidate_key": "hit-shenzhen-combined-science-materials",
+      "error_ids": [],
+      "label": "哈尔滨工业大学深圳理学院/材料学院合并直博或学硕建议",
+      "reason": "深圳培养地与威海本科地已区分，相关学院和方向有实际内容；两个独立学院、两个学科及两种层次却未分别绑定，不能凭斜杠自行拆出任一独立推荐。该缺项不证明项目不存在，故不标invalid，也不挂纯缺项pending。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-T",
+      "answer_quote": "| **13** | **哈尔滨工业大学（本部）** | 化工与化学学院 | 081700 化学工程与技术（特种电化学王牌） | 直博生 | 王振波教授、尹鸽平教授、杜春雨教授（电催化与电池器件） | 绝对兜底 | 哈尔滨 |",
+      "canonical_candidate_key": "hit-main-chemicalchemistry",
+      "error_ids": [],
+      "label": "哈尔滨工业大学本部化工与化学学院化工直博",
+      "reason": "学院、081700、直博与哈尔滨培养地明确，符合C-11；本科威海与本部申请地明确区分。无证据支持绝对录取保证，保证性措辞归质量项，不否定真实项目身份。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-T",
+      "answer_quote": "| **14** | **中南大学** | 化学化工学院 / 冶金与环境学院 | 081700 化学工程与技术 / 080600 冶金工程 | 直博生 | 纪效波教授、唐有根教授（水系电池电催化与储能材料） | 稳健托底 | 长沙 |",
+      "canonical_candidate_key": "csu-combined-chemistry-metallurgy",
+      "error_ids": [],
+      "label": "中南大学化学化工学院/冶金与环境学院合并直博建议",
+      "reason": "化工/冶金与新能源研究有相关性；两个独立学院和专业未分别绑定，保留原答卷合并的一条建议，不由评审拆分。无同校参考关系，不因未命中参考认定错误。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-T",
+      "answer_quote": "| **15** | **中国科学院上海硅酸盐研究所** | 新能源材料与特种无机中心 | 080500 材料科学与工程 / 070300 化学 | 直博生 | 李驰麟研究员、温兆银研究员（多价离子与金属空气电池） | 稳健托底 | 上海 |",
+      "canonical_candidate_key": "ucas-siccas-energy",
+      "error_ids": [],
+      "label": "中国科学院大学上海硅酸盐研究所相关直博",
+      "reason": "正文明确实际培养单位上海硅酸盐所和国科大学位，研究中心为所内平台。官方2026推免简章确认材料科学与工程、化学直博；属于C-15中科院相关研究所，非以无985标签判降级。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-D",
+      "answer_quote": "#### 组合 01：复旦大学 - 化学系\n* **所属学院与机构**：化学系（江湾校区化学楼）\n* **招生专业与代码**：070300 化学（二级学科重点选报：物理化学 / 无机化学，研究方向：电化学催化、储能电池）\n* **培养类型**：直博生（基本修业年限 5 年）",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-D",
+      "answer_quote": "#### 组合 02：复旦大学 - 材料科学系\n* **所属学院与机构**：材料科学系（邯郸校区/江湾校区）\n* **招生专业与代码**：080500 材料科学与工程（研究方向：功能材料与器件、先进能源材料）\n* **培养类型**：直博生（基本修业年限 5 年）",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-D",
+      "answer_quote": "#### 组合 03：复旦大学 - 先进材料实验室（LAM） / 智能材料与未来能源创新学院（iCOME）\n* **所属学院与机构**：先进材料实验室 / 智能材料与未来能源创新学院（江湾校区先进材料实验楼）\n* **招生专业与代码**：070300 化学 / 080500 材料科学与工程（交叉学科平台独立或协同招生）\n* **培养类型**：直博生（五年制）",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-D",
+      "answer_quote": "#### 组合 04：浙江大学 - 化学工程与生物工程学院（浙大化工）\n* **所属学院与机构**：化学工程与生物工程学院（玉泉校区/紫金港校区）\n* **招生专业与代码**：081700 化学工程与技术（一级学科 A+；方向：工业催化、电化学工程、能源化工）\n* **培养类型**：直博生（五年制）",
+      "canonical_candidate_key": "zju-chemicalengineering",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院化工直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。学校、院系、081700与直博层次明确，落在C-04已冻结参考粒度，化工与能源电化学方向适配。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-D",
+      "answer_quote": "#### 组合 05：上海交通大学 - 化学化工学院\n* **所属学院与机构**：化学化工学院（闵行校区霞光楼）\n* **招生专业与代码**：081700 化学工程与技术 / 070300 化学\n* **培养类型**：直博生（五年制）",
+      "canonical_candidate_key": "sjtu-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "上海交通大学化学化工学院相关直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。学院与直博路径明确；同院系0817/0703为内部专业备选，按一条推荐处理，符合C-03宽粒度。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-D",
+      "answer_quote": "#### 组合 06：中国科学技术大学 - 化学与材料科学学院 / 碳中和研究院\n* **所属学院与机构**：化学与材料科学学院（合肥微尺度物质科学国家研究中心）/ 碳中和研究院\n* **招生专业与代码**：070300 化学 / 080500 材料科学与工程\n* **培养类型**：直博生（五年制）",
+      "canonical_candidate_key": "ustc-scms-carbonneutral",
+      "error_ids": [],
+      "label": "中国科学技术大学化学与材料科学学院/碳中和平台相关直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。官方学院招生目录及陈维、季恒星的学院归属，结合正文的化学/材料分营申请说明，足以识别化学与材料科学学院申请路径；碳中和平台不另拆成独立招生项目。只确认这一明确学院路径，并未证明所有碳中和平台年度招生事项。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-D",
+      "answer_quote": "#### 组合 07：华东理工大学 - 化工学院\n* **所属学院与机构**：化工学院 / 工业催化研究所（上海徐汇校区）\n* **招生专业与代码**：081700 化学工程与技术（教育部学科评估 A+，全国化工前二）\n* **培养类型**：直博生 / 硕博连读",
+      "canonical_candidate_key": "ecust-chemicalengineering",
+      "error_ids": [],
+      "label": "华东理工大学化工学院相关直博/硕博路径",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。全文组合07单独题名化工学院；研究所为科研组织说明而非评审另造学院推荐。上海、化工A+与催化方向有具体适配理由，虽不与参考有同校关系仍是可支持质量项的清单外推荐。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-D",
+      "answer_quote": "#### 组合 08：清华大学 - 深圳国际研究生院（SIGS）材料与新能源学部\n* **所属学院与机构**：材料与新能源学部（能源环境大楼，深圳南山大学城）\n* **招生专业与代码**：080500 材料科学与工程（清华大学工学博士学位）\n* **培养类型**：直博生（五年制）",
+      "canonical_candidate_key": "tsinghua-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院材料相关直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。SIGS材料080500直博有可识别路径；C-01已涵盖相关材料/深圳项目，官方2026博士目录进一步支持该身份及学位路径。不视为清华本部院系。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-D",
+      "answer_quote": "#### 组合 09：厦门大学 - 化学化工学院\n* **所属学院与机构**：化学化工学院 / 固体表面物理化学国家重点实验室（思明校区）\n* **招生专业与代码**：070304 物理化学（A+ 学科） / 081700 化学工程与技术\n* **培养类型**：直博生（五年制）",
+      "canonical_candidate_key": "xmu-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "厦门大学化学化工学院相关直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。明确学院、物理化学/化工与直博，电催化方向适配；实验室是研究平台说明。该校不在参考且没有同校分层关系，不等于无效。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-D",
+      "answer_quote": "#### 组合 10：南京大学 - 化学化工学院 / 现代工程与应用科学学院\n* **所属学院与机构**：化学化工学院（仙林校区） / 现代工学院\n* **招生专业与代码**：081700 化学工程与技术 / 080500 材料科学与工程\n* **培养类型**：直博生（五年制）\n* **核心导师团队与前沿方向**：\n  * **金钟 教授**：国家杰青，专注于新能源转换与存储材料、电催化催化剂微观结构调控、新型锌基/水系二次电池器件。\n  * **王学斌 教授**：先进发泡碳纳米材料制备及其在电化学催化、柔性储能电池中的应用。\n* **背景匹配度与优劣势诊断**：\n  * *优势*：华五老牌名校，南京地理位置优越；金钟、王学斌等团队在多孔碳基催化剂与锌电池方向成果丰硕，非常欣赏工科背景扎实、实验作风严谨的直博生。\n* **申请策略与考核要点**：\n  * 南大化院夏令营通常于 6 月初报名。面试重在考核科研逻辑的自洽性，包括为什么选择该催化剂形貌、活性位点如何确认、DFT 计算与实验数据如何印证等。",
+      "canonical_candidate_key": "nju-combined-chemistry-modernengineering",
+      "error_ids": [],
+      "label": "南京大学化学化工学院/现代工程学院合并直博建议",
+      "reason": "组合10最初合并化学化工学院/现代工学院；但其专属申请策略又明确“南大化院夏令营”，联系同段直博培养层次，全文足以独立识别化学化工学院相关直博申请，符合C-06参考院系/方向粒度。仅将这一已有行动明确的路径用于匹配；现代工院仍未分别明确推荐，不拆出第二候选，不强求参考未列的具体专业绑定。重复记录沿用同一canonical_candidate_key。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-D",
+      "answer_quote": "#### 组合 11：华南理工大学 - 化学与化工学院\n* **所属学院与机构**：化学与化工学院（广州五山校区）\n* **招生专业与代码**：081700 化学工程与技术（A 类学科，华南工科龙头）\n* **培养类型**：直博生 / 硕博连读",
+      "canonical_candidate_key": "scut-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "华南理工大学化学与化工学院化工直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。明确081700、相关学院及直博/硕博连读备选，符合C-13化学化工相关直博粒度。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-D",
+      "answer_quote": "#### 组合 12：哈尔滨工业大学（深圳） - 理学院 / 材料科学与工程学院\n* **所属学院与机构**：理学院（化学学科） / 材料科学与工程学院（深圳南山校区）\n* **招生专业与代码**：070300 化学 / 080500 材料科学与工程\n* **培养类型**：直博生 / 学术型硕士（亦可直接录取）",
+      "canonical_candidate_key": "hit-shenzhen-combined-science-materials",
+      "error_ids": [],
+      "label": "哈尔滨工业大学深圳理学院/材料学院合并直博或学硕建议",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。深圳培养地与威海本科地已区分，相关学院和方向有实际内容；两个独立学院、两个学科及两种层次却未分别绑定，不能凭斜杠自行拆出任一独立推荐。该缺项不证明项目不存在，故不标invalid，也不挂纯缺项pending。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-D",
+      "answer_quote": "#### 组合 13：哈尔滨工业大学（本部） - 化工与化学学院\n* **所属学院与机构**：化工与化学学院（哈尔滨南岗校区明德楼）\n* **招生专业与代码**：081700 化学工程与技术（电化学工程为传统国防/国家级王牌学科）\n* **培养类型**：直博生 / 硕博贯通",
+      "canonical_candidate_key": "hit-main-chemicalchemistry",
+      "error_ids": [],
+      "label": "哈尔滨工业大学本部化工与化学学院化工直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。学院、081700、直博与哈尔滨培养地明确，符合C-11；本科威海与本部申请地明确区分。无证据支持绝对录取保证，保证性措辞归质量项，不否定真实项目身份。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-D",
+      "answer_quote": "#### 组合 14：中南大学 - 化学化工学院 / 冶金与环境学院\n* **所属学院与机构**：化学化工学院 / 冶金与环境学院（长沙岳麓山下）\n* **招生专业与代码**：081700 化学工程与技术 / 080600 冶金工程（新能源材料与电化学）\n* **培养类型**：直博生",
+      "canonical_candidate_key": "csu-combined-chemistry-metallurgy",
+      "error_ids": [],
+      "label": "中南大学化学化工学院/冶金与环境学院合并直博建议",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。化工/冶金与新能源研究有相关性；两个独立学院和专业未分别绑定，保留原答卷合并的一条建议，不由评审拆分。无同校参考关系，不因未命中参考认定错误。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-D",
+      "answer_quote": "#### 组合 15：中国科学院上海硅酸盐研究所（SICCAS） - 新能源材料研究中心\n* **所属学院与机构**：中国科学院上海硅酸盐研究所（上海嘉定园区 / 长宁园区，中国科学院大学学位）\n* **招生专业与代码**：080500 材料科学与工程 / 070300 化学\n* **培养类型**：直博生（国科大研究生院注册，上硅所联合培养）",
+      "canonical_candidate_key": "ucas-siccas-energy",
+      "error_ids": [],
+      "label": "中国科学院大学上海硅酸盐研究所相关直博",
+      "reason": "正文独立组合说明；与表格同一推荐重复，沿用同一canonical_candidate_key。正文明确实际培养单位上海硅酸盐所和国科大学位，研究中心为所内平台。官方2026推免简章确认材料科学与工程、化学直博；属于C-15中科院相关研究所，非以无985标签判降级。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P1",
+      "answer_quote": "化学系 (物化)",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P1",
+      "answer_quote": "材料科学系 (吴仁兵组)",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P1",
+      "answer_quote": "先进材料实验室 / iCOME (晁栋梁组)",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P2",
+      "answer_quote": "**化学系、材料科学系、先进材料实验室（iCOME）**",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P2",
+      "answer_quote": "**化学系、材料科学系、先进材料实验室（iCOME）**",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P2",
+      "answer_quote": "**化学系、材料科学系、先进材料实验室（iCOME）**",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P3",
+      "answer_quote": "第一主攻：**材料科学系（吴仁兵教授课题组）**",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P3",
+      "answer_quote": "第二主攻：**先进材料实验室 / iCOME（晁栋梁教授课题组）**",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P3",
+      "answer_quote": "第三主攻：**化学系（郑耿锋教授 / 夏永姚教授课题组）**",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P4",
+      "answer_quote": "申请[吴仁兵/导师姓名]教授2027级直博研究生",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P5",
+      "answer_quote": "针对复旦（吴仁兵/郑耿锋等）、中科大（陈维）、清华 SIGS、浙大导师发出第一轮套磁邮件",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P5",
+      "answer_quote": "针对复旦（吴仁兵/郑耿锋等）、中科大（陈维）、清华 SIGS、浙大导师发出第一轮套磁邮件",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-P5",
+      "answer_quote": "针对复旦（吴仁兵/郑耿锋等）、中科大（陈维）、清华 SIGS、浙大导师发出第一轮套磁邮件",
+      "canonical_candidate_key": "ustc-scms-carbonneutral",
+      "error_ids": [],
+      "label": "中国科学技术大学化学与材料科学学院/碳中和平台相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。官方学院招生目录及陈维、季恒星的学院归属，结合正文的化学/材料分营申请说明，足以识别化学与材料科学学院申请路径；碳中和平台不另拆成独立招生项目。只确认这一明确学院路径，并未证明所有碳中和平台年度招生事项。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P5",
+      "answer_quote": "针对复旦（吴仁兵/郑耿锋等）、中科大（陈维）、清华 SIGS、浙大导师发出第一轮套磁邮件",
+      "canonical_candidate_key": "tsinghua-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院材料相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。SIGS材料080500直博有可识别路径；C-01已涵盖相关材料/深圳项目，官方2026博士目录进一步支持该身份及学位路径。不视为清华本部院系。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P5",
+      "answer_quote": "针对复旦（吴仁兵/郑耿锋等）、中科大（陈维）、清华 SIGS、浙大导师发出第一轮套磁邮件",
+      "canonical_candidate_key": "zju-chemicalengineering",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院化工直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。学校、院系、081700与直博层次明确，落在C-04已冻结参考粒度，化工与能源电化学方向适配。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P6",
+      "answer_quote": "每日跟进 15 个目标院系夏令营报名通知（复旦化学/材料/先材、浙大、上交、清华深研院等）",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P6",
+      "answer_quote": "每日跟进 15 个目标院系夏令营报名通知（复旦化学/材料/先材、浙大、上交、清华深研院等）",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P6",
+      "answer_quote": "每日跟进 15 个目标院系夏令营报名通知（复旦化学/材料/先材、浙大、上交、清华深研院等）",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P6",
+      "answer_quote": "每日跟进 15 个目标院系夏令营报名通知（复旦化学/材料/先材、浙大、上交、清华深研院等）",
+      "canonical_candidate_key": "zju-chemicalengineering",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院化工直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。学校、院系、081700与直博层次明确，落在C-04已冻结参考粒度，化工与能源电化学方向适配。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-P6",
+      "answer_quote": "每日跟进 15 个目标院系夏令营报名通知（复旦化学/材料/先材、浙大、上交、清华深研院等）",
+      "canonical_candidate_key": "sjtu-chemistrychemicalengineering",
+      "error_ids": [],
+      "label": "上海交通大学化学化工学院相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。学院与直博路径明确；同院系0817/0703为内部专业备选，按一条推荐处理，符合C-03宽粒度。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P6",
+      "answer_quote": "每日跟进 15 个目标院系夏令营报名通知（复旦化学/材料/先材、浙大、上交、清华深研院等）",
+      "canonical_candidate_key": "tsinghua-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院材料相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。SIGS材料080500直博有可识别路径；C-01已涵盖相关材料/深圳项目，官方2026博士目录进一步支持该身份及学位路径。不视为清华本部院系。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-P7",
+      "answer_quote": "哈工大本部/深圳作为绝对托底保障，完成内部系统填报",
+      "canonical_candidate_key": "hit-shenzhen-combined-science-materials",
+      "error_ids": [],
+      "label": "哈尔滨工业大学深圳理学院/材料学院合并直博或学硕建议",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。深圳培养地与威海本科地已区分，相关学院和方向有实际内容；两个独立学院、两个学科及两种层次却未分别绑定，不能凭斜杠自行拆出任一独立推荐。该缺项不证明项目不存在，故不标invalid，也不挂纯缺项pending。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-P7",
+      "answer_quote": "哈工大本部/深圳作为绝对托底保障，完成内部系统填报",
+      "canonical_candidate_key": "hit-main-chemicalchemistry",
+      "error_ids": [],
+      "label": "哈尔滨工业大学本部化工与化学学院化工直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。学院、081700、直博与哈尔滨培养地明确，符合C-11；本科威海与本部申请地明确区分。无证据支持绝对录取保证，保证性措辞归质量项，不否定真实项目身份。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P8",
+      "answer_quote": "重点以**复旦材料科学系吴仁兵教授团队**为第一突破口",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P8",
+      "answer_quote": "以**先进材料实验室（晁栋梁等）**和**化学系（郑耿锋/夏永姚等）**为双翼",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P8",
+      "answer_quote": "以**先进材料实验室（晁栋梁等）**和**化学系（郑耿锋/夏永姚等）**为双翼",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "label": "复旦大学化学系化学直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-P9",
+      "answer_quote": "手握中科大陈维课题组、清华深研院、浙大化工等强力攻坚组合",
+      "canonical_candidate_key": "ustc-scms-carbonneutral",
+      "error_ids": [],
+      "label": "中国科学技术大学化学与材料科学学院/碳中和平台相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。官方学院招生目录及陈维、季恒星的学院归属，结合正文的化学/材料分营申请说明，足以识别化学与材料科学学院申请路径；碳中和平台不另拆成独立招生项目。只确认这一明确学院路径，并未证明所有碳中和平台年度招生事项。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P9",
+      "answer_quote": "手握中科大陈维课题组、清华深研院、浙大化工等强力攻坚组合",
+      "canonical_candidate_key": "tsinghua-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院材料相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。SIGS材料080500直博有可识别路径；C-01已涵盖相关材料/深圳项目，官方2026博士目录进一步支持该身份及学位路径。不视为清华本部院系。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P9",
+      "answer_quote": "手握中科大陈维课题组、清华深研院、浙大化工等强力攻坚组合",
+      "canonical_candidate_key": "zju-chemicalengineering",
+      "error_ids": [],
+      "label": "浙江大学化学工程与生物工程学院化工直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。学校、院系、081700与直博层次明确，落在C-04已冻结参考粒度，化工与能源电化学方向适配。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-P10",
+      "answer_quote": "退有哈工大深圳、哈工大本部与中科院上海硅酸盐所的绝对兜底",
+      "canonical_candidate_key": "hit-shenzhen-combined-science-materials",
+      "error_ids": [],
+      "label": "哈尔滨工业大学深圳理学院/材料学院合并直博或学硕建议",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。深圳培养地与威海本科地已区分，相关学院和方向有实际内容；两个独立学院、两个学科及两种层次却未分别绑定，不能凭斜杠自行拆出任一独立推荐。该缺项不证明项目不存在，故不标invalid，也不挂纯缺项pending。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-P10",
+      "answer_quote": "退有哈工大深圳、哈工大本部与中科院上海硅酸盐所的绝对兜底",
+      "canonical_candidate_key": "hit-main-chemicalchemistry",
+      "error_ids": [],
+      "label": "哈尔滨工业大学本部化工与化学学院化工直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。学院、081700、直博与哈尔滨培养地明确，符合C-11；本科威海与本部申请地明确区分。无证据支持绝对录取保证，保证性措辞归质量项，不否定真实项目身份。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-P10",
+      "answer_quote": "退有哈工大深圳、哈工大本部与中科院上海硅酸盐所的绝对兜底",
+      "canonical_candidate_key": "ucas-siccas-energy",
+      "error_ids": [],
+      "label": "中国科学院大学上海硅酸盐研究所相关直博",
+      "reason": "后文重复的主攻、套磁、网申或托底建议，结合前文完整组合识别；不新增学校或专业路径。正文明确实际培养单位上海硅酸盐所和国科大学位，研究中心为所内平台。官方2026推免简章确认材料科学与工程、化学直博；属于C-15中科院相关研究所，非以无985标签判降级。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-C1",
+      "answer_quote": "若复旦出现意外未获优营，立刻转入主力攻坚高校（中科大、华理、南大、华工）与中科院所锁死名额",
+      "canonical_candidate_key": "ustc-scms-carbonneutral",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦未获优营，替代项目仍在有效考核或预推免窗口且有可用招生指标；此前已并行申请。",
+      "label": "中国科学技术大学化学与材料科学学院/碳中和平台相关直博",
+      "reason": "复旦失利后切换优先级的条件建议；与前文直接推荐同一对象重复，不能据此保证替代录取。官方学院招生目录及陈维、季恒星的学院归属，结合正文的化学/材料分营申请说明，足以识别化学与材料科学学院申请路径；碳中和平台不另拆成独立招生项目。只确认这一明确学院路径，并未证明所有碳中和平台年度招生事项。",
+      "school_key": "ustc",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-C1",
+      "answer_quote": "若复旦出现意外未获优营，立刻转入主力攻坚高校（中科大、华理、南大、华工）与中科院所锁死名额",
+      "canonical_candidate_key": "ecust-chemicalengineering",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦未获优营，替代项目仍在有效考核或预推免窗口且有可用招生指标；此前已并行申请。",
+      "label": "华东理工大学化工学院相关直博/硕博路径",
+      "reason": "复旦失利后切换优先级的条件建议；与前文直接推荐同一对象重复，不能据此保证替代录取。全文组合07单独题名化工学院；研究所为科研组织说明而非评审另造学院推荐。上海、化工A+与催化方向有具体适配理由，虽不与参考有同校关系仍是可支持质量项的清单外推荐。",
+      "school_key": "ecust",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-C1",
+      "answer_quote": "若复旦出现意外未获优营，立刻转入主力攻坚高校（中科大、华理、南大、华工）与中科院所锁死名额",
+      "canonical_candidate_key": "nju-combined-chemistry-modernengineering",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦未获优营，替代项目仍在有效考核或预推免窗口且有可用招生指标；此前已并行申请。",
+      "label": "南京大学化学化工学院/现代工程学院合并直博建议",
+      "reason": "组合10最初合并化学化工学院/现代工学院；但其专属申请策略又明确“南大化院夏令营”，联系同段直博培养层次，全文足以独立识别化学化工学院相关直博申请，符合C-06参考院系/方向粒度。仅将这一已有行动明确的路径用于匹配；现代工院仍未分别明确推荐，不拆出第二候选，不强求参考未列的具体专业绑定。重复记录沿用同一canonical_candidate_key。",
+      "school_key": "nju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-C1",
+      "answer_quote": "若复旦出现意外未获优营，立刻转入主力攻坚高校（中科大、华理、南大、华工）与中科院所锁死名额",
+      "canonical_candidate_key": "scut-chemistrychemicalengineering",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦未获优营，替代项目仍在有效考核或预推免窗口且有可用招生指标；此前已并行申请。",
+      "label": "华南理工大学化学与化工学院化工直博",
+      "reason": "复旦失利后切换优先级的条件建议；与前文直接推荐同一对象重复，不能据此保证替代录取。明确081700、相关学院及直博/硕博连读备选，符合C-13化学化工相关直博粒度。",
+      "school_key": "scut",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-C1",
+      "answer_quote": "若复旦出现意外未获优营，立刻转入主力攻坚高校（中科大、华理、南大、华工）与中科院所锁死名额",
+      "canonical_candidate_key": "ucas-siccas-energy",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦未获优营，替代项目仍在有效考核或预推免窗口且有可用招生指标；此前已并行申请。",
+      "label": "中国科学院大学上海硅酸盐研究所相关直博",
+      "reason": "复旦失利后切换优先级的条件建议；与前文直接推荐同一对象重复，不能据此保证替代录取。正文明确实际培养单位上海硅酸盐所和国科大学位，研究中心为所内平台。官方2026推免简章确认材料科学与工程、化学直博；属于C-15中科院相关研究所，非以无985标签判降级。",
+      "school_key": "ucas",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-C2",
+      "answer_quote": "关注复旦预推免系统补录机会（部分夏令营优营放弃直博后的空缺名额）",
+      "canonical_candidate_key": "fudan-chemistry-0703",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦当年确实公布预推免或补录窗口，意向方向仍有直博名额并接受申请。",
+      "label": "复旦大学化学系化学直博",
+      "reason": "复旦后续机会条件备选，沿用此前院系组合；官方2025通知支持曾有预选拔渠道，但不保证2026申请季一定补录，也不倒用后来发布的2027届通知。对应C-05化学系相关直博；070300与培养层次明确。官方2025夏令营附件确认化学系仍招化学直博。能源催化师资有整合调整，不把师资介绍替代招生主体。",
+      "school_key": "fudan",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-C2",
+      "answer_quote": "关注复旦预推免系统补录机会（部分夏令营优营放弃直博后的空缺名额）",
+      "canonical_candidate_key": "fudan-materials-0805",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦当年确实公布预推免或补录窗口，意向方向仍有直博名额并接受申请。",
+      "label": "复旦大学材料科学系材料科学与工程直博",
+      "reason": "复旦后续机会条件备选，沿用此前院系组合；官方2025通知支持曾有预选拔渠道，但不保证2026申请季一定补录，也不倒用后来发布的2027届通知。原材料科学系已纳入智能材料与未来能源创新学院，官方组织调整与招生附件支持0805学术博士路径；旧名不构成项目不存在。",
+      "school_key": "fudan",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-C2",
+      "answer_quote": "关注复旦预推免系统补录机会（部分夏令营优营放弃直博后的空缺名额）",
+      "canonical_candidate_key": "fudan-icome-lam-crossdisciplinary",
+      "error_ids": [],
+      "feasibility": "全文此前已安排并行申报，此处可作为已申请项目之间的优先级调整。仍须查替代单位窗口与名额，不能把失败后临时补申或录取当作保证；不新增独立申请路径。",
+      "key_condition": "复旦当年确实公布预推免或补录窗口，意向方向仍有直博名额并接受申请。",
+      "label": "复旦大学先进材料实验室/iCOME相关直博",
+      "reason": "复旦后续机会条件备选，沿用此前院系组合；官方2025通知支持曾有预选拔渠道，但不保证2026申请季一定补录，也不倒用后来发布的2027届通知。实验室依托iCOME招生，属于平台与招生主体关系，不是两个独立学院含糊合并。0703/0805为同一平台建议的备选；不擅自拆成两条独立路径。与组合02研究平台和学科备选不完全相同，按其独立列明的组合保留一条，重叠0805不另创造候选。",
+      "school_key": "fudan",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 15,
+  "rubric_sha256": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+  "score": 59.5,
+  "score_interval": [
+    59.5,
+    59.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-C-APPLY",
+  "task_kind": "recommendation",
+  "task_sha256": "ccecf04257d6d475dcb687a687485837f7607dd64fbcec9db437261de9ccb85a",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "| **01** | **复旦大学** | 化学系 | 070300 化学（物理化学/无机化学） | 直博生 | 郑耿锋教授、夏永姚教授、王永刚教授（电催化/储能） | 冲刺（首选） | 上海 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "fudan"
+      },
+      {
+        "answer_quote": "| **04** | **浙江大学** | 化学工程与生物工程学院 | 081700 化学工程与技术 | 直博生 | 陆俊教授、任其龙院士团队（储能材料/电化学工程） | 冲刺梯队 | 杭州 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "| **05** | **上海交通大学** | 化学化工学院 | 081700 化学工程与技术 / 070300 化学 | 直博生 | 马紫峰教授、杨晓伟教授（二次电池/电催化与碳材料） | 冲刺梯队 | 上海 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "| **06** | **中国科学技术大学** | 化学与材料科学学院 / 碳中和研究院 | 070300 化学 / 080500 材料科学与工程 | 直博生 | 陈维教授、季恒星教授（水系锌电池/电催化与界面调控） | 主力攻坚 | 合肥 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "ustc"
+      },
+      {
+        "answer_quote": "| **07** | **华东理工大学** | 化工学院 / 工业催化研究所 | 081700 化学工程与技术（A+学科） | 直博生/硕博 | 韩一帆教授、郭旭虹教授团队（多相催化/工业反应工程） | 主力攻坚 | 上海 |",
+        "downgraded": true,
+        "reason": "按通则985本科基准，华东理工为211非985，985优势学科平台不改变高校档次。答卷有A+化工的具体学科理由，按本题three_level质量边界判断，不另按每校1分扣。",
+        "school_key": "ecust"
+      },
+      {
+        "answer_quote": "| **08** | **清华大学** | 深圳国际研究生院（SIGS）材料与新能源学部 | 080500 材料科学与工程 | 直博生 | 贺艳兵教授、周光敏副教授、康飞宇教授（锌电池/固态电极） | 主力攻坚 | 深圳 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "tsinghua"
+      },
+      {
+        "answer_quote": "| **09** | **厦门大学** | 化学化工学院 | 070304 物理化学 / 081700 化学工程与技术 | 直博生 | 孙世刚院士团队、郑南峰院士团队（电催化机理与能源材料） | 主力攻坚 | 厦门 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "xmu"
+      },
+      {
+        "answer_quote": "| **10** | **南京大学** | 化学化工学院 / 现代工程与应用科学学院 | 081700 化学工程与技术 / 080500 材料科学与工程 | 直博生 | 金钟教授、王学斌教授（多孔碳电催化剂与电池电池器件） | 主力攻坚 | 南京 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "nju"
+      },
+      {
+        "answer_quote": "| **11** | **华南理工大学** | 化学与化工学院 | 081700 化学工程与技术 | 直博生 | 李映伟教授、彭峰教授（MOF基功能电催化与反应工程） | 主力攻坚 | 广州 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "scut"
+      },
+      {
+        "answer_quote": "| **12** | **哈尔滨工业大学（深圳）** | 理学院 / 材料科学与工程学院 | 070300 化学 / 080500 材料科学与工程 | 直博生/学硕 | 慈立杰教授、李德平副教授（先进储能电化学与水系催化） | 稳健托底 | 深圳 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。明确区分威海本科与哈尔滨本部/深圳研究生培养地。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "| **14** | **中南大学** | 化学化工学院 / 冶金与环境学院 | 081700 化学工程与技术 / 080600 冶金工程 | 直博生 | 纪效波教授、唐有根教授（水系电池电催化与储能材料） | 稳健托底 | 长沙 |",
+        "downgraded": false,
+        "reason": "推荐学校为985层次（清华高位），与哈工大本科操作基准同档或更高；同校不同院系只报告一条。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "| **15** | **中国科学院上海硅酸盐研究所** | 新能源材料与特种无机中心 | 080500 材料科学与工程 / 070300 化学 | 直博生 | 李驰麟研究员、温兆银研究员（多价离子与金属空气电池） | 稳健托底 | 上海 |",
+        "downgraded": false,
+        "reason": "中国科学院大学授位、上海硅酸盐研究所实际培养；科研院所按实际主体比较，不因无985/211标签自动降档。",
+        "school_key": "ucas"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

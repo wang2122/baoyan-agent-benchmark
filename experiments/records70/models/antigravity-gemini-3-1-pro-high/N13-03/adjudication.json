@@ -1,0 +1,28 @@
+{
+  "schema": "source-bound-post-review-adjudication.1",
+  "task_id": "N13-03",
+  "source_answer_sha256": "e433c70f60b1170639c5be3e266795459054deb4dae7b403d72815ccf985f684",
+  "source_original_judgment_sha256": "be470b83ffe689e53a336ba489a746c09f7736577dda226989dcb11e5f602a16",
+  "source_original_score_sha256": "ad695aca16c4984d9505f6cce91f37c2fbb8e3dc04368abe4cb2630f45f133e0",
+  "source_adjudicated_judgment_sha256": "00e873ae73c0d1c06efee614439bf0ffbdd80222b8d71cedeab21802358681db",
+  "source_adjudicated_score_sha256": "5aa12881ae934ad584966da30cd196c1daa23c36e4269664980fb811c109b184",
+  "original_interval": [
+    26.38,
+    30.75
+  ],
+  "effective_interval": [
+    30.75,
+    30.75
+  ],
+  "pending_nodes": [],
+  "native_arithmetic_replay_verified": true,
+  "new_model_or_cli_review_called": false,
+  "teacher_calibration": "pending",
+  "decisions": [
+    {
+      "node_id": "N13-13",
+      "reason": "既存独立院名勘误实施记录和实际修订rubric可承接；合法机械候选全局exact复算，其他节点不变。",
+      "decision": "hit"
+    }
+  ]
+}

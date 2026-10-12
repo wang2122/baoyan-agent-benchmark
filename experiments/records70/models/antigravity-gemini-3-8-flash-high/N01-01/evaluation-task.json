@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N01",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N01-01",
+  "prompt": "现在是2026年推免申请季。我在湖南大学读智能土木，专业排名前约9%，四级450–499分。做过工程场景机器视觉的项目，也参与了论文和专利申请，论文由他人担任第一作者。今年准备保研，我不太确定这些经历能发挥多大作用，接下来应该先做什么？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "b9f8a3a464563743d9e5095b59887a0bad9cb0b2e7afdbd22a802aebbec51dcb",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

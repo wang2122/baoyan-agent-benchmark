@@ -1,0 +1,151 @@
+{
+  "candidate_limit": 15,
+  "coverage_points": 70,
+  "coverage_policy": "layered_project_match.1",
+  "forced_pending_reference_ids": [],
+  "id": "BY-E-APPLY",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "体现本人方向、学位、排名、科研和申请约束；有合理冲稳保",
+      "grading": "three_level",
+      "half_credit": "已有相关内容但主要条件或执行不完整",
+      "id": "BY-E-APPLY-R10-01",
+      "label": "推荐理由与适配",
+      "points": 15
+    },
+    {
+      "full_credit": "不机械降级；识别例外和研究所、联合项目差别",
+      "grading": "three_level",
+      "half_credit": "已有相关内容但主要条件或执行不完整",
+      "id": "BY-E-APPLY-R10-02",
+      "label": "院校层次匹配",
+      "points": 5
+    },
+    {
+      "full_credit": "按节点给申请和核验动作",
+      "grading": "three_level",
+      "half_credit": "已有相关内容但主要条件或执行不完整",
+      "id": "BY-E-APPLY-R10-03",
+      "label": "优先与执行安排",
+      "points": 5
+    },
+    {
+      "full_credit": "不把在投视为录用，不把资格未定说成确定",
+      "grading": "three_level",
+      "half_credit": "已有相关内容但主要条件或执行不完整",
+      "id": "BY-E-APPLY-R10-04",
+      "label": "事实和结论状态",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-01",
+      "project": "计算机学院",
+      "school": "北京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-02",
+      "project": "智能学院",
+      "school": "北京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-03",
+      "project": "深圳信息工程学院",
+      "school": "北京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-04",
+      "project": "软件与微电子学院",
+      "school": "北京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-05",
+      "project": "深圳国际研究生院",
+      "school": "清华大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-06",
+      "project": "自动化系",
+      "school": "清华大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-07",
+      "project": "电子工程系",
+      "school": "清华大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-08",
+      "project": "计算机学院",
+      "school": "浙江大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-09",
+      "project": "计算机相关院系",
+      "school": "上海交通大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-10",
+      "project": "人工智能相关院系",
+      "school": "上海交通大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-11",
+      "project": "人工智能学院",
+      "school": "南京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-12",
+      "project": "计算机相关院系",
+      "school": "南京大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-13",
+      "project": "计算技术研究所",
+      "school": "中国科学院"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-14",
+      "project": "自动化研究所",
+      "school": "中国科学院"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "E-15",
+      "project": "软件学院",
+      "school": "浙江大学"
+    }
+  ],
+  "reference_denominator": 15,
+  "review_notes": "只按本轮已披露事实评分，未知学生条件可询问或给出具体可行的条件方案。同一错误不重复扣分。项目匹配按100%/60%/30%/0%与最高总分一对一分配计分；未核准项目级历史结果时基础权重均为1。层次与质量按本题评分表判断。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "recommendation",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "gpt-6-1-sol",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 15,
+        "node": "TRY-F-02-R10-03",
+        "points": 7.5,
+        "reason": "已有算法优化、数据库/系统、程序分析/软件工程、图形学和机器学习的具体匹配建议，说明算法实现基础的迁移价值，并指出理论研究还需数学与证明能力。另有模型类与系统类实验要求的区别，且未虚构软件本科不能申请计算机或AI的统一限制。但软件研究、计算机不同研究方向与AI的核心研究需求比较仍不足：程序分析/软件工程的研究任务及所需能力没有展开，AI所需数学统计、建模与研究问题同当前能力的联系主要停留在可以延续原科研。属于具体匹配已成立而方向差异分析未完整的半分。"
+      }
+    ],
+    "name": "GPT-6.1 Sol",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 92.5,
+    "score_interval": [
+      92.5,
+      92.5
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "TRY-F-02"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N03-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "结合已知排名百分比及校内推免规则，针对“优先保护排名靠前的课程和校内资格”形成具体判断；明确资格尚未确认时的验证对象和条件，不把成绩排名直接当作推免名额排序。",
+      "grading": "three_level",
+      "half_credit": "认识到成绩/资格重要，但没有处理排名口径、适用届别或院系核验办法。",
+      "id": "N03-01-T1",
+      "label": "优先保护排名靠前的课程和校内资格",
+      "points": 22
+    },
+    {
+      "full_credit": "就“把电机控制平台、MATLAB/Simulink与嵌入式工作做可复述材料”给出与该学生已知背景相符的具体建议，说明优先级及可检验交付或判断依据；不以空泛口号代替行动。",
+      "grading": "three_level",
+      "half_credit": "方向合理且有一个可落实动作，但缺关键适用条件、个人适配依据或结果检查。",
+      "id": "N03-01-T2",
+      "label": "把电机控制平台、MATLAB/Simulink与嵌入式工作做可复述材料",
+      "points": 20
+    },
+    {
+      "full_credit": "围绕学生实际项目、作者位次、个人分工或成果阶段，落实“区分视觉论文与电气、控制方向的匹配及跨申条件”；至少给出与真实证据对应的整理、实验、验证或推进动作，不得将计划/在投说成录用发表。",
+      "grading": "three_level",
+      "half_credit": "识别出真实研究方向并给出一项具体动作，但缺个人贡献、成果状态、证据核验或进度反馈中的重要一环。",
+      "id": "N03-01-T3",
+      "label": "区分视觉论文与电气、控制方向的匹配及跨申条件",
+      "points": 13
+    },
+    {
+      "full_credit": "围绕学生实际项目、作者位次、个人分工或成果阶段，落实“重点准备电机学、电力电子与控制理论等目标项目考核”；至少给出与真实证据对应的整理、实验、验证或推进动作，不得将计划/在投说成录用发表。",
+      "grading": "three_level",
+      "half_credit": "识别出真实研究方向并给出一项具体动作，但缺个人贡献、成果状态、证据核验或进度反馈中的重要一环。",
+      "id": "N03-01-T4",
+      "label": "重点准备电机学、电力电子与控制理论等目标项目考核",
+      "points": 10
+    },
+    {
+      "full_credit": "围绕“按电气/控制/机器人方向分层筛选导师并安排面试演练”给出学校/院系/学位或方向层面的适配判断，指出关键限制和可核验渠道；不得只泛称顶尖院校或保证录取。",
+      "grading": "three_level",
+      "half_credit": "方向合理且有一个可落实动作，但缺关键适用条件、个人适配依据或结果检查。",
+      "id": "N03-01-T5",
+      "label": "按电气/控制/机器人方向分层筛选导师并安排面试演练",
+      "points": 5
+    },
+    {
+      "full_credit": "准确区分已完成/在投/规划，成绩与资格状态不虚构",
+      "grading": "three_level",
+      "half_credit": "大体准确但遗漏一项影响决策的状态",
+      "id": "accuracy",
+      "label": "事实与成果状态",
+      "points": 10
+    },
+    {
+      "full_credit": "明确有限时间下优先保护哪些任务及为何",
+      "grading": "three_level",
+      "half_credit": "给了优先级但缺可解释理由或取舍",
+      "id": "priority",
+      "label": "机会成本与投入优先级",
+      "points": 10
+    },
+    {
+      "full_credit": "提供至少两个可核查阶段节点和延期重排措施",
+      "grading": "three_level",
+      "half_credit": "有节点但不能根据进度调整",
+      "id": "execution",
+      "label": "检查节点与调整机制",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,152 @@
+{
+  "task_id": "BY-A-APPLY",
+  "applicable_cycle": "2026年9月咨询；2026年秋季申请、2027年入学",
+  "review_scope": "只核验本答卷的招生主体、学位/条件争议和候选分层关系；未搜索作者、本基准或其他答卷。后验目录不作为咨询时已公开事实。",
+  "sources": [
+    {
+      "id": "EV-FROZEN",
+      "source": "rubric.json：本题冻结reference_candidates；task.json题设",
+      "applicable_cycle": "2026年9月咨询；2026年秋季申请、2027年入学",
+      "scope": "仅用于参考已给粒度的精确同名院系/研究方向身份和学生已披露条件；不证明录取概率、具体年度名额或缺失的专业代码。"
+    },
+    {
+      "id": "EV-IMR",
+      "source": "https://gs.imr.ac.cn/zs/zs_sszs/zs_sszs_tzgg/202608/t20260824_854503.html",
+      "applicable_cycle": "2027年推免；2026-08-24发布",
+      "scope": "金属研究所发布中国科学技术大学材料科学与工程学院2027推免通知；支持招生主体、材料等生源范围，不据此推定学生九月已错过所有窗口。",
+      "access_method": "web检索及打开官方网页"
+    },
+    {
+      "id": "EV-home_school-2026",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "applicable_cycle": "2026招生；2026-03-23公开，供2026年9月已有项目身份参照",
+      "scope": "本校能源相关院系公开复试专业为0702Z2、0805J4、085601；只作当时可得身份佐证，不能单凭往届表证明2027停招。"
+    },
+    {
+      "id": "EV-home_school-CATALOG",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "applicable_cycle": "2027硕士目录；2026-10-06发布，评审后验核对",
+      "scope": "目录印刷页27、29-30、32、64分别核对材化、本校纳米相关院系、电子信息、本校能源相关院系；能源只有0702Z2、0805J4、085601；本校纳米相关院系有140600纳米科学与工程，含纳米材料、纳米物理器件及纳米能源环境；电子信息有集成电路等路径。后验资料仅核对本轮路径内容，不将十月发布日期倒灌为九月已知机会或截止。",
+      "access_method": "官方目录页面定位pdfsrc，Python urllib读取官方PDF，pypdf抽取文本；并非web工具成功解析该PDF",
+      "parent_source": "[本科院校官方来源；原始链接私有保留]",
+      "checked_printed_pages": [
+        27,
+        29,
+        30,
+        32,
+        64
+      ]
+    },
+    {
+      "id": "EV-本校纳米相关院系",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "applicable_cycle": "2027推免；2026-09-11发布",
+      "scope": "官方研究生接收单位为功能纳米与软物质研究院，本校纳米相关院系全日制硕士专业接收推免；专业目录须按系统核对。"
+    },
+    {
+      "id": "EV-home_school-TM",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "applicable_cycle": "2027推免；2026-09-06发布",
+      "scope": "本校能源相关院系全日制硕士专业可接收推免，网上预报名、科研兴趣与既往科研面试，具体招生专业须查学校系统。"
+    },
+    {
+      "id": "EV-UESTC-2026",
+      "source": "https://yz.uestc.edu.cn/info/1082/5854.htm",
+      "applicable_cycle": "2026复试表；九月前公开",
+      "scope": "003材料与本校能源相关院系085601只列非全日制，085600为材料与化工；002电子科学与工程学院另有全日制085601。不单凭往届表裁定当届。"
+    },
+    {
+      "id": "EV-UESTC-CATALOG",
+      "source": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085601?ksfs=21",
+      "applicable_cycle": "2027招生目录；2026-10-08发布，后验内容核对",
+      "scope": "官方003院085601方向01明确非全日制，计划6；085600方向01为全日制。与2026规则一致。仅核对学位与培养方式，不当作九月已公开招生通知。",
+      "access_method": "Python urllib读取官方动态目录公开HTML，去除脚本后读取表格",
+      "corroborating_sources": [
+        "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085600?ksfs=21"
+      ],
+      "observations": [
+        "085601?ksfs=22、080500?ksfs=22和085600?ksfs=22均返回暂无数据。控制结果表明该接口空表不能证明某专业不接收推免，已撤回原来由空表推断的确定错误。",
+        "2027目录正向确认085601非全日制及085600全日制；是否可经推免申请085601、或答卷统一类别说明能否支持085600路径，仍须当届接收通知裁决。",
+        "官方学院通知索引https://yz.uestc.edu.cn/info/1082/5283.htm链接到https://materials.uestc.edu.cn/info/1056/8956.htm，但正文被HTTP202挑战页面阻挡；未把第三方转载作为已核实官方正文。"
+      ]
+    },
+    {
+      "id": "EV-home_school-MAT-ENERGY",
+      "source": "[本科院校官方来源；原始链接私有保留]",
+      "applicable_cycle": "2026年7月至9月科研方向资料，供2027申请方向身份核对",
+      "scope": "材化学部公开水电解、电极与阴离子交换膜等工作；结合冻结的材料学位路径，支持其与本校能源相关院系材料/氢能方向实质相关，不能证明保证录取。"
+    },
+    {
+      "id": "EV-MGI",
+      "source": "https://mgi.shu.edu.cn/info/1062/7575.htm",
+      "applicable_cycle": "2027推免；2026-09-12发布",
+      "scope": "材料基因组工程研究院开展材料等跨学科招生、AI与材料融合培养，推免预报名开放；与上海大学材料学院材料培养内容相关而非同招生单位。"
+    },
+    {
+      "id": "EV-MGI-2026",
+      "source": "https://mgi.shu.edu.cn/info/1062/7055.htm",
+      "applicable_cycle": "2026硕士招生；用于2026年9月已有方向及学位内容佐证",
+      "scope": "研究院硕士复试包含材料相关专业知识与基础测试；配合2027推免通知核对材料培养关系，不替代2027具体名额。"
+    },
+    {
+      "id": "EV-DLUT-ENERGY",
+      "source": "https://gs.dlut.edu.cn/info/2411/50482.htm",
+      "applicable_cycle": "2026-05-08发布，适用于咨询时已有招生方向身份",
+      "scope": "材料学院能源材料及器件团队研究储能电极、纳米复合材料、高性能涂层与薄膜，说明学术/专业硕士推免招生；支持材料学院材料工程与储能方向的高度相关性。"
+    },
+    {
+      "id": "EV-DLUT-STORAGE",
+      "source": "https://chemeng.dlut.edu.cn/info/1119/34724.htm",
+      "applicable_cycle": "2027推免；2026年9月公开",
+      "scope": "化工学院2027推免章程显示储能科学与工程专业代码调整，确认参考储能项目属于与材料学院不同的招生路径；只按参考已有储能方向粒度判断。"
+    },
+    {
+      "id": "EV-SCUT-MAT-ENERGY",
+      "source": "https://www2.scut.edu.cn/_upload/article/files/c2/88/136e79134a54bd9a3713a5744833/fca0482f-fe87-4f89-aa24-9d4a5d7c5fa5.pdf",
+      "applicable_cycle": "材料学院官网教师招生介绍，含2021年前工作；仅支持咨询时已有方向和学位类型，不是2027名额审计",
+      "scope": "胡仁宗导师介绍列先进能源材料及金属材料工程专业硕士，研究电池电极与纳米薄膜；支持材料工程中的能源材料培养内容。",
+      "parent_source": "https://www2.scut.edu.cn/materials/"
+    },
+    {
+      "id": "EV-SCUT-ENV-ENERGY",
+      "source": "https://news.scut.edu.cn/2025/0109/c41a56775/page.htm",
+      "applicable_cycle": "2025-01-09科研及单位介绍，咨询时已公开",
+      "scope": "环境与本校能源相关院系具有环境学位体系，并设新能源和环境能源融合研究所，研究电池等能源材料；与同校材料学院能源材料方向高度相关，但并非相同专业或院系。"
+    },
+    {
+      "id": "EV-SYSTEM",
+      "source": "https://yz.chsi.com.cn/tm/",
+      "applicable_cycle": "2027推免；2026-09-18注册、9月21日填报、10月18日填报截止、10月20日确认截止",
+      "scope": "支持本题2026秋季申请节点，不能把填报与确认窗口混为一体。"
+    },
+    {
+      "id": "EV-SYSTEM-ACCEPT",
+      "source": "https://yz.chsi.com.cn/kyzx/kp/202209/20220927/2222239453.html",
+      "applicable_cycle": "2023操作流程，咨询时已公开的一般系统机制",
+      "scope": "待录取须在招生单位规定期限内回复，超时单位可取消；只用于既有系统规则，不把2023年度日期替代2027周期。"
+    },
+    {
+      "id": "EV-USTC-EXCEPTION",
+      "source": "https://yz.ustc.edu.cn/article/2848/176",
+      "applicable_cycle": "2027工程硕博士改革专项；2026-09-03发布",
+      "scope": "当届存在材料与化工、能源动力等校企联合工程硕博推免路径。只证明需要按项目核验例外，不能由学校声望和约29%排名直接断言全校无可行性；不声称学生保证通过初审。"
+    },
+    {
+      "id": "EV-SINANO",
+      "source": "https://yz1.ustc.edu.cn/sszs_2026/index_26.shtml",
+      "applicable_cycle": "2026招生简章，咨询时已公开；核验2016年以来科教融合招生与学籍身份，不作为2027名额审计",
+      "scope": "中国科大官方纳米技术与纳米仿生学院（苏州纳米所）简介说明录取研究生取得中国科大学籍，接收相关专业推免和统考生，材料学术及材料与化工专业由该主体招生。"
+    },
+    {
+      "id": "EV-UESTC-CONTROL",
+      "source": "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085600?ksfs=22",
+      "applicable_cycle": "2027官方公开目录接口；评审补查",
+      "scope": "与085601相同参数控制查询：080500和085600也无数据。只支持空查询不能用于否定招生路径，不支持任何正向推免结论。",
+      "access_method": "Python urllib实际读取并去除脚本后检查公开表格",
+      "control_sources": [
+        "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/080500?ksfs=22",
+        "https://yzbm.uestc.edu.cn/zsml/sszsml/zsmlYjfx/2027/003/085601?ksfs=22"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-E",
+  "context": {
+    "observation": {
+      "评测时间": "2025年申请阶段"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-E-PREP",
+  "prompt": "我在华东地区一所985高校学人工智能，2025年申请阶段成绩排名在专业中游，六级500–549分。已在校内自然语言处理研究团队做过数月科研，另一段还在进行，有一篇自然语言处理论文正在修改，尚未投稿。我希望继续AI或计算机、学硕优先，也考虑港新。排名不算突出，我应该怎样评估申请机会，先推进什么？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

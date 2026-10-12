@@ -1,0 +1,133 @@
+{
+  "candidate_limit": 12,
+  "coverage_points": 70,
+  "coverage_policy": "layered_project_match.1",
+  "forced_pending_reference_ids": [],
+  "id": "N05-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+      "grading": "three_level",
+      "half_credit": "有适配分析但条件或组合取舍不完整",
+      "id": "reasons",
+      "label": "推荐理由、条件与组合",
+      "points": 15
+    },
+    {
+      "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+      "grading": "three_level",
+      "half_credit": "主要正确但个别层次判断无依据",
+      "id": "tier",
+      "label": "院校层次适配",
+      "points": 5
+    },
+    {
+      "full_credit": "给出清晰申请批次、导师联系或条件核验动作",
+      "grading": "three_level",
+      "half_credit": "只有排序或只有动作",
+      "id": "execution",
+      "label": "申请优先与执行",
+      "points": 5
+    },
+    {
+      "full_credit": "推免资格和科研成果均按已知状态处理；不过度承诺录取",
+      "grading": "three_level",
+      "half_credit": "出现局部尚可修正的事实状态问题",
+      "id": "facts",
+      "label": "事实与成果状态",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-01",
+      "project": "交通科学与工程学院｜交通运输工程",
+      "school": "北京航空航天大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-02",
+      "project": "交通学院｜交通运输工程",
+      "school": "同济大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-03",
+      "project": "民航学院｜材料与化工/民航交叉",
+      "school": "西北工业大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-04",
+      "project": "航空学院｜航空宇航科学与技术",
+      "school": "西北工业大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-05",
+      "project": "建筑工程学院｜交通运输",
+      "school": "浙江大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-06",
+      "project": "交通学院｜交通运输工程",
+      "school": "东南大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-07",
+      "project": "交通运输工程学院｜交通运输工程",
+      "school": "中南大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-08",
+      "project": "民航学院｜交通运输工程",
+      "school": "南京航空航天大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-09",
+      "project": "交通与物流工程学院｜交通运输",
+      "school": "武汉理工大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-10",
+      "project": "交通运输学院｜交通运输",
+      "school": "北京交通大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-11",
+      "project": "交通运输与物流学院｜交通运输",
+      "school": "西南交通大学"
+    },
+    {
+      "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+      "id": "N05-12",
+      "project": "交通科学与工程学院｜交通运输",
+      "school": "中国民航大学"
+    }
+  ],
+  "reference_denominator": 12,
+  "review_notes": "只按本轮已披露事实评分，未知学生条件可询问或给出具体可行的条件方案。同一错误不重复扣分。项目匹配按100%/60%/30%/0%与最高总分一对一分配计分；未核准项目级历史结果时基础权重均为1。层次与质量按本题评分表判断。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "recommendation",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

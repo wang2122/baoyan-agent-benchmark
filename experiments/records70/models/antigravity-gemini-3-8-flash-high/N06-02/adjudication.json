@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N06-02",
+  "question_id": "Q038",
+  "answer_sha256": "3bb69736d4febde059246602b2eac0bd5240f89c15de1bd4fd8e47be2794a6e4",
+  "original_rubric_sha256": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+  "original_score_content_sha256": "3c99b324695787340c0e400c3dedfae7a2e07855bad97686d9a9cef5591b563f",
+  "original_rubric_content_sha256": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "N06-02-L1-05",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "提示不同项目的学位、招生学科及专业背景限制应以当届正式要求确认；雅思6.5不自动等于所有项目达标。",
+        "grading": "three_level",
+        "half_credit": "有招生提醒但未说明项目差异。",
+        "id": "N06-02-L1-05",
+        "label": "跨方向资格和学位条件",
+        "points": 15
+      },
+      "decision": "答卷提醒校内推免资格，并区分语言学学硕和国际中文教育专硕；但把雅思6.5泛称几乎所有高校达标，未逐项目核对当届招生学科、成绩认可及有效期。按原半档 7.5/15。人大文学院是否在当届招该专业仍未证实，不因另一学院招生就判其不招。",
+      "sources": [
+        {
+          "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark/blob/ba3a60ffec390f00d1e17bc32eb3ad03f6271d4b/experiments/records70/models/antigravity-gemini-3-8-flash-high/N06-02/answer.md",
+          "applicable_cycle": "original frozen answer",
+          "scope": "scored answer text",
+          "finding": "Rubric-specific content and omissions checked against this immutable answer."
+        },
+        {
+          "url": "https://scsce.ruc.edu.cn/zsjy/zsxx/2fd64da15d6d4069be376e3cfea166df.htm",
+          "applicable_cycle": "2026 recommendation / 2027 entry",
+          "scope": "official source; do not infer unresolved programme identity",
+          "finding": "Separate RUC school has a 2027 international Chinese education notice; it does not settle the Literature School list."
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    82.5,
+    82.5
+  ],
+  "candidate_factual_uncertainties_preserved": [
+    "人大文学院2027国际中文教育完整官方专业列表尚未取得。"
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:19:35+00:00"
+}

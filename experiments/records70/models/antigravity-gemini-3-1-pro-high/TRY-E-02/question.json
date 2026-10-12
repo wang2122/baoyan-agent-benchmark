@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-E",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "document_question_id": "Q013",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-E-02",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在华东地区一所985高校（华东五校之一）学人工智能，现在是2025年申请阶段，专业排名前约45%，六级500–549分。听说上一届有一定推免名额，我就以为自己应该比较稳，但这一届规则和名额还没确定。这个判断靠谱吗？我应该怎样确认自己的推免资格？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

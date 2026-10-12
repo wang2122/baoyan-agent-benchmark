@@ -1,0 +1,206 @@
+{
+  "task_id": "N13-03",
+  "review_scope": "只核对本份答卷的项目关系、实质争议及规则；不寻找作者，不核查任何个人公示。题设仅给2026推免申请季，不把运行日期补作学生咨询日期。",
+  "sources": [
+    {
+      "id": "EV01",
+      "source": "https://pi.zju.edu.cn/2026/0730/c67820a3192667/page.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "工程师学院机械硕士身份、授位主体和申请条件",
+      "reviewer_finding": "官方通知列机械工程等领域，授浙江大学工程类硕士学位；学院在杭州，与海宁国际联合学院不同。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV02",
+      "source": "https://yjsy.zju.edu.cn/open/zsss/ZsssBksmOpenList?bksmlx=2&nf=2027",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "海宁项目与工程师学院招生身份区分",
+      "reviewer_finding": "当届院系报考说明单列国际联合学院（海宁国际校区），不能把工程师学院视作海宁项目别名。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV03",
+      "source": "https://www2.scut.edu.cn/wusie/34052/list.htm",
+      "applicable_cycle": "评审访问时的院系项目介绍；用于2026申请季身份核对",
+      "scope": "吴贤铭学院机械硕士与智能工程方向",
+      "reviewer_finding": "列080200智能工程和085501机械工程；专业介绍把智能工程置于机械工程交叉领域，与机汽机械方向高度相关。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV04",
+      "source": "https://yz.cqu.edu.cn/sszyml/2027/7.html",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "重大机械学院各硕士项目及机器人、感知控制方向",
+      "reviewer_finding": "当届目录列080200、085501、085509、085510；080200有机电一体化与机器人，085501有智能感知与流体控制，085510有协作、仿生、医疗机器人。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV05",
+      "source": "https://yz.cqu.edu.cn/sszyml/2027/13.html",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "重大自动化学院的控制、具身智能项目身份",
+      "reviewer_finding": "当届目录有081100控制科学与工程、具身智能无人系统与控制，招生院系为自动化学院，区别于机械学院。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV06",
+      "source": "https://cmee.nuaa.edu.cn/2026/0721/c17776a405879/page.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南航机电推免条件与未预报名申请路径",
+      "reviewer_finding": "允许预计取得资格者报名，英语提交成绩证明；未预报名者可在全国系统开通后直接报名，再按计划决定复试。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV07",
+      "source": "https://gs.njust.edu.cn/_upload/article/files/3a/c1/f6b8f4634fb18ce44e2f466601d5/1f9e9183-88f8-4571-be9b-d0b5ead4dfc4.pdf",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南理工机械学院完整推免硕士目录",
+      "reviewer_finding": "机械学院列080200、085501、0826Z1、085407等硕士；085400电子信息不在该院硕士目录。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV08",
+      "source": "https://gs.njust.edu.cn/zsw/a9/31/c4587a370993/page.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南理工推免资格、跨学科与专业目录约束",
+      "reviewer_finding": "全日制招生专业接受推免；以当届专业目录及院系考核为准，跨门类须有本科知识能力。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV09",
+      "source": "https://nssperc.njust.edu.cn/_upload/article/files/34/4c/2f5dc9704db59f92028623bdcf6c/df34d990-9d06-46c4-a49e-e732d5d01bdc.pdf",
+      "applicable_cycle": "2018目录仅作学科内涵历史证据；2027身份由EV07确认",
+      "scope": "智能武器、仪器仪表与机械的实质相关性",
+      "reviewer_finding": "智能武器有发射与控制、机械设计考核；仪器仪表有微机电、传感、智能测试，支持同院系相近关系，不作为2027名额证据。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV10",
+      "source": "https://smjgs.seu.edu.cn/2026/0909/c8471a582636/page.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "东南苏州机械招生主体、智能制造方向",
+      "reviewer_finding": "当届苏州国际学院机械考核结果有智能制造方向；国家系统需报考该院，与机械学院本部路径有区分。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV11",
+      "source": "https://me.seu.edu.cn/2024/0625/c1549a495253/pagem.htm",
+      "applicable_cycle": "2024申请、2025入学；仅作同校培养联系历史证据",
+      "scope": "东南机械学院与苏州机械的培养联系",
+      "reviewer_finding": "两地开展机械人才培养，苏州机械由机械学院培养；不据此假定2027两项招生主体等同或仍可调剂。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV12",
+      "source": "https://me.seu.edu.cn/2026/0708/c1549a575972/pagem.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "东南机械学院当届接收通知存在",
+      "reviewer_finding": "可读页面标题和发布时间，正文图表未解析；不把不可读内容写成已核实英语、名额或截止日。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV13",
+      "source": "https://h3i.buaa.edu.cn/rcpy1/yjsjy/yjsjygk.htm",
+      "applicable_cycle": "2024起设置；2026申请季身份核对",
+      "scope": "北航杭州机械专业学位培养主体",
+      "reviewer_finding": "杭州由中法航空学院承载机械等工程专业学位，区别于答卷北京机械学院；支持相关院系而非等价判断。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV14",
+      "source": "https://yzb.buaa.edu.cn/info/1036/3601.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "北航校级基本申请条件",
+      "reviewer_finding": "预计获得推免资格者可申请，须符合具体学院条件；不能由校级要求替代院系英语、项目代码。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV15",
+      "source": "https://www.me.buaa.edu.cn/__local/9/7A/7D/7751718924D89657F699DF97A69_2AC58947_A145.pdf",
+      "applicable_cycle": "文件适用年度未取得，禁止当作2027最终目录",
+      "scope": "北航机械学位代码的实质疑点",
+      "reviewer_finding": "官方域名搜索摘要区分机械工程085501硕士、机械085500博士；全文获取失败，无法确定是否对2027适用，故不认定答卷085500硕士一定无效。",
+      "limits": "仅记录检索摘要及获取失败；此条单独不足以判invalid。"
+    },
+    {
+      "id": "EV16",
+      "source": "https://www.me.buaa.edu.cn/ssjgy.jsp?currentnum=195&newskeycode2=5oub55Sf&searchScope=0&wbtreeid=1131",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "北航机械学院当届通知与专业层次疑点",
+      "reviewer_finding": "官方搜索摘要列2026年9月10日2027推免通知，更新条目中的085500用于博士；全文获取失败，须结合当届完整硕士表裁决。",
+      "limits": "检索摘要不含完整硕士目录；不以未取到网页判不存在。"
+    },
+    {
+      "id": "EV17",
+      "source": "https://aim.sustech.edu.cn/Article-index-id-26-typeid-5.html",
+      "applicable_cycle": "评审访问时学院专业介绍；页面另链接2026招生简章",
+      "scope": "南科大院系现有专业及学位类型",
+      "reviewer_finding": "介绍列081100学术型硕士，085400专业型且校企联培，085507专业型且仅推免；不列0801Z1。",
+      "limits": "非2027冻结最终目录；支持学位类型，不能单凭缺0801Z1证明2027停招。"
+    },
+    {
+      "id": "EV18",
+      "source": "https://aim.sustech.edu.cn/Article-detail-id-314-typeid-7.html",
+      "applicable_cycle": "2024申请、2025入学",
+      "scope": "南科大0801Z1原院系历史路径",
+      "reviewer_finding": "往届预报名确曾列系统设计与智能制造学院0801Z1直博；不能直接倒推2027继续。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV19",
+      "source": "https://designschool.sustech.edu.cn/cn/admission/masters-admissions/877.html",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南科大0801Z1的另一院系当届路径",
+      "reviewer_finding": "创新创意设计学院当届明确0801Z1学硕及直博；不能替答卷把自动化学院改成该院。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV20",
+      "source": "https://aim.sustech.edu.cn/Article-detail-id-993-typeid-7.html",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南科大自动化学院更名、专项条件和培养方式",
+      "reviewer_finding": "通知支持2025年4月更名、全国应届生申请和工程硕博校企联培；当届专项信息未提供0801Z1延续证明。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV21",
+      "source": "https://aim.sustech.edu.cn/Article-detail-id-1014-typeid-7.html",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南科大自动化学院2027博士项目证据限制",
+      "reviewer_finding": "该通知仍要求参考2026导师目录、最终以2027简章为准，不能据此裁决0801Z1在该院2027延续或停招。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    },
+    {
+      "id": "EV22",
+      "source": "https://www.graduate.nuaa.edu.cn/2026/0915/c2145a410574/page.htm",
+      "applicable_cycle": "2026申请、2027入学",
+      "scope": "南航当届目录",
+      "reviewer_finding": "检索命中官方当届推荐免试硕士目录；精确机电机械身份同时由冻结参考支持。",
+      "limits": "项目身份或明确规则；不表示已审计所有名额、截止日和个人资格"
+    }
+  ],
+  "unresolved": [
+    {
+      "affected": "nodes.tier（北航085500候选），不挂起已成立的coverage.N13-03学硕关系",
+      "issue": "北航机械学院085500硕士与当届专业代码/层次疑点；英语未知本可用答卷具体核验条件处理，pending不是因未附来源。",
+      "sources": [
+        "EV13",
+        "EV14",
+        "EV15",
+        "EV16"
+      ]
+    },
+    {
+      "affected": "nodes.tier",
+      "issue": "南科大自动化学院0801Z1学硕/直博：旧路径成立，现有院系目录与2027另一院系不同，2027最终该院路径未能裁决；不以缺年度资料直接判错。",
+      "sources": [
+        "EV17",
+        "EV18",
+        "EV19",
+        "EV20",
+        "EV21"
+      ]
+    }
+  ],
+  "quantity_policy_note": "学校、独立院系及明确不同专业/学位申请路径分别记录。明确列为备选的学硕、专硕分别保留，内部研究方向及别称合并。多院校合并泛列不替其创设申请路径，按仅提名保留学校对象。重复在候选记录的occurrence_quotes保留，不增加独立数量。没有自行计算总分。"
+}

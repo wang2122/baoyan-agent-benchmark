@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_group_id": {
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,95}$",
+      "type": "string"
+    },
+    "context": {
+      "properties": {
+        "observation": {
+          "type": "object"
+        },
+        "persona": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "persona",
+        "observation"
+      ],
+      "type": "object"
+    },
+    "deliverables": {
+      "items": {
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "format": {
+            "const": "markdown"
+          },
+          "path": {
+            "const": "answer.md"
+          },
+          "required": {
+            "const": true
+          }
+        },
+        "required": [
+          "path",
+          "format",
+          "required",
+          "description"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "difficulty": {
+      "enum": [
+        null,
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "domain": {
+      "enum": [
+        "baoyan"
+      ]
+    },
+    "execution": {
+      "properties": {
+        "prompt_version": {
+          "const": "candidate-input.2",
+          "description": "Optional candidate message format; omission preserves legacy rendering."
+        },
+        "mode": {
+          "const": "static_tool_task"
+        },
+        "stage_count": {
+          "const": 1
+        },
+        "trajectory_required": {
+          "type": "boolean"
+        },
+        "web_mode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "mode",
+        "stage_count",
+        "web_mode",
+        "trajectory_required"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,95}$",
+      "type": "string"
+    },
+    "prompt": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "review": {
+      "properties": {
+        "content_status": {
+          "enum": [
+            "pending",
+            "approved"
+          ]
+        },
+        "difficulty_status": {
+          "enum": [
+            "pending",
+            "approved"
+          ]
+        },
+        "teacher_calibration": {
+          "enum": [
+            "pending",
+            "approved",
+            "completed_owner_confirmed"
+          ]
+        }
+      },
+      "required": [
+        "content_status",
+        "difficulty_status",
+        "teacher_calibration"
+      ],
+      "type": "object"
+    },
+    "rubric_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "split": {
+      "enum": [
+        "dev",
+        "test"
+      ]
+    },
+    "task_kind": {
+      "enum": [
+        "recommendation",
+        "planning"
+      ]
+    },
+    "task_version": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "case_group_id",
+    "split",
+    "difficulty",
+    "domain",
+    "task_kind",
+    "task_version",
+    "prompt",
+    "context",
+    "deliverables",
+    "execution",
+    "review",
+    "rubric_sha256"
+  ],
+  "title": "Baoyan benchmark task v1",
+  "type": "object"
+}

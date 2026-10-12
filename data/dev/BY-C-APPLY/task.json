@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-C",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "document_question_id": "Q008",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-C-APPLY",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在哈工大（威海）读化学工程与工艺，2026年3月排名前约7%，六级450–499分。拿过化工和数学建模类竞赛奖项，正在推进电池与催化论文和大创。希望直博，复旦是首选，也更喜欢南方。能推荐15个具体学校、学院和直博或其他适用的研究生项目组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "85962d132b5927fba28ebe1e91dc5383efd2355c3091450f78562331180e292a",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

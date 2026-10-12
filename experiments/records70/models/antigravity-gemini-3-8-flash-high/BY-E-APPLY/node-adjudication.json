@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "BY-E-APPLY",
+  "question_id": "Q012",
+  "answer_sha256": "a029d3c44d720e3d7484bd57637e37201786c093a18962ecedd2e7a4f06cef70",
+  "original_rubric_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+  "original_score_content_sha256": "c8fdd8c141bba8ec990a8a39602f1e400c33b449911dc59a927de30f293c0644",
+  "original_rubric_content_sha256": "16c1e02a23eafcbaaa882b0eb3c58d1cab038e7913f0d0eb670781eda00a66b5",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "BY-E-APPLY-R10-04",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 2.5,
+      "rule": {
+        "full_credit": "不把在投视为录用，不把资格未定说成确定",
+        "grading": "three_level",
+        "half_credit": "已有相关内容但主要条件或执行不完整",
+        "id": "BY-E-APPLY-R10-04",
+        "label": "事实和结论状态",
+        "points": 5
+      },
+      "decision": "原答卷把CET-6 500–549说成可直接满足包括CIE在内的最终申请语言条件。CIE当届申请条件列托福、雅思、GMAT、英语授课学位或英语测试的专业资格，未列CET-6；夏令营接受四六级材料不能证明学位录取免语言考试。论文在准备、推免资格待确认等状态处理仍有正确内容，按原半档2.5/5。并不断言招生办绝无个案例外。",
+      "sources": [
+        {
+          "url": "https://ssemsc.cuhk.edu.cn/article/306",
+          "applicable_cycle": "2026–27 or 2027 entry, as applicable",
+          "scope": "official admissions or college identity"
+        },
+        {
+          "url": "https://sse.cuhk.edu.cn/node/1727",
+          "applicable_cycle": "2026–27 or 2027 entry, as applicable",
+          "scope": "official admissions or college identity"
+        },
+        {
+          "url": "https://gs.cuhk.edu.cn/page/26",
+          "applicable_cycle": "2026–27 or 2027 entry, as applicable",
+          "scope": "official admissions or college identity"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    29.0,
+    29.0
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:44:59+00:00"
+}

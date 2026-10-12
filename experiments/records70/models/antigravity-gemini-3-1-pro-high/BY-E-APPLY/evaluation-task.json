@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-E",
+  "context": {
+    "observation": {
+      "评测时间": "2025年申请阶段"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-E-APPLY",
+  "prompt": "我在华东地区一所985高校（华东五校之一）读人工智能，2025年申请阶段排名前约45%，六级500–549分，有数月校内自然语言处理科研经历，一篇论文还在修改、尚未投稿。我想继续AI或计算机学硕，也考虑港新备选。能推荐15个国内学校、学院和具体专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

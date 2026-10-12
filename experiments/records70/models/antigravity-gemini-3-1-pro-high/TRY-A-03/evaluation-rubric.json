@@ -1,0 +1,66 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-A-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "利用已知本科、专业和阶段，确认成绩排名、英语及经历资源等关键缺口，并说明这些信息怎样影响起步；不重复盘问已知信息。",
+      "grading": "three_level",
+      "half_credit": "提出了与保研有关的关键问题，但遗漏主要信息维度或未说明信息为何影响判断。",
+      "id": "TRY-A-03-R10-01",
+      "label": "了解当前情况与信息缺口",
+      "points": 30
+    },
+    {
+      "full_credit": "用易理解的方式解释先争取本校资格、再申请接收项目，并指出当前需要了解本学院适用规则。",
+      "grading": "three_level",
+      "half_credit": "资格与接收的顺序正确，但两类规则的区别或当前核验对象不清楚。",
+      "id": "TRY-A-03-R10-02",
+      "label": "解释推免流程与本校规则",
+      "points": 25
+    },
+    {
+      "full_credit": "给信息尚缺时可执行的近期第一步，优先摸清成绩排名及本校规则，同时安排一个具体学习或英语动作。",
+      "grading": "three_level",
+      "half_credit": "已有具体起步动作，但优先顺序、缺信息时如何行动或近期检查点不完整。",
+      "id": "TRY-A-03-R10-03",
+      "label": "近期第一步与优先顺序",
+      "points": 25
+    },
+    {
+      "full_credit": "简要介绍成绩、英语、科研或大创、竞赛的作用，说明按本人起点和资源逐步选择，不强制立即展开全部活动。",
+      "grading": "three_level",
+      "half_credit": "已说明若干准备方向并联系本人阶段，但各方向作用或投入取舍不充分。",
+      "id": "TRY-A-03-R10-04",
+      "label": "准备方向与投入取舍",
+      "points": 10
+    },
+    {
+      "full_credit": "区分已知与未知，不倒填后期排名和成果；给出收集哪些信息后继续完善方案的下一步。",
+      "grading": "three_level",
+      "half_credit": "总体没有倒填后期结果，但未知项的处理或后续完善节点不完整。",
+      "id": "TRY-A-03-R10-05",
+      "label": "信息状态与后续完善",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "kimi-k3",
+  "task_id": "N14-03",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "subscription",
+    "cli": "kimi",
+    "cli_version": "2.1.1",
+    "id": "kimi-k3",
+    "model": "k3",
+    "reasoning_effort": "native_default"
+  },
+  "original_answer_sha256": "2a5312b9984ebdaa499695ee77ad502332dc5adeba65b594c772555798f24bba",
+  "public_display_answer_sha256": "93e56d16f7574424a8468f814a136e03cfb9e006ad9b527a24ddc5ac1c76b774",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}

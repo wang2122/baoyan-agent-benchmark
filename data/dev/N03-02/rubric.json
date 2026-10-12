@@ -1,0 +1,77 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N03-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "比较电气系统、自动控制、机器人视觉与AI在研究对象、训练方法及培养目标上的实质差别，不仅按名称排序。",
+      "grading": "three_level",
+      "half_credit": "涵盖两条路线，第三条路线或重要差别缺失。",
+      "id": "N03-02-L1-01",
+      "label": "电气/控制/机器人视觉路线差别",
+      "points": 25
+    },
+    {
+      "full_credit": "利用电机控制平台、嵌入式部署的学生分工和结果，解释其对电气与控制路线的贡献。",
+      "grading": "three_level",
+      "half_credit": "能联系实际经历，但个人贡献或迁移依据不足。",
+      "id": "N03-02-L1-02",
+      "label": "电机控制与嵌入式实践的证据",
+      "points": 20
+    },
+    {
+      "full_credit": "区分机器视觉项目与电气主方向的差异，基于论文/实验个人角色判断视觉与AI路线是否值得深化。",
+      "grading": "three_level",
+      "half_credit": "只把视觉经历当作选择理由，没有讨论实际技能或项目状态。",
+      "id": "N03-02-L1-03",
+      "label": "机器视觉EI研究的贡献与适配",
+      "points": 20
+    },
+    {
+      "full_credit": "结合未来研究兴趣、已积累技能和准备时间提供有条件的主次建议；不武断要求弃掉其他方向。",
+      "grading": "three_level",
+      "half_credit": "给出方向但缺权衡或转向条件。",
+      "id": "N03-02-L1-04",
+      "label": "三种方向选择中的兴趣和时间约束",
+      "points": 15
+    },
+    {
+      "full_credit": "指出跨报可能涉及的先修、学位和导师方向条件，建议用当年招生简章与导师研究核验。",
+      "grading": "three_level",
+      "half_credit": "列出可能条件但缺针对性核实。",
+      "id": "N03-02-L1-05",
+      "label": "跨学科课程及招生要求",
+      "points": 10
+    },
+    {
+      "full_credit": "正确使用排名前约2%、CET6 650–699分、EI研究状态并提出路线选择后的两个实际验证动作。",
+      "grading": "three_level",
+      "half_credit": "数据无明显虚构，但后续核查不具体。",
+      "id": "N03-02-L1-06",
+      "label": "事实边界与具体下一步",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

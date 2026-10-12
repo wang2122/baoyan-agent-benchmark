@@ -1,0 +1,36 @@
+{
+  "case_group_id": "student-H",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "O08-02",
+  "prompt": "我是辽宁石油化工大学化工专业的，六级425–449分。EI会议一作论文已发表，吸附与催化的大创还在推进，竞赛奖也有一些。想读硕士、以后做研发，最近时间有限，英语、科研和院校信息该优先抓哪块？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "98e568491b2c1fa920f7fed309a56a3c85a10fed8dd0b2fcd429af676ed5a2e5",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

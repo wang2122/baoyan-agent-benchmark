@@ -1,0 +1,341 @@
+{
+  "actual_candidate_count": 16,
+  "answer_sha256": "3aa181a1ea85dd57bcd6ca6e2583a3d676e7671f1f5c1833a7eacd81618b1d26",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 72.5
+  },
+  "confirmed_points": 72.5,
+  "diagnostic_score": 72.5,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N15-02-L1-01"
+    ],
+    "E2": [
+      "N15-02-L1-06"
+    ],
+    "E3": [
+      "N15-02-L1-06"
+    ],
+    "E4": [
+      "N15-02-L1-06"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "无需再追求新的研究进展",
+      "id": "E1",
+      "reason": "S1已知法学大创仍在推进且学生为主持人，却无条件停止新的研究进展，未保留或核对项目阶段任务及主持交付责任；只做材料抛光不足以完成在研项目的推进优先级安排。只影响L1-01。"
+    },
+    {
+      "answer_quote": "说完即可，老师绝不会揪着追问太深",
+      "id": "E2",
+      "reason": "项目为跨学科且学生是成员不能推出面试官绝不深入追问。该保证超出题面已知信息，并削弱核验和如实准备的谨慎性；不是认定实际面试必会深问。只影响L1-06。"
+    },
+    {
+      "answer_quote": "夏令营和预推免考核中 80% 的失分风险都来自专业课笔面试",
+      "id": "E3",
+      "reason": "题面和答卷没有给出可支持80%个人失分风险占比的证据。专业课应优先的定性建议可以成立，但精确风险比例不应作为已知事实。只影响L1-06，不否定专业课复习的正确内容。"
+    },
+    {
+      "answer_quote": "初审过筛率很高",
+      "id": "E4",
+      "reason": "仅由本科背景、排名与六级分数便对七所学校概括高过筛率，缺少目标学位方向、当届筛选规则及竞争情况，不能作为确定的初审概率判断。该错误不证明这些学校无效或无法申请；在相关候选中标注，统一只由L1-06处理。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N15-02",
+  "input_sha256": "39079fba2b1a7456524296a6a6f13c428da18642e2dae5feb583b75888045c29",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "cf484e1a361004e4f1fc171bc00727588ff12ad2e31e26a69382684d168edda1",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N15-02-L1-01",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-02",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N15-02-L1-04",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N15-02-L1-06",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 16,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "冲刺清北人、主力冲刺法学顶尖名校的优秀生源",
+      "canonical_candidate_key": "tsinghua:law_school_level",
+      "error_ids": [],
+      "label": "清华大学",
+      "reason": "S0开头“清北人”作为冲刺方向提名记录，与后文正式冲刺清单同一学校共用规范键；不是独立新项目。这里仅记录院校层面的提名，不据此推定具体学位、资格或录取概率。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "冲刺清北人、主力冲刺法学顶尖名校的优秀生源",
+      "canonical_candidate_key": "pku:law_school_level",
+      "error_ids": [],
+      "label": "北京大学",
+      "reason": "S0开头“清北人”作为冲刺方向提名记录，与后文正式冲刺清单同一学校共用规范键；不是独立新项目。这里仅记录院校层面的提名，不据此推定具体学位、资格或录取概率。",
+      "school_key": "pku",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "冲刺清北人、主力冲刺法学顶尖名校的优秀生源",
+      "canonical_candidate_key": "ruc:law_school_level",
+      "error_ids": [],
+      "label": "中国人民大学",
+      "reason": "S0开头“清北人”作为冲刺方向提名记录，与后文正式冲刺清单同一学校共用规范键；不是独立新项目。这里仅记录院校层面的提名，不据此推定具体学位、资格或录取概率。",
+      "school_key": "ruc",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**冲刺层**：清北、人大、复旦、交大（文书与研究计划书需极度精致，重点展现学术潜力）；",
+      "canonical_candidate_key": "tsinghua:law_school_level",
+      "error_ids": [],
+      "label": "清华大学",
+      "reason": "S0院校申报定位中实际列为冲刺层，属于面向法学学生的院校层面推荐；本规划题不要求参考未给的专业粒度，不把未指定项目或没有链接直接判成错误。valid仅表示该层面的建议成立，不代表已核验全部2026年度路径或个人硬条件。 清华官方2027入学、2026申请季考核办法支持法学/法律（法学）招生和专业外语考核，见evidence.json。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "**冲刺层**：清北、人大、复旦、交大（文书与研究计划书需极度精致，重点展现学术潜力）；",
+      "canonical_candidate_key": "pku:law_school_level",
+      "error_ids": [],
+      "label": "北京大学",
+      "reason": "S0院校申报定位中实际列为冲刺层，属于面向法学学生的院校层面推荐；本规划题不要求参考未给的专业粒度，不把未指定项目或没有链接直接判成错误。valid仅表示该层面的建议成立，不代表已核验全部2026年度路径或个人硬条件。 北大官方2027入学报名通知搜索结果支持法律（法学）路径；支持范围及正文抓取限制见evidence.json。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**冲刺层**：清北、人大、复旦、交大（文书与研究计划书需极度精致，重点展现学术潜力）；",
+      "canonical_candidate_key": "ruc:law_school_level",
+      "error_ids": [],
+      "label": "中国人民大学",
+      "reason": "S0院校申报定位中实际列为冲刺层，属于面向法学学生的院校层面推荐；本规划题不要求参考未给的专业粒度，不把未指定项目或没有链接直接判成错误。valid仅表示该层面的建议成立，不代表已核验全部2026年度路径或个人硬条件。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**冲刺层**：清北、人大、复旦、交大（文书与研究计划书需极度精致，重点展现学术潜力）；",
+      "canonical_candidate_key": "fudan:law_school_level",
+      "error_ids": [],
+      "label": "复旦大学",
+      "reason": "S0院校申报定位中实际列为冲刺层，属于面向法学学生的院校层面推荐；本规划题不要求参考未给的专业粒度，不把未指定项目或没有链接直接判成错误。valid仅表示该层面的建议成立，不代表已核验全部2026年度路径或个人硬条件。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**冲刺层**：清北、人大、复旦、交大（文书与研究计划书需极度精致，重点展现学术潜力）；",
+      "canonical_candidate_key": "jiaoda_unspecified:law_school_level",
+      "error_ids": [],
+      "label": "交大（原文未明确具体交通大学）",
+      "reason": "S0实际使用“交大”作冲刺院校简称，按原文仅记录一个泛称候选，不擅自补为上海或西安交通大学，更不创造多个独立项目。本题无覆盖目标，不需裁决它与特定参考项目的身份等价；泛称含糊本身不证明项目不存在或硬条件冲突。valid仅限一般院校提名，不表示具体学校、项目或2026窗口已经核准。",
+      "school_key": "jiaoda_unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "cupl:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "中国政法大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "cupl",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "whu:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "武汉大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "jlu:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "吉林大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "jlu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "zju:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "浙江大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "nju:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "南京大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "ecupl:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "华东政法大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "ecupl",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "**主力层**：中国政法（CUPL）、武汉大学、吉林大学、浙江大学、南京大学、华东政法（ECUPL）、厦门大学等（初审过筛率很高，重点拼专业课笔面考核）；",
+      "canonical_candidate_key": "xmu:law_school_level",
+      "error_ids": [
+        "E4"
+      ],
+      "label": "厦门大学",
+      "reason": "S0明确列为主力申请院校，法学申请方向与题面相符；仅作院校层面建议，没有证据证实项目不存在或违反已知硬条件。CUPL/ECUPL等别名与中文名合为同一对象；valid不代表已经逐年审计。共同“初审过筛率很高”的断言记录E4，但不据概率断言否定院校本身，且仅由L1-06失分。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**稳妥/保底层**：本校本校、同城强校（西政）、川大、中南大学等。",
+      "canonical_candidate_key": "cqu:law_school_level",
+      "error_ids": [],
+      "label": "重庆大学",
+      "reason": "S0实际列为稳妥/保底院校方向，纳入全部候选；本校本校与原本科院校、川大与四川大学、西政与西南政法大学各按别名合并。本规划题没有院校层次评分项，不因相对本科标签不同额外扣分。valid仅评价一般法学择校方向，不把“保底”当作保证录取或推免资格已确定。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**稳妥/保底层**：本校本校、同城强校（西政）、川大、中南大学等。",
+      "canonical_candidate_key": "swupl:law_school_level",
+      "error_ids": [],
+      "label": "西南政法大学",
+      "reason": "S0实际列为稳妥/保底院校方向，纳入全部候选；本校本校与原本科院校、川大与四川大学、西政与西南政法大学各按别名合并。本规划题没有院校层次评分项，不因相对本科标签不同额外扣分。valid仅评价一般法学择校方向，不把“保底”当作保证录取或推免资格已确定。",
+      "school_key": "swupl",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**稳妥/保底层**：本校本校、同城强校（西政）、川大、中南大学等。",
+      "canonical_candidate_key": "scu:law_school_level",
+      "error_ids": [],
+      "label": "四川大学",
+      "reason": "S0实际列为稳妥/保底院校方向，纳入全部候选；本校本校与原本科院校、川大与四川大学、西政与西南政法大学各按别名合并。本规划题没有院校层次评分项，不因相对本科标签不同额外扣分。valid仅评价一般法学择校方向，不把“保底”当作保证录取或推免资格已确定。",
+      "school_key": "scu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "**稳妥/保底层**：本校本校、同城强校（西政）、川大、中南大学等。",
+      "canonical_candidate_key": "csu:law_school_level",
+      "error_ids": [],
+      "label": "中南大学",
+      "reason": "S0实际列为稳妥/保底院校方向，纳入全部候选；本校本校与原本科院校、川大与四川大学、西政与西南政法大学各按别名合并。本规划题没有院校层次评分项，不因相对本科标签不同额外扣分。valid仅评价一般法学择校方向，不把“保底”当作保证录取或推免资格已确定。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "12e965f1b3fa0b9041c2926330cfe6dcffab3b1d8432312f0bc086137d6719f1",
+  "score": 72.5,
+  "score_interval": [
+    72.5,
+    72.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N15-02",
+  "task_kind": "planning",
+  "task_sha256": "a61abbde09a48225b3a0510e56f1f9b8f3f0e3f2008afd3b72e61eaed6e65269",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题为两阶段规划题，冻结rubric无参考覆盖项或院校层次评分节点，故覆盖集合与层次逐校记录不适用，不增设扣分。已核对两轮全文：记录S0开头3次方向提名与院校清单16个候选（规范键去重16个，交大保留原文泛称），S1无新增择校对象。科研计划中“如北大、清华、复旦等”为材料要求的背景举例，不另造推荐；本校在学生履历中的重复亦非新候选。没有明确条件推荐或排除项。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

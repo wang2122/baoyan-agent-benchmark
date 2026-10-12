@@ -1,0 +1,38 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N08",
+  "case_id": "N08",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "hard",
+  "document_question_id": "Q066",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "77af432eee81c4feb251dc9a91134e167cf104b14c1cc0bf8482455c4ef9cf6b",
+  "stages": [
+    {
+      "instruction": "现在是2026年推免申请季。我在首经贸读商务英语，排名前约2%，雅思6.5，想跨申请经济管理或数字经济。我有一些科研和实习，但担心自己的商科、数学基础不够。这样的背景申请跨专业研究生，应该如何判断和取舍？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "再补充一些情况：我修过数据分析和统计学相关课程；有一篇合作作者论文已发表，另一篇还在修改，实习做过数据分析和产品。结合这些信息，你觉得之前的分析还有需要补充或修改的地方吗？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N08-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "month_from_filename_not_consult_date"
+  }
+}

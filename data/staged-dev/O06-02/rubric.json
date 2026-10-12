@@ -1,0 +1,77 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "O06-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "辨别程序设计竞赛真实成绩和多段科研尚无论文的限制",
+      "grading": "three_level",
+      "half_credit": "提到具体竞赛或研究现状，但未作权衡",
+      "id": "R1",
+      "label": "已知竞赛优势与科研短板",
+      "points": 20
+    },
+    {
+      "full_credit": "解释申请准备阶段研究进展、基础训练和竞赛再投入的边际效用",
+      "grading": "three_level",
+      "half_credit": "有优先级但缺真实代价",
+      "id": "R2",
+      "label": "专业课与科研的机会成本",
+      "points": 20
+    },
+    {
+      "full_credit": "依据软件研究和编程经历筛选项目与导师，不能泛指所有学院",
+      "grading": "three_level",
+      "half_credit": "已识别学科相关性但未核方向或学位",
+      "id": "R3",
+      "label": "导师及项目适配",
+      "points": 15
+    },
+    {
+      "full_credit": "整理项目个人分工、在调试状态和可提交文书，不能写成已发表",
+      "grading": "three_level",
+      "half_credit": "状态大致正确但缺实际成果证明",
+      "id": "R4",
+      "label": "申请前资料与表述真实性",
+      "points": 15
+    },
+    {
+      "full_credit": "结合新补充的科研阶段与既有竞赛成绩重新审视准备安排；可以保持原排序或调整，但必须说明依据和对应行动",
+      "grading": "three_level",
+      "half_credit": "识别了部分真实信息，但未解释维持或调整安排的理由及机会成本",
+      "id": "R5",
+      "label": "依据真实科研与竞赛信息修订安排",
+      "points": 20
+    },
+    {
+      "full_credit": "给出材料交付和导师/院校核验的检查节点",
+      "grading": "three_level",
+      "half_credit": "有检查节点但不能应对反馈",
+      "id": "R6",
+      "label": "核验与反馈机制",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

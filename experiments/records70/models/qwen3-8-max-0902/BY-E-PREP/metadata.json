@@ -1,0 +1,38 @@
+{
+  "agent": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "auth_mode": "api",
+  "cli": "qwen",
+  "cli_version": "0.25.0",
+  "run_id": "qwen20-user-start-20261012/BY-E-PREP/r1",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "started_at": "2026-10-12T04:18:59.552161+00:00",
+  "finished_at": "2026-10-12T04:33:31.347213+00:00",
+  "judge_started_at": "2026-10-12T04:40:30.525781+00:00",
+  "judge_finished_at": "2026-10-12T04:45:51.353282+00:00",
+  "source_run_sha256": "b0c6ae7fcb56ea16983bcb7b136075aa01ed0ac1be41c83fafffeac25a115573",
+  "judge_auth_mode": "subscription",
+  "judge_model": "gpt-6.1-sol",
+  "source_prompt_sha256": {
+    "S0": "adf8fa4ec8c0dc902afb88b7e3fe4f69c3c93ebb989bbea811ae9043ae99dd13"
+  },
+  "task_id": "BY-E-PREP",
+  "question_id": "Q024",
+  "source_answer_sha256": "e3507190f06f05ec6f3683bfb77a16768b873df70af2db4c82fca3b65471496c",
+  "source_task_sha256": "c7a3f64aaa48e911d9187495ab64e4fa3201ce6d488ec193ce83f617afb0ffe2",
+  "source_rubric_sha256": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+  "source_judgment_sha256": "9f3009348b00a000654ccb331b4f5ffd5a9a64cf37f228d97d36d53e385c9b97",
+  "source_score_sha256": "82c5504e0c0fe98e1255895de74d5452ecec26bf63731d1d9ad7ae9282738352",
+  "judge_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "public_display_only": true,
+  "public_task_prompt_basis": "latest verified reference; generation/scoring input hashes remain original",
+  "privacy_reference_sha256": "46feb94aff98544963f827800ce27dc1f90671e665073271e193cc29e2c1c5b5",
+  "privacy_context_revision": "integrator-latest-reference-20261012.2",
+  "context_transform_sha256": "fa0eb46e195a596750298d830eaf1ade3e2c5569a74a7404d9bf60dc1eb9460c",
+  "display_adjustments": [
+    "Repeated contest profile and undergraduate platform wording generalized; official conditional CSP rule preserved"
+  ],
+  "new_attempt_is_historical_recovery": false,
+  "teacher_calibration": "pending",
+  "public_task_directory": "models/qwen3-8-max-0902/BY-E-PREP"
+}

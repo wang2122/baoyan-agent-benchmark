@@ -1,0 +1,184 @@
+{
+  "actual_candidate_count": 2,
+  "answer_sha256": "62e077dc57d68e356317b527290b99cab44764f1d440ff7c2560bf5c1ad820fd",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 52.5
+  },
+  "confirmed_points": 52.5,
+  "diagnostic_score": 52.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-01": [
+      "BY-A-PLAN-R10-03"
+    ],
+    "ERR-02": [
+      "BY-A-PLAN-R10-07"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "全英文/双语教材与外教授课背景，使你在英文专业文献阅读、学术写作、国际化前沿理解上具有明显先发优势",
+      "id": "ERR-01",
+      "reason": "题面仅给中外合作专业身份，未披露英语成绩或能力。将课程背景直接推定为个人英语优势，并据此统一要求高分六级，缺学生事实依据。不是认定英语差，而是未经诊断的个体能力假设；最直接影响第3项。"
+    },
+    {
+      "answer_quote": "两年后的2026年9月，华东地区一所211高校的推免录取通知书必将属于你！",
+      "id": "ERR-02",
+      "reason": "把执行计划直接保证为未来录取，省略取得推荐资格、接收择优复试和系统确认等不确定条件。2024年公布的校级接收通知明确仍须这些流程（EVID-03）。仅归第7项，不标记本科学院项目不存在，不重复处罚其他节点。"
+    }
+  ],
+  "excess_count": null,
+  "id": "BY-A-PLAN",
+  "input_sha256": "c6ee9edd0c8c375e1dca8a22be4944e2ba9661fb206a1b1c727010a2c1f480af",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "3d0cad27530e6dc688846ac0bcfeb335968e9fc43959cf48f85c0f0c41453956",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-01",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-02",
+      "kind": "quality",
+      "points": 17.5
+    },
+    {
+      "grade": 0,
+      "id": "BY-A-PLAN-R10-03",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-04",
+      "kind": "quality",
+      "points": 12.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-05",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-06",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 2,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**核心目标**：稳获推免资格，成功保研留在华东地区一所211高校攻读硕士/直博研究生。",
+      "canonical_candidate_key": "suzhou_university.energy.masters_unspecified",
+      "error_ids": [],
+      "label": "华东地区一所211高校硕士目标（学硕/专硕未细分）",
+      "reason": "此处为实际留校申请建议，非仅本科背景。华东地区一所211高校未细分硕士专业的学硕/专硕目标统一去重，不替答卷创造多个专业。valid仅判断未来准备方向的院系及路径内容成立，不声称2027招生计划、个人条件或导师指标已核准；届时规则尚待公布不等于项目错误。 首处硕士/直博合并提法不据此拆专业，直博因后文独立条件建议单列A05；首处直博为A05的重复提及。",
+      "school_key": "suzhou_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "郑重且明确表态：“老师，我的推免综合排名稳在专业前列，我不打算外推，一心想留在您的课题组继续读研（专硕/学硕/直博），恳请老师支持并预留名额”。",
+      "canonical_candidate_key": "suzhou_university.energy.masters_unspecified",
+      "error_ids": [],
+      "label": "华东地区一所211高校接收意向重复出现",
+      "reason": "此处为实际留校申请建议，非仅本科背景。华东地区一所211高校未细分硕士专业的学硕/专硕目标统一去重，不替答卷创造多个专业。valid仅判断未来准备方向的院系及路径内容成立，不声称2027招生计划、个人条件或导师指标已核准；届时规则尚待公布不等于项目错误。 此处直博也是A05路径的重复，不增计候选。",
+      "school_key": "suzhou_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "参加本科学院举办的“全国优秀大学生暑期夏令营”，在综合考核中发挥主场与导师优势，轻松拿下**“优秀营员”**称号（夏令营优营是保本校的双重保险）。",
+      "canonical_candidate_key": "suzhou_university.energy.masters_unspecified",
+      "error_ids": [],
+      "label": "华东地区一所211高校夏令营准备（同一申请目标）",
+      "reason": "此处为实际留校申请建议，非仅本科背景。华东地区一所211高校未细分硕士专业的学硕/专硕目标统一去重，不替答卷创造多个专业。valid仅判断未来准备方向的院系及路径内容成立，不声称2027招生计划、个人条件或导师指标已核准；届时规则尚待公布不等于项目错误。 夏令营为同一目标的准备入口，不算独立学位项目，优秀营员不视为已取得。",
+      "school_key": "suzhou_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "填报“华东地区一所211高校”相应专业；",
+      "canonical_candidate_key": "suzhou_university.energy.masters_unspecified",
+      "error_ids": [],
+      "label": "华东地区一所211高校国家系统申请（同一目标）",
+      "reason": "此处为实际留校申请建议，非仅本科背景。华东地区一所211高校未细分硕士专业的学硕/专硕目标统一去重，不替答卷创造多个专业。valid仅判断未来准备方向的院系及路径内容成立，不声称2027招生计划、个人条件或导师指标已核准；届时规则尚待公布不等于项目错误。",
+      "school_key": "suzhou_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "如果对学术研究有浓厚兴趣，本科学院导师（特别是大牛PI）极其欢迎本校优质生源直接攻读**直博生（五年一贯制博士）**。",
+      "canonical_candidate_key": "suzhou_university.energy.direct_doctorate",
+      "error_ids": [],
+      "feasibility": "答卷安排大二联系本院老师、能源材料科研训练、大三面谈和最终接收申请，有两年准备时间。通过科研训练及与导师交流评估直博志向和能力，实际录取须满足届时招生条件与推荐资格。未把名额倾斜和导师支持当作已获得资格或保证指标。",
+      "key_condition": "对学术研究有浓厚兴趣，愿意长期科研训练并选择直博；全卷推荐资格、接收考核及系统确认的准备仍适用。",
+      "label": "华东地区一所211高校直博条件方案",
+      "reason": "本段以学术兴趣为条件明确建议本院直博，构成与未细分硕士目标不同的学位路径，单独提取；首处及面谈的合并直博措辞为重复提及，不增造专业。仅按准备方向判断内容可成立，未声称2027本科学院直博目录和专项名额已审计。年度网页未检索到不等于证明不存在，当前也无已知不愿读博或无法满足的限制。",
+      "school_key": "suzhou_university",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "两年后的2026年9月，华东地区一所211高校的推免录取通知书必将属于你！",
+      "canonical_candidate_key": "suzhou_university.energy.masters_unspecified",
+      "error_ids": [
+        "ERR-02"
+      ],
+      "label": "华东地区一所211高校留校目标结尾重复",
+      "reason": "此处为实际留校申请建议，非仅本科背景。华东地区一所211高校未细分硕士专业的学硕/专硕目标统一去重，不替答卷创造多个专业。valid仅判断未来准备方向的院系及路径内容成立，不声称2027招生计划、个人条件或导师指标已核准；届时规则尚待公布不等于项目错误。 ERR-02为结果承诺错误，只影响第7项，不把合法路径写成invalid。",
+      "school_key": "suzhou_university",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+  "score": 52.5,
+  "score_interval": [
+    52.5,
+    52.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-A-PLAN",
+  "task_kind": "planning",
+  "task_sha256": "d2fdc2ce2203a4056e1893f0a75b419a4da70de8102b58facb4ba8e831692368",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "成功保研留在华东地区一所211高校攻读硕士/直博研究生。",
+        "downgraded": false,
+        "reason": "实际申请院校仅本科所在华东地区一所211高校，校内硕士与直博路径不发生院校层次下降，本题没有层次计分节点。已核全文：外方合作院校仅说明本科合作背景，不是独立推荐或排除；科研方向、导师入组、竞赛及国际组织实习不是院校招生候选。其余学校讨论未形成实际推荐、排除或提名。",
+        "school_key": "suzhou_university"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

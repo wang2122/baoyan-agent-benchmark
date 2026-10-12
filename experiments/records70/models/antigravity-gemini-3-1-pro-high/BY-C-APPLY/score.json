@@ -1,0 +1,921 @@
+{
+  "actual_candidate_count": 17,
+  "answer_sha256": "85382e7c08c1d022d2694216a1b364a4cdba31f4d9eef4f34946f39ae82c70ec",
+  "candidate_limit": 15,
+  "confirmed_component_points": {
+    "coverage": 42.0,
+    "quality": 17.5
+  },
+  "confirmed_points": 59.5,
+  "diagnostic_score": 59.5,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "BY-C-APPLY-R10-04"
+    ],
+    "E2": [
+      "BY-C-APPLY-R10-04"
+    ],
+    "E3": [
+      "BY-C-APPLY-R10-01"
+    ],
+    "E4": [
+      "BY-C-APPLY-R10-03"
+    ],
+    "E5": [
+      "BY-C-APPLY-R10-04"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "已稳获哈工大免试攻读研究生推荐资格",
+      "id": "E1",
+      "reason": "题面2026年3月只提供排名与成绩，没有资格认定结果；答卷在画像“推免资格100%稳拿”及套磁模板中将未知资格写成已确定，违背当时事实状态。仅计事实项。"
+    },
+    {
+      "answer_quote": "威海第2名申请校本部直博享有100%录取通道并可任选院士/杰青团队！",
+      "id": "E2",
+      "reason": "题面没有任何校本部预录取、导师接收或录取保证。排名不能推出100%录取和任选团队；第三节“初审直接通过，录取确定性100%”重复同一确定化错误。只处理事实状态，不取消本部真实直博项目、不再扣冲稳保。"
+    },
+    {
+      "answer_quote": "夏永姚、王飞等储能电池大牛在此",
+      "id": "E3",
+      "reason": "此处“在此”指材料科学系，作为材料系推荐的主要适配依据；夏永姚官方履历与化学系研究组页面把其列在化学系物理化学。2025年iCOME确实整合相关学术力量，但不能推出通过原材料科学系即可申请这些化学团队。答卷缺招生归属和跨院系路径说明，最直接影响适配论证；真实材料方向按冻结参考仍有效，不在覆盖/事实项重复处理。"
+    },
+    {
+      "answer_quote": "9月28日国家推免系统开放当日",
+      "id": "E4",
+      "reason": "2026年3月准备规划中，未经当届通知支持即把9月28日及通常2-6小时接受时限当作执行日程，未列当届系统日期核验动作。2025年同济官方章程说明报名9月22日、复试9月23日、待录取9月25日，足以表明往届日期不可固定外推；这里不据往届结果宣称2026年必定何日，只判核心核验缺失。"
+    },
+    {
+      "answer_quote": "目前已完成催化剂溶剂热法合成、XRD/SEM形貌物相表征以及在碱性电解液中的 ORR/OER 双功能电催化极化曲线测试，正在撰写第一作者英文学术手稿",
+      "id": "E5",
+      "reason": "题面仅说明论文与大创正在推进，未披露具体实验、第一作者、英文手稿状态；邮件模板把这些内容写成既成经历，且英语包装称团队第一作者、独立完成30页报告，均未明确标作须据实替换的假设。不采信这些新增个人事实，仅计事实项。"
+    }
+  ],
+  "excess_count": 2,
+  "id": "BY-C-APPLY",
+  "input_sha256": "9f8c7ef727d8c88a9062ee27c8e476e98e581118367e2e622883c2cb0260ecf3",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "9869d07ee31de93ab96f40f78f6e9b9842a1ff57187c8e06ec771aa4f73f2db0",
+  "nodes": [
+    {
+      "id": "C-01",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A10",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-03",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-04",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A05",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-05",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A07",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-07",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A06",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-08",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A15",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A14",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-13",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A12",
+      "points": 4.67,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "id": "C-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 3,
+        "numerator": 14
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-APPLY-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "BY-C-APPLY-R10-02",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-APPLY-R10-03",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-C-APPLY-R10-04",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 17,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "| **01** | **复旦大学** | 化学系 | 化学（物理化学 / 能源与催化化学） | 直博生 | **冲刺 (首选)** | 郑耿锋团队、晁栋梁团队、贺鹤勇团队；分子合成与识别中心 | **【首选梦校核心通道】** 郑耿锋教授为国际电催化/水系电池顶尖学者，研究方向与电池电池催化剂100%契合。六级425即可报名，直博由导师考核权重主导，需在4月提前学术套磁。 |",
+      "canonical_candidate_key": "fdu-chem",
+      "error_ids": [],
+      "label": "复旦大学 化学系化学直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "| **02** | **复旦大学** | 智能材料与未来能源创新学院 (iCOME) / 先进材料实验室 (LAMP) | 材料科学与工程 / 化学（先进能源材料与器件） | 直博生 | **冲刺 (首选)** | 赵东元院士团队、彭慧胜院士团队、车仁超团队；聚合物分子工程国家重点实验室 | **【复旦新工科旗舰平台】** 2025新设iCOME创新学院整合了先材资源，直博指标极为充裕，主打未来能源、储能电池与介孔催化材料。偏好动手能力强的工科生，录取几率极佳。 |",
+      "canonical_candidate_key": "fdu-icome-lam",
+      "error_ids": [],
+      "label": "复旦大学 iCOME/先材能源材料与化学直博",
+      "reason": "iCOME/先材在官方2025通知中为同一报名通道，合并记一个候选；材料与化学为同一宽口径项目备选，不自行拆出多条。直博身份和能源方向成立。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "| **03** | **复旦大学** | 材料科学系 | 材料科学与工程（材料物理与化学 / 储能电化学与新型电池） | 直博生 | **冲刺 (首选)** | 夏永姚教授团队、王飞教授团队；微纳光电子与先进材料团队 | **【复旦储能电化学主力】** 夏永姚/王飞团队在水系电池、电极界面电化学领域居全国领军地位。工科属性浓厚，对化工工艺背景极度友好，重点考察电化学测试与装配经验。 |",
+      "canonical_candidate_key": "fdu-materials",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "复旦大学 材料科学系材料科学与工程直博",
+      "reason": "材料科学系及材料方向按冻结参考粒度成立；所举夏永姚团队的招生归属未说明，记E3于适配项，不据此把整个真实材料项目判无效。iCOME和材料系存在整合关系；这里保留答卷分别推荐的宽口径创新学院与具体材料专业记录，不把院系整合表述另造推荐。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "| **04** | **上海交通大学** | 化学化工学院 | 化学工程与技术（工业催化 / 应用电化学 / 储能工程） | 直博生 | **冲刺** | 马紫峰教授、杨军教授、李新昊教授；特种功能高分子行业重点实验室 | **【南方工科顶流】** 上交化工直博对综合工程能力要求极高，申请人的“化工类竞赛奖项”是巨大亮点。电催化及二次电池团队科研经费充沛，六级425–449即可报名。 |",
+      "canonical_candidate_key": "sjtu-chemeng",
+      "error_ids": [],
+      "label": "上海交通大学 化学化工学院化学工程与技术直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "| **05** | **浙江大学** | 化学工程与生物工程学院（化工学院） | 化学工程与技术（化学工程 / 工业催化 / 储能与反应工程） | 直博生 | **冲刺** | 任其龙院士团队、陆俊团队、邢华斌教授；化学工程联合国家重点实验室 | **【全国A+顶尖化工殿堂】** 浙大化工学科实力超群，陆俊等储能电池大牛团队资源丰沛。数学建模类竞赛奖项+化工类竞赛奖项高度匹配浙大对“数理模拟+工程设计”的复合要求。 |",
+      "canonical_candidate_key": "zju-chemeng",
+      "error_ids": [],
+      "label": "浙江大学 化工与生物工程学院化学工程与技术直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "| **06** | **中国科学技术大学** | 化学与材料科学学院（含合肥微尺度物质科学国家研究中心） | 材料科学与工程 / 物理化学（纳米催化与电化学能源） | 直博生 | **核心匹配** | 高敏锐教授、熊宇杰教授、吴宇恩教授；合肥微尺度物质科学国家研究中心 | **【电催化顶刊策源地】** 中科大在ORR/OER多相电催化、单原子催化机理研究方面世界顶尖。直博指标规模大，极度看重科研潜质，哈工大年级第2属于免筛核心圈。 |",
+      "canonical_candidate_key": "ustc-chem-materials",
+      "error_ids": [],
+      "label": "中国科学技术大学 化学与材料科学学院能源催化直博",
+      "reason": "括注国家研究中心是相关平台说明，不拆成另一招生主体；化学与材料科学学院直博符合冻结参考。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "| **07** | **南京大学** | 化学化工学院 | 化学（物理化学）/ 化学工程与技术（介观催化与多相反应） | 直博生 | **核心匹配** | 郭学锋教授、丁维平教授、朱嘉教授；配位化学国家重点实验室、介观化学教育部重点实验室 | **【华东理化名门】** 南大化学为A+学科，夏令营极度青睐高学积分数学生（[具体加权成绩已概括]加权极具优势）。介观催化与储能器件方向实力强盛，直博考核重点在物理化学基础概念。 |",
+      "canonical_candidate_key": "nju-chem",
+      "error_ids": [],
+      "label": "南京大学 化学化工学院催化直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "| **08** | **厦门大学** | 化学化工学院 | 化学（物理化学 / 电化学）/ 化学工程与技术 | 直博生 | **核心匹配** | 孙世刚院士、田中群院士、周志有教授；固体表面物理化学国家重点实验室 | **【中国电化学第一殿堂】** 厦大是中国电化学学会发源地与策源地，原位谱学电化学与催化反应机理全国第一。电池电池课题在厦大享有绝对专业共鸣，初审契合度顶级。 |",
+      "canonical_candidate_key": "xmu-chem",
+      "error_ids": [],
+      "label": "厦门大学 化学化工学院电化学直博",
+      "reason": "清单外相关项目；不因未命中参考或未逐年审计判为错误。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "| **09** | **上海交通大学** | 材料科学与工程学院 | 材料科学与工程（先进储能材料与器件 / 氢能与能源电催化） | 直博生 | **核心匹配** | 邹建新教授、丁文江院士团队、邓涛教授；金属基复合材料国家重点实验室 | **【产业与学术双高地】** 上交材料在南方具备极高的产业对接度，直博名额体量大。高度欣赏具备化工合成、数学建模（美赛M）背景的复合交叉工科人才。 |",
+      "canonical_candidate_key": "sjtu-materials",
+      "error_ids": [],
+      "label": "上海交通大学 材料学院储能材料直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "| **10** | **清华大学深圳国际研究生院 (SIGS)** | 材料研究院 / 能源与环境材料研究所 | 材料科学与工程（先进电池材料与碳基电催化器件） | 直博生 / 硕博 | **核心匹配** | 成会明院士、康飞宇教授、贺艳兵教授；清华-伯克利深圳学院(TBSI) | **【华南创新前沿极核】** 位于深圳，成会明/康飞宇团队是全球炭材料与储能电池标杆。直博生待遇全国领先，科研转化极强，生源传统认可哈工大，六级过线可报。 |",
+      "canonical_candidate_key": "thu-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学 深圳国际研究生院材料研究院材料直博/硕博",
+      "reason": "虽表中材料研究院/能源环境材料研究所合写，第三节另明确推荐材料研究院；往届官方通知支持化学化工本科可申材料博士和能源材料方向。TBSI仅作平台背景，不另造联合培养候选。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "| **11** | **华东理工大学** | 化学工程学院 / 洁净能源极化与催化中心 | 化学工程与技术（化学工程 / 工业催化 / 绿色反应工程） | 直博生 / 硕博贯通 | **核心匹配** | 涂善东院士、段学志教授、王辅臣教授；超细材料制备与应用教育部重点实验室 | **【上海化工A+强校】** 华理是化工设计竞赛策源地之一，申请人的化工类竞赛奖项在此认可度达到最高峰值；在长三角化工与能源产业具有极强话语权，录取概率极高。 |",
+      "canonical_candidate_key": "ecust-chemeng",
+      "error_ids": [],
+      "label": "华东理工大学 化学工程学院直博/硕博贯通",
+      "reason": "表内中心与学院合写，但第三节单独明确化学工程学院路径，保留一个候选；211强化工、留沪的取舍在层次项评估，清单外不等于无效。",
+      "school_key": "华东理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "| **12** | **华南理工大学** | 化学与化工学院 | 化学工程与技术（应用化学 / 工业催化 / 电池电极工程） | 直博生 | **稳妥保底** | 彭峰教授、张正国教授、李映伟教授；传热强化与过程节能教育部重点实验室 | **【华南工科龙头】** 深度辐射大湾区万亿级锂电与新能源产业链（比亚迪、欣旺达、宁德时代等），化工A类学科。对985前7%生源极为渴求，直博奖助丰厚，稳拿Offer。 |",
+      "canonical_candidate_key": "scut-chemeng",
+      "error_ids": [],
+      "label": "华南理工大学 化学与化工学院化工直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "| **13** | **中山大学** | 材料科学与工程学院 / 化学工程与技术学院 | 材料科学与工程 / 化学工程与技术（电化学储能与材料转化） | 直博生 | **稳妥保底** | 沈培康教授、杨国伟教授、王成新教授；光电材料与技术国家重点实验室 | **【华南综合性985名校】** 广州/珠海校区实验硬件条件顶尖，青年领军人才多，科研经费充沛。直博初审对六级450–499非常宽容，入营与优营胜率极大。 |",
+      "canonical_candidate_key": "sysu-combined-materials-chemeng",
+      "error_ids": [],
+      "label": "中山大学 材料/化工两院系合并直博候选",
+      "reason": "全文始终将材料科学与工程学院与化工学院合写，未分别确定申请路线；只保留一个合并候选，不替答卷拆成两项。已有官方往届材料学院直博信息，未发现足以认定不存在的证据；valid仅表示未证实内容无效，不承认合并名就是独立招生主体。与参考学校均不同，无有效匹配。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "| **14** | **东南大学** | 化学化工学院 | 化学工程与技术 / 材料物理与化学（多孔能源材料与反应过程） | 直博生 | **稳妥保底** | 孙岳明教授、杨洪教授等；智能材料江苏省重点实验室 | **【长三角工科重镇】** 东南大学学风扎实严谨，与苏南储能、光伏新材料产业高度协同。直博指标充足，以申请人的高绩点与竞赛背书可稳健锁定优营。 |",
+      "canonical_candidate_key": "seu-chem",
+      "error_ids": [],
+      "label": "东南大学 化学化工学院能源材料直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "| **15** | **哈尔滨工业大学（校本部）** | 化工与化学学院 | 化学工程与技术（电化学工程 / 特种能源与电催化） | 直博生 | **战略终极保险** | 尹鸽平教授、王振波教授、杜春雨教授；工业电化学教育部重点实验室 | **【战略压舱石与全国最早电化学基地】** 哈工大本部的电化学工程是国内航空航天特种电源执牛耳者。威海第2名申请校本部直博享有100%录取通道并可任选院士/杰青团队！*(注：若个人意愿极度排斥北方、要求全选南方高校，此项可平替为：**同济大学化学科学与工程学院-化学/化学工程直博项目**)* |",
+      "canonical_candidate_key": "hit-main-chem",
+      "error_ids": [
+        "E2"
+      ],
+      "label": "哈尔滨工业大学 本部化工与化学学院电化学直博",
+      "reason": "明确区分本科威海与本部培养地，化工电化学直博身份符合冻结参考；100%录取说法不是身份依据，记E2于事实项，不取消真实项目覆盖。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B01",
+      "answer_quote": "### 1. 复旦大学 - 化学系（直博生）",
+      "canonical_candidate_key": "fdu-chem",
+      "error_ids": [],
+      "label": "复旦大学 化学系化学直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B02",
+      "answer_quote": "### 2. 复旦大学 - 智能材料与未来能源创新学院 (iCOME) / 先进材料实验室 (LAMP)（直博生）",
+      "canonical_candidate_key": "fdu-icome-lam",
+      "error_ids": [],
+      "label": "复旦大学 iCOME/先材能源材料与化学直博",
+      "reason": "iCOME/先材在官方2025通知中为同一报名通道，合并记一个候选；材料与化学为同一宽口径项目备选，不自行拆出多条。直博身份和能源方向成立。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B03",
+      "answer_quote": "### 3. 复旦大学 - 材料科学系（直博生）",
+      "canonical_candidate_key": "fdu-materials",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "复旦大学 材料科学系材料科学与工程直博",
+      "reason": "材料科学系及材料方向按冻结参考粒度成立；所举夏永姚团队的招生归属未说明，记E3于适配项，不据此把整个真实材料项目判无效。iCOME和材料系存在整合关系；这里保留答卷分别推荐的宽口径创新学院与具体材料专业记录，不把院系整合表述另造推荐。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B04",
+      "answer_quote": "### 4. 上海交通大学 - 化学化工学院（直博生）",
+      "canonical_candidate_key": "sjtu-chemeng",
+      "error_ids": [],
+      "label": "上海交通大学 化学化工学院化学工程与技术直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B05",
+      "answer_quote": "### 5. 浙江大学 - 化学工程与生物工程学院（直博生）",
+      "canonical_candidate_key": "zju-chemeng",
+      "error_ids": [],
+      "label": "浙江大学 化工与生物工程学院化学工程与技术直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B06",
+      "answer_quote": "### 6. 中国科学技术大学 - 化学与材料科学学院（直博生）",
+      "canonical_candidate_key": "ustc-chem-materials",
+      "error_ids": [],
+      "label": "中国科学技术大学 化学与材料科学学院能源催化直博",
+      "reason": "括注国家研究中心是相关平台说明，不拆成另一招生主体；化学与材料科学学院直博符合冻结参考。",
+      "school_key": "中国科学技术大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B07",
+      "answer_quote": "### 7. 南京大学 - 化学化工学院（直博生）",
+      "canonical_candidate_key": "nju-chem",
+      "error_ids": [],
+      "label": "南京大学 化学化工学院催化直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B08",
+      "answer_quote": "### 8. 厦门大学 - 化学化工学院（直博生）",
+      "canonical_candidate_key": "xmu-chem",
+      "error_ids": [],
+      "label": "厦门大学 化学化工学院电化学直博",
+      "reason": "清单外相关项目；不因未命中参考或未逐年审计判为错误。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B09",
+      "answer_quote": "### 9. 上海交通大学 - 材料科学与工程学院（直博生）",
+      "canonical_candidate_key": "sjtu-materials",
+      "error_ids": [],
+      "label": "上海交通大学 材料学院储能材料直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B10",
+      "answer_quote": "### 10. 清华大学深圳国际研究生院 (SIGS) - 材料研究院（直博/硕博）",
+      "canonical_candidate_key": "thu-sigs-materials",
+      "error_ids": [],
+      "label": "清华大学 深圳国际研究生院材料研究院材料直博/硕博",
+      "reason": "虽表中材料研究院/能源环境材料研究所合写，第三节另明确推荐材料研究院；往届官方通知支持化学化工本科可申材料博士和能源材料方向。TBSI仅作平台背景，不另造联合培养候选。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B11",
+      "answer_quote": "### 11. 华东理工大学 - 化学工程学院（直博生 / 硕博贯通）",
+      "canonical_candidate_key": "ecust-chemeng",
+      "error_ids": [],
+      "label": "华东理工大学 化学工程学院直博/硕博贯通",
+      "reason": "表内中心与学院合写，但第三节单独明确化学工程学院路径，保留一个候选；211强化工、留沪的取舍在层次项评估，清单外不等于无效。",
+      "school_key": "华东理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B12",
+      "answer_quote": "### 12. 华南理工大学 - 化学与化工学院（直博生）",
+      "canonical_candidate_key": "scut-chemeng",
+      "error_ids": [],
+      "label": "华南理工大学 化学与化工学院化工直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B13",
+      "answer_quote": "### 13. 中山大学 - 材料科学与工程学院 / 化工学院（直博生）",
+      "canonical_candidate_key": "sysu-combined-materials-chemeng",
+      "error_ids": [],
+      "label": "中山大学 材料/化工两院系合并直博候选",
+      "reason": "全文始终将材料科学与工程学院与化工学院合写，未分别确定申请路线；只保留一个合并候选，不替答卷拆成两项。已有官方往届材料学院直博信息，未发现足以认定不存在的证据；valid仅表示未证实内容无效，不承认合并名就是独立招生主体。与参考学校均不同，无有效匹配。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B14",
+      "answer_quote": "### 14. 东南大学 - 化学化工学院（直博生）",
+      "canonical_candidate_key": "seu-chem",
+      "error_ids": [],
+      "label": "东南大学 化学化工学院能源材料直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "B15",
+      "answer_quote": "### 15. 哈尔滨工业大学（校本部） - 化工与化学学院（直博生）",
+      "canonical_candidate_key": "hit-main-chem",
+      "error_ids": [
+        "E2"
+      ],
+      "label": "哈尔滨工业大学 本部化工与化学学院电化学直博",
+      "reason": "明确区分本科威海与本部培养地，化工电化学直博身份符合冻结参考；100%录取说法不是身份依据，记E2于事实项，不取消真实项目覆盖。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F01-1",
+      "answer_quote": "【通道一：化学系】",
+      "canonical_candidate_key": "fdu-chem",
+      "error_ids": [],
+      "label": "复旦大学 化学系化学直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F01-2",
+      "answer_quote": "1. **化学系**：",
+      "canonical_candidate_key": "fdu-chem",
+      "error_ids": [],
+      "label": "复旦大学 化学系化学直博",
+      "reason": "对应冻结参考的明确院系/方向和直博路径，学生化工、电催化背景相关。项目身份成立，不代表逐年录取或概率已核准。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F02-1",
+      "answer_quote": "【通道二：iCOME创新学院】",
+      "canonical_candidate_key": "fdu-icome-lam",
+      "error_ids": [],
+      "label": "复旦大学 iCOME/先材能源材料与化学直博",
+      "reason": "iCOME/先材在官方2025通知中为同一报名通道，合并记一个候选；材料与化学为同一宽口径项目备选，不自行拆出多条。直博身份和能源方向成立。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F02-2",
+      "answer_quote": "2. **智能材料与未来能源创新学院 (iCOME) / 先进材料实验室 (LAMP)**：",
+      "canonical_candidate_key": "fdu-icome-lam",
+      "error_ids": [],
+      "label": "复旦大学 iCOME/先材能源材料与化学直博",
+      "reason": "iCOME/先材在官方2025通知中为同一报名通道，合并记一个候选；材料与化学为同一宽口径项目备选，不自行拆出多条。直博身份和能源方向成立。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F03-1",
+      "answer_quote": "【通道三：材料科学系】",
+      "canonical_candidate_key": "fdu-materials",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "复旦大学 材料科学系材料科学与工程直博",
+      "reason": "材料科学系及材料方向按冻结参考粒度成立；所举夏永姚团队的招生归属未说明，记E3于适配项，不据此把整个真实材料项目判无效。iCOME和材料系存在整合关系；这里保留答卷分别推荐的宽口径创新学院与具体材料专业记录，不把院系整合表述另造推荐。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "F03-2",
+      "answer_quote": "3. **材料科学系**：",
+      "canonical_candidate_key": "fdu-materials",
+      "error_ids": [
+        "E3"
+      ],
+      "label": "复旦大学 材料科学系材料科学与工程直博",
+      "reason": "材料科学系及材料方向按冻结参考粒度成立；所举夏永姚团队的招生归属未说明，记E3于适配项，不据此把整个真实材料项目判无效。iCOME和材料系存在整合关系；这里保留答卷分别推荐的宽口径创新学院与具体材料专业记录，不把院系整合表述另造推荐。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "T01",
+      "answer_quote": "若个人意愿极度排斥北方、要求全选南方高校，此项可平替为：**同济大学化学科学与工程学院-化学/化学工程直博项目**",
+      "canonical_candidate_key": "tongji-chem-direct",
+      "error_ids": [],
+      "feasibility": "地处上海；题面化工与电催化背景可按化学交叉申请。往届官方章程已有化学直接攻博和专家推荐信、复试流程；答卷明确替换对象，未把未知英语成绩设成已满足的硬条件。",
+      "key_condition": "学生极度排斥北方并要求全选南方，接受以同济替换哈工大本部；仍须按本校程序获得推免资格。",
+      "label": "同济化学科学与工程学院化学直博南方平替",
+      "reason": "全南方地域偏好是具体软条件，指向明确学院和化学直博路径；官方往届章程支持化学直博。其“化学工程”备选专业名不可据此核准，但成立的化学路径足以保留候选。清单外不判无效。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "T02",
+      "answer_quote": "全南方平替备选：**同济大学化学科学与工程学院直博生项目**",
+      "canonical_candidate_key": "tongji-chem-direct",
+      "error_ids": [],
+      "feasibility": "地处上海；题面化工与电催化背景可按化学交叉申请。往届官方章程已有化学直接攻博和专家推荐信、复试流程；答卷明确替换对象，未把未知英语成绩设成已满足的硬条件。",
+      "key_condition": "学生极度排斥北方并要求全选南方，接受以同济替换哈工大本部；仍须按本校程序获得推免资格。",
+      "label": "同济化学科学与工程学院化学直博南方平替",
+      "reason": "全南方地域偏好是具体软条件，指向明确学院和化学直博路径；官方往届章程支持化学直博。其“化学工程”备选专业名不可据此核准，但成立的化学路径足以保留候选。清单外不判无效。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X01",
+      "answer_quote": "【通道四：多学科专项】\n   理科物理化学/催化    先材大平台/未来能源    储能电化学/全电池    绿色能源/义乌研究院",
+      "canonical_candidate_key": "fdu-multidisciplinary-yiwu-nomination",
+      "error_ids": [],
+      "label": "复旦多学科专项/绿色能源/义乌研究院通道提名",
+      "reason": "以第四申报通道形式实际提名，纳入数量；没有给出招生学院、专业或具体直博专项路径，不能取得C-05匹配。不因路径缺项判项目不存在，也不将缺项挂pending。",
+      "school_key": "复旦大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 15,
+  "rubric_sha256": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+  "score": 59.5,
+  "score_interval": [
+    59.5,
+    59.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-C-APPLY",
+  "task_kind": "recommendation",
+  "task_sha256": "ccecf04257d6d475dcb687a687485837f7607dd64fbcec9db437261de9ccb85a",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "contextual_repetitions": [
+      {
+        "answer_quote": "4月15日前后，向复旦大学（化学系、iCOME、材料系）、上海交大、中科大等意向导师发出首轮直博套磁信",
+        "canonical_candidate_keys": [
+          "fdu-chem",
+          "fdu-icome-lam",
+          "fdu-materials",
+          "sjtu-chemeng",
+          "sjtu-materials",
+          "ustc-chem-materials"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      },
+      {
+        "answer_quote": "以复旦三大通道（化学系、iCOME、材料系）为矛，以浙大、上交、厦大、中科大为坚实护翼，以哈工大本部为无忧后盾。",
+        "canonical_candidate_keys": [
+          "fdu-chem",
+          "fdu-icome-lam",
+          "fdu-materials",
+          "zju-chemeng",
+          "sjtu-chemeng",
+          "sjtu-materials",
+          "xmu-chem",
+          "ustc-chem-materials",
+          "hit-main-chem"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      },
+      {
+        "answer_quote": "第一志愿：**复旦大学（已锁定导师/优营的学院直博专业）**",
+        "canonical_candidate_keys": [
+          "fdu-chem",
+          "fdu-icome-lam",
+          "fdu-materials"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      },
+      {
+        "answer_quote": "第二志愿：**上交 / 浙大 / 厦大等已获优营的项目**",
+        "canonical_candidate_keys": [
+          "sjtu-chemeng",
+          "sjtu-materials",
+          "zju-chemeng",
+          "xmu-chem"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      },
+      {
+        "answer_quote": "第三志愿：**哈工大校本部直博（兜底保障）**",
+        "canonical_candidate_keys": [
+          "hit-main-chem"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      },
+      {
+        "answer_quote": "复旦大学研究生报考服务系统（化学系、先材/iCOME、材料系通常在5月下旬至6月中旬截止）",
+        "canonical_candidate_keys": [
+          "fdu-chem",
+          "fdu-icome-lam",
+          "fdu-materials"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      },
+      {
+        "answer_quote": "复旦三大通道（化学系、iCOME、材料系）",
+        "canonical_candidate_keys": [
+          "fdu-chem",
+          "fdu-icome-lam",
+          "fdu-materials"
+        ],
+        "reason": "行动或结语重述此前候选，泛称学校时不替其新建不明院系；复旦明确三通道沿用原候选；志愿最终学院尚待导师/优营选择，不另造新的具体路径。"
+      }
+    ],
+    "quantity_note": "已审阅表内15个合并推荐组合、同济条件平替及复旦多学科/义乌通道提名；共17个候选key、超额2个。表和分节及其他明确重述用同一key合并；iCOME/先材不拆，中山两院不拆，研究中心、TBSI背景不另造项目。不截取前15项。",
+    "schools": [
+      {
+        "answer_quote": "| **01** | **复旦大学** | 化学系 | 化学（物理化学 / 能源与催化化学） | 直博生 | **冲刺 (首选)** | 郑耿锋团队、晁栋梁团队、贺鹤勇团队；分子合成与识别中心 | **【首选梦校核心通道】** 郑耿锋教授为国际电催化/水系电池顶尖学者，研究方向与电池电池催化剂100%契合。六级425即可报名，直博由导师考核权重主导，需在4月提前学术套磁。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "复旦大学"
+      },
+      {
+        "answer_quote": "| **04** | **上海交通大学** | 化学化工学院 | 化学工程与技术（工业催化 / 应用电化学 / 储能工程） | 直博生 | **冲刺** | 马紫峰教授、杨军教授、李新昊教授；特种功能高分子行业重点实验室 | **【南方工科顶流】** 上交化工直博对综合工程能力要求极高，申请人的“化工类竞赛奖项”是巨大亮点。电催化及二次电池团队科研经费充沛，六级425–449即可报名。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "| **05** | **浙江大学** | 化学工程与生物工程学院（化工学院） | 化学工程与技术（化学工程 / 工业催化 / 储能与反应工程） | 直博生 | **冲刺** | 任其龙院士团队、陆俊团队、邢华斌教授；化学工程联合国家重点实验室 | **【全国A+顶尖化工殿堂】** 浙大化工学科实力超群，陆俊等储能电池大牛团队资源丰沛。数学建模类竞赛奖项+化工类竞赛奖项高度匹配浙大对“数理模拟+工程设计”的复合要求。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "| **06** | **中国科学技术大学** | 化学与材料科学学院（含合肥微尺度物质科学国家研究中心） | 材料科学与工程 / 物理化学（纳米催化与电化学能源） | 直博生 | **核心匹配** | 高敏锐教授、熊宇杰教授、吴宇恩教授；合肥微尺度物质科学国家研究中心 | **【电催化顶刊策源地】** 中科大在ORR/OER多相电催化、单原子催化机理研究方面世界顶尖。直博指标规模大，极度看重科研潜质，哈工大年级第2属于免筛核心圈。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "中国科学技术大学"
+      },
+      {
+        "answer_quote": "| **07** | **南京大学** | 化学化工学院 | 化学（物理化学）/ 化学工程与技术（介观催化与多相反应） | 直博生 | **核心匹配** | 郭学锋教授、丁维平教授、朱嘉教授；配位化学国家重点实验室、介观化学教育部重点实验室 | **【华东理化名门】** 南大化学为A+学科，夏令营极度青睐高学积分数学生（[具体加权成绩已概括]加权极具优势）。介观催化与储能器件方向实力强盛，直博考核重点在物理化学基础概念。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "南京大学"
+      },
+      {
+        "answer_quote": "| **08** | **厦门大学** | 化学化工学院 | 化学（物理化学 / 电化学）/ 化学工程与技术 | 直博生 | **核心匹配** | 孙世刚院士、田中群院士、周志有教授；固体表面物理化学国家重点实验室 | **【中国电化学第一殿堂】** 厦大是中国电化学学会发源地与策源地，原位谱学电化学与催化反应机理全国第一。电池电池课题在厦大享有绝对专业共鸣，初审契合度顶级。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "| **10** | **清华大学深圳国际研究生院 (SIGS)** | 材料研究院 / 能源与环境材料研究所 | 材料科学与工程（先进电池材料与碳基电催化器件） | 直博生 / 硕博 | **核心匹配** | 成会明院士、康飞宇教授、贺艳兵教授；清华-伯克利深圳学院(TBSI) | **【华南创新前沿极核】** 位于深圳，成会明/康飞宇团队是全球炭材料与储能电池标杆。直博生待遇全国领先，科研转化极强，生源传统认可哈工大，六级过线可报。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "| **11** | **华东理工大学** | 化学工程学院 / 洁净能源极化与催化中心 | 化学工程与技术（化学工程 / 工业催化 / 绿色反应工程） | 直博生 / 硕博贯通 | **核心匹配** | 涂善东院士、段学志教授、王辅臣教授；超细材料制备与应用教育部重点实验室 | **【上海化工A+强校】** 华理是化工设计竞赛策源地之一，申请人的化工类竞赛奖项在此认可度达到最高峰值；在长三角化工与能源产业具有极强话语权，录取概率极高。 |",
+        "downgraded": true,
+        "reason": "本科基准哈工大（威海）属985；华东理工属211非985，按通则序列为降档，但答卷给出强化工学科与留沪的具体取舍，不按旧版规则每校机械扣分。",
+        "school_key": "华东理工大学"
+      },
+      {
+        "answer_quote": "| **12** | **华南理工大学** | 化学与化工学院 | 化学工程与技术（应用化学 / 工业催化 / 电池电极工程） | 直博生 | **稳妥保底** | 彭峰教授、张正国教授、李映伟教授；传热强化与过程节能教育部重点实验室 | **【华南工科龙头】** 深度辐射大湾区万亿级锂电与新能源产业链（比亚迪、欣旺达、宁德时代等），化工A类学科。对985前7%生源极为渴求，直博奖助丰厚，稳拿Offer。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "华南理工大学"
+      },
+      {
+        "answer_quote": "| **13** | **中山大学** | 材料科学与工程学院 / 化学工程与技术学院 | 材料科学与工程 / 化学工程与技术（电化学储能与材料转化） | 直博生 | **稳妥保底** | 沈培康教授、杨国伟教授、王成新教授；光电材料与技术国家重点实验室 | **【华南综合性985名校】** 广州/珠海校区实验硬件条件顶尖，青年领军人才多，科研经费充沛。直博初审对六级450–499非常宽容，入营与优营胜率极大。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "中山大学"
+      },
+      {
+        "answer_quote": "| **14** | **东南大学** | 化学化工学院 | 化学工程与技术 / 材料物理与化学（多孔能源材料与反应过程） | 直博生 | **稳妥保底** | 孙岳明教授、杨洪教授等；智能材料江苏省重点实验室 | **【长三角工科重镇】** 东南大学学风扎实严谨，与苏南储能、光伏新材料产业高度协同。直博指标充足，以申请人的高绩点与竞赛背书可稳健锁定优营。 |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "| **15** | **哈尔滨工业大学（校本部）** | 化工与化学学院 | 化学工程与技术（电化学工程 / 特种能源与电催化） | 直博生 | **战略终极保险** | 尹鸽平教授、王振波教授、杜春雨教授；工业电化学教育部重点实验室 | **【战略压舱石与全国最早电化学基地】** 哈工大本部的电化学工程是国内航空航天特种电源执牛耳者。威海第2名申请校本部直博享有100%录取通道并可任选院士/杰青团队！*(注：若个人意愿极度排斥北方、要求全选南方高校，此项可平替为：**同济大学化学科学与工程学院-化学/化学工程直博项目**)* |",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "若个人意愿极度排斥北方、要求全选南方高校，此项可平替为：**同济大学化学科学与工程学院-化学/化学工程直博项目**",
+        "downgraded": false,
+        "reason": "本科基准哈工大（威海）属985；该校属985，与本科基准同档；深圳培养地不改变清华大学授位主体，校本部与威海的培养地已区分。同济为条件推荐，层次仍核对。",
+        "school_key": "同济大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

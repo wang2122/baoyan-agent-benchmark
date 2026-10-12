@@ -1,0 +1,37 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N04",
+  "case_id": "N04",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "document_question_id": "Q063",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "a445832637349646232a8a876a5fc6bf6971ced1248e4d484958e180d52c5d0f",
+  "stages": [
+    {
+      "instruction": "现在是2026年推免申请季。我在内蒙古大学读化工，排名前约15%，六级450–499分。电池、催化项目和化工设计比赛都做过，现在课程、论文和英语准备撞在一起了。我怕顾此失彼，现阶段该优先做什么？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "再补充一些具体经历：校级大创是电池方向，我担任主持人；国家级大创做催化，我是成员。EI会议论文是一作，另有SCI合作作者，也拿过化工设计奖项。这些信息对准备顺序有没有影响？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N04-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

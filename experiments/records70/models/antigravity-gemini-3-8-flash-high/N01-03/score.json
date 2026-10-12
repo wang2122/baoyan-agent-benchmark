@@ -1,0 +1,1499 @@
+{
+  "actual_candidate_count": 30,
+  "answer_sha256": "876f0237b13d0c8da34a1f042cbbacf0084b43859209b22fddd8e0750adec70b",
+  "candidate_limit": 17,
+  "confirmed_component_points": {
+    "coverage": 25.53,
+    "quality": 15.0
+  },
+  "confirmed_points": 40.53,
+  "diagnostic_score": 40.53,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "facts"
+    ],
+    "E02": [
+      "facts"
+    ],
+    "E03": [
+      "facts"
+    ],
+    "E04": [
+      "facts"
+    ],
+    "E05": [
+      "execution"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "按照湖大历年推免名额分配规则，**100%稳拿本校推免资格**",
+      "id": "E01",
+      "reason": "题设只披露专业排名、四级和经历，未披露完整推免遴选综合成绩及资格。O19要求按名额及总成绩择优推荐，排名不能推导100%资格。归facts。"
+    },
+    {
+      "answer_quote": "以下4所高校能为你提供100%兜底的保障",
+      "id": "E02",
+      "reason": "本校和外校均有资格审核、考核及名额竞争，题设无任何已接收事实。全文绝对保底、直接锁优营、985直接过初审等保证是系统性过度承诺，不是局部措辞。归facts，候选真实项目不因此invalid。"
+    },
+    {
+      "answer_quote": "虽然我是非第一作者，但我主要负责了核心数据集的现场标注、视觉模型对比实验的消融验证以及专利实施例的图纸绘制与流程撰写",
+      "id": "E03",
+      "reason": "给学生直接提供确定的个人贡献陈述，题面未披露这些具体工作；未注明仅供按真实贡献修改的示例。科研贡献不能由非第一作者和专利申请推定。归facts。"
+    },
+    {
+      "answer_quote": "你自带的CV项目和软著/专利",
+      "id": "E04",
+      "reason": "题设披露专利申请，没有披露软著；把未给出的成果添入学生画像。归facts。"
+    },
+    {
+      "answer_quote": "**阶段四（9月28日国家推免系统开网）**",
+      "id": "E05",
+      "reason": "O20确认2026季9月21日起报名，22日确认复试、24日确认待录取。答卷把往届常见28日写为确定行动节点，未提示当届公告核验，可能错失早期确认。只影响execution；不根据运行日推断6月窗口已过，也不取消任何项目覆盖。"
+    }
+  ],
+  "excess_count": 13,
+  "id": "N01-03",
+  "input_sha256": "b93f7cee76b555da02853261efe40f9d8e4acb3a42fb7cf41d68f80ea3f7a3cb",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "383db0053edb48e92e46bb3bd750b0ac28dd797b7df87f7831931382b0243577",
+  "nodes": [
+    {
+      "id": "N01-01",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-03",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-04",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-05",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A04-P-detail",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04-A-detail",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-08",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01-A-detail",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-09",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A10-A-detail",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-11",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A11-A-detail",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-13",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A09-A-detail",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-14",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A06-A-detail",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-16",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03-A-detail",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N01-17",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A14-A-detail",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "tier",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0,
+      "id": "facts",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 30,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-A-detail",
+      "answer_quote": "#### 1. 同济大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学术型）或 `085901 土木水利`（专业学位，智能建造与基础设施运维方向）",
+      "canonical_candidate_key": "tongji:土木工程学院:A",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "土木学院的学术土木和工程专硕路径可识别，硕士四级450–499不与O01冲突；与参考航力学院不同，按结构损伤监测关联判断。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-A-table",
+      "answer_quote": "| **冲刺档**<br>(5所) | 1 | 同济大学 | 土木工程学院 | 土木工程 / 土木水利（智能建造与基础设施运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "tongji:土木工程学院:A",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "土木学院的学术土木和工程专硕路径可识别，硕士四级450–499不与O01冲突；与参考航力学院不同，按结构损伤监测关联判断。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P-detail",
+      "answer_quote": "#### 1. 同济大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学术型）或 `085901 土木水利`（专业学位，智能建造与基础设施运维方向）",
+      "canonical_candidate_key": "tongji:土木工程学院:P",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木学院的学术土木和工程专硕路径可识别，硕士四级450–499不与O01冲突；与参考航力学院不同，按结构损伤监测关联判断。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P-table",
+      "answer_quote": "| **冲刺档**<br>(5所) | 1 | 同济大学 | 土木工程学院 | 土木工程 / 土木水利（智能建造与基础设施运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "tongji:土木工程学院:P",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木学院的学术土木和工程专硕路径可识别，硕士四级450–499不与O01冲突；与参考航力学院不同，按结构损伤监测关联判断。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P-detail",
+      "answer_quote": "#### 2. 清华大学 —— 深圳国际研究生院（SIGS）\n- **专业与方向**：`085900 土木水利`（专业型硕士，智慧基础设施与海洋工程项目 / 智能建造方向）",
+      "canonical_candidate_key": "tsinghua:深圳国际研究生院:P",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "SIGS与清华本部不同；土木水利及海洋技术与工程路径由O18确认。答卷项目名含描述性扩写、引用本部团队不能自动证明深圳导师可接收，但不是据此认定硕士路径虚构。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P-table",
+      "answer_quote": "| | 2 | 清华大学 | 深圳国际研究生院 | 土木水利（智慧基础设施与海洋工程项目） | 专业硕士 |",
+      "canonical_candidate_key": "tsinghua:深圳国际研究生院:P",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "SIGS与清华本部不同；土木水利及海洋技术与工程路径由O18确认。答卷项目名含描述性扩写、引用本部团队不能自动证明深圳导师可接收，但不是据此认定硕士路径虚构。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-A-detail",
+      "answer_quote": "#### 3. 东南大学 —— 土木工程学院\n- **专业与方向**：`085901 土木工程`（土木水利专硕）/ `081400 土木工程`（学硕，智慧建造与智能感知方向）",
+      "canonical_candidate_key": "seu:土木工程学院:A",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "同校同土木学院两条学位路径，专业背景由O14支持；英语标准和专硕通过率表述缺核验，不因此认定现有申请路径违反硬条件。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-A-table",
+      "answer_quote": "| | 3 | 东南大学 | 土木工程学院 | 土木水利 / 土木工程（智慧建造与智能感知） | 专硕/学硕 |",
+      "canonical_candidate_key": "seu:土木工程学院:A",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "同校同土木学院两条学位路径，专业背景由O14支持；英语标准和专硕通过率表述缺核验，不因此认定现有申请路径违反硬条件。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P-detail",
+      "answer_quote": "#### 3. 东南大学 —— 土木工程学院\n- **专业与方向**：`085901 土木工程`（土木水利专硕）/ `081400 土木工程`（学硕，智慧建造与智能感知方向）",
+      "canonical_candidate_key": "seu:土木工程学院:P",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "同校同土木学院两条学位路径，专业背景由O14支持；英语标准和专硕通过率表述缺核验，不因此认定现有申请路径违反硬条件。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P-table",
+      "answer_quote": "| | 3 | 东南大学 | 土木工程学院 | 土木水利 / 土木工程（智慧建造与智能感知） | 专硕/学硕 |",
+      "canonical_candidate_key": "seu:土木工程学院:P",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "同校同土木学院两条学位路径，专业背景由O14支持；英语标准和专硕通过率表述缺核验，不因此认定现有申请路径违反硬条件。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-A-detail",
+      "answer_quote": "#### 4. 哈尔滨工业大学（深圳） —— 土木与环境工程学院\n- **专业与方向**：`081400 土木工程`（学硕）或 `085900 土木水利`（专硕，智能防灾与数字结构运维方向）",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:A",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木工程（学术硕士）",
+      "reason": "旧学院称谓有身份延续依据O04、O05；四级通过满足已核实英语条件。学术土木与土木水利专硕分别记录。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hit_shenzhen",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-A-table",
+      "answer_quote": "| | 4 | 哈尔滨工业大学（深圳） | 土木与环境工程学院 | 土木工程 / 土木水利（智能防灾与数字结构运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:A",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木工程（学术硕士）",
+      "reason": "旧学院称谓有身份延续依据O04、O05；四级通过满足已核实英语条件。学术土木与土木水利专硕分别记录。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hit_shenzhen",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P-detail",
+      "answer_quote": "#### 4. 哈尔滨工业大学（深圳） —— 土木与环境工程学院\n- **专业与方向**：`081400 土木工程`（学硕）或 `085900 土木水利`（专硕，智能防灾与数字结构运维方向）",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:P",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "旧学院称谓有身份延续依据O04、O05；四级通过满足已核实英语条件。学术土木与土木水利专硕分别记录。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hit_shenzhen",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P-table",
+      "answer_quote": "| | 4 | 哈尔滨工业大学（深圳） | 土木与环境工程学院 | 土木工程 / 土木水利（智能防灾与数字结构运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:P",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "旧学院称谓有身份延续依据O04、O05；四级通过满足已核实英语条件。学术土木与土木水利专硕分别记录。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hit_shenzhen",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-P-detail",
+      "answer_quote": "#### 5. 浙江大学 —— 建筑工程学院\n- **专业与方向**：`085901 土木水利`（专业硕士，韧性基础设施与数字建造工程方向）",
+      "canonical_candidate_key": "zju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "浙江大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "浙大建工学院土木水利专硕方向可识别；不把描述性数字建造方向当独立授位项目，也未从检索不足推出不招生。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-P-table",
+      "answer_quote": "| | 5 | 浙江大学 | 建筑工程学院 | 土木水利（韧性基础设施与数字建造工程） | 专业硕士 |",
+      "canonical_candidate_key": "zju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "浙江大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "浙大建工学院土木水利专硕方向可识别；不把描述性数字建造方向当独立授位项目，也未从检索不足推出不招生。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-A-detail",
+      "answer_quote": "#### 6. 天津大学 —— 建筑工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木工程`（土木水利专硕，智能建造与智慧运维方向）",
+      "canonical_candidate_key": "tju:建筑工程学院:A",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木工程（学术硕士）",
+      "reason": "建筑工程学院学术土木和土木水利中的土木专业路径由O11确认；与机械学院力学只有跨院系方向关系。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-A-table",
+      "answer_quote": "| **稳妥档**<br>(8所) | 6 | 天津大学 | 建筑工程学院 | 土木工程 / 土木水利（智能建造与智慧运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "tju:建筑工程学院:A",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木工程（学术硕士）",
+      "reason": "建筑工程学院学术土木和土木水利中的土木专业路径由O11确认；与机械学院力学只有跨院系方向关系。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-P-detail",
+      "answer_quote": "#### 6. 天津大学 —— 建筑工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木工程`（土木水利专硕，智能建造与智慧运维方向）",
+      "canonical_candidate_key": "tju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "建筑工程学院学术土木和土木水利中的土木专业路径由O11确认；与机械学院力学只有跨院系方向关系。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-P-table",
+      "answer_quote": "| **稳妥档**<br>(8所) | 6 | 天津大学 | 建筑工程学院 | 土木工程 / 土木水利（智能建造与智慧运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "tju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "建筑工程学院学术土木和土木水利中的土木专业路径由O11确认；与机械学院力学只有跨院系方向关系。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-P-detail",
+      "answer_quote": "#### 7. 华中科技大学 —— 土木与水利工程学院\n- **专业与方向**：`085900 土木水利`（专业硕士，国家数字建造技术创新中心 / 智能施工装备与视觉检测方向）",
+      "canonical_candidate_key": "hust:土木与水利工程学院:P",
+      "error_ids": [],
+      "label": "华中科技大学｜土木与水利工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "华科2027土木学院通知 https://civil.hust.edu.cn/info/1363/18361.htm 确认土木类专业硕士。数字建造中心是研究平台，不另造一个招生主体；不能自动对应航空航天。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-P-table",
+      "answer_quote": "| | 7 | 华中科技大学 | 土木与水利工程学院 | 土木水利（国家数字建造技术创新中心智能施工） | 专业硕士 |",
+      "canonical_candidate_key": "hust:土木与水利工程学院:P",
+      "error_ids": [],
+      "label": "华中科技大学｜土木与水利工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "华科2027土木学院通知 https://civil.hust.edu.cn/info/1363/18361.htm 确认土木类专业硕士。数字建造中心是研究平台，不另造一个招生主体；不能自动对应航空航天。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-A-detail",
+      "answer_quote": "#### 8. 中南大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，铁道与桥隧智能检测与健康监测方向）",
+      "canonical_candidate_key": "csu:土木工程学院:A",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "土木学院土木工程及土木水利为可识别路径，铁道桥隧检测与背景相符；有效不表示全量年度初审政策已经审计。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-A-table",
+      "answer_quote": "| | 8 | 中南大学 | 土木工程学院 | 土木工程 / 土木水利（铁道与桥隧智能检测） | 学硕/专硕 |",
+      "canonical_candidate_key": "csu:土木工程学院:A",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "土木学院土木工程及土木水利为可识别路径，铁道桥隧检测与背景相符；有效不表示全量年度初审政策已经审计。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P-detail",
+      "answer_quote": "#### 8. 中南大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，铁道与桥隧智能检测与健康监测方向）",
+      "canonical_candidate_key": "csu:土木工程学院:P",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木学院土木工程及土木水利为可识别路径，铁道桥隧检测与背景相符；有效不表示全量年度初审政策已经审计。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P-table",
+      "answer_quote": "| | 8 | 中南大学 | 土木工程学院 | 土木工程 / 土木水利（铁道与桥隧智能检测） | 学硕/专硕 |",
+      "canonical_candidate_key": "csu:土木工程学院:P",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木学院土木工程及土木水利为可识别路径，铁道桥隧检测与背景相符；有效不表示全量年度初审政策已经审计。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-A-detail",
+      "answer_quote": "#### 9. 重庆大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，智能建造与工业化建筑运维方向）",
+      "canonical_candidate_key": "cqu:土木工程学院:A",
+      "error_ids": [],
+      "label": "重庆大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "O16确认学术土木及土木水利土木方向，专硕代码与名称层级写法需纠正，但有真实可识别专业，不作虚构推荐处罚。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-A-table",
+      "answer_quote": "| | 9 | 重庆大学 | 土木工程学院 | 土木工程 / 土木水利（智能建造与工业化建筑） | 学硕/专硕 |",
+      "canonical_candidate_key": "cqu:土木工程学院:A",
+      "error_ids": [],
+      "label": "重庆大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "O16确认学术土木及土木水利土木方向，专硕代码与名称层级写法需纠正，但有真实可识别专业，不作虚构推荐处罚。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-P-detail",
+      "answer_quote": "#### 9. 重庆大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，智能建造与工业化建筑运维方向）",
+      "canonical_candidate_key": "cqu:土木工程学院:P",
+      "error_ids": [],
+      "label": "重庆大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "O16确认学术土木及土木水利土木方向，专硕代码与名称层级写法需纠正，但有真实可识别专业，不作虚构推荐处罚。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-P-table",
+      "answer_quote": "| | 9 | 重庆大学 | 土木工程学院 | 土木工程 / 土木水利（智能建造与工业化建筑） | 学硕/专硕 |",
+      "canonical_candidate_key": "cqu:土木工程学院:P",
+      "error_ids": [],
+      "label": "重庆大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "O16确认学术土木及土木水利土木方向，专硕代码与名称层级写法需纠正，但有真实可识别专业，不作虚构推荐处罚。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-A-detail",
+      "answer_quote": "#### 10. 大连理工大学 —— 建设工程学部\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，结构智能健康监测与机器视觉检测方向）",
+      "canonical_candidate_key": "dlut:建设工程学部:A",
+      "error_ids": [],
+      "label": "大连理工大学｜建设工程学部｜土木工程（学术硕士）",
+      "reason": "建设工程学部现称建设工程学院，O10确认其2027推免机制；O08支持土木工程方向。与参考力学学院不同，结构监测与力学有关。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-A-table",
+      "answer_quote": "| | 10 | 大连理工大学 | 建设工程学部 | 土木工程 / 土木水利（结构健康监测与机器视觉检测） | 学硕/专硕 |",
+      "canonical_candidate_key": "dlut:建设工程学部:A",
+      "error_ids": [],
+      "label": "大连理工大学｜建设工程学部｜土木工程（学术硕士）",
+      "reason": "建设工程学部现称建设工程学院，O10确认其2027推免机制；O08支持土木工程方向。与参考力学学院不同，结构监测与力学有关。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-P-detail",
+      "answer_quote": "#### 10. 大连理工大学 —— 建设工程学部\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，结构智能健康监测与机器视觉检测方向）",
+      "canonical_candidate_key": "dlut:建设工程学部:P",
+      "error_ids": [],
+      "label": "大连理工大学｜建设工程学部｜土木水利/土木工程领域（专业硕士）",
+      "reason": "建设工程学部现称建设工程学院，O10确认其2027推免机制；O08支持土木工程方向。与参考力学学院不同，结构监测与力学有关。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-P-table",
+      "answer_quote": "| | 10 | 大连理工大学 | 建设工程学部 | 土木工程 / 土木水利（结构健康监测与机器视觉检测） | 学硕/专硕 |",
+      "canonical_candidate_key": "dlut:建设工程学部:P",
+      "error_ids": [],
+      "label": "大连理工大学｜建设工程学部｜土木水利/土木工程领域（专业硕士）",
+      "reason": "建设工程学部现称建设工程学院，O10确认其2027推免机制；O08支持土木工程方向。与参考力学学院不同，结构监测与力学有关。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-A-detail",
+      "answer_quote": "#### 11. 华南理工大学 —— 土木与交通学院\n- **专业与方向**：`085901 土木水利`（专硕）/ `081400 土木工程`（学硕，智慧基础设施与工程智能监测运维方向）",
+      "canonical_candidate_key": "scut:土木与交通学院:A",
+      "error_ids": [],
+      "label": "华南理工大学｜土木与交通学院｜土木工程（学术硕士）",
+      "reason": "O15确认学术土木及土木水利，两种路径分别提取；085901与官网085900代码层级不一致，但单位、学位和培养方向明确，按真实土木水利路径判断。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-A-table",
+      "answer_quote": "| | 11 | 华南理工大学 | 土木与交通学院 | 土木水利 / 土木工程（智慧基础设施智能监测运维） | 专硕/学硕 |",
+      "canonical_candidate_key": "scut:土木与交通学院:A",
+      "error_ids": [],
+      "label": "华南理工大学｜土木与交通学院｜土木工程（学术硕士）",
+      "reason": "O15确认学术土木及土木水利，两种路径分别提取；085901与官网085900代码层级不一致，但单位、学位和培养方向明确，按真实土木水利路径判断。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-P-detail",
+      "answer_quote": "#### 11. 华南理工大学 —— 土木与交通学院\n- **专业与方向**：`085901 土木水利`（专硕）/ `081400 土木工程`（学硕，智慧基础设施与工程智能监测运维方向）",
+      "canonical_candidate_key": "scut:土木与交通学院:P",
+      "error_ids": [],
+      "label": "华南理工大学｜土木与交通学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "O15确认学术土木及土木水利，两种路径分别提取；085901与官网085900代码层级不一致，但单位、学位和培养方向明确，按真实土木水利路径判断。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11-P-table",
+      "answer_quote": "| | 11 | 华南理工大学 | 土木与交通学院 | 土木水利 / 土木工程（智慧基础设施智能监测运维） | 专硕/学硕 |",
+      "canonical_candidate_key": "scut:土木与交通学院:P",
+      "error_ids": [],
+      "label": "华南理工大学｜土木与交通学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "O15确认学术土木及土木水利，两种路径分别提取；085901与官网085900代码层级不一致，但单位、学位和培养方向明确，按真实土木水利路径判断。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-A-detail",
+      "answer_quote": "#### 12. 北京交通大学 —— 土木建筑工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，轨道交通智能建造与视觉检测方向）",
+      "canonical_candidate_key": "bjtu:土木建筑工程学院:A",
+      "error_ids": [],
+      "label": "北京交通大学｜土木建筑工程学院｜土木工程（学术硕士）",
+      "reason": "土木建筑工程学院学术土木/专业土木水利可识别，轨道交通视觉检测对学生有实质适配；不因211或参考外而标无效。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "bjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-A-table",
+      "answer_quote": "| | 12 | 北京交通大学 | 土木建筑工程学院 | 土木工程 / 土木水利（轨道交通智能建造与视觉检测） | 学硕/专硕 |",
+      "canonical_candidate_key": "bjtu:土木建筑工程学院:A",
+      "error_ids": [],
+      "label": "北京交通大学｜土木建筑工程学院｜土木工程（学术硕士）",
+      "reason": "土木建筑工程学院学术土木/专业土木水利可识别，轨道交通视觉检测对学生有实质适配；不因211或参考外而标无效。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "bjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-P-detail",
+      "answer_quote": "#### 12. 北京交通大学 —— 土木建筑工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，轨道交通智能建造与视觉检测方向）",
+      "canonical_candidate_key": "bjtu:土木建筑工程学院:P",
+      "error_ids": [],
+      "label": "北京交通大学｜土木建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木建筑工程学院学术土木/专业土木水利可识别，轨道交通视觉检测对学生有实质适配；不因211或参考外而标无效。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "bjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-P-table",
+      "answer_quote": "| | 12 | 北京交通大学 | 土木建筑工程学院 | 土木工程 / 土木水利（轨道交通智能建造与视觉检测） | 学硕/专硕 |",
+      "canonical_candidate_key": "bjtu:土木建筑工程学院:P",
+      "error_ids": [],
+      "label": "北京交通大学｜土木建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木建筑工程学院学术土木/专业土木水利可识别，轨道交通视觉检测对学生有实质适配；不因211或参考外而标无效。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "bjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-P-detail",
+      "answer_quote": "#### 13. 中国科学院深圳先进技术研究院（SIAT） —— 集成技术研究所\n- **专业与方向**：`085400 电子信息`（专业型硕士，智能机器人 / 模式识别与计算机视觉检测方向）",
+      "canonical_candidate_key": "ucas_siat:集成技术研究所:P",
+      "error_ids": [
+        "E04"
+      ],
+      "feasibility": "已有机器视觉项目可作跨学科基础；答卷给出算法、图像处理和项目展示准备。官方2027目录确认电子信息/控制工程路径，仍需按实际专业考核和导师双选；未证明必录取。",
+      "key_condition": "希望由智能土木转向计算机视觉算法或智能检测仪器研发，愿意申请电子信息专业硕士。",
+      "label": "中国科学院深圳先进技术研究院｜集成技术研究所｜电子信息（控制工程/视觉机器人方向，专业硕士）",
+      "reason": "O17确认电子信息/控制工程硕士路径，集成所作为所内研究单位；控制工程是电子信息领域，与机器人和模式识别不机械拆成新项目。希望转算法岗位的条件推荐。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "ucas_siat",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-P-table",
+      "answer_quote": "| | 13 | 中国科学院深圳先进技术研究院 | 集成技术研究所 | 电子信息 / 控制工程（机器视觉与特种检测机器人） | 专业硕士 |",
+      "canonical_candidate_key": "ucas_siat:集成技术研究所:P",
+      "error_ids": [
+        "E04"
+      ],
+      "feasibility": "已有机器视觉项目可作跨学科基础；答卷给出算法、图像处理和项目展示准备。官方2027目录确认电子信息/控制工程路径，仍需按实际专业考核和导师双选；未证明必录取。",
+      "key_condition": "希望由智能土木转向计算机视觉算法或智能检测仪器研发，愿意申请电子信息专业硕士。",
+      "label": "中国科学院深圳先进技术研究院｜集成技术研究所｜电子信息（控制工程/视觉机器人方向，专业硕士）",
+      "reason": "O17确认电子信息/控制工程硕士路径，集成所作为所内研究单位；控制工程是电子信息领域，与机器人和模式识别不机械拆成新项目。希望转算法岗位的条件推荐。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "ucas_siat",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-A-detail",
+      "answer_quote": "#### 14. 湖南大学（本校） —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木工程`（土木水利专硕，智能感知与结构健康监测方向）",
+      "canonical_candidate_key": "hnu:土木工程学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "与冻结参考同一土木学院，学术土木及明确085901土木工程专硕可识别；本校身份和排名不能保证推免资格或录取，错误统一归facts。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-A-table",
+      "answer_quote": "| **保底档**<br>(4所) | 14 | 湖南大学（本校） | 土木工程学院 | 土木工程 / 土木水利（智能感知与结构健康监测） | 学硕/专硕 |",
+      "canonical_candidate_key": "hnu:土木工程学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "与冻结参考同一土木学院，学术土木及明确085901土木工程专硕可识别；本校身份和排名不能保证推免资格或录取，错误统一归facts。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-P-detail",
+      "answer_quote": "#### 14. 湖南大学（本校） —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木工程`（土木水利专硕，智能感知与结构健康监测方向）",
+      "canonical_candidate_key": "hnu:土木工程学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "与冻结参考同一土木学院，学术土木及明确085901土木工程专硕可识别；本校身份和排名不能保证推免资格或录取，错误统一归facts。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-P-table",
+      "answer_quote": "| **保底档**<br>(4所) | 14 | 湖南大学（本校） | 土木工程学院 | 土木工程 / 土木水利（智能感知与结构健康监测） | 学硕/专硕 |",
+      "canonical_candidate_key": "hnu:土木工程学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "与冻结参考同一土木学院，学术土木及明确085901土木工程专硕可识别；本校身份和排名不能保证推免资格或录取，错误统一归facts。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-A-detail",
+      "answer_quote": "#### 15. 西南交通大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，重大交通工程智能检测与运维方向）",
+      "canonical_candidate_key": "swjtu:土木工程学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "西南交通大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "土木学院学术土木/土木水利路径可识别，交通检测方向适配；免试直接锁优营是无依据承诺，统一归facts而不取消真实项目有效性。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "swjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-A-table",
+      "answer_quote": "| | 15 | 西南交通大学 | 土木工程学院 | 土木工程 / 土木水利（重大交通工程智能检测与运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "swjtu:土木工程学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "西南交通大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "土木学院学术土木/土木水利路径可识别，交通检测方向适配；免试直接锁优营是无依据承诺，统一归facts而不取消真实项目有效性。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "swjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-P-detail",
+      "answer_quote": "#### 15. 西南交通大学 —— 土木工程学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，重大交通工程智能检测与运维方向）",
+      "canonical_candidate_key": "swjtu:土木工程学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "西南交通大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木学院学术土木/土木水利路径可识别，交通检测方向适配；免试直接锁优营是无依据承诺，统一归facts而不取消真实项目有效性。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "swjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15-P-table",
+      "answer_quote": "| | 15 | 西南交通大学 | 土木工程学院 | 土木工程 / 土木水利（重大交通工程智能检测与运维） | 学硕/专硕 |",
+      "canonical_candidate_key": "swjtu:土木工程学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "西南交通大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木学院学术土木/土木水利路径可识别，交通检测方向适配；免试直接锁优营是无依据承诺，统一归facts而不取消真实项目有效性。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "swjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-A-detail",
+      "answer_quote": "#### 16. 河海大学 —— 土木与交通学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，重大基础设施安全监测与建造方向）",
+      "canonical_candidate_key": "hhu:土木与交通学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "河海大学｜土木与交通学院｜土木工程（学术硕士）",
+      "reason": "土木与交通学院两种土木方向学位路径可识别；优秀排名及四级不是奖学金/学硕名额保证，归facts。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hhu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-A-table",
+      "answer_quote": "| | 16 | 河海大学 | 土木与交通学院 | 土木工程 / 土木水利（重大基础设施安全监测与建造） | 学硕/专硕 |",
+      "canonical_candidate_key": "hhu:土木与交通学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "河海大学｜土木与交通学院｜土木工程（学术硕士）",
+      "reason": "土木与交通学院两种土木方向学位路径可识别；优秀排名及四级不是奖学金/学硕名额保证，归facts。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hhu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-P-detail",
+      "answer_quote": "#### 16. 河海大学 —— 土木与交通学院\n- **专业与方向**：`081400 土木工程`（学硕）/ `085901 土木水利`（专硕，重大基础设施安全监测与建造方向）",
+      "canonical_candidate_key": "hhu:土木与交通学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "河海大学｜土木与交通学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木与交通学院两种土木方向学位路径可识别；优秀排名及四级不是奖学金/学硕名额保证，归facts。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hhu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-P-table",
+      "answer_quote": "| | 16 | 河海大学 | 土木与交通学院 | 土木工程 / 土木水利（重大基础设施安全监测与建造） | 学硕/专硕 |",
+      "canonical_candidate_key": "hhu:土木与交通学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "河海大学｜土木与交通学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木与交通学院两种土木方向学位路径可识别；优秀排名及四级不是奖学金/学硕名额保证，归facts。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "hhu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-A-detail",
+      "answer_quote": "#### 17. 武汉理工大学 —— 土木工程与建筑学院\n- **专业与方向**：`085901 土木水利`（专硕）/ `081400 土木工程`（学硕，光纤传感与基础设施智能检测运维方向）",
+      "canonical_candidate_key": "whut:土木工程与建筑学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉理工大学｜土木工程与建筑学院｜土木工程（学术硕士）",
+      "reason": "土木工程与建筑学院两种土木路径可识别；工程智能感知方向与项目相符。作为211备选有学科理由，非参考项目不等于错误。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "whut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-A-table",
+      "answer_quote": "| | 17 | 武汉理工大学 | 土木工程与建筑学院 | 土木水利 / 土木工程（光纤传感与智能检测运维） | 专硕/学硕 |",
+      "canonical_candidate_key": "whut:土木工程与建筑学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉理工大学｜土木工程与建筑学院｜土木工程（学术硕士）",
+      "reason": "土木工程与建筑学院两种土木路径可识别；工程智能感知方向与项目相符。作为211备选有学科理由，非参考项目不等于错误。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "whut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-P-detail",
+      "answer_quote": "#### 17. 武汉理工大学 —— 土木工程与建筑学院\n- **专业与方向**：`085901 土木水利`（专硕）/ `081400 土木工程`（学硕，光纤传感与基础设施智能检测运维方向）",
+      "canonical_candidate_key": "whut:土木工程与建筑学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉理工大学｜土木工程与建筑学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木工程与建筑学院两种土木路径可识别；工程智能感知方向与项目相符。作为211备选有学科理由，非参考项目不等于错误。 本条为分项详解；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "whut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-P-table",
+      "answer_quote": "| | 17 | 武汉理工大学 | 土木工程与建筑学院 | 土木水利 / 土木工程（光纤传感与智能检测运维） | 专硕/学硕 |",
+      "canonical_candidate_key": "whut:土木工程与建筑学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "武汉理工大学｜土木工程与建筑学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "土木工程与建筑学院两种土木路径可识别；工程智能感知方向与项目相符。作为211备选有学科理由，非参考项目不等于错误。 本条为总览表重复出现；同名路径共用canonical key，学硕和专硕按实际不同学位路径分开计数量。",
+      "school_key": "whut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-A-repeat-L155",
+      "answer_quote": "- **战略定盘星**：拿到本校导师明确接收口头承诺（甚至提前进组参与大创/毕业设计），能让你在后续冲刺同济、清华深研院、哈工深时拥有极致的心态支撑。",
+      "canonical_candidate_key": "tongji:土木工程学院:A",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tongji",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P-repeat-L155",
+      "answer_quote": "- **战略定盘星**：拿到本校导师明确接收口头承诺（甚至提前进组参与大创/毕业设计），能让你在后续冲刺同济、清华深研院、哈工深时拥有极致的心态支撑。",
+      "canonical_candidate_key": "tongji:土木工程学院:P",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tongji",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P-repeat-L155",
+      "answer_quote": "- **战略定盘星**：拿到本校导师明确接收口头承诺（甚至提前进组参与大创/毕业设计），能让你在后续冲刺同济、清华深研院、哈工深时拥有极致的心态支撑。",
+      "canonical_candidate_key": "tsinghua:深圳国际研究生院:P",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-A-repeat-L155",
+      "answer_quote": "- **战略定盘星**：拿到本校导师明确接收口头承诺（甚至提前进组参与大创/毕业设计），能让你在后续冲刺同济、清华深研院、哈工深时拥有极致的心态支撑。",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:A",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hit_shenzhen",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P-repeat-L155",
+      "answer_quote": "- **战略定盘星**：拿到本校导师明确接收口头承诺（甚至提前进组参与大创/毕业设计），能让你在后续冲刺同济、清华深研院、哈工深时拥有极致的心态支撑。",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:P",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hit_shenzhen",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-A-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "tongji:土木工程学院:A",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tongji",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "tongji:土木工程学院:P",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tongji",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "tsinghua:深圳国际研究生院:P",
+      "error_ids": [],
+      "label": "清华大学｜深圳国际研究生院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tsinghua",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-A-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "seu:土木工程学院:A",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "seu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "seu:土木工程学院:P",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "seu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-A-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:A",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hit_shenzhen",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "hit_shenzhen:土木与环境工程学院:P",
+      "error_ids": [],
+      "label": "哈尔滨工业大学（深圳）｜土木与环境工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hit_shenzhen",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-A-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "tju:建筑工程学院:A",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "tju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "hust:土木与水利工程学院:P",
+      "error_ids": [],
+      "label": "华中科技大学｜土木与水利工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-A-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "csu:土木工程学院:A",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "csu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P-repeat-L193",
+      "answer_quote": "- 针对冲刺档（同济、清华深研院、东南、哈工深）以及核心档（天大、华科、中南）的核心导师，撰写精炼的学术邮件（套磁信），附上简历和项目作品集，表达进组意愿。",
+      "canonical_candidate_key": "csu:土木工程学院:P",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "csu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-A-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "tju:建筑工程学院:A",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-P-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "tju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "天津大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-P-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "hust:土木与水利工程学院:P",
+      "error_ids": [],
+      "label": "华中科技大学｜土木与水利工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-A-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "csu:土木工程学院:A",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "csu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-P-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "csu:土木工程学院:P",
+      "error_ids": [],
+      "label": "中南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "csu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-A-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "cqu:土木工程学院:A",
+      "error_ids": [],
+      "label": "重庆大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "cqu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-P-repeat-L195",
+      "answer_quote": "- 核心档（天大、重大、中南、华科）积极参营并争取全部拿下“优秀营员”；",
+      "canonical_candidate_key": "cqu:土木工程学院:P",
+      "error_ids": [],
+      "label": "重庆大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "cqu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-A-repeat-L198",
+      "answer_quote": "- 若六级出分取得突破，利用预推免窗口全面向同济、东南、浙大等高校发起二次冲刺（预推免录取人数通常不亚于夏令营）。",
+      "canonical_candidate_key": "tongji:土木工程学院:A",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tongji",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A01-P-repeat-L198",
+      "answer_quote": "- 若六级出分取得突破，利用预推免窗口全面向同济、东南、浙大等高校发起二次冲刺（预推免录取人数通常不亚于夏令营）。",
+      "canonical_candidate_key": "tongji:土木工程学院:P",
+      "error_ids": [],
+      "label": "同济大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "tongji",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-A-repeat-L198",
+      "answer_quote": "- 若六级出分取得突破，利用预推免窗口全面向同济、东南、浙大等高校发起二次冲刺（预推免录取人数通常不亚于夏令营）。",
+      "canonical_candidate_key": "seu:土木工程学院:A",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "seu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03-P-repeat-L198",
+      "answer_quote": "- 若六级出分取得突破，利用预推免窗口全面向同济、东南、浙大等高校发起二次冲刺（预推免录取人数通常不亚于夏令营）。",
+      "canonical_candidate_key": "seu:土木工程学院:P",
+      "error_ids": [],
+      "label": "东南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "seu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-P-repeat-L198",
+      "answer_quote": "- 若六级出分取得突破，利用预推免窗口全面向同济、东南、浙大等高校发起二次冲刺（预推免录取人数通常不亚于夏令营）。",
+      "canonical_candidate_key": "zju:建筑工程学院:P",
+      "error_ids": [],
+      "label": "浙江大学｜建筑工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-A-repeat-L200",
+      "answer_quote": "- 按照此前已获得的优营Offer，从容在系统内填报确认。无论如何，你都拥有湖大本校与稳妥档老牌985的保底通道，立于不败之地。",
+      "canonical_candidate_key": "hnu:土木工程学院:A",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学｜土木工程学院｜土木工程（学术硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hnu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-P-repeat-L200",
+      "answer_quote": "- 按照此前已获得的优营Offer，从容在系统内填报确认。无论如何，你都拥有湖大本校与稳妥档老牌985的保底通道，立于不败之地。",
+      "canonical_candidate_key": "hnu:土木工程学院:P",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学｜土木工程学院｜土木水利/土木工程领域（专业硕士）",
+      "reason": "后文行动/策略中的同校简称回指前述独立项目，学校级重复未新增学院或专业；共用已有canonical key。此重复仅作提及记录，正向匹配使用前文明确项目记录。",
+      "school_key": "hnu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 17,
+  "rubric_sha256": "36ed30cebfa4fff234f0b5671deb1d180006c327f900188434245bfa12ecce38",
+  "score": 40.53,
+  "score_interval": [
+    40.53,
+    40.53
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N01-03",
+  "task_kind": "recommendation",
+  "task_sha256": "0051c4a15d59addb7aa851a1c0043b57b7ccca496bcf7cf60b14e5985c7f623d",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "| **冲刺档**<br>(5所) | 1 | 同济大学 | 土木工程学院 | 土木工程 / 土木水利（智能建造与基础设施运维） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "| | 2 | 清华大学 | 深圳国际研究生院 | 土木水利（智慧基础设施与海洋工程项目） | 专业硕士 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "tsinghua"
+      },
+      {
+        "answer_quote": "| | 3 | 东南大学 | 土木工程学院 | 土木水利 / 土木工程（智慧建造与智能感知） | 专硕/学硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "| | 4 | 哈尔滨工业大学（深圳） | 土木与环境工程学院 | 土木工程 / 土木水利（智能防灾与数字结构运维） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "hit_shenzhen"
+      },
+      {
+        "answer_quote": "| | 5 | 浙江大学 | 建筑工程学院 | 土木水利（韧性基础设施与数字建造工程） | 专业硕士 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "| **稳妥档**<br>(8所) | 6 | 天津大学 | 建筑工程学院 | 土木工程 / 土木水利（智能建造与智慧运维） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "| | 7 | 华中科技大学 | 土木与水利工程学院 | 土木水利（国家数字建造技术创新中心智能施工） | 专业硕士 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "| | 8 | 中南大学 | 土木工程学院 | 土木工程 / 土木水利（铁道与桥隧智能检测） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "| | 9 | 重庆大学 | 土木工程学院 | 土木工程 / 土木水利（智能建造与工业化建筑） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "cqu"
+      },
+      {
+        "answer_quote": "| | 10 | 大连理工大学 | 建设工程学部 | 土木工程 / 土木水利（结构健康监测与机器视觉检测） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "dlut"
+      },
+      {
+        "answer_quote": "| | 11 | 华南理工大学 | 土木与交通学院 | 土木水利 / 土木工程（智慧基础设施智能监测运维） | 专硕/学硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "scut"
+      },
+      {
+        "answer_quote": "| | 12 | 北京交通大学 | 土木建筑工程学院 | 土木工程 / 土木水利（轨道交通智能建造与视觉检测） | 学硕/专硕 |",
+        "downgraded": true,
+        "reason": "211非985，低于湖南大学本科985档；答卷以具体行业/检测方向作为备选，有适配解释，降级仅报告不机械扣1分。",
+        "school_key": "bjtu"
+      },
+      {
+        "answer_quote": "| | 13 | 中国科学院深圳先进技术研究院 | 集成技术研究所 | 电子信息 / 控制工程（机器视觉与特种检测机器人） | 专业硕士 |",
+        "downgraded": false,
+        "reason": "科研院所，按深圳先进院培养、国科大授位体系评价，不因无985/211标签自动降级。",
+        "school_key": "ucas_siat"
+      },
+      {
+        "answer_quote": "| **保底档**<br>(4所) | 14 | 湖南大学（本校） | 土木工程学院 | 土木工程 / 土木水利（智能感知与结构健康监测） | 学硕/专硕 |",
+        "downgraded": false,
+        "reason": "985同档或更高平台；按学校及实际校区培养主体判断，不因深圳校区降级。",
+        "school_key": "hnu"
+      },
+      {
+        "answer_quote": "| | 15 | 西南交通大学 | 土木工程学院 | 土木工程 / 土木水利（重大交通工程智能检测与运维） | 学硕/专硕 |",
+        "downgraded": true,
+        "reason": "211非985，低于湖南大学本科985档；答卷以具体行业/检测方向作为备选，有适配解释，降级仅报告不机械扣1分。",
+        "school_key": "swjtu"
+      },
+      {
+        "answer_quote": "| | 16 | 河海大学 | 土木与交通学院 | 土木工程 / 土木水利（重大基础设施安全监测与建造） | 学硕/专硕 |",
+        "downgraded": true,
+        "reason": "211非985，低于湖南大学本科985档；答卷以具体行业/检测方向作为备选，有适配解释，降级仅报告不机械扣1分。",
+        "school_key": "hhu"
+      },
+      {
+        "answer_quote": "| | 17 | 武汉理工大学 | 土木工程与建筑学院 | 土木水利 / 土木工程（光纤传感与智能检测运维） | 专硕/学硕 |",
+        "downgraded": true,
+        "reason": "211非985，低于湖南大学本科985档；答卷以具体行业/检测方向作为备选，有适配解释，降级仅报告不机械扣1分。",
+        "school_key": "whut"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

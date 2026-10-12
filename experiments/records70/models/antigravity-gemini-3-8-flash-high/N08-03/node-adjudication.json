@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N08-03",
+  "question_id": "Q043",
+  "answer_sha256": "2996c0823c22e434d30b1812967006168a5ee4fd23bc3245ce529726f6a14c23",
+  "original_rubric_sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+  "original_score_content_sha256": "9ae2238256fbebc39bb2748952b34b99be9f13cf67518549f05d85d3ddbc6272",
+  "original_rubric_content_sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "tier",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 2.5,
+      "rule": {
+        "full_credit": "按本科层次及专业特长合理安排；不混淆培养地、校区、学位",
+        "grading": "three_level",
+        "half_credit": "主要正确但个别层次判断无依据",
+        "id": "tier",
+        "label": "院校层次适配",
+        "points": 5
+      },
+      "decision": "答卷把中山大学深圳旧商学院020200应用经济学作为主力，并以深圳培养地解释适配。当季2027推免通知中深圳单位已为管理学院（创业学院），公布的学硕专业为120200；所报020200不在该单位两批已公布路径内。其余层次判断仍有内容，按原半档2.5/5。旧商学院的历史项目与珠海国际金融学院均不据此判为不存在，也不替换答卷所报名额。",
+      "sources": [
+        {
+          "url": "https://bus.sysu.edu.cn/article/12430",
+          "applicable_cycle": "2026–27 or 2027 entry, as applicable",
+          "scope": "official admissions or college identity"
+        },
+        {
+          "url": "https://bschool.sysu.edu.cn/notice/1422077.htm",
+          "applicable_cycle": "2026–27 or 2027 entry, as applicable",
+          "scope": "official admissions or college identity"
+        },
+        {
+          "url": "https://bus.sysu.edu.cn/article/11859",
+          "applicable_cycle": "2026–27 or 2027 entry, as applicable",
+          "scope": "official admissions or college identity"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    20.35,
+    20.35
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:44:59+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "actual_candidate_count": 0,
+  "answer_sha256": "75841f79b0d86923dbc52c6368da50aa21a7d86e2b69ab968cae97d8280db208",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 77.5
+  },
+  "confirmed_points": 77.5,
+  "diagnostic_score": 77.5,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N09-02-L1-01",
+      "N09-02-L1-04"
+    ],
+    "E2": [
+      "N09-02-L1-07"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "目前处于前期文献综述和仿真方案论证阶段，还没有进入大批量的实机调试。",
+      "id": "E1",
+      "reason": "S1仅披露机器人子方向A（具体名称已概括）、机器人子方向B（具体名称已概括）项目处于了解阶段且尚未正式展开。答卷虽正确警示不能作为主要研发经历，却在面试话术中把它写为文献综述、仿真论证正在开展；同一话术还声称正在搭建仿真环境，简历示范声称已完成文献综述并正在推导模型。这些不是题面已知成果，亦未限定为完成相应工作后才可使用。表格中的毕业设计身份条件不能证明这些具体进展。该错误首先影响阶段区分，另有可直接照用的材料表达造成独立影响。"
+    },
+    {
+      "answer_quote": "已交付的子模块——依托背景，做深闭环",
+      "id": "E2",
+      "reason": "S1只说明在团队项目中负责过一个子模块，未确认已交付、国家级或省部级背景、独立承担机械与电控全部工作或经历全流程。答卷将其定位为已交付并要求展现全链条能力，后续示范又写成整机集成交付；虽然部分段落标作示例，未提醒仅选择实际承担且有证据的环节，也没有把这一定位作为待核条件。问题是越过已披露的角色和成果边界，而不是否定子模块的材料价值。只归入事实与证据边界项。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N09-02",
+  "input_sha256": "9218534651374c95476825f010723507fe1da4a566533d15083f8666fad563e1",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "2ac6d3ec2a4a438c6b6c2d7318d6c84f6676cf659e973dc02bf31d8d22cb652d",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-01",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-02",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N09-02-L1-06",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N09-02-L1-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 0,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [],
+  "reference_denominator": null,
+  "rubric_sha256": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+  "score": 77.5,
+  "score_interval": [
+    77.5,
+    77.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N09-02",
+  "task_kind": "planning",
+  "task_sha256": "7850a6651be8817442ff33c3e064fbbbfe6d1d2fe6a87247117ae2321ff6f6b4",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "已逐段审阅S0、S1及task.visible_history。清北、浙大、上交、中科院自动化所/沈自所、原本科院校本部、北航只在背景强弱与初审预期中出现；S1的985和中科院也仅描述面试专家。无实际推荐、条件备选、排除或申请候选提名。本题是项目呈现规划题，研究方向和简历项目示例不属于院校申请候选，因此候选集合及层次院校集合为空。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

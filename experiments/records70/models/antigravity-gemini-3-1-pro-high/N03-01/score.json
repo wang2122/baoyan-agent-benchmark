@@ -1,0 +1,487 @@
+{
+  "actual_candidate_count": 25,
+  "answer_sha256": "3e468fc2fd5cb67c671aceddb9c4a87e60c26b627659c7d4bf3b08c01b9db712",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 70.0
+  },
+  "confirmed_points": 70.0,
+  "diagnostic_score": 70.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "accuracy"
+    ],
+    "E02": [
+      "N03-01-T5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "成果：模型mAP达到xx%，推理帧率提升至xx FPS，录用/发表EI会议论文1篇。",
+      "id": "E01",
+      "reason": "同一简历项目标题容许EI检索/在审，却在成果栏统一写录用/发表1篇，未附状态成立条件或要求以证据核验后填写。题面只披露相关EI会议研究，不能从研究经历确定发表状态。记录为材料状态区分不充分，不断言论文实际未发表；仅关联accuracy。"
+    },
+    {
+      "answer_quote": "只要手握Tier 2优营，即可放心放弃Tier 3。",
+      "id": "E02",
+      "reason": "优秀营员的含义和接收条件因目标项目而异；答卷未核验具体优营承诺、当届规则和正式接收状态，便无条件建议撤掉全部兜底。本题已知背景不足以支持此行动保证，最直接影响候选筛选与保底判断，仅关联N03-01-T5，不把各候选项目本身标成不存在或无效。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N03-01",
+  "input_sha256": "15714eb494c97b98cd411095b6a28148dc1933fe4489709f77661e1c87bc8cf6",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "1f0d212c9dec16ad63c51c14a13a7ec93ad36b0a027feed0430c4b63ba9d52bb",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N03-01-T1",
+      "kind": "quality",
+      "points": 11.0
+    },
+    {
+      "grade": 1,
+      "id": "N03-01-T2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N03-01-T3",
+      "kind": "quality",
+      "points": 6.5
+    },
+    {
+      "grade": 1,
+      "id": "N03-01-T4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N03-01-T5",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 25,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "电机工程与应用电子技术系（直博优先）",
+      "canonical_candidate_key": "thu:ee",
+      "error_ids": [],
+      "label": "清华大学电机工程与应用电子技术系",
+      "occurrence_quotes": [
+        "清华(电机/深研院/自动化)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "电机与控制经历对口；直博优先是偏好建议，题面未拒绝直博，不认作已经满足直博条件。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "清华大学深圳国际研究生院（TBSI智能制造与智能交通、数据科学与信息技术）",
+      "canonical_candidate_key": "thu:sigs",
+      "error_ids": [],
+      "label": "清华大学深圳国际研究生院合并方向候选",
+      "occurrence_quotes": [
+        "清华(电机/深研院/自动化)",
+        "更是你冲击清华、清华深研院（TBSI）、浙大、上交高水平实验室或国际化课题组的重大差异化加分项",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "SIGS及相关智能制造、数据方向可识别，官方当届通知支持相关项目存在；原文将多个方向括注在一项中，未分别明确专业和学位路径，保留一个合并候选，不替其拆出独立项目。TBSI与SIGS隶属、方向名和申请类别不能仅按字面互换；未证明机构或全部方向不存在。见evidence.json EV01、EV02。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "自动化系。",
+      "canonical_candidate_key": "thu:auto",
+      "error_ids": [],
+      "label": "清华大学自动化系",
+      "occurrence_quotes": [
+        "清华(电机/深研院/自动化)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "清华清单中与电机系、SIGS分别列出的自动化系候选，控制与嵌入式经历具有相关性；不据清单保证录取。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "thu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "电气工程学院（顶尖，非常看重专业第一）",
+      "canonical_candidate_key": "zju:ee",
+      "error_ids": [],
+      "label": "浙江大学电气工程学院",
+      "occurrence_quotes": [
+        "浙大(电气/控制)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "浙江清单明确列电气院，控制方向背景相关；关于院系普遍偏好前约2%的宣传措辞不作为已核实入营概率。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "控制科学与工程学院（A+，极其欢迎软硬件结合生源）",
+      "canonical_candidate_key": "zju:cse",
+      "error_ids": [],
+      "label": "浙江大学控制科学与工程学院",
+      "occurrence_quotes": [
+        "浙大(电气/控制)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "浙江清单明确列控制院，控制方向与视觉具有方向关联；极其欢迎等判断不等同学生符合所有考核要求。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "电气工程学院（电气传统四强之首，学科底蕴极深，专业第一入营率极高）",
+      "canonical_candidate_key": "xjtu:ee",
+      "error_ids": [],
+      "label": "西安交通大学电气工程学院",
+      "occurrence_quotes": [
+        "西交(电气)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "西交电气候选身份明确且与电机方向相关；未披露统计依据的入营率表述不采信为接收保证。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "电子信息与电气工程学院（电气工程系、自动化系）",
+      "canonical_candidate_key": "sjtu:seiee",
+      "error_ids": [],
+      "label": "上海交通大学电子信息与电气工程学院合并内部方向",
+      "occurrence_quotes": [
+        "上交(电院)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "按电院主体及其内部两方向记录一项，电机/控制经历相关；括注内部系并列未形成分别可执行的独立申请路径，不机械拆分。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "电气与电子工程学院",
+      "canonical_candidate_key": "hust:ee",
+      "error_ids": [],
+      "label": "华中科技大学电气与电子工程学院",
+      "occurrence_quotes": [
+        "华科(电气/自动化)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "华科清单明确列电气院，与控制方向及电赛相关。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "人工智能与自动化学院",
+      "canonical_candidate_key": "hust:aia",
+      "error_ids": [],
+      "label": "华中科技大学人工智能与自动化学院",
+      "occurrence_quotes": [
+        "华科(电气/自动化)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "华科清单明确列人工智能与自动化院，与控制和视觉经历相关。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "电子与信息工程学院（同在上海，对上海大学高分生源认可度极高，优营含金量足）",
+      "canonical_candidate_key": "tongji:ee",
+      "error_ids": [],
+      "label": "同济大学电子与信息工程学院",
+      "occurrence_quotes": [
+        "同济(电信)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "同济候选院系可识别，控制与电气方向相关；同城优势可作软适配，不认定极高认可度或优营效力已经核实。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "电气工程学院、自动化学院",
+      "canonical_candidate_key": "seu:ee",
+      "error_ids": [],
+      "label": "东南大学电气工程学院",
+      "occurrence_quotes": [
+        "东南(电气/自动化)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "东南列表以两个明确院名并列推荐，电气与控制是不同院系；与控制方向经历相关。此引句同时支持同段另一院系的独立候选。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "自动化学院（工科老牌强校，极其看重电赛与硬件功底）",
+      "canonical_candidate_key": "seu:auto",
+      "error_ids": [],
+      "label": "东南大学自动化学院",
+      "occurrence_quotes": [
+        "东南(电气/自动化)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "东南清单明确院名，与控制、嵌入式及视觉相关；与电气院区分记录，不把共同宣传评价当已核实偏好。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "工程与应用技术研究院（工研院）",
+      "canonical_candidate_key": "fudan:faet",
+      "error_ids": [],
+      "label": "复旦大学工程与应用技术研究院范围候选",
+      "occurrence_quotes": [
+        "复旦(工研院/类脑)"
+      ],
+      "reason": "官网仍使用工研院组织名称，并说明相关创新学院建设与机器人研究，故不因新学院名称而认定旧组织不存在。作为研究组织范围候选可识别，实际招生主体、专业和学位路径尚未由答卷明确，不替其生成新学院推荐。见EV03。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "类脑智能科学与技术研究院（非常青睐你的机器视觉+自动化复合背景）",
+      "canonical_candidate_key": "fudan:istbi",
+      "error_ids": [],
+      "label": "复旦大学类脑智能科学与技术研究院",
+      "occurrence_quotes": [
+        "复旦(工研院/类脑)"
+      ],
+      "reason": "官方2027级推免通知及相关中心支持候选身份和类脑/智能交叉范围；视觉背景有相关性，但不能据此认定非常青睐或跨申条件已满足。见EV04。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "电气自动化与信息工程学院",
+      "canonical_candidate_key": "tju:ee",
+      "error_ids": [],
+      "label": "天津大学电气自动化与信息工程学院",
+      "occurrence_quotes": [
+        "天大(电气自动化)"
+      ],
+      "reason": "天津清单明确院系主体，与电机、控制相关。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "电气工程及自动化学院（电驱动全国顶尖）",
+      "canonical_candidate_key": "hit:ee",
+      "error_ids": [],
+      "label": "哈尔滨工业大学电气工程及自动化学院",
+      "occurrence_quotes": [
+        "哈工大(电气)"
+      ],
+      "reason": "官方资料确认该院系称谓和电气学科；只用既有院系及方向支持身份，不将2026年10月拟录取结果倒灌为学生准备期已知，也不采用全国顶尖作录取依据。见EV05。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "中科院电工研究所（北京）",
+      "canonical_candidate_key": "cas-iee:iee",
+      "error_ids": [],
+      "label": "中国科学院电工研究所",
+      "occurrence_quotes": [
+        "中科院(电工所/自动化所)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "电工所候选主体明确，控制方向、电力电子方向具有相关性；不与整个中科院系统或其他研究所混为同一路径。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。官方补核依据见evidence.json EV08，仅按该记录支持范围使用。",
+      "school_key": "cas-iee",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "中科院自动化研究所（北京）",
+      "canonical_candidate_key": "cas-ia:ia",
+      "error_ids": [],
+      "label": "中国科学院自动化研究所",
+      "occurrence_quotes": [
+        "中科院(电工所/自动化所)",
+        "实时跟踪清华、浙大、西交、上交、华科、东南、同济、中科院电工所/自动化所等院校夏令营通知。"
+      ],
+      "reason": "自动化所候选主体明确，与控制和视觉经历具有方向关联；独立于电工所。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。前文申报通知中的学校泛称和合并缩写为同校/单位后文清单的重复范围提示，不新增未指明的项目。官方补核依据见evidence.json EV07，仅按该记录支持范围使用。",
+      "school_key": "cas-ia",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "中科院上海微系统所",
+      "canonical_candidate_key": "cas-simit:simit",
+      "error_ids": [],
+      "label": "中国科学院上海微系统与信息技术研究所",
+      "occurrence_quotes": [],
+      "reason": "按通用简称识别独立研究所候选，软硬件背景可能相关；原文没有细化课题、专业和导师，缺失落在筛选质量，不等于项目不存在。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。官方补核依据见evidence.json EV06，仅按该记录支持范围使用。",
+      "school_key": "cas-simit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "中科院宁波材料所",
+      "canonical_candidate_key": "cas-nim:nim",
+      "error_ids": [],
+      "label": "中国科学院宁波材料技术与工程研究所",
+      "occurrence_quotes": [],
+      "reason": "按通用简称识别独立研究所候选，材料所存在智能制造及相关工程研究范围；原文没有指出具体方向与导师，不替其补创申请路径，缺适配细化不自动标无效。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。官方补核依据见evidence.json EV09，仅按该记录支持范围使用。",
+      "school_key": "cas-nim",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "华南理工大学",
+      "canonical_candidate_key": "scut:school",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "华南理工大学校级候选",
+      "occurrence_quotes": [
+        "华南理工、华北电力、中南、湖南大学、上海大学(本校兜底)",
+        "华北电力大学（行业黄埔，电力系统顶尖）、华南理工大学、中南大学"
+      ],
+      "reason": "在兜底名单直接推荐，校级候选可识别；全文未明确实际院系或项目，记录此粒度，不因缺专业把学校认作不存在。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。后文Tier 2优营足以撤掉全部Tier 3的策略适用于该兜底候选，关联E02；错误在撤掉兜底的判断，不在学校身份，故仍为valid。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "华北电力大学（行业黄埔，电力系统顶尖）",
+      "canonical_candidate_key": "ncepu:school",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "华北电力大学校级候选",
+      "occurrence_quotes": [
+        "华南理工、华北电力、中南、湖南大学、上海大学(本校兜底)"
+      ],
+      "reason": "兜底名单直接推荐，电气相关但具体院系、校区和电机/电力系统取向未区分；仅认定学校身份及宽泛方向。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。后文Tier 2优营足以撤掉全部Tier 3的策略适用于该兜底候选，关联E02；错误在撤掉兜底的判断，不在学校身份，故仍为valid。",
+      "school_key": "ncepu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "中南大学",
+      "canonical_candidate_key": "csu:school",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中南大学校级候选",
+      "occurrence_quotes": [
+        "华南理工、华北电力、中南、湖南大学、上海大学(本校兜底)",
+        "华北电力大学（行业黄埔，电力系统顶尖）、华南理工大学、中南大学"
+      ],
+      "reason": "兜底名单直接推荐，未给具体院系或项目；按校级建议记录，不创造控制或电气项目。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。后文Tier 2优营足以撤掉全部Tier 3的策略适用于该兜底候选，关联E02；错误在撤掉兜底的判断，不在学校身份，故仍为valid。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "湖南大学",
+      "canonical_candidate_key": "hnu:school",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "湖南大学校级候选",
+      "occurrence_quotes": [
+        "华南理工、华北电力、中南、湖南大学、上海大学(本校兜底)"
+      ],
+      "reason": "仅在梯队图中出现，已构成兜底候选直接推荐，不能因正文名单遗漏而漏提；无具体院系或项目。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。后文Tier 2优营足以撤掉全部Tier 3的策略适用于该兜底候选，关联E02；错误在撤掉兜底的判断，不在学校身份，故仍为valid。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "上海大学本校保底",
+      "canonical_candidate_key": "shu:school",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "上海大学本校兜底",
+      "occurrence_quotes": [
+        "上海大学(本校兜底)"
+      ],
+      "reason": "正文和梯队图明确兜底，属于实际推荐，与题面本科背景讨论区分；校内推免资格不等于本校接收保证，实际专业和接收条件缺核验。valid仅表示在原文所给粒度可识别且没有已知硬条件冲突，并非已审计全部年度招生或保证可录取；本题无参考覆盖计分。后文Tier 2优营足以撤掉全部Tier 3的策略适用于该兜底候选，关联E02；错误在撤掉兜底的判断，不在学校身份，故仍为valid。",
+      "school_key": "shu",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "1d096e93cbf388a7534ec6a6320348fd6f9ee7d11dcc1014793d3278432e8731",
+  "score": 70.0,
+  "score_interval": [
+    70.0,
+    70.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N03-01",
+  "task_kind": "planning",
+  "task_sha256": "3212aa1f1ae906f5576237092ebb60df48493ef8cc0192e70d49bd2ab691a7cd",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题全部为three_level节点，没有school_tier节点，也未要求逐校层次计分；无需额外设降级扣分。院校完整提取已在recommendation_review记录。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

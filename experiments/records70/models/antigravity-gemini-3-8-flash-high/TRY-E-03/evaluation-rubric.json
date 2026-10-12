@@ -1,0 +1,89 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-E-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "评价南大AI学硕与NLP研究衔接及招生条件，既有实验室经历不等于保证接收。",
+      "grading": "three_level",
+      "half_credit": "已有AI学硕和研究联系，但招生条件或适配结论不足。",
+      "id": "TRY-E-03-R10-01",
+      "label": "南京大学人工智能",
+      "points": 12
+    },
+    {
+      "full_credit": "比较南大计算机与AI学硕路线，并正确处理AI可行时无需重复投递的替代关系。",
+      "grading": "three_level",
+      "half_credit": "已有计算机与AI差异分析，但条件替代关系或本人适配不清楚。",
+      "id": "TRY-E-03-R10-02",
+      "label": "南京大学计算机",
+      "points": 12
+    },
+    {
+      "full_credit": "识别北大软微具体项目及学位，联系AI或计算机目标；偏离学硕时给真实接受条件或合理排除。",
+      "grading": "three_level",
+      "half_credit": "项目身份基本正确并考虑学位偏好，但具体适配或接受条件不足。",
+      "id": "TRY-E-03-R10-03",
+      "label": "北大软微",
+      "points": 12
+    },
+    {
+      "full_credit": "识别清华自动化、电子工程硕博路线及其与学硕的差别，按本人意愿和培养投入判断。",
+      "grading": "three_level",
+      "half_credit": "已辨别学位差别，但本人接受范围、培养投入或取舍依据不完整。",
+      "id": "TRY-E-03-R10-04",
+      "label": "清华自动化/电子工程硕博",
+      "points": 12
+    },
+    {
+      "full_credit": "分析南大工程管理金融跨方向的基础、兴趣及学位差异；未知时具体待核或合理暂缓。",
+      "grading": "three_level",
+      "half_credit": "已识别跨方向及一个具体适配条件，但兴趣、基础或学位取舍不足。",
+      "id": "TRY-E-03-R10-05",
+      "label": "南大工程管理金融",
+      "points": 12
+    },
+    {
+      "full_credit": "围绕AI、计算机学硕和已有NLP研究给候选优先关系，说明哪些条件变化会调整选择。",
+      "grading": "three_level",
+      "half_credit": "已有合理排序或取舍，但研究联系、学位偏好或调整条件不完整。",
+      "id": "TRY-E-03-R10-06",
+      "label": "候选优先与条件取舍",
+      "points": 15
+    },
+    {
+      "full_credit": "用现有NLP工作、投稿准备、成绩和英语评估项目适配，区分背景优势与尚缺能力。",
+      "grading": "three_level",
+      "half_credit": "已有真实背景与候选的联系，但优势短板或选择影响不完整。",
+      "id": "TRY-E-03-R10-07",
+      "label": "NLP背景与项目适配",
+      "points": 15
+    },
+    {
+      "full_credit": "把取得本科资格与项目接收分开，指出直接影响选择的学位、跨专业或其他条件及核验办法。 时点要求：按2025年该阶段核资格及对应入学届别的学位通道；未知时给具体条件，不因当前设置推断历史开放。",
+      "grading": "three_level",
+      "half_credit": "资格前提正确且列出关键条件，但条件具体性或核验办法不完整。 时点边界：已有本项实质正确内容，但影响判断的阶段、届别或更新安排不足，可半分；核心结论依赖错误时点为0。仅缺不影响选择的日期措辞不扣分。",
+      "id": "TRY-E-03-R10-08",
+      "label": "资格、学位与关键条件（时点适配）",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": true,
+  "tier_report_only": true
+}

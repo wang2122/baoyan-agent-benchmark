@@ -1,0 +1,438 @@
+{
+  "actual_candidate_count": 11,
+  "answer_sha256": "44f226dde1c77b413798677d5412cf677d4f895f2b7718d83f0680b4a4ef1ab5",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 62.5
+  },
+  "confirmed_points": 62.5,
+  "diagnostic_score": 62.5,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N05-01-L1-04"
+    ],
+    "E02": [
+      "N05-01-L1-07"
+    ],
+    "E03": [
+      "N05-01-L1-07"
+    ],
+    "E04": [
+      "N05-01-L1-07"
+    ],
+    "E05": [
+      "N05-01-L1-07"
+    ],
+    "E06": [
+      "N05-01-L1-05"
+    ],
+    "E07": [
+      "N05-01-L1-07"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "目前，我以 [第一作者/学生第一作者] 在 [期刊名] 发表 EI 检索论文 1 篇，主持推进专利 2 项（已受理）",
+      "id": "E01",
+      "reason": "题面只披露EI论文已录用，未披露已发表或已完成EI检索、作者位次与独立贡献。邮件模板直接升级为发表EI检索论文，并限定第一作者身份，且未提示以真实状态替换；全文另有独立完成论文、英文全由自己主笔等断言。此类成果状态及作者贡献混淆只归入L1-04，不再在通用事实项重复处罚。"
+    },
+    {
+      "answer_quote": "是中国民航大学交通工程专业 2022 级的本科生，专业排名 前约1%（前 约1%），已获得推免资格。",
+      "id": "E02",
+      "reason": "未披露入学年级及已取得推免资格，排名不能直接替代校内推免资格审核；模板把这些未知事实写成已发生事实。此项归入L1-07。"
+    },
+    {
+      "answer_quote": "重点列出实验仪器与技能：熟练掌握功能材料/隔热复合材料制备工艺；精通 SEM（扫描电镜）、XRD（X射线衍射）、TGA（热重分析）、导热系数仪（瞬态平面源法/平板法）等测试分析与数据拟合。",
+      "id": "E03",
+      "reason": "科研方向不能证明学生熟练掌握所列具体制备工艺和全部仪器。文中还断言已自主精读理论、写出声子散射机理并获审稿人认可，未以本人实际经历核验为前提，构成申请材料中的实质性无依据扩写。归入L1-07；不与E01的论文状态、作者贡献问题重复。"
+    },
+    {
+      "answer_quote": "专业第 2 的成绩能保你顺利通过夏令营/预推免初审",
+      "id": "E04",
+      "reason": "专业排名并不保证目标院系初审通过。文中还有本校推免稳如磐石、南航完全免检、主力稳拿、核心保底100%兜底及必将争相抢录等确定性承诺；招生资格、专业条件、招生名额和综合考核均非由排名单独决定。官方当届南航总办法要求本校推免资格及学院条件并择优确定复试；中民航当届办法明确材料审核及综合考核。见evidence.json中EV01、EV06。只归入L1-07，不因项目真实而将全部推荐判invalid。"
+    },
+    {
+      "answer_quote": "天津大学（机械工程学院/材料学院，同城优势，极度认可中民航前几名）",
+      "id": "E05",
+      "reason": "同城可以作为联系导师的便利因素，但不能推出院校极度认可该校前几名或特定初审录取偏好。答卷未给出适用周期、项目或可核实依据；亦把南航极高青睐度写成确定事实。属于把未查明的偏好当事实，归入L1-07。"
+    },
+    {
+      "answer_quote": "满足了绝大多数理工科院校 425 分的初审硬门槛",
+      "id": "E06",
+      "reason": "未经目标院系、申请批次和学位路径核验，把425分概括为绝大多数理工院校的统一初审门槛，不足以判断425–449能否覆盖实际目标。此处不声称已证明每个目标都不满足条件；关键缺陷是据笼统门槛安排准备而缺逐项目资格核验。只归入L1-05。"
+    },
+    {
+      "answer_quote": "包括《交通工程学》《运筹学》在内的核心课我都取得了 90 分以上的成绩",
+      "id": "E07",
+      "reason": "题面只给排名，没有课程分数；此段供学生直接使用的面试话术将未披露成绩断言为90分以上。此前课程列表中的“如”可视作举例，本错误限定于这里的确定断言，以及同段完全吃透主干、后文编程名列前茅等未披露能力。归入L1-07。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N05-01",
+  "input_sha256": "97ca7956c3d68d4ac6fffe80554f42f12e76658b1cf1ede380f2060869c62567",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "c772e4e23175820d7f81dfacb53fa0e561d2298a1f07e88fab1cdb70f9f1d532",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N05-01-L1-01",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-02",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N05-01-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-04",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-05",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-01-L1-06",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0,
+      "id": "N05-01-L1-07",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 11,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "北京航空航天大学（交通科学与工程学院-载运/适航；航空科学与工程学院）",
+      "canonical_candidate_key": "buaa-transport-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "北京航空航天大学：交通载运/适航及航空学院合并建议",
+      "reason": "交通适航及航空研究方向有真实单位基础。此处并列两个院系而未分别给出申请路径，按一个合并候选记录；后文明确交通学院是该建议的重点，不额外拆造航空学院候选。EV02支持交通适航身份；未逐年审计各路径门槛。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "同济大学（交通运输工程学院-载运工具服役工程）",
+      "canonical_candidate_key": "tongji-transport-carrier",
+      "error_ids": [],
+      "label": "同济大学：交通载运工具服役方向",
+      "reason": "按研究方向表述理解载运工具服役工程，未将其虚拟为独立专业代码。EV03证实2024年原交通运输工程学院与轨道等单位融合为交通学院，含车辆与载运系及载运工具运用工程培养路径，故旧名不导致项目不存在。具体热防护导师适配仍需筛选；不是年度招生全审计。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "哈尔滨工业大学（交通科学与工程学院；特种环境复合材料研究所）",
+      "canonical_candidate_key": "hit-traffic-composites-bundle",
+      "error_ids": [],
+      "label": "哈尔滨工业大学：交通及特种环境复合材料合并建议",
+      "reason": "交通院系与航天学院复合材料研究平台均有相关方向基础。EV04显示正式研究所名为复合材料与结构研究所，特种环境复合材料是相关实验室与研究主题，答卷称谓不精确但可识别，不据此断言虚构。两单位合并建议未说明分别申哪条路径，保留一个候选，不代填专业或授位主体。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "南京航空航天大学（民航学院-载运/机务；航空学院-飞行器设计）",
+      "canonical_candidate_key": "nuaa-civil-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "南京航空航天大学：民航载运/机务及航空飞行器设计合并建议",
+      "reason": "EV05的2027推免硕士目录明确民航学院交通运输含载运与适航，航空学院航空宇航含飞行器设计，相关方向有实际培养路径。原文两院系合并，后文重点说明民航团队，按一个候选保留；不是本人符合全部条件或免检的证明。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "西南交通大学 / 中南大学（交通运输工程 A+，轨道载运/结构安全）",
+      "canonical_candidate_key": "swjtu-traffic-rail-safety",
+      "error_ids": [],
+      "label": "西南交通大学：交通运输、轨道载运与结构安全",
+      "reason": "这是两所学校分别建议，学校身份独立，故分别提取；本条只对应西南交通大学。轨道载运、运输与安全研究路径可成立，未补造答卷未指明的具体院系；不以A+或稳拿断言证明个人录取把握。",
+      "school_key": "swjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "西南交通大学 / 中南大学（交通运输工程 A+，轨道载运/结构安全）",
+      "canonical_candidate_key": "csu-traffic-rail-safety",
+      "error_ids": [],
+      "label": "中南大学：交通运输、轨道载运与结构安全",
+      "reason": "本条只对应中南大学。EV07支持交通运输工程学院及轨道载运安全研究存在；不把合并括号中的A+等级当作已核实的两校共同结论，亦不据该称谓取消真实交通路线。不补造具体学位路径或宣称当届资格已审计。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "天津大学（机械工程学院/材料学院，同城优势，极度认可中民航前几名）",
+      "canonical_candidate_key": "tju-mechanical-material-bundle",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "天津大学：机械/材料及相关导师合并建议",
+      "reason": "机械、材料属于可识别相关培养领域；EV08支持材料学院2027推免申请及条件。斜杠组合未明确实际择哪一独立项目，保留合并候选；后文机械/能源/化工导师合作说明视为同校联系范围扩展，未创造三个独立推荐路径。同城可支持联系便利，不能支持极度认可的初审偏好。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "东南大学（交通学院-载运工具运用工程）",
+      "canonical_candidate_key": "seu-transport-carrier",
+      "error_ids": [],
+      "label": "东南大学：交通学院载运工具运用工程",
+      "reason": "EV09官方学科页及运输与物流工程系介绍支持院系、学科身份。方向可成立；其培养包含运输系统与物流，不能只凭载运名称保证与功能材料科研直接同频，须按导师课题筛选。缺年度资格审计本身不等于无效。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "中国民航大学（本校民航重点实验室，直博/学硕顶级长江/杰青大团队）",
+      "canonical_candidate_key": "cauc-civil-lab-degree-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "中国民航大学：本校实验室直博/学硕合并建议",
+      "reason": "按本校相关团队的合并建议提取。EV06确认2027推免硕士接收及研究生培养路径，足以支持并列学硕选项的基本合法性；该官方办法说明硕博连读需在研一申请，不能据此认证本科直博、具体长江/杰青团队及名额。未有排他性官方证据证明直博不存在，不将整个含真实硕士路径的建议判invalid。有效仅指本校相关硕士路线可成立，不等于直博或100%兜底已核实。",
+      "school_key": "cauc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "北京工业大学 / 武汉理工大学（交通/材料学院）",
+      "canonical_candidate_key": "bjut-traffic-material-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "北京工业大学：交通/材料合并建议",
+      "reason": "两校独立提取，本条对应北京工业大学的交通/材料领域合并建议。学校具有相关交通及材料研究培养领域，原文未指明独立院系或专业，按宽粒度方向候选保留，不代拆成交通与材料两项；缺细目不等于已证明项目虚构，也不支持100%兜底。",
+      "school_key": "bjut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "北京工业大学 / 武汉理工大学（交通/材料学院）",
+      "canonical_candidate_key": "whut-traffic-material-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "武汉理工大学：交通/材料合并建议",
+      "reason": "本条对应武汉理工大学。EV10支持交通与物流研究生学术培养及材料复合材料方向；交通学院为简略或旧称，不以名称差异判虚构。交通/材料路径合并未分别细化，保留一个候选；未逐年核对英语与跨专业要求，不能解释为100%保底。",
+      "school_key": "whut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**重点攻坚：南京航空航天大学（民航学院 / 航空学院）**",
+      "canonical_candidate_key": "nuaa-civil-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "南京航空航天大学：民航载运/机务及航空飞行器设计合并建议",
+      "reason": "重复重点推荐，仍是两院系合并建议，沿用A04身份，不另增候选。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "南航民航学院是国内民航系统内认可度最高的工科学府之一，对中国民航大学排名第 2 的学生具有极高的青睐度",
+      "canonical_candidate_key": "nuaa-civil-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "南京航空航天大学：民航载运/机务及航空飞行器设计合并建议",
+      "reason": "同一南航候选的民航重点说明，沿用A04合并键；不把没有独立申报路径的扩写另计项目。青睐度与免检承诺不获官方依据支持。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**重点冲刺：北京航空航天大学（交通科学与工程学院）**",
+      "canonical_candidate_key": "buaa-transport-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "北京航空航天大学：交通载运/适航及航空学院合并建议",
+      "reason": "同一北航合并建议的重点落在交通学院，沿用A01身份，未新增航空学院独立申报路线。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "北航交通学院下设载运工具运用工程与航空器适航技术",
+      "canonical_candidate_key": "buaa-transport-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "北京航空航天大学：交通载运/适航及航空学院合并建议",
+      "reason": "同一北航交通适航路径的后续说明，EV02支持相关系所与方向；沿用A01身份，不把两个内部方向机械分拆。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**同城协同：天津大学**",
+      "canonical_candidate_key": "tju-mechanical-material-bundle",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "天津大学：机械/材料及相关导师合并建议",
+      "reason": "重复推荐同校，沿用A07身份，不另增学校级候选。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "天大许多机械/能源/化工导师与中国民航大学有长期产学研合作，地缘优势极为显著，可尽早线下与导师面谈。",
+      "canonical_candidate_key": "tju-mechanical-material-bundle",
+      "error_ids": [
+        "E05"
+      ],
+      "label": "天津大学：机械/材料及相关导师合并建议",
+      "reason": "同城导师联系范围说明，与A07同一天津大学宽粒度推荐合并；未明确不同专业招生路径，不能替答卷创造能源/化工两个新项目。长期合作泛化未核实，但不据此判学校方向虚构。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "争取至少拿下一个顶尖 211（如南航）和一个中流 985 的“优秀营员（优营）”",
+      "canonical_candidate_key": "nuaa-civil-aero-bundle",
+      "error_ids": [
+        "E04"
+      ],
+      "label": "南京航空航天大学：民航载运/机务及航空飞行器设计合并建议",
+      "reason": "执行表再次提名南航作为优营目标，沿用A04身份；“争取”视为行动目标，不单独判保证错误。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "6658f6315d767a664d8b66be63c7183197a98304cf5574d114e077b29d6b826e",
+  "score": 62.5,
+  "score_interval": [
+    62.5,
+    62.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N05-01",
+  "task_kind": "planning",
+  "task_sha256": "15a9ff1dfecac080038995e761f69a9fce8745f2c04d7d2526b1d68973d88e99",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "北京航空航天大学（交通科学与工程学院-载运/适航；航空科学与工程学院）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "buaa"
+      },
+      {
+        "answer_quote": "同济大学（交通运输工程学院-载运工具服役工程）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "哈尔滨工业大学（交通科学与工程学院；特种环境复合材料研究所）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "南京航空航天大学（民航学院-载运/机务；航空学院-飞行器设计）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "nuaa"
+      },
+      {
+        "answer_quote": "西南交通大学 / 中南大学（交通运输工程 A+，轨道载运/结构安全）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "swjtu"
+      },
+      {
+        "answer_quote": "西南交通大学 / 中南大学（交通运输工程 A+，轨道载运/结构安全）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "天津大学（机械工程学院/材料学院，同城优势，极度认可中民航前几名）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "东南大学（交通学院-载运工具运用工程）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "中国民航大学（本校民航重点实验室，直博/学硕顶级长江/杰青大团队）",
+        "downgraded": false,
+        "reason": "本校与本科基准同档，无降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "cauc"
+      },
+      {
+        "answer_quote": "北京工业大学 / 武汉理工大学（交通/材料学院）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "bjut"
+      },
+      {
+        "answer_quote": "北京工业大学 / 武汉理工大学（交通/材料学院）",
+        "downgraded": false,
+        "reason": "相对中国民航大学本科基准不构成院校层次降级。本题无院校层次计分节点，此记录仅确认推荐学校层次，不另扣分。",
+        "school_key": "whut"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

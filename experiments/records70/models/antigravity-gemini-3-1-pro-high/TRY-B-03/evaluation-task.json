@@ -1,0 +1,49 @@
+{
+  "case_group_id": "student-B",
+  "context": {
+    "observation": {
+      "专利": "处于国家知识产权局审核阶段，已加急，尚未授权。",
+      "升学意向": "东南大学，离家近；倾向电网就业。学硕、专硕均可考虑。",
+      "成绩": "专业排名前约2%。",
+      "科研": "电气相关研究方向的论文指导已安排，目标为会议论文，尚未录用；有一段校内科研经历，尚无实质成果。",
+      "竞赛": "专业类竞赛奖项；英语类竞赛奖项；数学建模类竞赛奖项。",
+      "英语": "CET4 600–649，CET6 550–599。",
+      "资格情况": "专业推免名额比例约9%，目前处于申请准备阶段；本人资格是否已确认未提供。",
+      "阶段": "2026年3月，大三下学期院校定位。"
+    },
+    "persona": {
+      "专业": "电气工程及其自动化",
+      "本科": "南京信息工程大学，自动化学院；双一流、非985/211高校",
+      "目标": "电气方向，东南大学为首选，重视离家近和电网就业。"
+    }
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-B-03",
+  "prompt": "现在是2026年3月，我在南京信息工程大学读电气工程及其自动化，大三下，专业排名前约2%，六级550–599分。我还需要确认自己的推免资格。有电气相关校内科研经历，尚无正式论文成果，专利仍在审查、尚未授权，也获得过专业、英语和数学建模类竞赛奖项。\n\n我想继续电气方向，东南大学是首选，比较重视离家近和电网就业，学硕、专硕均可考虑。浙大电气工程学院和工程师学院都有电气相关项目，这两个对我来说有什么区别？我该怎么选？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "56b5f460fd9660ec795aed0f6052d62e8571139b92eb3c18b86860f55cc0ccff",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

@@ -1,0 +1,897 @@
+{
+  "actual_candidate_count": 28,
+  "answer_sha256": "ac1bf2bea096ecf2499beaceeb200e4d59a3c4d9582b78089e92da6d50e0313d",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 65.0
+  },
+  "confirmed_points": 65.0,
+  "diagnostic_score": null,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-COMPETITIVENESS": [
+      "N12-02-L1-05"
+    ],
+    "E-RESEARCH-INFERENCE": [
+      "N12-02-L1-03"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "而英文法律竞赛证明了“法律英语检索（Westlaw/HeinOnline）、英文文书起草（Memorial/Brief）、高压口头辩论（Oral Pleading）的实战应用能力”",
+      "id": "E-RESEARCH-INFERENCE",
+      "reason": "S1只披露参加法学相关和其他竞赛，未披露具体竞赛、角色、完成任务或成绩。虽前句提出如果涉及英文模拟法庭的条件，后文却直接将参与经历当作三类技能的证明，并据此高度推荐；S0也直接从本科生科研项目参与推断研究方法掌握。该学生经历推断仅影响第3项，不再扣英语竞争力或下一步项。"
+    },
+    {
+      "answer_quote": "雅思 7.5（听说读写全面无短板）",
+      "id": "E-COMPETITIVENESS",
+      "reason": "仅有雅思总分，没有四项小分，不能推出全面无短板。答卷又据排名及英语优势称外语基本满分、初审几乎直通、免检型及顶尖法硕优质保底，未交代综合考核、名额、生源及校内推免资格的不确定性。这组竞争力过度推断统一归第5项，不重复扣其他项。"
+    },
+    {
+      "answer_quote": "北京大学国际法学院（PKU STL，J.D./J.M. 四年制双学位，全英文教学）",
+      "id": "E-STL-LANGUAGE",
+      "reason": "官方2026年国内生招生说明明确J.D.课程英文授课、中国法J.M.课程中文授课，且在深圳研究生院全日制培养。整体项目并非全英文教学。四年培养、法本可申请以及中美法结合路径有官方支持，不因此将STL候选本身标为无效。来源及适用限制见evidence.json EV-STL-2026。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N12-02",
+  "input_sha256": "966dc249c7de7986eb61c146f26782ba426d436edba9fdc6908ffe5b6fa664df",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "fab2bd849cd7bfcc1c4775cfac5afc5913623ce0fe23bf2e72d735cc885716e7",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N12-02-L1-01",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N12-02-L1-02",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N12-02-L1-03",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": "pending",
+      "id": "N12-02-L1-04",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 0.5,
+      "id": "N12-02-L1-05",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N12-02-L1-06",
+      "kind": "quality",
+      "points": 7.5
+    }
+  ],
+  "observed_candidate_count": 28,
+  "official": false,
+  "pending_nodes": [
+    "N12-02-L1-04"
+  ],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "pku-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "北京大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。已找到的官方材料将涉外律师及国际仲裁置于法律（非法学），与学生法本背景有实质适用争议，尚不能裁决2026申请季法本对应路径，关联第4项待核及EV-PKU-QUALIFICATION。",
+      "school_key": "pku",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "tsinghua-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "清华大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。2026申请、2027入学的官方推免考核表确列035102法律（法学）国际仲裁，支持组合中的一条可行路径，不将仅历史存在的涉外律师标签断言为当届独立方向。见EV-TSINGHUA-2027。",
+      "school_key": "tsinghua",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "ruc-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国人民大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方2026届推免通知支持法律（法学）涉外法治三年路径，作为2026咨询的既有项目身份依据，非逐年专项名额认证。见EV-RUC-2026。",
+      "school_key": "ruc",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "cupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。",
+      "school_key": "cupl",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "ecupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "华东政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方涉外法治项目材料支持涉外法硕方向，具体年度分流与报名主体须区分；未将名称合并本身判错。见EV-ECUPL。",
+      "school_key": "ecupl",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "whu-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "武汉大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。",
+      "school_key": "whu",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "教育部、司法部等部门联合设立的专项培养项目（如北大、清华、人大、中政、华政、武大、对外经贸等高校设立），学制多为 3 年。",
+      "canonical_candidate_key": "uibe-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "对外经济贸易大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方培养公告和既有目录支持法律（法学）涉外律师路径，未据此认定2026申请季的具体方向名称或名额已核。见EV-UIBE。",
+      "school_key": "uibe",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "北京大学国际法学院（PKU STL，J.D./J.M. 四年制双学位，全英文教学）、中国政法大学中欧法学院（中国法硕/学硕 + 汉堡大学欧洲-国际法LL.M.双硕士）、同济大学中德经济法项目等。",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [
+        "E-STL-LANGUAGE"
+      ],
+      "label": "北京大学国际法学院J.D./J.M.",
+      "reason": "作为可申请项目谱系的具体举例，仅提名；STL路径据EV-STL-2026，相关授课描述错误不取消项目身份；中欧及同济身份据EV-CESL与EV-TONGJI，未将同济德语条件当作已满足。",
+      "school_key": "pku",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "北京大学国际法学院（PKU STL，J.D./J.M. 四年制双学位，全英文教学）、中国政法大学中欧法学院（中国法硕/学硕 + 汉堡大学欧洲-国际法LL.M.双硕士）、同济大学中德经济法项目等。",
+      "canonical_candidate_key": "cupl-cesl-double-master",
+      "error_ids": [],
+      "label": "中国政法大学中欧双硕士",
+      "reason": "作为可申请项目谱系的具体举例，仅提名；STL路径据EV-STL-2026，相关授课描述错误不取消项目身份；中欧及同济身份据EV-CESL与EV-TONGJI，未将同济德语条件当作已满足。",
+      "school_key": "cupl",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "北京大学国际法学院（PKU STL，J.D./J.M. 四年制双学位，全英文教学）、中国政法大学中欧法学院（中国法硕/学硕 + 汉堡大学欧洲-国际法LL.M.双硕士）、同济大学中德经济法项目等。",
+      "canonical_candidate_key": "tongji-law-sino-german",
+      "error_ids": [],
+      "label": "同济大学中德经济法项目",
+      "reason": "作为可申请项目谱系的具体举例，仅提名；STL路径据EV-STL-2026，相关授课描述错误不取消项目身份；中欧及同济身份据EV-CESL与EV-TONGJI，未将同济德语条件当作已满足。",
+      "school_key": "tongji",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "全英文双学位（如北大STL）",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [
+        "E-STL-LANGUAGE"
+      ],
+      "label": "北京大学STL",
+      "reason": "优势说明中的具体备选提名，与同一STL路径合并；整体全英文教学错误见第4项。",
+      "school_key": "pku",
+      "stage_id": "S0",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "重点选择【涉外法治专项 / 特色双学位 (STL等)】",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "feasibility": "偏好为可由学生确认的软条件；可了解项目培养模式再选，法本申请身份及四年培养有官方支持，预算尚需补充。",
+      "key_condition": "无明确读博意愿并倾向涉外实务/国际化培养。",
+      "label": "北京大学STL",
+      "reason": "决策图在无明确读博意愿时提出此实务/国际化选项；同一STL路径重复。",
+      "school_key": "pku",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "顶尖高校涉外律师/国际仲裁专项（如北大、清华、人大、中政、华政）、北京大学国际法学院（STL J.D./J.M.）。",
+      "canonical_candidate_key": "pku-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "北京大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。已找到的官方材料将涉外律师及国际仲裁置于法律（非法学），与学生法本背景有实质适用争议，尚不能裁决2026申请季法本对应路径，关联第4项待核及EV-PKU-QUALIFICATION。",
+      "school_key": "pku",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "顶尖高校涉外律师/国际仲裁专项（如北大、清华、人大、中政、华政）、北京大学国际法学院（STL J.D./J.M.）。",
+      "canonical_candidate_key": "tsinghua-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "清华大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。2026申请、2027入学的官方推免考核表确列035102法律（法学）国际仲裁，支持组合中的一条可行路径，不将仅历史存在的涉外律师标签断言为当届独立方向。见EV-TSINGHUA-2027。",
+      "school_key": "tsinghua",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "顶尖高校涉外律师/国际仲裁专项（如北大、清华、人大、中政、华政）、北京大学国际法学院（STL J.D./J.M.）。",
+      "canonical_candidate_key": "ruc-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国人民大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方2026届推免通知支持法律（法学）涉外法治三年路径，作为2026咨询的既有项目身份依据，非逐年专项名额认证。见EV-RUC-2026。",
+      "school_key": "ruc",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "顶尖高校涉外律师/国际仲裁专项（如北大、清华、人大、中政、华政）、北京大学国际法学院（STL J.D./J.M.）。",
+      "canonical_candidate_key": "cupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。",
+      "school_key": "cupl",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "顶尖高校涉外律师/国际仲裁专项（如北大、清华、人大、中政、华政）、北京大学国际法学院（STL J.D./J.M.）。",
+      "canonical_candidate_key": "ecupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "华东政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方涉外法治项目材料支持涉外法硕方向，具体年度分流与报名主体须区分；未将名称合并本身判错。见EV-ECUPL。",
+      "school_key": "ecupl",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "顶尖高校涉外律师/国际仲裁专项（如北大、清华、人大、中政、华政）、北京大学国际法学院（STL J.D./J.M.）。",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "北京大学国际法学院J.D./J.M.",
+      "reason": "冲刺档明确推荐；与此前提名/条件选项为同一STL路径，四年中美法课程模式有官方依据。",
+      "school_key": "pku",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "高水平 985 或知名政法高校的**国际法学硕**或**民商/经济法学硕**（如武大国际法、对外经贸国际法、中政国际法/涉外法治、华政等）。",
+      "canonical_candidate_key": "whu-law-international",
+      "error_ids": [],
+      "label": "武汉大学国际法学硕",
+      "reason": "主攻学术轨明确列名；按原文粒度记录。中政国际法/涉外法治在此为同校方向组合，不拆出未明确的独立招生主体；华政未单独说明细分方向，不擅自补成特定专业。",
+      "school_key": "whu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "高水平 985 或知名政法高校的**国际法学硕**或**民商/经济法学硕**（如武大国际法、对外经贸国际法、中政国际法/涉外法治、华政等）。",
+      "canonical_candidate_key": "uibe-law-international",
+      "error_ids": [],
+      "label": "对外经济贸易大学国际法学硕",
+      "reason": "主攻学术轨明确列名；按原文粒度记录。中政国际法/涉外法治在此为同校方向组合，不拆出未明确的独立招生主体；华政未单独说明细分方向，不擅自补成特定专业。",
+      "school_key": "uibe",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "高水平 985 或知名政法高校的**国际法学硕**或**民商/经济法学硕**（如武大国际法、对外经贸国际法、中政国际法/涉外法治、华政等）。",
+      "canonical_candidate_key": "cupl-law-international",
+      "error_ids": [],
+      "label": "中国政法大学国际法/涉外法治学硕方向组合",
+      "reason": "主攻学术轨明确列名；按原文粒度记录。中政国际法/涉外法治在此为同校方向组合，不拆出未明确的独立招生主体；华政未单独说明细分方向，不擅自补成特定专业。",
+      "school_key": "cupl",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "高水平 985 或知名政法高校的**国际法学硕**或**民商/经济法学硕**（如武大国际法、对外经贸国际法、中政国际法/涉外法治、华政等）。",
+      "canonical_candidate_key": "ecupl-law-academic-unspecified",
+      "error_ids": [],
+      "label": "华东政法大学法学学硕（细分方向未独立明确）",
+      "reason": "主攻学术轨明确列名；按原文粒度记录。中政国际法/涉外法治在此为同校方向组合，不拆出未明确的独立招生主体；华政未单独说明细分方向，不擅自补成特定专业。",
+      "school_key": "ecupl",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "顶级综合 985 高校的**法律硕士（法学）**（如复旦、交大、南大、浙大等）。",
+      "canonical_candidate_key": "fudan-law-jm-law",
+      "error_ids": [],
+      "label": "复旦大学法律硕士（法学）",
+      "reason": "S0主攻实务轨明确推荐法律（法学），四校在此是列举学校而不是含糊合并不同院系；交大在综合985及复旦南大浙大并列语境识别为上海交通大学，不推断进一步专业。",
+      "school_key": "fudan",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "顶级综合 985 高校的**法律硕士（法学）**（如复旦、交大、南大、浙大等）。",
+      "canonical_candidate_key": "sjtu-law-jm-law",
+      "error_ids": [],
+      "label": "上海交通大学法律硕士（法学）",
+      "reason": "S0主攻实务轨明确推荐法律（法学），四校在此是列举学校而不是含糊合并不同院系；交大在综合985及复旦南大浙大并列语境识别为上海交通大学，不推断进一步专业。",
+      "school_key": "sjtu",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "顶级综合 985 高校的**法律硕士（法学）**（如复旦、交大、南大、浙大等）。",
+      "canonical_candidate_key": "nju-law-jm-law",
+      "error_ids": [],
+      "label": "南京大学法律硕士（法学）",
+      "reason": "S0主攻实务轨明确推荐法律（法学），四校在此是列举学校而不是含糊合并不同院系；交大在综合985及复旦南大浙大并列语境识别为上海交通大学，不推断进一步专业。",
+      "school_key": "nju",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "顶级综合 985 高校的**法律硕士（法学）**（如复旦、交大、南大、浙大等）。",
+      "canonical_candidate_key": "zju-law-jm-law",
+      "error_ids": [],
+      "label": "浙江大学法律硕士（法学）",
+      "reason": "S0主攻实务轨明确推荐法律（法学），四校在此是列举学校而不是含糊合并不同院系；交大在综合985及复旦南大浙大并列语境识别为上海交通大学，不推断进一步专业。",
+      "school_key": "zju",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "中国海洋大学法学学硕（特别是海洋法、极地深海治理、环资法领域的国家级平台与优质导师资源）",
+      "canonical_candidate_key": "ouc-law-academic",
+      "error_ids": [],
+      "label": "中国海洋大学法学学硕/涉海环资内部方向",
+      "reason": "S0本校稳妥档推荐；海洋法、极地深海治理、环资为内部兴趣方向举例，保留一条学硕路径，不擅自拆成招生专业。其稳妥程度不视为录取保证。",
+      "school_key": "ouc",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "**国际法学硕（国际公法/国际经济法/国际私法）**。你的竞赛经历与英文素养",
+      "canonical_candidate_key": "unspecified-law-international",
+      "error_ids": [
+        "E-RESEARCH-INFERENCE"
+      ],
+      "label": "未指定学校的国际法学硕及内部方向",
+      "reason": "S1赛道A直接推荐类别路径；未报学校，不能替答卷生成学校项目。国际公法/国际经济法/国际私法保留为一组内部方向。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "**赛道 B（若论文属于实体法）**：**民商法 / 经济法 / 环资法学硕**。",
+      "canonical_candidate_key": "unspecified-law-substantive-options",
+      "error_ids": [],
+      "feasibility": "可在现有稿件上提炼争议作为面试论题，需先核实真实主题和本人工作，不能仅因有稿件认定高水平。",
+      "key_condition": "论文主题属于相应实体法领域且学生愿意延续研究。",
+      "label": "未指定学校的民商/经济/环资学硕组合",
+      "reason": "S1明确以论文所属部门法作为另一赛道的条件；三类备选不擅自拆成具体学校专业。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "pku-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "北京大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。已找到的官方材料将涉外律师及国际仲裁置于法律（非法学），与学生法本背景有实质适用争议，尚不能裁决2026申请季法本对应路径，关联第4项待核及EV-PKU-QUALIFICATION。",
+      "school_key": "pku",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "tsinghua-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "清华大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。2026申请、2027入学的官方推免考核表确列035102法律（法学）国际仲裁，支持组合中的一条可行路径，不将仅历史存在的涉外律师标签断言为当届独立方向。见EV-TSINGHUA-2027。",
+      "school_key": "tsinghua",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "ruc-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国人民大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方2026届推免通知支持法律（法学）涉外法治三年路径，作为2026咨询的既有项目身份依据，非逐年专项名额认证。见EV-RUC-2026。",
+      "school_key": "ruc",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "cupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。",
+      "school_key": "cupl",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "ecupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "华东政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方涉外法治项目材料支持涉外法硕方向，具体年度分流与报名主体须区分；未将名称合并本身判错。见EV-ECUPL。",
+      "school_key": "ecupl",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "whu-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "武汉大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。",
+      "school_key": "whu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "这类专项（北大、清华、人大、中政、华政、武大、贸大等）是为你当前背景量身定制的",
+      "canonical_candidate_key": "uibe-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "对外经济贸易大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方培养公告和既有目录支持法律（法学）涉外律师路径，未据此认定2026申请季的具体方向名称或名额已核。见EV-UIBE。",
+      "school_key": "uibe",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "特色国际化双学位（如北大STL J.D./J.M.、中欧法学院）：极具性价比的冲刺目标",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "北京大学STL J.D./J.M.",
+      "reason": "S1明确建议冲刺；同一项目的规范简称与重复使用合并，未因答卷学制或预算信息不足否定项目身份。见EV-STL-2026/EV-CESL。",
+      "school_key": "pku",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "特色国际化双学位（如北大STL J.D./J.M.、中欧法学院）：极具性价比的冲刺目标",
+      "canonical_candidate_key": "cupl-cesl-double-master",
+      "error_ids": [],
+      "label": "中国政法大学中欧双硕士",
+      "reason": "S1明确建议冲刺；同一项目的规范简称与重复使用合并，未因答卷学制或预算信息不足否定项目身份。见EV-STL-2026/EV-CESL。",
+      "school_key": "cupl",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "以北京大学国际法学院（STL）为例，其全英文美国法苏格拉底式教学和四年双学位",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "北京大学STL",
+      "reason": "S1冲刺推荐的继续说明，与STL同一候选；这里全英文仅修饰美国法教学，与官方普通法英文课程模式相容，区别于S0整体全英文表述。",
+      "school_key": "pku",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "当你希望利用“985前3%”的名次，去置换**平台层级更高但学硕/专项竞争过激的极少数综合超一流顶校（如复旦、交大、南大、浙大等本院常规法硕）**时，可将其作为优质保底。",
+      "canonical_candidate_key": "fudan-law-jm-law",
+      "error_ids": [
+        "E-COMPETITIVENESS"
+      ],
+      "feasibility": "职业偏好可由学生确认；答卷建议复习基础部门法，但录取仍须推免资格与考核，保底结论不作为可行性保证。",
+      "key_condition": "偏重综合学校平台和宽口径就业，接受常规法律（法学）的培养。",
+      "label": "复旦大学常规法律硕士（法学）",
+      "reason": "S1条件化提出与S0相同的常规法律（法学）路径；优质保底的把握过高统一归第5项，路径本身不因竞争强而invalid。",
+      "school_key": "fudan",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "当你希望利用“985前3%”的名次，去置换**平台层级更高但学硕/专项竞争过激的极少数综合超一流顶校（如复旦、交大、南大、浙大等本院常规法硕）**时，可将其作为优质保底。",
+      "canonical_candidate_key": "sjtu-law-jm-law",
+      "error_ids": [
+        "E-COMPETITIVENESS"
+      ],
+      "feasibility": "职业偏好可由学生确认；答卷建议复习基础部门法，但录取仍须推免资格与考核，保底结论不作为可行性保证。",
+      "key_condition": "偏重综合学校平台和宽口径就业，接受常规法律（法学）的培养。",
+      "label": "上海交通大学常规法律硕士（法学）",
+      "reason": "S1条件化提出与S0相同的常规法律（法学）路径；优质保底的把握过高统一归第5项，路径本身不因竞争强而invalid。",
+      "school_key": "sjtu",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "当你希望利用“985前3%”的名次，去置换**平台层级更高但学硕/专项竞争过激的极少数综合超一流顶校（如复旦、交大、南大、浙大等本院常规法硕）**时，可将其作为优质保底。",
+      "canonical_candidate_key": "nju-law-jm-law",
+      "error_ids": [
+        "E-COMPETITIVENESS"
+      ],
+      "feasibility": "职业偏好可由学生确认；答卷建议复习基础部门法，但录取仍须推免资格与考核，保底结论不作为可行性保证。",
+      "key_condition": "偏重综合学校平台和宽口径就业，接受常规法律（法学）的培养。",
+      "label": "南京大学常规法律硕士（法学）",
+      "reason": "S1条件化提出与S0相同的常规法律（法学）路径；优质保底的把握过高统一归第5项，路径本身不因竞争强而invalid。",
+      "school_key": "nju",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "当你希望利用“985前3%”的名次，去置换**平台层级更高但学硕/专项竞争过激的极少数综合超一流顶校（如复旦、交大、南大、浙大等本院常规法硕）**时，可将其作为优质保底。",
+      "canonical_candidate_key": "zju-law-jm-law",
+      "error_ids": [
+        "E-COMPETITIVENESS"
+      ],
+      "feasibility": "职业偏好可由学生确认；答卷建议复习基础部门法，但录取仍须推免资格与考核，保底结论不作为可行性保证。",
+      "key_condition": "偏重综合学校平台和宽口径就业，接受常规法律（法学）的培养。",
+      "label": "浙江大学常规法律硕士（法学）",
+      "reason": "S1条件化提出与S0相同的常规法律（法学）路径；优质保底的把握过高统一归第5项，路径本身不因竞争强而invalid。",
+      "school_key": "zju",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "（希望毕业即进入顶尖涉外律所、外所、跨国法务，薪资导向） | **涉外专项法硕 / 北大STL / 中欧**",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "feasibility": "学生可先确认职业偏好，复盘竞赛经验，再了解国际化课程；学制、费用接受度及具体年度材料尚待学生补充核实。",
+      "key_condition": "以涉外商事/争议解决/合规实务为主要发展诉求。",
+      "label": "北京大学STL",
+      "reason": "S1发展路径表按涉外商事职业诉求提出同一项目的条件选择，不把表格其他泛称拆成新院校。",
+      "school_key": "pku",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "（希望毕业即进入顶尖涉外律所、外所、跨国法务，薪资导向） | **涉外专项法硕 / 北大STL / 中欧**",
+      "canonical_candidate_key": "cupl-cesl-double-master",
+      "error_ids": [],
+      "feasibility": "学生可先确认职业偏好，复盘竞赛经验，再了解国际化课程；学制、费用接受度及具体年度材料尚待学生补充核实。",
+      "key_condition": "以涉外商事/争议解决/合规实务为主要发展诉求。",
+      "label": "中国政法大学中欧双硕士",
+      "reason": "S1发展路径表按涉外商事职业诉求提出同一项目的条件选择，不把表格其他泛称拆成新院校。",
+      "school_key": "cupl",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "北大STL（全英文考核）、清华/人大/中政国际仲裁与涉外律师专项；",
+      "canonical_candidate_key": "pku-stl-jd-jm",
+      "error_ids": [],
+      "label": "北京大学STL",
+      "reason": "S1最终夏令营冲刺组合明确列名；英文考核在既有STL招生材料有依据，不能把该措辞理解成中国法全英文教学。",
+      "school_key": "pku",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "北大STL（全英文考核）、清华/人大/中政国际仲裁与涉外律师专项；",
+      "canonical_candidate_key": "tsinghua-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "清华大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。2026申请、2027入学的官方推免考核表确列035102法律（法学）国际仲裁，支持组合中的一条可行路径，不将仅历史存在的涉外律师标签断言为当届独立方向。见EV-TSINGHUA-2027。",
+      "school_key": "tsinghua",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "北大STL（全英文考核）、清华/人大/中政国际仲裁与涉外律师专项；",
+      "canonical_candidate_key": "ruc-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国人民大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。官方2026届推免通知支持法律（法学）涉外法治三年路径，作为2026咨询的既有项目身份依据，非逐年专项名额认证。见EV-RUC-2026。",
+      "school_key": "ruc",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A049",
+      "answer_quote": "北大STL（全英文考核）、清华/人大/中政国际仲裁与涉外律师专项；",
+      "canonical_candidate_key": "cupl-law-foreign-jm-options",
+      "error_ids": [],
+      "label": "中国政法大学涉外律师/国际仲裁专项组合",
+      "reason": "涉外律师/国际仲裁并列在一个建议中，保留同校专项组合粒度，不凭此创造两条独立申请路径。",
+      "school_key": "cupl",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A050",
+      "answer_quote": "武大国际法、对外经贸国际法/涉外法硕、中政民商/国际法学硕、华政国际法学硕；",
+      "canonical_candidate_key": "whu-law-international",
+      "error_ids": [],
+      "label": "武汉大学国际法学硕",
+      "reason": "S1最终主攻组合的明确独立推荐，与S0武大国际法同一候选。",
+      "school_key": "whu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A051",
+      "answer_quote": "武大国际法、对外经贸国际法/涉外法硕、中政民商/国际法学硕、华政国际法学硕；",
+      "canonical_candidate_key": "uibe-law-international-or-jm-bundle",
+      "error_ids": [],
+      "label": "对外经济贸易大学国际法学硕/涉外法硕合并表述",
+      "reason": "末段把学硕与法硕合并，记录合并出现，不据这一句另造两条确定申请路径；全文此前已经分别明确国际法学硕和涉外专项，相关独立记录保留。此条是原文合并表达，不主张形成新的确定独立项目。",
+      "school_key": "uibe",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A052",
+      "answer_quote": "武大国际法、对外经贸国际法/涉外法硕、中政民商/国际法学硕、华政国际法学硕；",
+      "canonical_candidate_key": "cupl-law-civil-or-international-bundle",
+      "error_ids": [],
+      "label": "中国政法大学民商/国际法学硕合并表述",
+      "reason": "末段民商/国际法是不同细分备选且未分别给申请主体，保留组合；全文已有国际法单列推荐，不根据合并名另造独立民商项目用于命中。",
+      "school_key": "cupl",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A053",
+      "answer_quote": "武大国际法、对外经贸国际法/涉外法硕、中政民商/国际法学硕、华政国际法学硕；",
+      "canonical_candidate_key": "ecupl-law-international",
+      "error_ids": [],
+      "label": "华东政法大学国际法学硕",
+      "reason": "S1最终主攻组合明确给出国际法学硕；S0华政仅处于宽泛学术轨，不能反向补成当时已独立明确的国际法专业。",
+      "school_key": "ecupl",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A054",
+      "answer_quote": "中国海洋大学优势特色学硕/本校推免。",
+      "canonical_candidate_key": "ouc-law-academic",
+      "error_ids": [],
+      "label": "中国海洋大学特色法学学硕/本校推免",
+      "reason": "S1平台底牌建议，与S0本校法学学硕为同一候选；本校推免是接收路径而非另一个专业。",
+      "school_key": "ouc",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A055",
+      "answer_quote": "坚定选择【法学学硕】（主攻国际法/特色部门法）",
+      "canonical_candidate_key": "unspecified-law-academic",
+      "error_ids": [],
+      "feasibility": "可确认职业偏好并将本科生科研项目整理成研究计划；未披露论文状态，不用S1稿件补证S0。",
+      "key_condition": "明确有读博和高校/科研教职意愿。",
+      "label": "未指定学校的法学学硕",
+      "reason": "S0决策图的真实条件建议；不由泛称推定具体招生单位。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A056",
+      "answer_quote": "结合雅思优势，**国际法学硕（国际公法/国际经济法/国际私法）**是性价比最高的学硕赛道",
+      "canonical_candidate_key": "unspecified-law-international",
+      "error_ids": [],
+      "feasibility": "可确认是否愿意持续阅读英文国际法文献，将现有研究训练整理为代表作；未指定院校。",
+      "key_condition": "喜欢理论研究并有读博或研究岗位诉求。",
+      "label": "未指定学校的国际法学硕",
+      "reason": "S0学硕选择段的内部方向推荐，与S1同一泛化国际法路径，价值判断不替代真实兴趣。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A057",
+      "answer_quote": "若偏好国内实体法，可选择民商法、经济法或本校具有传承优势的特色方向。",
+      "canonical_candidate_key": "unspecified-law-domestic-options",
+      "error_ids": [],
+      "feasibility": "学生可确认偏好并准备相应部门法基础，现有本科生科研项目可用于探索；S0未披露具体课题。",
+      "key_condition": "更偏好国内实体法或已有本校特色方向兴趣。",
+      "label": "未指定学校的民商/经济/特色部门法学硕组合",
+      "reason": "S0依据实体法偏好给出的替代路径，无具体专业主体，不拆出招生项目。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A058",
+      "answer_quote": "选择【常规法硕(法学)】（综合名校平台优先）",
+      "canonical_candidate_key": "unspecified-law-jm-law",
+      "error_ids": [],
+      "feasibility": "S0后文提出实习、基础部门法和法考/选调准备，但具体接收院校仍需筛选。",
+      "key_condition": "无明确读博/研究教职意愿，偏宽口径实务与综合平台。",
+      "label": "未指定学校的常规法律硕士（法学）",
+      "reason": "S0决策图为就业实用主义提出常规法律（法学），不是法律（非法学）路径。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A059",
+      "answer_quote": "重点选择【涉外法治专项 / 特色双学位 (STL等)】",
+      "canonical_candidate_key": "unspecified-law-foreign-or-double-options",
+      "error_ids": [],
+      "feasibility": "可先确认实务偏好并了解课程、联合培养条件；答卷尚缺费用与具体资格核验。",
+      "key_condition": "偏涉外实务及国际交流，愿意以外语参与专业培养。",
+      "label": "未指定学校的涉外法硕/特色双学位类别组合",
+      "reason": "S0泛化涉外路线与已记录STL具体候选区分，类别组合不用于虚构更多学校。",
+      "school_key": "unspecified",
+      "stage_id": "S0",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A060",
+      "answer_quote": "**顶尖法学学硕**<br>（首推国际法、涉外法治学硕，或与本科生科研项目契合的部门法）",
+      "canonical_candidate_key": "unspecified-law-academic",
+      "error_ids": [],
+      "feasibility": "答卷提出精修稿件及研究计划，具体主题及贡献仍需确认。",
+      "key_condition": "未来有读博意愿或希望进入高校、智库、涉外涉海研究岗位。",
+      "label": "未指定学校的法学学硕",
+      "reason": "S1表格按研究/读博目标再次推荐学硕，两个本科生科研项目及稿件仅在S1使用。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A061",
+      "answer_quote": "**华五/顶尖综合985常规法硕(法学)**",
+      "canonical_candidate_key": "unspecified-law-jm-law",
+      "error_ids": [],
+      "feasibility": "答卷建议基础法复习与法考/选调准备，申请仍应核对具体院校资格和考核。",
+      "key_condition": "追求综合平台，偏体制内选调、金融国企或常规诉讼就业。",
+      "label": "未指定学校的顶尖综合大学常规法律（法学）",
+      "reason": "S1表格按综合名校和宽口径就业诉求重复同一类别路径；华五泛称未具体新增中科大或其他校名。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A062",
+      "answer_quote": "顶尖综合985常规法硕（法学）或中国海洋大学优势特色学硕/本校推免。",
+      "canonical_candidate_key": "unspecified-law-jm-law",
+      "error_ids": [],
+      "label": "未指定学校的常规法律（法学）平台备选",
+      "reason": "S1最终布局再次直接提出泛化常规法硕类别，海大具体候选已独立记录；不能从顶尖综合985泛称扩展新学校。",
+      "school_key": "unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+  "score": null,
+  "score_interval": [
+    65.0,
+    80.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "pending_evidence",
+  "task_id": "N12-02",
+  "task_kind": "planning",
+  "task_sha256": "a2c292a9805852bee753d98f084b0a62e721eaf6b048d7696c1290106201e4dc",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "rubric无school_tier或其他院校层次评分节点，且为比较规划题，无须为学校层次另设处罚；候选身份与适用性已逐条审阅，泛化类别不当作实际推荐院校。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

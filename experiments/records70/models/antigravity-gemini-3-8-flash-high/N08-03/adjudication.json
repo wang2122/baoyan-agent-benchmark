@@ -1,0 +1,40 @@
+{
+  "schema": "source-bound-post-review-adjudication.1",
+  "task_id": "N08-03",
+  "source_answer_sha256": "2996c0823c22e434d30b1812967006168a5ee4fd23bc3245ce529726f6a14c23",
+  "source_original_judgment_sha256": "818a12b83e437f9014438cb54f59021a44c6462ff67bb153401195ce53f08068",
+  "source_original_score_sha256": "2d4032f02938af277e2a158c4aa893050723455a97e0dad1c52443e624795bcd",
+  "source_adjudicated_judgment_sha256": "7ba5f238e5c60df1c699f89322662ed47276e4ee9e27dc3f21f4baf1ab24b7d1",
+  "source_adjudicated_score_sha256": "beae3a06edff11b03dfc17c10771a7cd5b20b8347d3c7eb5dfdb82777b8d3ecd",
+  "original_interval": [
+    17.85,
+    29.03
+  ],
+  "effective_interval": [
+    17.85,
+    22.85
+  ],
+  "pending_nodes": [
+    "tier"
+  ],
+  "native_arithmetic_replay_verified": true,
+  "new_model_or_cli_review_called": false,
+  "teacher_calibration": "pending",
+  "decisions": [
+    {
+      "node_id": "N08-14",
+      "reason": "完整2027master目录与含推免专业简章限定实际招生主体；所报交叉院独立组合不成立，对应coverage miss。",
+      "decision": "miss"
+    },
+    {
+      "node_id": "N08-20",
+      "reason": "答卷指定深圳旧商学院020200应用经济学，旧名可沿革识别、历史学位也存在；但完整2027第一批推免报名表深圳单位仅120200，第二批也仅120200。所报020200实际推免路径不在当届两批表内，不能把它替换成广州管理学院120100或珠海国际金融学院金融计命中。按真实所报路径判invalid，相应覆盖miss。",
+      "decision": "miss"
+    },
+    {
+      "node_id": "N08-21",
+      "reason": "答卷指定深圳旧商学院020200应用经济学，旧名可沿革识别、历史学位也存在；但完整2027第一批推免报名表深圳单位仅120200，第二批也仅120200。所报020200实际推免路径不在当届两批表内，不能把它替换成广州管理学院120100或珠海国际金融学院金融计命中。按真实所报路径判invalid，相应覆盖miss。",
+      "decision": "miss"
+    }
+  ]
+}

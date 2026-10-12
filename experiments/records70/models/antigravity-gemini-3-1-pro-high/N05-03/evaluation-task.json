@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N05",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N05-03",
+  "prompt": "现在是2026年推免申请季。我在中国民航大学读交通工程，排名前约1%，六级425–449分。科研偏功能材料，有一篇已录用EI论文，其他SCI论文在投或写作中，专利还在受理。能根据我的情况推荐12个学校、学院和具体专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "cb27c6918317804a3d4f74c3b4846d93a7ec897802fdfae1b20017fd9da5c4a6",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

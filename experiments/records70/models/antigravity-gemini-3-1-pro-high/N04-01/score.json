@@ -1,0 +1,480 @@
+{
+  "actual_candidate_count": 21,
+  "answer_sha256": "9265c30d0e0bf1e3e8705ef8cfc3e54c35656c811eb57c7b26284d7cec402b6e",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 71.0
+  },
+  "confirmed_points": 71.0,
+  "diagnostic_score": 71.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N04-01-T1"
+    ],
+    "E2": [
+      "accuracy"
+    ],
+    "E3": [
+      "N04-01-T5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "通过科研与竞赛加分，将你的综合排名由[具体名次已概括]拉升至前 5～7 名的“绝对安全区”",
+      "id": "E1",
+      "reason": "题面未提供校内计分规则、成果认定结果、其他同学加分及当届名额，不能推定加分后名次，更不能断定前5～7名绝对安全。答卷虽要求查细则，但同时用未经支持的专业名额比例和安全名次作出资格风险结论。该错误只归入T1，不在accuracy重复处罚。"
+    },
+    {
+      "answer_quote": "参加过化工设计竞赛（通常为全国大学生化工设计竞赛），掌握 Aspen Plus 工艺流程模拟、设备选型、物料/热量衡算与工程图纸绘制能力。",
+      "id": "E2",
+      "reason": "题面只披露参加过化工设计比赛，未披露比赛全称、分工、技能熟练度或获奖。答卷把可能涉及的技能直接写成已经掌握的能力，后文又要求在自荐中自称熟练掌握具体电池及光催化测试，并将化工设计获奖证书作为已有附件。应先核实个人真实经历和成果状态；这属于扩写已知事实，非仅遗漏细节。只归入accuracy。"
+    },
+    {
+      "answer_quote": "“以科研为王牌、绕过硬性机筛卡点、精准匹配契合导师”",
+      "id": "E3",
+      "reason": "科研适配和联系导师可作为申请准备，但答卷未给出允许豁免硬性门槛的项目政策，就把绕过硬性机筛作为择校原则。应先根据具体招生主体的正式条件筛选，再区分导师接收意愿、推荐和院系准入。仅归入T5；不据此把所有真实学校判为无效。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N04-01",
+  "input_sha256": "b6c6c2407d6b1c07944029f4c2aedfeedb5137a347e2a49d6905bbd62952d5dd",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "78f0c80c3f47d82a660e2b9c22b34bbff18ab572f6e067fc37f6f64aa54fc6bd",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N04-01-T1",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "N04-01-T2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N04-01-T3",
+      "kind": "quality",
+      "points": 12.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N04-01-T4",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "N04-01-T5",
+      "kind": "quality",
+      "points": 4.0
+    },
+    {
+      "grade": 0,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "execution",
+      "kind": "quality",
+      "points": 10.0
+    }
+  ],
+  "observed_candidate_count": 21,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "天津大学（化工全国顶尖）",
+      "canonical_candidate_key": "tju:school_level",
+      "error_ids": [],
+      "label": "天津大学",
+      "reason": "冲刺档；明确化工优势，与化学工程背景及催化主线相关。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "大连理工大学",
+      "canonical_candidate_key": "dlut:school_level",
+      "error_ids": [],
+      "label": "大连理工大学",
+      "reason": "冲刺档；在化工材料方向总建议下提出学校级探索，未明确独立院系。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "华东理工大学（化工学科极强）",
+      "canonical_candidate_key": "ecust:school_level",
+      "error_ids": [],
+      "label": "华东理工大学",
+      "reason": "冲刺档标题同时包含化工材料强校，不能据标题把该校机械认作985；官方资料确认211及985优势学科创新平台。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "哈尔滨工业大学",
+      "canonical_candidate_key": "hit:school_level",
+      "error_ids": [],
+      "label": "哈尔滨工业大学",
+      "reason": "冲刺档；以材料与储能方向探索学校级申请，未给确定项目。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "四川大学",
+      "canonical_candidate_key": "scu:school_level",
+      "error_ids": [],
+      "label": "四川大学",
+      "reason": "冲刺档；在化工材料方向总建议下探索学校级申请。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "scu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "中科院过程工程研究所",
+      "canonical_candidate_key": "ipe:school_level",
+      "error_ids": [],
+      "label": "中国科学院过程工程研究所",
+      "reason": "主攻院所；过程工程、能源化工与催化方向和学生背景相关。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "ipe",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "大连化学物理研究所（大连化物所催化极强）",
+      "canonical_candidate_key": "dicp:school_level",
+      "error_ids": [],
+      "label": "中国科学院大连化学物理研究所",
+      "reason": "全名与大连化物所是同一单位，合并为一个候选；催化方向适配。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "dicp",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "青岛生物过程与能源研究所",
+      "canonical_candidate_key": "qibebt:school_level",
+      "error_ids": [],
+      "label": "中国科学院青岛生物能源与过程研究所",
+      "reason": "名称语序误写，结合青岛、中科院院所清单及能源背景，可识别为青岛生物能源与过程研究所；官方2025夏令营材料支持研究所身份、新能源/新材料方向及推免渠道，不证明2026当届门槛和窗口。详见evidence.json。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "qibebt",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "山西煤炭化学研究所",
+      "canonical_candidate_key": "icc:school_level",
+      "error_ids": [],
+      "label": "中国科学院山西煤炭化学研究所",
+      "reason": "主攻院所；能源化学与催化研究方向相关。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "icc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "上海硅酸盐研究所",
+      "canonical_candidate_key": "sic:school_level",
+      "error_ids": [],
+      "label": "中国科学院上海硅酸盐研究所",
+      "reason": "主攻院所；材料研究平台与储能、催化材料方向相关。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "sic",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "中南大学（电池材料王牌，全国电化学高地）",
+      "canonical_candidate_key": "csu:school_level",
+      "error_ids": [],
+      "label": "中南大学",
+      "reason": "主攻档；明确电池材料方向适配，不把评价性赞语视为录取概率证据。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "厦门大学（电化学与能源催化顶级殿堂）",
+      "canonical_candidate_key": "xmu:school_level",
+      "error_ids": [],
+      "label": "厦门大学",
+      "reason": "主攻档；明确电化学与能源催化方向适配。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "华南理工大学",
+      "canonical_candidate_key": "scut:school_level",
+      "error_ids": [],
+      "label": "华南理工大学",
+      "reason": "主攻档；在化工材料方向总建议下探索学校级申请。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "scut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "重庆大学",
+      "canonical_candidate_key": "cqu:school_level",
+      "error_ids": [],
+      "label": "重庆大学",
+      "reason": "主攻档；在化工材料方向总建议下探索学校级申请。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "cqu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "湖南大学",
+      "canonical_candidate_key": "hnu:school_level",
+      "error_ids": [],
+      "label": "湖南大学",
+      "reason": "主攻档；在化工材料方向总建议下探索学校级申请。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "hnu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "山东大学",
+      "canonical_candidate_key": "sdu:school_level",
+      "error_ids": [],
+      "label": "山东大学",
+      "reason": "主攻档；在化工材料方向总建议下探索学校级申请。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "sdu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "北京化工大学（化工一流学科，平台与就业资源极佳）",
+      "canonical_candidate_key": "buct:school_level",
+      "error_ids": [],
+      "label": "北京化工大学",
+      "reason": "主攻档行业211；明确化工方向与本科背景相关。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "中国海洋大学",
+      "canonical_candidate_key": "ouc:school_level",
+      "error_ids": [],
+      "label": "中国海洋大学",
+      "reason": "保底档提名为直接建议；材料化工方向可探索，但本记录不确认该校录取安全。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "ouc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "兰州大学",
+      "canonical_candidate_key": "lzu:school_level",
+      "error_ids": [],
+      "label": "兰州大学",
+      "reason": "保底档直接建议；化学与材料方向可探索，但不确认录取安全。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "lzu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "中国石油大学（北京/华东）",
+      "canonical_candidate_key": "cup_group:school_level",
+      "error_ids": [],
+      "label": "中国石油大学（北京/华东）",
+      "reason": "两所不同学校用斜杠合并，全文没有分别明确实际申请路径，保留一个合并候选，不替答卷拆成两项。能源化工方向总建议合理；valid只判断学校级建议并非已匹配某个独立项目，也不确认保底安全。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "cup_group",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "内蒙古大学化学化工学院本校心仪导师",
+      "canonical_candidate_key": "imu:chemistry_chemical_engineering",
+      "error_ids": [],
+      "label": "内蒙古大学",
+      "reason": "直接推荐的本校学院路径；本科背景和化学化工方向相符。全文早先背景介绍、邮件身份不另提取为独立候选。 本题无参考候选，故不产生覆盖匹配；未发现题面已知硬条件冲突。此为方向/主体层面有效性判断，不表示当届资格、专业、截止日和招生名额均已审计。",
+      "school_key": "imu",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "f312b12b83402f766a5a4a87071e8144f297a99ca43d6e9371c1cb6c90a4dcff",
+  "score": 71.0,
+  "score_interval": [
+    71.0,
+    71.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N04-01",
+  "task_kind": "planning",
+  "task_sha256": "fbd3277cbfc83e3be38d898ed2b7b79928501fe7a66de914317e52a2d61a33cc",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题无school_tier评分项，层次仅作记录，不按学校数另扣分。已核对全部实际择校清单；背景学校、泛称985/211/中科院及不落到单位的学科列表不另计候选；无明确排除或条件候选。中国石油大学两校合并条目保留原有粒度。",
+    "schools": [
+      {
+        "answer_quote": "天津大学（化工全国顶尖）",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "大连理工大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "dlut"
+      },
+      {
+        "answer_quote": "华东理工大学（化工学科极强）",
+        "downgraded": false,
+        "reason": "211非985，与内蒙古大学本科层次同档。",
+        "school_key": "ecust"
+      },
+      {
+        "answer_quote": "哈尔滨工业大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "四川大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "scu"
+      },
+      {
+        "answer_quote": "中科院过程工程研究所",
+        "downgraded": false,
+        "reason": "科研院所及国科大培养体系不能因无985/211标签机械判降级，本题也无已知较低层次授位路径。",
+        "school_key": "ipe"
+      },
+      {
+        "answer_quote": "大连化学物理研究所（大连化物所催化极强）",
+        "downgraded": false,
+        "reason": "科研院所及国科大培养体系不能因无985/211标签机械判降级，本题也无已知较低层次授位路径。",
+        "school_key": "dicp"
+      },
+      {
+        "answer_quote": "青岛生物过程与能源研究所",
+        "downgraded": false,
+        "reason": "科研院所及国科大培养体系不能因无985/211标签机械判降级，本题也无已知较低层次授位路径。",
+        "school_key": "qibebt"
+      },
+      {
+        "answer_quote": "山西煤炭化学研究所",
+        "downgraded": false,
+        "reason": "科研院所及国科大培养体系不能因无985/211标签机械判降级，本题也无已知较低层次授位路径。",
+        "school_key": "icc"
+      },
+      {
+        "answer_quote": "上海硅酸盐研究所",
+        "downgraded": false,
+        "reason": "科研院所及国科大培养体系不能因无985/211标签机械判降级，本题也无已知较低层次授位路径。",
+        "school_key": "sic"
+      },
+      {
+        "answer_quote": "中南大学（电池材料王牌，全国电化学高地）",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "厦门大学（电化学与能源催化顶级殿堂）",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "xmu"
+      },
+      {
+        "answer_quote": "华南理工大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "scut"
+      },
+      {
+        "answer_quote": "重庆大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "cqu"
+      },
+      {
+        "answer_quote": "湖南大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "hnu"
+      },
+      {
+        "answer_quote": "山东大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "sdu"
+      },
+      {
+        "answer_quote": "北京化工大学（化工一流学科，平台与就业资源极佳）",
+        "downgraded": false,
+        "reason": "211非985，与内蒙古大学本科层次同档。",
+        "school_key": "buct"
+      },
+      {
+        "answer_quote": "中国海洋大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "ouc"
+      },
+      {
+        "answer_quote": "兰州大学",
+        "downgraded": false,
+        "reason": "985高校，高于内蒙古大学211非985的本科层次。",
+        "school_key": "lzu"
+      },
+      {
+        "answer_quote": "中国石油大学（北京/华东）",
+        "downgraded": false,
+        "reason": "211非985，与内蒙古大学的本科层次同档。北京/华东两所中国石油大学均为211，合并条目不改变同档结论。",
+        "school_key": "cup_group"
+      },
+      {
+        "answer_quote": "内蒙古大学化学化工学院本校心仪导师",
+        "downgraded": false,
+        "reason": "211非985，与内蒙古大学本科层次同档。",
+        "school_key": "imu"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

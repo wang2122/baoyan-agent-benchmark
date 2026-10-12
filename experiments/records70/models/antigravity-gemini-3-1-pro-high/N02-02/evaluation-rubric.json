@@ -1,0 +1,83 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N02-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "比较临床服务和科学研究分别要求的培养训练、职业目标与日常工作，针对本人的临床病例和基础科研经历说明适合的路径；在未了解偏好前给条件判断。",
+      "grading": "three_level",
+      "half_credit": "能够说明两条路径的差异，但与学生真实经历或职业意向关联不足。",
+      "id": "N02-02-L1-01",
+      "label": "临床与科研培养路径的核心差异",
+      "points": 25
+    },
+    {
+      "full_credit": "区分学术型与专业型路径、住院医师规范化培训及临床执业要求；对具体项目是否衔接住培、招生资格按当届官方要求核验。",
+      "grading": "three_level",
+      "half_credit": "知道需考虑住培与培养类型，但把具体项目条件笼统化或未提出核验办法。",
+      "id": "N02-02-L1-02",
+      "label": "内科学学硕/专硕与住培条件",
+      "points": 20
+    },
+    {
+      "full_credit": "利用病例、微生物实验、药物生物相关分析等不同经历分别讨论临床训练与研究训练的优势、限制和可迁移能力；不虚构实践资格。",
+      "grading": "three_level",
+      "half_credit": "使用了项目经历，但缺少对两类培养路径的不同作用。",
+      "id": "N02-02-L1-03",
+      "label": "科研与病例经历的路线迁移",
+      "points": 20
+    },
+    {
+      "full_credit": "正确区分共同一作已发表和综述仍在投，建议对应材料的呈现方式，不夸大作者贡献。",
+      "grading": "three_level",
+      "half_credit": "基本区分状态但缺具体材料使用方式。",
+      "id": "N02-02-L1-04",
+      "label": "论文成果证据状态",
+      "points": 10
+    },
+    {
+      "full_credit": "询问本人更倾向临床医疗、科研、毕业后职业或目标科室；在信息不足时只给有条件建议。",
+      "grading": "three_level",
+      "half_credit": "给出了倾向但未核实关键偏好。",
+      "id": "N02-02-L1-05",
+      "label": "选择所需关键补充信息",
+      "points": 10
+    },
+    {
+      "full_credit": "把CET6 425–449、校内资格和接收规则视为需要目标项目核对的条件，不臆造普遍门槛。",
+      "grading": "three_level",
+      "half_credit": "知道存在要求但未区分成绩和项目门槛。",
+      "id": "N02-02-L1-06",
+      "label": "英语、资格与项目限制",
+      "points": 5
+    },
+    {
+      "full_credit": "提出针对学生选择的可执行步骤，如列意向导师/医院、核对培养方案及准备个人病例或科研材料；不要求本轮发生真实状态变化。",
+      "grading": "three_level",
+      "half_credit": "给出部分行动但缺顺序或核验对象。",
+      "id": "N02-02-L1-07",
+      "label": "后续行动与核验",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

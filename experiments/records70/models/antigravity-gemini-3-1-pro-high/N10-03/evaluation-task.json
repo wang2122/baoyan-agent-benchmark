@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N10",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N10-03",
+  "prompt": "现在是2026年推免申请季。我是南京理工大学智能制造工程专业的，排名前约27%，六级550–599分，有工程项目和竞赛经历。准备推免，能给我15个具体学校、学院和专业（项目）组合，并说明推荐理由吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "e0820be2b587778ba29b04d71fdd5144adaf6fe53f5e90ffd0fafebc67ef40b4",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

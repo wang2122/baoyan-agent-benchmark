@@ -1,0 +1,13 @@
+{
+  "schema": "selected-record-availability.1",
+  "agent": "gpt-6-astra",
+  "task_id": "N02-01",
+  "question_id": "Q027",
+  "source_kind": "retained_historical_summary",
+  "source_answer_sha256": "ee64937aaa6a83aeb41c37361dbfcc97daa4eb7e39ec08935372ad08061deb6d",
+  "answer_text_available": true,
+  "scoring_evidence": "score-details-70.json",
+  "public_answer_sha256": "ee64937aaa6a83aeb41c37361dbfcc97daa4eb7e39ec08935372ad08061deb6d",
+  "recovered_original_text_source": "experiments/records18/models/gpt-6-astra/N02-01/answer.md",
+  "original_execution_time": "not_retained_in_this_public_source"
+}

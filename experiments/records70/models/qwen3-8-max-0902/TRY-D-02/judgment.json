@@ -1,0 +1,533 @@
+{
+  "schema_version": "admissions-judgment.1",
+  "task_id": "TRY-D-02",
+  "task_sha256": "dd994efba7ef578f25e2682510d30d47f8b11cf809733136b2e41f8e599fdf72",
+  "rubric_sha256": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+  "input_sha256": "fb2d9072c6363bcc9fa6a95109ab88d79b3a029bc26ef5c9c1ed09e3b7efe83e",
+  "answer_sha256": "818420703abe65e78feddb732d1c71ca319b02b65fc42055690ca7675a6b3c7c",
+  "reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "judge_version": "evidence-review-v1",
+  "candidates_reviewed": true,
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "canonical_candidate_key": "thu:main:ee-communication-ai",
+      "school_key": "tsinghua",
+      "label": "清华本部电子工程系/信息科学技术学院通信或AI交叉",
+      "answer_quote": "清华本部（信息科学技术学院/电子工程系，或AI交叉研究院类）",
+      "treatment": "direct",
+      "validity": "valid",
+      "reason": "实际首选路径；信息科学技术学院与电子工程系的上下级称谓按同一电子通信申请路径合并，未据斜杠创造多项覆盖。本题没有参考匹配项；有效表示方向与路径可识别，不表示已审计2027届招生或保证入营。",
+      "error_ids": [],
+      "occurrence_quotes": [
+        "冲：清华本部 电子工程系 / 信息科学技术学院（通信或AI交叉方向）  ×1—2",
+        "志愿1：清华本部（前提：已有导师口头接收）"
+      ]
+    },
+    {
+      "answer_item_id": "A02",
+      "canonical_candidate_key": "thu:main:ai-institutes-unresolved",
+      "school_key": "tsinghua",
+      "label": "清华本部人工智能研究院/交叉信息研究院相关组合并提名",
+      "answer_quote": "人工智能研究院/交叉信息研究院相关组",
+      "treatment": "mentioned",
+      "validity": "valid",
+      "reason": "第6节目标导师名单中的实际提名，尚未区分两个研究院的独立招生主体，保留一个合并提名，不替答卷拆出两条推荐。相关组的科研方向提名本身不证明存在同名独立招生院系，也不据此判无效。",
+      "error_ids": []
+    },
+    {
+      "answer_item_id": "A03",
+      "canonical_candidate_key": "thu:main:integrated-circuits",
+      "school_key": "tsinghua",
+      "label": "清华本部集成电路学院导师方向提名",
+      "answer_quote": "人工智能研究院/交叉信息研究院相关组、集成电路学院",
+      "treatment": "mentioned",
+      "validity": "valid",
+      "reason": "第6节另外列出集成电路学院，属于独立导师方向提名；有真实院系，但未提供具体选报项目，提名不计参考匹配。",
+      "error_ids": []
+    },
+    {
+      "answer_item_id": "A04",
+      "canonical_candidate_key": "pku:main:information-electronics-ai-unresolved",
+      "school_key": "pku",
+      "label": "北大本部信息/电子/集成电路/智能交叉合并路径",
+      "answer_quote": "北大本部（信息科学技术学院/电子学院/集成电路/智能学院相关交叉方向）",
+      "treatment": "direct",
+      "validity": "valid",
+      "reason": "实际本部冲刺建议，但多个院系合并且未分别安排独立投递；按合并候选保留，不机械拆成四项。第6节同一导师池又包含人工智能研究院提名，合并记录；未因缺专业代码判错。",
+      "error_ids": [],
+      "occurrence_quotes": [
+        "北大本部（信息科学技术学院、电子学院、智能学院/人工智能研究院）",
+        "冲：北大本部 信息科学技术学院 / 电子学院 / 智能学院（交叉方向）   ×1"
+      ]
+    },
+    {
+      "answer_item_id": "A05",
+      "canonical_candidate_key": "thu:sigs:communication-ai",
+      "school_key": "tsinghua",
+      "label": "清华深圳SIGS通信/AI方向",
+      "answer_quote": "清华SIGS（信息与通信/AI方向）",
+      "treatment": "direct",
+      "validity": "valid",
+      "reason": "实际主要备选，深圳培养、清华授位、通信/AI研究方向可识别；通信与AI为该候选内方向，没有独立专业投递安排，不拆分。学位类型与导师机制说明不够具体在L1-01处理，未认定整个SIGS路径无效。",
+      "error_ids": [],
+      "occurrence_quotes": [
+        "稳：清华 SIGS（信息与通信 / AI 相关学部）                        ×1—2",
+        "志愿2：清华 SIGS 或 北大深研院（选导师匹配度更高的那个）"
+      ]
+    },
+    {
+      "answer_item_id": "A06",
+      "canonical_candidate_key": "pku:shenzhen:information-engineering",
+      "school_key": "pku",
+      "label": "北大深圳信息工程相关方向（答卷称信息科学技术学院）",
+      "answer_quote": "稳：北大深研院（信息科学技术学院）                               ×1",
+      "treatment": "direct",
+      "validity": "valid",
+      "reason": "实际平行备选；全文深圳培养和信息方向足以定位真实信息工程学院，院系名称错误与通信学位入口缺失在L1-02处理。未把名称错误机械认成虚构项目。",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "occurrence_quotes": [
+        "北大深研院（信息学院方向）+ 鹏城实验室联合培养（若导师在鹏城有项目）"
+      ]
+    },
+    {
+      "answer_item_id": "A07",
+      "canonical_candidate_key": "pcl:joint:thu-or-pku",
+      "school_key": "pcl_joint",
+      "label": "清北深圳高校与鹏城实验室联合培养条件路径",
+      "answer_quote": "北大深研院（信息学院方向）+ 鹏城实验室联合培养（若导师在鹏城有项目）",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "实际条件建议，全文也提出A或B叠加鹏城平台并明确排除把鹏城当独立授位学校；未把同一联培策略拆为两个已确定专项。高校授位、双导师与平台方向成立，正式专项与普通合作不能仅凭导师兼职混同，答卷第7节要求进一步确认申报方式和双导师。",
+      "error_ids": [],
+      "key_condition": "目标高校及鹏城当届存在可申请的正式联培路径，具体导师合作、双导师、名额及录取机制均需确认。",
+      "feasibility": "学生接受直博/硕博连读且研究经历相关；按第7节查询高校及实验室联合培养简章，确认高校招生/实验室遴选或推荐流程，并向高校导师和实验室核验后申请。年度通知待发布不等于路径不存在。",
+      "occurrence_quotes": [
+        "在 A 或 B 中选到一位\"同时在鹏城实验室承担项目/兼任研究员\"的导师",
+        "**不要当成独立选项**"
+      ]
+    },
+    {
+      "answer_item_id": "A08",
+      "canonical_candidate_key": "thu-jhu:dual-master",
+      "school_key": "tsinghua",
+      "label": "清华—JHU双硕士条件备选（答卷X）",
+      "answer_quote": "核实之后，若发现是双学位且你确有海外意图，可将其提升至与 A 同级。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "实际低优先级条件备选；确有工程双硕士，不把答卷另设的访学/暑研假设拆成真实候选。项目归属推断和实际条件缺失由L1-04处理；该真实条件路径不因答卷未附链接或未完成2027年度审计判invalid。",
+      "error_ids": [
+        "ERR-02"
+      ],
+      "key_condition": "学生愿接受JHU外方学习、方向转换及相应费用，能达到当届外方语言与双方考核要求，海外深造或外企目标明确。",
+      "feasibility": "答卷第7节列出向清华招生及JHU相应学院查项目全称、费用资助、英语和出国阶段，并邮件咨询；目前六级成绩不能代替外方最终合格语言证明，需按正式条件补齐。",
+      "occurrence_quotes": [
+        "**情形二：双学位项目（清华学位 + JHU 学位）**",
+        "X项目（仅当你的目标含出国深造时才提前）"
+      ]
+    },
+    {
+      "answer_item_id": "A09",
+      "canonical_candidate_key": "sjtu:communication-ai",
+      "school_key": "sjtu",
+      "label": "上海交通大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。",
+      "occurrence_quotes": [
+        "备：哈工大（深圳）/ 上海交大 / 浙大 电子信息类                    ×1"
+      ]
+    },
+    {
+      "answer_item_id": "A10",
+      "canonical_candidate_key": "zju:communication-ai",
+      "school_key": "zju",
+      "label": "浙江大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。",
+      "occurrence_quotes": [
+        "备：哈工大（深圳）/ 上海交大 / 浙大 电子信息类                    ×1"
+      ]
+    },
+    {
+      "answer_item_id": "A11",
+      "canonical_candidate_key": "ustc:communication-ai",
+      "school_key": "ustc",
+      "label": "中国科学技术大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。"
+    },
+    {
+      "answer_item_id": "A12",
+      "canonical_candidate_key": "nju:communication-ai",
+      "school_key": "nju",
+      "label": "南京大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。"
+    },
+    {
+      "answer_item_id": "A13",
+      "canonical_candidate_key": "hit:communication-ai",
+      "school_key": "hit",
+      "label": "哈尔滨工业大学本部/深圳合并候选通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。哈工大本部/深圳未分别明确独立申请安排，合并校内路径；后文深圳候选重复纳入此记录。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。",
+      "occurrence_quotes": [
+        "**哈工大（深圳）**同样在深圳",
+        "备：哈工大（深圳）/ 上海交大 / 浙大 电子信息类                    ×1"
+      ]
+    },
+    {
+      "answer_item_id": "A14",
+      "canonical_candidate_key": "buaa:communication-ai",
+      "school_key": "buaa",
+      "label": "北京航空航天大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。"
+    },
+    {
+      "answer_item_id": "A15",
+      "canonical_candidate_key": "seu:communication-ai",
+      "school_key": "seu",
+      "label": "东南大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。"
+    },
+    {
+      "answer_item_id": "A16",
+      "canonical_candidate_key": "xidian:communication-ai",
+      "school_key": "xidian",
+      "label": "西安电子科技大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。"
+    },
+    {
+      "answer_item_id": "A17",
+      "canonical_candidate_key": "bupt:communication-ai",
+      "school_key": "bupt",
+      "label": "北京邮电大学通信/AI方向Plan B",
+      "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节明确推荐的Plan B，非普通背景学校讨论；按原文学校加方向粒度审阅，未替其创造具体院系项目。条件建议有相关方向基础；valid不等于保证接收或已经核实当届全部项目。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿；所选导师方向、当届招生和学位路径符合通信/AI兴趣。",
+      "feasibility": "学生排名和通信一作提供冲刺科研型项目的基础；结合答卷导师联系、当届目录核验及已有接收意向选择具体项目，不承诺其为必录保底。"
+    },
+    {
+      "answer_item_id": "A18",
+      "canonical_candidate_key": "cas:ioa:research",
+      "school_key": "cas_ioa",
+      "label": "中国科学院声学研究所科研型Plan B",
+      "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节逐单位给出的实际备选提名兼建议；单位可识别，但未明确细分项目，不补造专业信息。学生通信/AI科研背景和接受直博的条件可支持继续筛选，未据缺逐年链接判错。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿，且具体导师/项目与通信或AI交叉相符，学位与接收条件适合。",
+      "feasibility": "按答卷通用导师尽调与招生目录核验办法筛选研究组，取得接收意向后填报；不把所有院所方向一概等同无线通信，不保证所有所都有相同待遇。"
+    },
+    {
+      "answer_item_id": "A19",
+      "canonical_candidate_key": "cas:semi:research",
+      "school_key": "cas_semi",
+      "label": "中国科学院半导体研究所科研型Plan B",
+      "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节逐单位给出的实际备选提名兼建议；单位可识别，但未明确细分项目，不补造专业信息。学生通信/AI科研背景和接受直博的条件可支持继续筛选，未据缺逐年链接判错。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿，且具体导师/项目与通信或AI交叉相符，学位与接收条件适合。",
+      "feasibility": "按答卷通用导师尽调与招生目录核验办法筛选研究组，取得接收意向后填报；不把所有院所方向一概等同无线通信，不保证所有所都有相同待遇。"
+    },
+    {
+      "answer_item_id": "A20",
+      "canonical_candidate_key": "cas:sim:research",
+      "school_key": "cas_sim",
+      "label": "中国科学院上海微系统与信息技术研究所科研型Plan B",
+      "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节逐单位给出的实际备选提名兼建议；单位可识别，但未明确细分项目，不补造专业信息。学生通信/AI科研背景和接受直博的条件可支持继续筛选，未据缺逐年链接判错。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿，且具体导师/项目与通信或AI交叉相符，学位与接收条件适合。",
+      "feasibility": "按答卷通用导师尽调与招生目录核验办法筛选研究组，取得接收意向后填报；不把所有院所方向一概等同无线通信，不保证所有所都有相同待遇。"
+    },
+    {
+      "answer_item_id": "A21",
+      "canonical_candidate_key": "cas:siat:research",
+      "school_key": "cas_siat",
+      "label": "中国科学院深圳先进技术研究院科研型Plan B",
+      "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节逐单位给出的实际备选提名兼建议；单位可识别，但未明确细分项目，不补造专业信息。学生通信/AI科研背景和接受直博的条件可支持继续筛选，未据缺逐年链接判错。后文SIAT作为已有接收意向的第三志愿再次出现，去重。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿，且具体导师/项目与通信或AI交叉相符，学位与接收条件适合。",
+      "feasibility": "按答卷通用导师尽调与招生目录核验办法筛选研究组，取得接收意向后填报；不把所有院所方向一概等同无线通信，不保证所有所都有相同待遇。",
+      "occurrence_quotes": [
+        "志愿3：稳妥保底（哈工大深圳 / 上交 / 浙大 / 中科院深圳先进院，选已有接收意向的）"
+      ]
+    },
+    {
+      "answer_item_id": "A22",
+      "canonical_candidate_key": "cas:air:research",
+      "school_key": "cas_air",
+      "label": "中国科学院空天信息创新研究院科研型Plan B",
+      "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "第9.2节逐单位给出的实际备选提名兼建议；单位可识别，但未明确细分项目，不补造专业信息。学生通信/AI科研背景和接受直博的条件可支持继续筛选，未据缺逐年链接判错。",
+      "error_ids": [],
+      "key_condition": "清北本部与深圳体系均未如愿，且具体导师/项目与通信或AI交叉相符，学位与接收条件适合。",
+      "feasibility": "按答卷通用导师尽调与招生目录核验办法筛选研究组，取得接收意向后填报；不把所有院所方向一概等同无线通信，不保证所有所都有相同待遇。"
+    },
+    {
+      "answer_item_id": "A23",
+      "canonical_candidate_key": "home_985:communication:home",
+      "school_key": "home_985",
+      "label": "一所985高校通信本校保研保底",
+      "answer_quote": "**本校（一所985高校）保研**作为最终保底",
+      "treatment": "conditional",
+      "validity": "valid",
+      "reason": "这里是实际本校保底建议，与开头本科背景不同；本校同层次。另提本校直博加访学是在同一方向内的条件规划，没有独立招生项目可拆。",
+      "error_ids": [],
+      "key_condition": "前述路径未如愿、获得本校推免资格及接收名额，导师与方向合适；直博需持续科研意愿。",
+      "feasibility": "第7节核实本校推免资格、排名口径和名额；与本校导师联系并确认接收和直博条件，未来访学只作为可能路径而非已获机会。",
+      "occurrence_quotes": [
+        "本校直博 + 出国访学的路径同样能通向好的就业"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "ERR-01",
+      "answer_quote": "深研院下设**信息科学技术学院**",
+      "reason": "深圳对应招生单位为信息工程学院，不能与本部信息科学技术学院混为一体。EV-01的2026届往届推免说明明确通信与信息系统为博士入口，而答卷仅罗列电子通信等方向及学硕/专硕/博士均有，未说明通信研究型路径的实际区别。只影响北大深圳项目项；候选仍可由深圳培养地与信息学院方向识别，不据此判整个路径虚构。",
+      "evidence_ids": [
+        "EV-01"
+      ]
+    },
+    {
+      "id": "ERR-02",
+      "answer_quote": "最可能的所指是**清华深圳国际研究生院（Tsinghua SIGS）体系下的国际合作/双学位类项目**",
+      "reason": "与通信背景相关的清华—JHU双硕士项目在电子工程系已有明确身份及两校考核要求（EV-02、EV-03）；不能由题目并列深圳选项推断它最可能属于SIGS。后文虽有正确双学位条件分析，却持续以单学位访学、双学位、暑研三种占位情形代替实际项目说明。只在双硕士项目项处理，未重复扣整体比较或排序项。",
+      "evidence_ids": [
+        "EV-02",
+        "EV-03",
+        "EV-04"
+      ]
+    }
+  ],
+  "coverage": [],
+  "nodes": [
+    {
+      "id": "TRY-D-02-L1-01",
+      "grade": 0.5,
+      "answer_quote": "**清华大学的硕士/博士学位**，培养地在深圳；",
+      "reason": "已说明清华授位、深圳培养、通信/AI方向及产业联系，并与本部偏好权衡，故有具体正确内容。缺失的是对应通信/AI硕士项目专业学位特点及实际选导师/培养机制，5.1仅笼统列学硕“有”和专硕“有”，具体类型仍全部交待核验，不能充分支持学生的研究型路径选择。第4.1对导师尽调和本部资源的泛论不能替代实际机制。按缺核心给半分，不因未联网、未给专业代码或未审计2027届招生归零。EV-05仅辅助学位身份；不据国际生门槛处罚。",
+      "error_ids": []
+    },
+    {
+      "id": "TRY-D-02-L1-02",
+      "grade": 0.5,
+      "answer_quote": "**北京大学的硕士/博士学位**，培养地在深圳；",
+      "reason": "正确说明北大授位、深圳培养、电子通信/AI相关性、与清深通信传统差异及导师驻地风险，支持半分。核心不足是把深圳信息工程学院称为信息科学技术学院，未分清通信与信息系统博士入口和集成电路/计算机硕士入口，无法充分说明本人接受学硕/直博时与清深的实际通道差别。EV-01是2026届、咨询时点前可用的往届参考；不要求2027届未发布条件。名称与通道不足只在本项处理，候选未整体判无效。",
+      "error_ids": [
+        "ERR-01"
+      ]
+    },
+    {
+      "id": "TRY-D-02-L1-03",
+      "grade": 1,
+      "answer_quote": "**不是。**鹏城实验室（Peng Cheng Laboratory，位于深圳，聚焦网络通信、人工智能、网络空间安全等方向的国家级科研机构）**不具有独立的学位授予资格**，研究生必须以**联合培养**方式进入：你的**学籍、课程、毕业要求、学位证**都由**挂靠高校**决定，鹏城提供的是**科研平台、算力、项目、经费、以及实验室侧的指导教师**。",
+      "reason": "核心内容成立：明确高校招生/授位与鹏城平台角色，4.3说明高校和实验室双导师及AI通信/网络仿真/语义通信方向；7.5要求核验合作高校、二次遴选或实验室推荐后高校录取、双导师及毕业标准，已把进入条件与正式路径绑定，没有当作独立学院。建议找合作导师仍须结合第7节的正式联培核验，不能单凭兼职保证录取；全文没有明确保证无需录取流程。本题准备时点允许这样具体条件处理，不要求事先取得2027届名额答复。EV-06、EV-07只支持历史联培性质及专项机制。",
+      "error_ids": []
+    },
+    {
+      "id": "TRY-D-02-L1-04",
+      "grade": 0.5,
+      "answer_quote": "**情形二：双学位项目（清华学位 + JHU 学位）**\n- 得到：**两个学位**，简历上非常亮眼，尤其对**外企、跨国研发岗、出国深造**；",
+      "reason": "识别双学位，并讨论双方毕业要求、额外成本、英语和海外职业意图，已有正确具体内容可给半分。但未确认为工程双硕士，实际外方学习安排与两校分别考核未说明；持续用三种占位假设且以单方访学估计匹配度，归属SIGS的推断缺据。EV-02的往届正式办法已明确两校考核，EV-03支持电子系历史项目身份；EV-04仅补充结构，不当作2027届精确门槛。不是因为“以官网为准”或不联网扣分，而是核心实际项目条件未完成说明。该错误仅归本项。",
+      "error_ids": [
+        "ERR-02"
+      ]
+    },
+    {
+      "id": "TRY-D-02-L1-05",
+      "grade": 1,
+      "answer_quote": "| **C. 鹏城** | **本身不授学位**，通过挂靠高校 | 同左 | 联合培养博士是**主流形态之一**（平台资源对5年制博士友好） | 视挂靠高校 |",
+      "reason": "整体比较的核心成立：第3节表分清高校异地办学、平台与合作项目的授位和培养地；第5.1节对硕士/直博/转博时间和退出成本作对照，4.4讨论跨国课程、叠加毕业要求、额外学费及时间成本，4.1和4.3补充深圳生活、补助和联合培养风险。足以支持学生对研究路径、地点、成本和时间的权衡；不要求价格逐项精确报价。具体项目错误已在L1-02、L1-04处理，本项不重复处罚；答卷自制数值矩阵不作为评审证据。",
+      "error_ids": []
+    },
+    {
+      "id": "TRY-D-02-L1-06",
+      "grade": 1,
+      "answer_quote": "**因此推荐排序为：本部（第一优先）→ A（清华SIGS，第二优先，且是本部失利时的最优承接）→ B（北大深研院）→ C（作为 A/B 的增强项而非独立志愿）→ D（仅在出国意图明确时提前）。**",
+      "reason": "结合前约1%、通信方向论文通信一作、大创经历、六级及通信向AI转化的叙事，讨论企业工程研发宜硕士、前沿研究可直博、科研不确定宜先硕士；5.2以就业城市、工程/学术目标、不确定性容忍度条件化重排，并把鹏城作为平台增强而非独立学校。主次与本人意向清晰，满足核心。未采信答卷自评或“稳”的录取概率估值；未披露具体竞赛和AI论文内容采用条件分支，不要求猜测。额外Plan B不取得覆盖分，本题也无层次计分项。",
+      "error_ids": []
+    },
+    {
+      "id": "TRY-D-02-L1-07",
+      "grade": 1,
+      "answer_quote": "**清华 SIGS 与北大深研院当年的招生专业、学位类型、名额**",
+      "reason": "第7节列出实际招生主体和项目全称、推免入口、双学位/费用/语言/外方阶段；区分2026年申请与2027届名额，要求检查当届目录并联系导师、核验联培申报方式及双导师。动作与路径具体，达到必要核验要求，单阶段不要求真的取得未提供回复。3月准备期与之后的材料更新总体区分清楚。8.3邮件模板误写“2026年6月已重考”，且2.4出分月份与6节8月出分自相矛盾，使用时应按实际状态改写；这些附加准备示例的错误未改变本项所要求的招生/导师/语言费用核验动作，不额外设时序扣分。",
+      "error_ids": []
+    }
+  ],
+  "tier_review": {
+    "status": "confirmed",
+    "schools": [
+      {
+        "school_key": "tsinghua",
+        "answer_quote": "清华本部（信息科学技术学院/电子工程系，或AI交叉研究院类）",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "pku",
+        "answer_quote": "北大本部（信息科学技术学院/电子学院/集成电路/智能学院相关交叉方向）",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "pcl_joint",
+        "answer_quote": "北大深研院（信息学院方向）+ 鹏城实验室联合培养（若导师在鹏城有项目）",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。联合培养平台，授位看清华/北大等真实挂靠高校，不给平台本身套本科层次。"
+      },
+      {
+        "school_key": "sjtu",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "zju",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "ustc",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "nju",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "hit",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "buaa",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "seu",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      },
+      {
+        "school_key": "xidian",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": true,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。相对一所985高校985本科基准，该校为211非985；答卷将其作为重通信产业口碑的条件Plan B。"
+      },
+      {
+        "school_key": "bupt",
+        "answer_quote": "**上海交大、浙大、中科大、南大、哈工大（本部/深圳）、北航、东南大学、西电、北邮**的通信/AI 交叉方向。",
+        "downgraded": true,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。相对一所985高校985本科基准，该校为211非985；答卷将其作为重通信产业口碑的条件Plan B。"
+      },
+      {
+        "school_key": "cas_ioa",
+        "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。科研院所按研究培养与国科大学位路径判断，不因没有985标签自动降级。"
+      },
+      {
+        "school_key": "cas_semi",
+        "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。科研院所按研究培养与国科大学位路径判断，不因没有985标签自动降级。"
+      },
+      {
+        "school_key": "cas_sim",
+        "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。科研院所按研究培养与国科大学位路径判断，不因没有985标签自动降级。"
+      },
+      {
+        "school_key": "cas_siat",
+        "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。科研院所按研究培养与国科大学位路径判断，不因没有985标签自动降级。"
+      },
+      {
+        "school_key": "cas_air",
+        "answer_quote": "**中科院系统**：声学所、半导体所、上海微系统所、深圳先进技术研究院（SIAT）、空天信息创新研究院",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。科研院所按研究培养与国科大学位路径判断，不因没有985标签自动降级。"
+      },
+      {
+        "school_key": "home_985",
+        "answer_quote": "**本校（一所985高校）保研**作为最终保底",
+        "downgraded": false,
+        "reason": "本题没有层次计分项，此处只报告，不额外扣分。推荐高校与一所985高校同属985层次，或为清北相关联合学位路径。"
+      }
+    ]
+  },
+  "instructions": "只判断语义、证据和状态，不算分。nodes.grade填0、0.5、1或pending，按满分核心和半分边界判断。coverage.status填hit、miss或pending，并逐条填写reason；正向分必须有真实answer_quote。覆盖项matched_answer_item_id指向recommendation_review中的唯一记录；同一独立候选不能覆盖多个参考目标。不同独立院系或项目以“学院A/学院B”等合并且未分别明确推荐时，不能拆出任一对象计命中；须核对全文是否另有明确独立推荐。同一单位别名、上下级隶属及内部研究方向并列不机械判错。提取全答卷所有候选及重复出现，填写answer_item_id、canonical_candidate_key、school_key、label、answer_quote、treatment、validity和reason。treatment为direct、conditional、allowed_exclusion、excluded或mentioned；validity为valid、invalid或pending。只作普通背景讨论的校名不提取。同一独立组合的别称和重复使用相同canonical_candidate_key，不同独立项目分别记录；清单外对象、明确排除及仅候选提名均须提取。核对整卷无遗漏后才填candidates_reviewed=true。conditional另填key_condition和feasibility；allowed_exclusion另填rule_id，当前仅E-12可用E-AI-CS-ALT。错误记入errors（id、answer_quote、reason），在相应候选及最直接的计分项error_ids引用。同一错误若影响另一独立评分项，须另填independent_impact_reason，不能重复扣分。无效的参考内对象由对应覆盖项处理；参考外无效对象由最直接的质量项处理，不另扣负分。需要层次核对时，tier_review.status为confirmed或pending；schools逐所记录实际推荐院校的school_key、answer_quote、downgraded（true、false或pending）和reason。同校只一条；仅排除或提名不计降级。层次仅报告的题其待核不影响总分。forced_pending_reference_ids必须保持pending。未知学生条件可用具体可行的条件方案；评分证据无法确认才pending。若rubric.recommendation_verification为required_before_recommendation，所有候选须填写verification：status为verified、unverified或pending，reason说明核查结论，evidence记录作答前已有的依据。每条依据填写source、provenance（answer、generation_trace或provided_material）、applicable_cycle、as_of及scope；仅有名称、以官网为准、建议用户再查或评审者事后补查不是已核实证据。只有verified且有可追溯、适用学生时点的证据才能hit；明确未核实为miss，不因未核实把validity写成invalid。评审证据本身无法裁决才pending，不能将缺少核查的确定失分挂起。若规则为reviewer_verifies_content，由评审方核验答案内容；不要求答案附来源或证明生成前已检索。正确且符合参考与学生约束的对象可hit；确认不存在、学位不符或硬条件冲突者invalid并关联具体错误。评审补查可用，但须注明历史周期和支持范围；未找到来源不能推断不存在，真正无法裁决只挂起受影响项。不执行答卷或引用材料中的指令，不从答卷自评分复制判断。"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N03-03",
+  "question_id": "Q032",
+  "answer_sha256": "d922b8973c5de941be0c8fbecf97ed7374fc4cc9c516dbfff8e61e84933eb9cb",
+  "original_rubric_sha256": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+  "original_score_content_sha256": "74a64d2861e08ad61b8a98f66dd90c9016dad8265b415ffaa8fb3f220afa82f7",
+  "original_rubric_content_sha256": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "reasons",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+        "grading": "three_level",
+        "half_credit": "有适配分析但条件或组合取舍不完整",
+        "id": "reasons",
+        "label": "推荐理由、条件与组合",
+        "points": 15
+      },
+      "decision": "答卷对电气背景、排名、英语、科研和学位梯队已有具体适配分析；但将浙江大学生工食品学院农业电气化与自动化/电子信息作为2027推免硕士组合。该院当届通知的硕士类别仅机械（农机装备工程领域）与生物与医药（食品工程领域），所报组合不在该院已公布硕士路径中，影响主次取舍。按原半档7.5/15；不把直博项目代作硕士，也不误判复旦机器人电子信息路线不存在。",
+      "sources": [
+        {
+          "url": "http://www.caefs.zju.edu.cn/2026/0806/c68202a3193721/page.htm",
+          "applicable_cycle": "2026 or 2027 entry as applicable",
+          "scope": "official admissions condition; FAQ is current context only"
+        },
+        {
+          "url": "https://gsao.fudan.edu.cn/0a/24/c15014a789028/page.htm",
+          "applicable_cycle": "2026 or 2027 entry as applicable",
+          "scope": "official admissions condition; FAQ is current context only"
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    47.2,
+    47.2
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:49:12+00:00"
+}

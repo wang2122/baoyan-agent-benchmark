@@ -1,0 +1,52 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "claude-opus-5-5",
+    "category": "择校推荐",
+    "deductions": [
+      {
+        "max_points": 4.6667,
+        "node": "B-03",
+        "points": 1.4,
+        "reason": "存在所列成立关系；已核对全文其他候选，同校不同学位路径分别记录，内部方向和重复别称合并，排除/仅关注不计。本参考仅列工程师学院，答卷没有直接推荐该院；两条电气学院硕士路径成立同校跨院系相关匹配，依据为官方工程师学院电气计划。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-07",
+        "points": 0,
+        "reason": "完整审阅表格、替补、地域方案、排除与提名后，未见山东大学的实际推荐或可成立同校项目关系。缺项是确定未覆盖，不属于项目身份争议，不记pending。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-08",
+        "points": 0,
+        "reason": "完整审阅表格、替补、地域方案、排除与提名后，未见湖南大学的实际推荐或可成立同校项目关系。缺项是确定未覆盖，不属于项目身份争议，不记pending。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-10",
+        "points": 0,
+        "reason": "完整审阅表格、替补、地域方案、排除与提名后，未见四川大学的实际推荐或可成立同校项目关系。缺项是确定未覆盖，不属于项目身份争议，不记pending。"
+      },
+      {
+        "max_points": 15,
+        "node": "BY-B-APPLY-R10-01",
+        "points": 7.5,
+        "reason": "已结合前约2%、英语、未录用充电调度论文、学硕/专硕、推免资格和电网目标建立冲主稳保；明确家乡未知并给地域替换方案，国网电科院也提醒规模和定向限制。核心不足是把不存在的本校电气硕士路径当“最稳妥”最后兜底，使保证申请可执行的保档方案不完整。故半分，而非仅因遗漏参考、无逐项链接或非核心细节降档。"
+      }
+    ],
+    "name": "Claude Opus 5.5",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 75.23,
+    "score_interval": [
+      75.23,
+      75.23
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "BY-B-APPLY"
+  }
+}

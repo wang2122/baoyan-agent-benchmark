@@ -1,0 +1,100 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "claude-opus-5-5",
+    "category": "择校推荐",
+    "deductions": [
+      {
+        "max_points": 5.8333,
+        "node": "N11-01",
+        "points": 5.83,
+        "reason": "清华生医工学院BME完整匹配，直博按具体长期科研意愿条件方案处理。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-02",
+        "points": 0,
+        "reason": "旧医学院BME备选与现学院BME有官方沿革和现医学院介绍支持等价，同A01不可另造旧院路径。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。 与N11-01身份重叠，同一A01不能获两次覆盖。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-03",
+        "points": 5.83,
+        "reason": "北大未来技术学院BME完整匹配，直博按全文条件分支。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-04",
+        "points": 0,
+        "reason": "同清华，不同院系；本部BME影像与SIGS专业学位BME成像/医学AI高度相关，学生未拒绝这些学位路径，仅跨院系相关而非完整命中。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。 全文缺独立SIGS推荐，只列本部跨院系关系，不补造SIGS路径。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-05",
+        "points": 5.83,
+        "reason": "同院BME命中参考备选，Med-X为所属说明。；另一个明确推荐的电子信息专业为参考内备选，全部列出供分配。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-06",
+        "points": 1.75,
+        "reason": "不同院系，不视为名称等价；生医工BME影像AI与类脑影像重建后处理高度相关，硕博路径符合本科BME背景。；生医工电子信息医学影像AI专硕有招生与方向依据，与类脑BME为同校跨院系高度相关。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。 已审阅A08c专项，只有生物与医药及企业联培，未指定影像企业或课题；不能仅据学院通用资源推导类脑影像高度相关，故不列专项关系。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-07",
+        "points": 5.83,
+        "reason": "浙大生医工与仪器学院BME与参考相同，不要求参考未提供代码。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-08",
+        "points": 5.83,
+        "reason": "东南生科与医工学院BME完整匹配，蒙纳士生物与医药仅提名不计匹配。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-09",
+        "points": 5.83,
+        "reason": "同校同院BME学硕完整匹配，参考未限定学位或代码。；同校同院同名BME专硕官方2027栏目支持，按参考现有粒度匹配，不强加参考只能指083100。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-10",
+        "points": 5.83,
+        "reason": "科大招生苏州医工所BME完整匹配；明确学籍及论文单位，错误报名代码归执行。；174电子信息专业BME方向为不同专业，同院高度相近且有可申请的硕士路径。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-11",
+        "points": 5.83,
+        "reason": "主体生命学院170BME完整匹配，国光导师计划归口170由官方证实，具体导师联系条件和动作已给。 重复出现已按canonical_candidate_key审阅并去重，以主记录列全部独立成立关系，最终一对一分配交程序。"
+      },
+      {
+        "max_points": 5.8333,
+        "node": "N11-12",
+        "points": 0,
+        "reason": "仅在替换备选把医学院下属研究院和独立精仪学院斜杠合并，未在全文分别明确报名路径。官方TJU、TJU-AFF、TJU-PRECISION确认前者归医学院且医学院BME存在，但按模板不得从含糊合并中拆出医学院对象计分，也不能替答卷选定路径。缺少明确组合是确定表达缺项，非证明天津项目无效或无链接；因此miss而非pending。"
+      },
+      {
+        "max_points": 5,
+        "node": "execution",
+        "points": 2.5,
+        "reason": "已有优先排序、分届别批次、导师联系材料、余额咨询与本校确认协调，非仅排序或空话。缺失核心是正确可执行的单位和时点核验：苏州医工所报名引向916另一学院；题设仅申请季却锁定10月9日，据此把本轮转成补录且未标记假设。系统日期核心正确、下一届准备分支可保留，不把所有学校判截止；局部执行问题可修正，给半分。"
+      }
+    ],
+    "name": "Claude Opus 5.5",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 75.92,
+    "score_interval": [
+      75.92,
+      75.92
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "N11-03"
+  }
+}

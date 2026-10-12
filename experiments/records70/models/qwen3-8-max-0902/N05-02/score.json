@@ -1,0 +1,358 @@
+{
+  "actual_candidate_count": 8,
+  "answer_sha256": "1edae25f37101d719245ef0c45a9345238d2ac6a52e78201c96e68e8a723c3fe",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 74.0
+  },
+  "confirmed_points": 74.0,
+  "diagnostic_score": 74.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N05-02-T5"
+    ],
+    "E2": [
+      "delivery"
+    ],
+    "E3": [
+      "N05-02-T3"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**10 月底前能投出并拿到投稿号** → 推进，但要清楚它的价值不在本轮（院校评价窗口已基本关闭）",
+      "id": "E1",
+      "reason": "题面仅给2026年推免申请季，未给月份、日期或接收状态。两轮均直接按10月及窗口已基本关闭安排申请与成果时间，是未设条件的时点补定。最直接影响预推免节点与备选项；不据运行日倒填题目日期，也不由单校首批截止推定全部项目关闭。官方2026申请/2027入学公告O1、O2显示需逐校区分预报名、系统阶段与可能后续接收。"
+    },
+    {
+      "answer_quote": "你说项目集中在材料方向B（具体方向已概括）方向，但唯一已录用的成果是**材料方向A（具体方向已概括）** EI。这两个不是一回事",
+      "id": "E2",
+      "reason": "新增事实说明论文领域、作者位次与状态，没有提供选题、材料体系、实验方法或个人技能。不能由材料方向A（具体方向已概括）标签推断项目不属于材料方向B（具体方向已概括），亦不能断定材料方向B面试的力学测试答不上来；航空应用与化学研究并非互斥层级。O1中的高温结构材料与涂层技术仅提供交叉存在的旁证，不用于推断学生做过涂层。最直接计入delivery，保留正确的成果确定性下调，不把此错误重复扣到研究主线或比较项。"
+    },
+    {
+      "answer_quote": "合作作者不计入任何评价",
+      "id": "E3",
+      "reason": "作者位次较后与尚未录用应降低正式成果的确定性，但不等于个人工作和科研经历在任何评价中都不计。答卷未核实适用学院规则便作普遍零权重断言，并要求合作作者SCI不列个人成果，混淆成果状态、署名与实际贡献。O1的综合考核包含科研经历与实验技能，未提供合作作者一律排除的规则。最直接归多论文状态与作者位次项；没有把在投论文误写已发表。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N05-02",
+  "input_sha256": "2a61376c26cebc8e1498cd5261e27ee466d324495c400a4ce9edb6099864f4f5",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "1a5a7b68aad7635c38bebc4110d0725573d670cdabe4c8fede0f24f3f85acf34",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N05-02-T1",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "N05-02-T2",
+      "kind": "quality",
+      "points": 16.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-02-T3",
+      "kind": "quality",
+      "points": 7.0
+    },
+    {
+      "grade": 1,
+      "id": "N05-02-T4",
+      "kind": "quality",
+      "points": 12.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N05-02-T5",
+      "kind": "quality",
+      "points": 4.0
+    },
+    {
+      "grade": 1,
+      "id": "evidence",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "tradeoff",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "delivery",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 8,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**交通运输下的航空方向**（载运工具运用工程、民航安全工程）——用材料项目讲结构完整性、疲劳、腐蚀、维修工程。",
+      "canonical_candidate_key": "unspecified:transport-aviation-intersection",
+      "error_ids": [],
+      "label": "S0：交通运输下的航空及民航安全方向",
+      "reason": "实际方向建议，包含交叉叙事动作。括号内方向未分设院校或独立申请路径，作为一组记录；不补造招生项目。适配交通工程本科与已披露的材料方向B（具体方向已概括）经历，不代表已核验每一学校的招生专业。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "**材料下的材料方向B（具体方向已概括）方向**（复材、高温合金、增材制造、无损检测）",
+      "canonical_candidate_key": "unspecified:aviation-materials",
+      "error_ids": [],
+      "label": "S0：材料下的材料方向B（具体方向已概括）方向",
+      "reason": "实际方向建议；括号内是内部研究方向，未明确独立申请路径，不机械拆分。S0尚不知作者位次与成果进度，不能用S1细节反向判其错误。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "西工大、北航、哈工大这一档。",
+      "canonical_candidate_key": "西北工业大学:materials-direction",
+      "error_ids": [],
+      "label": "S0：西北工业大学材料相关档位提名",
+      "reason": "全文末尾说明名单为档位示意，此处保留学校及材料相关方向粒度；不替答卷指定学院、专业代码或学位。官方身份依据见 evidence.json O2，支持材料相关培养方向存在；valid不表示当届全部门槛与窗口已审计。",
+      "school_key": "西北工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "西工大、北航、哈工大这一档。",
+      "canonical_candidate_key": "北京航空航天大学:materials-direction",
+      "error_ids": [],
+      "label": "S0：北京航空航天大学材料相关档位提名",
+      "reason": "全文末尾说明名单为档位示意，此处保留学校及材料相关方向粒度；不替答卷指定学院、专业代码或学位。官方身份依据见 evidence.json O1，支持材料相关培养方向存在；valid不表示当届全部门槛与窗口已审计。",
+      "school_key": "北京航空航天大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "西工大、北航、哈工大这一档。",
+      "canonical_candidate_key": "哈尔滨工业大学:materials-direction",
+      "error_ids": [],
+      "label": "S0：哈尔滨工业大学材料相关档位提名",
+      "reason": "全文末尾说明名单为档位示意，此处保留学校及材料相关方向粒度；不替答卷指定学院、专业代码或学位。官方身份依据见 evidence.json O3，支持材料相关培养方向存在；valid不表示当届全部门槛与窗口已审计。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**适航技术/适航审定**——开设院校少，与民航局适航体系直接对口",
+      "canonical_candidate_key": "unspecified:airworthiness",
+      "error_ids": [],
+      "label": "S0：适航技术及适航审定交叉方向",
+      "reason": "实际交叉方向建议，未指定学校或独立学位项目。技术与审定在此是同一泛化交叉落点，不拆为两个招生项目，也不把民航局当作授位单位。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**有读博意愿 + 项目有实质产出 + 能接受长周期实验** → 转材料，锁材料方向B（具体方向已概括），冲西工大/北航/哈工大一档。",
+      "canonical_candidate_key": "unspecified:aviation-materials",
+      "error_ids": [],
+      "feasibility": "可作为条件分支保留；需按原文所指当年推免简章核对英语与招生条件，并核实项目产出。答卷未给各校跨专业限制清单，故仅认可方向身份，不宣称全部可投。",
+      "key_condition": "有读博意愿、项目有实质产出且能接受长周期实验；S0时这些个人条件未知。",
+      "label": "S0：有条件转材料方向B（具体方向已概括）",
+      "reason": "与前述材料方向B（具体方向已概括）方向重复，使用相同去重键；不是已知满足条件的无条件推荐。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**有读博意愿 + 项目有实质产出 + 能接受长周期实验** → 转材料，锁材料方向B（具体方向已概括），冲西工大/北航/哈工大一档。",
+      "canonical_candidate_key": "西北工业大学:materials-direction",
+      "error_ids": [],
+      "feasibility": "可作为条件分支保留；需按原文所指当年推免简章核对英语与招生条件，并核实项目产出。答卷未给各校跨专业限制清单，故仅认可方向身份，不宣称全部可投。",
+      "key_condition": "有读博意愿、项目有实质产出且能接受长周期实验；S0时这些个人条件未知。",
+      "label": "S0：西北工业大学有条件冲刺材料方向",
+      "reason": "原文明确列举三个学校，分别保留其条件推荐；与先前同校提名合并去重，不创造不同院系路径。O2仅支持相应身份与其注明范围，未发现适用本题且已证实的个人硬条件冲突，不因未完成年度核验标invalid。",
+      "school_key": "西北工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**有读博意愿 + 项目有实质产出 + 能接受长周期实验** → 转材料，锁材料方向B（具体方向已概括），冲西工大/北航/哈工大一档。",
+      "canonical_candidate_key": "北京航空航天大学:materials-direction",
+      "error_ids": [],
+      "feasibility": "可作为条件分支保留；需按原文所指当年推免简章核对英语与招生条件，并核实项目产出。答卷未给各校跨专业限制清单，故仅认可方向身份，不宣称全部可投。",
+      "key_condition": "有读博意愿、项目有实质产出且能接受长周期实验；S0时这些个人条件未知。",
+      "label": "S0：北京航空航天大学有条件冲刺材料方向",
+      "reason": "原文明确列举三个学校，分别保留其条件推荐；与先前同校提名合并去重，不创造不同院系路径。O1仅支持相应身份与其注明范围，未发现适用本题且已证实的个人硬条件冲突，不因未完成年度核验标invalid。",
+      "school_key": "北京航空航天大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**有读博意愿 + 项目有实质产出 + 能接受长周期实验** → 转材料，锁材料方向B（具体方向已概括），冲西工大/北航/哈工大一档。",
+      "canonical_candidate_key": "哈尔滨工业大学:materials-direction",
+      "error_ids": [],
+      "feasibility": "可作为条件分支保留；需按原文所指当年推免简章核对英语与招生条件，并核实项目产出。答卷未给各校跨专业限制清单，故仅认可方向身份，不宣称全部可投。",
+      "key_condition": "有读博意愿、项目有实质产出且能接受长周期实验；S0时这些个人条件未知。",
+      "label": "S0：哈尔滨工业大学有条件冲刺材料方向",
+      "reason": "原文明确列举三个学校，分别保留其条件推荐；与先前同校提名合并去重，不创造不同院系路径。O3仅支持相应身份与其注明范围，未发现适用本题且已证实的个人硬条件冲突，不因未完成年度核验标invalid。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**打算硕士就业、想留民航系统、不想补一整套材料专业课** → 沿交通运输，但必须选民航/航空特色强的院校，把材料项目重新包装成民航安全与结构完整性的交叉叙事，已有积累一点不损失。",
+      "canonical_candidate_key": "unspecified:transport-aviation-intersection",
+      "error_ids": [],
+      "feasibility": "交通工程本科基础与民航行业背景支持该条件分支；原文给出材料经历改写为安全及结构完整性叙事的动作，具体院校门槛仍须核实。",
+      "key_condition": "打算硕士就业、希望留民航系统且不愿系统补材料课程。",
+      "label": "S0：硕士就业及民航系统取向时沿交通",
+      "reason": "与交通航空交叉方向重复；院校类型没有具体招生主体，不将其虚构为新增学校。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**两者都想要** → 走交叉落点",
+      "canonical_candidate_key": "unspecified:aviation-interdisciplinary",
+      "error_ids": [],
+      "feasibility": "原文提供交通航空、材料方向B（具体方向已概括）、适航三个交叉落点供选择；尚未落实具体院校与项目，不视为已经完成可投项目筛选。",
+      "key_condition": "希望同时保留交通行业联系与材料科研积累。",
+      "label": "S0：兼顾两条路线时走交叉",
+      "reason": "这是对前述落点的总括性条件建议；独立记录出现但不把它补造成额外招生专业。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "所以上一轮\"若转材料就锁定材料方向B（具体方向已概括）/高温合金/复材\"这个建议，**我撤回**。",
+      "canonical_candidate_key": "unspecified:aviation-materials",
+      "error_ids": [
+        "E2"
+      ],
+      "label": "S1：撤回锁定材料方向B（具体方向已概括）建议",
+      "reason": "明确撤回此前泛化材料方向B（具体方向已概括）路线，完整记录排除；未明确宣称三所学校各自停招或不存在，不扩展为学校无效判定。路线本身存在，排除理由把材料方向A（具体方向已概括）与航空应用排斥处理缺少项目内容证据；错误只归结合新证据重新评估项。",
+      "school_key": "未指定院校",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**主推：沿交通运输，走\"民航 + 材料方向A（具体方向已概括）\"交叉叙事。**\n\n关键在于材料方向A（具体方向已概括）与民航之间有天然接口，而且正好落在原本科院校的行业优势区：\n- 航空燃料与油品化学、航空润滑油\n- 航空器腐蚀防护与表面涂层\n- **危险品运输安全**（锂电池航空运输是当前民航热点，与电化学直接对口）\n- 机场道面与铺装材料\n- 适航审定中的材料与化学因素",
+      "canonical_candidate_key": "unspecified:transport-aviation-intersection",
+      "error_ids": [],
+      "label": "S1：交通运输与材料方向A（具体方向已概括）交叉主线及应用接口",
+      "reason": "明确主推交通交叉主线。油品与润滑、腐蚀与涂层、危险品运输、道面材料、适航材料因素均完整纳入引文；它们是同一主线的应用接口，未分别指明学校及学位路径，不机械拆成五个招生项目。此处原本科院校用于背景与行业适配分析，没有明确推荐回本校就读，不提取为学校候选。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "**次选：材料方向A（具体方向已概括）对口方向**（新能源/电化学/催化/涂层防腐），适用于读博意愿强、能接受市场化竞争。",
+      "canonical_candidate_key": "unspecified:materials-chemistry",
+      "error_ids": [],
+      "feasibility": "原文给出双线并投与按成果状态整理材料的动作，可保留探索路线；具体课题与学生贡献尚需核实，不将材料方向A（具体方向已概括）标签自动当作电化学或催化经历证明。",
+      "key_condition": "读博意愿强且能接受市场化竞争。",
+      "label": "S1：材料方向A（具体方向已概括）对口方向次选",
+      "reason": "实际条件备选，内部研究方向并列，未分别指定招生主体，不拆项目。作为探索路线合理，不能据此认定学生已做过这些全部课题。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**所以打法是双线并投：用材料方向A（具体方向已概括）线冲平台层级，用交通运输线保专业竞争力和就业确定性。**",
+      "canonical_candidate_key": "unspecified:materials-chemistry",
+      "error_ids": [],
+      "feasibility": "与交通线并投是可执行申请策略，仍需核对各招生主体条件；平台兑换率只是答卷判断，不认可为录取保证。",
+      "key_condition": "同段次选所限定的读博意愿强且能接受市场化竞争。",
+      "label": "S1：双线并投中的材料方向A（具体方向已概括）线",
+      "reason": "同一材料方向A（具体方向已概括）次选再次出现；沿用其上下文个人条件，不追加学校或项目。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**所以打法是双线并投：用材料方向A（具体方向已概括）线冲平台层级，用交通运输线保专业竞争力和就业确定性。**",
+      "canonical_candidate_key": "unspecified:transport-aviation-intersection",
+      "error_ids": [],
+      "label": "S1：双线并投中的交通运输线",
+      "reason": "交通主线再次出现，与前述主推去重，不计新增路线。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**不建议**：为了\"材料方向B（具体方向已概括）就业好\"硬转材料方向B。",
+      "canonical_candidate_key": "unspecified:aviation-materials",
+      "error_ids": [
+        "E2"
+      ],
+      "label": "S1：不建议硬转材料方向B",
+      "reason": "明确排除，与此前材料方向B（具体方向已概括）路线使用相同去重键；仅限制因就业想象而硬转，不证明项目不存在。其具体排除论证未核实学生实际研究内容，错误E2只用于delivery节点。",
+      "school_key": "未指定院校",
+      "treatment": "excluded",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "516032be30b20373af4685a27f02d345bc414794e1fbdf2f955f966580b70c7e",
+  "score": 74.0,
+  "score_interval": [
+    74.0,
+    74.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N05-02",
+  "task_kind": "planning",
+  "task_sha256": "52e9519c3cf83f3b14b059b3e8f99f48cab0bdc32767acf3f769a214ee2b216d",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "西工大/北航/哈工大",
+        "downgraded": false,
+        "reason": "实际条件推荐为985高校，相对题面原本科院校本科基准没有院校层次降级。同校只记一次；本题无school_tier计分节点，此处仅作层次记录，不另设扣分。",
+        "school_key": "西北工业大学"
+      },
+      {
+        "answer_quote": "西工大/北航/哈工大",
+        "downgraded": false,
+        "reason": "实际条件推荐为985高校，相对题面原本科院校本科基准没有院校层次降级。同校只记一次；本题无school_tier计分节点，此处仅作层次记录，不另设扣分。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "西工大/北航/哈工大",
+        "downgraded": false,
+        "reason": "实际条件推荐为985高校，相对题面原本科院校本科基准没有院校层次降级。同校只记一次；本题无school_tier计分节点，此处仅作层次记录，不另设扣分。",
+        "school_key": "哈尔滨工业大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

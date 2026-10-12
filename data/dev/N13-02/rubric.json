@@ -1,0 +1,85 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N13-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "说明前约1%是重要竞争力，但成绩排名不等同校内推免资格；优先确认本校综合排名口径和名额。",
+      "grading": "three_level",
+      "half_credit": "识别成绩优势但忽略资格核验。",
+      "id": "N13-02-L1-01",
+      "label": "已有排名与校内资格的保护",
+      "points": 20
+    },
+    {
+      "full_credit": "用已有机器人/机械项目挑选有证据的个人工作，说明继续深化与临时新开项目的时间成本。",
+      "grading": "three_level",
+      "half_credit": "建议做科研但未说明现有项目如何变成可展示成果。",
+      "id": "N13-02-L1-02",
+      "label": "科研项目贡献整理与推进优先级",
+      "points": 25
+    },
+    {
+      "full_credit": "结合机械、控制、制造及数理基础，安排针对目标项目的准备；根据已知课程短板给出条件化计划。",
+      "grading": "three_level",
+      "half_credit": "有复习建议但与机械项目或学生优势联系较弱。",
+      "id": "N13-02-L1-03",
+      "label": "专业课和面试训练的投入",
+      "points": 20
+    },
+    {
+      "full_credit": "说明具体英语训练可行性与目标项目的当年门槛核验，不把450–499分说成不符合所有高校要求。",
+      "grading": "three_level",
+      "half_credit": "提到刷分但缺对申请条件或时间的考虑。",
+      "id": "N13-02-L1-04",
+      "label": "CET6 450–499分和英语准备",
+      "points": 10
+    },
+    {
+      "full_credit": "比较现有奖励整理与追加参赛的投入产出，考虑申请窗口和论文、材料的机会成本。",
+      "grading": "three_level",
+      "half_credit": "指出参赛方向但缺收益成本分析。",
+      "id": "N13-02-L1-05",
+      "label": "竞赛与新增活动的边际收益",
+      "points": 10
+    },
+    {
+      "full_credit": "提出近中期文书、个人贡献证明、导师了解及模拟面试的执行节点。",
+      "grading": "three_level",
+      "half_credit": "有一部分安排但缺核验或合理顺序。",
+      "id": "N13-02-L1-06",
+      "label": "阶段安排、文书与导师联系",
+      "points": 10
+    },
+    {
+      "full_credit": "保持排名、英语、科研和校内资格的状态准确。",
+      "grading": "three_level",
+      "half_credit": "出现影响有限的未核实推断。",
+      "id": "N13-02-L1-07",
+      "label": "事实可靠与限制",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

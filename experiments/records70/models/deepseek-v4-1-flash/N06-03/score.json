@@ -1,0 +1,15 @@
+{
+  "schema": "selected-score-row.1",
+  "task_id": "N06-03",
+  "question_id": "Q039",
+  "score_interval": [
+    42.56,
+    42.56
+  ],
+  "pending_nodes": [],
+  "answer_status": "completed",
+  "source_answer_sha256": "a0101d3f4d31fab60c0e1cc5a820e1fac128b5f48c97368fe4bc662041fe051f",
+  "source_kind": "retained_historical_summary",
+  "answer_text_available": true,
+  "recovered_original_text_source": "experiments/records18/models/deepseek-v4-1-flash/N06-03/answer.md"
+}

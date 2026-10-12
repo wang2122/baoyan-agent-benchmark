@@ -1,0 +1,119 @@
+{
+  "id": "TRY-E-02",
+  "task_id": "TRY-E-02",
+  "task_kind": "planning",
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "score": 60.0,
+  "diagnostic_score": 60.0,
+  "status": "scored_draft",
+  "confirmed_points": 60.0,
+  "score_interval": [
+    60.0,
+    60.0
+  ],
+  "pending_nodes": [],
+  "nodes": [
+    {
+      "id": "TRY-E-02-R10-01",
+      "kind": "quality",
+      "grade": 1,
+      "points": 30.0
+    },
+    {
+      "id": "TRY-E-02-R10-02",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 12.5
+    },
+    {
+      "id": "TRY-E-02-R10-03",
+      "kind": "quality",
+      "grade": 0,
+      "points": 0.0
+    },
+    {
+      "id": "TRY-E-02-R10-04",
+      "kind": "quality",
+      "grade": 0.5,
+      "points": 7.5
+    },
+    {
+      "id": "TRY-E-02-R10-05",
+      "kind": "quality",
+      "grade": 1.0,
+      "points": 5.0
+    },
+    {
+      "id": "TRY-E-02-R10-06",
+      "kind": "quality",
+      "grade": 1,
+      "points": 5.0
+    }
+  ],
+  "quantity_status": "not_applicable",
+  "candidate_limit": null,
+  "reference_denominator": null,
+  "actual_candidate_count": 0,
+  "observed_candidate_count": 0,
+  "excess_count": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 60.0
+  },
+  "tier_report": {
+    "status": "confirmed",
+    "schools": [],
+    "reason": "已审阅全文。华东地区一所985高校（华东五校之一）及本科学院均用于本科背景、资格规则和英语门槛说明，并非推荐；目标院校、头部院校、出国等泛称未构成可识别的院校项目候选。无推荐、排除或提名，本题无层次评分项。"
+  },
+  "downgraded_schools": [],
+  "recommendation_review": [],
+  "errors": [
+    {
+      "id": "E-CYCLE-01",
+      "answer_quote": "以本科学院最近一届（2026 年度、面向 2027 届）的两次官方公示为例（仅作口径参考）：",
+      "reason": "两份官方公示均发布于2026-09-10，适用于2026年申请、2027届毕业生，晚于题面2025年申请阶段。答卷将未来资料列为已核实的最近一届并用于2025年的硬条件和递补准备。标注仅作参考、以当年通知为准，不能使未来资料成为咨询时点已有依据。见evidence.json的EV-02、EV-03；只归R10-02，不重复处罚其他项。",
+      "evidence_ids": [
+        "EV-02",
+        "EV-03"
+      ]
+    },
+    {
+      "id": "E-RULE-02",
+      "answer_quote": "第一作者学术论文（期刊正刊或会议 regular paper）：CCF-A 类 **+0.1**；CCF-B 类 **+0.075**；CCF-C 类 **+0.025**；CCF-T1 中文科技期刊 **+0.05**；CCF-T2/T3 中文 **不加分**\n   - **多篇论文不可累计，只能选一篇**；只认**第一顺位作者**",
+      "reason": "当年官方2025年度细则适用于2026届毕业生：国际CCF-A/B/C分别加0.2/0.15/0.05，中文CCF-A加0.1，多篇允许累计但论文项上限0.2。答卷要求按错误数值自算资格排序，并把多篇不可累计说成规则，会直接影响资格核算。见EV-01。只归R10-02，不再用此规则错误扣论文准备项。",
+      "evidence_ids": [
+        "EV-01"
+      ]
+    },
+    {
+      "id": "E-QUOTA-03",
+      "answer_quote": "**逐行数**\"推荐 + 候补 + 递补\"的总行数——这是唯一可核对的\"名额\"实证",
+      "reason": "公示行数包含候补状态，不能直接当作实际推免指标；递补还须确认是否替代已列推荐及最终备案情况。官方公示区分推荐、候补、递补，未宣称总行数等于名额。总行数可核对公示对象人数，答卷却称其为唯一名额实证，混淆竞争对象与有效资格指标。最直接影响R10-02的资格确认路径；见EV-03。",
+      "evidence_ids": [
+        "EV-03"
+      ]
+    }
+  ],
+  "error_impacts": {
+    "E-CYCLE-01": [
+      "TRY-E-02-R10-02"
+    ],
+    "E-RULE-02": [
+      "TRY-E-02-R10-02"
+    ],
+    "E-QUOTA-03": [
+      "TRY-E-02-R10-02"
+    ]
+  },
+  "official": false,
+  "teacher_calibration": "pending",
+  "difficulty": "easy",
+  "split": "dev",
+  "task_sha256": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179",
+  "rubric_sha256": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+  "input_sha256": "e5c7a98e9af834a8de5ce78ff1b3fc51133f5d43f8c85d5ca7c721d0f1f88049",
+  "answer_sha256": "fffe54e444bac7876321722aa58c63c684d7471a6a1cd51ff9e939d74be48450",
+  "judgment_sha256": "0b55614371406287f72a2ef44d590d9f339607727d8e2e980daaee3406715a80",
+  "judge_version": "evidence-review-v1"
+}

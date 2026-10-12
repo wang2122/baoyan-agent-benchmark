@@ -1,0 +1,241 @@
+{
+  "actual_candidate_count": 6,
+  "answer_sha256": "fc1a84532556ee839789639b0272de350da85d5a58faeee9b8ab526280966a90",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 77.5
+  },
+  "confirmed_points": 77.5,
+  "diagnostic_score": 77.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "BY-A-PLAN-R10-01"
+    ],
+    "E02": [
+      "BY-A-PLAN-R10-01"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "稳获“优秀营员”，即可全面锁定本校免试录取通行证。",
+      "id": "E01",
+      "reason": "把优营表述为充分录取保证，遗漏仍须获得本科推免资格、按接收程序择优录取及系统确认的条件。2024年发布的全校接收通知明确要求这些程序，见 [本科院校官方来源；原始链接私有保留]"
+    },
+    {
+      "answer_quote": "其综合遴选总分通常呈现“**学业成绩筑底（70%~85%）+ 综合素质与科研创新加分（15%~30%）**”的架构：",
+      "id": "E02",
+      "reason": "以泛化比例代替本学院可查的实际遴选计分。2024年9月本科学院公示以GPA折算项与发展素质分相加，并非答卷所称固定百分比结构，见 [本科院校官方来源；原始链接私有保留]"
+    }
+  ],
+  "excess_count": null,
+  "id": "BY-A-PLAN",
+  "input_sha256": "c6ee9edd0c8c375e1dca8a22be4944e2ba9661fb206a1b1c727010a2c1f480af",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "a839abc14907a247bb0480b7e92ac94cc198820aacc442eba614402f0bafd657",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-01",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-02",
+      "kind": "quality",
+      "points": 35.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-03",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-04",
+      "kind": "quality",
+      "points": 12.0
+    },
+    {
+      "grade": 1,
+      "id": "BY-A-PLAN-R10-05",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-06",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-A-PLAN-R10-07",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 6,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "**必须坚定选择国内 4 年全日制培养通道**",
+      "canonical_candidate_key": "home_school-energy-undergraduate-domestic4",
+      "error_ids": [],
+      "label": "本专业国内四年本科培养路径",
+      "reason": "明确选择的本科培养路径，纳入完整审阅；并非新增研究生招生项目。2024报考指南支持可选择不出国、国内四年完成及获中方证书（EV03）；不把这种路径选择解释为自动取得推免名额。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "若选择“3+2”赴加，大四阶段身在国外且培养计划变更，无法无缝衔接国内大四秋季研究生的推荐免试。",
+      "canonical_candidate_key": "home_school-energy-undergraduate-joint3plus2",
+      "error_ids": [],
+      "label": "本专业本校—外方合作院校3+2本科培养路径",
+      "reason": "答卷明确排除的联合本科培养路径，须保留。官方项目说明及2024报考指南支持其五年3+2性质（EV03、EV04）；对于答卷限定的2026年秋申请/2027年入学路径，毕业时间确有需核对的冲突。该排除不证明所有赴境外学习者永久无推免资格，也不另提取外方合作院校作为研究生推荐。",
+      "school_key": "home_school",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "必须第一批次填报华东地区一所211高校夏令营，并提前与导师确认报考意向。",
+      "canonical_candidate_key": "home_school-energy-admission",
+      "error_ids": [],
+      "label": "华东地区一所211高校接收申请",
+      "reason": "明确提出本院申请，计入实际候选；有效身份不代表已审计2026夏令营是否举办，也不承认必须第一批次报名是固定政策。研究生申请是答卷扩展到接收阶段的建议；当前题面只明确争取本科推免资格。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "填报志愿：华东地区一所211高校 - 本科学院 - 相应专业及导师；",
+      "canonical_candidate_key": "home_school-energy-admission",
+      "error_ids": [],
+      "label": "华东地区一所211高校接收申请（重复）",
+      "reason": "与A03同一学院接收意向的再次出现，不创造具体专业或额外独立路径。全校2024年接收通知支持取得资格后通过全国系统申请的路径（EV02）；2027届开放情况应届时核实。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "如果明确目标是**留在本校（华东地区一所211高校）攻读硕士或博士学位**",
+      "canonical_candidate_key": "home_school-energy-admission",
+      "error_ids": [],
+      "feasibility": "本科阶段通过旁听组会、入组及导师面谈了解培养方向，2026年申请时查当届招生通知并经全国系统申请；培养主体身份成立，未来招生不作保证。",
+      "key_condition": "学生另行确认留在本科学院读研的意愿，并先取得校内推荐资格，后按当届接收流程申请。",
+      "label": "华东地区一所211高校留校意向（条件表达）",
+      "reason": "同一留校意向的条件表达，和A03、A04共用去重键。答卷没有把其他高校或地区列为独立申请候选；本校资格与留本院读研并非同一目标。",
+      "school_key": "home_school",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**学术型硕士：** 新能源科学与工程、能源与环境系统工程。",
+      "canonical_candidate_key": "home_school-energy-academic-group",
+      "error_ids": [],
+      "label": "本科学院学硕并列提名：新能源科学与工程、能源与环境系统工程",
+      "reason": "培养类型段合并提名两项学硕名称，未分别给出独立报考行动，按一个合并候选审阅，不能据此替答卷拆出两条可匹配推荐。2024年官方调剂名单确认能源与环境系统工程学术学位身份（EV05）；新能源科学与工程属该院相关培养方向。valid仅为培养主体和方向身份判断，不等同已完成2027届招生审计。",
+      "school_key": "home_school",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**学术型硕士（新能源科学与工程、能源与环境系统工程）：** 适合有志于继续读博、从事纯基础科研的同学；指标竞争最为激烈。",
+      "canonical_candidate_key": "home_school-energy-academic-group",
+      "error_ids": [],
+      "label": "本科学院学硕并列提名（重复）",
+      "reason": "与A06为同一合并培养类型提名的重复，并未明确推荐其中一个具体专业；不增加数量。未核定指标竞争程度的泛化陈述不作为资格事实或项目不存在证据。",
+      "school_key": "home_school",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**专业型硕士：** 材料与化工、能源与动力。",
+      "canonical_candidate_key": "home_school-energy-professional-group",
+      "error_ids": [],
+      "label": "本科学院专硕并列类别提名：材料与化工、能源与动力",
+      "reason": "专硕类别中的合并提名，未逐项给具体申请路径，不由评审拆成独立项目。材料与化工属于专业学位类别，2024年官方名单中的材料工程085601可支持该院相关路径（EV05）；能源与动力按答卷上下文作为能源动力类别的非规范称谓审阅，而非另造同名专业。没有适用时点证据证明此培养类别不存在，故不标invalid；valid不声称已核定2027届项目与指标。",
+      "school_key": "home_school",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**专业型硕士（材料与化工、能源与动力）：** 指标相对充裕，培养周期灵活，与江浙沪新能源产业（如常州动力电池产业集群、苏州工业园区纳米技术与光伏企业）接轨紧密，同样可由学术大牛导师指导。",
+      "canonical_candidate_key": "home_school-energy-professional-group",
+      "error_ids": [],
+      "label": "本科学院专硕类别提名（重复）",
+      "reason": "同A08的并列类别提名，不额外计数量。指标相对充裕、培养周期灵活没有核定依据，不用它们证明录取机会；也不将缺少逐年依据视为已证明无效。",
+      "school_key": "home_school",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**直博生：** 依托博士点直接攻读博士学位（指标单列或优先考虑，需要提前锁定正高导师）。",
+      "canonical_candidate_key": "home_school-energy-direct-phd",
+      "error_ids": [],
+      "feasibility": "先入组体验科研并与导师面谈，大三下表达意愿，随后按当届官方直博目录、资格要求及系统程序申请；2024年全校通知已有部分专业直博路径（EV02），学院已有相关博士培养（EV06）。这是准备期的可核验条件路径，不承诺2027届指标或提高录取概率。",
+      "key_condition": "学生确认长期科研志向，获得本科推免资格，意向导师具有当届博士招生指标，相关专业当届接收本科直博。",
+      "label": "本科学院本科直博备选",
+      "reason": "培养类型段提出本科学院本科直博备选，结合后文科研志向、导师指标条件审阅为同一候选。没有明确博士专业，保持学院及学位路径粒度，不替它补专业。",
+      "school_key": "home_school",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "若确认以科研为终身事业，且导师有博士招生指标，大三下即可向导师表达直博意愿，推免成功率会大幅提高。",
+      "canonical_candidate_key": "home_school-energy-direct-phd",
+      "error_ids": [],
+      "feasibility": "先入组体验科研并与导师面谈，大三下表达意愿，随后按当届官方直博目录、资格要求及系统程序申请；2024年全校通知已有部分专业直博路径（EV02），学院已有相关博士培养（EV06）。这是准备期的可核验条件路径，不承诺2027届指标或提高录取概率。",
+      "key_condition": "学生确认长期科研志向，获得本科推免资格，意向导师具有当届博士招生指标，相关专业当届接收本科直博。",
+      "label": "本科学院本科直博备选（重复）",
+      "reason": "与A10同一条件路径的再次出现。科研志向和导师指标是实际条件；成功率大幅提高并无可量化支持，不采信为录取保证。不因该概率措辞把培养路径本身标为不存在。",
+      "school_key": "home_school",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+  "score": 77.5,
+  "score_interval": [
+    77.5,
+    77.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "BY-A-PLAN",
+  "task_kind": "planning",
+  "task_sha256": "d2fdc2ce2203a4056e1893f0a75b419a4da70de8102b58facb4ba8e831692368",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "填报志愿：华东地区一所211高校 - 本科学院 - 相应专业及导师；",
+        "downgraded": false,
+        "reason": "所有实际招生/培养路径均依托学生本科所在华东地区一所211高校，校内相同学校不构成院校层次降低。本题无层次计分节点；不增设扣分。外方合作院校仅为合作培养主体，未另作境外研究生院校推荐。",
+        "school_key": "home_school"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

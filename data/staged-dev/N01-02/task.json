@@ -1,0 +1,38 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N01",
+  "case_id": "N01",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "medium",
+  "document_question_id": "Q062",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "3723ee6e2ce47720a078647e2ddfd9aa3617d9b89ddfe76c0a0db7b311d2de79",
+  "stages": [
+    {
+      "instruction": "现在是2026年推免申请季。我读智能土木。做过智能建造相关的机器视觉研究，但土木、视觉和机器人三个方向我都接触过一些。准备保研的时间也比较紧，我应该继续深入视觉研究，还是转向机器人系统？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "对了，之前具体做过的工作我还没讲清楚：我标注过工程场景图像，做过视觉模型实验；那篇论文我是非第一作者，主要负责实验和图表。结合这些经历，你觉得前面的建议还合适吗？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N01-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

@@ -1,0 +1,1729 @@
+{
+  "actual_candidate_count": 105,
+  "answer_sha256": "f5297c7e9214096b197c154478272bc9ce0ca8c248558232a3c0e7e62d6dce24",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 60.0
+  },
+  "confirmed_points": 60.0,
+  "diagnostic_score": 60.0,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "N14-01-T2"
+    ],
+    "E2": [
+      "N14-01-T3"
+    ],
+    "E3": [
+      "accuracy"
+    ],
+    "E4": [
+      "N14-01-T2"
+    ],
+    "E5": [
+      "execution"
+    ],
+    "E6": [
+      "N14-01-T5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "会计方向（学硕 120201 / 专硕 MPAcc 125100 / 审计 025700）",
+      "evidence_ids": [
+        "EV1",
+        "EV2"
+      ],
+      "id": "E1",
+      "reason": "会计专硕属1253，1251属工商管理；审计在本周期属1257。名称意图可识别，不因错误代码把全部会计/审计建议判不存在。官方目录见evidence.json EV1、EV2；仅在T2处理。"
+    },
+    {
+      "answer_quote": "专业前 5% 在任何一所 211 都属于\"推免资格稳 + 具备冲击一流财经院校资格\"的区间。",
+      "evidence_ids": [],
+      "id": "E2",
+      "reason": "成绩排名不等于综合推免排序，名额、口径和否决项未知，不能断言任何211前5%资格稳。后文核查有正向价值；过度结论只归T3，不在accuracy重复处罚。"
+    },
+    {
+      "answer_quote": "你已经修过税法、税务会计、中级财务会计，缺口最小，补起来最快。",
+      "evidence_ids": [],
+      "id": "E3",
+      "reason": "题面未披露成绩单或已修课程，将通常课程结构直接写成学生已修事实无依据。只在accuracy处理；T2另按正式先修核验缺失及代码问题判断。"
+    },
+    {
+      "answer_quote": "MPAcc/税务/金融专硕初试科目为管理类联考或经济类联考 + 英语二 + 政治",
+      "evidence_ids": [
+        "EV3"
+      ],
+      "id": "E4",
+      "reason": "错误合并各类考试结构，漏掉税务/金融的专业课，还使MPAcc初试看起来包含政治。官方规定会计初试两单元，政治在复试，见EV3。需核实标注不能消除已写出的错误；仅在T2申请考核路径处理。"
+    },
+    {
+      "answer_quote": "| **11–12 月** | 补录 | 少量院校有补录/二次招生，持续关注 |",
+      "evidence_ids": [
+        "EV4"
+      ],
+      "id": "E5",
+      "reason": "本轮推免年度节奏留出11至12月补录而无独立通道说明。2026秋推免办理截至10月20日，不能作普通推免补录窗口，见EV4。只在execution处理，不把其他学校因此一并判invalid。"
+    },
+    {
+      "answer_quote": "**剔除那些从未录取过普通 211 学生的项目**",
+      "evidence_ids": [],
+      "id": "E6",
+      "reason": "近两年名单未观察到普通211录取不能证明硬性禁入或学生申请不可行，可用于调整风险而不能直接排除。此机械筛除削弱项目优先关系的证据基础，只在T5处理。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N14-01",
+  "input_sha256": "1675ce67ad62fa449716a23570c04ee8351b78ccf95f750a36648cfaf91c9072",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "8fae67bac7726b7312962f4337adfb9ccde2a555979ac99470c122d96b1544c7",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "N14-01-T1",
+      "kind": "quality",
+      "points": 9.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T2",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T3",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "N14-01-T4",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N14-01-T5",
+      "kind": "quality",
+      "points": 3.5
+    },
+    {
+      "grade": 0.5,
+      "id": "accuracy",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "priority",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 105,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A001",
+      "answer_quote": "清华大学（经管学院、五道口金融学院）",
+      "canonical_candidate_key": "清华大学|经管学院、五道口金融学院",
+      "error_ids": [],
+      "label": "经管学院、五道口金融学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A002",
+      "answer_quote": "北京大学（光华管理学院、汇丰商学院、经济学院）",
+      "canonical_candidate_key": "北京大学|光华管理学院、汇丰商学院、经济学院",
+      "error_ids": [],
+      "label": "光华管理学院、汇丰商学院、经济学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A003",
+      "answer_quote": "中国人民大学（商学院、财政金融学院）",
+      "canonical_candidate_key": "中国人民大学|商学院、财政金融学院",
+      "error_ids": [],
+      "label": "商学院、财政金融学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A004",
+      "answer_quote": "复旦大学（管理学院、经济学院）",
+      "canonical_candidate_key": "复旦大学|管理学院、经济学院",
+      "error_ids": [],
+      "label": "管理学院、经济学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "复旦大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A005",
+      "answer_quote": "上海交通大学（安泰经济与管理学院、上海高级金融学院）",
+      "canonical_candidate_key": "上海交通大学|安泰经济与管理学院、上海高级金融学院",
+      "error_ids": [],
+      "label": "安泰经济与管理学院、上海高级金融学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A006",
+      "answer_quote": "厦门大学（管理学院/经济学院，会计学科全国顶尖）",
+      "canonical_candidate_key": "厦门大学|管理学院/经济学院，会计学科全国顶尖",
+      "error_ids": [],
+      "label": "管理学院/经济学院，会计学科全国顶尖",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A007",
+      "answer_quote": "上海财经大学（会计学院、金融学院、公共经济与管理学院）",
+      "canonical_candidate_key": "上海财经大学|会计学院、金融学院、公共经济与管理学院",
+      "error_ids": [],
+      "label": "会计学院、金融学院、公共经济与管理学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "上海财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A008",
+      "answer_quote": "中央财经大学（会计学院、财政税务学院、金融学院）",
+      "canonical_candidate_key": "中央财经大学|会计学院、财政税务学院、金融学院",
+      "error_ids": [],
+      "label": "会计学院、财政税务学院、金融学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A009",
+      "answer_quote": "中南财经政法大学（会计学院、财政税务学院）",
+      "canonical_candidate_key": "中南财经政法大学|会计学院、财政税务学院",
+      "error_ids": [],
+      "label": "会计学院、财政税务学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A010",
+      "answer_quote": "西南财经大学（会计学院、财政税务学院）",
+      "canonical_candidate_key": "西南财经大学|会计学院、财政税务学院",
+      "error_ids": [],
+      "label": "会计学院、财政税务学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A011",
+      "answer_quote": "南开大学",
+      "canonical_candidate_key": "南开大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A012",
+      "answer_quote": "中山大学",
+      "canonical_candidate_key": "中山大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A013",
+      "answer_quote": "浙江大学",
+      "canonical_candidate_key": "浙江大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A014",
+      "answer_quote": "武汉大学",
+      "canonical_candidate_key": "武汉大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A015",
+      "answer_quote": "南京大学",
+      "canonical_candidate_key": "南京大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A016",
+      "answer_quote": "西安交通大学",
+      "canonical_candidate_key": "西安交通大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "西安交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A017",
+      "answer_quote": "同济大学",
+      "canonical_candidate_key": "同济大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A018",
+      "answer_quote": "**对外经济贸易大学**（国际商学院、金融学院）",
+      "canonical_candidate_key": "对外经济贸易大学|国际商学院、金融学院",
+      "error_ids": [],
+      "label": "国际商学院、金融学院",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A019",
+      "answer_quote": "**东北财经大学**（会计学院、税务学院、金融学院）",
+      "canonical_candidate_key": "东北财经大学|会计学院、税务学院、金融学院",
+      "error_ids": [],
+      "label": "会计学院、税务学院、金融学院",
+      "reason": "匹配档三学院合并提名，未明确独立项目，不擅拆。EV6确认税务实际招生单位为财政税务学院，可理解税务学院为不规范简称，不据名称省略判虚构；不保证本人入营或录取。",
+      "school_key": "东北财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A020",
+      "answer_quote": "**江西财经大学**",
+      "canonical_candidate_key": "江西财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "江西财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A021",
+      "answer_quote": "**首都经济贸易大学**（地处北京，就业地缘优势明显）",
+      "canonical_candidate_key": "首都经济贸易大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A022",
+      "answer_quote": "**南京财经大学**",
+      "canonical_candidate_key": "南京财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南京财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A023",
+      "answer_quote": "**南京审计大学**（审计特色，审计专硕强）",
+      "canonical_candidate_key": "南京审计大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南京审计大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A024",
+      "answer_quote": "**天津财经大学**",
+      "canonical_candidate_key": "天津财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "天津财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A025",
+      "answer_quote": "浙江工商大学",
+      "canonical_candidate_key": "浙江工商大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "浙江工商大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A026",
+      "answer_quote": "山东财经大学",
+      "canonical_candidate_key": "山东财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "山东财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A027",
+      "answer_quote": "安徽财经大学",
+      "canonical_candidate_key": "安徽财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "安徽财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A028",
+      "answer_quote": "上海对外经贸大学",
+      "canonical_candidate_key": "上海对外经贸大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "上海对外经贸大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A029",
+      "answer_quote": "广东外语外贸大学",
+      "canonical_candidate_key": "广东外语外贸大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "广东外语外贸大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A030",
+      "answer_quote": "**北京交通大学**",
+      "canonical_candidate_key": "北京交通大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A031",
+      "answer_quote": "**北京科技大学**",
+      "canonical_candidate_key": "北京科技大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A032",
+      "answer_quote": "华北电力大学（北京/保定）",
+      "canonical_candidate_key": "华北电力大学|经管方向（北京/保定合并提名）",
+      "error_ids": [],
+      "label": "经管方向（北京/保定合并提名）",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "华北电力大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A033",
+      "answer_quote": "中国矿业大学（北京/徐州）",
+      "canonical_candidate_key": "中国矿业大学|经管方向（北京/徐州主体未区分）",
+      "error_ids": [],
+      "label": "经管方向（北京/徐州主体未区分）",
+      "reason": "按原文保留方向提名，具体校区/招生主体未区分，不替答卷补成两条项目。身份提名不等于具体可投项目；未因缺逐年审计判invalid或pending。",
+      "school_key": "中国矿业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A034",
+      "answer_quote": "中国石油大学",
+      "canonical_candidate_key": "中国石油大学|经管方向（主体未区分）",
+      "error_ids": [],
+      "label": "经管方向（主体未区分）",
+      "reason": "按原文保留方向提名，具体校区/招生主体未区分，不替答卷补成两条项目。身份提名不等于具体可投项目；未因缺逐年审计判invalid或pending。",
+      "school_key": "中国石油大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A035",
+      "answer_quote": "中国地质大学",
+      "canonical_candidate_key": "中国地质大学|经管方向（主体未区分）",
+      "error_ids": [],
+      "label": "经管方向（主体未区分）",
+      "reason": "按原文保留方向提名，具体校区/招生主体未区分，不替答卷补成两条项目。身份提名不等于具体可投项目；未因缺逐年审计判invalid或pending。",
+      "school_key": "中国地质大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A036",
+      "answer_quote": "合肥工业大学",
+      "canonical_candidate_key": "合肥工业大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "合肥工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A037",
+      "answer_quote": "南京理工大学",
+      "canonical_candidate_key": "南京理工大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A038",
+      "answer_quote": "南京航空航天大学",
+      "canonical_candidate_key": "南京航空航天大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A039",
+      "answer_quote": "河海大学",
+      "canonical_candidate_key": "河海大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "河海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A040",
+      "answer_quote": "武汉理工大学",
+      "canonical_candidate_key": "武汉理工大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "武汉理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A041",
+      "answer_quote": "西南交通大学",
+      "canonical_candidate_key": "西南交通大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A042",
+      "answer_quote": "长安大学",
+      "canonical_candidate_key": "长安大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "长安大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A043",
+      "answer_quote": "太原理工大学",
+      "canonical_candidate_key": "太原理工大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "太原理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A044",
+      "answer_quote": "郑州大学",
+      "canonical_candidate_key": "郑州大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "郑州大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A045",
+      "answer_quote": "南昌大学",
+      "canonical_candidate_key": "南昌大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "南昌大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A046",
+      "answer_quote": "北京工业大学",
+      "canonical_candidate_key": "北京工业大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "北京工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A047",
+      "answer_quote": "苏州大学",
+      "canonical_candidate_key": "苏州大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "苏州大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A048",
+      "answer_quote": "暨南大学",
+      "canonical_candidate_key": "暨南大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "暨南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A049",
+      "answer_quote": "华南理工大学",
+      "canonical_candidate_key": "华南理工大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A050",
+      "answer_quote": "湖南大学",
+      "canonical_candidate_key": "湖南大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A051",
+      "answer_quote": "重庆大学",
+      "canonical_candidate_key": "重庆大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A052",
+      "answer_quote": "四川大学",
+      "canonical_candidate_key": "四川大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "四川大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A053",
+      "answer_quote": "山东大学",
+      "canonical_candidate_key": "山东大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A054",
+      "answer_quote": "吉林大学",
+      "canonical_candidate_key": "吉林大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "吉林大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A055",
+      "answer_quote": "辽宁大学",
+      "canonical_candidate_key": "辽宁大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "辽宁大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A056",
+      "answer_quote": "西北大学",
+      "canonical_candidate_key": "西北大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "西北大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A057",
+      "answer_quote": "云南大学",
+      "canonical_candidate_key": "云南大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "云南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A058",
+      "answer_quote": "华中师范大学",
+      "canonical_candidate_key": "华中师范大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "华中师范大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A059",
+      "answer_quote": "西南大学",
+      "canonical_candidate_key": "西南大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "西南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A060",
+      "answer_quote": "中国农业大学",
+      "canonical_candidate_key": "中国农业大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中国农业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A061",
+      "answer_quote": "中央民族大学",
+      "canonical_candidate_key": "中央民族大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中央民族大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A062",
+      "answer_quote": "北京林业大学",
+      "canonical_candidate_key": "北京林业大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "北京林业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A063",
+      "answer_quote": "中国社会科学院大学（学术氛围好，导师资源强）",
+      "canonical_candidate_key": "中国社会科学院大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "中国社会科学院大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A064",
+      "answer_quote": "上海国家会计学院（MPAcc 品牌极强，就业对口四大/央企财务，但招生规模小）【需核实当年是否接收推免及名额】",
+      "canonical_candidate_key": "上海国家会计学院|MPAcc",
+      "error_ids": [],
+      "feasibility": "该特殊选项明确要求核实当年推免及名额，并提供查专业目录和官网动作。保留为现实可核查方向，不声称已核准剩余窗口。",
+      "key_condition": "当年接收推免、有名额且本人符合申请规则。",
+      "label": "MPAcc",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "上海国家会计学院",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A065",
+      "answer_quote": "**北京化工大学经济管理学院**（管理科学与工程、工商管理学硕、会计专硕等，具体以当年推免目录为准【需核实】）",
+      "canonical_candidate_key": "北京化工大学|经管合并候选",
+      "error_ids": [],
+      "feasibility": "原文要求查当年推免目录，核专业、资格和窗口再申请；EV5为同周期官方细则。",
+      "key_condition": "取得校内推免资格；当年目录中拟选经管专业实际接收，且仍有可申请通道。",
+      "label": "经济管理学院（管科、工商管理学硕、会计专硕合并候选）",
+      "reason": "明确本校兜底建议，但三方向合列，未擅拆独立项目。EV5支持单位身份及申请条件，不证明所有并列项目剩余名额，也不保证兜底录取。",
+      "school_key": "北京化工大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A066",
+      "answer_quote": "广西大学",
+      "canonical_candidate_key": "广西大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "广西大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A067",
+      "answer_quote": "贵州大学",
+      "canonical_candidate_key": "贵州大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "贵州大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A068",
+      "answer_quote": "海南大学",
+      "canonical_candidate_key": "海南大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "海南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A069",
+      "answer_quote": "内蒙古大学",
+      "canonical_candidate_key": "内蒙古大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "内蒙古大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A070",
+      "answer_quote": "石河子大学",
+      "canonical_candidate_key": "石河子大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "石河子大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A071",
+      "answer_quote": "宁夏大学",
+      "canonical_candidate_key": "宁夏大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "宁夏大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A072",
+      "answer_quote": "青海大学",
+      "canonical_candidate_key": "青海大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "青海大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A073",
+      "answer_quote": "山西财经大学",
+      "canonical_candidate_key": "山西财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "山西财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A074",
+      "answer_quote": "河北经贸大学",
+      "canonical_candidate_key": "河北经贸大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "河北经贸大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A075",
+      "answer_quote": "云南财经大学",
+      "canonical_candidate_key": "云南财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "云南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A076",
+      "answer_quote": "贵州财经大学",
+      "canonical_candidate_key": "贵州财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "贵州财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A077",
+      "answer_quote": "新疆财经大学",
+      "canonical_candidate_key": "新疆财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "新疆财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A078",
+      "answer_quote": "甘肃政法大学",
+      "canonical_candidate_key": "甘肃政法大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "甘肃政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A079",
+      "answer_quote": "哈尔滨商业大学",
+      "canonical_candidate_key": "哈尔滨商业大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "哈尔滨商业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A080",
+      "answer_quote": "广东财经大学",
+      "canonical_candidate_key": "广东财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "广东财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A081",
+      "answer_quote": "浙江财经大学（浙财偏匹配）",
+      "canonical_candidate_key": "浙江财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管方向候选",
+      "reason": "择校清单实际候选，按学校及原文合并院系粒度记录，不自行创造或拆分未明确的专业路径。valid表示候选身份与经管方向建议可成立，不表示已审计2026秋名额、门槛或录取概率。",
+      "school_key": "浙江财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A082",
+      "answer_quote": "华北电力",
+      "canonical_candidate_key": "华北电力大学|经管方向（北京/保定合并提名）",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "华北电力大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A083",
+      "answer_quote": "南京理工",
+      "canonical_candidate_key": "南京理工大学|经管方向候选",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "南京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A084",
+      "answer_quote": "武汉理工",
+      "canonical_candidate_key": "武汉理工大学|经管方向候选",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "武汉理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A085",
+      "answer_quote": "合肥工业",
+      "canonical_candidate_key": "合肥工业大学|经管方向候选",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "合肥工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A086",
+      "answer_quote": "西南交通",
+      "canonical_candidate_key": "西南交通大学|经管方向候选",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "西南交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A087",
+      "answer_quote": "中国矿业",
+      "canonical_candidate_key": "中国矿业大学|经管方向（北京/徐州主体未区分）",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "中国矿业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A088",
+      "answer_quote": "中国石油",
+      "canonical_candidate_key": "中国石油大学|经管方向（主体未区分）",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "中国石油大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A089",
+      "answer_quote": "中国地质",
+      "canonical_candidate_key": "中国地质大学|经管方向（主体未区分）",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "中国地质大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A090",
+      "answer_quote": "北京交通",
+      "canonical_candidate_key": "北京交通大学|经管方向候选",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A091",
+      "answer_quote": "北京科技",
+      "canonical_candidate_key": "北京科技大学|经管方向候选",
+      "error_ids": [],
+      "label": "理工类211经管重复建议",
+      "reason": "第一节明确称高性价比腰部区间，属候选建议，与第五节同校经管提名去重。泛称会计/税务/金融不代表每校都招三个项目。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A092",
+      "answer_quote": "东财",
+      "canonical_candidate_key": "东北财经大学|会计学院、税务学院、金融学院",
+      "error_ids": [],
+      "label": "经管主战场重复提名",
+      "reason": "经验分数带明确提名为主战场，与第五节同校建议去重。不采信该自评权重或分数带为录取事实。",
+      "school_key": "东北财经大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A093",
+      "answer_quote": "江财",
+      "canonical_candidate_key": "江西财经大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管主战场重复提名",
+      "reason": "经验分数带明确提名为主战场，与第五节同校建议去重。不采信该自评权重或分数带为录取事实。",
+      "school_key": "江西财经大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A094",
+      "answer_quote": "首经贸",
+      "canonical_candidate_key": "首都经济贸易大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管主战场重复提名",
+      "reason": "经验分数带明确提名为主战场，与第五节同校建议去重。不采信该自评权重或分数带为录取事实。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A095",
+      "answer_quote": "南审",
+      "canonical_candidate_key": "南京审计大学|经管方向候选",
+      "error_ids": [],
+      "label": "经管主战场重复提名",
+      "reason": "经验分数带明确提名为主战场，与第五节同校建议去重。不采信该自评权重或分数带为录取事实。",
+      "school_key": "南京审计大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A096",
+      "answer_quote": "厦大、央财、上财、中山、南开等会计学科强校的博士/学硕",
+      "canonical_candidate_key": "厦门大学|会计博士学硕合并",
+      "error_ids": [],
+      "feasibility": "原文安排计量诊断、论文和文献训练，要求核目录；有现实准备与核查路径，成果和资格仍须验证。",
+      "key_condition": "确认学术/读博意愿，能形成扎实研究报告、数据方法和英语证据，并符合目标项目当年规则。",
+      "label": "会计博士/学硕合并条件提名",
+      "reason": "学术路径具名候选；博士/学硕未给独立项目入口，不擅拆，不接受论文足以进入名校视野为录取保证。",
+      "school_key": "厦门大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A097",
+      "answer_quote": "厦大、央财、上财、中山、南开等会计学科强校的博士/学硕",
+      "canonical_candidate_key": "中央财经大学|会计博士学硕合并",
+      "error_ids": [],
+      "feasibility": "原文安排计量诊断、论文和文献训练，要求核目录；有现实准备与核查路径，成果和资格仍须验证。",
+      "key_condition": "确认学术/读博意愿，能形成扎实研究报告、数据方法和英语证据，并符合目标项目当年规则。",
+      "label": "会计博士/学硕合并条件提名",
+      "reason": "学术路径具名候选；博士/学硕未给独立项目入口，不擅拆，不接受论文足以进入名校视野为录取保证。",
+      "school_key": "中央财经大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A098",
+      "answer_quote": "厦大、央财、上财、中山、南开等会计学科强校的博士/学硕",
+      "canonical_candidate_key": "上海财经大学|会计博士学硕合并",
+      "error_ids": [],
+      "feasibility": "原文安排计量诊断、论文和文献训练，要求核目录；有现实准备与核查路径，成果和资格仍须验证。",
+      "key_condition": "确认学术/读博意愿，能形成扎实研究报告、数据方法和英语证据，并符合目标项目当年规则。",
+      "label": "会计博士/学硕合并条件提名",
+      "reason": "学术路径具名候选；博士/学硕未给独立项目入口，不擅拆，不接受论文足以进入名校视野为录取保证。",
+      "school_key": "上海财经大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A099",
+      "answer_quote": "厦大、央财、上财、中山、南开等会计学科强校的博士/学硕",
+      "canonical_candidate_key": "中山大学|会计博士学硕合并",
+      "error_ids": [],
+      "feasibility": "原文安排计量诊断、论文和文献训练，要求核目录；有现实准备与核查路径，成果和资格仍须验证。",
+      "key_condition": "确认学术/读博意愿，能形成扎实研究报告、数据方法和英语证据，并符合目标项目当年规则。",
+      "label": "会计博士/学硕合并条件提名",
+      "reason": "学术路径具名候选；博士/学硕未给独立项目入口，不擅拆，不接受论文足以进入名校视野为录取保证。",
+      "school_key": "中山大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A100",
+      "answer_quote": "厦大、央财、上财、中山、南开等会计学科强校的博士/学硕",
+      "canonical_candidate_key": "南开大学|会计博士学硕合并",
+      "error_ids": [],
+      "feasibility": "原文安排计量诊断、论文和文献训练，要求核目录；有现实准备与核查路径，成果和资格仍须验证。",
+      "key_condition": "确认学术/读博意愿，能形成扎实研究报告、数据方法和英语证据，并符合目标项目当年规则。",
+      "label": "会计博士/学硕合并条件提名",
+      "reason": "学术路径具名候选；博士/学硕未给独立项目入口，不擅拆，不接受论文足以进入名校视野为录取保证。",
+      "school_key": "南开大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A101",
+      "answer_quote": "1. **税务专硕** —— 主线。对口、缺口小、竞争相对温和、出口清晰，最大化利用你的排名优势。",
+      "canonical_candidate_key": "方向|税务专硕",
+      "error_ids": [],
+      "label": "税务专硕",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A102",
+      "answer_quote": "2. **会计专硕 MPAcc** —— 副线（占申请量 25%）。品牌与就业最好，但名额少，需实习支撑。",
+      "canonical_candidate_key": "方向|会计专硕MPAcc",
+      "error_ids": [
+        "E1"
+      ],
+      "label": "会计专硕MPAcc",
+      "reason": "明确的方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校专业。valid指方向身份可识别，不表示录取概率、数理短板或自评已被核实。代码问题保留专业名称意图并关联E1，仅由T2处理。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A103",
+      "answer_quote": "3. **会计学硕 / 直博** —— 若你在第三节的\"两小时诊断\"中对计量题最有感觉，**且愿意读博，这条应该升到第一位**。",
+      "canonical_candidate_key": "方向|会计学硕/直博合并路径",
+      "error_ids": [],
+      "feasibility": "用计量题、研究训练、博士交流和目录查询验证，保持条件方案。",
+      "key_condition": "计量诊断较好、本人愿读博且目标项目资格通道成立。",
+      "label": "会计学硕/直博合并路径",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A104",
+      "answer_quote": "4. **审计专硕 / 资产评估** —— 稳妥补充，可作为\"稳\"和\"保\"的档位。",
+      "canonical_candidate_key": "方向|审计/资产评估合并路径",
+      "error_ids": [
+        "E1"
+      ],
+      "label": "审计/资产评估合并路径",
+      "reason": "明确的方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校专业。valid指方向身份可识别，不表示录取概率、数理短板或自评已被核实。代码问题保留专业名称意图并关联E1，仅由T2处理。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A105",
+      "answer_quote": "5. **金融专硕** —— **谨慎**。除非你能在暑假前拿下一段券商/基金实习并确认数学课成绩过硬，否则它在你的申请组合中期望收益最低、消耗最大。",
+      "canonical_candidate_key": "方向|金融专硕",
+      "error_ids": [],
+      "feasibility": "原文有金融自测、成绩单和暑期实习动作；限暑假尚有准备期的情景，不假设本轮秋申请者能倒补暑假。",
+      "key_condition": "数学成绩过硬，且准备窗口允许补券商/基金实习，核目标项目条件。",
+      "label": "金融专硕",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A106",
+      "answer_quote": "6. **应用统计 / 数量经济 / 金融工程** —— **不建议**，数理缺口过大，且会计本科的课程证据不足。",
+      "canonical_candidate_key": "方向|应用统计/数量经济/金融工程合并排除",
+      "error_ids": [],
+      "label": "应用统计/数量经济/金融工程合并排除",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A107",
+      "answer_quote": "| **公共管理 / 图书情报 / 法律（非法学）** | — | ★ | 低 | — | 跨度过大，不建议（除非有明确职业规划） |",
+      "canonical_candidate_key": "方向|公共管理/图书情报/法律非法学合并排除",
+      "error_ids": [],
+      "label": "公共管理/图书情报/法律非法学合并排除",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A108",
+      "answer_quote": "只有税法顺 → **税务专硕是你的最优解**",
+      "canonical_candidate_key": "方向|税务专硕",
+      "error_ids": [],
+      "feasibility": "三题各30分钟并记录兴趣，再核项目条件。",
+      "key_condition": "税法诊断做题较顺且有兴趣。",
+      "label": "税务专硕",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A109",
+      "answer_quote": "→ **税务专硕（首选）/ 审计专硕 / 资产评估**",
+      "canonical_candidate_key": "方向|税务/审计/资产评估合并路径",
+      "error_ids": [],
+      "label": "税务/审计/资产评估合并路径",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A110",
+      "answer_quote": "→ **MPAcc / 金融专硕**",
+      "canonical_candidate_key": "方向|MPAcc/金融专硕合并路径",
+      "error_ids": [],
+      "label": "MPAcc/金融专硕合并路径",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A111",
+      "answer_quote": "→ **会计学硕 / 金融学硕 / 管理科学与工程学硕 / 直博**",
+      "canonical_candidate_key": "方向|会计金融管科学硕/直博合并路径",
+      "error_ids": [],
+      "feasibility": "实证报告和导师交流验证；并列不拆学校项目。",
+      "key_condition": "学术意愿明确，有或可形成研究方法证据。",
+      "label": "会计金融管科学硕/直博合并路径",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A112",
+      "answer_quote": "避开对数理要求高的金融工程、数量经济、应用统计。",
+      "canonical_candidate_key": "方向|应用统计/数量经济/金融工程合并排除",
+      "error_ids": [],
+      "label": "应用统计/数量经济/金融工程合并排除",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A113",
+      "answer_quote": "| **管理科学与工程** | 120100（学硕） | ★★★ | 中高 | 运筹学、管理统计学、系统工程 | 想做学术、或看重 211/985 学硕的读博跳板 |",
+      "canonical_candidate_key": "方向|管理科学与工程学硕",
+      "error_ids": [],
+      "feasibility": "原文模块、自测、计量训练及目录核查可执行。",
+      "key_condition": "愿做学术并补运筹学、管理统计等基础。",
+      "label": "管理科学与工程学硕",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A114",
+      "answer_quote": "| **工商管理学硕（会计/财务管理方向）** | 120200/120201 | ★★★★★ | 中 | 计量、实证会计研究方法 | **读博导向**，名额少但竞争者少，对院校背景容忍度高于专硕 |",
+      "canonical_candidate_key": "方向|工商管理学硕会计财管方向",
+      "error_ids": [],
+      "feasibility": "论文训练及意愿核查；不接受竞争者少为录取保证。",
+      "key_condition": "有读博意向并补计量、实证方法。",
+      "label": "工商管理学硕会计财管方向",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A115",
+      "answer_quote": "| **产业经济学 / 数量经济学 / 财政学** | 020205/020201/020203 | ★★★ | 中高 | 中级宏微观、计量 | 想读博做学术，愿意补经济学理论 |",
+      "canonical_candidate_key": "方向|产业经济/数量经济/财政学合并路径",
+      "error_ids": [],
+      "feasibility": "原文给补课和目录核查，专业身份要具体核对，合列不拆学校项目。",
+      "key_condition": "想做学术且愿补经济学、计量。",
+      "label": "产业经济/数量经济/财政学合并路径",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A116",
+      "answer_quote": "| **应用统计专硕** | 025200 | ★★ | **高** | 数理统计、回归分析、机器学习、Python/R | 数学与编程强，想走量化/数据分析就业 |",
+      "canonical_candidate_key": "方向|应用统计",
+      "error_ids": [],
+      "feasibility": "数学、回归、工具自测验证；与后文泛化排除有条件差异，保留此备选。",
+      "key_condition": "数学编程强且有量化/数据就业意向。",
+      "label": "应用统计",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A117",
+      "answer_quote": "| **审计专硕** | 025700 | ★★★★★ | 低 | 审计学深化、内部控制 | 想进四大/内资所，想要比 MPAcc 略低的竞争强度（招生院校较少）【需核实当年招生院校】 |",
+      "canonical_candidate_key": "方向|审计专硕",
+      "error_ids": [
+        "E1"
+      ],
+      "feasibility": "补审计内控并查目录；审计名称可识别，旧代码问题见E1。",
+      "key_condition": "明确审计就业意向且目标专业当年有招生通道。",
+      "label": "审计专硕",
+      "reason": "明确的方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校专业。valid指方向身份可识别，不表示录取概率、数理短板或自评已被核实。代码问题保留专业名称意图并关联E1，仅由T2处理。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A118",
+      "answer_quote": "| **资产评估专硕** | 025600 | ★★★★ | 中 | 资产评估学、企业价值评估 | 竞争强度低于 MPAcc，对口度高，就业面偏窄但稳定 |",
+      "canonical_candidate_key": "方向|资产评估专硕",
+      "error_ids": [],
+      "label": "资产评估专硕",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A119",
+      "answer_quote": "| **直博 / 硕博连读** | — | ★★★★★ | 中高 | 实证研究方法、英文文献阅读 | **科研意愿强**时的最高性价比路径：名校博士项目对 211 高排名 + 有科研产出的学生相对友好 |",
+      "canonical_candidate_key": "方向|直博/硕博连读合并路径",
+      "error_ids": [],
+      "feasibility": "补实证方法与文献、完成研究和博士交流，再核项目规则。",
+      "key_condition": "科研意愿强，有可核验研究产出，且当年项目通道成立。",
+      "label": "直博/硕博连读合并路径",
+      "reason": "明确方向推荐/条件备选/排除，按未指定学校的原文粒度记录，不创造学校项目。未知能力和职业意愿须核查；排除只记录答卷行为，不认可其已确定学生短板。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A120",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "清华大学|经管学院、五道口金融学院",
+      "error_ids": [],
+      "label": "经管学院、五道口金融学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A121",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "北京大学|光华管理学院、汇丰商学院、经济学院",
+      "error_ids": [],
+      "label": "光华管理学院、汇丰商学院、经济学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "北京大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A122",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "中国人民大学|商学院、财政金融学院",
+      "error_ids": [],
+      "label": "商学院、财政金融学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "中国人民大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A123",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "复旦大学|管理学院、经济学院",
+      "error_ids": [],
+      "label": "管理学院、经济学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "复旦大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A124",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "上海交通大学|安泰经济与管理学院、上海高级金融学院",
+      "error_ids": [],
+      "label": "安泰经济与管理学院、上海高级金融学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "上海交通大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A125",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "上海财经大学|会计学院、金融学院、公共经济与管理学院",
+      "error_ids": [],
+      "label": "会计学院、金融学院、公共经济与管理学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "上海财经大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A126",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "中央财经大学|会计学院、财政税务学院、金融学院",
+      "error_ids": [],
+      "label": "会计学院、财政税务学院、金融学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "中央财经大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A127",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "对外经济贸易大学|国际商学院、金融学院",
+      "error_ids": [],
+      "label": "国际商学院、金融学院",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A128",
+      "answer_quote": "≥7.5 可正面冲击\"清北人复交 + 两财一贸 + 厦大\"",
+      "canonical_candidate_key": "厦门大学|管理学院/经济学院，会计学科全国顶尖",
+      "error_ids": [],
+      "label": "管理学院/经济学院，会计学科全国顶尖",
+      "reason": "第二节经验分数带具名提名，可识别清北人复交、两财一贸及厦大。按与第五节同校经管候选去重；不认可经验自评分即可决定录取档次，也不从简称补造精确项目。",
+      "school_key": "厦门大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A129",
+      "answer_quote": "**以税务为主线、MPAcc 为冲刺、审计/资产评估/学硕为稳妥与保底**",
+      "canonical_candidate_key": "方向|税务专硕",
+      "error_ids": [],
+      "label": "税务专硕",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A130",
+      "answer_quote": "**以税务为主线、MPAcc 为冲刺、审计/资产评估/学硕为稳妥与保底**",
+      "canonical_candidate_key": "方向|会计专硕MPAcc",
+      "error_ids": [
+        "E1"
+      ],
+      "label": "会计专硕MPAcc",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A131",
+      "answer_quote": "**以税务为主线、MPAcc 为冲刺、审计/资产评估/学硕为稳妥与保底**",
+      "canonical_candidate_key": "方向|审计/资产评估合并路径",
+      "error_ids": [
+        "E1"
+      ],
+      "label": "审计/资产评估合并路径",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A132",
+      "answer_quote": "**方向选择的理性答案是：以税务专硕为主线，MPAcc 为冲刺，审计/资产评估/学硕为稳妥与保底。**",
+      "canonical_candidate_key": "方向|税务专硕",
+      "error_ids": [],
+      "label": "税务专硕",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A133",
+      "answer_quote": "**方向选择的理性答案是：以税务专硕为主线，MPAcc 为冲刺，审计/资产评估/学硕为稳妥与保底。**",
+      "canonical_candidate_key": "方向|会计专硕MPAcc",
+      "error_ids": [
+        "E1"
+      ],
+      "label": "会计专硕MPAcc",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A134",
+      "answer_quote": "**方向选择的理性答案是：以税务专硕为主线，MPAcc 为冲刺，审计/资产评估/学硕为稳妥与保底。**",
+      "canonical_candidate_key": "方向|审计/资产评估合并路径",
+      "error_ids": [
+        "E1"
+      ],
+      "label": "审计/资产评估合并路径",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A135",
+      "answer_quote": "若你在计量与实证上确有天赋与兴趣，**学硕/直博是绕开院校劣势的最高性价比路径**。",
+      "canonical_candidate_key": "方向|会计学硕/直博合并路径",
+      "error_ids": [],
+      "feasibility": "用全文计量诊断、研究报告及博士交流验证；最高性价比是答卷判断，不是已验证录取结论。",
+      "key_condition": "计量与实证训练显示能力和兴趣，确认学术/读博意愿，符合具体项目条件。",
+      "label": "会计学硕/直博合并路径",
+      "reason": "同一候选在后文再次明确推荐/排除，使用相同canonical key去重；不新增学校或独立项目。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A136",
+      "answer_quote": "金融专硕在你现有条件下期望收益最低，谨慎作为主线。",
+      "canonical_candidate_key": "方向|金融专硕",
+      "error_ids": [],
+      "label": "金融专硕",
+      "reason": "结语重复谨慎提名，原文并未永久排除金融。沿用金融候选key，不把未披露数学和实习认作已确定劣势。",
+      "school_key": "未指定院校",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A137",
+      "answer_quote": "只有计量顺、且愿意读博 → 认真考虑**会计学硕/金融学硕/直博**",
+      "canonical_candidate_key": "方向|会计金融学硕直博合并",
+      "error_ids": [],
+      "feasibility": "原文两小时诊断记录兴趣和作答情况，再核实目标项目通道。",
+      "key_condition": "计量诊断顺且愿意读博。",
+      "label": "会计金融学硕/直博合并路径",
+      "reason": "与此前学术合并方向共享会计/金融/直博主体；不将并列方向拆成学校项目。",
+      "school_key": "未指定院校",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A138",
+      "answer_quote": "都不顺 → 优先**专硕（MPAcc/税务/审计）**",
+      "canonical_candidate_key": "方向|MPAcc税务审计合并",
+      "error_ids": [],
+      "label": "MPAcc/税务/审计合并路径",
+      "reason": "快速诊断都不顺时的明确组合建议；只是方向备选，不创造三条独立学校路径，也不认可不顺即可排除数理方向。",
+      "school_key": "未指定院校",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+  "score": 60.0,
+  "score_interval": [
+    60.0,
+    60.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N14-01",
+  "task_kind": "planning",
+  "task_sha256": "9a32817b5bcee976d19c9f098c81ae8e415fa0aeb820d4ca189fd388e104561f",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题无school_tier节点或层次报告要求，不另设层次扣分；候选全在recommendation_review记录，此处不宣称逐所层次审计。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

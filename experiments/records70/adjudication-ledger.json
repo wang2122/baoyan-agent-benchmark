@@ -1,0 +1,206 @@
+{
+  "schema": "public-node-adjudication-bundle.1",
+  "scope": "eleven frozen Gemini answer-specific quality nodes",
+  "created_at": "2026-10-12T08:19:35+00:00",
+  "records": [
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "TRY-E-03",
+      "question_id": "Q014",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/TRY-E-03/score.json",
+        "sha256": "9abb417c911b38ec83be06fdd4056e1dc4616ff225dee3e23d64e80affa959f5"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/TRY-E-03/evaluation-rubric.json",
+        "sha256": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/TRY-E-03/adjudication.json",
+        "sha256": "ce92f4d30642610ef0a1524e01fc90214515c90bd9a29169de75ed8c612c5c6f"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/TRY-E-03/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N15-03",
+      "question_id": "Q058",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N15-03/score.json",
+        "sha256": "80c65f6400410901bdd1ae8640b7114cce989206c98049a37e48c19ae20fe718"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N15-03/evaluation-rubric.json",
+        "sha256": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N15-03/adjudication.json",
+        "sha256": "e75531f07fcd62a504976773d241af16dcbcc335992e92d7436cf7796d172d17"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N15-03/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N12-02",
+      "question_id": "Q069",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N12-02/score.json",
+        "sha256": "e3cc90a2442c885d2adee9bc8330a04cc7068934ebb843d1ca840400ec3d6799"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N12-02/evaluation-rubric.json",
+        "sha256": "4f1ec7dcd0587901af916ee0b903e28f1c01000d821dfc6d0c692b9768c860db"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N12-02/adjudication.json",
+        "sha256": "2b40df6509a70fc0d5b1db92706f4ed7844a5229e3c39c60df7d62e4bf976345"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N12-02/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N06-02",
+      "question_id": "Q038",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N06-02/score.json",
+        "sha256": "3c99b324695787340c0e400c3dedfae7a2e07855bad97686d9a9cef5591b563f"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N06-02/evaluation-rubric.json",
+        "sha256": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N06-02/adjudication.json",
+        "sha256": "eb2850ada5558cf76af8b7249d501fd89fe3774703d01c96b90272390e84b1fa"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N06-02/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N12-01",
+      "question_id": "Q050",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-01/score.json",
+        "sha256": "844184b1f5de3ad657825b464009feeca191d476a3927960a3cff56554400734"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-01/evaluation-rubric.json",
+        "sha256": "0cc80486011ad49d3e5930ab702f48e5c1ae7bd10715e96757da7bfa6e760068"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-01/adjudication.json",
+        "sha256": "d9aeae0d2e31b0a25e74ff6cc1c6eeb03383062512b85c1f3c0abf3f22e6d730"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-01/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N14-01",
+      "question_id": "Q054",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N14-01/score.json",
+        "sha256": "28128ce00e9c78d11f9894e540aec1913c1612cf00d7fc4288e004e23f3339ff"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N14-01/evaluation-rubric.json",
+        "sha256": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N14-01/adjudication.json",
+        "sha256": "6b1691380aba4ddd248bc89659986a038a664cb90e099af39af7eb34b6d53cf0"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N14-01/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N12-02",
+      "question_id": "Q069",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-02/score.json",
+        "sha256": "bbd5c0d878b9c3ffe2e7feff703a2e0cea2ffd8ffc0de834713ae4b710eb9f51"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-02/evaluation-rubric.json",
+        "sha256": "12ffe371a47a3aae534dffe0a7dba13f4a28173128237bcfb60a5bee74fcb16e"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-02/adjudication.json",
+        "sha256": "ed478a9d85f5995dfbdc2661ca89fbe16baf7f67da4570bf1f2a07c3608421fa"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N12-02/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-E-APPLY",
+      "question_id": "Q012",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/BY-E-APPLY/score.json",
+        "sha256": "c8fdd8c141bba8ec990a8a39602f1e400c33b449911dc59a927de30f293c0644"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/BY-E-APPLY/evaluation-rubric.json",
+        "sha256": "16c1e02a23eafcbaaa882b0eb3c58d1cab038e7913f0d0eb670781eda00a66b5"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/BY-E-APPLY/node-adjudication.json",
+        "sha256": "1d698dd0fb7cde958666949b91569b133d4b245c9eedb4d85c91825b57bb6e16"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/BY-E-APPLY/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N08-03",
+      "question_id": "Q043",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N08-03/score.json",
+        "sha256": "2cb8ea1aba5653d8b025dc2627775e6ac5e5c1439e2b341a3e5eb017d0dac741"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N08-03/evaluation-rubric.json",
+        "sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N08-03/node-adjudication.json",
+        "sha256": "3f1364e4a7a1406bed7a51936075bd55e9b1180d8c9f29c3f857c08b2c1684da"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-8-flash-high/N08-03/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-E-APPLY",
+      "question_id": "Q012",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/BY-E-APPLY/score.json",
+        "sha256": "93f5452762bd62b60de6e6b3dab96960cfd4508d857f6538b4b199f5734869cc"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/BY-E-APPLY/evaluation-rubric.json",
+        "sha256": "16c1e02a23eafcbaaa882b0eb3c58d1cab038e7913f0d0eb670781eda00a66b5"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/BY-E-APPLY/node-adjudication.json",
+        "sha256": "59b9bb85ab547c0516d03549b15e608ff1aa6cf9eb16eea19dfd03b99c8b8c1d"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/BY-E-APPLY/effective-score.json"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N03-03",
+      "question_id": "Q032",
+      "original_score": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N03-03/score.json",
+        "sha256": "74a64d2861e08ad61b8a98f66dd90c9016dad8265b415ffaa8fb3f220afa82f7"
+      },
+      "original_rubric": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N03-03/evaluation-rubric.json",
+        "sha256": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a"
+      },
+      "ledger": {
+        "path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N03-03/node-adjudication.json",
+        "sha256": "faa1b5a062bbe3b6809cac182924a8ed4f56faba7b4eeb8924dbe557c731ccef"
+      },
+      "effective_score_path": "experiments/records70/models/antigravity-gemini-3-1-pro-high/N03-03/effective-score.json"
+    }
+  ],
+  "updated_at": "2026-10-12T08:49:12+00:00"
+}

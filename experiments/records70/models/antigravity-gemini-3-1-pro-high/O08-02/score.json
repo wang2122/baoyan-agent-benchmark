@@ -1,0 +1,748 @@
+{
+  "actual_candidate_count": 11,
+  "answer_sha256": "576b4fdfaac69686f0a2bc970851b58f03bcedf9bf5f78f63d2aa8a45357100a",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 77.5
+  },
+  "confirmed_points": 77.5,
+  "diagnostic_score": 77.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E1": [
+      "R1"
+    ],
+    "E2": [
+      "R3"
+    ],
+    "E3": [
+      "R6"
+    ],
+    "E4": [
+      "R6"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "全文英文初稿由我独立撰写完成，在导师指导下进行了 2 轮针对性修改，并在审稿意见返回后，独立补充了热力学效率分析数据，最终被 EI 会议正规录用发表。",
+      "id": "E1",
+      "reason": "题面只有化工类竞赛转化EI会议一作已发表，未提供英文独立写作、修改轮数、返修补数据等事实；这段以第一人称既成经历给出的高分回答未标明需按真实经历改写。另把在研吸附与催化的完整穿透曲线写成已经测试，亦属同一类成果与贡献状态失真。仅影响R1。"
+    },
+    {
+      "answer_quote": "425–449 分已经稳稳迈过了国内 90% 以上高校夏令营与预推免的硬性及格线（425 分）。",
+      "evidence_ids": [
+        "S1",
+        "S4"
+      ],
+      "id": "E2",
+      "reason": "没有项目门槛及适用周期的依据便把440分一概视为英语已合规，进而建议完全不需重考。评审查到天津大学个别周期425分要求，也查到中石大英语测试单独计入复试；这些仅支持具体项目的门槛和训练，不能推出全国90%以上或其他目标无须补分。错误在于把未经核验的广泛判断当成确定优先级依据，非声称已证实90%统计的反命题；仅影响R3。"
+    },
+    {
+      "answer_quote": "作为绝对底线保障，确保即使外部环境极其严苛也拥有推免直研兜底资格。",
+      "id": "E3",
+      "reason": "推免推荐资格及接收录取须满足本人、本校及接收单位条件，[个人排名已概括]不能自动证明已取得资格；题面没有给出本人推免资格状态。把本校称为保证资格的底线，及把[个人排名已概括]称为锁定名额的铁证，超出已披露事实。未据此断言本校化工硕士项目不存在或不可申请；仅在R6处理。"
+    },
+    {
+      "answer_quote": "制作专属《2024年推免夏令营/预推免申报追踪表》",
+      "id": "E4",
+      "reason": "题面没有申请年份、年级或咨询日期，答卷擅自将2024年和大三下作为已知背景，之后未加条件地把6月考试、5至7月夏令营及9月28日系统开放用于当前优先级安排。应先明确周期或声明假设，再据当届通知确认；这是适用时点缺少依据，不能用当前2026年替代，也不从某年度网页倒推学生年份。仅归R6，不另扣R5。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O08-02",
+  "input_sha256": "30e52cfb4a0e72fbe4bdf8d273b3068f268512f11c2c96bbed245531b819c32c",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "894511059a3863a9f56e9774bce14b23f1a0891568ef397bb24552f0d21d233d",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "R1",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 1,
+      "id": "R2",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R3",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "R4",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "R5",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 0.5,
+      "id": "R6",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 11,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "canonical_candidate_key": "dlut:大连理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S2"
+      ],
+      "label": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "reason": "化工/精细化工实验室组合对应相关化工培养方向。保留原文组合，不拆成两个独立招生路径。2024年举办的2025届官方化工夏令营可支持学院和培养路径身份，不能证明该生本届入营或优营。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "天津大学（化工学院）",
+      "canonical_candidate_key": "tju:天津大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S1"
+      ],
+      "label": "天津大学（化工学院）",
+      "reason": "官方2024级通知明确该院化工、工业催化及材料与化工硕士路径，方向与学生适配；仅作项目身份支持，不能把2023年举办的2024级活动当成学生实际周期。",
+      "school_key": "tju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "华东理工大学（化工学院 / 资源与环境工程学院）",
+      "canonical_candidate_key": "ecust:华东理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S3"
+      ],
+      "label": "华东理工大学（化工学院 / 资源与环境工程学院）",
+      "reason": "官方2024年夏令营总通知列出这两个学院，相关化工/资源环境方向可以作为硕士候选；原文未分别明确独立申请路径，按一个合并组合保存。不凭未完成逐院年度门槛审计认定无效。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "浙江大学（化学工程与生物工程学院）",
+      "canonical_candidate_key": "zju:浙江大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S8"
+      ],
+      "label": "浙江大学（化学工程与生物工程学院）",
+      "reason": "官方2024年工程师夏令营说明部分化学工程硕士项目招生由化工学院负责，支持相关学院及硕士路径身份；不替答卷将工程师学院路径转为新增推荐，不声称其当届所有资格已核实。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "中国石油大学（北京） & 中国石油大学（华东）（化学工程与环境学院 / 化学化工学院）",
+      "canonical_candidate_key": "cup_beijing:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S4"
+      ],
+      "label": "中国石油大学（北京）—原文两校并列中的化工/环境方向",
+      "reason": "两校为实际不同学校，可以分别提取；官方北京校2024级细则支持化学工程与环境学院的化工学硕与专硕。原文共用院系括号，不再拆出跨校跨院系路径；研发适配成立，录取意愿及直通就业的断言不等于已核实录取保障。",
+      "school_key": "cup_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "中国石油大学（北京） & 中国石油大学（华东）（化学工程与环境学院 / 化学化工学院）",
+      "canonical_candidate_key": "upc:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S5"
+      ],
+      "label": "中国石油大学（华东）—原文两校并列中的化学化工方向",
+      "reason": "原文明确华东校，为与北京校不同的候选；2024年学校官方报道支持化学化工学院及化工硕士培养身份。只支持候选方向，不视为该生资格及就业结果保证。",
+      "school_key": "upc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "北京化工大学（化学工程学院）",
+      "canonical_candidate_key": "buct:北京化工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S9"
+      ],
+      "label": "北京化工大学（化学工程学院）",
+      "reason": "官方2024年9月发布的2025年预报名通知明确化学工程学院硕士推免路径，方向适配；不以此证明所有年度优营政策稳定或学生必录。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "东北大学（冶金学院 / 理学院催化所）",
+      "canonical_candidate_key": "neu:东北大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S6",
+        "S7"
+      ],
+      "label": "东北大学（冶金学院 / 理学院催化所）",
+      "reason": "原文合并两个院系，未单列独立申请路径，保留组合。官方理学院2024年资料支持化学及化学工程硕士方向，历史目录也显示冶金学院化学工程与技术，因此广义相关硕士候选成立；未确认“催化所”是独立招生主体，不替答卷创造该所路径，也不因所名检索未命中证明其不存在。",
+      "school_key": "neu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "南京工业大学（化学工程学院 / 材料化学工程国家重点实验室）",
+      "canonical_candidate_key": "njtech:南京工业大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S10",
+        "S11"
+      ],
+      "label": "南京工业大学（化学工程学院 / 材料化学工程国家重点实验室）",
+      "reason": "官网化工学院说明明确化工学硕和材料与化工专硕、工业催化等方向，实验室官网及历史报道支持材料化学工程实验室身份。原文“化学工程学院”可识别指向化工学院；学院与平台组合不机械拆分，也不声称平台是独立招生主体。",
+      "school_key": "njtech",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "浙江工业大学（化学工程学院）",
+      "canonical_candidate_key": "zjut:浙江工业大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "浙江工业大学（化学工程学院）",
+      "reason": "化学工程学院及工业催化为可识别且适配学生的化工硕士方向。未获得适用学生周期的完整通知；这不证明项目不存在或不可申请，本条valid限于候选身份与方向判断，不代表逐年门槛及窗口已审计。",
+      "school_key": "zjut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "本校（辽宁石油化工大学）",
+      "canonical_candidate_key": "lnpu:辽宁石油化工大学本校硕士:answer_group",
+      "error_ids": [
+        "E3"
+      ],
+      "evidence_ids": [
+        "S12"
+      ],
+      "label": "辽宁石油化工大学本校硕士",
+      "reason": "官方2024年章程列有化学工程与技术、材料与化工硕士培养。作为同档本校硕士备选身份成立，然而无条件保证推免资格超出题面，关联E3在R6处理；不能把培养项目存在解释成学生获得本校推免兜底。",
+      "school_key": "lnpu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "重点关注**中国石油大学（北京）、中国石油大学（华东）、大连理工大学、华东理工大学、北京化工大学**。",
+      "canonical_candidate_key": "cup_beijing:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S4"
+      ],
+      "label": "中国石油大学（北京）—原文两校并列中的化工/环境方向",
+      "reason": "院校信息行动中的明确重点候选 与A05为同一组合，未新增独立项目。两校为实际不同学校，可以分别提取；官方北京校2024级细则支持化学工程与环境学院的化工学硕与专硕。原文共用院系括号，不再拆出跨校跨院系路径；研发适配成立，录取意愿及直通就业的断言不等于已核实录取保障。",
+      "school_key": "cup_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "重点关注**中国石油大学（北京）、中国石油大学（华东）、大连理工大学、华东理工大学、北京化工大学**。",
+      "canonical_candidate_key": "upc:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S5"
+      ],
+      "label": "中国石油大学（华东）—原文两校并列中的化学化工方向",
+      "reason": "院校信息行动中的明确重点候选 与A06为同一组合，未新增独立项目。原文明确华东校，为与北京校不同的候选；2024年学校官方报道支持化学化工学院及化工硕士培养身份。只支持候选方向，不视为该生资格及就业结果保证。",
+      "school_key": "upc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "重点关注**中国石油大学（北京）、中国石油大学（华东）、大连理工大学、华东理工大学、北京化工大学**。",
+      "canonical_candidate_key": "dlut:大连理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S2"
+      ],
+      "label": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "reason": "院校信息行动中的明确重点候选 与A01为同一组合，未新增独立项目。化工/精细化工实验室组合对应相关化工培养方向。保留原文组合，不拆成两个独立招生路径。2024年举办的2025届官方化工夏令营可支持学院和培养路径身份，不能证明该生本届入营或优营。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "重点关注**中国石油大学（北京）、中国石油大学（华东）、大连理工大学、华东理工大学、北京化工大学**。",
+      "canonical_candidate_key": "ecust:华东理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S3"
+      ],
+      "label": "华东理工大学（化工学院 / 资源与环境工程学院）",
+      "reason": "院校信息行动中的明确重点候选 与A03为同一组合，未新增独立项目。官方2024年夏令营总通知列出这两个学院，相关化工/资源环境方向可以作为硕士候选；原文未分别明确独立申请路径，按一个合并组合保存。不凭未完成逐院年度门槛审计认定无效。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "重点关注**中国石油大学（北京）、中国石油大学（华东）、大连理工大学、华东理工大学、北京化工大学**。",
+      "canonical_candidate_key": "buct:北京化工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S9"
+      ],
+      "label": "北京化工大学（化学工程学院）",
+      "reason": "院校信息行动中的明确重点候选 与A07为同一组合，未新增独立项目。官方2024年9月发布的2025年预报名通知明确化学工程学院硕士推免路径，方向适配；不以此证明所有年度优营政策稳定或学生必录。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "│  大连理工、天津大学、华东理工、浙江大学    │",
+      "canonical_candidate_key": "dlut:大连理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S2"
+      ],
+      "label": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "reason": "梯队图中的明确候选提名 与A01为同一组合，未新增独立项目。化工/精细化工实验室组合对应相关化工培养方向。保留原文组合，不拆成两个独立招生路径。2024年举办的2025届官方化工夏令营可支持学院和培养路径身份，不能证明该生本届入营或优营。",
+      "school_key": "dlut",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "│  大连理工、天津大学、华东理工、浙江大学    │",
+      "canonical_candidate_key": "tju:天津大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S1"
+      ],
+      "label": "天津大学（化工学院）",
+      "reason": "梯队图中的明确候选提名 与A02为同一组合，未新增独立项目。官方2024级通知明确该院化工、工业催化及材料与化工硕士路径，方向与学生适配；仅作项目身份支持，不能把2023年举办的2024级活动当成学生实际周期。",
+      "school_key": "tju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "│  大连理工、天津大学、华东理工、浙江大学    │",
+      "canonical_candidate_key": "ecust:华东理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S3"
+      ],
+      "label": "华东理工大学（化工学院 / 资源与环境工程学院）",
+      "reason": "梯队图中的明确候选提名 与A03为同一组合，未新增独立项目。官方2024年夏令营总通知列出这两个学院，相关化工/资源环境方向可以作为硕士候选；原文未分别明确独立申请路径，按一个合并组合保存。不凭未完成逐院年度门槛审计认定无效。",
+      "school_key": "ecust",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "│  大连理工、天津大学、华东理工、浙江大学    │",
+      "canonical_candidate_key": "zju:浙江大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S8"
+      ],
+      "label": "浙江大学（化学工程与生物工程学院）",
+      "reason": "梯队图中的明确候选提名 与A04为同一组合，未新增独立项目。官方2024年工程师夏令营说明部分化学工程硕士项目招生由化工学院负责，支持相关学院及硕士路径身份；不替答卷将工程师学院路径转为新增推荐，不声称其当届所有资格已核实。",
+      "school_key": "zju",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "│  中石大(北京/华东)、北京化工、东北大学    │",
+      "canonical_candidate_key": "cup_beijing:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S4"
+      ],
+      "label": "中国石油大学（北京）—原文两校并列中的化工/环境方向",
+      "reason": "梯队图中的明确候选提名 与A05为同一组合，未新增独立项目。两校为实际不同学校，可以分别提取；官方北京校2024级细则支持化学工程与环境学院的化工学硕与专硕。原文共用院系括号，不再拆出跨校跨院系路径；研发适配成立，录取意愿及直通就业的断言不等于已核实录取保障。",
+      "school_key": "cup_beijing",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "│  中石大(北京/华东)、北京化工、东北大学    │",
+      "canonical_candidate_key": "upc:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S5"
+      ],
+      "label": "中国石油大学（华东）—原文两校并列中的化学化工方向",
+      "reason": "梯队图中的明确候选提名 与A06为同一组合，未新增独立项目。原文明确华东校，为与北京校不同的候选；2024年学校官方报道支持化学化工学院及化工硕士培养身份。只支持候选方向，不视为该生资格及就业结果保证。",
+      "school_key": "upc",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "│  中石大(北京/华东)、北京化工、东北大学    │",
+      "canonical_candidate_key": "buct:北京化工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S9"
+      ],
+      "label": "北京化工大学（化学工程学院）",
+      "reason": "梯队图中的明确候选提名 与A07为同一组合，未新增独立项目。官方2024年9月发布的2025年预报名通知明确化学工程学院硕士推免路径，方向适配；不以此证明所有年度优营政策稳定或学生必录。",
+      "school_key": "buct",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "│  中石大(北京/华东)、北京化工、东北大学    │",
+      "canonical_candidate_key": "neu:东北大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S6",
+        "S7"
+      ],
+      "label": "东北大学（冶金学院 / 理学院催化所）",
+      "reason": "梯队图中的明确候选提名 与A08为同一组合，未新增独立项目。原文合并两个院系，未单列独立申请路径，保留组合。官方理学院2024年资料支持化学及化学工程硕士方向，历史目录也显示冶金学院化学工程与技术，因此广义相关硕士候选成立；未确认“催化所”是独立招生主体，不替答卷创造该所路径，也不因所名检索未命中证明其不存在。",
+      "school_key": "neu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "│  南京工业大学、浙江工业大学、本校直研      │",
+      "canonical_candidate_key": "njtech:南京工业大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S10",
+        "S11"
+      ],
+      "label": "南京工业大学（化学工程学院 / 材料化学工程国家重点实验室）",
+      "reason": "梯队图中的明确候选提名 与A09为同一组合，未新增独立项目。官网化工学院说明明确化工学硕和材料与化工专硕、工业催化等方向，实验室官网及历史报道支持材料化学工程实验室身份。原文“化学工程学院”可识别指向化工学院；学院与平台组合不机械拆分，也不声称平台是独立招生主体。",
+      "school_key": "njtech",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "│  南京工业大学、浙江工业大学、本校直研      │",
+      "canonical_candidate_key": "zjut:浙江工业大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [],
+      "label": "浙江工业大学（化学工程学院）",
+      "reason": "梯队图中的明确候选提名 与A10为同一组合，未新增独立项目。化学工程学院及工业催化为可识别且适配学生的化工硕士方向。未获得适用学生周期的完整通知；这不证明项目不存在或不可申请，本条valid限于候选身份与方向判断，不代表逐年门槛及窗口已审计。",
+      "school_key": "zjut",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "│  南京工业大学、浙江工业大学、本校直研      │",
+      "canonical_candidate_key": "lnpu:辽宁石油化工大学本校硕士:answer_group",
+      "error_ids": [
+        "E3"
+      ],
+      "evidence_ids": [
+        "S12"
+      ],
+      "label": "辽宁石油化工大学本校硕士",
+      "reason": "梯队图中的明确候选提名 与A11为同一组合，未新增独立项目。官方2024年章程列有化学工程与技术、材料与化工硕士培养。作为同档本校硕士备选身份成立，然而无条件保证推免资格超出题面，关联E3在R6处理；不能把培养项目存在解释成学生获得本校推免兜底。",
+      "school_key": "lnpu",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "密切关注大连理工、中石大（北京/华东）、华东理工、北化等学院官网。",
+      "canonical_candidate_key": "dlut:大连理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S2"
+      ],
+      "label": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "reason": "材料阶段中要求搜集该候选招生通知 与A01为同一组合，未新增独立项目。化工/精细化工实验室组合对应相关化工培养方向。保留原文组合，不拆成两个独立招生路径。2024年举办的2025届官方化工夏令营可支持学院和培养路径身份，不能证明该生本届入营或优营。",
+      "school_key": "dlut",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "密切关注大连理工、中石大（北京/华东）、华东理工、北化等学院官网。",
+      "canonical_candidate_key": "cup_beijing:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S4"
+      ],
+      "label": "中国石油大学（北京）—原文两校并列中的化工/环境方向",
+      "reason": "材料阶段中要求搜集该候选招生通知 与A05为同一组合，未新增独立项目。两校为实际不同学校，可以分别提取；官方北京校2024级细则支持化学工程与环境学院的化工学硕与专硕。原文共用院系括号，不再拆出跨校跨院系路径；研发适配成立，录取意愿及直通就业的断言不等于已核实录取保障。",
+      "school_key": "cup_beijing",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "密切关注大连理工、中石大（北京/华东）、华东理工、北化等学院官网。",
+      "canonical_candidate_key": "upc:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S5"
+      ],
+      "label": "中国石油大学（华东）—原文两校并列中的化学化工方向",
+      "reason": "材料阶段中要求搜集该候选招生通知 与A06为同一组合，未新增独立项目。原文明确华东校，为与北京校不同的候选；2024年学校官方报道支持化学化工学院及化工硕士培养身份。只支持候选方向，不视为该生资格及就业结果保证。",
+      "school_key": "upc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "密切关注大连理工、中石大（北京/华东）、华东理工、北化等学院官网。",
+      "canonical_candidate_key": "ecust:华东理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S3"
+      ],
+      "label": "华东理工大学（化工学院 / 资源与环境工程学院）",
+      "reason": "材料阶段中要求搜集该候选招生通知 与A03为同一组合，未新增独立项目。官方2024年夏令营总通知列出这两个学院，相关化工/资源环境方向可以作为硕士候选；原文未分别明确独立申请路径，按一个合并组合保存。不凭未完成逐院年度门槛审计认定无效。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "密切关注大连理工、中石大（北京/华东）、华东理工、北化等学院官网。",
+      "canonical_candidate_key": "buct:北京化工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S9"
+      ],
+      "label": "北京化工大学（化学工程学院）",
+      "reason": "材料阶段中要求搜集该候选招生通知 与A07为同一组合，未新增独立项目。官方2024年9月发布的2025年预报名通知明确化学工程学院硕士推免路径，方向适配；不以此证明所有年度优营政策稳定或学生必录。",
+      "school_key": "buct",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33",
+      "answer_quote": "若夏令营已拿大工或中石大等顶尖优营，8 月可轻松完成学业，安心等待接收。",
+      "canonical_candidate_key": "dlut:大连理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S2"
+      ],
+      "label": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "reason": "优营后行动分支中再次提到既有候选；不是新增录取结果 与A01为同一组合，未新增独立项目。化工/精细化工实验室组合对应相关化工培养方向。保留原文组合，不拆成两个独立招生路径。2024年举办的2025届官方化工夏令营可支持学院和培养路径身份，不能证明该生本届入营或优营。",
+      "school_key": "dlut",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A34",
+      "answer_quote": "若夏令营已拿大工或中石大等顶尖优营，8 月可轻松完成学业，安心等待接收。",
+      "canonical_candidate_key": "cup_beijing:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S4"
+      ],
+      "label": "中国石油大学（北京）—原文两校并列中的化工/环境方向",
+      "reason": "优营后行动分支中再次提到既有候选；不是新增录取结果 与A05为同一组合，未新增独立项目。两校为实际不同学校，可以分别提取；官方北京校2024级细则支持化学工程与环境学院的化工学硕与专硕。原文共用院系括号，不再拆出跨校跨院系路径；研发适配成立，录取意愿及直通就业的断言不等于已核实录取保障。",
+      "school_key": "cup_beijing",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A35",
+      "answer_quote": "若夏令营已拿大工或中石大等顶尖优营，8 月可轻松完成学业，安心等待接收。",
+      "canonical_candidate_key": "upc:中国石油大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S5"
+      ],
+      "label": "中国石油大学（华东）—原文两校并列中的化学化工方向",
+      "reason": "优营后行动分支中再次提到既有候选；不是新增录取结果 与A06为同一组合，未新增独立项目。原文明确华东校，为与北京校不同的候选；2024年学校官方报道支持化学化工学院及化工硕士培养身份。只支持候选方向，不视为该生资格及就业结果保证。",
+      "school_key": "upc",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A36",
+      "answer_quote": "大量 985 高校（如大工、东大、天大等）在预推免阶段会出现夏令营优营学生流失（去了清华、浙大、上交等），此时具有 [个人排名已概括] 绩点和一作 EI 的学生极易被补录入选。",
+      "canonical_candidate_key": "dlut:大连理工大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S2"
+      ],
+      "feasibility": "答卷给出8月底至9月中旬关注预推免的动作；可作为补投方向，但未核实名额和当届窗口，“极易补录”无证据。仅记录真实条件建议，不认定入营或录取保证。",
+      "key_condition": "夏令营落选后，相关学院当届硕士预推免仍有可申请批次且满足本人资格及门槛。",
+      "label": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+      "reason": "夏令营落选后的预推免补投分支 与A01为同一组合，未新增独立项目。化工/精细化工实验室组合对应相关化工培养方向。保留原文组合，不拆成两个独立招生路径。2024年举办的2025届官方化工夏令营可支持学院和培养路径身份，不能证明该生本届入营或优营。",
+      "school_key": "dlut",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A37",
+      "answer_quote": "大量 985 高校（如大工、东大、天大等）在预推免阶段会出现夏令营优营学生流失（去了清华、浙大、上交等），此时具有 [个人排名已概括] 绩点和一作 EI 的学生极易被补录入选。",
+      "canonical_candidate_key": "neu:东北大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S6",
+        "S7"
+      ],
+      "feasibility": "答卷给出8月底至9月中旬关注预推免的动作；可作为补投方向，但未核实名额和当届窗口，“极易补录”无证据。仅记录真实条件建议，不认定入营或录取保证。",
+      "key_condition": "夏令营落选后，相关学院当届硕士预推免仍有可申请批次且满足本人资格及门槛。",
+      "label": "东北大学（冶金学院 / 理学院催化所）",
+      "reason": "夏令营落选后的预推免补投分支 与A08为同一组合，未新增独立项目。原文合并两个院系，未单列独立申请路径，保留组合。官方理学院2024年资料支持化学及化学工程硕士方向，历史目录也显示冶金学院化学工程与技术，因此广义相关硕士候选成立；未确认“催化所”是独立招生主体，不替答卷创造该所路径，也不因所名检索未命中证明其不存在。",
+      "school_key": "neu",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A38",
+      "answer_quote": "大量 985 高校（如大工、东大、天大等）在预推免阶段会出现夏令营优营学生流失（去了清华、浙大、上交等），此时具有 [个人排名已概括] 绩点和一作 EI 的学生极易被补录入选。",
+      "canonical_candidate_key": "tju:天津大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S1"
+      ],
+      "feasibility": "答卷给出8月底至9月中旬关注预推免的动作；可作为补投方向，但未核实名额和当届窗口，“极易补录”无证据。仅记录真实条件建议，不认定入营或录取保证。",
+      "key_condition": "夏令营落选后，相关学院当届硕士预推免仍有可申请批次且满足本人资格及门槛。",
+      "label": "天津大学（化工学院）",
+      "reason": "夏令营落选后的预推免补投分支 与A02为同一组合，未新增独立项目。官方2024级通知明确该院化工、工业催化及材料与化工硕士路径，方向与学生适配；仅作项目身份支持，不能把2023年举办的2024级活动当成学生实际周期。",
+      "school_key": "tju",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A39",
+      "answer_quote": "如夏令营受阻，可关注其 9 月预推免补录机会。",
+      "canonical_candidate_key": "zju:浙江大学:answer_group",
+      "error_ids": [],
+      "evidence_ids": [
+        "S8"
+      ],
+      "feasibility": "关注学院预推免通知可以落实补投核验；答卷未证明一定存在补录名额或一定符合门槛，只能评价为有限的条件方向。",
+      "key_condition": "夏令营受阻且该学院当届9月硕士预推免仍开放并接受本人条件。",
+      "label": "浙江大学（化学工程与生物工程学院）",
+      "reason": "该学院夏令营受阻后的条件备选 与A04为同一组合，未新增独立项目。官方2024年工程师夏令营说明部分化学工程硕士项目招生由化工学院负责，支持相关学院及硕士路径身份；不替答卷将工程师学院路径转为新增推荐，不声称其当届所有资格已核实。",
+      "school_key": "zju",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "98e568491b2c1fa920f7fed309a56a3c85a10fed8dd0b2fcd429af676ed5a2e5",
+  "score": 77.5,
+  "score_interval": [
+    77.5,
+    77.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "O08-02",
+  "task_kind": "planning",
+  "task_sha256": "b89a2725b2e302a6573734f23ae817c28f315a116c00f4031398d90942dc114b",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有层次评分节点。按通则，本科基准为其他本科高校，11所实际推荐院校均不低于该基准；层次只作事实记录，不设置额外扣分。已遍阅全文，清华、上交及研发企业/研究院出现在去向背景或雇主讨论中，不作为申请候选；没有具名排除。",
+    "schools": [
+      {
+        "answer_quote": "大连理工大学（化工学院 / 精细化工国家重点实验室）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "dlut"
+      },
+      {
+        "answer_quote": "天津大学（化工学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "tju"
+      },
+      {
+        "answer_quote": "华东理工大学（化工学院 / 资源与环境工程学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "ecust"
+      },
+      {
+        "answer_quote": "浙江大学（化学工程与生物工程学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "zju"
+      },
+      {
+        "answer_quote": "中国石油大学（北京） & 中国石油大学（华东）（化学工程与环境学院 / 化学化工学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "cup_beijing"
+      },
+      {
+        "answer_quote": "中国石油大学（北京） & 中国石油大学（华东）（化学工程与环境学院 / 化学化工学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "upc"
+      },
+      {
+        "answer_quote": "北京化工大学（化学工程学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "buct"
+      },
+      {
+        "answer_quote": "东北大学（冶金学院 / 理学院催化所）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "neu"
+      },
+      {
+        "answer_quote": "南京工业大学（化学工程学院 / 材料化学工程国家重点实验室）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "njtech"
+      },
+      {
+        "answer_quote": "浙江工业大学（化学工程学院）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "zjut"
+      },
+      {
+        "answer_quote": "本校（辽宁石油化工大学）",
+        "downgraded": false,
+        "reason": "本科基准为其他本科高校；该推荐院校至少同档，未发生通则意义上的降级。本题无层次计分项。",
+        "school_key": "lnpu"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

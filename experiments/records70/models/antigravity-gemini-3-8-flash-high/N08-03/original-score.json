@@ -1,0 +1,1651 @@
+{
+  "actual_candidate_count": 35,
+  "answer_sha256": "2996c0823c22e434d30b1812967006168a5ee4fd23bc3245ce529726f6a14c23",
+  "candidate_limit": 34,
+  "confirmed_component_points": {
+    "coverage": 5.35,
+    "quality": 12.5
+  },
+  "confirmed_points": 17.85,
+  "diagnostic_score": null,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E02": [
+      "reasons"
+    ],
+    "E06": [
+      "N08-23"
+    ],
+    "E10": [
+      "reasons"
+    ],
+    "E11": [
+      "reasons"
+    ],
+    "E14": [
+      "reasons"
+    ],
+    "E19": [
+      "reasons"
+    ],
+    "E22": [
+      "reasons"
+    ],
+    "E24": [
+      "reasons"
+    ],
+    "E_guarantee": [
+      "facts"
+    ],
+    "E_skills": [
+      "facts"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "#### 2. 中国人民大学 - 信息资源管理学院\n* **具体专业**：大数据管理与应用 / 数据科学（学术型硕士，代码：1201Z1）",
+      "id": "E02",
+      "reason": "当届信管普通硕士以120500信息资源管理招生，数据管理是其中方向，答卷却明确报1201Z1大数据管理与应用/数据科学学硕。名称和代码共同指向错误项目，不能由评审替换成120500数据管理。见ruc_irm_2027。"
+    },
+    {
+      "answer_quote": "#### 6. 厦门大学 - 经济学院 / 王亚南经济研究院（WISE）\n* **具体专业**：国际商务（专业硕士，代码：025400，数字商务与金融科技方向）",
+      "id": "E06",
+      "reason": "经济学院与WISE是不同招生培养单位，表格、详细标题和具体专业始终斜杠合写，全文没有另列明确独立的经济学院国际商务或WISE国际商务申请方案。提及WISE英语优势只是对合并组合的解析，不能由评审拆出一个参考项目。归属N08-23，不重复扣质量。"
+    },
+    {
+      "answer_quote": "#### 10. 中央财经大学 - 创新发展学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "id": "E10",
+      "reason": "2027官方完整目录033创新发展学院没有025800数字经济；此专硕在005经济学院。创新发展学院金融专硕的大数据金融也不能替代数字经济专业。见cufe_mde_catalog第2、7页。"
+    },
+    {
+      "answer_quote": "| **11** | 北京交通大学 | 经济管理学院 | 数字经济（专业硕士，025800） | 核心主力 | 北京 | 智慧物流与产业数智化特色，同城认可度极高，重点拿offer |",
+      "id": "E11",
+      "reason": "2027经管推免通知完整专业表没有025800数字经济；本科数字经济专业不能证明同名推免硕士可投。见bjtu_catalog。"
+    },
+    {
+      "answer_quote": "#### 14. 南开大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "id": "E14",
+      "reason": "当届南开经济学院推免实施细则限制主修经济学、数学、历史、统计、管理等类别，商务英语属外语专业不符合；修两门量化课不能改变主修类别。答卷没有给出可实现的主修资格方案。另往届数字经济为非全日制统考项目，但失分仅按当届已确认主修限制。见nankai_conditions。"
+    },
+    {
+      "answer_quote": "#### 19. 西南财经大学 - 计算机与人工智能学院 / 中国金融研究院\n* **具体专业**：数字经济（专业硕士，代码：025800，金融科技与大数据金融）",
+      "id": "E19",
+      "reason": "计算机与人工智能学院与中国金融研究院为两个独立单位，全文没有分别明确数字经济申请路径；不拆分两个对象或擅自改为经济学院。往届官方接收名单也将数字经济列于经济学院，两个所报单位各为计算机/金融项目。核心错误是合并后仍未识别实际招生路径。见swufe_prior。"
+    },
+    {
+      "answer_quote": "#### 22. 山东大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "id": "E22",
+      "reason": "当届经济学院2027推免通知中的完整项目表没有025800数字经济，只有理论经济学、应用经济学、金融、税务、国际商务；不能把数字经济科研主题当成同名专硕。已实际查看官方招生表图片。见sdu_catalog。"
+    },
+    {
+      "answer_quote": "#### 24. 苏州大学 - 东吴商学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "id": "E24",
+      "reason": "东吴商学院为可识别商学院旧称，错误不在别名；2027目录数字经济与贸易属于020200应用经济学，答卷明确推荐025800数字经济专硕，两种学位路径不等价。见suda_catalog。"
+    },
+    {
+      "answer_quote": "本校专业第1名享有校内推免特优生或第一梯队保研名额优先选择权，直通本校顶尖经管导师组，确定性100%。",
+      "id": "E_guarantee",
+      "reason": "题设没有披露已获得推免资格、校内直录特优通道或拟录取状态；答卷把排名第1直接换成100%录取。北京工商“基本入营即锁定优营”、江西财大“最高优先级优营直录”等也是同一过度承诺问题，合并记一次，只影响facts。"
+    },
+    {
+      "answer_quote": "具备数据处理、因果推断或编程建模能力",
+      "id": "E_skills",
+      "reason": "题设仅披露修过数据分析、统计学及相关科研实习，没有说明已掌握因果推断或编程建模。答卷把潜力写为已具备能力，并提出列示“高分成绩”，但题设没有相应分数；只归成果与事实状态项，不另扣适配或执行。"
+    }
+  ],
+  "excess_count": 1,
+  "id": "N08-03",
+  "input_sha256": "95c10dc7f771582500d0ca2921eb3545f304325580bed0ba5554169705b6a7b6",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "818a12b83e437f9014438cb54f59021a44c6462ff67bb153401195ce53f08068",
+  "nodes": [
+    {
+      "id": "N08-01",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-03",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-04",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-06",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-08",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-11",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-12",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-13",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-14",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-16",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-17",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-18",
+      "kind": "coverage",
+      "match_coefficient": 0.6,
+      "match_level": "same_department",
+      "matched_answer_item_id": "A21-table",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-19",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-20",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-21",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-22",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-23",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-24",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-25",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-26",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-27",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-28",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A09-table",
+      "points": 2.06,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-29",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-30",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-31",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A23-table",
+      "points": 2.06,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-32",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-33",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "id": "N08-34",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 35
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": "pending",
+      "id": "tier",
+      "kind": "quality",
+      "points": null
+    },
+    {
+      "grade": 1,
+      "id": "execution",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0,
+      "id": "facts",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 35,
+  "official": false,
+  "pending_nodes": [
+    "N08-14",
+    "N08-20",
+    "N08-21",
+    "tier"
+  ],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01-table",
+      "answer_quote": "| **1** | 中国人民大学 | 交叉科学研究院 | 数字经济（专业硕士，025800） | 冲刺档 | 北京 | 前沿跨学科平台，青睐外语+数据复合背景第一名 |",
+      "canonical_candidate_key": "中国人民大学::组合01",
+      "error_ids": [],
+      "label": "中国人民大学｜交叉科学研究院｜数字经济（专业硕士，025800）",
+      "reason": "交叉科学研究院的官方可读招生资料明确是数字经济博士方向，经济学院则有数字经济专业硕士。该院是否有答卷所称025800独立硕士路径仍不能核实；不把博士或微专业替换为硕士，也不以检索未命中断言不存在。见evidence.json:ruc_cross、ruc_cross_current。 本条是全景表出现记录。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A01-detail",
+      "answer_quote": "#### 1. 中国人民大学 - 交叉科学研究院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "中国人民大学::组合01",
+      "error_ids": [],
+      "label": "中国人民大学｜交叉科学研究院｜数字经济（专业硕士，025800）",
+      "reason": "交叉科学研究院的官方可读招生资料明确是数字经济博士方向，经济学院则有数字经济专业硕士。该院是否有答卷所称025800独立硕士路径仍不能核实；不把博士或微专业替换为硕士，也不以检索未命中断言不存在。见evidence.json:ruc_cross、ruc_cross_current。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A02-table",
+      "answer_quote": "| **2** | 中国人民大学 | 信息资源管理学院 | 大数据管理与应用（学术型硕士，1201Z1） | 冲刺档 | 北京 | A+学科，招生跨学科包容度高，注重数据分析与信息洞察 |",
+      "canonical_candidate_key": "中国人民大学::组合02",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中国人民大学｜信息资源管理学院｜大数据管理与应用（学术型硕士，1201Z1）",
+      "reason": "当届信管普通硕士以120500信息资源管理招生，数据管理是其中方向，答卷却明确报1201Z1大数据管理与应用/数据科学学硕。名称和代码共同指向错误项目，不能由评审替换成120500数据管理。见ruc_irm_2027。 本条是全景表出现记录。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A02-detail",
+      "answer_quote": "#### 2. 中国人民大学 - 信息资源管理学院\n* **具体专业**：大数据管理与应用 / 数据科学（学术型硕士，代码：1201Z1）",
+      "canonical_candidate_key": "中国人民大学::组合02",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中国人民大学｜信息资源管理学院｜大数据管理与应用（学术型硕士，1201Z1）",
+      "reason": "当届信管普通硕士以120500信息资源管理招生，数据管理是其中方向，答卷却明确报1201Z1大数据管理与应用/数据科学学硕。名称和代码共同指向错误项目，不能由评审替换成120500数据管理。见ruc_irm_2027。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中国人民大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A03-table",
+      "answer_quote": "| **3** | 对外经济贸易大学 | 国际经济贸易学院 | 数字经济（专业硕士，025800） | 冲刺档 | 北京 | 贸大王牌学院，同城财经高认可度，主打数字经贸与治理 |",
+      "canonical_candidate_key": "对外经济贸易大学::组合03",
+      "error_ids": [],
+      "label": "对外经济贸易大学｜国际经济贸易学院｜数字经济（专业硕士，025800）",
+      "reason": "该院数字经济项目存在，往届官方明确非全日制及统考调剂；答卷将它直接纳入推免夏令营矩阵且未说明学习形式。2027当届是否开放该专业推免路径未能确定，保留学位申请路径争议；不是因为缺链接待核。见uibe_mde。 本条是全景表出现记录。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A03-detail",
+      "answer_quote": "#### 3. 对外经济贸易大学 - 国际经济贸易学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "对外经济贸易大学::组合03",
+      "error_ids": [],
+      "label": "对外经济贸易大学｜国际经济贸易学院｜数字经济（专业硕士，025800）",
+      "reason": "该院数字经济项目存在，往届官方明确非全日制及统考调剂；答卷将它直接纳入推免夏令营矩阵且未说明学习形式。2027当届是否开放该专业推免路径未能确定，保留学位申请路径争议；不是因为缺链接待核。见uibe_mde。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A04-table",
+      "answer_quote": "| **4** | 对外经济贸易大学 | 信息学院 | 管理科学与工程（学术型硕士，大数据与商务智能） | 冲刺档 | 北京 | 商工交叉，重视统计量化基础，全英文科研契合度高 |",
+      "canonical_candidate_key": "对外经济贸易大学::组合04",
+      "error_ids": [],
+      "label": "对外经济贸易大学｜信息学院｜管理科学与工程（学术型硕士，大数据与商务智能）",
+      "reason": "信息学院是人工智能与数据科学学院的旧名，官方更名关系明确，管理科学与工程硕士仍存在。商务智能方向与其学科定位相符，允许把括号当研究侧重，不要求其作为独立专业代码。见uibe_rename、uibe_mse_2026、uibe_mse_scope。 本条是全景表出现记录。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04-detail",
+      "answer_quote": "#### 4. 对外经济贸易大学 - 信息学院\n* **具体专业**：管理科学与工程（学术型硕士，代码：120100，大数据与商务智能方向）",
+      "canonical_candidate_key": "对外经济贸易大学::组合04",
+      "error_ids": [],
+      "label": "对外经济贸易大学｜信息学院｜管理科学与工程（学术型硕士，大数据与商务智能）",
+      "reason": "信息学院是人工智能与数据科学学院的旧名，官方更名关系明确，管理科学与工程硕士仍存在。商务智能方向与其学科定位相符，允许把括号当研究侧重，不要求其作为独立专业代码。见uibe_rename、uibe_mse_2026、uibe_mse_scope。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-table",
+      "answer_quote": "| **5** | 中央财经大学 | 中国互联网经济研究院 | 数字经济学（学术型硕士，自设二级学科） | 冲刺档 | 北京 | 顶尖智库平台，主攻平台经济与数据要素，青睐量化生源 |",
+      "canonical_candidate_key": "中央财经大学::组合05",
+      "error_ids": [],
+      "label": "中央财经大学｜中国互联网经济研究院｜数字经济学（学术型硕士，自设二级学科）",
+      "reason": "旧中国互联网经济研究院已并入国家财经战略研究院；2027目录确有0202Z7数字经济学学硕，包含数字平台与数据要素等方向。旧研究单位与上级招生院关系可以核实，不仅凭旧名否定。见cufe_identity、cufe_new、cufe_mde_catalog。 本条是全景表出现记录。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05-detail",
+      "answer_quote": "#### 5. 中央财经大学 - 中国互联网经济研究院\n* **具体专业**：数字经济学（学术型硕士，自设二级学科）",
+      "canonical_candidate_key": "中央财经大学::组合05",
+      "error_ids": [],
+      "label": "中央财经大学｜中国互联网经济研究院｜数字经济学（学术型硕士，自设二级学科）",
+      "reason": "旧中国互联网经济研究院已并入国家财经战略研究院；2027目录确有0202Z7数字经济学学硕，包含数字平台与数据要素等方向。旧研究单位与上级招生院关系可以核实，不仅凭旧名否定。见cufe_identity、cufe_new、cufe_mde_catalog。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06-table",
+      "answer_quote": "| **6** | 厦门大学 | 经济学院 / 王亚南经济研究院(WISE) | 国际商务（专业硕士，数字商务与金融科技方向） | 冲刺档 | 厦门 | 国际化拔尖平台，全英文面试+计量统计，商英背景高度契合 |",
+      "canonical_candidate_key": "厦门大学::组合06",
+      "error_ids": [
+        "E06"
+      ],
+      "label": "厦门大学｜经济学院 / 王亚南经济研究院(WISE)｜国际商务（专业硕士，数字商务与金融科技方向）",
+      "reason": "经济学院与WISE是不同招生培养单位，表格、详细标题和具体专业始终斜杠合写，全文没有另列明确独立的经济学院国际商务或WISE国际商务申请方案。提及WISE英语优势只是对合并组合的解析，不能由评审拆出一个参考项目。归属N08-23，不重复扣质量。 本条是全景表出现记录。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A06-detail",
+      "answer_quote": "#### 6. 厦门大学 - 经济学院 / 王亚南经济研究院（WISE）\n* **具体专业**：国际商务（专业硕士，代码：025400，数字商务与金融科技方向）",
+      "canonical_candidate_key": "厦门大学::组合06",
+      "error_ids": [
+        "E06"
+      ],
+      "label": "厦门大学｜经济学院 / 王亚南经济研究院(WISE)｜国际商务（专业硕士，数字商务与金融科技方向）",
+      "reason": "经济学院与WISE是不同招生培养单位，表格、详细标题和具体专业始终斜杠合写，全文没有另列明确独立的经济学院国际商务或WISE国际商务申请方案。提及WISE英语优势只是对合并组合的解析，不能由评审拆出一个参考项目。归属N08-23，不重复扣质量。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "厦门大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A07-table",
+      "answer_quote": "| **7** | 武汉大学 | 信息管理学院 | 信息资源管理（学术型硕士，数字文化与大数据分析） | 冲刺档 | 武汉 | 顶尖A+学科，对文理交叉专业第一名有明确破格优待通道 |",
+      "canonical_candidate_key": "武汉大学::组合07",
+      "error_ids": [],
+      "label": "武汉大学｜信息管理学院｜信息资源管理（学术型硕士，数字文化与大数据分析）",
+      "reason": "武汉信息管理学院信息资源管理120500学硕为可识别的真实学科路径，数字文化、大数据可作为内部拟研究领域。它是参考外相关交叉建议；不认定对双非前1%破格等宣传性表述已经核实。 本条是全景表出现记录。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07-detail",
+      "answer_quote": "#### 7. 武汉大学 - 信息管理学院\n* **具体专业**：信息资源管理（学术型硕士，代码：120500，数字文化与大数据分析方向）",
+      "canonical_candidate_key": "武汉大学::组合07",
+      "error_ids": [],
+      "label": "武汉大学｜信息管理学院｜信息资源管理（学术型硕士，数字文化与大数据分析）",
+      "reason": "武汉信息管理学院信息资源管理120500学硕为可识别的真实学科路径，数字文化、大数据可作为内部拟研究领域。它是参考外相关交叉建议；不认定对双非前1%破格等宣传性表述已经核实。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-table",
+      "answer_quote": "| **8** | 同济大学 | 经济与管理学院 | 管理科学与工程（学术型硕士，大数据管理与决策分析） | 冲刺档 | 上海 | 经管A+学科，国际认证完备，重视英语与综合分析逻辑 |",
+      "canonical_candidate_key": "同济大学::组合08",
+      "error_ids": [],
+      "label": "同济大学｜经济与管理学院｜管理科学与工程（学术型硕士，大数据管理与决策分析）",
+      "reason": "同济经管120100管科学硕项目存在，数据管理与决策属于可识别研究侧重。官方硕士项目概览支持管科信息系统等培养领域；不等于金融专硕。见tongji_mse。 本条是全景表出现记录。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-detail",
+      "answer_quote": "#### 8. 同济大学 - 经济与管理学院\n* **具体专业**：管理科学与工程（学术型硕士，代码：120100，大数据管理与决策分析方向）",
+      "canonical_candidate_key": "同济大学::组合08",
+      "error_ids": [],
+      "label": "同济大学｜经济与管理学院｜管理科学与工程（学术型硕士，大数据管理与决策分析）",
+      "reason": "同济经管120100管科学硕项目存在，数据管理与决策属于可识别研究侧重。官方硕士项目概览支持管科信息系统等培养领域；不等于金融专硕。见tongji_mse。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-table",
+      "answer_quote": "| **9** | 对外经济贸易大学 | 国际经济贸易学院 | 国际商务（专业硕士，数字贸易与跨国经营方向） | 核心主力 | 北京 | 商英专业无缝衔接王牌专硕，结合数据分析极具面试杀伤力 |",
+      "canonical_candidate_key": "对外经济贸易大学::组合09",
+      "error_ids": [],
+      "label": "对外经济贸易大学｜国际经济贸易学院｜国际商务（专业硕士，数字贸易与跨国经营方向）",
+      "reason": "与冻结参考N08-28的学校、院系、国际商务硕士项目一致，数字贸易与跨国经营为培养侧重。国际经济贸易学院/国际经济与贸易学院为同一可识别经贸学院名称写法，不因少一“与”否定。 本条是全景表出现记录。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09-detail",
+      "answer_quote": "#### 9. 对外经济贸易大学 - 国际经济贸易学院\n* **具体专业**：国际商务（专业硕士，代码：025400，数字贸易与跨国经营方向）",
+      "canonical_candidate_key": "对外经济贸易大学::组合09",
+      "error_ids": [],
+      "label": "对外经济贸易大学｜国际经济贸易学院｜国际商务（专业硕士，数字贸易与跨国经营方向）",
+      "reason": "与冻结参考N08-28的学校、院系、国际商务硕士项目一致，数字贸易与跨国经营为培养侧重。国际经济贸易学院/国际经济与贸易学院为同一可识别经贸学院名称写法，不因少一“与”否定。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "对外经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10-table",
+      "answer_quote": "| **10** | 中央财经大学 | 创新发展学院 | 数字经济（专业硕士，025800） | 核心主力 | 北京 | 跨学院统筹前沿专硕，名额相对充裕，看重应用实操 |",
+      "canonical_candidate_key": "中央财经大学::组合10",
+      "error_ids": [
+        "E10"
+      ],
+      "label": "中央财经大学｜创新发展学院｜数字经济（专业硕士，025800）",
+      "reason": "2027官方完整目录033创新发展学院没有025800数字经济；此专硕在005经济学院。创新发展学院金融专硕的大数据金融也不能替代数字经济专业。见cufe_mde_catalog第2、7页。 本条是全景表出现记录。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A10-detail",
+      "answer_quote": "#### 10. 中央财经大学 - 创新发展学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "中央财经大学::组合10",
+      "error_ids": [
+        "E10"
+      ],
+      "label": "中央财经大学｜创新发展学院｜数字经济（专业硕士，025800）",
+      "reason": "2027官方完整目录033创新发展学院没有025800数字经济；此专硕在005经济学院。创新发展学院金融专硕的大数据金融也不能替代数字经济专业。见cufe_mde_catalog第2、7页。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中央财经大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A11-table",
+      "answer_quote": "| **11** | 北京交通大学 | 经济管理学院 | 数字经济（专业硕士，025800） | 核心主力 | 北京 | 智慧物流与产业数智化特色，同城认可度极高，重点拿offer |",
+      "canonical_candidate_key": "北京交通大学::组合11",
+      "error_ids": [
+        "E11"
+      ],
+      "label": "北京交通大学｜经济管理学院｜数字经济（专业硕士，025800）",
+      "reason": "2027经管推免通知完整专业表没有025800数字经济；本科数字经济专业不能证明同名推免硕士可投。见bjtu_catalog。 本条是全景表出现记录。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A11-detail",
+      "answer_quote": "#### 11. 北京交通大学 - 经济经管学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "北京交通大学::组合11",
+      "error_ids": [
+        "E11"
+      ],
+      "label": "北京交通大学｜经济管理学院｜数字经济（专业硕士，025800）",
+      "reason": "2027经管推免通知完整专业表没有025800数字经济；本科数字经济专业不能证明同名推免硕士可投。见bjtu_catalog。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A12-table",
+      "answer_quote": "| **12** | 北京交通大学 | 经济管理学院 | 管理科学与工程（学术型硕士，商务智能与大数据分析） | 核心主力 | 北京 | 经管王牌学科，偏好有统计基础与英语阅读能力优异者 |",
+      "canonical_candidate_key": "北京交通大学::组合12",
+      "error_ids": [],
+      "label": "北京交通大学｜经济管理学院｜管理科学与工程（学术型硕士，商务智能与大数据分析）",
+      "reason": "当届官方经管推免目录明确120100管理科学与工程，信息管理和复杂系统智能决策与答卷商务智能、大数据分析实质一致；详细标题“经济经管学院”仅发生在第11条，不另创学院。见bjtu_catalog。 本条是全景表出现记录。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12-detail",
+      "answer_quote": "#### 12. 北京交通大学 - 经济管理学院\n* **具体专业**：管理科学与工程（学术型硕士，代码：120100，商务智能与大数据分析）",
+      "canonical_candidate_key": "北京交通大学::组合12",
+      "error_ids": [],
+      "label": "北京交通大学｜经济管理学院｜管理科学与工程（学术型硕士，商务智能与大数据分析）",
+      "reason": "当届官方经管推免目录明确120100管理科学与工程，信息管理和复杂系统智能决策与答卷商务智能、大数据分析实质一致；详细标题“经济经管学院”仅发生在第11条，不另创学院。见bjtu_catalog。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "北京交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-table",
+      "answer_quote": "| **13** | 北京科技大学 | 经济管理学院 | 管理科学与工程（学术型硕士，大数据与智能运营方向） | 核心主力 | 北京 | 北京优质211，对双非排名前列者友善，科研实习加分显著 |",
+      "canonical_candidate_key": "北京科技大学::组合13",
+      "error_ids": [],
+      "label": "北京科技大学｜经济管理学院｜管理科学与工程（学术型硕士，大数据与智能运营方向）",
+      "reason": "北京科技大学经济管理学院120100管科学硕身份可识别，智能运营为合理研究侧重。与修读统计及数据分析的背景有方向联系；“极为友好”不作为录取事实采信。 本条是全景表出现记录。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13-detail",
+      "answer_quote": "#### 13. 北京科技大学 - 经济管理学院\n* **具体专业**：管理科学与工程（学术型硕士，代码：120100，大数据与智能运营方向）",
+      "canonical_candidate_key": "北京科技大学::组合13",
+      "error_ids": [],
+      "label": "北京科技大学｜经济管理学院｜管理科学与工程（学术型硕士，大数据与智能运营方向）",
+      "reason": "北京科技大学经济管理学院120100管科学硕身份可识别，智能运营为合理研究侧重。与修读统计及数据分析的背景有方向联系；“极为友好”不作为录取事实采信。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "北京科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14-table",
+      "answer_quote": "| **14** | 南开大学 | 经济学院 | 数字经济（专业硕士，025800） | 核心主力 | 天津 | 老牌经管强校，数字经济发展迅速，看重数理与语言综合素养 |",
+      "canonical_candidate_key": "南开大学::组合14",
+      "error_ids": [
+        "E14"
+      ],
+      "label": "南开大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "当届南开经济学院推免实施细则限制主修经济学、数学、历史、统计、管理等类别，商务英语属外语专业不符合；修两门量化课不能改变主修类别。答卷没有给出可实现的主修资格方案。另往届数字经济为非全日制统考项目，但失分仅按当届已确认主修限制。见nankai_conditions。 本条是全景表出现记录。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A14-detail",
+      "answer_quote": "#### 14. 南开大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "南开大学::组合14",
+      "error_ids": [
+        "E14"
+      ],
+      "label": "南开大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "当届南开经济学院推免实施细则限制主修经济学、数学、历史、统计、管理等类别，商务英语属外语专业不符合；修两门量化课不能改变主修类别。答卷没有给出可实现的主修资格方案。另往届数字经济为非全日制统考项目，但失分仅按当届已确认主修限制。见nankai_conditions。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "南开大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A15-table",
+      "answer_quote": "| **15** | 中山大学 | 商学院（深圳校区） | 应用经济学（学术型硕士，数字经济与金融科技方向） | 核心主力 | 深圳 | 湾区前沿区位，办学增量大，青睐跨学科应用型拔尖生源 |",
+      "canonical_candidate_key": "中山大学::组合15",
+      "error_ids": [],
+      "label": "中山大学｜商学院（深圳校区）｜应用经济学（学术型硕士，数字经济与金融科技方向）",
+      "reason": "原深圳商学院调整为管理学院（创业学院）的延续身份有官方依据，不能只按旧名判错；历史商学院应用经济学确实存在。但2027应用经济学是否继续以所报深圳单位及金融科技方向招硕、与国际金融学院金融的跨单位关系，未取得可裁决材料。见sysu_rename、sysu_prior_path；当届学院通知正文访问受限。 本条是全景表出现记录。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A15-detail",
+      "answer_quote": "#### 15. 中山大学 - 商学院（深圳校区）\n* **具体专业**：应用经济学（学术型硕士，代码：020200，数字经济与金融科技方向）",
+      "canonical_candidate_key": "中山大学::组合15",
+      "error_ids": [],
+      "label": "中山大学｜商学院（深圳校区）｜应用经济学（学术型硕士，数字经济与金融科技方向）",
+      "reason": "原深圳商学院调整为管理学院（创业学院）的延续身份有官方依据，不能只按旧名判错；历史商学院应用经济学确实存在。但2027应用经济学是否继续以所报深圳单位及金融科技方向招硕、与国际金融学院金融的跨单位关系，未取得可裁决材料。见sysu_rename、sysu_prior_path；当届学院通知正文访问受限。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中山大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A16-table",
+      "answer_quote": "| **16** | 中南财经政法大学 | 经济学院 | 数字经济（专业硕士，025800） | 核心主力 | 武汉 | 头部财经211，底蕴深厚，对同类财经院校第一名认可极高 |",
+      "canonical_candidate_key": "中南财经政法大学::组合16",
+      "error_ids": [],
+      "label": "中南财经政法大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "中南财经政法大学经济学院数字经济专业硕士基础身份成立，面向经济数字化的目标与意向相关。相较传统理论学硕可作应用型建议；不采信首批试点、极高认可等录取优势推断。 本条是全景表出现记录。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16-detail",
+      "answer_quote": "#### 16. 中南财经政法大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "中南财经政法大学::组合16",
+      "error_ids": [],
+      "label": "中南财经政法大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "中南财经政法大学经济学院数字经济专业硕士基础身份成立，面向经济数字化的目标与意向相关。相较传统理论学硕可作应用型建议；不采信首批试点、极高认可等录取优势推断。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-table",
+      "answer_quote": "| **17** | 中南财经政法大学 | 文澜学院 | 应用经济学（学术型硕士，拔尖创新人才项目） | 核心主力 | 武汉 | 小班化国际化科研培养，全英文文献训练，看重英语与统计 |",
+      "canonical_candidate_key": "中南财经政法大学::组合17",
+      "error_ids": [],
+      "label": "中南财经政法大学｜文澜学院｜应用经济学（学术型硕士，拔尖创新人才项目）",
+      "reason": "文澜学院应用经济学学硕为可识别申请方向，英语与计量训练有背景适配理由。拔尖创新人才项目是培养定位描述，不另计一个学位或候选。 本条是全景表出现记录。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17-detail",
+      "answer_quote": "#### 17. 中南财经政法大学 - 文澜学院\n* **具体专业**：应用经济学（学术型硕士，拔尖创新人才项目）",
+      "canonical_candidate_key": "中南财经政法大学::组合17",
+      "error_ids": [],
+      "label": "中南财经政法大学｜文澜学院｜应用经济学（学术型硕士，拔尖创新人才项目）",
+      "reason": "文澜学院应用经济学学硕为可识别申请方向，英语与计量训练有背景适配理由。拔尖创新人才项目是培养定位描述，不另计一个学位或候选。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中南财经政法大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-table",
+      "answer_quote": "| **18** | 西南财经大学 | 国际商学院 | 国际商务（专业硕士，跨境电商与数字贸易方向） | 核心主力 | 成都 | 国际化特色学院，中英双语授课，商英背景+数据分析天作之合 |",
+      "canonical_candidate_key": "西南财经大学::组合18",
+      "error_ids": [],
+      "label": "西南财经大学｜国际商学院｜国际商务（专业硕士，跨境电商与数字贸易方向）",
+      "reason": "西财国际商学院国际商务专业硕士为可识别实际路径，跨境电商、数字贸易为合理培养兴趣；全英文面试优势不等于保证通过。 本条是全景表出现记录。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18-detail",
+      "answer_quote": "#### 18. 西南财经大学 - 国际商学院\n* **具体专业**：国际商务（专业硕士，代码：025400，跨境电商与数字贸易方向）",
+      "canonical_candidate_key": "西南财经大学::组合18",
+      "error_ids": [],
+      "label": "西南财经大学｜国际商学院｜国际商务（专业硕士，跨境电商与数字贸易方向）",
+      "reason": "西财国际商学院国际商务专业硕士为可识别实际路径，跨境电商、数字贸易为合理培养兴趣；全英文面试优势不等于保证通过。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19-table",
+      "answer_quote": "| **19** | 西南财经大学 | 计算机与人工智能学院 / 金融研究院 | 数字经济（专业硕士，025800） | 核心主力 | 成都 | 工管融合，强调量化工具与算法应用，统计科研经历优势大 |",
+      "canonical_candidate_key": "西南财经大学::组合19",
+      "error_ids": [
+        "E19"
+      ],
+      "label": "西南财经大学｜计算机与人工智能学院 / 金融研究院｜数字经济（专业硕士，025800）",
+      "reason": "计算机与人工智能学院与中国金融研究院为两个独立单位，全文没有分别明确数字经济申请路径；不拆分两个对象或擅自改为经济学院。往届官方接收名单也将数字经济列于经济学院，两个所报单位各为计算机/金融项目。核心错误是合并后仍未识别实际招生路径。见swufe_prior。 本条是全景表出现记录。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A19-detail",
+      "answer_quote": "#### 19. 西南财经大学 - 计算机与人工智能学院 / 中国金融研究院\n* **具体专业**：数字经济（专业硕士，代码：025800，金融科技与大数据金融）",
+      "canonical_candidate_key": "西南财经大学::组合19",
+      "error_ids": [
+        "E19"
+      ],
+      "label": "西南财经大学｜计算机与人工智能学院 / 金融研究院｜数字经济（专业硕士，025800）",
+      "reason": "计算机与人工智能学院与中国金融研究院为两个独立单位，全文没有分别明确数字经济申请路径；不拆分两个对象或擅自改为经济学院。往届官方接收名单也将数字经济列于经济学院，两个所报单位各为计算机/金融项目。核心错误是合并后仍未识别实际招生路径。见swufe_prior。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "西南财经大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A20-table",
+      "answer_quote": "| **20** | 华东师范大学 | 经济与管理学院 | 国际商务（专业硕士，数字商务与商业分析方向） | 核心主力 | 上海 | 优质985，外语氛围优异，极度青睐文商兼修且懂数据的生源 |",
+      "canonical_candidate_key": "华东师范大学::组合20",
+      "error_ids": [],
+      "label": "华东师范大学｜经济与管理学院｜国际商务（专业硕士，数字商务与商业分析方向）",
+      "reason": "华东师大经管国际商务专硕为可识别项目，商业分析和数字商务为拟研究/实践侧重；不另创未给代码的独立项目。 本条是全景表出现记录。",
+      "school_key": "华东师范大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20-detail",
+      "answer_quote": "#### 20. 华东师范大学 - 经济与管理学院\n* **具体专业**：国际商务（专业硕士，代码：025400，数字商务与商业分析方向）",
+      "canonical_candidate_key": "华东师范大学::组合20",
+      "error_ids": [],
+      "label": "华东师范大学｜经济与管理学院｜国际商务（专业硕士，数字商务与商业分析方向）",
+      "reason": "华东师大经管国际商务专硕为可识别项目，商业分析和数字商务为拟研究/实践侧重；不另创未给代码的独立项目。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "华东师范大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-table",
+      "answer_quote": "| **21** | 东南大学 | 经济管理学院 | 管理科学与工程（学术型硕士，电子商务与数字经济方向） | 核心主力 | 南京 | 工科名校商学院，重数据模型与实践分析，跨考接受度高 |",
+      "canonical_candidate_key": "东南大学::组合21",
+      "error_ids": [],
+      "label": "东南大学｜经济管理学院｜管理科学与工程（学术型硕士，电子商务与数字经济方向）",
+      "reason": "东南経管120100学硕身份和电子商务培养关系可由官方核对。2027介绍包括智能决策、金融工程等实质交叉，可评与金融相近及与国际商务相关的路径，但不能算成金融或东蒙国际商务同一专业。见seu_mse_2027、seu_ecommerce。 本条是全景表出现记录。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21-detail",
+      "answer_quote": "#### 21. 东南大学 - 经济管理学院\n* **具体专业**：管理科学与工程（学术型硕士，代码：120100，电子商务与数字经济方向）",
+      "canonical_candidate_key": "东南大学::组合21",
+      "error_ids": [],
+      "label": "东南大学｜经济管理学院｜管理科学与工程（学术型硕士，电子商务与数字经济方向）",
+      "reason": "东南経管120100学硕身份和电子商务培养关系可由官方核对。2027介绍包括智能决策、金融工程等实质交叉，可评与金融相近及与国际商务相关的路径，但不能算成金融或东蒙国际商务同一专业。见seu_mse_2027、seu_ecommerce。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22-table",
+      "answer_quote": "| **22** | 山东大学 | 经济学院 | 数字经济（专业硕士，025800） | 核心主力 | 济南 | 985综合平台，数字经济专硕招生体系完备，对双非排名前茅者友好 |",
+      "canonical_candidate_key": "山东大学::组合22",
+      "error_ids": [
+        "E22"
+      ],
+      "label": "山东大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "当届经济学院2027推免通知中的完整项目表没有025800数字经济，只有理论经济学、应用经济学、金融、税务、国际商务；不能把数字经济科研主题当成同名专硕。已实际查看官方招生表图片。见sdu_catalog。 本条是全景表出现记录。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A22-detail",
+      "answer_quote": "#### 22. 山东大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "山东大学::组合22",
+      "error_ids": [
+        "E22"
+      ],
+      "label": "山东大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "当届经济学院2027推免通知中的完整项目表没有025800数字经济，只有理论经济学、应用经济学、金融、税务、国际商务；不能把数字经济科研主题当成同名专硕。已实际查看官方招生表图片。见sdu_catalog。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A23-table",
+      "answer_quote": "| **23** | 暨南大学 | 经济学院 | 国际商务（专业硕士，数字经贸与跨国供应链方向） | 核心主力 | 广州 | 华南经贸重镇，外向型经济与全英文考核契合商英背景 |",
+      "canonical_candidate_key": "暨南大学::组合23",
+      "error_ids": [],
+      "label": "暨南大学｜经济学院｜国际商务（专业硕士，数字经贸与跨国供应链方向）",
+      "reason": "暨南经济学院国际商务专硕与冻结参考N08-31备选院系之一完全一致。数字经贸供应链为研究侧重，不另要求参考没有的方向代码。 本条是全景表出现记录。",
+      "school_key": "暨南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23-detail",
+      "answer_quote": "#### 23. 暨南大学 - 经济学院\n* **具体专业**：国际商务（专业硕士，代码：025400，数字经贸与跨国供应链方向）",
+      "canonical_candidate_key": "暨南大学::组合23",
+      "error_ids": [],
+      "label": "暨南大学｜经济学院｜国际商务（专业硕士，数字经贸与跨国供应链方向）",
+      "reason": "暨南经济学院国际商务专硕与冻结参考N08-31备选院系之一完全一致。数字经贸供应链为研究侧重，不另要求参考没有的方向代码。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "暨南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24-table",
+      "answer_quote": "| **24** | 苏州大学 | 东吴商学院 | 数字经济（专业硕士，025800） | 核心主力 | 苏州 | 长三角产业数字化高地，211重点商院，生源政策包容开放 |",
+      "canonical_candidate_key": "苏州大学::组合24",
+      "error_ids": [
+        "E24"
+      ],
+      "label": "苏州大学｜东吴商学院｜数字经济（专业硕士，025800）",
+      "reason": "东吴商学院为可识别商学院旧称，错误不在别名；2027目录数字经济与贸易属于020200应用经济学，答卷明确推荐025800数字经济专硕，两种学位路径不等价。见suda_catalog。 本条是全景表出现记录。",
+      "school_key": "苏州大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A24-detail",
+      "answer_quote": "#### 24. 苏州大学 - 东吴商学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "苏州大学::组合24",
+      "error_ids": [
+        "E24"
+      ],
+      "label": "苏州大学｜东吴商学院｜数字经济（专业硕士，025800）",
+      "reason": "东吴商学院为可识别商学院旧称，错误不在别名；2027目录数字经济与贸易属于020200应用经济学，答卷明确推荐025800数字经济专硕，两种学位路径不等价。见suda_catalog。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "苏州大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A25-table",
+      "answer_quote": "| **25** | 首都经济贸易大学 | 经济学院 | 数字经济（专业硕士，025800 / 学硕） | 托底稳妥 | 北京 | 本校主场，专业排名第一拥有特优生直录通道，绝对兜底 |",
+      "canonical_candidate_key": "首都经济贸易大学::组合25",
+      "error_ids": [
+        "E_guarantee"
+      ],
+      "label": "首都经济贸易大学｜经济学院｜数字经济（专业硕士，025800 / 学硕）",
+      "reason": "首经贸经济学院数字经济专业硕士基础身份由官方校报支持；全文明确025800专业硕士为主，括号“数字经济学学硕”仅是未分清的另一路径提名，不能据此增加一个有效硕士组合。有关第1名直录、100%保证另归事实项。见cueb_mde。 本条是全景表出现记录。 录取保证的问题统一关联E_guarantee并只归facts；项目存在性与录取概率分别判断。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25-detail",
+      "answer_quote": "#### 25. 首都经济贸易大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800 / 数字经济学学硕）",
+      "canonical_candidate_key": "首都经济贸易大学::组合25",
+      "error_ids": [
+        "E_guarantee"
+      ],
+      "label": "首都经济贸易大学｜经济学院｜数字经济（专业硕士，025800 / 学硕）",
+      "reason": "首经贸经济学院数字经济专业硕士基础身份由官方校报支持；全文明确025800专业硕士为主，括号“数字经济学学硕”仅是未分清的另一路径提名，不能据此增加一个有效硕士组合。有关第1名直录、100%保证另归事实项。见cueb_mde。 本条为详细推荐中的重复出现，与全景表使用同一去重键。 录取保证的问题统一关联E_guarantee并只归facts；项目存在性与录取概率分别判断。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26-table",
+      "answer_quote": "| **26** | 首都经济贸易大学 | 国际经济贸易学院 | 国际商务（专业硕士，国际贸易与数字商务方向） | 托底稳妥 | 北京 | 本校商英对接核心学院，导师熟稔，确定性最高基石项目 |",
+      "canonical_candidate_key": "首都经济贸易大学::组合26",
+      "error_ids": [],
+      "label": "首都经济贸易大学｜国际经济贸易学院｜国际商务（专业硕士，国际贸易与数字商务方向）",
+      "reason": "官方材料把国际商务专硕放在经济学院，国际经济与贸易为本科专业；答卷单列国际经济贸易学院，是否为当届独立招生单位或名称混用仍有实质身份疑点。官网目录未能取得，不把“未找到学院”升级成不存在的确定结论。见cueb_identity。 本条是全景表出现记录。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A26-detail",
+      "answer_quote": "#### 26. 首都经济贸易大学 - 国际经济贸易学院\n* **具体专业**：国际商务（专业硕士，代码：025400，国际贸易与数字商务方向）",
+      "canonical_candidate_key": "首都经济贸易大学::组合26",
+      "error_ids": [],
+      "label": "首都经济贸易大学｜国际经济贸易学院｜国际商务（专业硕士，国际贸易与数字商务方向）",
+      "reason": "官方材料把国际商务专硕放在经济学院，国际经济与贸易为本科专业；答卷单列国际经济贸易学院，是否为当届独立招生单位或名称混用仍有实质身份疑点。官网目录未能取得，不把“未找到学院”升级成不存在的确定结论。见cueb_identity。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A27-table",
+      "answer_quote": "| **27** | 首都经济贸易大学 | 统计学院 | 应用统计（专业硕士，025200，大数据与商务统计） | 托底稳妥 | 北京 | 本校全国A类优势王牌学科，统计与数据背景可实现高阶深造 |",
+      "canonical_candidate_key": "首都经济贸易大学::组合27",
+      "error_ids": [],
+      "feasibility": "已经修过统计学和数据分析，有相关经历；答卷明确列出概率论数理统计及软件考核重点，可以据此核验兴趣与基础、补课准备。只支持现实的条件备选，不支持其兜底录取概率。",
+      "key_condition": "希望转向较强量化训练，并愿意按所列考核重点准备概率论、数理统计和统计软件。",
+      "label": "首都经济贸易大学｜统计学院｜应用统计（专业硕士，025200，大数据与商务统计）",
+      "reason": "首经贸统计学院应用统计专硕可识别，与既有统计、数据分析课有联系。“若想追求”构成量化转型偏好条件；考核所需概率论数理统计与软件准备是可核验可补课的内容，不把两门已修课等同完整数学基础。 本条是全景表出现记录。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27-detail",
+      "answer_quote": "#### 27. 首都经济贸易大学 - 统计学院\n* **具体专业**：应用统计（专业硕士，代码：025200，大数据与商务统计分析）",
+      "canonical_candidate_key": "首都经济贸易大学::组合27",
+      "error_ids": [],
+      "feasibility": "已经修过统计学和数据分析，有相关经历；答卷明确列出概率论数理统计及软件考核重点，可以据此核验兴趣与基础、补课准备。只支持现实的条件备选，不支持其兜底录取概率。",
+      "key_condition": "希望转向较强量化训练，并愿意按所列考核重点准备概率论、数理统计和统计软件。",
+      "label": "首都经济贸易大学｜统计学院｜应用统计（专业硕士，025200，大数据与商务统计）",
+      "reason": "首经贸统计学院应用统计专硕可识别，与既有统计、数据分析课有联系。“若想追求”构成量化转型偏好条件；考核所需概率论数理统计与软件准备是可核验可补课的内容，不把两门已修课等同完整数学基础。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28-table",
+      "answer_quote": "| **28** | 北京工商大学 | 经济学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 北京 | 北京市属优质财经，数字经济布局早，对首经贸第一名免试级接纳 |",
+      "canonical_candidate_key": "北京工商大学::组合28",
+      "error_ids": [
+        "E_guarantee"
+      ],
+      "label": "北京工商大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "官方目录变化通知确有经济学院025800数字经济。参考外同城数字经济建议可支持质量，不能因为不在参考名单而判错；入营即优营承诺另归事实。见btbu_mde。 本条是全景表出现记录。 录取保证的问题统一关联E_guarantee并只归facts；项目存在性与录取概率分别判断。",
+      "school_key": "北京工商大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28-detail",
+      "answer_quote": "#### 28. 北京工商大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "北京工商大学::组合28",
+      "error_ids": [
+        "E_guarantee"
+      ],
+      "label": "北京工商大学｜经济学院｜数字经济（专业硕士，025800）",
+      "reason": "官方目录变化通知确有经济学院025800数字经济。参考外同城数字经济建议可支持质量，不能因为不在参考名单而判错；入营即优营承诺另归事实。见btbu_mde。 本条为详细推荐中的重复出现，与全景表使用同一去重键。 录取保证的问题统一关联E_guarantee并只归facts；项目存在性与录取概率分别判断。",
+      "school_key": "北京工商大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29-table",
+      "answer_quote": "| **29** | 华东理工大学 | 商学院 | 国际商务（专业硕士，数字贸易与商业分析方向） | 托底稳妥 | 上海 | 上海优质211，多项国际商科认证，跨考友好度极高 |",
+      "canonical_candidate_key": "华东理工大学::组合29",
+      "error_ids": [],
+      "label": "华东理工大学｜商学院｜国际商务（专业硕士，数字贸易与商业分析方向）",
+      "reason": "华东理工商学院国际商务专硕为可识别经管路径，数字贸易/商业分析作为兴趣侧重合理；没有实际参考同校项目可匹配。 本条是全景表出现记录。",
+      "school_key": "华东理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29-detail",
+      "answer_quote": "#### 29. 华东理工大学 - 商学院\n* **具体专业**：国际商务（专业硕士，代码：025400，数字贸易与商业分析方向）",
+      "canonical_candidate_key": "华东理工大学::组合29",
+      "error_ids": [],
+      "label": "华东理工大学｜商学院｜国际商务（专业硕士，数字贸易与商业分析方向）",
+      "reason": "华东理工商学院国际商务专硕为可识别经管路径，数字贸易/商业分析作为兴趣侧重合理；没有实际参考同校项目可匹配。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "华东理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A30-table",
+      "answer_quote": "| **30** | 南京农业大学 | 经济管理学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 南京 | 经管学科评估A类，数字经济专硕竞争相对平缓，高性价比985/211平台 |",
+      "canonical_candidate_key": "南京农业大学::组合30",
+      "error_ids": [],
+      "label": "南京农业大学｜经济管理学院｜数字经济（专业硕士，025800）",
+      "reason": "2026官方会议公告只确认增设数字经济二级学科学位点，未证明025800专硕。2027完整目录在官方系统需验证码，无法确认究竟是学硕二级学科还是数字经济专硕，属于实质学位路径疑点。见njau_change、njau_catalog。 本条是全景表出现记录。",
+      "school_key": "南京农业大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A30-detail",
+      "answer_quote": "#### 30. 南京农业大学 - 经济管理学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "南京农业大学::组合30",
+      "error_ids": [],
+      "label": "南京农业大学｜经济管理学院｜数字经济（专业硕士，025800）",
+      "reason": "2026官方会议公告只确认增设数字经济二级学科学位点，未证明025800专硕。2027完整目录在官方系统需验证码，无法确认究竟是学硕二级学科还是数字经济专硕，属于实质学位路径疑点。见njau_change、njau_catalog。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "南京农业大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A31-table",
+      "answer_quote": "| **31** | 中国地质大学（北京） | 经济管理学院 | 管理科学与工程（学术型硕士，大数据管理与信息决策） | 托底稳妥 | 北京 | 北京学院路211，注重文商跨考，区位极佳且稳保概率极高 |",
+      "canonical_candidate_key": "中国地质大学（北京）::组合31",
+      "error_ids": [],
+      "label": "中国地质大学（北京）｜经济管理学院｜管理科学与工程（学术型硕士，大数据管理与信息决策）",
+      "reason": "中国地质大学（北京）経管120100管理科学与工程学硕可识别；大数据和信息决策可作该学科研究侧重。是参考外经管交叉建议，不因无参考同校项目标错。 本条是全景表出现记录。",
+      "school_key": "中国地质大学（北京）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31-detail",
+      "answer_quote": "#### 31. 中国地质大学（北京） - 经济管理学院\n* **具体专业**：管理科学与工程（学术型硕士，代码：120100，大数据管理与信息决策）",
+      "canonical_candidate_key": "中国地质大学（北京）::组合31",
+      "error_ids": [],
+      "label": "中国地质大学（北京）｜经济管理学院｜管理科学与工程（学术型硕士，大数据管理与信息决策）",
+      "reason": "中国地质大学（北京）経管120100管理科学与工程学硕可识别；大数据和信息决策可作该学科研究侧重。是参考外经管交叉建议，不因无参考同校项目标错。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "中国地质大学（北京）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32-table",
+      "answer_quote": "| **32** | 西安电子科技大学 | 经济与管理学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 西安 | 电子信息211名校，依托数智技术背景赋能，生源政策友善 |",
+      "canonical_candidate_key": "西安电子科技大学::组合32",
+      "error_ids": [],
+      "label": "西安电子科技大学｜经济与管理学院｜数字经济（专业硕士，025800）",
+      "reason": "官方院简介列有管科、应用经济学和金融等硕士点，却未列数字经济/国际商务，招生简章页面正文也未能读取。当届是否新增025800项目没有可裁决资料，不能用无年款简介直接断言不存在；详细条目的国际商务另作提名提取，不给匹配。见xidian_identity、xidian_notice。 本条是全景表出现记录。",
+      "school_key": "西安电子科技大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A32-detail",
+      "answer_quote": "#### 32. 西安电子科技大学 - 经济与管理学院\n* **具体专业**：数字经济（专业硕士，代码：025800 / 国际商务）",
+      "canonical_candidate_key": "西安电子科技大学::组合32",
+      "error_ids": [],
+      "label": "西安电子科技大学｜经济与管理学院｜数字经济（专业硕士，025800）",
+      "reason": "官方院简介列有管科、应用经济学和金融等硕士点，却未列数字经济/国际商务，招生简章页面正文也未能读取。当届是否新增025800项目没有可裁决资料，不能用无年款简介直接断言不存在；详细条目的国际商务另作提名提取，不给匹配。见xidian_identity、xidian_notice。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "西安电子科技大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A33-table",
+      "answer_quote": "| **33** | 东北财经大学 | 数字经济学院 / 经济学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 大连 | 老牌顶尖财经院校，应用经济学科实力雄厚，对财经联军极优待 |",
+      "canonical_candidate_key": "东北财经大学::组合33",
+      "error_ids": [],
+      "label": "东北财经大学｜数字经济学院 / 经济学院｜数字经济（专业硕士，025800）",
+      "reason": "往届官方招生章程支持经济学院数字经济培养，但“数字经济学院 / 经济学院”是否为名称调整、隶属说明或两个独立招生单位，没有可核实的同一单位关系。不能机械拆分或仅靠“未找到”判虚构，保留招生主体争议。见dufe_mde。 本条是全景表出现记录。",
+      "school_key": "东北财经大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A33-detail",
+      "answer_quote": "#### 33. 东北财经大学 - 数字经济学院 / 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800）",
+      "canonical_candidate_key": "东北财经大学::组合33",
+      "error_ids": [],
+      "label": "东北财经大学｜数字经济学院 / 经济学院｜数字经济（专业硕士，025800）",
+      "reason": "往届官方招生章程支持经济学院数字经济培养，但“数字经济学院 / 经济学院”是否为名称调整、隶属说明或两个独立招生单位，没有可核实的同一单位关系。不能机械拆分或仅靠“未找到”判虚构，保留招生主体争议。见dufe_mde。 本条为详细推荐中的重复出现，与全景表使用同一去重键。",
+      "school_key": "东北财经大学",
+      "treatment": "direct",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A34-table",
+      "answer_quote": "| **34** | 江西财经大学 | 国际经贸学院 | 国际商务（专业硕士，数字经贸与国际投资方向） | 托底稳妥 | 南昌 | 传统财经强校，统计与国际贸易底蕴扎实，第一名极易锁定优营 |",
+      "canonical_candidate_key": "江西财经大学::组合34",
+      "error_ids": [
+        "E_guarantee"
+      ],
+      "label": "江西财经大学｜国际经贸学院｜国际商务（专业硕士，数字经贸与国际投资方向）",
+      "reason": "江西财经国际经贸学院国际商务专硕为可识别实际项目，商英与跨国经营有适配关系。参考未含该校不构成无效；优先级优营直录的承诺另按事实项审阅。 本条是全景表出现记录。 录取保证的问题统一关联E_guarantee并只归facts；项目存在性与录取概率分别判断。",
+      "school_key": "江西财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A34-detail",
+      "answer_quote": "#### 34. 江西财经大学 - 国际经贸学院\n* **具体专业**：国际商务（专业硕士，代码：025400，数字经贸与国际投资方向）",
+      "canonical_candidate_key": "江西财经大学::组合34",
+      "error_ids": [
+        "E_guarantee"
+      ],
+      "label": "江西财经大学｜国际经贸学院｜国际商务（专业硕士，数字经贸与国际投资方向）",
+      "reason": "江西财经国际经贸学院国际商务专硕为可识别实际项目，商英与跨国经营有适配关系。参考未含该校不构成无效；优先级优营直录的承诺另按事实项审阅。 本条为详细推荐中的重复出现，与全景表使用同一去重键。 录取保证的问题统一关联E_guarantee并只归facts；项目存在性与录取概率分别判断。",
+      "school_key": "江西财经大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32-mib-nomination",
+      "answer_quote": "#### 32. 西安电子科技大学 - 经济与管理学院\n* **具体专业**：数字经济（专业硕士，代码：025800 / 国际商务）",
+      "canonical_candidate_key": "西安电子科技大学::经管国际商务提名",
+      "error_ids": [],
+      "label": "西安电子科技大学｜经济与管理学院｜国际商务（括号提名）",
+      "reason": "详细第32条另出现“/ 国际商务”，国际商务是不同专业，表格只明确数字经济。完整提取这个附带候选提名；没有明确可投的独立申请路径，不参与覆盖。官方未取得当届该项目招生证据，见xidian_identity、xidian_notice。",
+      "school_key": "西安电子科技大学",
+      "treatment": "mentioned",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A25-academic-nomination",
+      "answer_quote": "#### 25. 首都经济贸易大学 - 经济学院\n* **具体专业**：数字经济（专业硕士，代码：025800 / 数字经济学学硕）",
+      "canonical_candidate_key": "首都经济贸易大学::组合25",
+      "error_ids": [],
+      "label": "首都经济贸易大学｜经济学院｜数字经济学学硕（含糊备选）",
+      "reason": "同一编号专业括号将025800专硕与数字经济学学硕混写，没有另一套招生专业代码或明确独立路径。记录其出现但与原组合共用去重键，不由评审另创学硕推荐；学硕身份未被专硕校报证明，也不能参与匹配。",
+      "school_key": "首都经济贸易大学",
+      "treatment": "mentioned",
+      "validity": "pending"
+    },
+    {
+      "answer_item_id": "A02-data-science-name",
+      "answer_quote": "#### 2. 中国人民大学 - 信息资源管理学院\n* **具体专业**：大数据管理与应用 / 数据科学（学术型硕士，代码：1201Z1）",
+      "canonical_candidate_key": "中国人民大学::组合02",
+      "error_ids": [
+        "E02"
+      ],
+      "label": "中国人民大学｜信息资源管理学院｜数据科学（同码并列名称）",
+      "reason": "答卷将数据科学与大数据管理与应用并列，并共用1201Z1。记录名称出现，不凭并列词创造第二条申请路径；此错误同E02，由reasons处理一次。",
+      "school_key": "中国人民大学",
+      "treatment": "mentioned",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A07-execution",
+      "answer_quote": "武大信管",
+      "canonical_candidate_key": "武汉大学::组合07",
+      "error_ids": [],
+      "label": "武汉大学｜执行段落重复提及组合7",
+      "reason": "执行段落对该校唯一已列组合的简称重复，未新增具体项目；按原组合处理。武汉信息管理学院信息资源管理120500学硕为可识别的真实学科路径，数字文化、大数据可作为内部拟研究领域。它是参考外相关交叉建议；不认定对双非前1%破格等宣传性表述已经核实。",
+      "school_key": "武汉大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08-execution",
+      "answer_quote": "同济经管",
+      "canonical_candidate_key": "同济大学::组合08",
+      "error_ids": [],
+      "label": "同济大学｜执行段落重复提及组合8",
+      "reason": "执行段落对该校唯一已列组合的简称重复，未新增具体项目；按原组合处理。同济经管120100管科学硕项目存在，数据管理与决策属于可识别研究侧重。官方硕士项目概览支持管科信息系统等培养领域；不等于金融专硕。见tongji_mse。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22-execution",
+      "answer_quote": "山大等预推免通道",
+      "canonical_candidate_key": "山东大学::组合22",
+      "error_ids": [
+        "E22"
+      ],
+      "label": "山东大学｜执行段落重复提及组合22",
+      "reason": "执行段落对该校唯一已列组合的简称重复，未新增具体项目；按原组合处理。当届经济学院2027推免通知中的完整项目表没有025800数字经济，只有理论经济学、应用经济学、金融、税务、国际商务；不能把数字经济科研主题当成同名专硕。已实际查看官方招生表图片。见sdu_catalog。",
+      "school_key": "山东大学",
+      "treatment": "direct",
+      "validity": "invalid"
+    }
+  ],
+  "reference_denominator": 34,
+  "rubric_sha256": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+  "score": null,
+  "score_interval": [
+    17.85,
+    29.03
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "N08-03",
+  "task_kind": "recommendation",
+  "task_sha256": "ef92b8dd7f7caaa3a56f688a011b8da8df5803da969af801445f27d4bc4cd7b6",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "| **1** | 中国人民大学 | 交叉科学研究院 | 数字经济（专业硕士，025800） | 冲刺档 | 北京 | 前沿跨学科平台，青睐外语+数据复合背景第一名 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "中国人民大学"
+      },
+      {
+        "answer_quote": "| **3** | 对外经济贸易大学 | 国际经济贸易学院 | 数字经济（专业硕士，025800） | 冲刺档 | 北京 | 贸大王牌学院，同城财经高认可度，主打数字经贸与治理 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "对外经济贸易大学"
+      },
+      {
+        "answer_quote": "| **5** | 中央财经大学 | 中国互联网经济研究院 | 数字经济学（学术型硕士，自设二级学科） | 冲刺档 | 北京 | 顶尖智库平台，主攻平台经济与数据要素，青睐量化生源 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "中央财经大学"
+      },
+      {
+        "answer_quote": "| **6** | 厦门大学 | 经济学院 / 王亚南经济研究院(WISE) | 国际商务（专业硕士，数字商务与金融科技方向） | 冲刺档 | 厦门 | 国际化拔尖平台，全英文面试+计量统计，商英背景高度契合 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "厦门大学"
+      },
+      {
+        "answer_quote": "| **7** | 武汉大学 | 信息管理学院 | 信息资源管理（学术型硕士，数字文化与大数据分析） | 冲刺档 | 武汉 | 顶尖A+学科，对文理交叉专业第一名有明确破格优待通道 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "武汉大学"
+      },
+      {
+        "answer_quote": "| **8** | 同济大学 | 经济与管理学院 | 管理科学与工程（学术型硕士，大数据管理与决策分析） | 冲刺档 | 上海 | 经管A+学科，国际认证完备，重视英语与综合分析逻辑 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "| **11** | 北京交通大学 | 经济管理学院 | 数字经济（专业硕士，025800） | 核心主力 | 北京 | 智慧物流与产业数智化特色，同城认可度极高，重点拿offer |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "北京交通大学"
+      },
+      {
+        "answer_quote": "| **13** | 北京科技大学 | 经济管理学院 | 管理科学与工程（学术型硕士，大数据与智能运营方向） | 核心主力 | 北京 | 北京优质211，对双非排名前列者友善，科研实习加分显著 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "北京科技大学"
+      },
+      {
+        "answer_quote": "| **14** | 南开大学 | 经济学院 | 数字经济（专业硕士，025800） | 核心主力 | 天津 | 老牌经管强校，数字经济发展迅速，看重数理与语言综合素养 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "南开大学"
+      },
+      {
+        "answer_quote": "| **15** | 中山大学 | 商学院（深圳校区） | 应用经济学（学术型硕士，数字经济与金融科技方向） | 核心主力 | 深圳 | 湾区前沿区位，办学增量大，青睐跨学科应用型拔尖生源 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "中山大学"
+      },
+      {
+        "answer_quote": "| **16** | 中南财经政法大学 | 经济学院 | 数字经济（专业硕士，025800） | 核心主力 | 武汉 | 头部财经211，底蕴深厚，对同类财经院校第一名认可极高 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "中南财经政法大学"
+      },
+      {
+        "answer_quote": "| **18** | 西南财经大学 | 国际商学院 | 国际商务（专业硕士，跨境电商与数字贸易方向） | 核心主力 | 成都 | 国际化特色学院，中英双语授课，商英背景+数据分析天作之合 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "西南财经大学"
+      },
+      {
+        "answer_quote": "| **20** | 华东师范大学 | 经济与管理学院 | 国际商务（专业硕士，数字商务与商业分析方向） | 核心主力 | 上海 | 优质985，外语氛围优异，极度青睐文商兼修且懂数据的生源 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "华东师范大学"
+      },
+      {
+        "answer_quote": "| **21** | 东南大学 | 经济管理学院 | 管理科学与工程（学术型硕士，电子商务与数字经济方向） | 核心主力 | 南京 | 工科名校商学院，重数据模型与实践分析，跨考接受度高 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "| **22** | 山东大学 | 经济学院 | 数字经济（专业硕士，025800） | 核心主力 | 济南 | 985综合平台，数字经济专硕招生体系完备，对双非排名前茅者友好 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为985；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "山东大学"
+      },
+      {
+        "answer_quote": "| **23** | 暨南大学 | 经济学院 | 国际商务（专业硕士，数字经贸与跨国供应链方向） | 核心主力 | 广州 | 华南经贸重镇，外向型经济与全英文考核契合商英背景 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "暨南大学"
+      },
+      {
+        "answer_quote": "| **24** | 苏州大学 | 东吴商学院 | 数字经济（专业硕士，025800） | 核心主力 | 苏州 | 长三角产业数字化高地，211重点商院，生源政策包容开放 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "苏州大学"
+      },
+      {
+        "answer_quote": "| **25** | 首都经济贸易大学 | 经济学院 | 数字经济（专业硕士，025800 / 学硕） | 托底稳妥 | 北京 | 本校主场，专业排名第一拥有特优生直录通道，绝对兜底 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为其他本科高校；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "首都经济贸易大学"
+      },
+      {
+        "answer_quote": "| **28** | 北京工商大学 | 经济学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 北京 | 北京市属优质财经，数字经济布局早，对首经贸第一名免试级接纳 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为其他本科高校；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "北京工商大学"
+      },
+      {
+        "answer_quote": "| **29** | 华东理工大学 | 商学院 | 国际商务（专业硕士，数字贸易与商业分析方向） | 托底稳妥 | 上海 | 上海优质211，多项国际商科认证，跨考友好度极高 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "华东理工大学"
+      },
+      {
+        "answer_quote": "| **30** | 南京农业大学 | 经济管理学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 南京 | 经管学科评估A类，数字经济专硕竞争相对平缓，高性价比985/211平台 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "南京农业大学"
+      },
+      {
+        "answer_quote": "| **31** | 中国地质大学（北京） | 经济管理学院 | 管理科学与工程（学术型硕士，大数据管理与信息决策） | 托底稳妥 | 北京 | 北京学院路211，注重文商跨考，区位极佳且稳保概率极高 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "中国地质大学（北京）"
+      },
+      {
+        "answer_quote": "| **32** | 西安电子科技大学 | 经济与管理学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 西安 | 电子信息211名校，依托数智技术背景赋能，生源政策友善 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为211（非985）；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "西安电子科技大学"
+      },
+      {
+        "answer_quote": "| **33** | 东北财经大学 | 数字经济学院 / 经济学院 | 数字经济（专业硕士，025800） | 托底稳妥 | 大连 | 老牌顶尖财经院校，应用经济学科实力雄厚，对财经联军极优待 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为其他本科高校；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "东北财经大学"
+      },
+      {
+        "answer_quote": "| **34** | 江西财经大学 | 国际经贸学院 | 国际商务（专业硕士，数字经贸与国际投资方向） | 托底稳妥 | 南昌 | 传统财经强校，统计与国际贸易底蕴扎实，第一名极易锁定优营 |",
+        "downgraded": false,
+        "reason": "按本题操作层次为其他本科高校；首经贸本科基准为其他本科高校，因此为同档或提升。仅报告学校档位，不采信答卷对入营/录取概率的保证；同校多项目只列一次。",
+        "school_key": "江西财经大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "deepseek-v4-1-flash",
+    "category": "规划与决策",
+    "deductions": [
+      {
+        "max_points": 20,
+        "node": "N02-01-I2",
+        "points": 10.0,
+        "reason": "已具体询问专业名次与总人数，并要求分母、百分比，明显超过仅问GPA的程度。但没有区分成绩排名与用于本校资格认定的综合推免排名，也未询问此处排名采用哪一种口径；仅列加权成绩和后文笼统提及成绩与加分，未补足这一核心。按三档规则给半分，不另拆分小分。"
+      },
+      {
+        "max_points": 10,
+        "node": "N02-01-I5",
+        "points": 5.0,
+        "reason": "询问年级，满足部分阶段澄清。没有向用户确认申请年份或拟入学届别，也未问当前处于准备、夏令营、预推免还是后续批次；题面给出的2026年申请季不能自动等同答卷反复采用的“2026届”。通用时间表及当年官网提醒不能替代个人周期确认，故按“只问大几或申请季之一”的边界给半分；缺项可直接判断，不挂pending。"
+      },
+      {
+        "max_points": 5,
+        "node": "N02-01-I7",
+        "points": 2.5,
+        "reason": "有编号、表格和核心问题，结构可辨认。但完整答卷包含八节方法、趋势、材料、套磁及投递说明，第2节十项信息与第7节十五项清单重复收集，荣誉、实习及多个偏好进一步增加首次回复成本。未做到简洁分层提出少数核心问题，符合“包含核心问题但冗长”的半分边界；此处只评价表达与提问负担，不重复处罚排名口径或周期缺项。"
+      }
+    ],
+    "name": "DeepSeek V4.1 Flash",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 82.5,
+    "score_interval": [
+      82.5,
+      82.5
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "N02-01"
+  }
+}

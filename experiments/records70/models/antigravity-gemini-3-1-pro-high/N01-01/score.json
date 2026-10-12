@@ -1,0 +1,480 @@
+{
+  "actual_candidate_count": 12,
+  "answer_sha256": "627ab6af7404a3b14e2c0c58d35c229d61ef3f668825c4776ab33af0eb934700",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 35.5
+  },
+  "confirmed_points": 35.5,
+  "diagnostic_score": 35.5,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "N01-01-L1-07"
+    ],
+    "E02": [
+      "N01-01-L1-07"
+    ],
+    "E03": [
+      "N01-01-L1-03"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "没有适应成本与名额落空风险",
+      "evidence_ids": [
+        "OFF-HNU-RECOMMEND-2027",
+        "OFF-HNU-ADMISSION-2027"
+      ],
+      "id": "E01",
+      "reason": "把留校推荐和校内推免资格作过度保证。题面排名不能确定名额、综合排序和资格，更不能保证研究生接收名额。全文另有“稳稳锁定本校外推/推免资格”。湖南大学2027届推免工作通知要求学院遴选和学校审定；土木学院2027年接收细则要求考核合格并在计划限额内择优录取。故保证不成立，但湖南大学土木学院申请路径本身存在，不据此将候选标invalid。只归事实与成果状态项。"
+    },
+    {
+      "answer_quote": "目前大概率没有合格的六级成绩（<425 分或未考）",
+      "id": "E02",
+      "reason": "未披露六级成绩不支持推断未考或不合格。应先询问、查验现有成绩，再按具体项目条件安排英语准备。此处把信息缺口当作学生状态诊断，归事实与成果状态项；并非已经证明学生实际六级合格或不合格。"
+    },
+    {
+      "answer_quote": "重点负责了现场视觉数据集的采集、清洗与标注体系建立，并针对复杂工况搭建了 Baseline 模型，协助完成了不同特征提取网络的对比与消融实验，同时参与了论文第三部分实验结果的整理与初稿撰写。",
+      "id": "E03",
+      "reason": "题面只给项目经历和非第一作者身份，未给这些具体分工。此段作为给该学生的“标准回答范本”，没有先核对个人任务、没有要求按真实分工替换，却将采集、模型搭建、消融及第三部分写作赋给本人，并称为诚实话术。问题是未经支持的个人贡献表述，不是已查明这些工作绝不曾发生。仅归科研工作的系统复盘项。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N01-01",
+  "input_sha256": "a9abd4c36294e221c1b4a3e436f00e7ba25ab1731237d0304cc9190af48568ad",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "4c807ba3acb74d437a3448d836b35fbb228e19364dfe77b493caa8cdfcaead97",
+  "nodes": [
+    {
+      "grade": 0,
+      "id": "N01-01-L1-01",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0,
+      "id": "N01-01-L1-02",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N01-01-L1-03",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0,
+      "id": "N01-01-L1-04",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 1,
+      "id": "N01-01-L1-05",
+      "kind": "quality",
+      "points": 8.0
+    },
+    {
+      "grade": 1,
+      "id": "N01-01-L1-06",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0,
+      "id": "N01-01-L1-07",
+      "kind": "quality",
+      "points": 0.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N01-01-L1-08",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N01-01-L1-09",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 12,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "同济大学",
+      "canonical_candidate_key": "tongji:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "同济大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入冲刺梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "清华大学",
+      "canonical_candidate_key": "tsinghua:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "清华大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入冲刺梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "浙江大学",
+      "canonical_candidate_key": "zju:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "浙江大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入冲刺梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "东南大学",
+      "canonical_candidate_key": "seu:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "东南大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入冲刺梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "东南大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "哈工大",
+      "canonical_candidate_key": "hit:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "哈尔滨工业大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "华中科大",
+      "canonical_candidate_key": "hust:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "华中科技大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "重庆大学",
+      "canonical_candidate_key": "cqu:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "重庆大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "重庆大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "中南大学",
+      "canonical_candidate_key": "csu:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "中南大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "中南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "天津大学",
+      "canonical_candidate_key": "tju:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "天津大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "大连理工",
+      "canonical_candidate_key": "dlut:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "大连理工大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "大连理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "华南理工",
+      "canonical_candidate_key": "scut:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "华南理工大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "全文将其列入主力梯队，属于实际推荐；同校简称及重复出现合并。按答卷已有粒度作为土木/智能建造的校级意向记录，未创造具体招生专业或导师项目。学校身份及土木相关培养方向没有已证实不存在、学位冲突或违反已知学生硬条件的问题，valid只表示此层面的内容可成立，不表示已逐年审计2026年所有团队门槛、接受名额或入营概率。题目为规划题且无参考覆盖项，不因未给项目而虚构匹配，也不因未逐年审计记invalid或pending。",
+      "school_key": "华南理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "湖南大学本校土木工程学院（国家重点实验室 / 智能建造知名大牛团队）",
+      "canonical_candidate_key": "hnu:civil_engineering_college",
+      "error_ids": [
+        "E01"
+      ],
+      "evidence_ids": [
+        "OFF-HNU-ADMISSION-2027"
+      ],
+      "label": "湖南大学：本校土木工程学院",
+      "reason": "明确列为留校托底，推荐湖南大学土木工程学院；国家重点实验室、智能建造团队是院内描述，不拆成多个项目。官方2027年接收细则已确认土木相关推免招生路径，且未在已读申请条件中列统一六级门槛。推荐路径有效，但“没有名额落空风险”的保证错误E01须由事实项处理，不能据此判项目不存在或invalid。通用首选土木院内方向并列不拆项目；次选计算机/软件学院为未绑定学校、未分别明确申请路径的方向讨论，不替答卷创造12所学校的跨院系推荐。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R01",
+      "answer_quote": "若冲刺同济、清华等最顶尖学府，前 10% 属于“有较好机会入营，但非绝对保进”，需要依靠项目质量和文书展现优势。",
+      "canonical_candidate_key": "tongji:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "同济大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为冲刺候选的提名/补齐英语后的再次建议。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "同济大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02",
+      "answer_quote": "若冲刺同济、清华等最顶尖学府，前 10% 属于“有较好机会入营，但非绝对保进”，需要依靠项目质量和文书展现优势。",
+      "canonical_candidate_key": "tsinghua:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "清华大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为冲刺候选的提名/补齐英语后的再次建议。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "清华大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03",
+      "answer_quote": "一旦在 5 月拿到有效成绩，可以直接补齐夏令营英语门槛，打开清华、同济、浙大等顶尖名校的申请大门！",
+      "canonical_candidate_key": "tsinghua:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "清华大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为冲刺候选的提名/补齐英语后的再次建议。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "清华大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04",
+      "answer_quote": "一旦在 5 月拿到有效成绩，可以直接补齐夏令营英语门槛，打开清华、同济、浙大等顶尖名校的申请大门！",
+      "canonical_candidate_key": "tongji:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "同济大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为冲刺候选的提名/补齐英语后的再次建议。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "同济大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05",
+      "answer_quote": "一旦在 5 月拿到有效成绩，可以直接补齐夏令营英语门槛，打开清华、同济、浙大等顶尖名校的申请大门！",
+      "canonical_candidate_key": "zju:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷提出6月六级、4~5月雅思/托福的补齐办法；若咨询发生在此前并能按目标要求及时出分，是现实可行准备路径。题面未给具体月份，不承诺当时仍有这些考试窗口；也不能认定统一425/80/6.0阈值适用于所有项目。当前仅作为规划中的条件候选，须按项目核验。",
+      "key_condition": "需先核实学生是否已有六级或其他有效外语成绩，再核对目标招生单位2026申请季的具体英语要求及可接受的替代成绩。答卷以补齐英语作为冲刺方案前提。",
+      "label": "浙江大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为冲刺候选的提名/补齐英语后的再次建议。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "浙江大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R06",
+      "answer_quote": "（如哈尔滨工业大学、中南大学、重庆大学、华南理工大学、大连理工大学等部分土木/智能建造团队）",
+      "canonical_candidate_key": "hit:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "哈尔滨工业大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为英语容错库的调研提名，并非已核实本届团队硬条件。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07",
+      "answer_quote": "（如哈尔滨工业大学、中南大学、重庆大学、华南理工大学、大连理工大学等部分土木/智能建造团队）",
+      "canonical_candidate_key": "csu:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "中南大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为英语容错库的调研提名，并非已核实本届团队硬条件。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "中南大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R08",
+      "answer_quote": "（如哈尔滨工业大学、中南大学、重庆大学、华南理工大学、大连理工大学等部分土木/智能建造团队）",
+      "canonical_candidate_key": "cqu:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "重庆大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为英语容错库的调研提名，并非已核实本届团队硬条件。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "重庆大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09",
+      "answer_quote": "（如哈尔滨工业大学、中南大学、重庆大学、华南理工大学、大连理工大学等部分土木/智能建造团队）",
+      "canonical_candidate_key": "scut:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "华南理工大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为英语容错库的调研提名，并非已核实本届团队硬条件。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "华南理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R10",
+      "answer_quote": "（如哈尔滨工业大学、中南大学、重庆大学、华南理工大学、大连理工大学等部分土木/智能建造团队）",
+      "canonical_candidate_key": "dlut:civil_intelligent_construction_unspecified",
+      "error_ids": [],
+      "label": "大连理工大学：土木/智能建造校级候选（未给独立项目）",
+      "reason": "同一校级候选的再次出现：作为英语容错库的调研提名，并非已核实本届团队硬条件。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "大连理工大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R11",
+      "answer_quote": "依托湖大土木与智能建造的强大实力稳住基本盘",
+      "canonical_candidate_key": "hnu:civil_engineering_college",
+      "error_ids": [],
+      "evidence_ids": [
+        "OFF-HNU-ADMISSION-2027"
+      ],
+      "label": "湖南大学：本校土木工程学院",
+      "reason": "同一校级候选的再次出现：再次强调本校基本盘。与主推荐记录沿用同一canonical_candidate_key，不新增独立学校或申请路径；此处valid不意味着官方已经确认其本届具体条件或录取保障。",
+      "school_key": "湖南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "b9f8a3a464563743d9e5095b59887a0bad9cb0b2e7afdbd22a802aebbec51dcb",
+  "score": 35.5,
+  "score_interval": [
+    35.5,
+    35.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N01-01",
+  "task_kind": "planning",
+  "task_sha256": "ac9774005b1d1eb8d78d44977bde0aa8c243c3047b138ed4f359872df9bc2af5",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题无院校层次计分项；仍逐所记录12个实际推荐学校，均为985，与湖南大学本科基准同档，不另扣分。已审阅全文：上海交通大学仅出现在英语门槛背景举例，不构成推荐；没有明确排除候选。首选院内方向与未绑定具体学校的计算机/软件学院次选，不创造独立跨学院申请路径。重复建议按canonical key合并。",
+    "schools": [
+      {
+        "answer_quote": "同济大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "清华大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "浙江大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "东南大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "哈工大",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "华中科大",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "重庆大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "重庆大学"
+      },
+      {
+        "answer_quote": "中南大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "中南大学"
+      },
+      {
+        "answer_quote": "天津大学",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "大连理工",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "大连理工大学"
+      },
+      {
+        "answer_quote": "华南理工",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "华南理工大学"
+      },
+      {
+        "answer_quote": "湖南大学本校土木工程学院（国家重点实验室 / 智能建造知名大牛团队）",
+        "downgraded": false,
+        "reason": "985高校，与题面湖南大学本科同档；校级意向记录仅作层次报告，本题没有层次扣分节点。",
+        "school_key": "湖南大学"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

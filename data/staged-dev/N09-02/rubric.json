@@ -1,0 +1,85 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N09-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "区分已参与的机器人项目工作、本人负责的子模块，以及仅了解、尚未开展的另一项目，不将计划写成成果。",
+      "grading": "three_level",
+      "half_credit": "能够识别核心差别但对某项状态表达不严谨。",
+      "id": "N09-02-L1-01",
+      "label": "区分已参与与尚未开展的经历",
+      "points": 25
+    },
+    {
+      "full_credit": "对已参与项目写清任务、技术方法、难点、本人行动和可核实产出，不把团队成果全部归于个人。",
+      "grading": "three_level",
+      "half_credit": "具体说明了工作，但个人角色或结果不清楚。",
+      "id": "N09-02-L1-02",
+      "label": "准确提炼个人技术贡献",
+      "points": 20
+    },
+    {
+      "full_credit": "根据机器人系统/控制/机械领域申请方向筛选最能说明能力的经历，并解释弱相关经历为何降权。",
+      "grading": "three_level",
+      "half_credit": "筛选有方向，但缺适配理由。",
+      "id": "N09-02-L1-03",
+      "label": "保留可支撑研究方向的项目",
+      "points": 15
+    },
+    {
+      "full_credit": "将核心经历转化为真实、可追问的简历要点及项目叙述，未开展活动只作兴趣或计划。",
+      "grading": "three_level",
+      "half_credit": "有材料建议但细节或证据不足。",
+      "id": "N09-02-L1-04",
+      "label": "简历与面试中的呈现",
+      "points": 15
+    },
+    {
+      "full_credit": "综合第二轮信息调整或有理由维持取舍，指出哪些说法需要更新。",
+      "grading": "three_level",
+      "half_credit": "利用新增信息但没有说明改动缘由。",
+      "id": "N09-02-L1-05",
+      "label": "新资料对前述判断的影响",
+      "points": 10
+    },
+    {
+      "full_credit": "优先补现有核心项目的技术论证、数据整理或答辩演练，不建议虚构新产出。",
+      "grading": "three_level",
+      "half_credit": "有具体行动但缺优先级。",
+      "id": "N09-02-L1-06",
+      "label": "申请前后续准备",
+      "points": 10
+    },
+    {
+      "full_credit": "保持项目性质、阶段与学生角色准确，不夸大科研和论文进展。",
+      "grading": "three_level",
+      "half_credit": "总体正确但遗漏一项重要限制。",
+      "id": "N09-02-L1-07",
+      "label": "事实与证据边界",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.2",
+  "task_kind": "planning",
+  "teacher_calibration": "completed_owner_confirmed",
+  "tier_exception": false,
+  "tier_report_only": false
+}

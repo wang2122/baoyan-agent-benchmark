@@ -1,0 +1,75 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N06-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "比较语言学理论与方法、国际中文教育的语言教学/应用路径，并说明本科汉语言文学可迁移的基础。",
+      "grading": "three_level",
+      "half_credit": "区分了两类方向但未讨论训练或发展差别。",
+      "id": "N06-02-L1-01",
+      "label": "语言学与国际中文教育的研究目标差别",
+      "points": 25
+    },
+    {
+      "full_credit": "结合目标项目考核合理建议现代汉语、古代汉语、语言学纲要等专业知识复习与研究阅读，不把某些课程断言为所有院校统一要求。",
+      "grading": "three_level",
+      "half_credit": "提出专业复习但未与语言学方向或个人课程结合。",
+      "id": "N06-02-L1-02",
+      "label": "语言学专业基础与准备重点",
+      "points": 20
+    },
+    {
+      "full_credit": "说明教学设计、第二语言习得、教学法及可能的实践安排怎样影响学生选择；不能假定已有教学案例。",
+      "grading": "three_level",
+      "half_credit": "提到教学实践但仅泛泛比较，或要求学生具有未提供的经历。",
+      "id": "N06-02-L1-03",
+      "label": "国际中文教育的培养与实践特点",
+      "points": 15
+    },
+    {
+      "full_credit": "询问更喜欢理论分析、语言研究还是教学实践，并解释偏好如何改变方向排序。",
+      "grading": "three_level",
+      "half_credit": "提到兴趣但不给出条件判断。",
+      "id": "N06-02-L1-04",
+      "label": "学生兴趣、研究偏好与信息缺口",
+      "points": 15
+    },
+    {
+      "full_credit": "提示不同项目的学位、招生学科及专业背景限制应以当届正式要求确认；雅思6.5不自动等于所有项目达标。",
+      "grading": "three_level",
+      "half_credit": "有招生提醒但未说明项目差异。",
+      "id": "N06-02-L1-05",
+      "label": "跨方向资格和学位条件",
+      "points": 15
+    },
+    {
+      "full_credit": "提出比较目标课程/导师/培养方案、尝试读一篇代表研究或试做教学设计等合理可执行的验证动作。",
+      "grading": "three_level",
+      "half_credit": "仅说要核实资料，缺实际可开展步骤。",
+      "id": "N06-02-L1-06",
+      "label": "下一步验证与选择",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

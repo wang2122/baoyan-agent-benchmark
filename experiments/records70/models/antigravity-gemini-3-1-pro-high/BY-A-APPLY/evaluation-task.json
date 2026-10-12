@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-A",
+  "context": {
+    "observation": {
+      "评测时间": "2026年9月"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-A-APPLY",
+  "prompt": "我在华东地区一所211高校读新能源材料与器件（中外合作办学），现在是2026年9月。成绩排名前约29%、六级500–549分。我刚确认取得了本校推免资格。我参与过国家级大创，研究二维碳材料，独立做过材料制备、表征及实验数据整理，项目还没形成正式成果。相关专业课程成绩优秀；也有材料质检实习。资格刚落实，能帮我推荐31个学校、学院和具体专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

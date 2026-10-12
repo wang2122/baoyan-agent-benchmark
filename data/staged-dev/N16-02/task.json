@@ -1,0 +1,38 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N16",
+  "case_id": "N16",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "hard",
+  "document_question_id": "Q071",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "cf36380482a874986d9386516a0a04f24670108d92ce1386c078d929a7e33a04",
+  "stages": [
+    {
+      "instruction": "现在是2026年推免申请季。我在西安交大读工科大类，排名前约15%，六级450–499分，还没正式分流。我做过机械相关项目，想申请机械或智能制造，但不知道本科的专业认定会不会限制选择。你能帮我判断吗？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "我还做过机械创新、省级大创和智能系统相关项目，但学籍上的专业仍是工科大类，没有正式分流成智能制造。考虑这些信息，你会怎么确定适合申请的项目？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N16-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

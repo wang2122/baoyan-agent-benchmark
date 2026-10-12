@@ -1,0 +1,1252 @@
+{
+  "actual_candidate_count": 20,
+  "answer_sha256": "c74259d9142486d1b93a1cae7aea906a7dfd78e2477996f39fb7e68103c4b44d",
+  "candidate_limit": 17,
+  "confirmed_component_points": {
+    "coverage": 34.59,
+    "quality": 15.0
+  },
+  "confirmed_points": 49.59,
+  "diagnostic_score": 49.59,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E-CYCLE": [
+      "execution"
+    ],
+    "E-DURATION": [
+      "reasons"
+    ],
+    "E-PROMISE": [
+      "facts"
+    ],
+    "E-SKILLS": [
+      "facts"
+    ],
+    "E-STATUS": [
+      "facts"
+    ],
+    "E-WH": [
+      "N09-16"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "机电工程系 / 汽车工程学院",
+      "id": "E-WH",
+      "reason": "2026季威海官方招生对应表把海洋机械电子列于海洋工程学院、汽车机械列为车辆方向，控制属信息学院。答卷第17节没有正确区分实际院系专业，把海洋机器人机械/控制合成错位对象，不能算海洋工程学院机械。仅绑定N09-16，不把本校招生整体否定。官方依据见evidence.json HITWH-TABLE及HITWH-27。"
+    },
+    {
+      "answer_quote": "学硕（2年，毕业快、节奏极紧凑）、专硕（2-2.5年）、直博（4-5年）",
+      "id": "E-DURATION",
+      "reason": "哈工大深圳当季机器人与先进制造学院官方通知规定硕士基本修业年限3年、直博5年。答卷以2年/2—2.5年和“毕业快”引导路径选择，核心学位成本比较有错。核心机械项目仍有效；仅归reasons，不取消覆盖、不重复扣事实或层次。"
+    },
+    {
+      "answer_quote": "在母校能无悬念斩获A类推免指标",
+      "id": "E-STATUS",
+      "reason": "题面仅提供排名前约2%、六级500–549和参与科研，未告知已取得推免资格、推免类别或资格评审结果。答卷擅把竞争优势断言成确定A类资格，而非待审核状态。仅归facts。"
+    },
+    {
+      "answer_quote": "提前邮件联系蔡鹤皋院士/刘宏院士团队的大师兄或中青年骨干教授，基本能锁定顶级课题组录取。",
+      "id": "E-PROMISE",
+      "reason": "题面没有导师承诺、复试结果或招生名额。排名与本校背景不能锁定课题组录取，且全文还反复“零风险”“稳入”“免除推免复试周折”等过度保证；这是事实项核心边界，非局部谨慎措辞缺陷。官方威海及相关当季通知均要求资格与综合考核。仅归facts，不因同一保证在执行、层次、推荐项反复扣分。"
+    },
+    {
+      "answer_quote": "参与过机械与机器人科研，说明具备三维建模（SolidWorks/CATIA/Creo）、机构学、动力学仿真（Adams/Gazebo）、嵌入式软硬件（STM32/ROS）、控制算法或机器视觉（OpenCV/PyTorch）等复合积累。",
+      "id": "E-SKILLS",
+      "reason": "“参与过”不能证明题面未披露的软件、仿真、嵌入式或视觉技能清单；应核对承担工作与成果，而不是当既成个人能力。未凭准备材料建议另行认定已发表论文或专利。仅归facts。"
+    },
+    {
+      "answer_quote": "9 月 28 日系统开放当日，必须在系统填报前与第一意向导师及学院招生办进行最终书面或电话确认。",
+      "id": "E-CYCLE",
+      "reason": "题面2026申请季对应2027级接收，官方研招系统明确2026-09-21 9:00开始填志愿，9月22日确认复试，9月24日14:00开始确认待录取。答卷以9月28日安排首日锁录会误导关键行动，非非关键措辞差异。只归execution；不推断未知咨询日已截止，也不据此取消全部项目覆盖。来源见evidence.json SYS-26。"
+    }
+  ],
+  "excess_count": 3,
+  "id": "N09-03",
+  "input_sha256": "497a0b2cc27134ba4ed08ad2fff2e07b5c9889fbc9973f4a97868e6d30588551",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "5c41a4e571a00a1d2f74b9b0c3d24057a32aebd87281d07cd23e7a287089a0a5",
+  "nodes": [
+    {
+      "id": "N09-01",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-03",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-04",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A03",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-06",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A04",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-07",
+      "kind": "coverage",
+      "match_coefficient": 0.6,
+      "match_level": "same_department",
+      "matched_answer_item_id": "A19",
+      "points": 2.47,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-08",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-10",
+      "kind": "coverage",
+      "match_coefficient": 0.6,
+      "match_level": "same_department",
+      "matched_answer_item_id": "A06",
+      "points": 2.47,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-11",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A11",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A05",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-13",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A09",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-14",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A13",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-15",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A12M",
+      "points": 4.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-16",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "N09-17",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A14",
+      "points": 1.24,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 17,
+        "numerator": 70
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "reasons",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 1,
+      "id": "tier",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "execution",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0,
+      "id": "facts",
+      "kind": "quality",
+      "points": 0.0
+    }
+  ],
+  "observed_candidate_count": 20,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "#### 1. 清华大学 | 机械工程系\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/tsinghua_me) 学术型硕士 / [机械（085500）](file:///path/to/tsinghua_me_pro) 智能制造与具身机器人卓越工程师专项 / 直博生",
+      "canonical_candidate_key": "tsinghua.me.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "当季机械系推免招生身份；网页正文为图片，仅以通知标题核实当季招生，不据此声称已审核全部专业门槛。",
+          "source": "https://me.tsinghua.edu.cn/info/1004/3888.htm"
+        },
+        {
+          "applicable_cycle": "项目身份与研究方向；网页未标更新年，仅作身份和方向佐证",
+          "scope": "机械系开展智能制造与机器人研究；支持相关方向关系，不支持答卷所列所有导师、专项和年限。",
+          "source": "https://me.tsinghua.edu.cn/kxyj/kyfx.htm"
+        }
+      ],
+      "error_ids": [],
+      "label": "清华机械工程系｜机械/机器人（硕博与工程专项备选）",
+      "occurrences": [
+        {
+          "answer_quote": "     - 1. 清华大学 | 机械工程系 | 机械工程（智能制造与具身机器人方向）",
+          "line": 9
+        },
+        {
+          "answer_quote": "- **冲刺层（20%~25%精力）**：瞄准清华大学、北京大学、上海交通大学、浙江大学等顶尖高校的学硕、前沿项目或直博生。利用直博名额相对充足且竞争侧重点在“科研持续性”的特点进行降维冲刺。",
+          "line": 47
+        },
+        {
+          "answer_quote": "                     ┌── 1. 清华大学（机械工程系 / 具身机器人方向）",
+          "line": 60
+        },
+        {
+          "answer_quote": "#### 1. 清华大学 | 机械工程系",
+          "line": 66
+        },
+        {
+          "answer_quote": "   - **冲刺组（必须全部投报）**：清华机械系、交大机动学院、北大工学院、浙大控制学院。",
+          "line": 413
+        },
+        {
+          "answer_quote": "1. **如果追求学术卓越与最高平台**：全力以赴主攻清华大学机械系、上海交通大学机器人所或北京大学工学院的直博生项目，用你过硬的工程实践能力打动顶级导师；",
+          "line": 435
+        }
+      ],
+      "reason": "明确独立推荐机械系的机械机器人训练。全文目录、梯队图、投递组及总结重复归同一组合；不是车辆学院或深圳院的别名。核心方向与推免路径成立；不把所有导师、专项和出口宣传逐句视为已证实。全卷去重共20项（含1项未明确路径的院系提名），较17上限超3，依score_with_warning不截取、不另罚。",
+      "school_key": "清华大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "#### 2. 北京大学 | 工学院先进制造与机器人系\n- **具体专业/项目**：[力学（系统与控制 080100）](file:///path/to/pku_coe) 学术型硕士 / [机械（085500）](file:///path/to/pku_coe_mech) 智能制造与仿生机器人方向 / 直博生",
+      "canonical_candidate_key": "pku.coe.amr.mechanical",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2020—2024沿革，适用于2026项目身份解释",
+          "scope": "2020先进制造与机器人系及2024年末先进制造与机器人学院沿革；原工学院申请方向有可识别承接单位。",
+          "source": "https://amr.pku.edu.cn/xyjs/lsyg/index.htm"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-08-31当季通知确认先进制造与机器人学院接收机械硕士及直博；据此认可答卷旧称下的可识别机械路径。",
+          "source": "https://amr.pku.edu.cn/jyjx/yjsjy/tzgg1/0d9b93ead4ca44749941761e416f4b18.htm"
+        }
+      ],
+      "error_ids": [],
+      "label": "北京大学原工学院先进制造与机器人系｜机械/力学机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 2. 北京大学 | 工学院先进制造与机器人系 | 力学（系统与控制）/ 机械（智能制造与机器人）",
+          "line": 10
+        },
+        {
+          "answer_quote": "                     ├── 2. 北京大学（工学院先进制造与机器人系）",
+          "line": 61
+        },
+        {
+          "answer_quote": "#### 2. 北京大学 | 工学院先进制造与机器人系",
+          "line": 80
+        },
+        {
+          "answer_quote": "  - **训练风格**：北大工学院兼具北大理科深厚数理底蕴与工程落地，偏重数学建模、微分几何与非线性控制理论在仿生与生物力学系统中的应用。学术自由度高，鼓励发表高水平IEEE汇刊论文。",
+          "line": 84
+        },
+        {
+          "answer_quote": "  - **路径选择**：学硕（3年）、直博（5年）。北大工学院招生政策中直博比例居高不下，学硕竞争异常白热化。",
+          "line": 86
+        },
+        {
+          "answer_quote": "   - **冲刺组（必须全部投报）**：清华机械系、交大机动学院、北大工学院、浙大控制学院。",
+          "line": 413
+        },
+        {
+          "answer_quote": "1. **如果追求学术卓越与最高平台**：全力以赴主攻清华大学机械系、上海交通大学机器人所或北京大学工学院的直博生项目，用你过硬的工程实践能力打动顶级导师；",
+          "line": 435
+        }
+      ],
+      "reason": "旧称可由先进制造与机器人学院沿革和当季机械硕士/直博通知识别，机械备选满足参考已有粒度。不是因名称过时否定整个路径；没有把力学备选凭空拆成第二个候选。",
+      "school_key": "北京大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "#### 3. 上海交通大学 | 机械与动力工程学院（机动学院）\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/sjtu_me) 机器人研究所（机械电子工程方向） 学硕 / 直博 / 专业型硕士（临港专项/工程硕博）",
+      "canonical_candidate_key": "sjtu.me.mechanical.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-09-15公布的2027级目录列机动080200机械工程及085500机械；支持项目路径，不证明答卷稳入营说法。",
+          "source": "https://yzb.sjtu.edu.cn/post/3773"
+        }
+      ],
+      "error_ids": [],
+      "label": "交大机械与动力工程学院｜机械工程机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 3. 上海交通大学 | 机械与动力工程学院 | 机械工程（机器人研究所）",
+          "line": 11
+        },
+        {
+          "answer_quote": "[第一梯队: 顶尖冲刺] ├── 3. 上海交通大学（机械与动力工程学院机器人所）",
+          "line": 62
+        },
+        {
+          "answer_quote": "#### 3. 上海交通大学 | 机械与动力工程学院（机动学院）",
+          "line": 94
+        },
+        {
+          "answer_quote": "   - **冲刺组（必须全部投报）**：清华机械系、交大机动学院、北大工学院、浙大控制学院。",
+          "line": 413
+        },
+        {
+          "answer_quote": "1. **如果追求学术卓越与最高平台**：全力以赴主攻清华大学机械系、上海交通大学机器人所或北京大学工学院的直博生项目，用你过硬的工程实践能力打动顶级导师；",
+          "line": 435
+        }
+      ],
+      "reason": "招生单位、机械专业与机器人研究方向明确，和冻结参考一致；所内研究方向、学硕专硕直博备选合并。年度目录支持核心路径，稳入营和2.5年等细节不由valid标记背书。",
+      "school_key": "上海交通大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "#### 4. 浙江大学 | 控制科学与工程学院\n- **具体专业/项目**：[控制科学与工程（081100）](file:///path/to/zju_control) 模式识别与智能系统 / 控制理论与控制工程（智能移动机器人方向）",
+      "canonical_candidate_key": "zju.control.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "主页更新2024-03-08，作2026身份和研究方向佐证",
+          "scope": "熊蓉单位为控制学院，研究机器人感知规划、移动作业与仿人运动控制；支持与机械机器人方向高度相关。",
+          "source": "https://mypage.zju.edu.cn/0097062/655209.html"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-07-24工程师学院当季机器人培养表含控制学院电子信息/控制工程和机械学院机械/机械工程团队，证实同项目训练相近及联培招生路径。",
+          "source": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp"
+        }
+      ],
+      "error_ids": [],
+      "label": "浙大控制学院｜控制科学与工程智能移动机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 4. 浙江大学 | 控制科学与工程学院 | 控制科学与工程（自主智能移动机器人与感知控制）",
+          "line": 12
+        },
+        {
+          "answer_quote": "                     └── 4. 浙江大学（控制科学与工程学院智能系统所）",
+          "line": 63
+        },
+        {
+          "answer_quote": "#### 4. 浙江大学 | 控制科学与工程学院",
+          "line": 108
+        },
+        {
+          "answer_quote": "  - **考核侧重**：浙大控制对六级有严格硬指标（六级500–549完全无虞）；机考或编程能力考核（C++/Python算法、数据结构）在面试中权重较高，需提前刷LeetCode与熟悉ROS通信机制。",
+          "line": 118
+        },
+        {
+          "answer_quote": "   - **冲刺组（必须全部投报）**：清华机械系、交大机动学院、北大工学院、浙大控制学院。",
+          "line": 413
+        }
+      ],
+      "reason": "控制学院机器人感知控制是独立且相关的申请路径，和参考机械学院不同。所举熊蓉身份及机器人方向可核实，不机械把控制专业当机械专业。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "#### 5. 哈尔滨工业大学（本部） | 机电工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hit_me) 机械电子工程 / 机器人研究所（机器人技术与系统全国重点实验室专项）",
+      "canonical_candidate_key": "hit.harbin.sme.robot",
+      "error_ids": [],
+      "label": "哈工大本部机电工程学院｜机械工程机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 5. 哈尔滨工业大学（本部） | 机电工程学院 | 机械工程（机器人技术与系统全国重点实验室专项）",
+          "line": 14
+        },
+        {
+          "answer_quote": "- **核心主力层（50%~60%精力）**：依托哈工大天然血缘优势直攻哈工大本部（机器人所）与哈工大深圳校区；同步深耕中科院顶尖院所（沈自所、CASIA）以及北航、北理工、华科、西交、同济等工科翘楚的优势实验室。",
+          "line": 48
+        },
+        {
+          "answer_quote": "                     ┌── 5. 哈尔滨工业大学本部（机电工程学院机器人研究所）",
+          "line": 125
+        },
+        {
+          "answer_quote": "#### 5. 哈尔滨工业大学（本部） | 机电工程学院",
+          "line": 134
+        },
+        {
+          "answer_quote": "   - **核心组（精准深耕）**：哈工大本部机电（机器人所）、哈工大深圳机电、中科院沈自所、北航机械、北理工机电。",
+          "line": 414
+        },
+        {
+          "answer_quote": "   - **优营锁定**：一旦斩获哈工大本部机器人所或哈工大深圳的“优秀营员”，相当于手握坚不可摧的保底王牌，后续可以毫无心理包袱地全心冲刺清北交大。",
+          "line": 418
+        },
+        {
+          "answer_quote": "2. **如果追求稳健成长与硬核军工传承**：哈工大本部机器人所与中科院沈阳自动化研究所机器人学国重室将是你的主场，能够最快融入国家重大科学工程；",
+          "line": 436
+        }
+      ],
+      "reason": "学校本部、机电学院及机械方向和冻结参考一致。机器人所/重点实验室是内部研究平台，未重复计数。排名不能锁定录取的错误单归事实项。",
+      "school_key": "哈尔滨工业大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "#### 6. 哈尔滨工业大学（深圳） | 机电工程与自动化学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hitsz_me) / [控制科学与工程（081100）](file:///path/to/hitsz_control) 智能机器人与微纳系统方向",
+      "canonical_candidate_key": "hit.shenzhen.oldme.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2024历史院系身份佐证，非2026独立招生保证",
+          "scope": "旧机电工程与自动化学院机械、机器人导师资料，结合现院系信息识别同一研究训练谱系。",
+          "source": "https://www.hitsz.edu.cn/UserFiles/editor/file/20240131/1706633449225078610.pdf"
+        },
+        {
+          "applicable_cycle": "2026身份佐证；页面未标更新时间，不用于断言重组确切日期",
+          "scope": "答卷所举徐文福为智能学部机器人与先进制造学院机械工程教师；支持旧称推荐的机械路径承接。",
+          "source": "https://intelligence.hitsz.edu.cn/team.jsp?urltype=tree.TreeTempUrl&wbtreeid=1242"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026年8月当季通知列0802机械工程及0855机械，允许泛机械类申请；硕士基本修业年限3年，直博5年。控制学科属另一现学院，不从并列项额外创造推荐。",
+          "source": "https://intelligence.hitsz.edu.cn/currency.jsp?urltype=news.NewsContentUrl&wbnewsid=1923&wbtreeid=1259"
+        }
+      ],
+      "error_ids": [
+        "E-DURATION"
+      ],
+      "label": "哈工大深圳原机电与自动化学院｜机械机器人/控制备选",
+      "occurrences": [
+        {
+          "answer_quote": "     - 6. 哈尔滨工业大学（深圳） | 机电工程与自动化学院 | 机械工程 / 控制科学与工程（智能机器人系统方向）",
+          "line": 15
+        },
+        {
+          "answer_quote": "- **核心主力层（50%~60%精力）**：依托哈工大天然血缘优势直攻哈工大本部（机器人所）与哈工大深圳校区；同步深耕中科院顶尖院所（沈自所、CASIA）以及北航、北理工、华科、西交、同济等工科翘楚的优势实验室。",
+          "line": 48
+        },
+        {
+          "answer_quote": "                     ├── 6. 哈尔滨工业大学深圳（机电工程与自动化学院）",
+          "line": 126
+        },
+        {
+          "answer_quote": "#### 6. 哈尔滨工业大学（深圳） | 机电工程与自动化学院",
+          "line": 148
+        },
+        {
+          "answer_quote": "   - **核心组（精准深耕）**：哈工大本部机电（机器人所）、哈工大深圳机电、中科院沈自所、北航机械、北理工机电。",
+          "line": 414
+        },
+        {
+          "answer_quote": "3. **如果立足前沿产业与丰厚回报**：哈工大深圳校区机电学院与同济大学自主智能无人系统将直接带你领略中国最具活力的产业前沿脉搏。",
+          "line": 437
+        }
+      ],
+      "reason": "旧学院下的机械机器人方向由徐文福等教师与现智能学部机器人与先进制造学院承接关系可识别，核心机械路径有效。控制备选没有独立展开为当前另一学院方案，故不代创第二项。年限描述有确证错误E-DURATION，但不把有效机械招生项目标作不存在。",
+      "school_key": "哈尔滨工业大学（深圳）",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "#### 7. 中国科学院自动化研究所（北京）\n- **具体专业/项目**：[控制理论与控制工程（081101）](file:///path/to/casia_control) / [模式识别与智能系统（081104）](file:///path/to/casia_prai) 多模态人工智能系统全国重点实验室",
+      "canonical_candidate_key": "casia.robot.control",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "当季推免接收机器人等相关本科背景的学硕、专硕和直博。",
+          "source": "https://www.ia.cas.cn/yjsjy/zs/sszs/202608/t20260820_8262847.html"
+        },
+        {
+          "applicable_cycle": "2025申请、2026入学历史资料，作2026方向身份参考",
+          "scope": "官方前届简章列控制理论与控制工程、模式识别等专业；仅用于单位专业身份，未据此认证双学籍说法。",
+          "source": "https://ia.cas.cn/yjsjy/zs/sszs/202507/t20250731_7899790.html"
+        }
+      ],
+      "error_ids": [],
+      "label": "中科院自动化所｜控制/模式识别机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 7. 中国科学院自动化研究所 | 多模态人工智能系统全国重点实验室 | 控制理论与控制工程（具身智能与仿生机器人方向）",
+          "line": 16
+        },
+        {
+          "answer_quote": "- **核心主力层（50%~60%精力）**：依托哈工大天然血缘优势直攻哈工大本部（机器人所）与哈工大深圳校区；同步深耕中科院顶尖院所（沈自所、CASIA）以及北航、北理工、华科、西交、同济等工科翘楚的优势实验室。",
+          "line": 48
+        },
+        {
+          "answer_quote": "                     ├── 7. 中科院自动化研究所（多模态AI全国重点实验室）",
+          "line": 127
+        },
+        {
+          "answer_quote": "#### 7. 中国科学院自动化研究所（北京）",
+          "line": 162
+        }
+      ],
+      "reason": "控制与机器人研究方向及所级推免路径成立，题目无算法方向排斥。不同所不是参考高校的同校院系；未命中不等于错误。未认证双学籍、GPU规模或成功概率。",
+      "school_key": "中国科学院自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "#### 8. 中国科学院沈阳自动化研究所\n- **具体专业/项目**：[机械电子工程（080202）](file:///path/to/sia_me) / [控制科学与工程（081100）](file:///path/to/sia_control) 机器人学国家重点实验室专项",
+      "canonical_candidate_key": "sia.robot.mechcontrol",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "当季预通知接受机械、机器人工程等背景的硕博推免，明确所级申请通道。",
+          "source": "https://www.sia.ac.cn/zpjy/yjsjy/zs/zsgg/202608/t20260826_8265512.html"
+        }
+      ],
+      "error_ids": [],
+      "label": "沈阳自动化所｜机械电子/控制机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 8. 中国科学院沈阳自动化研究所 | 机器人学国家重点实验室 | 机械电子工程 / 控制理论与控制工程（特种与水下机器人）",
+          "line": 17
+        },
+        {
+          "answer_quote": "- **核心主力层（50%~60%精力）**：依托哈工大天然血缘优势直攻哈工大本部（机器人所）与哈工大深圳校区；同步深耕中科院顶尖院所（沈自所、CASIA）以及北航、北理工、华科、西交、同济等工科翘楚的优势实验室。",
+          "line": 48
+        },
+        {
+          "answer_quote": "[第二梯队: 核心重镇] ├── 8. 中科院沈阳自动化研究所（机器人学国家重点实验室）",
+          "line": 128
+        },
+        {
+          "answer_quote": "#### 8. 中国科学院沈阳自动化研究所",
+          "line": 176
+        },
+        {
+          "answer_quote": "   - **核心组（精准深耕）**：哈工大本部机电（机器人所）、哈工大深圳机电、中科院沈自所、北航机械、北理工机电。",
+          "line": 414
+        },
+        {
+          "answer_quote": "2. **如果追求稳健成长与硬核军工传承**：哈工大本部机器人所与中科院沈阳自动化研究所机器人学国重室将是你的主场，能够最快融入国家重大科学工程；",
+          "line": 436
+        }
+      ],
+      "reason": "明确所级机械机器人训练路径，当季接收机器人工程等背景。实验室是所内平台，不拆候选；学科备选合为同一组合，未命中参考也可支持质量。",
+      "school_key": "中国科学院沈阳自动化研究所",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "#### 9. 北京航空航天大学 | 机械工程及自动化学院\n- **具体专业/项目**：[机械电子工程（080202）](file:///path/to/buaa_me) 仿生软体与医疗手术机器人方向 / 自动化科学与电气工程学院",
+      "canonical_candidate_key": "buaa.me.mechanical.robot",
+      "error_ids": [],
+      "label": "北航机械工程及自动化学院｜机械电子机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 9. 北京航空航天大学 | 机械工程及自动化学院 | 机械电子工程（仿生软体与医疗机器人方向）",
+          "line": 18
+        },
+        {
+          "answer_quote": "                     ├── 9. 北京航空航天大学（机械学院仿生与医疗机器人）",
+          "line": 129
+        },
+        {
+          "answer_quote": "#### 9. 北京航空航天大学 | 机械工程及自动化学院",
+          "line": 190
+        },
+        {
+          "answer_quote": "  - **考核侧重**：北航机械夏令营考核规范严谨，专业课考查涉及机械设计、机电传动与微机原理。前3名初审无阻力，面试重点展示科研项目的自研硬件样机或软硬件联调经验。",
+          "line": 200
+        },
+        {
+          "answer_quote": "   - **核心组（精准深耕）**：哈工大本部机电（机器人所）、哈工大深圳机电、中科院沈自所、北航机械、北理工机电。",
+          "line": 414
+        }
+      ],
+      "reason": "虽然专业行末并列另一学院，标题、目录以及后文“北航机械”单独投报已明确机械学院主选。因此保留这条独立机械路径；机械电子属于参考机械方向已有粒度，按exact。另学院仅提名另记A20，不能移植主学院代码创造正向覆盖。",
+      "school_key": "北京航空航天大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "#### 10. 北京理工大学 | 机电学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/bit_me) 仿生机器人与系统教育部重点实验室 / 人形机器人创新中心专项",
+      "canonical_candidate_key": "bit.smen.mechanical.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-09-04机电推免通知及专业表明确080200智能机器人与系统，推荐核心单位专业成立。",
+          "source": "https://smen.bit.edu.cn/tzgg/8282e2bb5e714df8979f34fd26883d5b.htm"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "表列080200机械工程04智能机器人与系统、05机电系统与传感器；图像下载到bit-programs.png并实际查看。",
+          "source": "https://smen.bit.edu.cn/images/2026-09/f29b034328894755ada520d9ab02435f.png"
+        }
+      ],
+      "error_ids": [],
+      "label": "北理工机电学院｜机械工程智能机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 10. 北京理工大学 | 机电学院 | 机械工程（仿生人形机器人与无人系统方向）",
+          "line": 19
+        },
+        {
+          "answer_quote": "                     ├── 10. 北京理工大学（机电学院仿生人形机器人）",
+          "line": 130
+        },
+        {
+          "answer_quote": "#### 10. 北京理工大学 | 机电学院",
+          "line": 204
+        },
+        {
+          "answer_quote": "   - **核心组（精准深耕）**：哈工大本部机电（机器人所）、哈工大深圳机电、中科院沈自所、北航机械、北理工机电。",
+          "line": 414
+        }
+      ],
+      "reason": "当季官方图表确有080200机械工程智能机器人与系统，核心组合有效，非参考清单外错误。具体人形中心专项和所有出口不据此全部背书。",
+      "school_key": "北京理工大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "#### 11. 华中科技大学 | 机械科学与工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hust_me) 数字制造装备与技术全国重点实验室 / 智能制造与柔顺机器人方向",
+      "canonical_candidate_key": "hust.me.mechanical.robot",
+      "error_ids": [],
+      "label": "华科机械科学与工程学院｜机械工程机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 11. 华中科技大学 | 机械科学与工程学院 | 机械工程（智能制造与柔顺机器人加工方向）",
+          "line": 20
+        },
+        {
+          "answer_quote": "                     └── 11. 华中科技大学（机械学院数字制造与装备）",
+          "line": 131
+        },
+        {
+          "answer_quote": "#### 11. 华中科技大学 | 机械科学与工程学院",
+          "line": 218
+        }
+      ],
+      "reason": "学校、院系和机械方向匹配冻结参考；平台名称修饰及内部智能制造机器人研究方向不拆分。valid为核心组合身份判断，不是全部导师、经费或年度门槛审计。",
+      "school_key": "华中科技大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12M",
+      "answer_quote": "若想转向纯感知与算法侧推荐投报人机所；若保留机构设计强项建议申报机械学院机器人所。",
+      "canonical_candidate_key": "xjtu.mec.mechanical.robot",
+      "error_ids": [],
+      "feasibility": "题面机器人工程及机械机器人科研支持此方向；答卷建议申报机械学院，并列出080200及机械基础考核，方案可行。正式推免资格仍须按学校审核，不承诺录取。",
+      "key_condition": "希望保留机构设计与机械工程强项，选择机械学院机器人训练路线。",
+      "label": "西交机械工程学院｜机械工程智能装备/机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 12. 西安交通大学 | 机械工程学院 / 人机所 | 机械工程（智能机器人与装备运维）/ 控制（人机所自主无人系统）",
+          "line": 22
+        },
+        {
+          "answer_quote": "                     ┌── 12. 西安交通大学（机械工程学院 / 人机所）",
+          "line": 235
+        },
+        {
+          "answer_quote": "#### 12. 西安交通大学 | 机械工程学院 / 电信学部人机所",
+          "line": 243
+        },
+        {
+          "answer_quote": "  - **考核侧重**：C9名校间互认度极高。若想转向纯感知与算法侧推荐投报人机所；若保留机构设计强项建议申报机械学院机器人所。",
+          "line": 253
+        }
+      ],
+      "reason": "第12节全文随后明确两种不同取舍：本项机械学院不是含糊斜杠中强行拆出的对象，而是后文明示独立申报对象。与参考精确组合一致；同节重复共用身份。",
+      "school_key": "西安交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12C",
+      "answer_quote": "若想转向纯感知与算法侧推荐投报人机所；若保留机构设计强项建议申报机械学院机器人所。",
+      "canonical_candidate_key": "xjtu.iair.control.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-09-05人机所暨人工智能学院接受学硕、专硕、直博推免；最终专业依当季目录；支持具体单位的申请路径，不将年度未审计视为错误。",
+          "source": "https://iair.xjtu.edu.cn/info/1028/4338.htm"
+        },
+        {
+          "applicable_cycle": "历史学科身份关系，检索页面无当季招生周期；不认证所有2027代码变化",
+          "scope": "电信学部控制学科含机器人控制、智能机器与先进制造，支持原电信人机所方向和机械机器人实质相关。",
+          "source": "https://eiegrad.xjtu.edu.cn/xbgk/xkjs/kzkxygcxk1.htm"
+        }
+      ],
+      "error_ids": [],
+      "feasibility": "机器人工程背景有交叉基础；答卷人机所视觉/认知训练和算法方向取舍具体，官方人机所硕博推免通道存在。属于可行兴趣条件方案；最终专业名额及代码要按当届目录核对。",
+      "key_condition": "确实希望转向感知与算法，愿补足控制、视觉与计算机能力。",
+      "label": "西交电信人机所｜控制/感知算法机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 12. 西安交通大学 | 机械工程学院 / 人机所 | 机械工程（智能机器人与装备运维）/ 控制（人机所自主无人系统）",
+          "line": 22
+        },
+        {
+          "answer_quote": "                     ┌── 12. 西安交通大学（机械工程学院 / 人机所）",
+          "line": 235
+        },
+        {
+          "answer_quote": "#### 12. 西安交通大学 | 机械工程学院 / 电信学部人机所",
+          "line": 243
+        },
+        {
+          "answer_quote": "  - **考核侧重**：C9名校间互认度极高。若想转向纯感知与算法侧推荐投报人机所；若保留机构设计强项建议申报机械学院机器人所。",
+          "line": 253
+        }
+      ],
+      "reason": "第12节用明确兴趣条件独立推荐人机所，和机械学院为不同单位。单位沿革及所级推免通道成立，控制、视觉机器人训练与机械机器人高度相关。未因未完成所有专业代码年度审计而推断不存在。",
+      "school_key": "西安交通大学",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "#### 13. 同济大学 | 电子与信息工程学院\n- **具体专业/项目**：[控制科学与工程（081100）](file:///path/to/tongji_ceie) 自主智能无人系统全国重点实验室专项",
+      "canonical_candidate_key": "tongji.see.control.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "项目身份与研究方向（含十四五研究回顾），不外推全年招生名额",
+          "scope": "电信控制系的控制科学与工程硕博学科围绕智能机器人、无人系统、智能制造开展训练，和机械方向高度相关。",
+          "source": "https://cse.tongji.edu.cn/kxyj/list.psp"
+        },
+        {
+          "applicable_cycle": "官方历史项目身份资料，页面检索未明确届别；仅作身份佐证",
+          "scope": "电信学院招生文件列控制科学与工程及自主智能无人系统平台，佐证院系与项目关系。",
+          "source": "https://see.tongji.edu.cn/__local/3/B0/20/036AFE45E090AD95C24718A797C_25A850BF_79C9D.pdf"
+        }
+      ],
+      "error_ids": [],
+      "label": "同济电子与信息工程学院｜控制科学与工程无人系统",
+      "occurrences": [
+        {
+          "answer_quote": "     - 13. 同济大学 | 电子与信息工程学院 | 控制科学与工程（自主智能无人系统全国重点实验室专项）",
+          "line": 23
+        },
+        {
+          "answer_quote": "                     ├── 13. 同济大学（自主智能无人系统全国重点实验室）",
+          "line": 236
+        },
+        {
+          "answer_quote": "#### 13. 同济大学 | 电子与信息工程学院",
+          "line": 257
+        },
+        {
+          "answer_quote": "   - **稳健组（预留备选）**：同济智能无人系统、东南仪器。",
+          "line": 415
+        },
+        {
+          "answer_quote": "3. **如果立足前沿产业与丰厚回报**：哈工大深圳校区机电学院与同济大学自主智能无人系统将直接带你领略中国最具活力的产业前沿脉搏。",
+          "line": 437
+        }
+      ],
+      "reason": "具体单位和控制无人机器人方向可识别；官方学科介绍与招生文件佐证其和机械方向相关，非机械与能源学院本身。全国重点实验室是研究平台，未把科学中心名称另外造出一项。",
+      "school_key": "同济大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "#### 14. 东南大学 | 仪器科学与工程学院\n- **具体专业/项目**：[仪器科学与技术（080400）](file:///path/to/seu_ise) 人机交互与空间微操作实验室（力触觉传感与远程遥操作方向）",
+      "canonical_candidate_key": "seu.ins.instrument.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "身份与研究方向佐证，不宣称已审计当季全部导师名额",
+          "scope": "仪器学院宋爱国为硕博导师，研究机器人力触觉感知、遥操作、康复机器人；和机械机器人方向高度相关。",
+          "source": "https://ins.seu.edu.cn/sag1/list.htm"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-07-08当季仪器学院接收推免通知，确认学院路径存在；正文图片未据此外推所有详细门槛。",
+          "source": "https://ins.seu.edu.cn/2026/0708/c26759a576105/page.htm"
+        }
+      ],
+      "error_ids": [],
+      "label": "东南仪器科学与工程学院｜仪器科学与技术机器人传感遥操作",
+      "occurrences": [
+        {
+          "answer_quote": "     - 14. 东南大学 | 仪器科学与工程学院 | 仪器科学与技术（人机交互与力触觉传感遥操作方向）",
+          "line": 24
+        },
+        {
+          "answer_quote": "[第三梯队: 优势平台] ├── 14. 东南大学（仪器科学与工程学院人机交互实验室）",
+          "line": 237
+        },
+        {
+          "answer_quote": "#### 14. 东南大学 | 仪器科学与工程学院",
+          "line": 271
+        },
+        {
+          "answer_quote": "   - **稳健组（预留备选）**：同济智能无人系统、东南仪器。",
+          "line": 415
+        }
+      ],
+      "reason": "仪器专业与机器人力触觉、遥操作训练真实，宋爱国为该院硕博导师；同校跨院系机械相关成立。不是机械学院同名路径。",
+      "school_key": "东南大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "#### 15. 天津大学 | 机械工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/tju_me) 机构理论与装备设计教育部重点实验室（并联机器人与微创手术系统）",
+      "canonical_candidate_key": "tju.me.mechanical.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-09-18官方机械学院推免录取工作办法确认硕博路径。",
+          "source": "https://me.tju.edu.cn/info/1041/53861.htm"
+        }
+      ],
+      "error_ids": [],
+      "label": "天津大学机械工程学院｜机械工程医疗/并联机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 15. 天津大学 | 机械工程学院 | 机械工程（机构理论与并联/微创医疗机器人方向）",
+          "line": 25
+        },
+        {
+          "answer_quote": "                     ├── 15. 天津大学（机构理论与装备设计并联机器人）",
+          "line": 238
+        },
+        {
+          "answer_quote": "#### 15. 天津大学 | 机械工程学院",
+          "line": 285
+        }
+      ],
+      "reason": "工科同档学校及具体机械学院机械项目有效，当季官方有硕博推免办法。题目允许参考外高质量机械项目，不因未在参考中无效化。",
+      "school_key": "天津大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "#### 16. 中国科学院深圳先进技术研究院（SIAT）\n- **具体专业/项目**：[集成技术研究所 / 智能机器人研究中心](file:///path/to/siat_robot) 机械电子 / 控制工程 / 电子信息",
+      "canonical_candidate_key": "siat.iait.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "单位研究方向身份佐证，不认证当季每个联培博士名额",
+          "scope": "集成技术单位开展家庭服务、康复及特种机器人研究，内部中心方向并列不拆项目。",
+          "source": "https://siait.siat.ac.cn/siat/iait/yjdy/index.html"
+        },
+        {
+          "applicable_cycle": "2024入学历史项目说明，作2026身份参考，不倒灌新公布结果",
+          "scope": "官方历史简章确认先进院及集成技术单位的学硕/专硕培养身份。",
+          "source": "https://www.siat.ac.cn/jyjx/zsxx/sszs/202412/t20241214_7458982.html"
+        }
+      ],
+      "error_ids": [],
+      "label": "中科院深圳先进院集成技术所｜机械/控制电子信息机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 16. 中国科学院深圳先进技术研究院 | 集成技术研究所 | 计算机/电子信息/机械（智能机器人与外骨骼穿戴系统）",
+          "line": 26
+        },
+        {
+          "answer_quote": "- **稳妥底盘层（15%~20%精力）**：东南大学、天津大学、中科院深圳先进院，以及以哈工大（威海）本校最高级别优生奖励作为兜底屏障，确保推免全程零风险。",
+          "line": 49
+        },
+        {
+          "answer_quote": "                     ├── 16. 中科院深圳先进技术研究院（集成技术研究所）",
+          "line": 239
+        },
+        {
+          "answer_quote": "#### 16. 中国科学院深圳先进技术研究院（SIAT）",
+          "line": 299
+        }
+      ],
+      "reason": "集成技术所及智能仿生、服务康复机器人方向成立，所内中心和多学科专业备选归一个核心组合。历史官方培养资料支持身份，并未以其保证每一当季联培博士名额。",
+      "school_key": "中国科学院深圳先进技术研究院",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "#### 17. 哈尔滨工业大学（威海） | 机电工程系 / 汽车工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hitwh_me) / [控制工程（085406）](file:///path/to/hitwh_control) 海洋智能装备与特种服务机器人研究所",
+      "canonical_candidate_key": "hit.weihai.merged.searobot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-07-21当季推免通知要求资格和综合考核，本校生也需申报；正文附件给院系专业对应关系。",
+          "source": "https://yjsc.hitwh.edu.cn/2026/0720/c934a216138/page.htm"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "当季采集表：海洋工程学院080200为机械电子方向，汽车学院080200为车辆方向；控制工程隶信息学院。表注最终招生目录为准，本证据证明院系对应，非穷尽后续增补项目。",
+          "source": "https://yjsc.hitwh.edu.cn/_upload/article/files/2a/1a/c74e412d403682582b0dc73f6cbc/3ef6275e-23a9-46bb-8ed6-166fdc010d82.pdf"
+        }
+      ],
+      "error_ids": [
+        "E-WH"
+      ],
+      "label": "哈工大威海｜机电工程系/汽车工程学院合并机械控制海洋机器人",
+      "occurrences": [
+        {
+          "answer_quote": "     - 17. 哈尔滨工业大学（威海） | 机电工程系 / 汽车工程学院 | 机械工程 / 控制工程（海洋智能装备与特种服务机器人）",
+          "line": 27
+        },
+        {
+          "answer_quote": "- **稳妥底盘层（15%~20%精力）**：东南大学、天津大学、中科院深圳先进院，以及以哈工大（威海）本校最高级别优生奖励作为兜底屏障，确保推免全程零风险。",
+          "line": 49
+        },
+        {
+          "answer_quote": "                     └── 17. 哈尔滨工业大学（威海）（本校王牌实验室直通）",
+          "line": 240
+        },
+        {
+          "answer_quote": "#### 17. 哈尔滨工业大学（威海） | 机电工程系 / 汽车工程学院",
+          "line": 313
+        }
+      ],
+      "reason": "本项把不同院系和机械/控制并列，全文没有分别明确海洋工程学院机械独立申请。官方对应海洋学院机械电子、汽车学院车辆、信息学院控制；答卷把控制海洋机器人笼统绑定机电系/汽车学院，形成错位组合，不能由评审改写成参考院系。E-WH仅使最直接N09-16覆盖失分，不在质量项重复处罚。不是证明威海学校或机械专业不存在。",
+      "school_key": "哈尔滨工业大学（威海）",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "电子信息专硕（工程师学院联培，3年）",
+      "canonical_candidate_key": "zju.pi.electronic.robot",
+      "content_evidence": [
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "2026-07-24工程师学院当季机器人培养表含控制学院电子信息/控制工程和机械学院机械/机械工程团队，证实同项目训练相近及联培招生路径。",
+          "source": "https://pi.zju.edu.cn/2026/0724/c68814a3191575/page.psp"
+        },
+        {
+          "applicable_cycle": "2026年推免申请季（对应2027级入学）；题面未给具体咨询月日",
+          "scope": "当季工程师学院专业硕士招生包含电子信息与机械领域；电子信息是与机械相近的独立专业，不等同机械专业。",
+          "source": "https://pi.zju.edu.cn/2026/0730/c67820a3192667/page.psp"
+        }
+      ],
+      "error_ids": [],
+      "label": "浙大工程师学院联培｜电子信息机器人专硕",
+      "occurrences": [
+        {
+          "answer_quote": "  - **路径选择**：学硕（2.5年或3年）、直博（5年）、电子信息专硕（工程师学院联培，3年）。",
+          "line": 114
+        }
+      ],
+      "reason": "第4节路径选择中额外推荐另一院系的具体电子信息专硕，与控制学硕为不同学位招生路径，不能漏提。上下文为智能移动机器人，官方当季工程师学院表实有控制学院教师电子信息控制工程机器人联培；因此核心独立路径有效，非参考工程师机械专业的精确同名。",
+      "school_key": "浙江大学",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "仿生软体与医疗手术机器人方向 / 自动化科学与电气工程学院",
+      "canonical_candidate_key": "buaa.automation.nomination.robot",
+      "error_ids": [],
+      "label": "北航自动化科学与电气工程学院｜机器人候选提名",
+      "occurrences": [
+        {
+          "answer_quote": "- **具体专业/项目**：[机械电子工程（080202）](file:///path/to/buaa_me) 仿生软体与医疗手术机器人方向 / 自动化科学与电气工程学院",
+          "line": 191
+        }
+      ],
+      "reason": "专业行末额外提名独立学院，但未分别绑定该院的招生专业或说明独立投报；记录候选数量，treatment=mentioned不计匹配。学院为可识别真实单位；不据此声称该院招收机械电子080202，也不把提名缺项挂pending。",
+      "school_key": "北京航空航天大学",
+      "treatment": "mentioned",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 17,
+  "rubric_sha256": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+  "score": 49.59,
+  "score_interval": [
+    49.59,
+    49.59
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "N09-03",
+  "task_kind": "recommendation",
+  "task_sha256": "b14ff9c88f14103a8570c8fb6cb56fe9fa790d3c131405b13c0fa38ae5bcd9cd",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "schools": [
+      {
+        "answer_quote": "#### 1. 清华大学 | 机械工程系\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/tsinghua_me) 学术型硕士 / [机械（085500）](file:///path/to/tsinghua_me_pro) 智能制造与具身机器人卓越工程师专项 / 直博生",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "清华大学"
+      },
+      {
+        "answer_quote": "#### 2. 北京大学 | 工学院先进制造与机器人系\n- **具体专业/项目**：[力学（系统与控制 080100）](file:///path/to/pku_coe) 学术型硕士 / [机械（085500）](file:///path/to/pku_coe_mech) 智能制造与仿生机器人方向 / 直博生",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "北京大学"
+      },
+      {
+        "answer_quote": "#### 3. 上海交通大学 | 机械与动力工程学院（机动学院）\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/sjtu_me) 机器人研究所（机械电子工程方向） 学硕 / 直博 / 专业型硕士（临港专项/工程硕博）",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "上海交通大学"
+      },
+      {
+        "answer_quote": "#### 4. 浙江大学 | 控制科学与工程学院\n- **具体专业/项目**：[控制科学与工程（081100）](file:///path/to/zju_control) 模式识别与智能系统 / 控制理论与控制工程（智能移动机器人方向）",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "浙江大学"
+      },
+      {
+        "answer_quote": "#### 5. 哈尔滨工业大学（本部） | 机电工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hit_me) 机械电子工程 / 机器人研究所（机器人技术与系统全国重点实验室专项）",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "哈尔滨工业大学"
+      },
+      {
+        "answer_quote": "#### 6. 哈尔滨工业大学（深圳） | 机电工程与自动化学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hitsz_me) / [控制科学与工程（081100）](file:///path/to/hitsz_control) 智能机器人与微纳系统方向",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "哈尔滨工业大学（深圳）"
+      },
+      {
+        "answer_quote": "#### 7. 中国科学院自动化研究所（北京）\n- **具体专业/项目**：[控制理论与控制工程（081101）](file:///path/to/casia_control) / [模式识别与智能系统（081104）](file:///path/to/casia_prai) 多模态人工智能系统全国重点实验室",
+        "downgraded": false,
+        "reason": "科研院所的机器人/自动化训练与国科大等授位体系适配，不按没有985/211标签认定降级；培养地已在具体组合中说明。",
+        "school_key": "中国科学院自动化研究所"
+      },
+      {
+        "answer_quote": "#### 8. 中国科学院沈阳自动化研究所\n- **具体专业/项目**：[机械电子工程（080202）](file:///path/to/sia_me) / [控制科学与工程（081100）](file:///path/to/sia_control) 机器人学国家重点实验室专项",
+        "downgraded": false,
+        "reason": "科研院所的机器人/自动化训练与国科大等授位体系适配，不按没有985/211标签认定降级；培养地已在具体组合中说明。",
+        "school_key": "中国科学院沈阳自动化研究所"
+      },
+      {
+        "answer_quote": "#### 9. 北京航空航天大学 | 机械工程及自动化学院\n- **具体专业/项目**：[机械电子工程（080202）](file:///path/to/buaa_me) 仿生软体与医疗手术机器人方向 / 自动化科学与电气工程学院",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "北京航空航天大学"
+      },
+      {
+        "answer_quote": "#### 10. 北京理工大学 | 机电学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/bit_me) 仿生机器人与系统教育部重点实验室 / 人形机器人创新中心专项",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "北京理工大学"
+      },
+      {
+        "answer_quote": "#### 11. 华中科技大学 | 机械科学与工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hust_me) 数字制造装备与技术全国重点实验室 / 智能制造与柔顺机器人方向",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "华中科技大学"
+      },
+      {
+        "answer_quote": "若想转向纯感知与算法侧推荐投报人机所；若保留机构设计强项建议申报机械学院机器人所。",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "西安交通大学"
+      },
+      {
+        "answer_quote": "#### 13. 同济大学 | 电子与信息工程学院\n- **具体专业/项目**：[控制科学与工程（081100）](file:///path/to/tongji_ceie) 自主智能无人系统全国重点实验室专项",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "同济大学"
+      },
+      {
+        "answer_quote": "#### 14. 东南大学 | 仪器科学与工程学院\n- **具体专业/项目**：[仪器科学与技术（080400）](file:///path/to/seu_ise) 人机交互与空间微操作实验室（力触觉传感与远程遥操作方向）",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "东南大学"
+      },
+      {
+        "answer_quote": "#### 15. 天津大学 | 机械工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/tju_me) 机构理论与装备设计教育部重点实验室（并联机器人与微创手术系统）",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "天津大学"
+      },
+      {
+        "answer_quote": "#### 16. 中国科学院深圳先进技术研究院（SIAT）\n- **具体专业/项目**：[集成技术研究所 / 智能机器人研究中心](file:///path/to/siat_robot) 机械电子 / 控制工程 / 电子信息",
+        "downgraded": false,
+        "reason": "科研院所的机器人/自动化训练与国科大等授位体系适配，不按没有985/211标签认定降级；培养地已在具体组合中说明。",
+        "school_key": "中国科学院深圳先进技术研究院"
+      },
+      {
+        "answer_quote": "#### 17. 哈尔滨工业大学（威海） | 机电工程系 / 汽车工程学院\n- **具体专业/项目**：[机械工程（080200）](file:///path/to/hitwh_me) / [控制工程（085406）](file:///path/to/hitwh_control) 海洋智能装备与特种服务机器人研究所",
+        "downgraded": false,
+        "reason": "与哈工大（威海）本科985基准同属985档；同档不降级。哈工大各培养校区分开记录，不混淆招生地点。",
+        "school_key": "哈尔滨工业大学（威海）"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

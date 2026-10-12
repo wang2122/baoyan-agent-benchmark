@@ -1,0 +1,10 @@
+{
+  "schema": "selected-record-provenance.1",
+  "agent": "qwen3-8-max-0902",
+  "task_id": "TRY-F-02",
+  "question_id": "Q016",
+  "source_kind": "retained_historical_summary",
+  "source_answer_sha256": "894afb8c3d1ed22b4df83be9f9c043b0c03ef109bc0b5ab435750fdaf7de684a",
+  "answer_text_available": true,
+  "original_execution_time": "not_retained_in_public_source"
+}

@@ -1,0 +1,38 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N12",
+  "case_id": "N12",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "medium",
+  "document_question_id": "Q069",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "e155ae3c1ab3319e8f45cdb01c927c0091af8201bb5f398ff9347d06ba666fa2",
+  "stages": [
+    {
+      "instruction": "现在是2026年推免申请季。我在中国海洋大学读法学，排名前约3%，雅思7.5，有一些本科生科研经历。我在法学学硕和其他法律类培养项目之间犹豫，不知道哪种更适合我的研究兴趣和以后发展。你能帮我比较吗？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "再补充一些经历：参与过校级本科生科研项目，其中一份论文稿件已经比较完整，但还没有投稿；也参加过法学相关及其他竞赛。结合这些背景，你怎么比较学硕和其他培养项目？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N12-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

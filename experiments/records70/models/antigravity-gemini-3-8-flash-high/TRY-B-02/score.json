@@ -1,0 +1,459 @@
+{
+  "actual_candidate_count": 4,
+  "answer_sha256": "265fc6970876c40d73b42da29e099842b1de7aa5c80b686feaa1f0169fcf09ab",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 57.5
+  },
+  "confirmed_points": 57.5,
+  "diagnostic_score": 57.5,
+  "difficulty": "medium",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-HHU-SECURITY": [
+      "TRY-B-02-R10-04"
+    ],
+    "ERR-HOME-ASSUMPTION": [
+      "TRY-B-02-R10-07"
+    ],
+    "ERR-NCEPU-PATH": [
+      "TRY-B-02-R10-03"
+    ],
+    "ERR-PERSONAL-FACT": [
+      "TRY-B-02-R10-05"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**华北电力大学** 电气与电子工程学院（北京/保定视个人偏好投递，北京名校效应更强，保定电气实力更厚重）。",
+      "id": "ERR-NCEPU-PATH",
+      "reason": "把北京/保定的电气申请路径都放在同一院名下，未分别标出保定电力工程系及各自项目。官方历史资料确认主体不同（evidence.json：EV-NCEPU-BJ、EV-NCEPU-BD、EV-NCEPU-BD-TM）。这是路径区分不足，不是两地电气项目不存在；仅归入R10-03。"
+    },
+    {
+      "answer_quote": "初审通过率、夏令营“优秀营员”获得率极高，能迅速为你锁定一张高质量的推免“免死金牌”。",
+      "id": "ERR-HHU-SECURITY",
+      "reason": "把尚未确认推免资格、尚未经该校选拔的申请者描述成能迅速锁定安全网，且未说明优秀营员与最终接收仍需条件。往届正式公告明确复试、资格及系统确认流程（EV-HHU-ADMISSION）；不能从排名和六级推出该校高确定性接收。仅归入R10-04，不连带否定河海电气项目身份。"
+    },
+    {
+      "answer_quote": "已完成的电气相关研究算法源码",
+      "id": "ERR-PERSONAL-FACT",
+      "reason": "题面只披露论文未录用、专利在审和一些竞赛经历，未披露已完成算法源码；答卷将其作为自荐信中的现成个人成果，未用询问或条件句处理。另一处也让学生展示独立承担的建模、算法及仿真，未先核对本人角色。本错误判的是无依据补定个人事实，不声称学生实际没有做过；仅归入R10-05。"
+    },
+    {
+      "answer_quote": "位于南京，地理上兼顾了本科学业过渡与家庭辐射圈，无异地生活不适。",
+      "id": "ERR-HOME-ASSUMPTION",
+      "reason": "本科在南京不等于家在南京或长三角。题面未披露家乡，答卷在河海段直接把同城判为近家，又把华北就读说成违背近家初衷。东南段虽有江苏/长三角条件句，后续整体比较未持续保留此前提；仅归入R10-07，不在河海适配项重复扣此错误。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-B-02",
+  "input_sha256": "8710c9a0bcc7db394888d582cebf256d31a9077d700a9d2e631252a6d77e1573",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "e814f013d6e4962d98c5fca59aac4ed6ec675ce6aa84e91b2a6ee1f9be981cc2",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "TRY-B-02-R10-01",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-02",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-03",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-04",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-05",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-06",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-07",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-B-02-R10-08",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 1,
+      "id": "TRY-B-02-R10-09",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 4,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "ANS-01",
+      "answer_quote": "**顶级冲刺目标（Dream School）**。夏令营务必全力提交材料一试，但不宜作为唯一核心重心，重点准备后续预推免可能释放的补录机会。",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "二.1",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：二.1；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-02",
+      "answer_quote": "**核心保底兼必争目标（Solid Anchor）**。夏令营务必早早锁定“优秀营员”，确立保研主动权。",
+      "canonical_candidate_key": "hhu_electrical_engineering",
+      "error_ids": [
+        "ERR-HHU-SECURITY",
+        "ERR-HOME-ASSUMPTION"
+      ],
+      "label": "河海大学电气方向（答卷称能源与电气学院）",
+      "occurrence": "二.2",
+      "reason": "实际推荐的河海电气。EV-HHU-HISTORY及2024年官方公告支持旧能源与电气学院至电气与动力工程学院的延续，不能机械因旧称判无效；这里按答卷的电气方向粒度识别，不自行拆学硕/专硕。过度保底判断关联R10-04，近家前提关联R10-07；valid仅表明真实且未证实硬限制冲突，不是无条件录取保证。 此条记录位置：二.2；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "hohai_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-03",
+      "answer_quote": "**行业顶级专业目标（Industry Top Choice）**。如果不介意读研三年暂时离家较远、以“换取全国电网最高通行证”为核心目标，华电是专业实力最硬核的选择。",
+      "canonical_candidate_key": "ncepu_electrical_beijing_baoding_combined",
+      "error_ids": [
+        "ERR-NCEPU-PATH"
+      ],
+      "feasibility": "接受异地求学属于可选择的软偏好，答卷明确讨论两地与返江苏就业、实习往返成本，现实可行；但本人真实家乡与意愿未确认，且答卷未给分别核实两地项目的办法。该记录不补写答卷缺失的正式资格核验方案。",
+      "key_condition": "接受北京或保定读研期间距南京/长三角较远的取舍，把全国电网平台权重置于答卷所假设的近家诉求之上。",
+      "label": "华北电力电气（北京/保定合并表述，未分别明确项目）",
+      "occurrence": "二.3",
+      "reason": "电网行业目标下的条件推荐，全文未分别形成北京和保定的独立项目建议，只保留一个合并候选，不能替其创造两条项目。EV-NCEPU-BJ、EV-NCEPU-BD、EV-NCEPU-BD-TM支持两地真实电气路径；院系表述混用是R10-03的缺陷，不证明整个建议虚构或学位路径不成立。 此条记录位置：二.3；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "north_china_electric_power_university",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-04",
+      "answer_quote": "**985 稳妥冲击目标（Strategic 985 Option）**。作为保研梯队中连接 985 平台与电气专业声誉的最佳折中点。",
+      "canonical_candidate_key": "sdu_electrical_engineering",
+      "error_ids": [],
+      "label": "山东大学电气工程学院电气方向",
+      "occurrence": "二.4",
+      "reason": "实际推荐的山东电气，985主攻、夏令营投递及最终优先关系为同一可识别路径。官方2025年学院夏令营报道（EV-SDU）支持身份和济南千佛山活动地；不为答卷推断学位类别、个人初审概率或电网就业待遇，不把缺逐年审核等同无效。 此条记录位置：二.4；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "shandong_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-05",
+      "answer_quote": "**冲刺校（Dream）**",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "三.推荐矩阵",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：三.推荐矩阵；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-06",
+      "answer_quote": "**必拿保底（Anchor）**",
+      "canonical_candidate_key": "hhu_electrical_engineering",
+      "error_ids": [
+        "ERR-HHU-SECURITY",
+        "ERR-HOME-ASSUMPTION"
+      ],
+      "label": "河海大学电气方向（答卷称能源与电气学院）",
+      "occurrence": "三.推荐矩阵",
+      "reason": "实际推荐的河海电气。EV-HHU-HISTORY及2024年官方公告支持旧能源与电气学院至电气与动力工程学院的延续，不能机械因旧称判无效；这里按答卷的电气方向粒度识别，不自行拆学硕/专硕。过度保底判断关联R10-04，近家前提关联R10-07；valid仅表明真实且未证实硬限制冲突，不是无条件录取保证。 此条记录位置：三.推荐矩阵；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "hohai_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-07",
+      "answer_quote": "**行业主攻（Top Pick）**",
+      "canonical_candidate_key": "ncepu_electrical_beijing_baoding_combined",
+      "error_ids": [
+        "ERR-NCEPU-PATH"
+      ],
+      "feasibility": "接受异地求学属于可选择的软偏好，答卷明确讨论两地与返江苏就业、实习往返成本，现实可行；但本人真实家乡与意愿未确认，且答卷未给分别核实两地项目的办法。该记录不补写答卷缺失的正式资格核验方案。",
+      "key_condition": "接受北京或保定读研期间距南京/长三角较远的取舍，把全国电网平台权重置于答卷所假设的近家诉求之上。",
+      "label": "华北电力电气（北京/保定合并表述，未分别明确项目）",
+      "occurrence": "三.推荐矩阵",
+      "reason": "电网行业目标下的条件推荐，全文未分别形成北京和保定的独立项目建议，只保留一个合并候选，不能替其创造两条项目。EV-NCEPU-BJ、EV-NCEPU-BD、EV-NCEPU-BD-TM支持两地真实电气路径；院系表述混用是R10-03的缺陷，不证明整个建议虚构或学位路径不成立。 此条记录位置：三.推荐矩阵；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "north_china_electric_power_university",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-08",
+      "answer_quote": "**985主攻（Balanced）**",
+      "canonical_candidate_key": "sdu_electrical_engineering",
+      "error_ids": [],
+      "label": "山东大学电气工程学院电气方向",
+      "occurrence": "三.推荐矩阵",
+      "reason": "实际推荐的山东电气，985主攻、夏令营投递及最终优先关系为同一可识别路径。官方2025年学院夏令营报道（EV-SDU）支持身份和济南千佛山活动地；不为答卷推断学位类别、个人初审概率或电网就业待遇，不把缺逐年审核等同无效。 此条记录位置：三.推荐矩阵；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "shandong_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-09",
+      "answer_quote": "首选投递 **河海大学** 能源与电气学院夏令营。利用你的 前约2% 排名与 550–599 分六级，迅速夺下“优秀营员”身份，为自己卸下“无书可读”的心理包袱。",
+      "canonical_candidate_key": "hhu_electrical_engineering",
+      "error_ids": [
+        "ERR-HHU-SECURITY",
+        "ERR-HOME-ASSUMPTION"
+      ],
+      "label": "河海大学电气方向（答卷称能源与电气学院）",
+      "occurrence": "四.2.投递",
+      "reason": "实际推荐的河海电气。EV-HHU-HISTORY及2024年官方公告支持旧能源与电气学院至电气与动力工程学院的延续，不能机械因旧称判无效；这里按答卷的电气方向粒度识别，不自行拆学硕/专硕。过度保底判断关联R10-04，近家前提关联R10-07；valid仅表明真实且未证实硬限制冲突，不是无条件录取保证。 此条记录位置：四.2.投递；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "hohai_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-10",
+      "answer_quote": "重点投递 **山东大学** 电气学院与 **华北电力大学** 电气与电子工程学院（北京/保定视个人偏好投递，北京名校效应更强，保定电气实力更厚重）。",
+      "canonical_candidate_key": "sdu_electrical_engineering",
+      "error_ids": [],
+      "label": "山东大学电气工程学院电气方向",
+      "occurrence": "四.2.投递",
+      "reason": "实际推荐的山东电气，985主攻、夏令营投递及最终优先关系为同一可识别路径。官方2025年学院夏令营报道（EV-SDU）支持身份和济南千佛山活动地；不为答卷推断学位类别、个人初审概率或电网就业待遇，不把缺逐年审核等同无效。 此条记录位置：四.2.投递；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "shandong_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-11",
+      "answer_quote": "**华北电力大学** 电气与电子工程学院（北京/保定视个人偏好投递，北京名校效应更强，保定电气实力更厚重）。",
+      "canonical_candidate_key": "ncepu_electrical_beijing_baoding_combined",
+      "error_ids": [
+        "ERR-NCEPU-PATH"
+      ],
+      "feasibility": "接受异地求学属于可选择的软偏好，答卷明确讨论两地与返江苏就业、实习往返成本，现实可行；但本人真实家乡与意愿未确认，且答卷未给分别核实两地项目的办法。该记录不补写答卷缺失的正式资格核验方案。",
+      "key_condition": "接受北京或保定读研期间距南京/长三角较远的取舍，把全国电网平台权重置于答卷所假设的近家诉求之上。",
+      "label": "华北电力电气（北京/保定合并表述，未分别明确项目）",
+      "occurrence": "四.2.投递",
+      "reason": "电网行业目标下的条件推荐，全文未分别形成北京和保定的独立项目建议，只保留一个合并候选，不能替其创造两条项目。EV-NCEPU-BJ、EV-NCEPU-BD、EV-NCEPU-BD-TM支持两地真实电气路径；院系表述混用是R10-03的缺陷，不证明整个建议虚构或学位路径不成立。 此条记录位置：四.2.投递；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "north_china_electric_power_university",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-12",
+      "answer_quote": "认真打磨文书投递 **东南大学** 电气学院。若入营，全力以赴；若初审未过，保持心态，留待 8-9 月预推免阶段再次尝试捡漏或候补。",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "四.2.投递",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：四.2.投递；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-13",
+      "answer_quote": "对于 **东南大学** 和 **河海大学** 的导师，研读其在智能电网、V2G、微网能量管理方向的近三年代表作；",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "四.4.导师",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：四.4.导师；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-14",
+      "answer_quote": "对于 **东南大学** 和 **河海大学** 的导师，研读其在智能电网、V2G、微网能量管理方向的近三年代表作；",
+      "canonical_candidate_key": "hhu_electrical_engineering",
+      "error_ids": [
+        "ERR-HHU-SECURITY",
+        "ERR-HOME-ASSUMPTION"
+      ],
+      "label": "河海大学电气方向（答卷称能源与电气学院）",
+      "occurrence": "四.4.导师",
+      "reason": "实际推荐的河海电气。EV-HHU-HISTORY及2024年官方公告支持旧能源与电气学院至电气与动力工程学院的延续，不能机械因旧称判无效；这里按答卷的电气方向粒度识别，不自行拆学硕/专硕。过度保底判断关联R10-04，近家前提关联R10-07；valid仅表明真实且未证实硬限制冲突，不是无条件录取保证。 此条记录位置：四.4.导师；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "hohai_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-15",
+      "answer_quote": "目标优先级应为：**东南大学（冲刺） > 河海大学（最实用、最稳妥选择）**。",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "五.1.近家优先",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：五.1.近家优先；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-16",
+      "answer_quote": "目标优先级应为：**东南大学（冲刺） > 河海大学（最实用、最稳妥选择）**。",
+      "canonical_candidate_key": "hhu_electrical_engineering",
+      "error_ids": [
+        "ERR-HHU-SECURITY",
+        "ERR-HOME-ASSUMPTION"
+      ],
+      "label": "河海大学电气方向（答卷称能源与电气学院）",
+      "occurrence": "五.1.近家优先",
+      "reason": "实际推荐的河海电气。EV-HHU-HISTORY及2024年官方公告支持旧能源与电气学院至电气与动力工程学院的延续，不能机械因旧称判无效；这里按答卷的电气方向粒度识别，不自行拆学硕/专硕。过度保底判断关联R10-04，近家前提关联R10-07；valid仅表明真实且未证实硬限制冲突，不是无条件录取保证。 此条记录位置：五.1.近家优先；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "hohai_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-17",
+      "answer_quote": "以河海大学电气作为坚固底仓，力争东南大学。",
+      "canonical_candidate_key": "hhu_electrical_engineering",
+      "error_ids": [
+        "ERR-HHU-SECURITY",
+        "ERR-HOME-ASSUMPTION"
+      ],
+      "label": "河海大学电气方向（答卷称能源与电气学院）",
+      "occurrence": "五.1.底仓",
+      "reason": "实际推荐的河海电气。EV-HHU-HISTORY及2024年官方公告支持旧能源与电气学院至电气与动力工程学院的延续，不能机械因旧称判无效；这里按答卷的电气方向粒度识别，不自行拆学硕/专硕。过度保底判断关联R10-04，近家前提关联R10-07；valid仅表明真实且未证实硬限制冲突，不是无条件录取保证。 此条记录位置：五.1.底仓；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "hohai_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-18",
+      "answer_quote": "以河海大学电气作为坚固底仓，力争东南大学。",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "五.1.力争",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：五.1.力争；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-19",
+      "answer_quote": "目标优先级应为：**华北电力大学（行业通杀） > 东南大学（985名牌） > 山东大学（985老八校）**。",
+      "canonical_candidate_key": "ncepu_electrical_beijing_baoding_combined",
+      "error_ids": [
+        "ERR-NCEPU-PATH"
+      ],
+      "feasibility": "接受异地求学属于可选择的软偏好，答卷明确讨论两地与返江苏就业、实习往返成本，现实可行；但本人真实家乡与意愿未确认，且答卷未给分别核实两地项目的办法。该记录不补写答卷缺失的正式资格核验方案。",
+      "key_condition": "接受北京或保定读研期间距南京/长三角较远的取舍，把全国电网平台权重置于答卷所假设的近家诉求之上。",
+      "label": "华北电力电气（北京/保定合并表述，未分别明确项目）",
+      "occurrence": "五.2.行业优先",
+      "reason": "电网行业目标下的条件推荐，全文未分别形成北京和保定的独立项目建议，只保留一个合并候选，不能替其创造两条项目。EV-NCEPU-BJ、EV-NCEPU-BD、EV-NCEPU-BD-TM支持两地真实电气路径；院系表述混用是R10-03的缺陷，不证明整个建议虚构或学位路径不成立。 此条记录位置：五.2.行业优先；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "north_china_electric_power_university",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-20",
+      "answer_quote": "目标优先级应为：**华北电力大学（行业通杀） > 东南大学（985名牌） > 山东大学（985老八校）**。",
+      "canonical_candidate_key": "seu_electrical_engineering",
+      "error_ids": [],
+      "label": "东南大学电气工程学院电气方向",
+      "occurrence": "五.2.行业优先",
+      "reason": "题面要求的东南电气实际推荐，全文冲刺、投递、导师方向和优先关系均指同一路径。官方往届电气学院通知（EV-SEU）支持可识别身份；未确认推免资格不妨碍准备期提出申请目标，不等于已证明最终接收或当届所有条件已审计。 此条记录位置：五.2.行业优先；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "southeast_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-21",
+      "answer_quote": "目标优先级应为：**华北电力大学（行业通杀） > 东南大学（985名牌） > 山东大学（985老八校）**。",
+      "canonical_candidate_key": "sdu_electrical_engineering",
+      "error_ids": [],
+      "label": "山东大学电气工程学院电气方向",
+      "occurrence": "五.2.行业优先",
+      "reason": "实际推荐的山东电气，985主攻、夏令营投递及最终优先关系为同一可识别路径。官方2025年学院夏令营报道（EV-SDU）支持身份和济南千佛山活动地；不为答卷推断学位类别、个人初审概率或电网就业待遇，不把缺逐年审核等同无效。 此条记录位置：五.2.行业优先；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "shandong_university",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "ANS-22",
+      "answer_quote": "**山东大学** 是你从南信大跨入 985 电气老八校的最佳平衡支点。",
+      "canonical_candidate_key": "sdu_electrical_engineering",
+      "error_ids": [],
+      "label": "山东大学电气工程学院电气方向",
+      "occurrence": "五.3.985优先",
+      "reason": "实际推荐的山东电气，985主攻、夏令营投递及最终优先关系为同一可识别路径。官方2025年学院夏令营报道（EV-SDU）支持身份和济南千佛山活动地；不为答卷推断学位类别、个人初审概率或电网就业待遇，不把缺逐年审核等同无效。 此条记录位置：五.3.985优先；同校同电气路径重复用同一canonical_candidate_key归并。",
+      "school_key": "shandong_university",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+  "score": 57.5,
+  "score_interval": [
+    57.5,
+    57.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-B-02",
+  "task_kind": "planning",
+  "task_sha256": "20146b9a1862e5d2be851be9ecaedac6ed57dc42fdbb6208e45af6cb6d76c357",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "通读全文后去重为四个实际候选；华电两地未分别形成明确独立项目。四校均不低于南信大双一流（非985/211）本科基准。清华、西交及C9只在声誉/生源背景中出现，南信大为本科背景；国网、南瑞、电科院等为就业目标而非升学推荐。没有实际排除或另行提名的升学对象。本题无覆盖参考项，coverage为空；不启用分层匹配、不自算总分。",
+    "schools": [
+      {
+        "answer_quote": "### 1. 东南大学（Southeast University）",
+        "downgraded": false,
+        "reason": "东南大学电气工程学院电气方向所属院校为985，高于题面南信大双一流（非985/211）本科基准；同校只计一次，降级扣分0。",
+        "school_key": "southeast_university"
+      },
+      {
+        "answer_quote": "### 2. 河海大学（Hohai University）",
+        "downgraded": false,
+        "reason": "河海大学电气方向（答卷称能源与电气学院）所属院校为211（非985），高于题面南信大双一流（非985/211）本科基准；同校只计一次，降级扣分0。",
+        "school_key": "hohai_university"
+      },
+      {
+        "answer_quote": "### 3. 华北电力大学（North China Electric Power University）",
+        "downgraded": false,
+        "reason": "华北电力电气（北京/保定合并表述，未分别明确项目）所属院校为211（非985），高于题面南信大双一流（非985/211）本科基准；同校只计一次，降级扣分0。",
+        "school_key": "north_china_electric_power_university"
+      },
+      {
+        "answer_quote": "### 4. 山东大学（Shandong University）",
+        "downgraded": false,
+        "reason": "山东大学电气工程学院电气方向所属院校为985，高于题面南信大双一流（非985/211）本科基准；同校只计一次，降级扣分0。",
+        "school_key": "shandong_university"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

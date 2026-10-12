@@ -1,0 +1,398 @@
+{
+  "actual_candidate_count": 21,
+  "answer_sha256": "39775ad5d463fc205561a48cf5c56228f4aba1004d88d08409f79fb60c410e35",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 62.5
+  },
+  "confirmed_points": 62.5,
+  "diagnostic_score": 62.5,
+  "difficulty": "easy",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01": [
+      "TRY-A-03-R10-05"
+    ],
+    "E02": [
+      "TRY-A-03-R10-02"
+    ],
+    "E03": [
+      "TRY-A-03-R10-02"
+    ],
+    "E04": [
+      "TRY-A-03-R10-02"
+    ],
+    "E05": [
+      "TRY-A-03-R10-05"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "**你不是\"四年制2027届\"，你是\"五年制2028届\"。**",
+      "evidence_ids": [
+        "S01"
+      ],
+      "id": "E01",
+      "reason": "将未选择的培养路径写成确定的个人学制，并排除2026年推免的可能。S01所载当时校方政策明确不出国实际四年；题面未说明选择赴加、延长学年或个人预毕业届别。错误在于不作条件区分而锁定2028届/2027年推免；只归信息状态项，不在近期起步项重复扣分。"
+    },
+    {
+      "answer_quote": "**三名以上本校本专业教授联名推荐**，经学院推免生遴选工作小组严格审查、学校推免生遴选工作领导小组复审，**可不受成绩、学分、外语等基本条件的限制**。",
+      "evidence_ids": [
+        "S02",
+        "S04"
+      ],
+      "id": "E02",
+      "reason": "答卷把旧版教授联名破格条件当作当时适用版规则，又列为实际备选。S02相关条款要求综合评价并禁止仅符合单一或部分指标者单列或破格，旧版已被取代；该申请路径不能靠有成果的条件恢复有效。最直接归本校规则项。"
+    },
+    {
+      "answer_quote": "⚠️ **一票否决，且不可逆**。四年半里一次记过就归零",
+      "evidence_ids": [
+        "S02",
+        "S04"
+      ],
+      "id": "E03",
+      "reason": "把曾受处分一概写成不可逆的资格否决。S02第五条及S04申请条件均允许处分记录解除后品德表现优良的情形，不能据一次记过永久排除。该错误影响资格规则解释，归本校规则项。"
+    },
+    {
+      "answer_quote": "本科学院自己办的\"全国优秀大学生夏令营\"要求是 **四级450分以上，或六级425分以上**，TOEFL/GRE优秀者亦可。这基本就是学院认可的\"外语水平优秀\"的地板线。",
+      "evidence_ids": [
+        "S04"
+      ],
+      "id": "E04",
+      "reason": "夏令营申请和本院校内推免资格是不同规则，不能把所举四级450门槛推定为校内推免最低线。S04当届校内资格为四级至少480或六级至少425。这里只判错误的门槛等同，不据此判其夏令营450信息或550训练目标错误；归本校规则项。"
+    },
+    {
+      "answer_quote": "你是2024年相关省份\"相关专业组（物理+化学）（中外合作办学）\"这一类路径进来的",
+      "evidence_ids": [],
+      "id": "E05",
+      "reason": "题面只给2024年10月大二上，没有披露入学省份和录取专业组；答卷却把2024年江苏录取路径写为学生既成事实，且与本卷2023级及已完成2023—2024大一的叙述不一致。应保留为示例或核实项，而非倒填个人背景；归信息状态项。"
+    }
+  ],
+  "excess_count": null,
+  "id": "TRY-A-03",
+  "input_sha256": "e94df2531e874d3dbd344ec89ad4e4dc39a1ee3a599b1448575e876da72e9f57",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "6c8c6a54df5ae118236d8cf93af8270c13146641f30b882efc41103eaa8d54ba",
+  "nodes": [
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-01",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-02",
+      "kind": "quality",
+      "points": 12.5
+    },
+    {
+      "grade": 1,
+      "id": "TRY-A-03-R10-03",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-04",
+      "kind": "quality",
+      "points": 5.0
+    },
+    {
+      "grade": 0.5,
+      "id": "TRY-A-03-R10-05",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 21,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "本科学院自己也办**全国优秀大学生夏令营**",
+      "canonical_candidate_key": "home_school:energy:graduate",
+      "error_ids": [],
+      "label": "华东地区一所211高校（夏令营及读研方向）",
+      "reason": "明确提出本院夏令营，后文又建议本院读研，作为可识别的院级候选保留。有效性仅指院级路径及备考方向，不证明未来夏令营周期与个人资格已核准。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "cas_unspecified:graduate_unspecified",
+      "error_ids": [],
+      "label": "中科院系统各所（未指定研究所）",
+      "reason": "列为冲档的实际候选。答卷仅给系统范围，不能替其拆出具体研究所或项目。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "cas_unspecified",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "tsinghua:graduate_unspecified",
+      "error_ids": [],
+      "label": "清华大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "sjtu:graduate_unspecified",
+      "error_ids": [],
+      "label": "上海交通大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "zju:graduate_unspecified",
+      "error_ids": [],
+      "label": "浙江大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "fudan:graduate_unspecified",
+      "error_ids": [],
+      "label": "复旦大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "nju:graduate_unspecified",
+      "error_ids": [],
+      "label": "南京大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "hust:graduate_unspecified",
+      "error_ids": [],
+      "label": "华中科技大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**冲**（中科院系统各所、清华、上交、浙大、复旦、南大、华中科技、西安交大）",
+      "canonical_candidate_key": "xjtu:graduate_unspecified",
+      "error_ids": [],
+      "label": "西安交通大学",
+      "reason": "列为冲档的实际候选。答卷仅给学校名，未给独立申请院系或专业。本题为起步规划，无参考匹配任务；保留为方向性提名式推荐，不凭信息粒度不足或未逐年审计认定不存在或无效。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**稳**（本校本科学院/材料与化学化工学部、南航、南理工、河海、江南、华东理工）",
+      "canonical_candidate_key": "home_school:energy_or_chemistry:merged",
+      "error_ids": [],
+      "label": "华东地区一所211高校/材料与化学化工学部（合并表述）",
+      "reason": "该处合并给出两个院系，作为一个未明确区分申请路径的记录保留，不拆出独立材料与化学化工学部项目。全文另有本科学院明确候选，见A01；保留这一合并出现供审阅，不创造两条项目匹配。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**稳**（本校本科学院/材料与化学化工学部、南航、南理工、河海、江南、华东理工）",
+      "canonical_candidate_key": "nuaa:graduate_unspecified",
+      "error_ids": [],
+      "label": "南京航空航天大学",
+      "reason": "列为稳档的实际候选，未指定院系专业。机构身份与方向性考虑有效，不代表个人概率或未来年度项目门槛已经核验；本题无择校覆盖项，不以缺具体项目判无效。",
+      "school_key": "nuaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**稳**（本校本科学院/材料与化学化工学部、南航、南理工、河海、江南、华东理工）",
+      "canonical_candidate_key": "njust:graduate_unspecified",
+      "error_ids": [],
+      "label": "南京理工大学",
+      "reason": "列为稳档的实际候选，未指定院系专业。机构身份与方向性考虑有效，不代表个人概率或未来年度项目门槛已经核验；本题无择校覆盖项，不以缺具体项目判无效。",
+      "school_key": "njust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "**稳**（本校本科学院/材料与化学化工学部、南航、南理工、河海、江南、华东理工）",
+      "canonical_candidate_key": "hhu:graduate_unspecified",
+      "error_ids": [],
+      "label": "河海大学",
+      "reason": "列为稳档的实际候选，未指定院系专业。机构身份与方向性考虑有效，不代表个人概率或未来年度项目门槛已经核验；本题无择校覆盖项，不以缺具体项目判无效。",
+      "school_key": "hhu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "**稳**（本校本科学院/材料与化学化工学部、南航、南理工、河海、江南、华东理工）",
+      "canonical_candidate_key": "jiangnan:graduate_unspecified",
+      "error_ids": [],
+      "label": "江南大学",
+      "reason": "列为稳档的实际候选，未指定院系专业。机构身份与方向性考虑有效，不代表个人概率或未来年度项目门槛已经核验；本题无择校覆盖项，不以缺具体项目判无效。",
+      "school_key": "jiangnan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "**稳**（本校本科学院/材料与化学化工学部、南航、南理工、河海、江南、华东理工）",
+      "canonical_candidate_key": "ecust:graduate_unspecified",
+      "error_ids": [],
+      "label": "华东理工大学",
+      "reason": "列为稳档的实际候选，未指定院系专业。机构身份与方向性考虑有效，不代表个人概率或未来年度项目门槛已经核验；本题无择校覆盖项，不以缺具体项目判无效。",
+      "school_key": "ecust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**本校永远是兜底项，本科学院有完整本硕博培养体系，留在本校读研并不吃亏。**",
+      "canonical_candidate_key": "home_school:energy:graduate",
+      "error_ids": [],
+      "label": "华东地区一所211高校（兜底重复出现）",
+      "reason": "与A01为同一本院读研方向，使用同一canonical key合并重复。所谓永远兜底不能作为保证录取的依据；其方向性建议有实际对象，本题不要求预测录取。",
+      "school_key": "home_school",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**保**（本校 + 一两所省属重点）",
+      "canonical_candidate_key": "unspecified_provincial:graduate_group",
+      "error_ids": [],
+      "label": "一两所省属重点（未命名的备选组）",
+      "reason": "保档中实际提出的未命名候选组，不能凭空补出一两所学校或项目；保留原粒度，不作精确匹配、层次推断或历史招生核准。",
+      "school_key": "unspecified_provincial",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**走出国** → 大三上就要开始准备雅思/托福、GRE（如需）、推荐信、PS/CV，申请 外方合作院校 及/或其他海外硕士。",
+      "canonical_candidate_key": "partner_school_or_overseas:application_master",
+      "error_ids": [],
+      "feasibility": "答卷提出提前评估家庭费用、雅思/托福、GPA、科研和推荐信，相关准备可以从大二开始。S01支持3+2路径身份；未把本科双学位自动等同于硕士录取资格，未来院校专业门槛仍需按实际选择核验。",
+      "key_condition": "选择赴加路径，并满足外方学习、学位和将来拟申硕士项目要求；具备可承担的费用与英语、GPA材料。",
+      "label": "外方合作院校及/或其他海外申请制硕士（合并建议）",
+      "reason": "确实提出海外硕士去向，含外方合作院校，故提取；本科合作方身份介绍本身不计推荐。不拆出未给出的具体硕士专业或其他学校。",
+      "school_key": "partner_school_or_unspecified_overseas",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "**🥇 3+2 出国 + 海外/港澳申请制硕士（这个专业的\"原生路径\"）**",
+      "canonical_candidate_key": "partner_school_or_overseas:application_master",
+      "error_ids": [],
+      "feasibility": "原卷要求提前与家长核算加方费用，准备英语、GPA、科研及推荐信，并先做共通准备；未指定院校项目，所以仅确认备选路径层面的可行性。",
+      "key_condition": "推免方案不成立或本人选择海外申请路径；获得可用于申请的本科学历学位，满足英语、学业和费用条件。",
+      "label": "海外/港澳申请制硕士（海外备选重复、范围延伸）",
+      "reason": "与A18共同构成同一个未细化的海外申请制硕士方案；港澳、北美、英联邦、港新等范围不拆成具体大学。此处为后备建议，不把本科合作背景当成新增推荐。",
+      "school_key": "partner_school_or_unspecified_overseas",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**🥉 \"学术特长生\"破格推免**\n   见第四节。**三名以上本校本专业教授联名推荐**，可不受成绩、学分、外语条件限制。前提是你手上已经有拿得出手的成果（论文/专利/顶级竞赛奖）。",
+      "canonical_candidate_key": "home_school:academic_exception:qualification",
+      "error_ids": [
+        "E02"
+      ],
+      "feasibility": "按答卷描述不可作为2024年10月有效的免基本条件通道：S02相关条款及相关旧版废止规定否定其所依赖的旧版破格规则。未知个人成果可补齐，但补齐成果不能恢复被废止的路径。",
+      "key_condition": "取得突出论文、专利或竞赛成果，并由三名以上本校本专业教授联名推荐。",
+      "label": "华东地区一所211高校学术特长生教授联名破格推免路径",
+      "reason": "全文第四节和第七节重复提出同一本校资格备选，以一条记录收集。S02不支持当时这种免基本条件的路径，标记invalid并关联E02；只在R10-02处理。",
+      "school_key": "home_school",
+      "treatment": "conditional",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "**本校直博/硕博连读、第二学士学位、就业**",
+      "canonical_candidate_key": "home_school:doctorate_or_master_doctorate:merged",
+      "error_ids": [],
+      "label": "本校直博/硕博连读（合并提名）",
+      "reason": "本校直博明确作为值得了解的方向，硕博连读与其合并列举，故按原文作为一条路径提名，不创造学院或专业。是否需推免或先入硕士应进一步区分，但没有将其记为已具备资格的替代录取。",
+      "school_key": "home_school",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "**本校直博/硕博连读、第二学士学位、就业**",
+      "canonical_candidate_key": "unspecified:second_bachelor",
+      "error_ids": [],
+      "label": "第二学士学位（未指定学校的备选提名）",
+      "reason": "提取第二学士学位这一升学备选提名，原文未给其授予学校或项目，不推定一定为本校。其属不同学位路径，不当作免试硕士接收项目；就业不属于升学候选。",
+      "school_key": "unspecified_degree_provider",
+      "treatment": "mentioned",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "**🥈 全国硕士研究生统一招生考试（考研）**\n   兜底方案。",
+      "canonical_candidate_key": "unspecified:national_master_exam",
+      "error_ids": [],
+      "feasibility": "在当前大二阶段可以准备成绩与专业课并核实毕业届别；答卷提出大四/大五备考和出国时间取舍，尚未形成特定年度具体报考承诺。",
+      "key_condition": "未获推免或选择统考路径，符合实际报考年份的本科毕业及报考条件。",
+      "label": "全国硕士研究生统一招生考试（未指定目标学校）",
+      "reason": "答卷明确列作保研走不通后的另一申请路径，故保留路径级记录；未指定目标学校，不创造院系项目。其考研须核对毕业资格和报考年份，原卷粗略的海外时间冲突判断不等同于一切跨境报考都无效。",
+      "school_key": "unspecified_degree_provider",
+      "treatment": "conditional",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+  "score": 62.5,
+  "score_interval": [
+    62.5,
+    62.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "scored_draft",
+  "task_id": "TRY-A-03",
+  "task_kind": "planning",
+  "task_sha256": "471e0b50b1cc370a20b7bf74d2c4e28606283d744e354faeba0b11c02b62dd25",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题是入门规划，无school_tier或院校层次评分节点，无参考项目或分层覆盖要求，因此不另行要求逐校层次判定或扣分。全文的目标梯度、海外及本校学位路径均已提取，重复共用canonical key；普通本科背景、合作方本科身份、政策举例院校及网站渠道不作为新增推荐。未命名候选仅记录原粒度，不虚构学校。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

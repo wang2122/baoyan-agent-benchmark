@@ -1,0 +1,34 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "antigravity-gemini-3-1-pro-high",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 20,
+        "node": "N01-02-L1-02",
+        "points": 10.0,
+        "reason": "S0具体列出运动学、动力学、控制、ROS及硬件部署，并结合时间紧说明转向成本，已有正确实质分析。但未判断学生已接触的机器人方向究竟包含哪些控制、集成或实践能力，也未提出核实这些能力的条件。S1进一步把转系统概括成从零学习，不能据仅有视觉分工事实作此判断。缺少个体已有条件与实际能力缺口的分析，按半分；E01仅归本项，不再影响其他项。"
+      },
+      {
+        "max_points": 20,
+        "node": "N01-02-L1-03",
+        "points": 10.0,
+        "reason": "两轮均明确选择继续视觉，以科研积累与有限时间为理由，并提出面向建筑机器人/智能建造装备视觉感知的申请定位，已有具体取舍。核心缺失是没有探询或条件化处理本人对视觉与系统的兴趣，也未说明若目标导师更重系统实践、或学生更偏好系统研究时如何改变选择及继续视觉的反向机会成本。绝对化结论不足以替代有条件的比较，按半分。本项失分仅针对选择条件缺失，不重复处罚E01的能力推断；不另要求完整择校清单或时间表。"
+      }
+    ],
+    "name": "Gemini 3.1 Pro",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 80.0,
+    "score_interval": [
+      80.0,
+      80.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "N01-02"
+  }
+}

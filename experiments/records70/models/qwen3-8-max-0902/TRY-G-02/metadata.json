@@ -1,0 +1,38 @@
+{
+  "agent": "qwen3-8-max-0902",
+  "model": "qwen3.8-max-0902",
+  "auth_mode": "api",
+  "cli": "qwen",
+  "cli_version": "0.25.0",
+  "run_id": "qwen20-user-start-20261012/TRY-G-02/r1",
+  "source_git_ref": "970b2751066aa04741b3dc1fd7e1a77658a15469",
+  "started_at": "2026-10-12T04:16:54.278917+00:00",
+  "finished_at": "2026-10-12T04:30:50.050003+00:00",
+  "judge_started_at": "2026-10-12T04:32:04.442406+00:00",
+  "judge_finished_at": "2026-10-12T04:40:26.449146+00:00",
+  "source_run_sha256": "9beae8ca32d20a278b594409ef372fba6483a42a7bc3e4c5b5b8d9b64c6d9cd2",
+  "judge_auth_mode": "subscription",
+  "judge_model": "gpt-6.1-sol",
+  "source_prompt_sha256": {
+    "S0": "e1181e50881b01f5b38e33a7bb58c9ef589ed47f19fa10b8b1b9714f768515f8"
+  },
+  "task_id": "TRY-G-02",
+  "question_id": "Q018",
+  "source_answer_sha256": "0dafb9010e75e717dda750d944ca0a51941bd63aad70f80adf924550e8a190b0",
+  "source_task_sha256": "125e4950c3e956f4845685e42cd365dd2805c5420280a89c1dfb977d4f20214d",
+  "source_rubric_sha256": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+  "source_judgment_sha256": "d0e9ab8192e225f22fd972f6ee9e591745a9451523bfba563008228531c6ba65",
+  "source_score_sha256": "eff160dd4fb125fc8253b145f04903a5598b31f202790b72b7dfb04292e92e26",
+  "judge_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+  "public_display_only": true,
+  "public_task_prompt_basis": "latest verified reference; generation/scoring input hashes remain original",
+  "privacy_reference_sha256": "46feb94aff98544963f827800ce27dc1f90671e665073271e193cc29e2c1c5b5",
+  "privacy_context_revision": "integrator-latest-reference-20261012.2",
+  "context_transform_sha256": "fa0eb46e195a596750298d830eaf1ade3e2c5569a74a7404d9bf60dc1eb9460c",
+  "display_adjustments": [
+    "Repeated contest profile and undergraduate platform wording generalized; official conditional CSP rule preserved"
+  ],
+  "new_attempt_is_historical_recovery": false,
+  "teacher_calibration": "pending",
+  "public_task_directory": "models/qwen3-8-max-0902/TRY-G-02"
+}

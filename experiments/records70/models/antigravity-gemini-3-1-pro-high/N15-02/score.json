@@ -1,0 +1,214 @@
+{
+  "actual_candidate_count": 9,
+  "answer_sha256": "76ccebbb7c31d298f22e730b14db07543f4cd00dbd799879030558bbb7d4f9e4",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 95.0
+  },
+  "confirmed_points": 95.0,
+  "diagnostic_score": 95.0,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR-01": [
+      "N15-02-L1-06"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "院校层次、排名前列与高分六级已经帮你锁定了极高的初筛入营率（稳健档包括华东政法、武大、厦大、吉大等，冲刺人大、法大、复旦、交大、浙大等顶尖法学院也完全具备入营资格）。",
+      "evidence_ids": [
+        "EV-01"
+      ],
+      "id": "ERR-01",
+      "reason": "以有限硬件信息直接确认多校入营资格和极高入营率，未核验预计推免资格、应届身份及各校综合遴选条件；S1继续使用同类极高概率判断。EV-01提供2026申请季交大官方条件与综合评价的反证范围：仅反对把有限信息当作已确认资格/入营概率，不认定该学生不合格或任何候选不存在。这一同类错误合并归入N15-02-L1-06，其他节点不重复扣分。"
+    }
+  ],
+  "excess_count": null,
+  "id": "N15-02",
+  "input_sha256": "9081a81f9bb7c543fe074d84e99d66d7d4ad7b2ef15325b10ba5e9087c1d1719",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "5603695288c32fc5bed2c2e8ef70e38436033626ba430e8069fcbf7547547a9b",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "N15-02-L1-01",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-02",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-03",
+      "kind": "quality",
+      "points": 15.0
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-04",
+      "kind": "quality",
+      "points": 20.0
+    },
+    {
+      "grade": 1,
+      "id": "N15-02-L1-05",
+      "kind": "quality",
+      "points": 10.0
+    },
+    {
+      "grade": 0.5,
+      "id": "N15-02-L1-06",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 9,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "S0-C01",
+      "answer_quote": "稳健档包括华东政法、武大、厦大、吉大等",
+      "canonical_candidate_key": "ecupl:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "华东政法大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“华东政法”列入稳健档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。",
+      "school_key": "ecupl",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C02",
+      "answer_quote": "稳健档包括华东政法、武大、厦大、吉大等",
+      "canonical_candidate_key": "whu:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "武汉大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“武大”列入稳健档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C03",
+      "answer_quote": "稳健档包括华东政法、武大、厦大、吉大等",
+      "canonical_candidate_key": "xmu:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "厦门大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“厦大”列入稳健档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C04",
+      "answer_quote": "稳健档包括华东政法、武大、厦大、吉大等",
+      "canonical_candidate_key": "jlu:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "吉林大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“吉大”列入稳健档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。",
+      "school_key": "jlu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C05",
+      "answer_quote": "冲刺人大、法大、复旦、交大、浙大等顶尖法学院也完全具备入营资格",
+      "canonical_candidate_key": "ruc:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "中国人民大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“人大”列入冲刺档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。S1在强调实证方法的一般背景中再次举例该校，并非新增申请推荐，不另计候选。",
+      "school_key": "ruc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C06",
+      "answer_quote": "冲刺人大、法大、复旦、交大、浙大等顶尖法学院也完全具备入营资格",
+      "canonical_candidate_key": "cupl:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "中国政法大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“法大”列入冲刺档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。",
+      "school_key": "cupl",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C07",
+      "answer_quote": "冲刺人大、法大、复旦、交大、浙大等顶尖法学院也完全具备入营资格",
+      "canonical_candidate_key": "fudan:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "复旦大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“复旦”列入冲刺档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。S1在强调实证方法的一般背景中再次举例该校，并非新增申请推荐，不另计候选。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C08",
+      "answer_quote": "冲刺人大、法大、复旦、交大、浙大等顶尖法学院也完全具备入营资格",
+      "canonical_candidate_key": "sjtu:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "上海交通大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“交大”列入冲刺档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。S1在强调实证方法的一般背景中再次举例该校，并非新增申请推荐，不另计候选。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "S0-C09",
+      "answer_quote": "冲刺人大、法大、复旦、交大、浙大等顶尖法学院也完全具备入营资格",
+      "canonical_candidate_key": "zju:law-unspecified",
+      "error_ids": [
+        "ERR-01"
+      ],
+      "label": "浙江大学法学申请方向（未指定专业/学位项目）",
+      "reason": "S0将“浙大”列入冲刺档，是实际择校建议，按法学申请方向提取一条，不替答卷拆分学硕、法硕或独立院系。学校身份及法学相关方向成立，题面未给出与此建议冲突的已知硬条件；valid仅表示建议对象内容有效，不表示已审计全部2026年度门槛或保证学生入营。对资格和概率的过度确认关联ERR-01，仅在事实核查项失分。本题无参考覆盖目标。",
+      "school_key": "zju",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "12e965f1b3fa0b9041c2926330cfe6dcffab3b1d8432312f0bc086137d6719f1",
+  "score": 95.0,
+  "score_interval": [
+    95.0,
+    95.0
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "N15-02",
+  "task_kind": "planning",
+  "task_sha256": "cae1d9fe4bf20be0f21845aa29bfe8cf170eccd468a89031a8f8847e758467a2",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题是两阶段时间规划题，rubric没有院校层次计分项，亦未要求层次报告，因此不作额外层次扣分。已核对S0全部9个明确建议；S1人大、交大、北大、复旦仅用于说明实证方法的普通背景，其中北大不属于新增推荐。原本科院校为学生本科及推荐信背景，也不属于候选；未出现条件推荐或明确排除院校。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

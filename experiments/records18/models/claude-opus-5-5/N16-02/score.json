@@ -1,0 +1,28 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "claude-opus-5-5",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 8,
+        "node": "N16-02-T5",
+        "points": 4.0,
+        "reason": "已有与学生背景对应的执行建议：优先向教务核对学籍和资格，交付课程成绩清单、项目摘要，联系导师确认专业接受度，并关注仍在进行的预推免及补录；条件备选与硬门槛筛查也具体，故不是空泛或0分。缺失的核心是资格尚未确认时如何同时保住本轮报名窗口：S0说“这是前提，其他事都排在后面。”，S1仍未说明可先申请、后核验资格的并行安排，也未设置目标院系预报名与正式系统阶段的检查节点。当届本校细则明确预接收后最终取得资格、两阶段报名及未预报名者正式阶段可申请的条件（evidence.json:E1），说明此区分对该备选有实际作用。不能用评审运行日判其已截止，题面也不足以确定“中后段”；该措辞不单独扣分，半分依据是关键窗口与资格核验的并行处理不足。只在此项处理执行缺口，不降低候选有效性或重复影响其他节点。"
+      }
+    ],
+    "name": "Claude Opus 5.5",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 96.0,
+    "score_interval": [
+      96.0,
+      96.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "N16-02"
+  }
+}

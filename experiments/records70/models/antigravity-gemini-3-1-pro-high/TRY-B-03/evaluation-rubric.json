@@ -1,0 +1,73 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-B-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "识别电气工程学院对应项目及研究训练，区分学位通道；直博只在本人接受时作为候选。",
+      "grading": "three_level",
+      "half_credit": "已定位该学院的电气项目并说明部分训练特点，但学位或本人接受条件不清楚。",
+      "id": "TRY-B-03-R10-01",
+      "label": "浙大电气工程学院",
+      "points": 15
+    },
+    {
+      "full_credit": "识别工程师学院具体电气相关项目及工程训练、学位路径，与电气工程学院分别分析。",
+      "grading": "three_level",
+      "half_credit": "已区分学院并说明工程训练或学位之一，但具体项目和另一关键差异不足。",
+      "id": "TRY-B-03-R10-02",
+      "label": "浙大工程师学院",
+      "points": 15
+    },
+    {
+      "full_credit": "结合前列排名、六级和未落地科研成果，解释本人对两项目的优势短板及申请适配差异。",
+      "grading": "three_level",
+      "half_credit": "已有真实背景与两项目的联系，但优势、短板或差异影响不完整。",
+      "id": "TRY-B-03-R10-03",
+      "label": "申请优势与短板",
+      "points": 15
+    },
+    {
+      "full_credit": "比较学位和研究、工程实践的具体差异，联系电网目标，并说明培养地点、费用或投入等关键未知条件如何改变适配。",
+      "grading": "three_level",
+      "half_credit": "已有实质培养差异并联系电网目标，但学位、投入条件或对选择的影响不完整。",
+      "id": "TRY-B-03-R10-04",
+      "label": "培养、就业与投入适配",
+      "points": 35
+    },
+    {
+      "full_credit": "给有理由的当前项目选择或条件优先关系，尊重学位意愿；关键条件变化时能说明如何调整。",
+      "grading": "three_level",
+      "half_credit": "已有合理选择及部分依据，但学位意愿、关键条件或调整逻辑不足。",
+      "id": "TRY-B-03-R10-05",
+      "label": "项目选择与条件取舍",
+      "points": 15
+    },
+    {
+      "full_credit": "指出直接影响两项目判断的未知信息，并给具体核验对象或当前可执行的下一步。 时点要求：比较两院项目须对应学生拟申请周期；当届尚未公布的条款标待核，列会改变选择的核验事项。",
+      "grading": "three_level",
+      "half_credit": "已指出具体未知项，但核验对象或下一步不明确。 时点边界：已有本项实质正确内容，但影响判断的阶段、届别或更新安排不足，可半分；核心结论依赖错误时点为0。仅缺不影响选择的日期措辞不扣分。",
+      "id": "TRY-B-03-R10-06",
+      "label": "核验与下一步（时点适配）",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": true
+}

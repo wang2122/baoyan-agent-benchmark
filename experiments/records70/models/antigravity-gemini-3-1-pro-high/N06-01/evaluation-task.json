@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N06",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N06-01",
+  "prompt": "现在是2026年推免申请季。我在北京师范大学读汉语言文学，打算争取推免，也对语言学和国际中文教育感兴趣。现在对选方向还没有把握，能帮我看看吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "cb6a63d9bdd2f5e782a459f1c36c383bb40662fb19b4f720785a7e0e6839e1e0",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

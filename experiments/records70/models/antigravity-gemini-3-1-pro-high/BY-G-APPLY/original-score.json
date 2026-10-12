@@ -1,0 +1,1543 @@
+{
+  "actual_candidate_count": 39,
+  "answer_sha256": "4659e92eafaa7eb8665faaed553e7fc4d9281e7991be1cce9a3592baab386fbb",
+  "candidate_limit": 33,
+  "confirmed_component_points": {
+    "coverage": 23.76,
+    "quality": 15.0
+  },
+  "confirmed_points": 38.76,
+  "diagnostic_score": null,
+  "difficulty": "hard",
+  "downgraded_schools": [],
+  "error_impacts": {
+    "E01-qualification": [
+      "BY-G-APPLY-R10-04"
+    ],
+    "E02-abilities": [
+      "BY-G-APPLY-R10-04"
+    ],
+    "E03-bypass": [
+      "BY-G-APPLY-R10-03"
+    ],
+    "E04-sdu": [
+      "BY-G-APPLY-R10-01"
+    ],
+    "E05-dual": [
+      "BY-G-APPLY-R10-02"
+    ],
+    "E06-degree": [
+      "BY-G-APPLY-R10-04"
+    ],
+    "E07-certainty": [
+      "BY-G-APPLY-R10-04"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "前约10% 在校内拿到推免指标基本稳妥，消除了保研资格的后顾之忧。",
+      "id": "E01-qualification",
+      "reason": "题面未给本专业届别名额、综合成绩规则、加分或校内推免资格结果；只凭排名将未定资格说成基本稳妥并消除风险，不成立。最直接归事实与结论状态。"
+    },
+    {
+      "answer_quote": "我的第一作者 SCI 论文（在投）全篇数万字符均由我独立执笔撰写，深入阅读了 80 余篇近三年的顶刊英文文献",
+      "id": "E02-abilities",
+      "reason": "题面只有三区一作在投，未披露独立全文英文写作、阅读数量；答卷把这些写成确定自述，须以真实贡献替换。最直接归事实状态，不要求联网判断学生能力。"
+    },
+    {
+      "answer_quote": "若导师有意向安排线上学术面谈且愿意给出推荐名额，方可获得初审豁免权。",
+      "id": "E03-bypass",
+      "reason": "清华2024自动化官方简章要求所有申请材料专家审查、排序入围；导师意向不能授予材料初审豁免。后文普遍“强保即指定入营”同属此错误，最直接归执行安排，不取消真实项目身份。官方证据evidence.json:auto。"
+    },
+    {
+      "answer_quote": "代表导师如张世华教授（系统生物学与生物信息学知名学者，国家杰青/优青）。",
+      "id": "E04-sdu",
+      "reason": "第29项将张世华组学统计团队绑定山东大学数学/计算机组合；山大官方2017研讨会及中科院数学院2023团队记录确认归数学院。该导师—学校具体路径错误；参考外无效组合只归推荐理由适配，不否定山大其他项目。官方证据evidence.json:sdumismatch、zhang。"
+    },
+    {
+      "answer_quote": "**直博 / 硕士**（国科大/上科大双学籍）",
+      "id": "E05-dual",
+      "reason": "上科大2023—2024年报区分早期国科大联合培养与2017后独立招生；不能将联合/国科大学位概括为两个同时学籍。最直接归院校层次项对培养、招生与授位主体的区分，不再重复归事实项。官方证据evidence.json:shtech。"
+    },
+    {
+      "answer_quote": "计算生物学（0710J2）/ 生物与医药（086000）—— **学硕**",
+      "id": "E06-degree",
+      "reason": "SINH2024推免官方将086000列专业学位硕士，答卷统称学硕错误；核心计算生物学学硕保留，错误最直接归事实状态，不再取消有效相关匹配。官方证据evidence.json:sinh。"
+    },
+    {
+      "answer_quote": "录取概率接近 100%",
+      "id": "E07-certainty",
+      "reason": "没有题面名额、校内资格或接收确认，不能从本校优势推定近100%录取；与深先院“>80%”、同济资格“完全无虞”等过度保证一并归事实状态，不据此判真实院所虚构。"
+    }
+  ],
+  "excess_count": 6,
+  "id": "BY-G-APPLY",
+  "input_sha256": "b04b1f5af8f8326ee257d9af7dd3fd551e7fd9f04d985b0c85ba3da2a941a9a3",
+  "judge_version": "evidence-review-v1",
+  "judgment_sha256": "54b16e4e71b6089f0fdf89516136033175ef34b81ecc930e9df74c6a6dec83bf",
+  "nodes": [
+    {
+      "id": "G-01",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A01",
+      "points": 0.64,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-02",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-03",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-04",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-05",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-06",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A02",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-07",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-08",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A06",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-09",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-10",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-11",
+      "kind": "coverage",
+      "match_coefficient": null,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": null,
+      "reviewed_status": "pending",
+      "status": "pending",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-12",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A04",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-13",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A05",
+      "points": 0.64,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-14",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-15",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-16",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-17",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A08",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-18",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-19",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A09",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-20",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-21",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-22",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A25",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-23",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A19",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-24",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-25",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A22",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-26",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-27",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "hit",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-28",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-29",
+      "kind": "coverage",
+      "match_coefficient": 0,
+      "match_level": null,
+      "matched_answer_item_id": null,
+      "points": 0,
+      "reviewed_status": "miss",
+      "status": "miss",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-30",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A23",
+      "points": 0.64,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-31",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A20",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-32",
+      "kind": "coverage",
+      "match_coefficient": 0.3,
+      "match_level": "related_department",
+      "matched_answer_item_id": "A10",
+      "points": 0.64,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "id": "G-33",
+      "kind": "coverage",
+      "match_coefficient": 1.0,
+      "match_level": "exact",
+      "matched_answer_item_id": "A17",
+      "points": 2.12,
+      "reviewed_status": "hit",
+      "status": "hit",
+      "weight": {
+        "denominator": 33,
+        "numerator": 70
+      }
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-01",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-02",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-03",
+      "kind": "quality",
+      "points": 2.5
+    },
+    {
+      "grade": 0.5,
+      "id": "BY-G-APPLY-R10-04",
+      "kind": "quality",
+      "points": 2.5
+    }
+  ],
+  "observed_candidate_count": 39,
+  "official": false,
+  "pending_nodes": [
+    "G-11"
+  ],
+  "quantity_status": "over_limit",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+      "canonical_candidate_key": "tsinghua-auto-bio-phd",
+      "error_ids": [
+        "E03-bypass"
+      ],
+      "label": "1. 清华大学",
+      "reason": "自动化系生物信息计算直博是官方可支持的控制科学与工程交叉路径，符合干实验；强套磁建议不改变有效项目身份，“初审豁免权”不是可采信制度。",
+      "school_key": "tsinghua",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+      "canonical_candidate_key": "pku-cqb-phd",
+      "error_ids": [],
+      "label": "2. 北京大学",
+      "reason": "CQB为前沿交叉学科研究院内部中心，不是两个合并的独立院系；参考仅列学院，认可系统/计算生物学直博，正式学科名见官方说明。",
+      "school_key": "pku",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "#### 3. 清华-北大生命科学联合中心（CLS 项目）\n- **学院/研究院**：清华大学侧 / 北京大学侧 CLS 联合培养项目\n- **专业与学位**：生物学（生物信息学与计算生物学方向）—— **直博**",
+      "canonical_candidate_key": "cls-unspecified-side-phd",
+      "error_ids": [],
+      "label": "3. 清华-北大生命科学联合中心（CLS 项目）",
+      "reason": "CLS真实但清华侧/北大侧分别申请、保留不同学籍，全文未明确一侧；保留一个合并候选，不替作者拆两条或补定招生主体。粒度不足不等于项目虚构。",
+      "school_key": "tsinghua_pku_cls",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "canonical_candidate_key": "sjtu-life-bio-phd",
+      "error_ids": [],
+      "label": "4. 上海交通大学",
+      "reason": "上交生命科学技术学院生物信息系生物学直博路径清楚，符合参考学院粒度；不要求参考未给的专业名称逐字一致。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "#### 5. 上海交通大学\n- **学院/研究院**：生物医学工程学院（医疗健康大数据与系统生物学实验室）\n- **专业与学位**：生物医学工程（083100）医学信息与生物信息学 —— **直博**",
+      "canonical_candidate_key": "sjtu-bme-bio-phd",
+      "error_ids": [],
+      "label": "5. 上海交通大学",
+      "reason": "上交生医工医学数据/临床组学计算直博方向可识别；与生科、公卫实质相关，但属于跨院系。论文疾病方向只是增强适配的例子，不是必须满足的硬条件。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "canonical_candidate_key": "fudan-life-bio-phd",
+      "error_ids": [],
+      "label": "6. 复旦大学",
+      "reason": "复旦生命科学学院生物学/生信计算直博明确，按参考学院粒度认可；未逐年审计英语与排名初筛不等于项目无效。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "#### 7. 复旦大学\n- **学院/研究院**：类脑智能科学与技术研究院（ISTBI）/ 复杂体系多尺度研究院\n- **专业与学位**：计算机科学与技术 / 生物物理学（计算系统生物学）—— **直博**",
+      "canonical_candidate_key": "fudan-istbi-mrics-merged-phd",
+      "error_ids": [],
+      "label": "7. 复旦大学",
+      "reason": "类脑院与复杂体系多尺度院为两独立单位，被一个条目含糊合并，专业/导师未分别绑定；不拆出任一单位用于覆盖。研究平台真实，清晰度不足不等于虚构。",
+      "school_key": "fudan",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+      "canonical_candidate_key": "ustc-biomed-phd",
+      "error_ids": [],
+      "label": "8. 中国科学技术大学",
+      "reason": "中科大生命科学与医学部生物物理/生物信息直博可识别，参考学部称谓差异可核对同一主体。",
+      "school_key": "ustc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+      "canonical_candidate_key": "nju-life-bio-phd",
+      "error_ids": [],
+      "label": "9. 南京大学",
+      "reason": "南京大学生科生物学直博及计算/系统生物学方向明确，425–449满足答卷列出的425–449；不以当前年度规则取代题面时点。",
+      "school_key": "nju",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "BIG/CNCB同一所，国科大生命学院为培养体系说明，不机械拆成不同院系；官方支持生物信息学直博。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "#### 11. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：基因组学（0710Z1）/ 生物与医药（086000）—— **学硕 / 专硕**",
+      "canonical_candidate_key": "ucas-big-genomics-master-options",
+      "error_ids": [],
+      "label": "11. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "基因组学学硕是可识别核心备选，官方支持；同条目生物与医药未完成年度核验，不据未查到推断不存在、不另创造独立组合。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "#### 12. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：原中国科学院-马普学会计算生物学伙伴研究所（CAS-MPG PICB，计算生物学殿堂级平台）\n- **专业与学位**：计算生物学（0710J2）—— **直博**",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "SINH计算生物学直博可识别，原PICB为沿革说明；官方第二批不招直博不等于全年不招。答卷代码0710J2与官方0710Z2出入不改变参考未列代码的方向粒度。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "#### 13. 中国科学院上海营养与健康研究所（SINH）\n- **学院/研究院**：生物医学大数据中心 / 计算生物学实验室\n- **专业与学位**：计算生物学（0710J2）/ 生物与医药（086000）—— **学硕**",
+      "canonical_candidate_key": "ucas-sinh-compbio-master-options",
+      "error_ids": [
+        "E06-degree"
+      ],
+      "label": "13. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "SINH计算生物学学硕可识别，大数据中心为内部研究方向；086000实际为专业硕士，不是学硕，保留成立的计算生物学核心路径。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "#### 14. 中国科学院计算技术研究所（中科院计算所）\n- **学院/研究院**：计算机系统结构 / 智能信息处理重点实验室（生物信息课题组）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-ict-biocomputing",
+      "error_ids": [],
+      "feasibility": "按答卷准备代码、算法理论与机试，能力可补齐，未把150题当官方报考条件。",
+      "key_condition": "对生物算法开发感兴趣且算法与数据结构功底扎实；150题为答卷自评建议。",
+      "label": "14. 中国科学院计算技术研究所（中科院计算所）",
+      "reason": "计算所生物计算/计算机学位明确，以扎实算法功底为具体备选条件；刷题150+是答卷自评建议，不是招生硬门槛。",
+      "school_key": "ucas",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "#### 15. 中国科学院遗传与发育生物学研究所（中科院遗传所）\n- **学院/研究院**：基因组生物学研究中心\n- **专业与学位**：遗传学（071007）生物信息学方向 —— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-genetics-genomics",
+      "error_ids": [],
+      "label": "15. 中国科学院遗传与发育生物学研究所（中科院遗传所）",
+      "reason": "遗传所遗传/基因组计算与直博/硕士方向可识别，内部研究中心不拆项目；纯干方向须具体组别同意，不采信导师普遍欢迎的保证。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "#### 16. 中国科学院动物研究所（中科院动物所）\n- **学院/研究院**：膜生物学国家重点实验室 / 动物生态与保护生物学院重点实验室\n- **专业与学位**：生态学 / 生物信息学（进化基因组学与计算生物学）—— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-ioz-evolution-genomics",
+      "error_ids": [],
+      "label": "16. 中国科学院动物研究所（中科院动物所）",
+      "reason": "动物所生态/进化基因组计算为有效方向；所内实验室并列不是两个独立研究所，认可到同一培养单位。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "#### 17. 中国科学院深圳先进技术研究院（SIAT）\n- **学院/研究院**：合成生物学研究所（合成所）/ 计算机辅助药物设计中心\n- **专业与学位**：生物化学与分子生物学（生物信息学）/ 计算机科学与技术 —— **直博 / 学硕**",
+      "canonical_candidate_key": "ucas-siat-bio-computing",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "17. 中国科学院深圳先进技术研究院（SIAT）",
+      "reason": "SIAT为国科大深先院，合成所/计算药物中心为内部方向备选；参考只列院所，按此粒度认可，80%以上个人优营率无题设支持。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "#### 18. 中国医学科学院基础医学研究所 / 北京协和医学院\n- **学院/研究院**：基础医学院 生物医学信息学系 / 系统医学研究所（苏州系统所 ISM）\n- **专业与学位**：生物信息学（0710J1）/ 生物医学工程 —— **直博 / 学硕**",
+      "canonical_candidate_key": "pumc-basic-ism-merged",
+      "error_ids": [],
+      "label": "18. 中国医学科学院基础医学研究所 / 北京协和医学院",
+      "reason": "基础所与苏州系统所是不同培养单位，被一条目合并；末段另明确推荐苏州系统所，单独记录，不由此再拆出基础所路径。",
+      "school_key": "pumc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "#### 19. 华中科技大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息技术课题组）\n- **专业与学位**：生物医学工程（083100）/ 生物学 —— **学硕 / 专硕**",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "华科生命科学与技术学院生医工/生物学组学计算硕士明确，按参考学院粒度认可。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "#### 20. 同济大学\n- **学院/研究院**：生命科学与技术学院（生物信息学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "同济生命科学与技术学院生物学/生信直博明确，项目身份与干实验意向成立；“资格审核完全无虞”不能视为已核准。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "#### 21. 同济大学\n- **学院/研究院**：生命科学与技术学院 / 医学院\n- **专业与学位**：生物与医药（086000）/ 生物信息学 —— **专硕 / 学硕**",
+      "canonical_candidate_key": "tongji-life-med-merged-master",
+      "error_ids": [],
+      "label": "21. 同济大学",
+      "reason": "生命学院/医学院、学硕/专硕未分别绑定实际组合，导师名字不能由评审补全院系；后文同济硕士泛称仍不解决，不拆两条路径。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+      "canonical_candidate_key": "sysu-life-bio",
+      "error_ids": [],
+      "label": "22. 中山大学",
+      "reason": "中山生科生物学/生信及进化计算硕士或直博清楚，同院内方向与学位备选不机械拆分。",
+      "school_key": "sysu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A23",
+      "answer_quote": "#### 23. 东南大学\n- **学院/研究院**：生物科学与医学工程学院（生医工全国顶尖 A+ 学科平台）\n- **专业与学位**：生物医学工程（083100）/ 电子信息 —— **学硕 / 专硕**",
+      "canonical_candidate_key": "seu-bme-bio-master",
+      "error_ids": [],
+      "label": "23. 东南大学",
+      "reason": "东南生医工生信/生医工硕士明确，官方确认与参考生命科学与技术学院为不同学院；只能相关院系匹配，非更名等价。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A24",
+      "answer_quote": "#### 24. 哈尔滨工业大学\n- **学院/研究院**：计算学部（计算机科学与技术学院 / 生物信息学研究室）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **学硕**",
+      "canonical_candidate_key": "hit-computing-bio-master",
+      "error_ids": [],
+      "label": "24. 哈尔滨工业大学",
+      "reason": "哈工大计算学部、计算机学院、生物信息研究室为上下级/内部研究关系，计算机硕士生物计算路径可识别，不误作合并独立学院。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A25",
+      "answer_quote": "#### 25. 西安交通大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息工程教育部重点实验室 / 信息生物学交叉中心）\n- **专业与学位**：生物医学工程（083100）信息生物学方向 —— **直博 / 学硕**",
+      "canonical_candidate_key": "xjtu-life-informationbio",
+      "error_ids": [],
+      "label": "25. 西安交通大学",
+      "reason": "西交生命学院生医工信息生物学硕士/直博明确，参考只给学校而专业未显示，不额外要求猜参考专业。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A26",
+      "answer_quote": "#### 26. 武汉大学\n- **学院/研究院**：生命科学学院 / 药学院\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕**",
+      "canonical_candidate_key": "whu-life-pharmacy-merged",
+      "error_ids": [],
+      "label": "26. 武汉大学",
+      "reason": "生科/药学院混写，生物学硕士未逐院绑定；后文生科门槛与营期材料说明仍附属于合并条目，没有另建立独立院系申请推荐。不拆斜杠命中；清晰度缺项不等于不存在。",
+      "school_key": "whu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A27",
+      "answer_quote": "#### 27. 中南大学\n- **学院/研究院**：计算机学院（生物信息学湖南省重点实验室）\n- **专业与学位**：计算机科学与技术（081200）/ 电子信息 —— **学硕 / 专硕**",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "中南计算机生物网络算法与计算机/电子信息硕士可识别，属参考外有效方向，不以未命中参考判错误。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A28",
+      "answer_quote": "#### 28. 厦门大学\n- **学院/研究院**：生命科学学院 / 信息学院（健康大数据中心）\n- **专业与学位**：生物学（生物信息学）/ 计算机技术 —— **学硕**",
+      "canonical_candidate_key": "xmu-life-information-merged",
+      "error_ids": [],
+      "label": "28. 厦门大学",
+      "reason": "生科/信息学院合并、生物学/计算机技术未明确各自申请路径；后文仅生科条件说明，不作为独立院系推荐，不拆取生科覆盖。",
+      "school_key": "xmu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A29",
+      "answer_quote": "#### 29. 山东大学\n- **学院/研究院**：数学学院 / 计算机科学与技术学院（金融数学与交叉计算生物学团队）\n- **专业与学位**：应用统计 / 计算机科学与技术（计算生物学方向）—— **学硕**",
+      "canonical_candidate_key": "sdu-zhang-bio-merged-master",
+      "error_ids": [
+        "E04-sdu"
+      ],
+      "label": "29. 山东大学",
+      "reason": "山大数学/计算机组合将张世华组学统计团队作为具体支撑，山大自身和数学院官方资料将该团队归中科院数学院；实际导师—学校组合错误，不是因参考未列或查不到判错。",
+      "school_key": "sdu",
+      "treatment": "direct",
+      "validity": "invalid"
+    },
+    {
+      "answer_item_id": "A30",
+      "answer_quote": "#### 30. 北京航空航天大学\n- **学院/研究院**：生物与医学工程学院（生物力学与生物计算实验室）\n- **专业与学位**：生物医学工程（083100）医学大数据挖掘方向 —— **学硕**",
+      "canonical_candidate_key": "buaa-bme-master",
+      "error_ids": [],
+      "label": "30. 北京航空航天大学",
+      "reason": "北航生医工医学数据硕士可识别，属参考外有效建议；未逐年审计门槛不等于不存在或硬冲突。",
+      "school_key": "buaa",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A31",
+      "answer_quote": "#### 31. 四川大学\n- **学院/研究院**：华西基础医学与法医学院 / 计算机学院（智能医学工程中心）\n- **专业与学位**：生物医学工程 / 基础医学（医学信息学方向）—— **学硕**",
+      "canonical_candidate_key": "scu-huaxi-computing-merged-master",
+      "error_ids": [],
+      "label": "31. 四川大学",
+      "reason": "华西基础医学/计算机学院与医学信息/生医工学硕合并，未逐院系落实；保留一个合并候选，不替作者创造两条，不因含糊直接判虚构。",
+      "school_key": "scu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A32",
+      "answer_quote": "#### 32. 上海科技大学\n- **学院/研究院**：生命科学与技术学院（SLST）/ 信息科学与技术学院（SIST）\n- **专业与学位**：生物学（计算生物学与系统生物学）—— **直博 / 硕士**（国科大/上科大双学籍）",
+      "canonical_candidate_key": "shtech-life-information-merged",
+      "error_ids": [
+        "E05-dual"
+      ],
+      "label": "32. 上海科技大学",
+      "reason": "上科大生命/信息学院合并、直博/硕士和生物学归属未逐项落实，不用于国科大跨所覆盖；院校真实，但双学籍混同独立招生与历史联合培养，需纠正。",
+      "school_key": "shanghaitech",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A33",
+      "answer_quote": "#### 33. 郑州大学（本校最终兜底）\n- **学院/研究院**：计算机与人工智能学院 / 生命科学学院 / 基础医学院\n- **专业与学位**：生物信息学 / 计算机科学与技术 —— **学硕**",
+      "canonical_candidate_key": "zzu-three-dept-merged-master",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "33. 郑州大学（本校最终兜底）",
+      "reason": "本校三个学院与两个学硕合并，未落实实际院系路径，保留一个兜底候选；接近100%不能替代校内指标及接收资格核准。",
+      "school_key": "zzu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X01",
+      "answer_quote": "浙江大学生命科学研究院/生命科学学院直博通常硬性要求六级 $\\ge$ 460 分",
+      "canonical_candidate_key": "zju-life-excluded",
+      "error_ids": [],
+      "label": "浙大生命学院直博排除",
+      "reason": "排除中的生科院对象，不计正向匹配；周期未知，不把“通常”视为所有届别均如此。",
+      "school_key": "zju",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X02",
+      "answer_quote": "浙江大学生命科学研究院（生研院）及部分生科院直博",
+      "canonical_candidate_key": "zju-lsi-excluded",
+      "error_ids": [],
+      "label": "浙大生命科学研究院直博排除",
+      "reason": "明确排除生研院；托福雅思替代作为排除例外，未给独立报考与补齐行动，不视作可行条件推荐。",
+      "school_key": "zju",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X03",
+      "answer_quote": "西湖大学生命科学学院直博",
+      "canonical_candidate_key": "westlake-life-excluded",
+      "error_ids": [],
+      "label": "西湖生命学院直博排除",
+      "reason": "明确排除真实生命学院，门槛绝对化未按未知年度裁决；无正向匹配。",
+      "school_key": "westlake",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X04",
+      "answer_quote": "清华-伯克利深圳研究院（TBSI）",
+      "canonical_candidate_key": "tsinghua-tbsi-excluded",
+      "error_ids": [],
+      "label": "清华伯克利深圳TBSI排除",
+      "reason": "明确绕行的联合项目，真实但非有效直接/条件推荐，不取得深圳匹配。",
+      "school_key": "tsinghua",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X05",
+      "answer_quote": "昆山杜克等，通常要求托福 90+ 或六级 500+，一概绕行。",
+      "canonical_candidate_key": "dku-international-excluded",
+      "error_ids": [],
+      "label": "昆山杜克泛国际项目排除",
+      "reason": "明确排除泛学校/国际项目，未识别具体项目，仍计实际排除候选，不因缺专业判学校不存在。",
+      "school_key": "dku",
+      "treatment": "excluded",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "X06",
+      "answer_quote": "苏州系统所（ISM）由中国医学科学院与苏州市共建，硬件与生信算力条件国际一流，招生名额较多且竞争相比清北本部温和，是稳中求进的极高性价比选择。",
+      "canonical_candidate_key": "pumc-ism-bio",
+      "error_ids": [],
+      "label": "协和苏州系统医学所生物信息方向",
+      "reason": "第18项末段明确独立推荐苏州系统所，结合同段生物信息/系统医学学位方向提取；不另替作者补基础所路径。参考外真实单位，机会较多不能作为录取保证。",
+      "school_key": "pumc",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R01-10",
+      "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R01-12",
+      "answer_quote": "中科院（国家生物信息中心/上海营养健康所等）",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-21",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "tongji-life-med-merged-master",
+      "error_ids": [],
+      "label": "21. 同济大学",
+      "reason": "清单第21项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。泛称硕士仍继承原条目合并院系的局限，不补定院系。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-19",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-27",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "清单第27项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R02-24",
+      "answer_quote": "选择同济、华科、中南、哈工大等生信传统强校",
+      "canonical_candidate_key": "hit-computing-bio-master",
+      "error_ids": [],
+      "label": "24. 哈尔滨工业大学",
+      "reason": "清单第24项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hit",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-10",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-12",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-04",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "sjtu-life-bio-phd",
+      "error_ids": [],
+      "label": "4. 上海交通大学",
+      "reason": "清单第4项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-20",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "清单第20项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R03-19",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、上交生科院、同济生科院、华科生科院",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-10",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-12",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-27",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "清单第27项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R04-19",
+      "answer_quote": "中科院北京基因组所、中科院上海营养健康所、中南大学、华科生科院",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-20",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "清单第20项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-25",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "xjtu-life-informationbio",
+      "error_ids": [],
+      "label": "25. 西安交通大学",
+      "reason": "清单第25项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "xjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-23",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "seu-bme-bio-master",
+      "error_ids": [],
+      "label": "23. 东南大学",
+      "reason": "清单第23项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "seu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R05-19",
+      "answer_quote": "同济生科院直博、西交大生命学院、东南大学生医工、华科硕士预推免",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R06-10",
+      "answer_quote": "国家生物信息中心/上海营养健康所直博",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R06-12",
+      "answer_quote": "国家生物信息中心/上海营养健康所直博",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07-19",
+      "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07-21",
+      "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+      "canonical_candidate_key": "tongji-life-med-merged-master",
+      "error_ids": [],
+      "label": "21. 同济大学",
+      "reason": "清单第21项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。泛称硕士仍继承原条目合并院系的局限，不补定院系。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R07-27",
+      "answer_quote": "华科、同济、中南等已取得预录取资格的硕士专业",
+      "canonical_candidate_key": "csu-computing-bio-master",
+      "error_ids": [],
+      "label": "27. 中南大学",
+      "reason": "清单第27项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "csu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R08-33",
+      "answer_quote": "郑州大学本校生信/计算机学硕",
+      "canonical_candidate_key": "zzu-three-dept-merged-master",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "33. 郑州大学（本校最终兜底）",
+      "reason": "清单第33项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "zzu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-10",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-12",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-20",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "tongji-life-bio-phd",
+      "error_ids": [
+        "E07-certainty"
+      ],
+      "label": "20. 同济大学",
+      "reason": "清单第20项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "tongji",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-04",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "sjtu-life-bio-phd",
+      "error_ids": [],
+      "label": "4. 上海交通大学",
+      "reason": "清单第4项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "sjtu",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R09-19",
+      "answer_quote": "国家生物信息中心（BIG）、中科院上海营养与健康研究所（PICB/SINH）、同济大学、上海交通大学以及华中科技大学",
+      "canonical_candidate_key": "hust-life-bio-master",
+      "error_ids": [],
+      "label": "19. 华中科技大学",
+      "reason": "清单第19项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "hust",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R10-10",
+      "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+      "canonical_candidate_key": "ucas-big-bio-phd",
+      "error_ids": [],
+      "label": "10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）",
+      "reason": "清单第10项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R10-12",
+      "answer_quote": "锁定华五及中科院各大所（BIG、PICB/SINH）意向导师",
+      "canonical_candidate_key": "ucas-sinh-compbio-phd",
+      "error_ids": [],
+      "label": "12. 中国科学院上海营养与健康研究所（SINH）",
+      "reason": "清单第12项在战略/执行/总结中的再次推荐，结合原条目确定同一组合；共用canonical键，不增加数量或独立匹配。",
+      "school_key": "ucas",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "R-X01",
+      "answer_quote": "浙江大学生命科学研究院（生研院）及部分生科院直博",
+      "canonical_candidate_key": "zju-life-excluded",
+      "error_ids": [],
+      "label": "浙大生命学院直博排除",
+      "reason": "排除建议再次出现，与原排除对象合并；不创造新的可投条件路径。",
+      "school_key": "zju",
+      "treatment": "excluded",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": 33,
+  "rubric_sha256": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+  "score": null,
+  "score_interval": [
+    38.76,
+    40.88
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": "dev",
+  "status": "pending_evidence",
+  "task_id": "BY-G-APPLY",
+  "task_kind": "recommendation",
+  "task_sha256": "306412d8394dbc1d75ef88e62c0d3b7315293aaf1862188325a19a0deb5457f7",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "全文已审阅，按独立路径/合并候选与别名去重为39个实际候选（含排除和清单外明确推荐），要求上限33，超额6；仅数量提醒，不截取最佳子集、不自算分。普通背景学校讨论未提取；模糊院系合并保留为一项，明确苏州系统所另提取。",
+    "schools": [
+      {
+        "answer_quote": "#### 10. 中国科学院北京基因组研究所（国家生物信息中心 CNCB / BIG）\n- **学院/研究院**：中国科学院北京基因组研究所 / 国科大生命科学学院\n- **专业与学位**：生物信息学（0710J1）—— **直博**",
+        "downgraded": false,
+        "reason": "国科大科教融合培养单位含BIG、SINH、计算所、遗传所、动物所和SIAT，按实际招生/授位体系与科研平台判断，不因无985/211标签自动判降级；科学岛另归中科大。",
+        "school_key": "ucas"
+      },
+      {
+        "answer_quote": "#### 19. 华中科技大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息技术课题组）\n- **专业与学位**：生物医学工程（083100）/ 生物学 —— **学硕 / 专硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "hust"
+      },
+      {
+        "answer_quote": "#### 4. 上海交通大学\n- **学院/研究院**：生命科学技术学院（生物信息学与生物统计学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "sjtu"
+      },
+      {
+        "answer_quote": "#### 20. 同济大学\n- **学院/研究院**：生命科学与技术学院（生物信息学系）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "tongji"
+      },
+      {
+        "answer_quote": "#### 33. 郑州大学（本校最终兜底）\n- **学院/研究院**：计算机与人工智能学院 / 生命科学学院 / 基础医学院\n- **专业与学位**：生物信息学 / 计算机科学与技术 —— **学硕**",
+        "downgraded": false,
+        "reason": "郑州大学本校兜底与题设本科基准同一211学校，同档不降级；招生路径和资格未定另在内容/事实项处理。",
+        "school_key": "zzu"
+      },
+      {
+        "answer_quote": "#### 27. 中南大学\n- **学院/研究院**：计算机学院（生物信息学湖南省重点实验室）\n- **专业与学位**：计算机科学与技术（081200）/ 电子信息 —— **学硕 / 专硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "csu"
+      },
+      {
+        "answer_quote": "#### 23. 东南大学\n- **学院/研究院**：生物科学与医学工程学院（生医工全国顶尖 A+ 学科平台）\n- **专业与学位**：生物医学工程（083100）/ 电子信息 —— **学硕 / 专硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "seu"
+      },
+      {
+        "answer_quote": "#### 25. 西安交通大学\n- **学院/研究院**：生命科学与技术学院（生物医学信息工程教育部重点实验室 / 信息生物学交叉中心）\n- **专业与学位**：生物医学工程（083100）信息生物学方向 —— **直博 / 学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "xjtu"
+      },
+      {
+        "answer_quote": "#### 24. 哈尔滨工业大学\n- **学院/研究院**：计算学部（计算机科学与技术学院 / 生物信息学研究室）\n- **专业与学位**：计算机科学与技术（081200）生物计算方向 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "hit"
+      },
+      {
+        "answer_quote": "#### 18. 中国医学科学院基础医学研究所 / 北京协和医学院\n- **学院/研究院**：基础医学院 生物医学信息学系 / 系统医学研究所（苏州系统所 ISM）\n- **专业与学位**：生物信息学（0710J1）/ 生物医学工程 —— **直博 / 学硕**",
+        "downgraded": true,
+        "reason": "北京协和医学院授位/医学科学院研究所培养，不是普通985/211校；按冻结学校操作顺序低于郑大211，但属于高质量专业院校/研究所例外，可有方向取舍，不能等同培养质量下降，也不取消参考外有效建议。",
+        "school_key": "pumc"
+      },
+      {
+        "answer_quote": "#### 32. 上海科技大学\n- **学院/研究院**：生命科学与技术学院（SLST）/ 信息科学与技术学院（SIST）\n- **专业与学位**：生物学（计算生物学与系统生物学）—— **直博 / 硕士**（国科大/上科大双学籍）",
+        "downgraded": true,
+        "reason": "上科大独立招生，非985/211，在双一流学校档低于郑大211（更早未入双一流时也低于211）；联合培养历史不能等同国科大学籍。平台质量与降档分开报告，见evidence.json:shtech、shtechtier。",
+        "school_key": "shanghaitech"
+      },
+      {
+        "answer_quote": "#### 31. 四川大学\n- **学院/研究院**：华西基础医学与法医学院 / 计算机学院（智能医学工程中心）\n- **专业与学位**：生物医学工程 / 基础医学（医学信息学方向）—— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "scu"
+      },
+      {
+        "answer_quote": "#### 30. 北京航空航天大学\n- **学院/研究院**：生物与医学工程学院（生物力学与生物计算实验室）\n- **专业与学位**：生物医学工程（083100）医学大数据挖掘方向 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "buaa"
+      },
+      {
+        "answer_quote": "#### 29. 山东大学\n- **学院/研究院**：数学学院 / 计算机科学与技术学院（金融数学与交叉计算生物学团队）\n- **专业与学位**：应用统计 / 计算机科学与技术（计算生物学方向）—— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "sdu"
+      },
+      {
+        "answer_quote": "#### 28. 厦门大学\n- **学院/研究院**：生命科学学院 / 信息学院（健康大数据中心）\n- **专业与学位**：生物学（生物信息学）/ 计算机技术 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "xmu"
+      },
+      {
+        "answer_quote": "#### 26. 武汉大学\n- **学院/研究院**：生命科学学院 / 药学院\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "whu"
+      },
+      {
+        "answer_quote": "#### 22. 中山大学\n- **学院/研究院**：生命科学学院（进化与计算生物学团队）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **学硕 / 直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "sysu"
+      },
+      {
+        "answer_quote": "#### 9. 南京大学\n- **学院/研究院**：生命科学学院（医药生物技术全国重点实验室 / 计算生物学组）\n- **专业与学位**：生物学（071000）生物信息学与系统生物学 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "nju"
+      },
+      {
+        "answer_quote": "#### 8. 中国科学技术大学\n- **学院/研究院**：生命科学与医学部（计算生物学与生物物理学系）\n- **专业与学位**：生物物理学（071011）/ 生物信息学 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "ustc"
+      },
+      {
+        "answer_quote": "#### 6. 复旦大学\n- **学院/研究院**：生命科学学院（生物信息学系 / 计算生物学平台）\n- **专业与学位**：生物学（071000）生物信息学方向 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。",
+        "school_key": "fudan"
+      },
+      {
+        "answer_quote": "#### 2. 北京大学\n- **学院/研究院**：前沿交叉学科研究院 / 定量生物学中心（Center for Quantitative Biology, CQB）\n- **专业与学位**：定量生物学 / 生物信息学与生物物理学 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。 同时涵盖CLS该校侧的联合项目身份，但答卷未明确选择一侧，不额外创造匹配。",
+        "school_key": "pku"
+      },
+      {
+        "answer_quote": "#### 1. 清华大学\n- **学院/研究院**：自动化系（智能与生物医学交叉研究方向 / 生物信息学研究室）\n- **专业与学位**：控制科学与工程（081100）/ 智能科学与技术 —— **直博**",
+        "downgraded": false,
+        "reason": "该校为985，按冻结评分通则高于郑州大学211（非985）的本科基准；同校多个项目仅记一次。 同时涵盖CLS该校侧的联合项目身份，但答卷未明确选择一侧，不额外创造匹配。",
+        "school_key": "tsinghua"
+      }
+    ],
+    "status": "confirmed"
+  }
+}

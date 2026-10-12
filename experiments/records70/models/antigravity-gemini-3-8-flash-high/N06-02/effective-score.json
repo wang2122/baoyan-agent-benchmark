@@ -1,0 +1,146 @@
+{
+  "schema": "effective-node-score.1",
+  "task_id": "N06-02",
+  "answer_sha256": "3bb69736d4febde059246602b2eac0bd5240f89c15de1bd4fd8e47be2794a6e4",
+  "original_rubric_sha256": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+  "original_score_interval": [
+    75.0,
+    90.0
+  ],
+  "original_pending_nodes": [
+    "N06-02-L1-05"
+  ],
+  "score_interval": [
+    82.5,
+    82.5
+  ],
+  "score": 82.5,
+  "pending_nodes": [],
+  "nodes": [
+    {
+      "id": "N06-02-L1-01",
+      "kind": "quality",
+      "original_node": {
+        "grade": 1,
+        "id": "N06-02-L1-01",
+        "kind": "quality",
+        "points": 25.0
+      },
+      "effective_points": 25.0,
+      "effective_fraction": {
+        "numerator": 25,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 25,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N06-02-L1-02",
+      "kind": "quality",
+      "original_node": {
+        "grade": 0.5,
+        "id": "N06-02-L1-02",
+        "kind": "quality",
+        "points": 10.0
+      },
+      "effective_points": 10.0,
+      "effective_fraction": {
+        "numerator": 10,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 20,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N06-02-L1-03",
+      "kind": "quality",
+      "original_node": {
+        "grade": 1,
+        "id": "N06-02-L1-03",
+        "kind": "quality",
+        "points": 15.0
+      },
+      "effective_points": 15.0,
+      "effective_fraction": {
+        "numerator": 15,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 15,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N06-02-L1-04",
+      "kind": "quality",
+      "original_node": {
+        "grade": 1,
+        "id": "N06-02-L1-04",
+        "kind": "quality",
+        "points": 15.0
+      },
+      "effective_points": 15.0,
+      "effective_fraction": {
+        "numerator": 15,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 15,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    },
+    {
+      "id": "N06-02-L1-05",
+      "kind": "quality",
+      "original_node": {
+        "grade": "pending",
+        "id": "N06-02-L1-05",
+        "kind": "quality",
+        "points": null
+      },
+      "effective_points": 7.5,
+      "effective_fraction": {
+        "numerator": 15,
+        "denominator": 2
+      },
+      "maximum_fraction": {
+        "numerator": 15,
+        "denominator": 1
+      },
+      "disposition": "resolved_counter_evidence"
+    },
+    {
+      "id": "N06-02-L1-06",
+      "kind": "quality",
+      "original_node": {
+        "grade": 1,
+        "id": "N06-02-L1-06",
+        "kind": "quality",
+        "points": 10.0
+      },
+      "effective_points": 10.0,
+      "effective_fraction": {
+        "numerator": 10,
+        "denominator": 1
+      },
+      "maximum_fraction": {
+        "numerator": 10,
+        "denominator": 1
+      },
+      "disposition": "retained_original"
+    }
+  ],
+  "official": false,
+  "teacher_calibration": "pending",
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "validation_mode": "maintenance_node_overlay_not_native_candidate_revalidation"
+}

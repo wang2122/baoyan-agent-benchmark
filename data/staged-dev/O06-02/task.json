@@ -1,0 +1,38 @@
+{
+  "as_of": "申请时间未提供",
+  "case_group_id": "student-F",
+  "case_id": "O06",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "difficulty": "medium",
+  "document_question_id": "Q075",
+  "persona": {},
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "c6736c44100a7fc411a7a6aad383188a81e34ed2f0983c64b252c606f0bc9d6c",
+  "stages": [
+    {
+      "instruction": "我读软件工程，程序设计竞赛拿过一些奖，也做过科研。准备申请清北、华五和港三，时间不太够，又没有正式论文。我该把精力主要放在新比赛、现有科研还是专业面试上？",
+      "stage_id": "S0",
+      "visible_at": "申请时间未提供"
+    },
+    {
+      "instruction": "科研情况我再说具体一点：先后有多段研究，其中有已经暂停的，也有还在调试方法的，目前都没有正式论文。竞赛主要是程序设计类竞赛等。结合这些事实，你觉得刚才的时间分配还合适吗？",
+      "stage_id": "S1",
+      "visible_at": "申请时间未提供"
+    }
+  ],
+  "task_id": "O06-02",
+  "task_version": "1.0.2+privacy-v16-public70",
+  "time_context": {
+    "application_year": "未知",
+    "assessment_period": "申请时间未提供",
+    "time_precision": "unknown"
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "actual_candidate_count": 16,
+  "answer_sha256": "15715c38cd743aee8ea16e431a790a8af72e5898255746c612157d6d1cc6e20f",
+  "candidate_limit": null,
+  "confirmed_component_points": {
+    "coverage": 0.0,
+    "quality": 87.5
+  },
+  "confirmed_points": 87.5,
+  "diagnostic_score": 87.5,
+  "difficulty": null,
+  "downgraded_schools": [],
+  "error_impacts": {
+    "ERR01": [
+      "E4"
+    ],
+    "ERR02": [
+      "E4"
+    ],
+    "ERR03": [
+      "E5"
+    ],
+    "ERR04": [
+      "E5"
+    ],
+    "ERR05": [
+      "E5"
+    ]
+  },
+  "errors": [
+    {
+      "answer_quote": "9月28日全国推免系统开放后，你有 3 个平行志愿：",
+      "id": "ERR01",
+      "reason": "S1对应2026年9月申请、2027年入学周期。研招网本届系统说明明确9月21日9:00开始填报志愿，9月22日开始确认复试通知、9月24日开始确认待录取通知。将9月28日作为开放日会使核心执行节奏延迟，不是非关键日期措辞。依据evidence.json的EV01；只归E4。"
+    },
+    {
+      "answer_quote": "此时大部分院校的常规预推免通道已关闭，等待官方公告往往滞后。",
+      "id": "ERR02",
+      "reason": "题面只给2026年9月，未给日、已有报名与入营状态；不能据递补资格直接断言大部分预推免已关闭或本人错过夏令营。应先核对具体日、已有考核结果与各单位仍可用的常规/补充窗口，再确定投递渠道。此项缺失直接影响执行，归E4；不据此判任一候选历史停招或invalid。"
+    },
+    {
+      "answer_quote": "参与国家级大创，说明接受过完整的科研训练。",
+      "id": "ERR03",
+      "reason": "S1仅披露参与国家级大创、项目暂无正式成果，未披露本人角色、贡献、实验技能及训练完整度。国家级立项与完整科研训练不能等同，应询问或条件化描述；这是答卷推断超出题面，不需要查询学生身份。只归E5。"
+    },
+    {
+      "answer_quote": "**无硬核产出（无论文/无高级别竞赛奖）**",
+      "id": "ERR04",
+      "reason": "题面只说该大创项目暂无正式成果，未披露有无其他论文或竞赛奖。可按当前未提供可用成果准备材料，但不能直接将全体成果状态写成无论文/无高级别竞赛奖。只归E5。"
+    },
+    {
+      "answer_quote": "接收本校 前约29% 且有大创经历的学生概率极高。",
+      "id": "ERR05",
+      "reason": "本校优先联系可执行，但仅凭本校身份、排名和项目参与不能保证接收把握。附近又将口头录用承诺视作底牌，未充分区分意向与经考核、系统确认的结果。官方学院2027年细则要求材料筛选、复试合格及教育部系统办理，见EV02。答卷尚未直接宣称已经录取，故保留其正确状态表述的半分；此问题只归E5，候选本身不判invalid。"
+    }
+  ],
+  "excess_count": null,
+  "id": "O01-04",
+  "input_sha256": "6050bfa2aee1368ed2e11452486d00f478ecf316819f53c3dd9803273a67b4aa",
+  "judge_version": "longitudinal-review-v1",
+  "judgment_sha256": "cf0d1c00474d26cf112aab8c309f02803c304e6c70563ed23d0dde469221d7d0",
+  "nodes": [
+    {
+      "grade": 1,
+      "id": "E1",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 1,
+      "id": "E2",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 1,
+      "id": "E3",
+      "kind": "quality",
+      "points": 25.0
+    },
+    {
+      "grade": 0.5,
+      "id": "E4",
+      "kind": "quality",
+      "points": 7.5
+    },
+    {
+      "grade": 0.5,
+      "id": "E5",
+      "kind": "quality",
+      "points": 5.0
+    }
+  ],
+  "observed_candidate_count": 16,
+  "official": false,
+  "pending_nodes": [],
+  "quantity_status": "not_applicable",
+  "recommendation_review": [
+    {
+      "answer_item_id": "A01",
+      "answer_quote": "华东地区一所211高校通常会举办优秀大学生夏令营（或接收提前面试）。",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [],
+      "label": "华东地区一所211高校（S0本校夏令营/提前面试）",
+      "reason": "S0提出本校接收准备；后文务必报名本校夏令营明确推荐。作为未来准备路径成立，不当作2024年已知2026年具体营期；EV06只支持往届学院资格政策，不能证明未来夏令营已确定。",
+      "school_key": "suda",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A02",
+      "answer_quote": "即使目标是留本校，也务必报名参加本校夏令营，争取拿到“优秀营员（优营）”。",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [],
+      "label": "华东地区一所211高校（S0重复）",
+      "reason": "紧接本校本校能源相关院系夏令营的明确推荐，和A01同一候选；记录重复，不增加独立项目。",
+      "school_key": "suda",
+      "stage_id": "S0",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A03",
+      "answer_quote": "第一时间联系华东地区一所211高校本校的意向导师或你此前进入的课题组",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [],
+      "label": "华东地区一所211高校（S1本校优先）",
+      "reason": "已获本校推免资格后优先联系熟悉的本校相关导师，方向可识别。EV02确认本轮学院硕士接收与正式考核路径，未把导师意向认作已录取。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "suda",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A04",
+      "answer_quote": "本校本校能源相关院系本身平台过硬，本校老师熟悉培养质量，接收本校 前约29% 且有大创经历的学生概率极高。",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [
+        "ERR05"
+      ],
+      "label": "华东地区一所211高校（S1重复及把握表述）",
+      "reason": "重复本校保底推荐；院系真实且专业方向相关，候选身份有效。接收概率极高缺证据，归ERR05/E5，不据此判院系不存在或硬条件冲突。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "suda",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A05",
+      "answer_quote": "**华东地区一所211高校/相关工科学院**。拿到本校导师明确的接收意向（甚至口头录用承诺），这是你后续向外博弈的最大底气。",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [
+        "ERR05"
+      ],
+      "label": "华东地区一所211高校/相关工科学院（原文合并）",
+      "reason": "原文合并本校能源相关院系和未命名的相关工科学院；只将已由A03独立明确推荐的本校能源相关院系归入同一候选，保留合并措辞，不替答卷创造其他独立学院。口头承诺和保底把握的状态问题由ERR05/E5统一处理。",
+      "reviewer_evidence_ids": [
+        "EV02"
+      ],
+      "school_key": "suda",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A06",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "whut:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "武汉理工大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐武汉理工大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。",
+      "school_key": "whut",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A07",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "ustb:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "北京科技大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐北京科技大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。",
+      "school_key": "ustb",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A08",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "ecust:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "华东理工大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐华东理工大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。",
+      "school_key": "ecust",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A09",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "nuaa:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "南京航空航天大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐南京航空航天大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。",
+      "school_key": "nuaa",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A10",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "njust:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "南京理工大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐南京理工大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。",
+      "school_key": "njust",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A11",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "shu:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "上海大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐上海大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。",
+      "school_key": "shu",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A12",
+      "answer_quote": "**强势工科 211 / 双一流高校**：如武汉理工大学、北京科技大学、华东理工大学、南京航空航天大学、南京理工大学、上海大学、中国地质大学等（材料/能源相关专业或专硕）；",
+      "canonical_candidate_key": "cug_unspecified:materials_energy_unspecified",
+      "error_ids": [],
+      "label": "中国地质大学（材料/能源相关专业或专硕，未细化）",
+      "reason": "全文在稳妥梯队中实际推荐中国地质大学的材料/能源相关专业或专硕，按学校及方向大类记录。学校真实、与能源材料本科方向存在合理关联；答卷未细分院系、专业或学位，不补造独立项目。valid仅表示此宽粒度建议无已知实质冲突，不证明2026年9月具体日仍可投或录取稳妥；窗口核验不足统一归E4。原文未区分武汉、北京两所中国地质大学，保留一个未细化候选，不机械拆成两校或任选一校认定项目。",
+      "school_key": "cug_unspecified",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A13",
+      "answer_quote": "例如中科院相关能源与材料研究所（如宁波材料所、青岛能源所、大连化物所等）可能存在的二次补录/联合培养名额。",
+      "canonical_candidate_key": "cas_nimte:materials_energy_possible_route",
+      "error_ids": [],
+      "feasibility": "答卷共同提出排查官网接收细则/补充报名并向方向相符且有名额的导师自荐，形成询问与确认路径；学生已获推免资格，方向和英语有基础。仅评价这一条件备选现实可询，不认定具体补录或联合培养名额已核实。",
+      "key_condition": "2026年9月咨询当日确有接收硕士的相关材料/能源名额与可用申请渠道；若选择联合培养，还须明确接收及授位主体、该届名额和学生申请条件。",
+      "label": "宁波材料所（二次补录/联合培养条件备选）",
+      "reason": "宁波材料所作为具体研究所条件推荐提取，不把共同的中科院概述再列为额外候选。官方依据EV03仅支持单位身份、相关研究/学位培养方向，其适用范围见evidence.json。原文说可能存在名额，没有断言本轮必有补录或某一联合培养项目；不因未逐年证明补录而判invalid，也不将科研院所按缺985/211标签判降级。",
+      "reviewer_evidence_ids": [
+        "EV03"
+      ],
+      "school_key": "cas_nimte",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A14",
+      "answer_quote": "例如中科院相关能源与材料研究所（如宁波材料所、青岛能源所、大连化物所等）可能存在的二次补录/联合培养名额。",
+      "canonical_candidate_key": "cas_qibebt:materials_energy_possible_route",
+      "error_ids": [],
+      "feasibility": "答卷共同提出排查官网接收细则/补充报名并向方向相符且有名额的导师自荐，形成询问与确认路径；学生已获推免资格，方向和英语有基础。仅评价这一条件备选现实可询，不认定具体补录或联合培养名额已核实。",
+      "key_condition": "2026年9月咨询当日确有接收硕士的相关材料/能源名额与可用申请渠道；若选择联合培养，还须明确接收及授位主体、该届名额和学生申请条件。",
+      "label": "青岛能源所（二次补录/联合培养条件备选）",
+      "reason": "青岛能源所作为具体研究所条件推荐提取，不把共同的中科院概述再列为额外候选。官方依据EV04仅支持单位身份、相关研究/学位培养方向，其适用范围见evidence.json。原文说可能存在名额，没有断言本轮必有补录或某一联合培养项目；不因未逐年证明补录而判invalid，也不将科研院所按缺985/211标签判降级。",
+      "reviewer_evidence_ids": [
+        "EV04"
+      ],
+      "school_key": "cas_qibebt",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A15",
+      "answer_quote": "例如中科院相关能源与材料研究所（如宁波材料所、青岛能源所、大连化物所等）可能存在的二次补录/联合培养名额。",
+      "canonical_candidate_key": "cas_dicp:materials_energy_possible_route",
+      "error_ids": [],
+      "feasibility": "答卷共同提出排查官网接收细则/补充报名并向方向相符且有名额的导师自荐，形成询问与确认路径；学生已获推免资格，方向和英语有基础。仅评价这一条件备选现实可询，不认定具体补录或联合培养名额已核实。",
+      "key_condition": "2026年9月咨询当日确有接收硕士的相关材料/能源名额与可用申请渠道；若选择联合培养，还须明确接收及授位主体、该届名额和学生申请条件。",
+      "label": "大连化物所（二次补录/联合培养条件备选）",
+      "reason": "大连化物所作为具体研究所条件推荐提取，不把共同的中科院概述再列为额外候选。官方依据EV05仅支持单位身份、相关研究/学位培养方向，其适用范围见evidence.json。原文说可能存在名额，没有断言本轮必有补录或某一联合培养项目；不因未逐年证明补录而判invalid，也不将科研院所按缺985/211标签判降级。",
+      "reviewer_evidence_ids": [
+        "EV05"
+      ],
+      "school_key": "cas_dicp",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A16",
+      "answer_quote": "**中后段 985 或 985 专硕**：如中南大学、湖南大学、大连理工大学、重庆大学、中国海洋大学等。重点关注那些在 9 月下旬“夏令营/预推免鸽子较多”、正在开放第二批补充报名的学院。",
+      "canonical_candidate_key": "csu:materials_energy_supplement_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷要求在官网排查第二批/补充报名及接收细则，并向有名额的对应导师投递简历，属于可执行的有条件冲刺；先联系本校、只用部分志愿冲刺。逐学院日期与门槛未实际列出，不认定已完成核验，此不足在E4处理。",
+      "key_condition": "该校方向相关学院在2026年9月咨询当日有尚开放的补充报名及硕士名额，具体专业门槛接受学生已知排名、英语和推免资格。",
+      "label": "中南大学（相关方向硕士补报名冲刺）",
+      "reason": "实际在冲刺/捡漏梯队推荐中南大学，以学院正在开放补充报名为明确共同条件；未指明具体学院、专业及当日名额，不替答卷补写。真实高校的相关材料/能源研究生筛选方向无已知硬冲突；不把排名约前29%自动当作该校全部项目不可申请，也不把可能补报名当作已确定存在。",
+      "school_key": "csu",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A17",
+      "answer_quote": "**中后段 985 或 985 专硕**：如中南大学、湖南大学、大连理工大学、重庆大学、中国海洋大学等。重点关注那些在 9 月下旬“夏令营/预推免鸽子较多”、正在开放第二批补充报名的学院。",
+      "canonical_candidate_key": "hnu:materials_energy_supplement_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷要求在官网排查第二批/补充报名及接收细则，并向有名额的对应导师投递简历，属于可执行的有条件冲刺；先联系本校、只用部分志愿冲刺。逐学院日期与门槛未实际列出，不认定已完成核验，此不足在E4处理。",
+      "key_condition": "该校方向相关学院在2026年9月咨询当日有尚开放的补充报名及硕士名额，具体专业门槛接受学生已知排名、英语和推免资格。",
+      "label": "湖南大学（相关方向硕士补报名冲刺）",
+      "reason": "实际在冲刺/捡漏梯队推荐湖南大学，以学院正在开放补充报名为明确共同条件；未指明具体学院、专业及当日名额，不替答卷补写。真实高校的相关材料/能源研究生筛选方向无已知硬冲突；不把排名约前29%自动当作该校全部项目不可申请，也不把可能补报名当作已确定存在。",
+      "school_key": "hnu",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A18",
+      "answer_quote": "**中后段 985 或 985 专硕**：如中南大学、湖南大学、大连理工大学、重庆大学、中国海洋大学等。重点关注那些在 9 月下旬“夏令营/预推免鸽子较多”、正在开放第二批补充报名的学院。",
+      "canonical_candidate_key": "dlut:materials_energy_supplement_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷要求在官网排查第二批/补充报名及接收细则，并向有名额的对应导师投递简历，属于可执行的有条件冲刺；先联系本校、只用部分志愿冲刺。逐学院日期与门槛未实际列出，不认定已完成核验，此不足在E4处理。",
+      "key_condition": "该校方向相关学院在2026年9月咨询当日有尚开放的补充报名及硕士名额，具体专业门槛接受学生已知排名、英语和推免资格。",
+      "label": "大连理工大学（相关方向硕士补报名冲刺）",
+      "reason": "实际在冲刺/捡漏梯队推荐大连理工大学，以学院正在开放补充报名为明确共同条件；未指明具体学院、专业及当日名额，不替答卷补写。真实高校的相关材料/能源研究生筛选方向无已知硬冲突；不把排名约前29%自动当作该校全部项目不可申请，也不把可能补报名当作已确定存在。",
+      "school_key": "dlut",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A19",
+      "answer_quote": "**中后段 985 或 985 专硕**：如中南大学、湖南大学、大连理工大学、重庆大学、中国海洋大学等。重点关注那些在 9 月下旬“夏令营/预推免鸽子较多”、正在开放第二批补充报名的学院。",
+      "canonical_candidate_key": "cqu:materials_energy_supplement_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷要求在官网排查第二批/补充报名及接收细则，并向有名额的对应导师投递简历，属于可执行的有条件冲刺；先联系本校、只用部分志愿冲刺。逐学院日期与门槛未实际列出，不认定已完成核验，此不足在E4处理。",
+      "key_condition": "该校方向相关学院在2026年9月咨询当日有尚开放的补充报名及硕士名额，具体专业门槛接受学生已知排名、英语和推免资格。",
+      "label": "重庆大学（相关方向硕士补报名冲刺）",
+      "reason": "实际在冲刺/捡漏梯队推荐重庆大学，以学院正在开放补充报名为明确共同条件；未指明具体学院、专业及当日名额，不替答卷补写。真实高校的相关材料/能源研究生筛选方向无已知硬冲突；不把排名约前29%自动当作该校全部项目不可申请，也不把可能补报名当作已确定存在。",
+      "school_key": "cqu",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A20",
+      "answer_quote": "**中后段 985 或 985 专硕**：如中南大学、湖南大学、大连理工大学、重庆大学、中国海洋大学等。重点关注那些在 9 月下旬“夏令营/预推免鸽子较多”、正在开放第二批补充报名的学院。",
+      "canonical_candidate_key": "ouc:materials_energy_supplement_unspecified",
+      "error_ids": [],
+      "feasibility": "答卷要求在官网排查第二批/补充报名及接收细则，并向有名额的对应导师投递简历，属于可执行的有条件冲刺；先联系本校、只用部分志愿冲刺。逐学院日期与门槛未实际列出，不认定已完成核验，此不足在E4处理。",
+      "key_condition": "该校方向相关学院在2026年9月咨询当日有尚开放的补充报名及硕士名额，具体专业门槛接受学生已知排名、英语和推免资格。",
+      "label": "中国海洋大学（相关方向硕士补报名冲刺）",
+      "reason": "实际在冲刺/捡漏梯队推荐中国海洋大学，以学院正在开放补充报名为明确共同条件；未指明具体学院、专业及当日名额，不替答卷补写。真实高校的相关材料/能源研究生筛选方向无已知硬冲突；不把排名约前29%自动当作该校全部项目不可申请，也不把可能补报名当作已确定存在。",
+      "school_key": "ouc",
+      "stage_id": "S1",
+      "treatment": "conditional",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A21",
+      "answer_quote": "**1 个保留给本校导师**（或已明确通过考核的外校保底 offer）",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [],
+      "label": "华东地区一所211高校（S1本校志愿重复）",
+      "reason": "本校导师承接前文已明确的本校能源相关院系主线，与A03同一推荐；外校offer是未指定身份的条件替代位置，不是新增具名学校/项目，也没有声称学生已有offer。",
+      "school_key": "suda",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    },
+    {
+      "answer_item_id": "A22",
+      "answer_quote": "联系本校本校能源相关院系导师，明确表达推免意向，争取锁定本校招生指标。",
+      "canonical_candidate_key": "suda:energy:masters",
+      "error_ids": [],
+      "label": "华东地区一所211高校（S1立即行动重复）",
+      "reason": "48小时行动表再次明确本校本校能源相关院系，与前述相同候选合并；争取表明结果尚待落实。",
+      "school_key": "suda",
+      "stage_id": "S1",
+      "treatment": "direct",
+      "validity": "valid"
+    }
+  ],
+  "reference_denominator": null,
+  "rubric_sha256": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+  "score": 87.5,
+  "score_interval": [
+    87.5,
+    87.5
+  ],
+  "scoring_method": "admissions_rubric_v1",
+  "scoring_revision": "1.0.1",
+  "split": null,
+  "status": "scored_draft",
+  "task_id": "O01-04",
+  "task_kind": "planning",
+  "task_sha256": "90c4ca8db4527d43eba9d195cad5414d6c3a69b1a5cfa617a93f0331d5b73a0b",
+  "teacher_calibration": "pending",
+  "tier_report": {
+    "reason": "本题没有school_tier或three_level层次评分项，也没有参考覆盖项；层次审阅不适用，空schools不代表没有推荐。候选已在recommendation_review完整提取，未作额外降级处罚。",
+    "schools": [],
+    "status": "confirmed"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N10-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "比较机械工程、自动化/控制与智能制造的研究对象、课程基础、方法和培养路径。",
+      "grading": "three_level",
+      "half_credit": "有两项具体差异，但三路比较不完整。",
+      "id": "N10-02-L1-01",
+      "label": "三个方向的科研训练差异",
+      "points": 25
+    },
+    {
+      "full_credit": "根据可验证的项目经历说明哪些研究训练可以迁移到相应方向，不以方向名称替代匹配判断。",
+      "grading": "three_level",
+      "half_credit": "对项目与路线有联系，但个人工作或匹配逻辑不足。",
+      "id": "N10-02-L1-02",
+      "label": "本人智能制造项目与方向适配",
+      "points": 20
+    },
+    {
+      "full_credit": "正确识别前约27%的排名限制及校内资格/接收规则仍须核验，不把英语优势当资格保障。",
+      "grading": "three_level",
+      "half_credit": "指出竞争压力但没有说明影响与核验办法。",
+      "id": "N10-02-L1-03",
+      "label": "排名与推免资格约束",
+      "points": 10
+    },
+    {
+      "full_credit": "明确相关数学、机械、控制基础和可能的先修及招生专业限制，按当届项目要求核查。",
+      "grading": "three_level",
+      "half_credit": "能列部分条件但未与学生背景关联。",
+      "id": "N10-02-L1-04",
+      "label": "跨方向申请的知识与条件",
+      "points": 15
+    },
+    {
+      "full_credit": "联系学硕/专硕的培养方式与学生后续研究或工程发展兴趣，提出有条件的方向偏好。",
+      "grading": "three_level",
+      "half_credit": "有推荐顺序但理由或学位区别不足。",
+      "id": "N10-02-L1-05",
+      "label": "学位与未来职业目标的选择",
+      "points": 15
+    },
+    {
+      "full_credit": "形成基于本人背景的选择建议，列出会改变结论的关键未知项和查证渠道。",
+      "grading": "three_level",
+      "half_credit": "有结论但行动或不确定条件不完整。",
+      "id": "N10-02-L1-06",
+      "label": "结论及可执行信息核验",
+      "points": 15
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

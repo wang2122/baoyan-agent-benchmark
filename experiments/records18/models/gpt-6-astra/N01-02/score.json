@@ -1,0 +1,28 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "gpt-6-astra",
+    "category": "两阶段任务",
+    "deductions": [
+      {
+        "max_points": 20,
+        "node": "N01-02-L1-03",
+        "points": 10.0,
+        "reason": "已基于视觉科研积累、系统项目证据不足和准备时间紧给出明确且有条件的选择；考虑了临时转向的额外投入，也保留视觉难以推进时转向的机会。缺失的核心是本人兴趣与申请项目适配两方面的实际比较：未询问或条件区分偏好算法研究还是系统实践，也未说明目标培养方向或导师任务要求不同会如何改变选择。申请叙述保持一致及保留机器人发展空间尚不能补足这两方面，故按半分；不因没有择校清单或详细准备时间表扣分。"
+      }
+    ],
+    "name": "GPT-6 Astra",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 90.0,
+    "score_interval": [
+      90.0,
+      90.0
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 2,
+    "task_id": "N01-02"
+  }
+}

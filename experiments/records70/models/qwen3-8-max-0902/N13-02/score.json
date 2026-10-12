@@ -1,0 +1,15 @@
+{
+  "schema": "selected-score-row.1",
+  "task_id": "N13-02",
+  "question_id": "Q052",
+  "score_interval": [
+    65.0,
+    65.0
+  ],
+  "pending_nodes": [],
+  "answer_status": "completed",
+  "source_answer_sha256": "ee123d9ca61a5f7aa8aa57f86dbf1f4a2b2616e19e6c3354ee2893093a68c6ea",
+  "source_kind": "retained_historical_summary",
+  "answer_text_available": true,
+  "recovered_original_text_source": "experiments/records18/models/qwen3-8-max-0902/N13-02/answer.md"
+}

@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N12",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N12-01",
+  "prompt": "现在是2026年推免申请季。我是中国海洋大学法学专业的，排名前约3%，雅思7.5，参与过本科生科研项目和法学相关竞赛。准备推免了，我现在的优势和短板是什么，接下来需要怎么安排？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "b532c7f33bb557207caa5bc6a627e952cf9f39267099de17ef1ef4906049a0bb",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

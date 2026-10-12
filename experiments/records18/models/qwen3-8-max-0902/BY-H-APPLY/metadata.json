@@ -1,0 +1,31 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "qwen3-8-max-0902",
+  "task_id": "BY-H-APPLY",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "api",
+    "cli": "qwen",
+    "cli_version": "0.25.0",
+    "id": "qwen3-8-max-0902",
+    "model": "qwen3.8-max-0902",
+    "reasoning_effort": "native_default"
+  },
+  "original_answer_sha256": "4e4782c95069aa9e812b7e15d6d06baf5890a30011eb23c76161c2eae7d5eeb0",
+  "public_display_answer_sha256": "41da9d7ab2251b578612090d9a89cba259a69a7752f788e687949a9b64834c9d",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "finished_at": "2026-10-09T13:46:22.953470+00:00",
+  "original_attempt_status": "failed",
+  "execution_mode": "record_assisted_continuation_not_native_session_resume",
+  "public_execution_evidence": "Qwen retained per-task execution-progress row, source hash verified",
+  "status_correction": "Verified successful answer; optional native checkpoint persistence failed",
+  "additional_elapsed_seconds": 1400.177,
+  "original_attempt_elapsed_seconds": 1201.206,
+  "checkpoint_status": "failed_missing_persisted_session"
+}

@@ -1,0 +1,82 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-H-02",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "结合吸附与催化、相关金属材料催化剂与化工基础评估化工研发路线的研究内容及延续优势。",
+      "grading": "three_level",
+      "half_credit": "对化工路线判断正确但缺个人科研证据。",
+      "id": "TRY-H-02-L1-01",
+      "label": "化工/催化主线及现有项目适配",
+      "points": 20
+    },
+    {
+      "full_credit": "比较材料、电化学、新能源研究与现有化工项目的交集、课程缺口及导师匹配。",
+      "grading": "three_level",
+      "half_credit": "提到可转向的方向但未说明条件。",
+      "id": "TRY-H-02-L1-02",
+      "label": "材料、新能源与锂电转向的条件",
+      "points": 20
+    },
+    {
+      "full_credit": "把学生提到的半导体作为需核实的交叉备选，分析先修、工艺/材料研究内容及研究生培养差别，不武断保证可申请。",
+      "grading": "three_level",
+      "half_credit": "提到了半导体但仅泛泛列名。",
+      "id": "TRY-H-02-L1-03",
+      "label": "半导体及其他交叉选项边界",
+      "points": 10
+    },
+    {
+      "full_credit": "以学生不考虑直博、期望研发而非操作岗位为约束，比较研究训练、学位、校企项目和将来的研发岗位能力。",
+      "grading": "three_level",
+      "half_credit": "讨论方向但忽略硕士和研发目标。",
+      "id": "TRY-H-02-L1-04",
+      "label": "硕士研发培养与职业目标",
+      "points": 20
+    },
+    {
+      "full_credit": "围绕天津大学、大连理工、华东理工、北京化工对应的研究院系与导师方向做适配比较，不只以学校层次排名。",
+      "grading": "three_level",
+      "half_credit": "有目标学校但缺研究方向和导师适配。",
+      "id": "TRY-H-02-L1-05",
+      "label": "学校与学科平台的现实比较",
+      "points": 15
+    },
+    {
+      "full_credit": "按前约3%、CET6 425–449、EI一作已发表和大创推进中准确评价申请边界，不将成果状态虚构。",
+      "grading": "three_level",
+      "half_credit": "大体准确但错用一个核心状态。",
+      "id": "TRY-H-02-L1-06",
+      "label": "排名英语与科研成果状态",
+      "points": 10
+    },
+    {
+      "full_credit": "在不同科研与职业路线间给条件化主次并提供核实学校当届项目限制的行动。",
+      "grading": "three_level",
+      "half_credit": "给出顺序但缺可检验动作。",
+      "id": "TRY-H-02-L1-07",
+      "label": "选择顺序及核验动作",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

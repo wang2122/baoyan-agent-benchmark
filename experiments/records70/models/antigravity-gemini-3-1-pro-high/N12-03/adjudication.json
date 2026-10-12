@@ -1,0 +1,28 @@
+{
+  "schema": "source-bound-post-review-adjudication.1",
+  "task_id": "N12-03",
+  "source_answer_sha256": "ead47238e0b31b39de6a070b25bf502ab275aa8fdcf4acd6a613f3017ae86982",
+  "source_original_judgment_sha256": "2c3ba25934c462c2370629b38494284ae2a4d3dc55df52ba8af4d35bd7f11cdc",
+  "source_original_score_sha256": "fe70ff2fa96659db5788136fa443bfbe4bbf8460b013d19017e7ce4695cd795c",
+  "source_adjudicated_judgment_sha256": "76f572d0eb441a3b15a9b36025794deca7f0f5463a0055ec5bfdc16962e23062",
+  "source_adjudicated_score_sha256": "1b62b3aab38692b34dbf0ff3efc5ac6ed6e49d25ca4866254d5b93fc88c827a3",
+  "original_interval": [
+    26.41,
+    41.41
+  ],
+  "effective_interval": [
+    33.91,
+    33.91
+  ],
+  "pending_nodes": [],
+  "native_arithmetic_replay_verified": true,
+  "new_model_or_cli_review_called": false,
+  "teacher_calibration": "pending",
+  "decisions": [
+    {
+      "node_id": "reasons",
+      "reason": "完整2027光华法学院官方通知已取得：035102不接收，035101不接收法学类本科；相关专硕候选invalid，仅reasons半档，原学硕和其他节点不变。",
+      "decision": 0.5
+    }
+  ]
+}

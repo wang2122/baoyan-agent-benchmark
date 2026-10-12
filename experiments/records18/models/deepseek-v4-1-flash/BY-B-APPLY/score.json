@@ -1,0 +1,58 @@
+{
+  "schema": "retained-dev18-score-row.1",
+  "source": "scores.json",
+  "source_report_sha256": "55b0fa5eaf8cf7e3c4689f30d43c6b8e7c18e3f1acbebdd787617fc2111e57b0",
+  "row": {
+    "agent": "deepseek-v4-1-flash",
+    "category": "择校推荐",
+    "deductions": [
+      {
+        "max_points": 4.6667,
+        "node": "B-03",
+        "points": 0,
+        "reason": "全文仅推荐浙大电气工程学院，缺工程师学院独立项目或具体方向方案。浙大备选未给具体研究及培养方向，不能支持跨院系高度相关且符合学位路径的30%关系；不因学校同名或历史上存在电气相关研究便机械给分。不把有效电气学院候选判错；纯粹缺项判miss，不挂pending。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-07",
+        "points": 0,
+        "reason": "已审阅全文主清单、备选、替换、排除及节点投递，没有山东大学的实际电气项目候选，亦无同校其他院系建议可建立分层关系。缺项按miss，不是争议。无可支持该项目的真实答卷引句，answer_quote留空。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-08",
+        "points": 0,
+        "reason": "已审阅全文主清单、备选、替换、排除及节点投递，没有湖南大学的实际电气项目候选，亦无同校其他院系建议可建立分层关系。缺项按miss，不是争议。无可支持该项目的真实答卷引句，answer_quote留空。"
+      },
+      {
+        "max_points": 4.6667,
+        "node": "B-10",
+        "points": 0,
+        "reason": "已审阅全文主清单、备选、替换、排除及节点投递，没有四川大学的实际电气项目候选，亦无同校其他院系建议可建立分层关系。缺项按miss，不是争议。无可支持该项目的真实答卷引句，answer_quote留空。"
+      },
+      {
+        "max_points": 5,
+        "node": "BY-B-APPLY-R10-02",
+        "points": 2.5,
+        "reason": "正确识别南信大双一流背景，主体211/985建议和电力特色校的行业岗位取舍合理，联合培养差异明确。但反复把华电作为985学历升级，缺失正确层次识别这一核心，故半分。较低层次推荐如实报告，不执行历史school_tier逐校扣分，也不取消其真实项目匹配。"
+      },
+      {
+        "max_points": 5,
+        "node": "BY-B-APPLY-R10-03",
+        "points": 2.5,
+        "reason": "已有3月准备期的资格核查、材料、导师联系、夏令营预推免和志愿优先动作，故非0分。关键不足是将未来2027精确细则和7月新闻混入当前依据，没有完整处理咨询日期、规则发布年份与入学届别；末尾以最新通知为准不能消除倒灌。该整体时序错误仅归本项，项目身份成立者不重复归零。"
+      }
+    ],
+    "name": "DeepSeek V4.1 Flash",
+    "pending_nodes": [],
+    "review_status": "completed",
+    "score": 76.33,
+    "score_interval": [
+      76.33,
+      76.33
+    ],
+    "score_status": "scored_draft",
+    "stage_count": 1,
+    "task_id": "BY-B-APPLY"
+  }
+}

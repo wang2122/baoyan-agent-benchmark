@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-H",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "document_question_id": "Q020",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-H-02",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "prompt": "我在辽宁石油化工大学读化学工程与工艺，排名前约3%、六级425–449分。做过吸附与催化国家级大创，项目还在中途；有一篇EI会议一作论文已经发表，也拿过化工类国家级竞赛奖项。我以后想做研发，不太想只做操作岗位，目前倾向先读硕士、不考虑直博，方向上还在化工、材料、锂电、新能源之间选择，也考虑过半导体。天津大学、大连理工是比较想冲的学校，华东理工、北京化工也在看。应该怎么判断这些路线？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "approved",
+    "teacher_calibration": "completed_owner_confirmed"
+  },
+  "rubric_sha256": "7d23b9636b4e6625b7baccd5c69aef9c2f82e0957aa7455b8f0b3530997188cd",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.2+privacy-v16-public70"
+}

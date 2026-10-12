@@ -1,0 +1,41 @@
+[
+  {
+    "path": "adjudication.json",
+    "export_sha256": "54b64c59e76fc3aa056e21adb91f576a41620e8a655b377ac9e794bb1f974b75",
+    "bytes": 3681
+  },
+  {
+    "privacy_display_revision": "privacy-v16-public70-display.1",
+    "source_pattern_counts": {},
+    "source_sha256": "02fdd71fa1f95863758493cb0adbdc10001a67dcd9e8bb19aa9bc6041f528438",
+    "path": "answer.md",
+    "export_sha256": "11bd72569942385b54611cc134b94475ca6af3e534a466349c46dd9f8ebf9d6b",
+    "bytes": 53719,
+    "transformed": true
+  },
+  {
+    "path": "effective-score.json",
+    "export_sha256": "b1815c55e2b82df1cd4a8d3bed333349ec5dcff060bb101320c0daeca23a3f48",
+    "bytes": 3844
+  },
+  {
+    "path": "judgment.json",
+    "export_sha256": "723a4b664a38e1799fa86311f1065585ec6cd65a93ef686178a38726c0e1c93a",
+    "bytes": 171776
+  },
+  {
+    "path": "metadata.json",
+    "export_sha256": "7c00ed51f906353594184e2caa2c884e1eeaf6e32bd33e150f16bf16d8704d88",
+    "bytes": 369
+  },
+  {
+    "path": "original-rubric.json",
+    "export_sha256": "d33ffd21a61a6a6b7679a7563e96e72462ee13a42743063f4d265b340836be7a",
+    "bytes": 3489
+  },
+  {
+    "path": "score.json",
+    "export_sha256": "403d54e68118725daca3bc1daad75f94f2ab7d8e599d181d36a2c0d90ddcc77c",
+    "bytes": 165081
+  }
+]

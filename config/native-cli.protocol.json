@@ -1,0 +1,21 @@
+{
+  "id": "baoyan-native-cli-preview-v1",
+  "status": "frozen_preview",
+  "official": false,
+  "formal_results_enabled": false,
+  "comparison_unit": "native_agent_product_configuration",
+  "primary_metric": "mean_task_score_with_full_coverage",
+  "failure_policy": "report_incomplete_without_mean",
+  "judge_version": "evidence-review-v1",
+  "repeats": 1,
+  "time_limit_seconds": 1200,
+  "token_limit": null,
+  "cost_limit": null,
+  "resource_policy": "time_limited_product_comparison_tokens_and_cost_reported_not_enforced",
+  "attempt_policy": "one_attempt_per_repeat_no_automatic_retry",
+  "human_intervention": "new_conversation_no_extra_prompts_no_answer_edits",
+  "web_mode": "per_task_declared",
+  "evidence_cutoff": "per_task_consultation_stage_no_later_achievements",
+  "isolation": "native_recipe_not_read_access_isolation",
+  "notes": "Native CLI product preview. Tools and reasoning are not equal across products; actual host settings, access, model identity and task-source compliance require recorded operator acceptance. No automatic ranking or publication."
+}

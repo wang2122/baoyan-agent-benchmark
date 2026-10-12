@@ -1,0 +1,25 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "gpt-6-astra",
+  "task_id": "N15-01",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "subscription",
+    "cli": "codex",
+    "cli_version": "codex-cli 0.162.0",
+    "id": "gpt-6-astra",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "web_search": "live"
+  },
+  "original_answer_sha256": "6e1b664ac79abef649999c7fbd7296a8bf38e5465dfd8e3982305379d33ba518",
+  "public_display_answer_sha256": "51fd8ccce2bb45abcdeb99487d1534384c946ac385268d8c12ad82781edfbb51",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}

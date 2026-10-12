@@ -1,0 +1,24 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "claude-opus-5-5",
+  "task_id": "N13-02",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "subscription",
+    "cli": "claude",
+    "cli_version": "2.1.295 (Claude Code)",
+    "id": "claude-opus-5-5",
+    "model": "claude-opus-5-5",
+    "reasoning_effort": "high"
+  },
+  "original_answer_sha256": "90a91bee701bd814398a23b3b9638ed879a214d3ea0b663da5456fa88f78d60c",
+  "public_display_answer_sha256": "e6fd642885441a001209d6f119c64fb1ac08b106d0e5eaa79cffad4f507517ca",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}

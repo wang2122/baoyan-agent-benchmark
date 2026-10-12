@@ -1,0 +1,52 @@
+{
+  "schema": "node-adjudication-ledger.1",
+  "task_id": "N15-03",
+  "question_id": "Q058",
+  "answer_sha256": "c64e769767c80c691222e1bfe1683645756c51a3cbbcf618b08abe5c4f25a382",
+  "original_rubric_sha256": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+  "original_score_content_sha256": "80c65f6400410901bdd1ae8640b7114cce989206c98049a37e48c19ae20fe718",
+  "original_rubric_content_sha256": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+  "authorized_policy_nodes": [],
+  "rulings": [
+    {
+      "node_id": "reasons",
+      "status": "resolved_counter_evidence",
+      "grade": 0.5,
+      "points": 7.5,
+      "rule": {
+        "full_credit": "对本人背景、专业方向、学位和候选主次提供具体解释",
+        "grading": "three_level",
+        "half_credit": "有适配分析但条件或组合取舍不完整",
+        "id": "reasons",
+        "label": "推荐理由、条件与组合",
+        "points": 15
+      },
+      "decision": "答卷有背景、专业及冲主次分析，但中德方向的德语准备与申请条件取舍不完整，不能给满档；既有具体适配分析也不宜归零。按原半档 7.5/15。争议的比较法双硕士、清华科技法正式方向、同济 WIPO/MIP 学位关系仍未证实，不在此裁决中定为无效项目。",
+      "sources": [
+        {
+          "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark/blob/ba3a60ffec390f00d1e17bc32eb3ad03f6271d4b/experiments/records70/models/antigravity-gemini-3-1-pro-high/N15-03/answer.md",
+          "applicable_cycle": "original frozen answer",
+          "scope": "scored answer text",
+          "finding": "Rubric-specific content and omissions checked against this immutable answer."
+        },
+        {
+          "url": "https://yzbm.tsinghua.edu.cn/publish/s01/s0101/detail/62fb60d0-e031-4bc8-b211-eae6d443e291?yxsdm=066",
+          "applicable_cycle": "2026 recommendation / 2027 entry",
+          "scope": "official source; do not infer unresolved programme identity",
+          "finding": "2027 law admissions list formal 030100 directions; no standalone technology-law direction is listed."
+        }
+      ]
+    }
+  ],
+  "expected_interval": [
+    45.17,
+    45.17
+  ],
+  "candidate_factual_uncertainties_preserved": [
+    "中欧比较法与035102双硕士、清华科技法研究主题与正式方向关系、同济WIPO/MIP双学位条件待核。"
+  ],
+  "original_candidate_facts_changed": false,
+  "original_judgment_changed": false,
+  "new_model_or_judge_call": false,
+  "adjudicated_at": "2026-10-12T08:19:35+00:00"
+}

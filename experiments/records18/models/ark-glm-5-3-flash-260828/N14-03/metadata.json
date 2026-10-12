@@ -1,0 +1,24 @@
+{
+  "schema": "retained-dev18-execution-provenance.1",
+  "campaign": "original-public-dev-20-v1",
+  "retained_scope_tasks": 18,
+  "agent": "ark-glm-5-3-flash-260828",
+  "task_id": "N14-03",
+  "answer_status": "completed",
+  "configuration": {
+    "auth": "volc_sso_platform_pay_as_you_go",
+    "cli": "arkcli",
+    "cli_version": "arkcli version 1.0.37",
+    "id": "ark-glm-5-3-flash-260828",
+    "model": "glm-5-3-flash-260828",
+    "product": "Volcengine Managed Agent"
+  },
+  "original_answer_sha256": "7d69e881dc3c084899cd00ef5efac255fa79632be0659485e906b738114f7276",
+  "public_display_answer_sha256": "17c1cf10c8c981baba1d7a9236ab961424938b73f9962d56d1bd084c09b877d7",
+  "privacy_display_revision": "privacy-v16-public70-display.1",
+  "score_source": "scores.json",
+  "score_report_generated_at": "2026-10-10T01:26:27+08:00",
+  "original_execution_time": "not_retained_in_this_public_source",
+  "execution_source": "original public-dev-20-v1 campaign; detailed run archive retained privately",
+  "public_execution_evidence": "scores.json plus original answer hash in artifacts.json"
+}
