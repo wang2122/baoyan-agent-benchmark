@@ -43,14 +43,14 @@
   "official": false,
   "privacy_display_revision": "privacy-v16-public70-display.1",
   "source_document": "data/questions-and-scoring.md",
-  "source_document_sha256": "11f249429c8c3e4d5a08d602f5af68524af629b46cf05f169941c04fc30920b9",
+  "source_document_sha256": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
   "source_files_sha256": {
-    "data/dev/manifest.json": "d1bc071dcb2d311507fac532d5385bc7e1233680a04fda6fbf9d5a68ff0a0eec",
-    "data/questions-and-scoring.md": "11f249429c8c3e4d5a08d602f5af68524af629b46cf05f169941c04fc30920b9",
-    "data/staged-dev/manifest.json": "4eb5454d98023c9208e6baf3077e4191eaebf32217d0ffa253af30afc563b6a7",
+    "data/dev/manifest.json": "ebe55a95232e87bb59b89f82fded5159917d733d2e6311c6cdd78df06e728fea",
+    "data/questions-and-scoring.md": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
+    "data/staged-dev/manifest.json": "f34df70911357b6210150f2f0bbd8f8192cdac986842b88576ba52aa1dfaed09",
     "docs/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374"
   },
-  "source_version": "1.0.2+privacy-v16-public70.q013-fix1",
+  "source_version": "1.0.2+privacy-v16-public70",
   "split": "dev",
   "stage_count": 83,
   "task_count": 70,
@@ -297,8 +297,8 @@
       "category": "planning_single",
       "difficulty": "easy",
       "fingerprints": {
-        "rubric": "dfb0ccef0c804204d3cb59458c1ad81cc22835db39cc6c6d244fa7b960abec5f",
-        "task": "92352abf5d8cf387f2382f91b9f64e695d20bde99b81cbb3403804e890f02e73"
+        "rubric": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
+        "task": "c5136d7baae297d5461bfef159cfe92785f7bdd824a2db57c82ab10155758796"
       },
       "question_id": "Q013",
       "rubric_path": "data/dev/TRY-E-02/rubric.json",
