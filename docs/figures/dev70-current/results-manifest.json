@@ -5,24 +5,25 @@
   "case_group_count": 23,
   "model_count": 8,
   "files": {
-    "overall-scores.en.svg": "4bb7573247e040a7fca3cc579036ed78b5e71404dd54840782f14bd48760969a",
-    "overall-scores.zh-CN.svg": "934cf335e2adefdcac2ff7841c6e341dbe937edc5df0fdf4002c4a9d2092c222",
-    "category-scores.en.svg": "a36f8cd73df9dac137c2340c32a10b955ce40cde4ea89be8623bdb3659270382",
-    "category-scores.zh-CN.svg": "7f0e470db02e553f81d447b12b1b20742e81953e1464df139237a186b542824a",
-    "benchmark-overview.en.svg": "064f2c94f7e92939eba14fef28211d477e5b54577e1526bba3fb4d78bab1dc28",
-    "benchmark-overview.zh-CN.svg": "49fee486911fa7dc5365657f60a5b935eff4cbb09446e3cdd85bcedd0b332467",
-    "dataset-distribution.en.svg": "a542ede9c9381ffc7753c8fd0f49c240d9e83dacda536781161cd43bbeed9772",
-    "dataset-distribution.zh-CN.svg": "889d2b0b70b1058715cc671aefb169897d7ccb39e888d9046ff9a718084b6119",
-    "difficulty-distribution.en.svg": "8e6d8c2e0b882f718604fbeb8a40cf11218f3d6494c1381501ffeff6e0282a47",
-    "difficulty-distribution.zh-CN.svg": "063e3883aae3a1f0187c8992d7aac1ea99aecec8d50ae5dd5838c17bb58cf504"
+    "fig1_en_2l.png": "bbe3639e883bea838e842fd3905b01d05888a7a5bad8c903a1dc2c416de6553a",
+    "fig1_zh_2l.png": "6102e85361b2b1a0c71fe52b500aafcfdc622cee634bbc46afa7f98dcf3ff7a7",
+    "fig2_en.png": "15ca01a8558fea2ef708bf8b5ab87dee38d1c4de99863103ea2b566086d5a45f",
+    "fig2_zh.png": "d8755c732a4cf1beaaa98503fad2baeb0b5678a27dd20f31d970d761f8809551",
+    "fig3_en_2l.png": "9310542d3e04397383397a96e0663508b09c7fce61a64954beeefa6a9e66c2c9",
+    "fig3_zh_2l.png": "4a5a2258e6c00d167adf7c963d91303d805449b91404b439b97f747569f0b560",
+    "fig_diff_en.png": "dd70102705442a49b3fca05130e07da75f5d68e9c90ea0900c957849e9e3f44d",
+    "fig_diff_zh.png": "f6b5c7e389549d65d6faa40866f225e8d9699465e052d03ede12fd05fdcedc69",
+    "fig_task_en.png": "5e3b95e7b82dcde1831a039b15551951b4fe3df47d687b5c45f44b47c80330fe",
+    "fig_task_zh.png": "75e4331a00647af57e2c617d206e9da201ae31e32622d29622e426339d78d1a0"
   },
   "source_sha256": "a045408cefb68bf9f7ea0723ddcd2643fcfe9287a04de7ff3f7f7d1e79c97d89",
   "source_files_sha256": {
     "experiments/records70/score-summary-70.json": "a045408cefb68bf9f7ea0723ddcd2643fcfe9287a04de7ff3f7f7d1e79c97d89",
     "experiments/records70/score-details-70.json": "8baf9212f3c60fc4722722712cfef726cfa177b9356f61c373897ea4711af6f2",
-    "config/selections/current.json": "c9fd03b484cb19cb5722c7c5341a63ad84197fbe8e927170550a184828ac80eb",
-    "data/staged-dev/N16-02/task.json": "eae6ea8f83e8e678d6720dfe33b8ed80e277e6cfb7efc11e433484d4add7c5c8",
-    "scripts/render_current70_figures.py": "5722945ea2f0aecec98eb215fa9bd4fc9dbf22e8b747d83619b8abbc45a70402"
+    "config/selections/current.json": "cc951a9f19f3bbf5af71699a0597bc9b8dafaa44619d2a22809b82f096cd430b",
+    "data/staged-dev/O03-04/task.json": "bcee2caef1d5baa476dccd7e4fcd2f36d5a96ca0d44681db38a04a8fbd87afd8",
+    "data/staged-dev/O03-04/rubric.json": "a311947d9be78b5ad35499f6aefe3e07cefb436e24e807ec7dd74210bfc7af30",
+    "scripts/render_current70_figures.py": "321fc6c1b03e1fdc2eb9c1b09db942cdddd6d879b4e4553da1422ab1a5be268d"
   },
   "generator": "scripts/render_current70_figures.py"
 }

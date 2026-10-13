@@ -77,8 +77,6 @@ Scoring can use a separate Codex subscription session to review exported materia
 
 Each task is worth 100 points. Full recommendation tasks allocate 70 points to reference-program matching and 30 to recommendation quality. A separate reviewer scores the full answer; rubrics stay outside the answering process.
 
-![Evaluation workflow](docs/figures/dev70-current/benchmark-overview.en.svg)
-
 ![Two-stage evaluation within a single session](docs/figures/dev70-current/fig2_en.png)
 
 Two-stage tasks supply initial context S₀ followed by updated information S₁ in the same session, producing initial response A₀ and revised response A₁ for joint scoring. The January-to-March scenario and shift to direct PhD applications correspond to public task [O03-04](data/staged-dev/O03-04/task.json). E1–E5 correspond to this example’s five scoring criteria, weighted 25, 25, 25, 15 and 10 points; see the [O03-04 rubric](data/staged-dev/O03-04/rubric.json). Panel (b) illustrates task requirements, and panel (c) shows the rubric.
