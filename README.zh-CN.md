@@ -31,7 +31,7 @@
 
 8 组 Agent 配置在 70 项评测任务上的平均得分（满分 100 分）。
 
-![70题难度分布](docs/figures/dev70-current/fig_diff_zh.png)
+![70题难度分布](docs/figures/dev70-current/fig_diff_zh.png?v=5dd8d556e42a)
 
 [评分数据](experiments/records70/score-summary-70.json) · [逐题得分](experiments/records70/score-details-70.json) · [按 Agent 配置查阅答卷与评分](experiments/records70/README.md)
 
@@ -73,7 +73,7 @@ python3 -m benchmark cli-batch \
 - **36道规划与决策题**：评估准备路径、风险判断和可执行建议。
 - **13道两阶段题**：在同一会话补充信息，观察Agent是否更新建议；两阶段合为一道题评分。
 
-![70题分布](docs/figures/dev70-current/fig_task_zh.png)
+![70题分布](docs/figures/dev70-current/fig_task_zh.png?v=730083e9fb8c)
 
 每题100分。完整择校题的参考项目匹配占70分、推荐质量占30分；独立评审读取完整答卷，评分材料与答题进程隔离。
 
