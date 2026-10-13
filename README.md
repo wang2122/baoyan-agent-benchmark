@@ -31,7 +31,7 @@ All 70 current tasks and rubrics have owner-confirmed teacher calibration. The o
 
 Mean scores of eight agent configurations across 70 evaluation tasks (maximum = 100).
 
-![70-task difficulty distribution](docs/figures/dev70-current/difficulty-distribution.en.svg)
+![70-task difficulty distribution](docs/figures/dev70-current/fig_diff_en.png)
 
 [Score data](experiments/records70/score-summary-70.json) · [Per-task results](experiments/records70/score-details-70.json) · [Answers and scores by agent configuration](experiments/records70/README.md)
 
@@ -73,7 +73,7 @@ Scoring can use a separate Codex subscription session to review exported materia
 - **36 planning and decision tasks:** evaluate preparation plans, risk assessment and actionable advice.
 - **13 two-stage tasks:** release new information within the same session and test whether the agent updates its advice. Both stages receive one task score.
 
-![70-task distribution](docs/figures/dev70-current/dataset-distribution.en.svg)
+![70-task distribution](docs/figures/dev70-current/fig_task_en.png)
 
 Each task is worth 100 points. Full recommendation tasks allocate 70 points to reference-program matching and 30 to recommendation quality. A separate reviewer scores the full answer; rubrics stay outside the answering process.
 
