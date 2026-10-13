@@ -23,11 +23,11 @@
       "points": 25
     },
     {
-      "full_credit": "明确提升第六学期绩点与排名，给高学分或薄弱课的具体学习及检查动作，不编资格名次线。",
+      "full_credit": "核实哪些课程和成绩仍计入本届推免排名及统计截止时间；仍可提升时，给高学分或薄弱课的具体学习及检查动作；排名已冻结时，转为核对成绩、排名和适用规则，不承诺靠后续成绩改变本届资格，不编资格名次线。",
       "grading": "three_level",
-      "half_credit": "已有针对课程的具体提升动作，但重点选择或检查办法不完整。",
+      "half_credit": "已有成绩或排名的具体核实、改善动作，但统计截止时间、课程重点或检查办法不完整。",
       "id": "TRY-E-02-R10-03",
-      "label": "第六学期提高排名",
+      "label": "成绩与排名的改善空间",
       "points": 20
     },
     {
@@ -39,7 +39,7 @@
       "points": 15
     },
     {
-      "full_credit": "保留已表达的港新备选，并指出语言、轮次等关键核验，不倒填七月事件。",
+      "full_credit": "保留已表达的港新备选，结合尚无雅思或托福成绩的状态，指出语言、轮次等关键核验，不虚构已满足申请条件或已获录取。",
       "grading": "three_level",
       "half_credit": "已保留港新并给一个具体条件，但核验或与当前资格风险的联系不足。",
       "id": "TRY-E-02-R10-05",
@@ -58,19 +58,19 @@
   "numeric_scoring_enabled": true,
   "official": false,
   "privacy_display_revision": "privacy-v16-public70-display.1",
-  "privacy_scoring_semantics": "unchanged_owner_confirmed",
+  "privacy_scoring_semantics": "q013_context_and_timing_corrected",
   "quantity_overflow_policy": "score_with_warning",
   "reference_candidates": [],
   "reference_denominator": null,
-  "review_notes": "按 data/questions-and-scoring.md 对应题目和完整评分通则评分；仅使用当前阶段已披露事实。同一错误不重复扣分，真实争议逐项记录 pending。",
+  "review_notes": "Q013修订版补回原案例已有、且已在公开同案例题面披露的科研、论文准备和港新备选背景；成绩项改按本届统计截止时间判断，不假定第六学期。原教师校准记录及历史答卷、评分保留原版本；本次修订待教师复核，不用于追溯改写旧成绩。仅使用当前阶段已披露事实，同一错误不重复扣分，真实争议逐项记录pending。",
   "scoring_method": {
     "method": "admissions_rubric_v1"
   },
   "scoring_policy": "docs/scoring.md",
   "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
-  "scoring_revision": "1.0.2",
+  "scoring_revision": "1.0.2+q013-fix1",
   "task_kind": "planning",
-  "teacher_calibration": "completed_owner_confirmed",
+  "teacher_calibration": "pending",
   "tier_exception": false,
   "tier_report_only": false
 }

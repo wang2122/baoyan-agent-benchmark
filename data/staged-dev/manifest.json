@@ -5,7 +5,7 @@
     "hard": 4,
     "medium": 8
   },
-  "document_sha256": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
+  "document_sha256": "11f249429c8c3e4d5a08d602f5af68524af629b46cf05f169941c04fc30920b9",
   "fingerprints": {
     "N01-02": {
       "rubric": "3723ee6e2ce47720a078647e2ddfd9aa3617d9b89ddfe76c0a0db7b311d2de79",
@@ -80,6 +80,6 @@
     "O04-04",
     "O06-02"
   ],
-  "version": "1.0.2+privacy-v16-public70",
+  "version": "1.0.2+privacy-v16-public70.q013-fix1",
   "visibility": "public"
 }

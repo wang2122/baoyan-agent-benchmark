@@ -23,7 +23,7 @@ This leaderboard summarizes evaluation records for 70 public tasks, showing the 
 
 All eight agent configurations completed 70 tasks; 0 current tasks timed out. These results combine different real runs with input versions and budgets that are not fully uniform. Complete tool traces are not available for every public record; the leaderboard does not imply uniform execution conditions.
 
-All 70 current tasks and rubrics have owner-confirmed teacher calibration. The owner-approved difficulty labels are 14 easy (20%), 34 medium (48.57%) and 22 hard (31.43%); this is not an independent double review. Per-answer `scored_draft` and `teacher_calibration` labels remain in the captured scoring records. `official=false` is a separate result-certification flag.
+The original 70 tasks and rubrics have owner-confirmed teacher calibration. Q013 has been revised as `1.0.2+privacy-v16-public70.q013-fix1` and this correction awaits teacher review. The displayed scores retain their original versions; Q013 has not been rerun with the corrected prompt. The owner-approved difficulty labels are 14 easy (20%), 34 medium (48.57%) and 22 hard (31.43%); this is not an independent double review. Per-answer `scored_draft` and `teacher_calibration` labels remain in the captured scoring records. `official=false` is a separate result-certification flag.
 
 ### Performance of agent configurations on graduate admissions tasks
 

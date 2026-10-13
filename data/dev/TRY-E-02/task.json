@@ -24,15 +24,15 @@
   },
   "id": "TRY-E-02",
   "privacy_display_revision": "privacy-v16-public70-display.1",
-  "prompt": "我在华东地区一所985高校（华东五校之一）学人工智能，现在是2025年申请阶段，专业排名前约45%，六级500–549分。听说上一届有一定推免名额，我就以为自己应该比较稳，但这一届规则和名额还没确定。这个判断靠谱吗？我应该怎样确认自己的推免资格？",
+  "prompt": "我在华东地区一所985高校（华东五校之一）学人工智能，现在是2025年申请准备阶段，专业排名前约45%，六级500–549分。听说上一届有一定推免名额，我就以为自己应该比较稳，但这一届规则和名额还没确定。\n\n我在校内做过数月自然语言处理科研，另一段科研正在进行，一篇论文正在修改、准备投稿，尚未投稿或录用。我想读学硕；如果无法保研，或国内方案需要直博，我倾向考虑港新，还没有雅思或托福成绩，准备结合9月的保研情况再决定。\n\n这个判断靠谱吗？我应该怎样确认自己的推免资格、提高申请机会，并安排国内申请和港新备选？",
   "review": {
-    "content_status": "approved",
+    "content_status": "pending",
     "difficulty_status": "approved",
-    "teacher_calibration": "completed_owner_confirmed"
+    "teacher_calibration": "pending"
   },
-  "rubric_sha256": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
+  "rubric_sha256": "dfb0ccef0c804204d3cb59458c1ad81cc22835db39cc6c6d244fa7b960abec5f",
   "schema_version": "1.0",
   "split": "dev",
   "task_kind": "planning",
-  "task_version": "1.0.2+privacy-v16-public70"
+  "task_version": "1.0.2+privacy-v16-public70.q013-fix1"
 }

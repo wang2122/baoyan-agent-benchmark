@@ -5,7 +5,7 @@
     "hard": 18,
     "medium": 26
   },
-  "document_sha256": "89087226d8c8a6812bc39ade753f9c4d8b08c0d1a5468b0f46d7d632a26d83d0",
+  "document_sha256": "11f249429c8c3e4d5a08d602f5af68524af629b46cf05f169941c04fc30920b9",
   "fingerprints": {
     "BY-A-APPLY": {
       "rubric": "8cf5cd8164fc2c9d47e3101855a9d703ffad01178e49fba745ddb206f68c83f3",
@@ -212,8 +212,8 @@
       "task": "499e716a101aa9911cc4467f327a3ef27fa00be61c9495ce14fd466f9e1fe522"
     },
     "TRY-E-02": {
-      "rubric": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
-      "task": "c5136d7baae297d5461bfef159cfe92785f7bdd824a2db57c82ab10155758796"
+      "rubric": "dfb0ccef0c804204d3cb59458c1ad81cc22835db39cc6c6d244fa7b960abec5f",
+      "task": "92352abf5d8cf387f2382f91b9f64e695d20bde99b81cbb3403804e890f02e73"
     },
     "TRY-E-03": {
       "rubric": "0a1e32217d45ab977656d4876cc1bf4685e7597d96ea4dc66d8b488f864a3261",
@@ -301,6 +301,6 @@
     "N16-03",
     "O08-02"
   ],
-  "version": "1.0.2+privacy-v16-public70",
+  "version": "1.0.2+privacy-v16-public70.q013-fix1",
   "visibility": "public"
 }

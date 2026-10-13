@@ -7,10 +7,10 @@
         {
           "collection": "dev",
           "id": "S0",
-          "rubric_sha256": "a6de4223f6eb1bd10e9e97d9f3f6a0c514957c64cfe39d4f613dbc5056c3a799",
+          "rubric_sha256": "dfb0ccef0c804204d3cb59458c1ad81cc22835db39cc6c6d244fa7b960abec5f",
           "source_stage": null,
           "task_id": "TRY-E-02",
-          "task_sha256": "c5136d7baae297d5461bfef159cfe92785f7bdd824a2db57c82ab10155758796"
+          "task_sha256": "92352abf5d8cf387f2382f91b9f64e695d20bde99b81cbb3403804e890f02e73"
         },
         {
           "collection": "dev",
@@ -76,6 +76,6 @@
   "schema_version": "longitudinal-pilot.1",
   "split": "dev",
   "status": "public_dev_pending_calibration",
-  "version": "1.0.2",
+  "version": "1.0.2+q013-fix1",
   "visibility": "public"
 }
