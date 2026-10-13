@@ -81,7 +81,7 @@ python3 -m benchmark cli-batch \
 
 ![同一会话两阶段评测流程](docs/figures/dev70-current/fig2_zh.png)
 
-两阶段任务依次提供初始情境 S₀ 与新增信息 S₁，在同一会话中获得初始回复 A₀ 与修订回复 A₁，并联合评分。图中的一月到三月、转向直博情境对应公开任务 [O03-04](data/staged-dev/O03-04/task.json)；C1–C4 概括评估关注点，具体分值以逐题评分标准为准。
+两阶段任务依次提供初始情境 S₀ 与新增信息 S₁，在同一会话中获得初始回复 A₀ 与修订回复 A₁，并联合评分。图中的一月到三月、转向直博情境对应公开任务 [O03-04](data/staged-dev/O03-04/task.json)；E1–E5 对应本例的五项评分标准，权重依次为 25、25、25、15、10 分，详见 [O03-04 评分标准](data/staged-dev/O03-04/rubric.json)。图中 (b) 是任务要求示意，(c) 是评分标准。
 
 [全部题目与评分条件](data/questions-and-scoring.md) · [题库索引](config/selections/current.json) · [数据结构](docs/dataset.md) · [评分通则](docs/scoring.md)
 
