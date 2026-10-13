@@ -1,6 +1,6 @@
 # 保研 Agent Benchmark
 
-本项目是屿智同行的保研 Agent 评测项目，评测完整 Agent 产品在保研择校、申请规划与建议更新中的表现。
+本项目是屿智同行的保研 Agent 评测项目，评测 Agent 配置（执行系统与模型组合）在保研择校、申请规划与建议更新中的表现。当前结果覆盖 8 组 Agent 配置。
 
 题库包含70道中文任务、23组案例和83个作答阶段，配套逐题评分标准与参考项目。公开数据无需申请访问；评分资料虽可下载，但评测时不得提供给被测 Agent。
 
@@ -8,28 +8,32 @@
 
 ## 评测结果
 
-本榜单基于70道公开题的评测记录汇总，展示各模型的平均得分与完成率。评测设置和评分说明见[文档](docs/result-methodology.md)。
+本榜单基于70道公开题的评测记录汇总，展示 8 组 Agent 配置的平均得分与完成率。评测设置和评分说明见[文档](docs/result-methodology.md)。
 
-| 排名 | Agent配置 | 题数 | 完成率 | 均分 / 100 |
+| 排名 | Agent 配置（系统 + 模型） | 题数 | 完成率 | 均分 / 100 |
 | ---: | --- | ---: | ---: | ---: |
-| 1 | [GPT Sol](experiments/records70/models/gpt-6-1-sol/README.md) | 70 | 70/70 (100.0%) | 79.08 |
-| 2 | [GPT Astra](experiments/records70/models/gpt-6-astra/README.md) | 70 | 70/70 (100.0%) | 78.36 |
-| 3 | [DeepSeek V4.1 Flash](experiments/records70/models/deepseek-v4-1-flash/README.md) | 70 | 70/70 (100.0%) | 68.16 |
-| 4 | [GLM 5.3 Flash](experiments/records70/models/ark-glm-5-3-flash-260828/README.md) | 70 | 70/70 (100.0%) | 66.80 |
-| 5 | [Qwen3.8 Max](experiments/records70/models/qwen3-8-max-0902/README.md) | 70 | 70/70 (100.0%) | 64.24 |
-| 6 | [Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
-| 7 | [Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
-| 8 | [Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
+| 1 | [Codex + GPT Sol 6.1](experiments/records70/models/gpt-6-1-sol/README.md) | 70 | 70/70 (100.0%) | 79.08 |
+| 2 | [Codex + GPT Astra 6](experiments/records70/models/gpt-6-astra/README.md) | 70 | 70/70 (100.0%) | 78.36 |
+| 3 | [DSH + DeepSeek V4.1 Flash](experiments/records70/models/deepseek-v4-1-flash/README.md) | 70 | 70/70 (100.0%) | 68.16 |
+| 4 | [Volcengine Managed Agent + GLM 5.3 Flash](experiments/records70/models/ark-glm-5-3-flash-260828/README.md) | 70 | 70/70 (100.0%) | 66.80 |
+| 5 | [Qwen Code + Qwen 3.8 Max](experiments/records70/models/qwen3-8-max-0902/README.md) | 70 | 70/70 (100.0%) | 64.24 |
+| 6 | [Kimi Code + Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
+| 7 | [Antigravity + Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
+| 8 | [Antigravity + Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
 
-8个模型各完成70题；当前共0题超时。
+8 组 Agent 配置各完成 70 题；当前共 0 题超时。结果来自不同真实运行，输入版本与预算并非全部一致，公开记录也并非全部包含完整工具轨迹；不能据榜单推断统一运行条件。
 
 当前70题及评分标准均已由维护者确认完成教师校准。难度标签经负责人确认：简单14题（20%）、中等34题（48.57%）、困难22题（31.43%）；不代表独立双标复核。逐题评分记录仍保留生成时的 `scored_draft` 与 `teacher_calibration` 标签；`official=false` 是独立的结果认证标记。
 
-![各模型的70题均分排名](docs/figures/dev70-current/overall-scores.zh-CN.svg)
+### 不同 Agent 配置在保研任务上的表现
+
+![不同 Agent 配置在保研任务上的表现](docs/figures/dev70-current/fig1_zh_2l.png)
+
+8 组 Agent 配置在 70 项评测任务上的平均得分（满分 100 分）。
 
 ![70题难度分布](docs/figures/dev70-current/difficulty-distribution.zh-CN.svg)
 
-[评分数据](experiments/records70/score-summary-70.json) · [逐题得分](experiments/records70/score-details-70.json) · [按模型查阅答卷与评分](experiments/records70/README.md)
+[评分数据](experiments/records70/score-summary-70.json) · [逐题得分](experiments/records70/score-details-70.json) · [按 Agent 配置查阅答卷与评分](experiments/records70/README.md)
 
 ## 快速开始
 
@@ -37,10 +41,10 @@
 
 按当前[Agent注册表](config/agents-cli.example.json)选择配置；表内ID用于`--agent`，不是客户端模型参数：
 
-| 产品 / 模型 | Agent ID | 客户端 | 模板认证 |
+| Agent 配置 | Agent ID | 客户端 | 模板认证 |
 | --- | --- | --- | --- |
-| GPT Astra | `gpt-6-astra` | Codex / `codex` | ChatGPT订阅 |
-| GPT Sol | `gpt-6-1-sol` | Codex / `codex` | ChatGPT订阅 |
+| Codex + GPT Astra 6 | `gpt-6-astra` | Codex / `codex` | ChatGPT订阅 |
+| Codex + GPT Sol 6.1 | `gpt-6-1-sol` | Codex / `codex` | ChatGPT订阅 |
 | Claude Opus | `claude-opus-5-5` | Claude Code / `claude` | 订阅OAuth |
 | Claude Sonnet | `claude-sonnet-5-5` | Claude Code / `claude` | 订阅OAuth |
 | Gemini Flash | `antigravity-gemini-3-8-flash-high` | Antigravity / `agy` | 订阅 |
@@ -75,14 +79,20 @@ python3 -m benchmark cli-batch \
 
 ![评测流程](docs/figures/dev70-current/benchmark-overview.zh-CN.svg)
 
+![同一会话两阶段评测流程](docs/figures/dev70-current/fig2_zh.png)
+
+两阶段任务依次提供初始情境 S₀ 与新增信息 S₁，在同一会话中获得初始回复 A₀ 与修订回复 A₁，并联合评分。图中的一月到三月、转向直博情境对应公开任务 [O03-04](data/staged-dev/O03-04/task.json)；C1–C4 概括评估关注点，具体分值以逐题评分标准为准。
+
 [全部题目与评分条件](data/questions-and-scoring.md) · [题库索引](config/selections/current.json) · [数据结构](docs/dataset.md) · [评分通则](docs/scoring.md)
 
 
 ### 分题型表现
 
-![各模型在三类题型上的表现](docs/figures/dev70-current/category-scores.zh-CN.svg)
+![8 组 Agent 配置在三类任务上的表现](docs/figures/dev70-current/fig3_zh_2l.png)
 
-逐题状态、计分区间和完整答卷见[逐题结果](experiments/records70/score-details-70.json)与[按模型查阅答卷与评分](experiments/records70/README.md)。
+择校推荐 21 题、规划与决策 36 题、两阶段任务 13 题；图示为各类任务的平均得分（满分 100 分），各类最高分以粗体标出。
+
+逐题状态、计分区间和完整答卷见[逐题结果](experiments/records70/score-details-70.json)与[按 Agent 配置查阅答卷与评分](experiments/records70/README.md)。
 
 ## 方法与复现
 

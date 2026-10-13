@@ -1,6 +1,6 @@
 # Graduate Admissions Agent Benchmark
 
-This is 屿智同行's benchmark project for graduate admissions agents, evaluating complete agent products for admissions advising, application planning and updating advice as student information changes.
+This is 屿智同行's benchmark project for graduate admissions agents, evaluating agent configurations (execution systems paired with models) for admissions advising, application planning and updating advice as student information changes. The current results cover eight agent configurations.
 
 The benchmark contains 70 Chinese-language tasks, 23 cases and 83 answer stages, with per-task rubrics and reference programs. The public dataset is available without access approval; scoring materials must be withheld from the agents being evaluated.
 
@@ -8,28 +8,32 @@ The benchmark contains 70 Chinese-language tasks, 23 cases and 83 answer stages,
 
 ## Evaluation results
 
-This leaderboard summarizes evaluation records for 70 public tasks, showing each model’s mean score and completion rate. See the [documentation](docs/result-methodology.md) for evaluation settings and scoring.
+This leaderboard summarizes evaluation records for 70 public tasks, showing the mean score and completion rate of eight agent configurations. See the [documentation](docs/result-methodology.md) for evaluation settings and scoring.
 
-| Rank | Agent configuration | Tasks | Completion | Mean score / 100 |
+| Rank | Agent configuration (system + model) | Tasks | Completion | Mean score / 100 |
 | ---: | --- | ---: | ---: | ---: |
-| 1 | [GPT Sol](experiments/records70/models/gpt-6-1-sol/README.md) | 70 | 70/70 (100.0%) | 79.08 |
-| 2 | [GPT Astra](experiments/records70/models/gpt-6-astra/README.md) | 70 | 70/70 (100.0%) | 78.36 |
-| 3 | [DeepSeek V4.1 Flash](experiments/records70/models/deepseek-v4-1-flash/README.md) | 70 | 70/70 (100.0%) | 68.16 |
-| 4 | [GLM 5.3 Flash](experiments/records70/models/ark-glm-5-3-flash-260828/README.md) | 70 | 70/70 (100.0%) | 66.80 |
-| 5 | [Qwen3.8 Max](experiments/records70/models/qwen3-8-max-0902/README.md) | 70 | 70/70 (100.0%) | 64.24 |
-| 6 | [Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
-| 7 | [Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
-| 8 | [Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
+| 1 | [Codex + GPT Sol 6.1](experiments/records70/models/gpt-6-1-sol/README.md) | 70 | 70/70 (100.0%) | 79.08 |
+| 2 | [Codex + GPT Astra 6](experiments/records70/models/gpt-6-astra/README.md) | 70 | 70/70 (100.0%) | 78.36 |
+| 3 | [DSH + DeepSeek V4.1 Flash](experiments/records70/models/deepseek-v4-1-flash/README.md) | 70 | 70/70 (100.0%) | 68.16 |
+| 4 | [Volcengine Managed Agent + GLM 5.3 Flash](experiments/records70/models/ark-glm-5-3-flash-260828/README.md) | 70 | 70/70 (100.0%) | 66.80 |
+| 5 | [Qwen Code + Qwen 3.8 Max](experiments/records70/models/qwen3-8-max-0902/README.md) | 70 | 70/70 (100.0%) | 64.24 |
+| 6 | [Kimi Code + Kimi K3](experiments/records70/models/kimi-k3/README.md) | 70 | 70/70 (100.0%) | 58.96 |
+| 7 | [Antigravity + Gemini 3.8 Flash](experiments/records70/models/antigravity-gemini-3-8-flash-high/README.md) | 70 | 70/70 (100.0%) | 58.23 |
+| 8 | [Antigravity + Gemini 3.1 Pro](experiments/records70/models/antigravity-gemini-3-1-pro-high/README.md) | 70 | 70/70 (100.0%) | 55.55 |
 
-All 8 agent configurations completed 70 tasks; 0 current tasks timed out.
+All eight agent configurations completed 70 tasks; 0 current tasks timed out. These results combine different real runs with input versions and budgets that are not fully uniform. Complete tool traces are not available for every public record; the leaderboard does not imply uniform execution conditions.
 
 All 70 current tasks and rubrics have owner-confirmed teacher calibration. The owner-approved difficulty labels are 14 easy (20%), 34 medium (48.57%) and 22 hard (31.43%); this is not an independent double review. Per-answer `scored_draft` and `teacher_calibration` labels remain in the captured scoring records. `official=false` is a separate result-certification flag.
 
-![70-task mean scores for all models](docs/figures/dev70-current/overall-scores.en.svg)
+### Performance of agent configurations on graduate admissions tasks
+
+![Performance of agent configurations on graduate admissions tasks](docs/figures/dev70-current/fig1_en_2l.png)
+
+Mean scores of eight agent configurations across 70 evaluation tasks (maximum = 100).
 
 ![70-task difficulty distribution](docs/figures/dev70-current/difficulty-distribution.en.svg)
 
-[Score data](experiments/records70/score-summary-70.json) · [Per-task results](experiments/records70/score-details-70.json) · [Answers and scores by model](experiments/records70/README.md)
+[Score data](experiments/records70/score-summary-70.json) · [Per-task results](experiments/records70/score-details-70.json) · [Answers and scores by agent configuration](experiments/records70/README.md)
 
 ## Quick start
 
@@ -37,10 +41,10 @@ Run from the repository root. Automated native execution requires macOS Seatbelt
 
 Choose a configuration from the current [agent registry](config/agents-cli.example.json). These IDs are used with `--agent`; they are not client model arguments:
 
-| Product / model | Agent ID | Client | Template authentication |
+| Agent configuration | Agent ID | Client | Template authentication |
 | --- | --- | --- | --- |
-| GPT Astra | `gpt-6-astra` | Codex / `codex` | ChatGPT subscription |
-| GPT Sol | `gpt-6-1-sol` | Codex / `codex` | ChatGPT subscription |
+| Codex + GPT Astra 6 | `gpt-6-astra` | Codex / `codex` | ChatGPT subscription |
+| Codex + GPT Sol 6.1 | `gpt-6-1-sol` | Codex / `codex` | ChatGPT subscription |
 | Claude Opus | `claude-opus-5-5` | Claude Code / `claude` | Subscription OAuth |
 | Claude Sonnet | `claude-sonnet-5-5` | Claude Code / `claude` | Subscription OAuth |
 | Gemini Flash | `antigravity-gemini-3-8-flash-high` | Antigravity / `agy` | Subscription |
@@ -75,12 +79,18 @@ Each task is worth 100 points. Full recommendation tasks allocate 70 points to r
 
 ![Evaluation workflow](docs/figures/dev70-current/benchmark-overview.en.svg)
 
+![Two-stage evaluation within a single session](docs/figures/dev70-current/fig2_en.png)
+
+Two-stage tasks supply initial context S₀ followed by updated information S₁ in the same session, producing initial response A₀ and revised response A₁ for joint scoring. The January-to-March scenario and shift to direct PhD applications correspond to public task [O03-04](data/staged-dev/O03-04/task.json). C1–C4 summarize evaluation concerns; point allocations follow each task’s rubric.
+
 [All questions and criteria](data/questions-and-scoring.md) · [Task index](config/selections/current.json) · [Data format](docs/dataset.md) · [Scoring rules](docs/scoring.md)
 
 
 ### Results by task type
 
-![Models compared across three task types](docs/figures/dev70-current/category-scores.en.svg)
+![Eight agent configurations compared across three task categories](docs/figures/dev70-current/fig3_en_2l.png)
+
+The categories contain 21 recommendation tasks, 36 planning and decision tasks, and 13 two-stage tasks. Scores are category means out of 100; the highest score in each category is bold.
 
 See [per-task results](experiments/records70/score-details-70.json) and [public answers](experiments/records70/README.md) for statuses, score intervals and full answer text.
 
