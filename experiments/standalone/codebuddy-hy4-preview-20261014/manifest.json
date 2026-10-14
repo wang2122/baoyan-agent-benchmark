@@ -1,0 +1,796 @@
+{
+  "schema": "standalone-unscored-answer-record.1",
+  "publication_state": "local_draft_not_published",
+  "agent_configuration": {
+    "system": "CodeBuddy CLI",
+    "cli_version": "2.164.0",
+    "model": "hy4-preview",
+    "effort_requested": "high"
+  },
+  "input_version": "1.0.2+privacy-v16-public70",
+  "input_selection_file_sha256": "cc951a9f19f3bbf5af71699a0597bc9b8dafaa44619d2a22809b82f096cd430b",
+  "planned_tasks": 70,
+  "planned_stages": 83,
+  "attempted_tasks": 46,
+  "counts": {
+    "completed": 41,
+    "failed": 1,
+    "interrupted": 4,
+    "not_started": 24
+  },
+  "completed_stages": 41,
+  "stopped_at": "2026-10-14T09:07:55.104462+00:00",
+  "scored": false,
+  "leaderboard_included": false,
+  "raw_answers_and_full_traces_public": false,
+  "selection_provenance": "Recorded digest matches the full originating public selection manifest. selection-input.json is a reduced summary and has a different digest. All 70 source task hashes and 83 frozen stage prompt hashes were verified.",
+  "integrity_scope": "41 completed answers; hash, size, end_turn, session model and sent prompt checks passed. high is the recorded launch request, not a claim about internal reasoning budget.",
+  "privacy_scope": "Existing maintainer mapping plus targeted redaction of identifying undergraduate-policy details and one personal rank fraction. Retains target recommendations and admissions thresholds. This is not a claim of global anonymity; original answer assertions and errors are not corrected.",
+  "records": [
+    {
+      "task_id": "BY-A-PLAN",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-A-PLAN/answer.md",
+        "sha256": "92d7d65ea8424948076d7ec40d94caac14c0491bafe9abeb7e32135bf7eceaf0",
+        "bytes": 32350,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-A-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-A-APPLY/answer.md",
+        "sha256": "7e84c4b1fc1576b3ae667f985bc079f218c4a1ce6674678885a1829c0017d2b3",
+        "bytes": 42174,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-A-03",
+      "status": "completed",
+      "attempts": 2,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-A-03/answer.md",
+        "sha256": "45de52a4a57e83fe4f22dc3c200c856afb7258b4483a9f7ae8c0cb6dbcf1ab1d",
+        "bytes": 22558,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-B-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-B-APPLY/answer.md",
+        "sha256": "c97e9adfe81249c142b0aec6f292778031aff2a8dc6712645732a95d55e2afc8",
+        "bytes": 29926,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-B-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-B-02/answer.md",
+        "sha256": "c75ba9075a61b97438327b02d57d658457dea21636f75fff6ff1d993bc2caada",
+        "bytes": 31613,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-B-03",
+      "status": "failed",
+      "attempts": 2,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "BY-C-WINTER",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-C-WINTER/answer.md",
+        "sha256": "0f4d4b5aca41fbc493f5939c17cbe14aee59514df3dcffa5dbcf90cb695b309f",
+        "bytes": 17642,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-C-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-C-APPLY/answer.md",
+        "sha256": "47a85a13c2303eb92bb653871cdf64a128cef7322a5062bde64b620d9996ff7f",
+        "bytes": 32468,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-C-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-C-03/answer.md",
+        "sha256": "62a74657fb9a30bb06c1efef80bbb38c48aab21361dc2657e148a007474cd4ff",
+        "bytes": 14000,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-D-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-D-02/answer.md",
+        "sha256": "4ec4b6817c28c2045d89619f4c41ae513d8feb4de3313d48f5e085cc63eaf52f",
+        "bytes": 22745,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-E-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-E-APPLY/answer.md",
+        "sha256": "12d18030ae2b5117ad471fc3dc53f06f1e8e5d39c5e5f5399f68d93bc745e737",
+        "bytes": 24058,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-E-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-E-02/answer.md",
+        "sha256": "acdf7cc98177ded262b8af3f767a806efabe65f5b8afc2f869400630caa1080b",
+        "bytes": 17254,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-E-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-E-03/answer.md",
+        "sha256": "de6a36e53e18ba8de476d13ea5b3a8d21c20e5cd848a32126f497775be807ee4",
+        "bytes": 29757,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-F-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-F-APPLY/answer.md",
+        "sha256": "11a9e897fb4cba4a85f1e81f0b6b09b8cc4a2236974a078dfe167fd6ef339eb5",
+        "bytes": 33209,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-F-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-F-02/answer.md",
+        "sha256": "bbe1ecf698381a53a97837932187de4b2032476b0c087be7adc0f2bf0898eb19",
+        "bytes": 26808,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-G-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-G-01/answer.md",
+        "sha256": "8fa8555ec689e1dbe0658833f5f9f193826a9fb49014a83c744c26adfcec8d58",
+        "bytes": 19160,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-G-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-G-02/answer.md",
+        "sha256": "285c72fc9aae0fa8ce3a58318e01fcdea4e0c4fd944d6148f66f568b3a4a5ae8",
+        "bytes": 18713,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-H-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-H-APPLY/answer.md",
+        "sha256": "acf38494002c7b5f9ef47f10c02af726820da028317befd11e4072730ff65f3a",
+        "bytes": 22222,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "TRY-H-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/TRY-H-02/answer.md",
+        "sha256": "b202e001adf0cffaabd23ba87d6885713b808b628333cbdbdb3362187865562e",
+        "bytes": 28897,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-G-APPLY",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-G-APPLY/answer.md",
+        "sha256": "60c85e2049f7e6356f0885e2d7e273c7366715c48a999707cf8cae1756d1416d",
+        "bytes": 32262,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-E-REPLAN",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-E-REPLAN/answer.md",
+        "sha256": "a7b3f6b3490a8c588348615488bfd58cb2ab6ae309576a08357c6ae481e3cbff",
+        "bytes": 34989,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "BY-E-PREP",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/BY-E-PREP/answer.md",
+        "sha256": "83a5596299ee1931581498c901fcaa7ccee74e70817a218944c6b15025387569",
+        "bytes": 18969,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N01-01",
+      "status": "completed",
+      "attempts": 2,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N01-01/answer.md",
+        "sha256": "8507cbe548f391950becbc5861e8fbc4404b7d3bdc99c8138e1d56053480f156",
+        "bytes": 26451,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N01-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N01-03/answer.md",
+        "sha256": "28a7bae334d39c647956a96db87bb41d10e8fff5038d3fa6307a84b180bdcd71",
+        "bytes": 27030,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N02-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N02-01/answer.md",
+        "sha256": "1cf48f1abc2cd0012058104772ec9cd08bf92b47998f7d226c67e2e46b6ab865",
+        "bytes": 7483,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N02-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N02-02/answer.md",
+        "sha256": "1ad71e8d1db895d8086369cca34c5e5796dcf0ae7db00a2ed0e9c974b287bc7a",
+        "bytes": 24918,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N02-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N02-03/answer.md",
+        "sha256": "904f5cce5689cbb539bb9469effb303e6c190af1bbdfbc3a2dfc3c9980c3241d",
+        "bytes": 30627,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N03-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N03-01/answer.md",
+        "sha256": "fdb38b948b188d341799eb8a7b411325017a8d536142455813ce3093741e0383",
+        "bytes": 30512,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N03-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N03-02/answer.md",
+        "sha256": "36faa032d96b5a45a5ae0ef1e9be37cfd8683337115e17a204aa814356538e7d",
+        "bytes": 23319,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N03-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N03-03/answer.md",
+        "sha256": "d87776588c527b0c87950b794f5b8ec91f12f819e592b7e1154c4e9c161f530b",
+        "bytes": 47451,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N04-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N04-01/answer.md",
+        "sha256": "5fbeee28a9e70bbec0a2dccdceb15ee54bd00e6e84bc060978c2a6559d8895f3",
+        "bytes": 51867,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N04-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N04-03/answer.md",
+        "sha256": "7b6455e5e031c6017b82c52ab499539bb0f2734d00e8324c978bd3cf5140f7fc",
+        "bytes": 29992,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N05-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N05-01/answer.md",
+        "sha256": "71eb13144274b175f6f8d30c9f7fa43e8e2137ce8789b571a2ba9306beda881b",
+        "bytes": 21588,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N05-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N05-03/answer.md",
+        "sha256": "2294265e17ca9edcf661fe439ebfb6f94b716b37aced687f4101f99ec3b2f126",
+        "bytes": 34943,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N06-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N06-01/answer.md",
+        "sha256": "13f5c1305a45106c6e94a6f7b12b8828ca08dccdeebdec2629ca63e00ea66cdf",
+        "bytes": 15517,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N06-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N06-02/answer.md",
+        "sha256": "13b85aae0d0bab5e30490148dc94faceffe79c3fa321e12e918cde61907a9340",
+        "bytes": 29434,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N06-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N06-03/answer.md",
+        "sha256": "a0cb8486bba14fd8157b9e3ad80ce41d03158da209aece5e9b9bf3a03c172e1a",
+        "bytes": 30181,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N08-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N08-01/answer.md",
+        "sha256": "fae133aa1cdcb4075b1227ac2d873c5c19168a170355c716c33b5183abd130ce",
+        "bytes": 17388,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N08-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N08-03/answer.md",
+        "sha256": "1685fe7b37436c65a189d67fb35ee53b263411d9f12c59c33ddd7a42af013c38",
+        "bytes": 26140,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N09-01",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N09-01/answer.md",
+        "sha256": "f6ce255066ea35acc6fec3f79c386c547d05f1e00f10b32142ccda2a41a1bd58",
+        "bytes": 24717,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N09-03",
+      "status": "interrupted",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N10-01",
+      "status": "interrupted",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N10-02",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N10-02/answer.md",
+        "sha256": "fa857b4d63b9990290203206594e6227524432b4c62c77b2f2731b6243758b76",
+        "bytes": 12763,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N10-03",
+      "status": "completed",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": {
+        "path": "answers/N10-03/answer.md",
+        "sha256": "98ac774bbcbade325c2028a23f50fa38fe3100680806d94d53559181b29fad46",
+        "bytes": 21678,
+        "privacy_revision": "privacy-v16-public70-display.1+codebuddy-local-display-review.2"
+      }
+    },
+    {
+      "task_id": "N11-03",
+      "status": "interrupted",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N12-01",
+      "status": "interrupted",
+      "attempts": 1,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N12-03",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N13-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N13-03",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N14-01",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N14-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N14-03",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N15-01",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N15-03",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N16-01",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N16-03",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "O08-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N01-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N04-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N05-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N08-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N09-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N11-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N12-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N15-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "N16-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "O01-04",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "O03-04",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "O04-04",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    },
+    {
+      "task_id": "O06-02",
+      "status": "not_started",
+      "attempts": 0,
+      "score": null,
+      "scoring_status": "unscored",
+      "answer": null
+    }
+  ]
+}
