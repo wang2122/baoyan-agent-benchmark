@@ -8864,7 +8864,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "ea9d8421e638c008b7e6741b127790f900b18ebb0231df3fd97422f41c210c57",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-A-PLAN/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-A-PLAN/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-A-PLAN/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-A-PLAN/answer.md",
+      "public_answer_sha256": "35b5a7ad1bb97a43ea1812578adfdf0ba5102efdfc97f62129c013b849e0ad3f"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -8881,7 +8883,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "9fd86006290d0f1302d4ef1cb01d7f276427d7fdfa7e84c6e4a9d0d6801cd49d",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-A-APPLY/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-A-APPLY/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-A-APPLY/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-A-APPLY/answer.md",
+      "public_answer_sha256": "7e925219a02d07661e392b751f83f2ed832f140e47d266fd11d922e525acdc9e"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -8898,7 +8902,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "739f586561395127d580b7c56a9e4aa8490ba733c8c98cf6c84e53e03074f4c2",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-A-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-A-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-A-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-A-03/answer.md",
+      "public_answer_sha256": "5d4f0023c3b6f1bafb07de2d1f3cdce271d4b77e61115ea2cd7343cefe64ea0d"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -8934,7 +8940,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "3daaf39c6cb381ae1e4f3d442c5c099d6518b34960ce1d2637a8ea57fe1fa78e",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-B-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-B-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-B-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-B-02/answer.md",
+      "public_answer_sha256": "f07bdc12674c23cf6579dc59cce6de27756408a3d0b68d2fcd13dcc0a4d10316"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -8951,7 +8959,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "63171822f9645553168df3aa6c8cd9349d1ce49a904316e64f3d4b3ea5cedd90",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-B-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-B-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-B-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-B-03/answer.md",
+      "public_answer_sha256": "f9c3a5d8fb146d707963f907848c060a4ab2cd3e333bff50bc3fa3e42c70a826"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -8968,7 +8978,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "48a94e8cd8248f1672e42fef3afb68d5c9eeb78ade265357b573fc968cdb9a99",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-C-WINTER/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-C-WINTER/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-C-WINTER/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-C-WINTER/answer.md",
+      "public_answer_sha256": "27c076eb1caab859e3e208e9d91734f6f29f1cd264a6efc3176b66c48f9cce08"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -8985,7 +8997,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "ea3447080bfb445db7f0971cf7a7dc81d8830a72d9733b346e024cd6085f1926",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-C-APPLY/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-C-APPLY/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-C-APPLY/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-C-APPLY/answer.md",
+      "public_answer_sha256": "bff30b7550e12f479d8a465204a98b908a9c25b8f3643c5e8521b8d536b1b9e0"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9021,7 +9035,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "3c0b3886f5435d3587d857c47fbb958bb44e8db1855a0885b83cc9555cd373f2",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-D-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-D-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-D-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-D-02/answer.md",
+      "public_answer_sha256": "dca11a7e89b83a583c7862896f7b467cfb1180f16d5e3de39c36c59938f316f3"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9038,7 +9054,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "b945e55eea1e623488ccc2e258bef720b8247fea0b220f5cc547ba0fdeca52fd",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-E-APPLY/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-E-APPLY/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-E-APPLY/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-E-APPLY/answer.md",
+      "public_answer_sha256": "421f141f549de9a7c7ead7663538b63009c82a30d348579c0aeac17a4327d715"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9055,7 +9073,9 @@
       "source_kind": "recovered_historical_summary",
       "answer_sha256": "65bb6765a8bb5a0e4ef464e9eadc61c393197992b397b1144bfd5b5b64282e28",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-E-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-E-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-E-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-E-02/answer.md",
+      "public_answer_sha256": "903d0f82a80c7ddaf9c1af82c23012d829e89fb027db32bfe4b6591e69f311c5"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9072,7 +9092,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "4131abf85406b22de5a7acdc37f9b612810599f1d9640d984d7af2469c55fec4",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-E-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-E-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-E-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-E-03/answer.md",
+      "public_answer_sha256": "3a7ebf8c9b1547c890f22ebddb652552e7df6f516ab96590c3cd34de25060b9d"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9089,7 +9111,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "f411594f3f5c5e72d26f8cb825201b251d87e13bc0a368c07a9049d026e90388",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-F-APPLY/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-F-APPLY/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-F-APPLY/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-F-APPLY/answer.md",
+      "public_answer_sha256": "4c518ba6a2f2cd595a3fce4a36af8ee4dd987b202a1d5272d5f114042288a908"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9125,7 +9149,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "b85e89291bc55f8164700651429dd7b17f361c7f80d8b7f1613c8d1c19e09f18",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-G-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-G-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-G-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-G-01/answer.md",
+      "public_answer_sha256": "4c53943032b80eb8fcd5432dec5d1b98a0763e5e8753eaaed893e9572aa98999"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9142,7 +9168,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "961bda42428b40427493944075f84ce8563a85c4f1ea89e5098402b916f56398",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-G-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-G-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-G-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-G-02/answer.md",
+      "public_answer_sha256": "849e5c064b6d1c45bdb9c46379c23b3c6afcf876d0fb38b98b34131fcdee2dc6"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9178,7 +9206,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "2c5fb9f38f4b8025c8f81aaaa05e93902430f459816451dd746e5a579789e159",
       "score_path": "models/ark-glm-5-3-flash-260828/TRY-H-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-H-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/TRY-H-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/TRY-H-02/answer.md",
+      "public_answer_sha256": "3929047cfeb461508c31210c3c1c0e6573ef81ccc64a8642535b8fd82b9404d2"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9195,7 +9225,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "383bd41b64229e56252b4c25ee7261a2ebdd6ecb1afdae5d42f49133db986dd1",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-G-APPLY/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-G-APPLY/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-G-APPLY/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-G-APPLY/answer.md",
+      "public_answer_sha256": "8bead062bc08ea0f53c7d280a7b102b6ab29418272469a7588d2f762d5697a3d"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9231,7 +9263,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "89034960de282e66ebe239a28fdf0cd2af6b15e02d387e7a8787fb4257264164",
       "score_path": "models/ark-glm-5-3-flash-260828/BY-E-PREP/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-E-PREP/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/BY-E-PREP/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/BY-E-PREP/answer.md",
+      "public_answer_sha256": "c322c40c217722075c4b06cb1c049fb966c5cc9496a3f9eaa6d90e2efb90dc99"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9248,7 +9282,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "3aaa821f0f575a405dbb4d71a8fe8782d5b5b1d6e52181454377b676c4a93ea2",
       "score_path": "models/ark-glm-5-3-flash-260828/N01-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N01-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N01-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N01-01/answer.md",
+      "public_answer_sha256": "77e5853927d11d81140bd8f9b9d5c24d48c25abbc12faba4f073c5b8fa3e4020"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9265,7 +9301,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "98b55a07aab056ab5647b061c764c7aedb590f9497200f092b66fe607c410ee2",
       "score_path": "models/ark-glm-5-3-flash-260828/N01-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N01-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N01-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N01-03/answer.md",
+      "public_answer_sha256": "c92bffa56c720e9ca8c7df200b22e1cdb9f16939382e5ca98b583570d7a98e2d"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9301,7 +9339,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "6db58af338eea4c9058170761511374d261f23d8d76c379acb001624333b9ec7",
       "score_path": "models/ark-glm-5-3-flash-260828/N02-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N02-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N02-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N02-02/answer.md",
+      "public_answer_sha256": "d953b7f25e618c1a75236218bc99dd5b07f9c89f195dadf31d6b2dda4e28b456"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9318,7 +9358,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "f6f5f34a4249cac2690f4a727601d17635f1a3095adbc2977ad26a26270ce146",
       "score_path": "models/ark-glm-5-3-flash-260828/N02-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N02-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N02-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N02-03/answer.md",
+      "public_answer_sha256": "fa1380aeddc1ad5dddc74b8c9ef540fa2d98cae3e28af586b0751b5e732eec5d"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9335,7 +9377,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "3176aa3f495d141dfd6ef516852642dca27539d2868855513fba96fc73cec9b0",
       "score_path": "models/ark-glm-5-3-flash-260828/N03-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N03-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N03-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N03-01/answer.md",
+      "public_answer_sha256": "bebd0b2804d92ef497de93eb8768540a4367e55d52073a04d78b32ab57e3560c"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9371,7 +9415,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "4c42e1e52bc8ea0e504a4b9fab7c94efdde0a41650e84092fd2070c0d2c01c9f",
       "score_path": "models/ark-glm-5-3-flash-260828/N03-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N03-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N03-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N03-03/answer.md",
+      "public_answer_sha256": "2bd5ce0d9755d5f0ba78c1e15da39bc831e910739f8900c2b635904a6b836b15"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9388,7 +9434,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "714f639ccac7f05035f9bc87bf8ebf686e80d4045ffae678ff53324f84fc2a58",
       "score_path": "models/ark-glm-5-3-flash-260828/N04-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N04-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N04-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N04-01/answer.md",
+      "public_answer_sha256": "c823e8150f9c7a5b414e9a2f8198a9425506959336f65738a278a0b3ac4723dc"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9424,7 +9472,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "b039426b095da4acf638713995349005c585b65739d0ff7ed17fd72c54565de3",
       "score_path": "models/ark-glm-5-3-flash-260828/N05-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N05-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N05-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N05-01/answer.md",
+      "public_answer_sha256": "5a0ae8766cb6853e6518700e9a9076c39b88e669c1cac801d2fda335eb3222e6"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9441,7 +9491,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "6f300805e74fd892536e475d9bcc0841a03b127b2bfe4778a63348fd2c9b93d8",
       "score_path": "models/ark-glm-5-3-flash-260828/N05-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N05-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N05-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N05-03/answer.md",
+      "public_answer_sha256": "cc2c30e6ce880b3b1d03e0ceb773b139e844de1df6f2e0ab90e7784abccdb8ec"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9458,7 +9510,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "25fd36724918103c6d9a93aa657bb664229caa7ba8c63c9b5eeffb70ff5546c0",
       "score_path": "models/ark-glm-5-3-flash-260828/N06-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N06-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N06-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N06-01/answer.md",
+      "public_answer_sha256": "3632e5c9c72a3e75cbf7aaf2d7394038ad0daea427b74c3e417939b44d645921"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9475,7 +9529,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "14e923739da3fb47f0ff424e4bfa581db5046ed5f5f7d1edf09638dcf2092562",
       "score_path": "models/ark-glm-5-3-flash-260828/N06-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N06-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N06-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N06-02/answer.md",
+      "public_answer_sha256": "5d271526dd28d39b56176e5029194cec89f2387fd5aef86708678a1734db3071"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9511,7 +9567,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "cf70f91b6823ad2e4aaf96c85bb9f05c46d1cc4fc355af025fe4dcf92b37d38d",
       "score_path": "models/ark-glm-5-3-flash-260828/N08-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N08-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N08-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N08-01/answer.md",
+      "public_answer_sha256": "5be5cb0eff20e1525d84af1581007406358cc4564375a5b0c6d12c1aaf47e381"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9528,7 +9586,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "d14b60288d926089d3ad65d97d75a0bc9311200bc39aeaa062795e08c70c05f4",
       "score_path": "models/ark-glm-5-3-flash-260828/N08-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N08-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N08-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N08-03/answer.md",
+      "public_answer_sha256": "d09b17d739eadecbe74aafa2b3b52d53afc77659262e45a0b396628c757888ef"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9545,7 +9605,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "060c889bbdecaca77c4cf84d48e5519399f9f4334a3b9b740b4b87d4e2d2567e",
       "score_path": "models/ark-glm-5-3-flash-260828/N09-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N09-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N09-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N09-01/answer.md",
+      "public_answer_sha256": "83a4bad07f5384a5ce1fadf14c99297b66f49460c018d16bfce180acc35fee23"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9562,7 +9624,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "f9a169c4e08b1a9585edf82c8c187a33d42d4fe86402af5f5cad82243c8c281c",
       "score_path": "models/ark-glm-5-3-flash-260828/N09-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N09-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N09-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N09-03/answer.md",
+      "public_answer_sha256": "b1b9a32745acb1735cf4cf4d394e84a80fef57436d189c85c01871adb85f0322"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9598,7 +9662,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "ab6544f8b0726d16428024d7745a1119a0fb72aeeb6f06d813dbc202d30f2438",
       "score_path": "models/ark-glm-5-3-flash-260828/N10-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N10-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N10-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N10-02/answer.md",
+      "public_answer_sha256": "c03a8735065c2085db257bd72874aeb7d7d33c3254f2e8dc2482a84b1049c141"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9615,7 +9681,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "3c028283a7f656330b91ad558a0e835cf7ce9d9988d1a0f1cc2b4977e0024644",
       "score_path": "models/ark-glm-5-3-flash-260828/N10-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N10-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N10-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N10-03/answer.md",
+      "public_answer_sha256": "2931ad55f6c1f95c5630ee3ee824411b138473845cd4b1833bc5cec4fdda2f59"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9651,7 +9719,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "4ee002f1325f5525c74a125fdcb0abd4443cf992705591c875be302b5ce25650",
       "score_path": "models/ark-glm-5-3-flash-260828/N12-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N12-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N12-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N12-01/answer.md",
+      "public_answer_sha256": "3e6c2307934c55b77504353202f6177e6e36dad95099b5760e1a78a79d302fe2"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9668,7 +9738,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "f293c818489e82be011a8e7818c6ad680c61a376d941d9d9c1a58a57b5f42627",
       "score_path": "models/ark-glm-5-3-flash-260828/N12-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N12-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N12-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N12-03/answer.md",
+      "public_answer_sha256": "218960af11edec5a7f36bdd3d3a4707a791c940c9a29bc73e0bef8cd77939405"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9704,7 +9776,9 @@
       "source_kind": "recovered_historical_summary",
       "answer_sha256": "9b06f9242e9915de2ca76ebfd569979b523152956f68d754bad425af0aa12a52",
       "score_path": "models/ark-glm-5-3-flash-260828/N13-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N13-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N13-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N13-03/answer.md",
+      "public_answer_sha256": "67b41c73778834227586ad0186e07d6f80cfed13f749d826bce21c64b8b20518"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9721,7 +9795,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "2d8336a0919519c4decb6b6544da1e45a52a2c427bd2d4f5242f62bb5d56b8ac",
       "score_path": "models/ark-glm-5-3-flash-260828/N14-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N14-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N14-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N14-01/answer.md",
+      "public_answer_sha256": "a87b27923b100519dde1ccede7553b58d8ca0b98179b5188a03ebb3341a11bd4"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9738,7 +9814,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "9a02eff65305dfa2f2c341a0ed1b8acc45ce636e7afa7a3834a901b40c928ddd",
       "score_path": "models/ark-glm-5-3-flash-260828/N14-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N14-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N14-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N14-02/answer.md",
+      "public_answer_sha256": "ab6a381f95f7201b26bc70a5f8e05f48848bf2dbe86c11093ff4c285502d2429"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9793,7 +9871,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "0f68b63796aa67c317011769288e91db29681367071a8ff69218017649b0d65c",
       "score_path": "models/ark-glm-5-3-flash-260828/N15-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N15-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N15-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N15-03/answer.md",
+      "public_answer_sha256": "452dd1ef25d0545710f8377a989b237d47755f1bcac03ec2cf837e8c4c0b1eab"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9810,7 +9890,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "06fd32bd50fbc74d0fe0917875bd5b8d9c952f26f8b28146f938e7d054444c47",
       "score_path": "models/ark-glm-5-3-flash-260828/N16-01/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N16-01/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N16-01/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N16-01/answer.md",
+      "public_answer_sha256": "db9b1d5429dca61a7155a66d06d412fc283111dcb8f613574632dc9c595144ba"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9827,7 +9909,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "4329ceb94a961e3d97da85174e6ab4356131a0151fbfbc9c55dd049b17798189",
       "score_path": "models/ark-glm-5-3-flash-260828/N16-03/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N16-03/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N16-03/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N16-03/answer.md",
+      "public_answer_sha256": "db4748c6157be1ffcfcea268aff31c175ead638448405c548252a40877cba876"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9844,7 +9928,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "5c5e4fc4ba78d1c7184c0394a4280ca5ec4b8e6e322d7249c5fb07b1dde6b6fc",
       "score_path": "models/ark-glm-5-3-flash-260828/O08-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/O08-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/O08-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/O08-02/answer.md",
+      "public_answer_sha256": "a7438b265da2238a52075041a931f12723e91deef2c1a727d1e7e0052325604d"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9880,7 +9966,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "97a213797e5b14fe72905f5e85912170b1fc24e2bbe1aa0ea6cd32f35ac91bfc",
       "score_path": "models/ark-glm-5-3-flash-260828/N04-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N04-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N04-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N04-02/answer.md",
+      "public_answer_sha256": "d853bc1e77412bc3ca761686cceddffbbed947d1f81d89a1b3b6fc3d0cb0c3a6"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9897,7 +9985,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "b01a4b1db2d43b6e634f9f8915503cd90865a7e315bb268b6378635ff9c43d97",
       "score_path": "models/ark-glm-5-3-flash-260828/N05-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N05-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N05-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N05-02/answer.md",
+      "public_answer_sha256": "f2d425796ed5cc6fbd67884192cadb2461297b3e09abea6ea0b9592a37ff7b2a"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9933,7 +10023,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "34abc6660495ed8f3cb59e36261a2e0a97f363d8a60ec4258fb1f089f234967c",
       "score_path": "models/ark-glm-5-3-flash-260828/N09-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N09-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N09-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N09-02/answer.md",
+      "public_answer_sha256": "64f63de01dc46cccd5eb8def2b9be2ae6b4107a2977c509956f5573e0c24950c"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9950,7 +10042,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "2f569f2add9cb017ec969aff8b930ddec49dcda930f4bf4cd21a245384177339",
       "score_path": "models/ark-glm-5-3-flash-260828/N11-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N11-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N11-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N11-02/answer.md",
+      "public_answer_sha256": "13eb6ac9175b5e105a132298a6e8a7d883f936d4984fbb31519b2adb0125fd55"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9967,7 +10061,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "44f153e70ea08e2c1ac6a1bcd441646ffdabb2fe5675893a363e3f873481adfa",
       "score_path": "models/ark-glm-5-3-flash-260828/N12-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N12-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N12-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N12-02/answer.md",
+      "public_answer_sha256": "e1c341cf246fd76ed5726349237ee0f318669eec9f2d9d6c640a5fc998ba5407"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -9984,7 +10080,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "cfd2cfa72af2d75c653bc96c1de9c12f1b75e1a567f48a31bc6764f5a3b55781",
       "score_path": "models/ark-glm-5-3-flash-260828/N15-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/N15-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/N15-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/N15-02/answer.md",
+      "public_answer_sha256": "450d194b12b9a16f4fe8a1a4300a00b0f92b7a461c4781493c3919025e67bd0c"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -10020,7 +10118,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "40f3fee15e54f3d6abd630416bb045edcf0096d1f837698abe41a07ec1040d0a",
       "score_path": "models/ark-glm-5-3-flash-260828/O01-04/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/O01-04/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/O01-04/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/O01-04/answer.md",
+      "public_answer_sha256": "2ca396e24099006006052a47cfbd6f0f8e940d7509f2639a95aa4acc1d566594"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -10037,7 +10137,9 @@
       "source_kind": "retained_historical_summary",
       "answer_sha256": "cf6deb97d23b9e2d869a55481f30a9af4f6746eadf18e93c2352f51c74378f1f",
       "score_path": "models/ark-glm-5-3-flash-260828/O03-04/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/O03-04/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/O03-04/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/O03-04/answer.md",
+      "public_answer_sha256": "e46f5b34b3a6ce3a0d3af45aa600cd4c39056f1ea75bb1f990d26903eae4aa08"
     },
     {
       "agent": "ark-glm-5-3-flash-260828",
@@ -10073,7 +10175,9 @@
       "source_kind": "authorized_new_review_of_original_answer",
       "answer_sha256": "a34cbc05403aa9883ceb94b0ebb2c2cc883d8e2f27067921ac15e6d2055d614d",
       "score_path": "models/ark-glm-5-3-flash-260828/O06-02/score.json",
-      "metadata_path": "models/ark-glm-5-3-flash-260828/O06-02/metadata.json"
+      "metadata_path": "models/ark-glm-5-3-flash-260828/O06-02/metadata.json",
+      "answer_path": "models/ark-glm-5-3-flash-260828/O06-02/answer.md",
+      "public_answer_sha256": "95bd97f4ab6e8fda3909ddfe4fbf01fb57d89db3b0aa00c5640e41f6e8bbf8c7"
     },
     {
       "agent": "qwen3-8-max-0902",
