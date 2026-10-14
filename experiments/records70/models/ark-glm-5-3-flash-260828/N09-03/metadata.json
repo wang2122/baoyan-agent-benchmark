@@ -1,10 +1,17 @@
 {
-  "schema": "selected-record-availability.1",
+  "schema": "selected-record-provenance.1",
   "agent": "ark-glm-5-3-flash-260828",
   "task_id": "N09-03",
   "question_id": "Q045",
   "source_kind": "retained_historical_summary",
   "source_answer_sha256": "f9a169c4e08b1a9585edf82c8c187a33d42d4fe86402af5f5cad82243c8c281c",
-  "answer_text_available": false,
-  "scoring_evidence": "score-details-70.json"
+  "answer_text_available": true,
+  "scoring_evidence": "score-details-70.json",
+  "answer_path": "answer.md",
+  "public_answer_sha256": "b1b9a32745acb1735cf4cf4d394e84a80fef57436d189c85c01871adb85f0322",
+  "source_archive": "benchmark-originals-recovery-20261011-191603",
+  "source_index_sha256": "2369acb50bddcd29a2a9c75e1eec6cab07c84bc20c331805a375298b8328559d",
+  "source_evidence_basis": "original_cloud_events_and_exact_review_hash",
+  "source_answer_hash_verified": true,
+  "privacy_display_revision": "privacy-v16-public70-display.5"
 }

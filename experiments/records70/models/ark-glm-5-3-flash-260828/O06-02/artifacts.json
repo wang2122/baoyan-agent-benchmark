@@ -1,0 +1,24 @@
+[
+  {
+    "path": "answer.md",
+    "source_sha256": "a34cbc05403aa9883ceb94b0ebb2c2cc883d8e2f27067921ac15e6d2055d614d",
+    "export_sha256": "95bd97f4ab6e8fda3909ddfe4fbf01fb57d89db3b0aa00c5640e41f6e8bbf8c7",
+    "transformed": true,
+    "bytes": 5167,
+    "privacy_display_revision": "privacy-v16-public70-display.5",
+    "source_pattern_counts": {},
+    "privacy_display_adjustments": [
+      "existing_privacy_policy_and_reviewed_undergraduate_affiliation_generalization"
+    ]
+  },
+  {
+    "path": "metadata.json",
+    "export_sha256": "241b19784208f6ec1d56969bbaf6a06d0c7426b8fae09f077b528e258606574c",
+    "bytes": 831
+  },
+  {
+    "path": "score.json",
+    "export_sha256": "5513d762f1b7edc51270b10e77ffc4ec5d55ac2137215591207c6904b74c53a9",
+    "bytes": 377
+  }
+]
