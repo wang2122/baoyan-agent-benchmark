@@ -1,11 +1,12 @@
 {
   "schema": "standalone-unscored-answer-record.1",
-  "publication_state": "local_draft_not_published",
+  "publication_state": "public_pull_request_unscored_pending_merge",
   "agent_configuration": {
     "system": "CodeBuddy CLI",
     "cli_version": "2.164.0",
     "model": "hy4-preview",
-    "effort_requested": "high"
+    "effort_requested": "high",
+    "package": "@tencent-ai/codebuddy-code"
   },
   "input_version": "1.0.2+privacy-v16-public70",
   "input_selection_file_sha256": "cc951a9f19f3bbf5af71699a0597bc9b8dafaa44619d2a22809b82f096cd430b",
@@ -792,5 +793,44 @@
       "scoring_status": "unscored",
       "answer": null
     }
-  ]
+  ],
+  "runtime_conditions": {
+    "scope": "This stopped 1.0.2+privacy-v16-public70 batch only; detailed evidence retained privately.",
+    "network": "Online access allowed; no verified egress allowlist or network isolation.",
+    "tools_requested": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Bash",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "tools_observed": [
+      "Read",
+      "Write",
+      "Edit",
+      "Grep",
+      "Bash",
+      "WebSearch",
+      "WebFetch",
+      "TaskCreate"
+    ],
+    "tool_permissions": "default mode reported in all 41 completed sessions; runner handled in-scope allow-once / out-of-scope rejection callbacks; strict empty MCP configuration requested.",
+    "timeouts": {
+      "control_request_seconds": 30,
+      "stage_timeout_parameter_seconds": 1200,
+      "policy": "34 successful launches explicitly recorded ACP inactivity timeout, permitting active responses beyond 20 minutes wall time. An early runner used a fixed deadline; the exact variant for the earliest seven successful launches was not pinned."
+    },
+    "budget": {
+      "max_turns_requested": 60,
+      "max_preserved_attempts_per_task": 2,
+      "monetary_or_token_cap": "No enforced cap recorded; exact cost and remaining quota unknown."
+    },
+    "session_isolation": "Separate task workspaces and 41 distinct fresh ACP sessions verified; no-session-persistence requested. All 41 completed tasks were single-stage; two-stage behavior untested.",
+    "filesystem_isolation": "External per-task macOS Seatbelt profiles denied data reads from Documents outside the task workspace/CLI runtime and selected private/memory locations. Writes also allowed temporary and native cache/log/trace locations.",
+    "memory_settings": "38 successful launches recorded per-task temporary directories and memory-disable flags; the earliest three did not record these settings, so their state is unverified.",
+    "limitations": "TaskCreate appeared beyond the requested tool list, so strict allowlist enforcement is unproven. Seatbelt used allow-default, did not deny Desktop, and was not full-machine or network isolation; native CLI sandbox reported false. No separate per-task negative isolation-test report retained. Memory flags, max-turn enforcement and internal reasoning/token budget were not independently verified; session creation reported thought_level=enabled (model default), while high remains only effort_requested."
+  }
 }

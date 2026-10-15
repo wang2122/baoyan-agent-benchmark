@@ -1,6 +1,6 @@
-# Standalone CodeBuddy admissions-task run record (draft)
+# Standalone CodeBuddy admissions-task run record (unscored PR)
 
-This record covers a partial run of one Agent configuration: CodeBuddy CLI 2.164.0 + hy4-preview, launched with high effort, using input version `1.0.2+privacy-v16-public70`. The user stopped this run. It is unscored and is separate from the existing 70-task leaderboard.
+This record covers a partial run of one Agent configuration: CodeBuddy CLI 2.164.0 + hy4-preview, launched with `effort_requested=high`, using input version `1.0.2+privacy-v16-public70`. The user stopped this run. It is unscored and is separate from the existing 70-task leaderboard.
 
 | Item | Result |
 | --- | --- |
@@ -18,4 +18,6 @@ For the 41 complete answers, file sizes, archived hashes, completion states, and
 
 The recorded selection-file digest identifies the full originating manifest, which has been located and verified. `selection-input.json` is a reduced summary with a different digest. All 70 source task hashes and 83 frozen stage prompts have been verified.
 
-This page has not been published. The draft contains 41 redacted complete answers; originals remain local. Personal academic values and identifying undergraduate-policy details are generalized using existing rules and this review. This does not claim global anonymity. Prompts, logs, identity and runtime diagnostics, and interrupted output are excluded from the proposed public materials. Privacy edits change presentation without correcting the original answer's assertions or errors.
+This record is publicly visible in [PR #2](https://github.com/yeyuxin777/baoyan-agent-benchmark/pull/2), unscored and pending merge and formal inclusion. It contains 41 redacted complete answers; originals remain private. Personal academic values and identifying undergraduate-policy details are generalized using existing rules and this review. This does not claim global anonymity. Prompts, raw logs, identity data, private runtime diagnostics, and interrupted output are excluded from the public materials. Privacy edits change presentation without correcting the original answer's assertions or errors.
+
+Key runtime conditions and comparison limits (online/tool access, changing timeout policy, budget and session isolation) are summarized in [manifest.json](manifest.json#L1); detailed evidence remains private.

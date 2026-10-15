@@ -1,6 +1,8 @@
 # 答卷索引 / Answer index
 
-本地草案；未评分。只有完成任务链接完整脱敏答卷。 / Local draft, unscored. Only completed tasks link to complete redacted answers.
+已在 [PR #2](https://github.com/yeyuxin777/baoyan-agent-benchmark/pull/2) 公开可见；未评分，待合并及正式纳入。只有完成任务链接完整脱敏答卷。 / Publicly visible in PR #2; unscored, pending merge and formal inclusion. Only completed tasks link to complete redacted answers.
+
+实际产品为独立 CodeBuddy CLI 2.164.0 + hy4-preview；`high` 仅为启动请求。联网和工具范围、超时/预算及隔离的关键条件与局限见 [运行说明](README.zh-CN.md) 和 [manifest.json](manifest.json)。 / The product is standalone CodeBuddy CLI 2.164.0 + hy4-preview; `high` is only the launch request. See [runtime conditions](README.md) and [manifest.json](manifest.json) for network/tool access, timeout/budget, and isolation conditions and limits.
 
 | 任务 / Task | 状态 / Status | 答卷 / Answer |
 | --- | --- | --- |
