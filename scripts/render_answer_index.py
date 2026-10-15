@@ -37,12 +37,20 @@ def render():
   lines+=['','分数区间表示仍有待核事实；任务目录保存该题当前选定记录。','Score ranges retain unresolved facts; each task directory holds the current selected record.','']
   (root/'README.md').write_text('\n'.join(lines),encoding='utf-8')
  lines=['# 按模型查阅答卷与评分 / Answers and scores by model','',
-        '本页列出当前70题的选定结果。各模型目录下按题号保存答卷、评审、评分与执行元数据；正文不可用的题目仍显示已有分数和状态。','',
-        'This page lists the selected results for the current 70 tasks. Each model has one folder per task with available answer, review, score and execution metadata; scores and statuses remain visible where answer text is unavailable.','',
+        '本页按模型整理当前70题的答卷、评分及运行记录；均分仅展示已有评分的配置。各模型目录下按题号保存答卷、评审、评分与执行元数据；正文不可用的题目仍显示已有分数和状态。','',
+        'This page organizes answers, scores and execution records for the current 70 tasks by model; means are shown only for scored configurations. Each model has one folder per task with available answer, review, score and execution metadata; scores and statuses remain visible where answer text is unavailable.','',
         '| 模型 / Model | 70题均分 / Mean | 完成 / Completed | 逐题记录 / Tasks |','| --- | ---: | ---: | --- |']
  agents={x['name']:x['agent'] for x in rows}
  for model in ranking:
   agent=agents[model['model']];lines.append(f"| {model['model']} | {interval(model['mean_score_interval'])} | {model['completed_count']}/70 | [查看 / Open](models/{agent}/README.md) |")
+ # Keep unscored run records discoverable without adding them to ranking data.
+ for manifest in sorted((ANSWERS/'models').glob('*/manifest.json')):
+  record=read(manifest)
+  if record.get('scored') is not False or record.get('leaderboard_included') is not False:continue
+  config=record['agent_configuration'];agent=manifest.parent.name
+  if agent in grouped:continue
+  model=f"{config['system']} + {config['model']}"
+  lines.append(f"| {model}（未评分 / Unscored） | — | {record['counts']['completed']}/{record['planned_tasks']} | [查看 / Open](models/{agent}/README.md) |")
  lines+=['','[主榜数据 / Ranking](score-summary-70.json) · [逐题数据 / Per-task data](score-details-70.json)','']
  (ANSWERS/'README.md').write_text('\n'.join(lines),encoding='utf-8')
 if __name__=='__main__':render()

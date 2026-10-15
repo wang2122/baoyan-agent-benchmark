@@ -1,0 +1,23 @@
+{
+  "schema": "selected-record-provenance.1",
+  "agent": "codebuddy-hy4-preview",
+  "task_id": "N08-02",
+  "question_id": "Q066",
+  "source_kind": "unscored_partial_run",
+  "source_answer_sha256": null,
+  "answer_text_available": false,
+  "original_execution_time": null,
+  "execution_status": "not_started",
+  "attempts": 0,
+  "score": null,
+  "scoring_status": "unscored",
+  "leaderboard_included": false,
+  "agent_configuration": {
+    "system": "CodeBuddy CLI",
+    "cli_version": "2.164.0",
+    "model": "hy4-preview",
+    "effort_requested": "high",
+    "package": "@tencent-ai/codebuddy-code"
+  },
+  "runtime_record": "../manifest.json"
+}
